@@ -80,11 +80,9 @@ export function showToast(message, type = 'default') {
 
 // Get base path for data files
 export function getBasePath() {
-  const path = window.location.pathname;
-  // If we're in a subdirectory, go up to root
-  const depth = path.split('/').filter(Boolean).length;
-  if (depth === 0) return './';
-  return '../'.repeat(depth);
+  // Derive root from the module's own URL — works on GitHub Pages and local servers
+  // import.meta.url = "{root}/js/utils.js", so ".." resolves to "{root}/"
+  return new URL('..', import.meta.url).href;
 }
 
 // Clamp number

@@ -178,8 +178,8 @@ function renderDeckSelector() {
     // Try to load the flashcard data to extract topics
     const basePath = getBasePath();
     const data = await fetchJSON(`${basePath}data/flashcards/${examId}.json`);
-    if (data && data.cards) {
-      const topics = [...new Set(data.cards.map(c => c.topic).filter(Boolean))];
+    if (data && Array.isArray(data)) {
+      const topics = [...new Set(data.map(c => c.topic).filter(Boolean))];
       topics.sort();
       topics.forEach(topic => {
         const opt = createEl('option', { value: topic, text: topic });
@@ -229,7 +229,7 @@ async function startSession(examId, topicFilter) {
   const basePath = getBasePath();
   const data = await fetchJSON(`${basePath}data/flashcards/${examId}.json`);
 
-  if (!data || !data.cards || data.cards.length === 0) {
+  if (!data || !Array.isArray(data) || data.length === 0) {
     const root = getRoot();
     root.innerHTML = `
       <div class="flashcard-empty">
@@ -241,7 +241,7 @@ async function startSession(examId, topicFilter) {
     return;
   }
 
-  allCards = data.cards;
+  allCards = data;
 
   // Apply topic filter if set
   if (topicFilter) {
@@ -316,10 +316,10 @@ function renderCard() {
   if (card.topic) {
     front.appendChild(createEl('span', { class: 'flip-card__topic', text: card.topic }));
   }
-  front.appendChild(createEl('p', { class: 'flip-card__text', text: card.question || card.term || '' }));
+  front.appendChild(createEl('p', { class: 'flip-card__text', text: card.front || card.question || card.term || '' }));
 
   // Back content
-  back.appendChild(createEl('p', { class: 'flip-card__text', text: card.answer || card.definition || '' }));
+  back.appendChild(createEl('p', { class: 'flip-card__text', text: card.back || card.answer || card.definition || '' }));
 
   flipInner.appendChild(front);
   flipInner.appendChild(back);
