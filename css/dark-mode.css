@@ -1,0 +1,310 @@
+/* ==========================================================================
+   DARK MODE
+   Uses [data-theme="dark"] on <html> to override custom properties.
+   Toggle is controlled by JS in navigation.js.
+   ========================================================================== */
+
+[data-theme="dark"] {
+  /* Core surfaces */
+  --color-bg: #0f172a;
+  --color-surface: #1e293b;
+  --color-surface-raised: #273548;
+  --color-surface-sunken: #0c1425;
+  --color-surface-overlay: rgba(30, 41, 59, 0.85);
+
+  /* Text */
+  --color-text: #e2e8f0;
+  --color-text-secondary: #94a3b8;
+  --color-text-muted: #64748b;
+
+  /* Borders */
+  --color-border: #334155;
+  --color-border-light: #1e293b;
+
+  /* Primary (lightened for dark bg) */
+  --color-primary: #60a5fa;
+  --color-primary-light: #93c5fd;
+  --color-primary-dark: #1e40af;
+  --color-primary-bg: rgba(59, 130, 246, 0.12);
+
+  /* Accent */
+  --color-accent: #34d399;
+  --color-accent-light: #6ee7b7;
+  --color-accent-dark: #10b981;
+  --color-accent-bg: rgba(16, 185, 129, 0.12);
+
+  /* Warning */
+  --color-warning: #fbbf24;
+  --color-warning-bg: rgba(245, 158, 11, 0.12);
+
+  /* Danger */
+  --color-danger: #f87171;
+  --color-danger-bg: rgba(239, 68, 68, 0.12);
+
+  /* Purple */
+  --color-purple: #a78bfa;
+  --color-purple-bg: rgba(139, 92, 246, 0.12);
+
+  /* Category colors (lightened) */
+  --color-entry: #93c5fd;
+  --color-representative: #6ee7b7;
+  --color-principal: #c4b5fd;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -2px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -4px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+  --shadow-colored-primary: 0 4px 14px -3px rgba(96, 165, 250, 0.3);
+  --shadow-colored-accent: 0 4px 14px -3px rgba(52, 211, 153, 0.3);
+  --shadow-colored-purple: 0 4px 14px -3px rgba(167, 139, 250, 0.3);
+
+  /* Glass */
+  --glass-bg: rgba(30, 41, 59, 0.7);
+  --glass-border: rgba(255, 255, 255, 0.08);
+
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #3b82f6 0%, #60a5fa 100%);
+  --gradient-accent: linear-gradient(135deg, #10b981 0%, #6ee7b7 100%);
+  --gradient-surface: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+}
+
+/* ===== Component Overrides ===== */
+
+/* Header */
+[data-theme="dark"] .header {
+  background: rgba(15, 23, 42, 0.9);
+  border-bottom-color: var(--color-border);
+}
+
+/* Bottom nav */
+[data-theme="dark"] .bottom-nav {
+  background: #1e293b;
+  border-top-color: var(--color-border);
+}
+
+/* Hero */
+[data-theme="dark"] .hero {
+  background: linear-gradient(-45deg, #0f172a, #1e3a8a, #1d4ed8, #6d28d9);
+}
+
+/* Footer */
+[data-theme="dark"] .footer {
+  background: linear-gradient(180deg, #0c1425 0%, #020617 100%);
+}
+
+[data-theme="dark"] .footer::before {
+  opacity: 0.6;
+}
+
+/* Cards and bordered components */
+[data-theme="dark"] .card,
+[data-theme="dark"] .exam-card,
+[data-theme="dark"] .quiz-question,
+[data-theme="dark"] .quiz-config,
+[data-theme="dark"] .quick-facts,
+[data-theme="dark"] .accordion,
+[data-theme="dark"] .exam-progress-card,
+[data-theme="dark"] .dashboard-stats .stat {
+  border-color: var(--color-border);
+}
+
+/* Form inputs */
+[data-theme="dark"] .form-group select,
+[data-theme="dark"] .form-group input,
+[data-theme="dark"] .catalog-search input {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+  color: var(--color-text);
+}
+
+/* Toggle switch */
+[data-theme="dark"] .toggle__input {
+  background: #475569;
+}
+
+/* Quiz choice */
+[data-theme="dark"] .quiz-choice {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .quiz-choice:hover:not(.disabled) {
+  background: rgba(59, 130, 246, 0.08);
+  border-color: var(--color-primary);
+}
+
+[data-theme="dark"] .quiz-choice__letter {
+  background: #334155;
+}
+
+/* Heatmap */
+[data-theme="dark"] .heatmap__cell { background: #1e293b; }
+[data-theme="dark"] .heatmap__cell.level-1 { background: rgba(16, 185, 129, 0.2); }
+[data-theme="dark"] .heatmap__cell.level-2 { background: rgba(16, 185, 129, 0.4); }
+[data-theme="dark"] .heatmap__cell.level-3 { background: rgba(16, 185, 129, 0.6); }
+[data-theme="dark"] .heatmap__cell.level-4 { background: rgba(16, 185, 129, 0.85); }
+
+/* Code blocks */
+[data-theme="dark"] code {
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--color-text);
+}
+
+/* Selection color */
+[data-theme="dark"] ::selection {
+  background-color: rgba(96, 165, 250, 0.4);
+  color: white;
+}
+
+/* Flip card */
+[data-theme="dark"] .flip-card__front,
+[data-theme="dark"] .flip-card__back {
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .flip-card__back {
+  background: rgba(59, 130, 246, 0.1);
+  border-color: var(--color-primary);
+}
+
+/* Disclaimer box */
+[data-theme="dark"] .disclaimer-box {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: rgba(245, 158, 11, 0.25);
+}
+
+/* Callout boxes (learn module) */
+[data-theme="dark"] .callout--definition {
+  border-left-color: #60a5fa;
+  background: rgba(59, 130, 246, 0.08);
+}
+
+[data-theme="dark"] .callout--exam-tip {
+  border-left-color: #fbbf24;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+[data-theme="dark"] .callout--takeaway {
+  border-left-color: #34d399;
+  background: rgba(16, 185, 129, 0.08);
+}
+
+[data-theme="dark"] .callout--mnemonic {
+  border-left-color: #a78bfa;
+  background: rgba(139, 92, 246, 0.08);
+}
+
+[data-theme="dark"] .callout--warning {
+  border-left-color: #f87171;
+  background: rgba(239, 68, 68, 0.08);
+}
+
+[data-theme="dark"] .callout--example {
+  border-left-color: #64748b;
+  background: rgba(100, 116, 139, 0.08);
+}
+
+/* Compare tables */
+[data-theme="dark"] .compare-table__header {
+  background: rgba(59, 130, 246, 0.08);
+}
+
+[data-theme="dark"] .compare-table__row:nth-child(even) {
+  background: rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .compare-table__row:hover {
+  background: rgba(59, 130, 246, 0.06);
+}
+
+/* Concept card */
+[data-theme="dark"] .concept-card {
+  background: rgba(59, 130, 246, 0.08);
+}
+
+/* Quiz explanation */
+[data-theme="dark"] .quiz-explanation {
+  background: rgba(59, 130, 246, 0.08);
+}
+
+/* Answer buttons */
+[data-theme="dark"] .answer-btn {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+/* Filter buttons */
+[data-theme="dark"] .filter-btn {
+  border-color: var(--color-border);
+  color: var(--color-text-secondary);
+}
+
+[data-theme="dark"] .track-btn {
+  border-color: var(--color-border);
+  color: var(--color-text-secondary);
+}
+
+/* Stats bar */
+[data-theme="dark"] .stats-bar {
+  background: var(--color-surface);
+  border-bottom-color: var(--color-border);
+}
+
+/* Pathway nodes */
+[data-theme="dark"] .pathway-node {
+  background: var(--color-surface);
+  border-color: var(--color-border);
+}
+
+/* Skeleton loading */
+[data-theme="dark"] .skeleton {
+  background: #334155;
+}
+
+[data-theme="dark"] .skeleton::after {
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.08) 50%, transparent 100%);
+}
+
+/* Reduce image brightness slightly */
+[data-theme="dark"] img {
+  filter: brightness(0.9);
+}
+
+/* Smooth theme transition */
+[data-theme="dark"],
+[data-theme="light"] {
+  transition: background-color 0.3s ease, color 0.2s ease;
+}
+
+/* ===== System Preference Auto-detection ===== */
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme="light"]):not([data-theme="dark"]) {
+    --color-bg: #0f172a;
+    --color-surface: #1e293b;
+    --color-surface-raised: #273548;
+    --color-surface-sunken: #0c1425;
+    --color-text: #e2e8f0;
+    --color-text-secondary: #94a3b8;
+    --color-text-muted: #64748b;
+    --color-border: #334155;
+    --color-border-light: #1e293b;
+    --color-primary: #60a5fa;
+    --color-primary-light: #93c5fd;
+    --color-primary-dark: #1e40af;
+    --color-primary-bg: rgba(59, 130, 246, 0.12);
+    --color-accent: #34d399;
+    --color-accent-light: #6ee7b7;
+    --color-accent-dark: #10b981;
+    --color-accent-bg: rgba(16, 185, 129, 0.12);
+    --color-warning: #fbbf24;
+    --color-warning-bg: rgba(245, 158, 11, 0.12);
+    --color-danger: #f87171;
+    --color-danger-bg: rgba(239, 68, 68, 0.12);
+    --color-purple: #a78bfa;
+    --color-purple-bg: rgba(139, 92, 246, 0.12);
+    --color-entry: #93c5fd;
+    --color-representative: #6ee7b7;
+    --color-principal: #c4b5fd;
+  }
+}

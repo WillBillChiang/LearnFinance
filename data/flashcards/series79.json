@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series79-fc001",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Fundamentals",
+    "front": "What is investment banking?",
+    "back": "Investment banking is the division of a financial institution that assists corporations, governments, and other entities in raising capital through underwriting and issuing securities. Investment bankers also advise on mergers and acquisitions, restructurings, and other strategic transactions. The Series 79 qualifies individuals to perform these limited investment banking activities."
+  },
+  {
+    "id": "series79-fc002",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Fundamentals",
+    "front": "What is the role of a managing underwriter in a securities offering?",
+    "back": "The managing underwriter leads the syndicate of investment banks that distributes a new securities offering. Responsibilities include conducting due diligence, structuring the offering, pricing the securities, allocating shares among syndicate members, stabilizing the market price, and coordinating all legal and regulatory filings. They bear the greatest responsibility and earn the largest portion of fees."
+  },
+  {
+    "id": "series79-fc003",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Fundamentals",
+    "front": "What is a book-building process in an IPO?",
+    "back": "Book-building is the process by which underwriters gauge investor demand for a new securities offering. During the roadshow period, the underwriter collects indications of interest from institutional investors at various prices. This information helps determine the final offering price and allocation of shares. Book-building allows market-driven pricing of the offering."
+  },
+  {
+    "id": "series79-fc004",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is a discounted cash flow (DCF) analysis?",
+    "back": "DCF analysis values a company by projecting its future free cash flows and discounting them to present value using an appropriate discount rate (typically the weighted average cost of capital or WACC). The sum of discounted cash flows plus the terminal value represents the company's enterprise value. DCF is considered a fundamental intrinsic valuation method."
+  },
+  {
+    "id": "series79-fc005",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is comparable company analysis (trading comps)?",
+    "back": "Comparable company analysis values a company by comparing its financial metrics to those of similar publicly traded companies. Common multiples include EV/EBITDA, P/E ratio, EV/Revenue, and Price/Book. The analyst selects appropriate peers based on industry, size, growth, and profitability, then applies the median or mean multiple to the target's metrics."
+  },
+  {
+    "id": "series79-fc006",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is precedent transaction analysis?",
+    "back": "Precedent transaction analysis values a company by examining multiples paid in prior M&A transactions involving comparable companies. Common metrics include EV/EBITDA, EV/Revenue, and price per unit. This method typically produces higher valuations than trading comps because acquisition multiples include a control premium. The analysis requires adjusting for deal-specific factors and timing."
+  },
+  {
+    "id": "series79-fc007",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is enterprise value (EV)?",
+    "back": "Enterprise value represents the total value of a company to all capital providers (equity and debt). The formula is: EV = Market Capitalization + Total Debt + Preferred Stock + Minority Interest - Cash and Cash Equivalents. EV is preferred over market cap for valuation comparisons because it is capital-structure neutral and reflects the cost to acquire the entire business."
+  },
+  {
+    "id": "series79-fc008",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is WACC (Weighted Average Cost of Capital)?",
+    "back": "WACC is the blended rate of return required by all capital providers (debt and equity), weighted by their proportion in the capital structure. The formula is: WACC = (E/V x Re) + (D/V x Rd x (1-T)), where E is equity value, D is debt value, V is total value, Re is cost of equity, Rd is cost of debt, and T is the tax rate. WACC is used as the discount rate in DCF analysis."
+  },
+  {
+    "id": "series79-fc009",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is the terminal value in a DCF analysis?",
+    "back": "Terminal value represents the value of a company beyond the explicit projection period, typically calculated using either the perpetuity growth method (Gordon Growth Model) or the exit multiple method. Terminal value often represents 60-80% of a company's total DCF value. The perpetuity growth formula is: TV = FCF x (1+g) / (WACC - g)."
+  },
+  {
+    "id": "series79-fc010",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is EBITDA and why is it important in valuation?",
+    "back": "EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization) is a measure of operating performance that removes the effects of financing decisions, tax jurisdiction, and non-cash charges. It is widely used in valuation multiples (EV/EBITDA) because it approximates operating cash flow and facilitates comparisons between companies with different capital structures."
+  },
+  {
+    "id": "series79-fc011",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is a merger versus an acquisition?",
+    "back": "A merger combines two companies into a single entity, often through a stock swap, where both sets of shareholders become owners of the new company. An acquisition occurs when one company purchases another, either through a stock purchase or asset purchase. In practice, the terms are often used interchangeably, though the legal and tax implications differ significantly."
+  },
+  {
+    "id": "series79-fc012",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is the difference between a stock deal and a cash deal in M&A?",
+    "back": "In a cash deal, the acquirer pays cash to target shareholders, providing certainty of value but no upside participation. In a stock deal, the acquirer issues shares to target shareholders, who then participate in the combined company's future. Stock deals are tax-deferred for target shareholders, while cash deals are immediately taxable. Many deals use a mix of both."
+  },
+  {
+    "id": "series79-fc013",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is accretion/dilution analysis?",
+    "back": "Accretion/dilution analysis determines whether an acquisition will increase (accrete) or decrease (dilute) the acquirer's earnings per share (EPS). The analysis projects pro forma combined EPS and compares it to the acquirer's standalone EPS. A deal is accretive if combined EPS exceeds standalone EPS and dilutive if it falls below. This is a key metric for evaluating M&A transactions."
+  },
+  {
+    "id": "series79-fc014",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What are synergies in M&A?",
+    "back": "Synergies are the additional value created by combining two companies that would not exist for either standalone. Revenue synergies include cross-selling opportunities and expanded market access. Cost synergies include eliminating redundant operations, consolidating facilities, and achieving economies of scale. Cost synergies are more reliably estimated and realized than revenue synergies."
+  },
+  {
+    "id": "series79-fc015",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is a control premium in M&A?",
+    "back": "A control premium is the amount paid above the target's current market price to acquire a controlling interest. It compensates target shareholders for giving up their ownership and reflects the value of controlling the company's strategy, operations, and cash flows. Control premiums typically range from 20-40% above the pre-announcement stock price."
+  },
+  {
+    "id": "series79-fc016",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is a fairness opinion?",
+    "back": "A fairness opinion is a professional assessment by an investment bank or financial adviser that the terms of a proposed transaction (such as the price in an M&A deal) are fair from a financial point of view to the shareholders. It is typically obtained by the board of directors to fulfill their fiduciary duty and demonstrate they acted prudently."
+  },
+  {
+    "id": "series79-fc017",
+    "topic": "series79-t4",
+    "topicName": "Regulatory Framework",
+    "front": "What is Regulation M and how does it affect offerings?",
+    "back": "Regulation M prevents manipulation of security prices during distributions. It restricts underwriters, issuers, and others involved in a distribution from bidding for or purchasing the security during the restricted period. The restricted period has three tiers based on trading volume and public float: no restricted period for actively traded securities (ADTV >= $1 million and public float >= $150 million); 1 business day for securities with ADTV >= $100,000 and public float >= $25 million; and 5 business days for all other securities."
+  },
+  {
+    "id": "series79-fc018",
+    "topic": "series79-t4",
+    "topicName": "Regulatory Framework",
+    "front": "What is the SEC registration process for public offerings?",
+    "back": "Issuers must file a registration statement (Form S-1 for IPOs, S-3 for seasoned issuers) with the SEC. The SEC reviews the filing during the waiting (cooling-off) period. Preliminary prospectuses (red herrings) may be distributed during this period. The offering becomes effective when the SEC declares the registration statement effective, and final prospectuses are delivered to buyers."
+  },
+  {
+    "id": "series79-fc019",
+    "topic": "series79-t4",
+    "topicName": "Regulatory Framework",
+    "front": "What is Rule 144 and how does it affect restricted securities?",
+    "back": "Rule 144 provides a safe harbor for reselling restricted and control securities without full registration. Requirements include a minimum holding period (6 months for reporting companies, 12 months for non-reporting), current public information, volume limitations (1% of outstanding or average weekly trading volume), ordinary brokerage transactions, and filing Form 144 for larger sales."
+  },
+  {
+    "id": "series79-fc020",
+    "topic": "series79-t4",
+    "topicName": "Regulatory Framework",
+    "front": "What is the Hart-Scott-Rodino Act?",
+    "back": "The Hart-Scott-Rodino (HSR) Antitrust Improvements Act requires companies to file pre-merger notifications with the FTC and DOJ for transactions exceeding certain size thresholds. A waiting period (typically 30 days) must expire before the transaction can close, allowing regulators to assess potential anticompetitive effects. Early termination of the waiting period may be granted."
+  },
+  {
+    "id": "series79-fc021",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is a leveraged buyout (LBO)?",
+    "back": "An LBO is an acquisition financed primarily with debt, using the target company's assets and cash flows as collateral. Private equity firms typically execute LBOs by contributing a small equity portion (20-40%) and financing the rest with debt. The goal is to improve operations, pay down debt, and sell the company at a higher valuation, generating returns on the equity investment."
+  },
+  {
+    "id": "series79-fc022",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is a poison pill (shareholder rights plan)?",
+    "back": "A poison pill is an anti-takeover defense that allows existing shareholders (except the acquirer) to purchase additional shares at a discount if a hostile bidder acquires a specified percentage of stock (typically 15-20%). This massively dilutes the hostile bidder's ownership, making the acquisition prohibitively expensive. Poison pills can be adopted by the board without shareholder approval."
+  },
+  {
+    "id": "series79-fc023",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Fundamentals",
+    "front": "What is a roadshow in the context of a securities offering?",
+    "back": "A roadshow is a series of presentations by the company's management and underwriters to potential institutional investors before a securities offering. The roadshow generates interest, educates investors about the company, and helps the underwriter gauge demand and pricing. Roadshows typically last 1-2 weeks and involve meetings in major financial centers."
+  },
+  {
+    "id": "series79-fc024",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Fundamentals",
+    "front": "What is a greenshoe (over-allotment) option?",
+    "back": "A greenshoe option (named after Green Shoe Manufacturing Co.) allows underwriters to sell up to 15% more shares than the original offering size to meet excess demand. If the stock price rises, the underwriter exercises the option, buying shares from the issuer at the offering price. If the price falls, the underwriter buys shares in the open market to stabilize the price."
+  },
+  {
+    "id": "series79-fc025",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is the leveraged buyout (LBO) model?",
+    "back": "An LBO model values a company based on the price a financial buyer could pay and still achieve a target internal rate of return (IRR), typically 20-25%. The model projects free cash flows, debt repayment schedules, and exit assumptions. The maximum purchase price is the highest amount at which the equity return meets the target IRR given the assumed capital structure."
+  },
+  {
+    "id": "series79-fc026",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is due diligence in M&A?",
+    "back": "Due diligence is the comprehensive investigation of a target company before completing an acquisition. It covers financial performance, legal liabilities, tax matters, operations, intellectual property, customer contracts, regulatory compliance, and environmental issues. Due diligence identifies risks and may affect deal pricing, structure, or whether the transaction proceeds."
+  },
+  {
+    "id": "series79-fc027",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "front": "What is a tender offer?",
+    "back": "A tender offer is a public bid to purchase some or all of shareholders' stock at a specified price, usually at a premium to the market price. It is often used in hostile takeovers when the target's board resists a merger. Tender offers are regulated by the Williams Act, which requires disclosure on Schedule TO and mandates the offer remain open for at least 20 business days."
+  },
+  {
+    "id": "series79-fc028",
+    "topic": "series79-t4",
+    "topicName": "Regulatory Framework",
+    "front": "What is Regulation D?",
+    "back": "Regulation D provides exemptions from SEC registration for private placements. Rule 504 allows offerings up to $10 million. Rule 506(b) allows unlimited offerings to up to 35 non-accredited investors (plus unlimited accredited investors) without general solicitation. Rule 506(c) allows general solicitation but only to verified accredited investors. Securities sold under Reg D are restricted."
+  },
+  {
+    "id": "series79-fc029",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Fundamentals",
+    "front": "What is a follow-on offering?",
+    "back": "A follow-on offering (also called a secondary offering) is the issuance of additional shares by a company that is already publicly traded. It may be a primary offering (company issues new shares to raise capital), a secondary offering (existing shareholders sell their shares), or a combination. Follow-on offerings dilute existing shareholders if new shares are issued."
+  },
+  {
+    "id": "series79-fc030",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "front": "What is free cash flow (FCF)?",
+    "back": "Free cash flow is the cash generated by a business after accounting for capital expenditures. Unlevered FCF (free cash flow to the firm) is calculated as: EBIT x (1-Tax Rate) + Depreciation & Amortization - Capital Expenditures - Change in Working Capital. FCF represents cash available to all capital providers and is the foundation of DCF analysis."
+  }
+]

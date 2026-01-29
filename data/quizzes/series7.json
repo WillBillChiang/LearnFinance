@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series7-q001",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "question": "An investor purchases 100 shares of ABC common stock at $50 per share. The stock pays an annual dividend of $2.00. What is the current yield?",
+    "choices": ["A. 2%", "B. 4%", "C. 5%", "D. 10%"],
+    "correct": 1,
+    "explanation": "Current yield is calculated as annual dividend divided by market price. $2.00 / $50.00 = 4%. This measures the income return on the investment relative to its current market price."
+  },
+  {
+    "id": "series7-q002",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "question": "Which of the following securities gives the holder the right to purchase common stock at a fixed price for a limited time?",
+    "choices": ["A. Preferred stock", "B. Rights", "C. ADRs", "D. Treasury stock"],
+    "correct": 1,
+    "explanation": "Rights (also called subscription rights) give existing shareholders the privilege to purchase additional shares of common stock at a subscription price below the current market price for a limited period, typically 30-45 days."
+  },
+  {
+    "id": "series7-q003",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "question": "A company has authorized 10 million shares, issued 8 million shares, and holds 1 million shares in treasury. How many shares are outstanding?",
+    "choices": ["A. 10 million", "B. 9 million", "C. 8 million", "D. 7 million"],
+    "correct": 3,
+    "explanation": "Outstanding shares equal issued shares minus treasury shares. 8 million issued - 1 million treasury = 7 million outstanding. Treasury shares have been repurchased by the company and are no longer considered outstanding."
+  },
+  {
+    "id": "series7-q004",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "question": "A bond with a 6% coupon is trading at 103. What is the current yield?",
+    "choices": ["A. 5.83%", "B. 6.00%", "C. 6.18%", "D. 3.00%"],
+    "correct": 0,
+    "explanation": "Current yield = annual coupon / market price. The annual coupon is $60 (6% of $1,000 par). The market price is $1,030 (103% of par). $60 / $1,030 = 5.83%. When a bond trades at a premium, the current yield is less than the coupon rate."
+  },
+  {
+    "id": "series7-q005",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "question": "Which of the following bonds would be MOST sensitive to interest rate changes?",
+    "choices": ["A. 5-year bond with 8% coupon", "B. 10-year bond with 6% coupon", "C. 20-year zero-coupon bond", "D. 5-year bond with 10% coupon"],
+    "correct": 2,
+    "explanation": "Bond price sensitivity to interest rate changes (duration) increases with longer maturities and lower coupon rates. A 20-year zero-coupon bond has the longest maturity and no coupon payments, giving it the highest duration and greatest price sensitivity to interest rate changes."
+  },
+  {
+    "id": "series7-q006",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "question": "An investor in the 32% federal tax bracket is considering a municipal bond yielding 4.5%. What is the tax-equivalent yield?",
+    "choices": ["A. 5.50%", "B. 6.62%", "C. 7.25%", "D. 3.06%"],
+    "correct": 1,
+    "explanation": "Tax-equivalent yield = municipal yield / (1 - tax bracket). 4.5% / (1 - 0.32) = 4.5% / 0.68 = 6.62%. This means the investor would need to earn 6.62% on a taxable bond to equal the after-tax return of the 4.5% municipal bond."
+  },
+  {
+    "id": "series7-q007",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "question": "An investor buys 1 XYZ Oct 60 Call at 4. What is the breakeven point?",
+    "choices": ["A. $56", "B. $60", "C. $64", "D. $44"],
+    "correct": 2,
+    "explanation": "For a long call, the breakeven point is the strike price plus the premium paid. $60 strike + $4 premium = $64. The stock must rise above $64 for the investor to profit at expiration."
+  },
+  {
+    "id": "series7-q008",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "question": "An investor writes an uncovered (naked) call option. What is the maximum potential loss?",
+    "choices": ["A. The premium received", "B. The strike price minus the premium", "C. Unlimited", "D. The strike price"],
+    "correct": 2,
+    "explanation": "An uncovered call writer has unlimited loss potential because the stock price can theoretically rise without limit. The writer is obligated to deliver stock at the strike price regardless of how high the market price goes. This is why naked call writing is considered the riskiest options strategy."
+  },
+  {
+    "id": "series7-q009",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "question": "Which options strategy provides income while limiting upside potential on a stock position?",
+    "choices": ["A. Long straddle", "B. Protective put", "C. Covered call", "D. Bull call spread"],
+    "correct": 2,
+    "explanation": "A covered call involves owning the underlying stock and selling a call option against it. The premium received provides income, but the upside is capped at the strike price since the stock may be called away. It is a popular income-generating strategy for stockholders."
+  },
+  {
+    "id": "series7-q010",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "question": "General obligation bonds are backed by which of the following?",
+    "choices": ["A. Revenue from a specific project", "B. The full faith and credit and taxing power of the issuer", "C. Lease payments from a government entity", "D. User fees and tolls"],
+    "correct": 1,
+    "explanation": "General obligation (GO) bonds are backed by the full faith, credit, and taxing power of the issuing municipality. This means the issuer pledges its ability to levy taxes (property taxes for local GOs, income/sales taxes for state GOs) to pay debt service."
+  },
+  {
+    "id": "series7-q011",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "question": "Which of the following municipal bonds would MOST likely be subject to the alternative minimum tax (AMT)?",
+    "choices": ["A. A general obligation bond for a public school", "B. A revenue bond for a public hospital", "C. A private activity bond for a sports stadium", "D. A GO bond for road improvements"],
+    "correct": 2,
+    "explanation": "Private activity bonds, which benefit private entities rather than the general public, are typically subject to the AMT. A sports stadium bond primarily benefits a private sports franchise, making it a private activity bond subject to AMT."
+  },
+  {
+    "id": "series7-q012",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "question": "A municipal bond is trading at a discount. For tax purposes, how is the discount treated if the bond was an original issue discount (OID)?",
+    "choices": ["A. The entire discount is taxed as capital gain at maturity", "B. The discount is accreted annually and not taxable", "C. The discount is taxed as ordinary income each year", "D. The discount is not reportable for tax purposes"],
+    "correct": 1,
+    "explanation": "For original issue discount municipal bonds, the discount is accreted (increased) annually, adjusting the cost basis upward toward par. Since the interest on municipal bonds is federally tax-exempt, the accreted OID is also tax-exempt. This differs from market discount bonds."
+  },
+  {
+    "id": "series7-q013",
+    "topic": "series7-t5",
+    "topicName": "Investment Companies",
+    "question": "An open-end investment company has a NAV of $12.50 and a POP of $13.16. What is the sales charge percentage?",
+    "choices": ["A. 5.0%", "B. 5.3%", "C. 5.5%", "D. 4.8%"],
+    "correct": 0,
+    "explanation": "The sales charge percentage is calculated based on the public offering price (POP): ($13.16 - $12.50) / $13.16 = $0.66 / $13.16 = 5.0%. By regulation, mutual fund sales charges are always computed as a percentage of the POP, not the NAV."
+  },
+  {
+    "id": "series7-q014",
+    "topic": "series7-t5",
+    "topicName": "Investment Companies",
+    "question": "Which of the following is a characteristic of a closed-end fund?",
+    "choices": ["A. Shares are redeemed at NAV", "B. Shares trade on an exchange at market price", "C. The fund continuously issues new shares", "D. Sales charges are included in the POP"],
+    "correct": 1,
+    "explanation": "Closed-end funds issue a fixed number of shares through an IPO, and those shares then trade on an exchange at market price. Unlike open-end funds (mutual funds), closed-end funds do not continuously issue or redeem shares, and they can trade at a premium or discount to NAV."
+  },
+  {
+    "id": "series7-q015",
+    "topic": "series7-t5",
+    "topicName": "Investment Companies",
+    "question": "Under the Investment Company Act of 1940, what is the maximum sales charge on a mutual fund?",
+    "choices": ["A. 5.75%", "B. 8.5%", "C. 9.0%", "D. There is no statutory maximum"],
+    "correct": 1,
+    "explanation": "Under the Investment Company Act of 1940 and FINRA rules, the maximum sales charge on a mutual fund is 8.5% of the public offering price. However, this maximum is only permitted if the fund offers breakpoints, rights of accumulation, and reinvestment of dividends at NAV."
+  },
+  {
+    "id": "series7-q016",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "question": "What is the primary tax benefit of a traditional IRA contribution for an eligible individual?",
+    "choices": ["A. Tax-free withdrawals in retirement", "B. Tax-deductible contributions that reduce current taxable income", "C. No required minimum distributions", "D. Capital gains are permanently excluded from tax"],
+    "correct": 1,
+    "explanation": "Traditional IRA contributions are tax-deductible for eligible individuals, reducing current taxable income. The contributions and earnings grow tax-deferred and are taxed as ordinary income upon withdrawal. This differs from a Roth IRA, where contributions are not deductible but qualified withdrawals are tax-free."
+  },
+  {
+    "id": "series7-q017",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "question": "An employee changes jobs and wants to move their 401(k) balance to an IRA. To avoid tax consequences, the rollover must be completed within how many days?",
+    "choices": ["A. 30 days", "B. 45 days", "C. 60 days", "D. 90 days"],
+    "correct": 2,
+    "explanation": "An indirect rollover from a 401(k) to an IRA must be completed within 60 days to avoid being treated as a taxable distribution. If the funds are not deposited into the IRA within 60 days, the distribution becomes taxable and may be subject to a 10% early withdrawal penalty if under age 59 1/2. A direct rollover (trustee-to-trustee) avoids these timing issues."
+  },
+  {
+    "id": "series7-q018",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "question": "Which of the following is TRUE about Roth IRA contributions?",
+    "choices": ["A. They are tax-deductible", "B. They have no income eligibility limits", "C. They are made with after-tax dollars", "D. They must begin by age 73"],
+    "correct": 2,
+    "explanation": "Roth IRA contributions are made with after-tax dollars (not tax-deductible). The benefit is that qualified withdrawals in retirement are tax-free. Roth IRAs have income eligibility limits, and unlike traditional IRAs, Roth IRAs do not have required minimum distributions (RMDs) during the owner's lifetime."
+  },
+  {
+    "id": "series7-q019",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "question": "A U.S. Treasury STRIP is best described as:",
+    "choices": ["A. A floating-rate Treasury note", "B. A zero-coupon Treasury security", "C. An inflation-protected Treasury bond", "D. A short-term Treasury bill with a coupon"],
+    "correct": 1,
+    "explanation": "STRIPS (Separate Trading of Registered Interest and Principal of Securities) are zero-coupon Treasury securities created by separating the coupon and principal payments of Treasury bonds. They are purchased at a discount and mature at par value, with the difference representing the investor's return."
+  },
+  {
+    "id": "series7-q020",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "question": "An investor holds convertible preferred stock with a conversion ratio of 4:1 and a par value of $100. The conversion price is:",
+    "choices": ["A. $4", "B. $25", "C. $50", "D. $100"],
+    "correct": 1,
+    "explanation": "The conversion price equals the par value divided by the conversion ratio. $100 par / 4 shares = $25 per share. This means each share of preferred stock can be converted into 4 shares of common stock at an effective price of $25 per common share."
+  },
+  {
+    "id": "series7-q021",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "question": "An investor who is long 1 ABC Jan 50 Put at 3 will break even when the stock is at:",
+    "choices": ["A. $53", "B. $50", "C. $47", "D. $44"],
+    "correct": 2,
+    "explanation": "For a long put, the breakeven is the strike price minus the premium paid. $50 - $3 = $47. Below $47, the investor profits. Between $47 and $50, the investor recoups some but not all of the premium. Above $50, the put expires worthless and the investor loses the entire $300 premium."
+  },
+  {
+    "id": "series7-q022",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "question": "Which of the following correctly describes the yield relationships for a bond trading at a premium?",
+    "choices": ["A. Coupon > Current Yield > YTM", "B. YTM > Current Yield > Coupon", "C. Current Yield > Coupon > YTM", "D. Coupon > YTM > Current Yield"],
+    "correct": 0,
+    "explanation": "When a bond trades at a premium (above par), the yield relationships from highest to lowest are: Coupon Rate > Current Yield > Yield to Maturity. The coupon is fixed, the current yield is reduced by the higher price, and YTM is the lowest because it accounts for the premium loss as the bond approaches par at maturity."
+  },
+  {
+    "id": "series7-q023",
+    "topic": "series7-t5",
+    "topicName": "Investment Companies",
+    "question": "A mutual fund investor wants to invest $50,000. The fund offers breakpoints starting at $25,000. The investor's registered representative should:",
+    "choices": ["A. Suggest the investor split the investment across multiple funds", "B. Inform the investor about the breakpoint discount", "C. Recommend a Class B share purchase instead", "D. Advise the investor to wait for a better entry point"],
+    "correct": 1,
+    "explanation": "FINRA rules require registered representatives to inform investors about breakpoint discounts when they qualify. Failing to inform a client about available breakpoints is a violation known as breakpoint selling. The rep must ensure the investor receives the reduced sales charge they are entitled to."
+  },
+  {
+    "id": "series7-q024",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "question": "The official statement for a new municipal bond issue is MOST similar to which corporate document?",
+    "choices": ["A. Annual report", "B. Prospectus", "C. Proxy statement", "D. 10-K filing"],
+    "correct": 1,
+    "explanation": "The official statement (OS) is the municipal bond equivalent of a corporate prospectus. It provides investors with material information about the issuer and the bond issue, including financial data, the purpose of the issue, and risk factors. Unlike corporate prospectuses, the official statement is not required to be filed with the SEC."
+  },
+  {
+    "id": "series7-q025",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "question": "An employer sponsors a 401(k) plan with a 50% match on the first 6% of employee contributions. An employee earning $80,000 contributes 6% of salary. What is the total annual contribution (employee + employer)?",
+    "choices": ["A. $4,800", "B. $7,200", "C. $2,400", "D. $9,600"],
+    "correct": 1,
+    "explanation": "The employee contributes 6% of $80,000 = $4,800. The employer matches 50% of that contribution: $4,800 x 50% = $2,400. Total annual contribution = $4,800 + $2,400 = $7,200. Employer matching contributions are a key benefit of 401(k) plans and represent additional compensation to the employee."
+  }
+]

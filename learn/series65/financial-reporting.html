@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 65 Chapter 2: Financial Reporting and Analysis. Learn about balance sheets, income statements, cash flow statements, financial ratios, fundamental analysis, and the efficient market hypothesis.">
+  <title>Financial Reporting &amp; Analysis - Series 65 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series65" data-chapter="financial-reporting">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link active">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link active">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <p class="lesson__meta-item" style="color:var(--color-primary);font-weight:var(--weight-semibold);margin-bottom:var(--space-sm);">Chapter 2</p>
+          <h1>Financial Reporting &amp; Analysis</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              25 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              Series 65 &mdash; Financial Analysis
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: The Balance Sheet ====== -->
+        <section class="lesson__section" id="balance-sheet">
+          <h2>The Balance Sheet</h2>
+
+          <p>The balance sheet, also called the statement of financial position, provides a snapshot of a company's financial condition at a specific point in time. It reports what the company owns (assets), what it owes (liabilities), and the residual interest of the owners (shareholders' equity). The fundamental accounting equation that governs the balance sheet is:</p>
+
+          <p style="text-align:center;font-size:var(--text-lg);font-weight:var(--weight-semibold);color:var(--color-primary);margin:var(--space-md) 0;">Assets = Liabilities + Shareholders' Equity</p>
+
+          <p>This equation must always balance. If a company has $10 million in total assets and $6 million in total liabilities, shareholders' equity must be $4 million. Understanding the balance sheet is essential for investment adviser representatives because it reveals a company's financial health, liquidity, leverage, and net worth.</p>
+
+          <h3>Assets</h3>
+
+          <p>Assets represent economic resources controlled by the company that are expected to provide future benefits. They are divided into two major categories:</p>
+
+          <ul>
+            <li><strong>Current Assets:</strong> Assets expected to be converted to cash or consumed within one year (or the normal operating cycle). These include cash and cash equivalents, marketable securities, accounts receivable (money owed by customers), inventory (goods available for sale), and prepaid expenses. Current assets are listed in order of liquidity, with the most liquid (cash) listed first.</li>
+            <li><strong>Non-Current (Long-Term) Assets:</strong> Assets not expected to be converted to cash within one year. These include property, plant, and equipment (PP&amp;E), intangible assets (patents, trademarks, goodwill), long-term investments, and deferred tax assets. PP&amp;E is reported net of accumulated depreciation, which reduces the asset's book value over time to reflect wear and usage.</li>
+          </ul>
+
+          <h3>Liabilities</h3>
+
+          <p>Liabilities represent obligations the company owes to creditors and others. Like assets, they are classified by time horizon:</p>
+
+          <ul>
+            <li><strong>Current Liabilities:</strong> Obligations due within one year, including accounts payable (money owed to suppliers), short-term debt, accrued expenses (wages, taxes, interest owed but not yet paid), current portion of long-term debt, and unearned revenue (payments received for goods or services not yet delivered).</li>
+            <li><strong>Non-Current (Long-Term) Liabilities:</strong> Obligations due beyond one year, including long-term debt (bonds payable, bank loans), deferred tax liabilities, pension obligations, and long-term lease obligations.</li>
+          </ul>
+
+          <h3>Shareholders' Equity</h3>
+
+          <p>Shareholders' equity represents the owners' residual claim on the company's assets after all liabilities have been satisfied. Key components include:</p>
+
+          <ul>
+            <li><strong>Common Stock (Par Value):</strong> The nominal or par value of issued common shares. Par value is an arbitrary amount (often $0.01 or $1.00) with little economic significance.</li>
+            <li><strong>Additional Paid-In Capital (APIC):</strong> The amount received from shareholders in excess of par value. If a company issues stock with $1 par value at $50 per share, the APIC per share is $49.</li>
+            <li><strong>Retained Earnings:</strong> Cumulative net income that has been reinvested in the business rather than distributed as dividends. Retained earnings = Beginning retained earnings + Net income - Dividends paid.</li>
+            <li><strong>Treasury Stock:</strong> Shares that the company has repurchased and holds in its treasury. Treasury stock is reported as a contra-equity account (reduces total equity) because it represents shares no longer outstanding.</li>
+          </ul>
+
+          <!-- Balance Sheet Structure SVG -->
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 700 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Balance sheet structure diagram showing assets equals liabilities plus equity">
+              <!-- Assets Box -->
+              <rect x="30" y="20" width="280" height="310" rx="10" fill="#eff6ff" stroke="#1a56db" stroke-width="2"/>
+              <text class="label label--bold" x="170" y="50" fill="#1a56db" font-size="16">ASSETS</text>
+
+              <!-- Current Assets -->
+              <rect x="50" y="65" width="240" height="110" rx="6" fill="#fff" stroke="#93c5fd" stroke-width="1"/>
+              <text class="label label--bold" x="170" y="88" fill="#1e40af" font-size="12">Current Assets</text>
+              <text class="label label--small" x="170" y="108">Cash &amp; Equivalents</text>
+              <text class="label label--small" x="170" y="124">Accounts Receivable</text>
+              <text class="label label--small" x="170" y="140">Inventory</text>
+              <text class="label label--small" x="170" y="156">Prepaid Expenses</text>
+
+              <!-- Non-Current Assets -->
+              <rect x="50" y="185" width="240" height="130" rx="6" fill="#fff" stroke="#93c5fd" stroke-width="1"/>
+              <text class="label label--bold" x="170" y="208" fill="#1e40af" font-size="12">Non-Current Assets</text>
+              <text class="label label--small" x="170" y="228">Property, Plant &amp; Equipment</text>
+              <text class="label label--small" x="170" y="244">Intangible Assets</text>
+              <text class="label label--small" x="170" y="260">Goodwill</text>
+              <text class="label label--small" x="170" y="276">Long-Term Investments</text>
+              <text class="label label--small" x="170" y="292">Deferred Tax Assets</text>
+
+              <!-- Equals Sign -->
+              <text x="335" y="180" font-size="28" font-weight="bold" fill="#64748b" text-anchor="middle">=</text>
+
+              <!-- Liabilities + Equity Box -->
+              <rect x="380" y="20" width="290" height="310" rx="10" fill="#fef3c7" stroke="#f59e0b" stroke-width="2"/>
+
+              <!-- Liabilities -->
+              <rect x="400" y="45" width="250" height="130" rx="6" fill="#fff" stroke="#fcd34d" stroke-width="1"/>
+              <text class="label label--bold" x="525" y="68" fill="#92400e" font-size="14">LIABILITIES</text>
+              <text class="label label--small" x="525" y="88">Accounts Payable</text>
+              <text class="label label--small" x="525" y="104">Short-Term Debt</text>
+              <text class="label label--small" x="525" y="120">Accrued Expenses</text>
+              <text class="label label--small" x="525" y="140">Long-Term Debt</text>
+              <text class="label label--small" x="525" y="156">Deferred Tax Liabilities</text>
+
+              <!-- Plus Sign -->
+              <text x="525" y="193" font-size="20" font-weight="bold" fill="#64748b" text-anchor="middle">+</text>
+
+              <!-- Equity -->
+              <rect x="400" y="200" width="250" height="115" rx="6" fill="#fff" stroke="#fcd34d" stroke-width="1"/>
+              <text class="label label--bold" x="525" y="223" fill="#92400e" font-size="14">EQUITY</text>
+              <text class="label label--small" x="525" y="243">Common Stock (Par)</text>
+              <text class="label label--small" x="525" y="259">Additional Paid-In Capital</text>
+              <text class="label label--small" x="525" y="275">Retained Earnings</text>
+              <text class="label label--small" x="525" y="291">(Less: Treasury Stock)</text>
+            </svg>
+            <figcaption>Figure 2.1 &mdash; Balance Sheet Structure. Assets must always equal the sum of liabilities and shareholders' equity.</figcaption>
+          </figure>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition: Book Value</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Book Value Per Share</strong> equals total shareholders' equity divided by the number of outstanding common shares. It represents the accounting value of each share based on historical cost. Book value is often compared to market price through the price-to-book (P/B) ratio. A P/B below 1.0 indicates the stock is trading below its accounting value, which may signal undervaluation or fundamental problems.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: The Income Statement ====== -->
+        <section class="lesson__section" id="income-statement">
+          <h2>The Income Statement</h2>
+
+          <p>The income statement (also called the profit and loss statement or P&amp;L) reports a company's financial performance over a specific period, typically a quarter or a year. Unlike the balance sheet, which is a snapshot, the income statement covers a flow of activity. It follows a hierarchical structure from revenue down to net income, with each level providing insight into different aspects of profitability.</p>
+
+          <h3>Revenue (Top Line)</h3>
+
+          <p><strong>Revenue</strong> (also called sales or the "top line") represents the total amount of money a company earns from selling its goods or services before any expenses are deducted. Revenue recognition rules under Generally Accepted Accounting Principles (GAAP) require that revenue be recognized when earned and realizable, regardless of when cash is received. Analysts distinguish between <strong>organic revenue growth</strong> (from existing operations) and growth from acquisitions.</p>
+
+          <h3>Cost of Goods Sold (COGS)</h3>
+
+          <p><strong>COGS</strong> represents the direct costs attributable to the production of goods or services sold by the company. For a manufacturer, this includes raw materials, direct labor, and manufacturing overhead. For a retailer, it is the purchase cost of inventory sold. Revenue minus COGS equals <strong>gross profit</strong>, and the gross profit margin (gross profit / revenue) indicates how efficiently a company produces its goods.</p>
+
+          <h3>Operating Expenses and Operating Income</h3>
+
+          <p><strong>Operating expenses</strong> include costs not directly tied to production but necessary for running the business: selling, general, and administrative expenses (SG&amp;A), research and development (R&amp;D), and depreciation and amortization. Subtracting operating expenses from gross profit yields <strong>operating income</strong> (also called EBIT, earnings before interest and taxes). Operating income reflects the profitability of the company's core business operations, excluding the effects of financing decisions and taxes.</p>
+
+          <h3>Net Income (Bottom Line)</h3>
+
+          <p>From operating income, interest expense (cost of debt financing) and income taxes are subtracted to arrive at <strong>net income</strong>, the "bottom line." Net income represents the profit available to common shareholders. It is the figure that flows into retained earnings on the balance sheet. Companies report net income on both a total and per-share basis.</p>
+
+          <h3>Earnings Per Share (EPS)</h3>
+
+          <p><strong>Earnings Per Share (EPS)</strong> is one of the most widely followed financial metrics. It divides net income available to common shareholders by the weighted average number of common shares outstanding:</p>
+
+          <p style="text-align:center;font-size:var(--text-lg);font-weight:var(--weight-semibold);color:var(--color-primary);margin:var(--space-md) 0;">EPS = (Net Income &minus; Preferred Dividends) &divide; Weighted Average Common Shares Outstanding</p>
+
+          <p>Companies report two versions of EPS: <strong>basic EPS</strong> (using shares actually outstanding) and <strong>diluted EPS</strong> (assuming all convertible securities, stock options, and warrants are exercised). Diluted EPS is always equal to or lower than basic EPS and provides a more conservative view of per-share profitability.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example: Income Statement Calculation</p>
+            </div>
+            <div class="callout__content">
+              <p>ABC Corporation reports the following for the year:</p>
+              <ul>
+                <li>Revenue: $500 million</li>
+                <li>COGS: $300 million</li>
+                <li>Operating expenses: $100 million</li>
+                <li>Interest expense: $20 million</li>
+                <li>Tax rate: 25%</li>
+                <li>Shares outstanding: 50 million</li>
+              </ul>
+              <p>Gross profit = $500M &minus; $300M = <strong>$200M</strong> (40% gross margin)</p>
+              <p>Operating income = $200M &minus; $100M = <strong>$100M</strong> (20% operating margin)</p>
+              <p>Pre-tax income = $100M &minus; $20M = <strong>$80M</strong></p>
+              <p>Net income = $80M &times; (1 &minus; 0.25) = <strong>$60M</strong> (12% net margin)</p>
+              <p>EPS = $60M &divide; 50M = <strong>$1.20 per share</strong></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Cash Flow Statement ====== -->
+        <section class="lesson__section" id="cash-flow-statement">
+          <h2>The Cash Flow Statement</h2>
+
+          <p>The statement of cash flows tracks the actual movement of cash into and out of a company during a specific period. While the income statement can be influenced by accounting choices (revenue recognition, depreciation methods, accruals), the cash flow statement provides a more objective view of a company's financial health because cash is much harder to manipulate. The statement is divided into three sections based on the source of cash flows.</p>
+
+          <h3>Operating Cash Flow (CFO)</h3>
+
+          <p><strong>Cash flow from operations</strong> represents cash generated (or consumed) by the company's core business activities. It starts with net income and adjusts for non-cash items (depreciation, amortization, stock-based compensation) and changes in working capital (changes in accounts receivable, inventory, accounts payable). Healthy companies consistently generate positive operating cash flow. If a company reports positive net income but negative operating cash flow, it may be a warning sign of earnings quality issues.</p>
+
+          <h3>Investing Cash Flow (CFI)</h3>
+
+          <p><strong>Cash flow from investing</strong> captures cash spent on or received from long-term investments. Common items include capital expenditures (purchases of PP&amp;E), acquisitions of other businesses, purchases and sales of investment securities, and proceeds from asset sales. Growing companies typically have negative investing cash flow because they are spending money on capital expenditures to expand operations. <strong>Free cash flow (FCF)</strong>, defined as operating cash flow minus capital expenditures, measures the cash available for debt repayment, dividends, buybacks, or further investment.</p>
+
+          <h3>Financing Cash Flow (CFF)</h3>
+
+          <p><strong>Cash flow from financing</strong> records transactions between the company and its providers of capital. This includes proceeds from issuing stock or bonds, repayment of debt, dividend payments to shareholders, and stock buyback expenditures. A company that is paying down debt and buying back shares will have negative financing cash flow, while one that is issuing new equity or borrowing will have positive financing cash flow.</p>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>A healthy, mature company typically shows: <strong>positive operating cash flow</strong> (generating cash from core business), <strong>negative investing cash flow</strong> (investing in future growth), and the financing cash flow pattern depends on strategy. Free cash flow (operating CF minus capex) is a critical metric because it shows how much cash the business generates after maintaining and expanding its asset base.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Financial Ratios ====== -->
+        <section class="lesson__section" id="financial-ratios">
+          <h2>Financial Ratios</h2>
+
+          <p>Financial ratios allow analysts and advisers to evaluate a company's financial performance and compare it to peers and historical averages. The Series 65 tests several categories of ratios. Understanding both the formulas and their interpretations is essential.</p>
+
+          <h3>Liquidity Ratios</h3>
+
+          <p>Liquidity ratios measure a company's ability to meet short-term obligations:</p>
+
+          <ul>
+            <li><strong>Current Ratio = Current Assets &divide; Current Liabilities.</strong> A ratio above 1.0 means the company has more current assets than current liabilities, indicating it can likely meet its short-term obligations. A ratio significantly below 1.0 may signal liquidity problems. However, a very high current ratio could indicate inefficient use of assets.</li>
+            <li><strong>Quick Ratio (Acid Test) = (Current Assets &minus; Inventory) &divide; Current Liabilities.</strong> This is a stricter measure because it excludes inventory, which may not be quickly convertible to cash. Industries with slow-moving inventory (manufacturing, retail) may show a significant difference between current and quick ratios.</li>
+          </ul>
+
+          <h3>Leverage (Solvency) Ratios</h3>
+
+          <ul>
+            <li><strong>Debt-to-Equity Ratio = Total Debt &divide; Total Shareholders' Equity.</strong> This measures the proportion of debt financing relative to equity financing. A higher ratio indicates greater financial leverage, which amplifies both returns and risk. Utilities and real estate companies typically have higher debt-to-equity ratios than technology companies.</li>
+            <li><strong>Interest Coverage Ratio = EBIT &divide; Interest Expense.</strong> Measures how easily a company can pay interest on its outstanding debt. A ratio below 1.5 may indicate difficulty servicing debt, while ratios above 5.0 suggest comfortable coverage.</li>
+          </ul>
+
+          <h3>Profitability Ratios</h3>
+
+          <ul>
+            <li><strong>Return on Equity (ROE) = Net Income &divide; Average Shareholders' Equity.</strong> Measures the return generated on shareholders' investment. Higher ROE generally indicates more efficient use of equity capital. However, high ROE can result from high leverage rather than operational excellence.</li>
+            <li><strong>Return on Assets (ROA) = Net Income &divide; Average Total Assets.</strong> Measures how efficiently a company uses its total assets to generate profit. ROA is particularly useful for comparing companies with different capital structures because it is not affected by leverage.</li>
+          </ul>
+
+          <h3>Valuation Ratios</h3>
+
+          <ul>
+            <li><strong>Price-to-Earnings (P/E) Ratio = Market Price per Share &divide; Earnings per Share.</strong> The most widely used valuation metric. A high P/E may indicate that investors expect high future growth, or that the stock is overvalued. A low P/E may indicate undervaluation or expected earnings decline. Trailing P/E uses past earnings; forward P/E uses estimated future earnings.</li>
+            <li><strong>Price-to-Book (P/B) Ratio = Market Price per Share &divide; Book Value per Share.</strong> Compares market valuation to accounting value. A P/B below 1.0 means the stock trades below book value. Financial and asset-heavy companies often have lower P/B ratios.</li>
+            <li><strong>Dividend Yield = Annual Dividends per Share &divide; Market Price per Share.</strong> Measures the income return on a stock investment. Utility stocks and REITs typically have higher dividend yields. Growth companies often pay little or no dividends.</li>
+          </ul>
+
+          <!-- Compare Table: Key Ratios -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Ratio</th>
+                  <th>Formula</th>
+                  <th>Category</th>
+                  <th>What It Tells You</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Current Ratio</td>
+                  <td class="compare-table__cell">Current Assets / Current Liabilities</td>
+                  <td class="compare-table__cell">Liquidity</td>
+                  <td class="compare-table__cell">Ability to pay short-term debts</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Quick Ratio</td>
+                  <td class="compare-table__cell">(Current Assets - Inventory) / Current Liabilities</td>
+                  <td class="compare-table__cell">Liquidity</td>
+                  <td class="compare-table__cell">Strict short-term liquidity test</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Debt-to-Equity</td>
+                  <td class="compare-table__cell">Total Debt / Total Equity</td>
+                  <td class="compare-table__cell">Leverage</td>
+                  <td class="compare-table__cell">Financial leverage level</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">ROE</td>
+                  <td class="compare-table__cell">Net Income / Avg. Equity</td>
+                  <td class="compare-table__cell">Profitability</td>
+                  <td class="compare-table__cell">Return on shareholders' investment</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">ROA</td>
+                  <td class="compare-table__cell">Net Income / Avg. Total Assets</td>
+                  <td class="compare-table__cell">Profitability</td>
+                  <td class="compare-table__cell">Asset efficiency</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">P/E Ratio</td>
+                  <td class="compare-table__cell">Price / EPS</td>
+                  <td class="compare-table__cell">Valuation</td>
+                  <td class="compare-table__cell">Price investors pay per dollar of earnings</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Dividend Yield</td>
+                  <td class="compare-table__cell">Annual Dividend / Price</td>
+                  <td class="compare-table__cell">Valuation</td>
+                  <td class="compare-table__cell">Income return on investment</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 65 may present a scenario and ask you to calculate a ratio. Practice calculating current ratio, quick ratio, debt-to-equity, ROE, P/E, and dividend yield. Also know qualitative interpretation: a high P/E does not automatically mean "overvalued" &mdash; it may reflect justified growth expectations. Context matters.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Fundamental vs. Technical Analysis ====== -->
+        <section class="lesson__section" id="analysis-methods">
+          <h2>Fundamental Analysis vs. Technical Analysis</h2>
+
+          <p>Investment professionals use two primary approaches to analyzing securities: fundamental analysis and technical analysis. While investment advisers overwhelmingly rely on fundamental analysis, the Series 65 tests your understanding of both approaches and their theoretical underpinnings.</p>
+
+          <h3>Fundamental Analysis</h3>
+
+          <p><strong>Fundamental analysis</strong> evaluates a security's intrinsic value by examining economic, financial, and qualitative factors. The goal is to determine whether a security is overvalued, undervalued, or fairly priced relative to its intrinsic value. Fundamental analysts study:</p>
+
+          <ul>
+            <li><strong>Macroeconomic factors:</strong> GDP growth, interest rates, inflation, monetary policy, and industry conditions that affect the business environment.</li>
+            <li><strong>Industry analysis:</strong> Competitive dynamics, barriers to entry, regulatory environment, and growth prospects of the specific industry.</li>
+            <li><strong>Company-specific factors:</strong> Financial statements, management quality, competitive advantages (economic moats), product pipeline, and strategic positioning.</li>
+            <li><strong>Valuation:</strong> Comparing intrinsic value estimates (derived from discounted cash flow models, comparable company analysis, or asset-based approaches) to the current market price.</li>
+          </ul>
+
+          <p>The fundamental approach follows a top-down or bottom-up methodology. <strong>Top-down analysis</strong> starts with the economy, narrows to promising sectors, and then identifies specific companies. <strong>Bottom-up analysis</strong> starts with individual company research, regardless of macroeconomic conditions, focusing on companies with strong fundamentals and attractive valuations.</p>
+
+          <h3>Technical Analysis</h3>
+
+          <p><strong>Technical analysis</strong> studies historical price and volume data to identify patterns and trends that may predict future price movements. Technical analysts (also called chartists) believe that all relevant information is already reflected in the stock price and that price patterns tend to repeat. Key concepts include support and resistance levels, moving averages, and volume analysis. Technical analysis is covered in greater depth in Chapter 3.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Do not confuse fundamental and technical analysis on the exam. <strong>Fundamental analysis</strong> examines financial statements, economic conditions, and intrinsic value. <strong>Technical analysis</strong> examines price charts, volume, and trading patterns. A question about "examining a company's balance sheet to determine fair value" describes fundamental analysis. A question about "identifying support levels on a price chart" describes technical analysis.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 6: Efficient Market Hypothesis ====== -->
+        <section class="lesson__section" id="efficient-market-hypothesis">
+          <h2>Efficient Market Hypothesis (EMH)</h2>
+
+          <p>The <strong>Efficient Market Hypothesis</strong>, developed by economist Eugene Fama in the 1960s, proposes that security prices fully reflect all available information, making it impossible to consistently achieve returns in excess of average market returns on a risk-adjusted basis. The EMH has profound implications for investment management because if markets are truly efficient, active management (stock picking and market timing) cannot consistently outperform a passive index strategy after accounting for costs.</p>
+
+          <h3>Three Forms of Market Efficiency</h3>
+
+          <p>Fama identified three levels of market efficiency, each incorporating a progressively broader set of information:</p>
+
+          <ol>
+            <li><strong>Weak Form Efficiency:</strong> Stock prices fully reflect all historical price and volume data. If the weak form holds, <strong>technical analysis is useless</strong> because past trading patterns provide no information about future prices. The weak form is consistent with the random walk theory, which holds that stock price changes are random and unpredictable. However, fundamental analysis may still add value because non-public and fundamental information is not yet reflected in prices.</li>
+            <li><strong>Semi-Strong Form Efficiency:</strong> Stock prices fully reflect all publicly available information, including financial statements, news reports, analyst reports, and economic data. If the semi-strong form holds, <strong>both technical and fundamental analysis are useless</strong> because prices instantaneously adjust to new public information. Only investors with material nonpublic (insider) information could achieve excess returns, which would be illegal.</li>
+            <li><strong>Strong Form Efficiency:</strong> Stock prices fully reflect ALL information, both public and private (insider information). If the strong form holds, <strong>no one</strong> &mdash; not even company insiders &mdash; can consistently achieve excess returns. Most academics and practitioners reject the strong form because insider trading cases demonstrate that insiders can and do profit from material nonpublic information.</li>
+          </ol>
+
+          <!-- Compare Table: EMH Forms -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>EMH Form</th>
+                  <th>Information Reflected</th>
+                  <th>Technical Analysis</th>
+                  <th>Fundamental Analysis</th>
+                  <th>Insider Info</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Weak</td>
+                  <td class="compare-table__cell">All historical price/volume data</td>
+                  <td class="compare-table__cell">Useless</td>
+                  <td class="compare-table__cell">May add value</td>
+                  <td class="compare-table__cell">Could profit (illegal)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Semi-Strong</td>
+                  <td class="compare-table__cell">All public information</td>
+                  <td class="compare-table__cell">Useless</td>
+                  <td class="compare-table__cell">Useless</td>
+                  <td class="compare-table__cell">Could profit (illegal)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Strong</td>
+                  <td class="compare-table__cell">All information (public + private)</td>
+                  <td class="compare-table__cell">Useless</td>
+                  <td class="compare-table__cell">Useless</td>
+                  <td class="compare-table__cell">Cannot profit</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember EMH forms from <strong>least to most efficient</strong>: <strong>W-S-S</strong> (Weak, Semi-Strong, Strong). Each form includes all the information from the previous form plus more. Weak = past prices. Semi-Strong = Weak + all public info. Strong = Semi-Strong + insider info. If the exam says "technical analysis cannot add value," the minimum form is <strong>Weak</strong>. If it says "fundamental analysis also cannot add value," the form is <strong>Semi-Strong</strong>.</p>
+            </div>
+          </div>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Challenges to the Efficient Market Hypothesis
+            </summary>
+            <div class="deep-dive__content">
+              <p>While the EMH remains one of the most influential theories in finance, it faces several challenges from empirical evidence and behavioral finance research:</p>
+
+              <p><strong>Market Anomalies:</strong> Researchers have documented persistent patterns that appear to contradict EMH, including the January effect (stocks tend to outperform in January), the small-firm effect (small-cap stocks tend to outperform large-caps over long periods), the value effect (low P/E and low P/B stocks tend to outperform), and momentum (stocks that have recently outperformed tend to continue outperforming in the short term).</p>
+
+              <p><strong>Behavioral Finance:</strong> This field, pioneered by Daniel Kahneman and Amos Tversky, shows that investors are not always rational. Cognitive biases including overconfidence, anchoring, loss aversion, herding behavior, and mental accounting cause systematic deviations from rational decision-making. These biases can create market inefficiencies that persist over time.</p>
+
+              <p><strong>Market Bubbles and Crashes:</strong> Episodes like the dot-com bubble (1999-2000) and the housing crisis (2007-2008) suggest that markets can deviate significantly from fundamental values for extended periods, contradicting the notion that prices always reflect all available information.</p>
+
+              <p>In practice, most investment professionals believe markets are "mostly efficient" &mdash; prices generally reflect available information, but opportunities for skilled managers to add value exist, particularly in less-followed segments of the market. This view supports a core-satellite portfolio approach using index funds for efficient markets and active management for potentially less efficient areas.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of financial reporting and analysis. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. A company has current assets of $800,000, inventory of $300,000, and current liabilities of $500,000. What is the quick ratio?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 1.60</button>
+              <button class="answer-btn" data-correct="true">B) 1.00</button>
+              <button class="answer-btn" data-correct="false">C) 0.60</button>
+              <button class="answer-btn" data-correct="false">D) 2.60</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Quick Ratio = (Current Assets - Inventory) / Current Liabilities = ($800,000 - $300,000) / $500,000 = $500,000 / $500,000 = 1.00. A quick ratio of 1.0 means the company can just cover its current liabilities with its most liquid assets.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Which financial statement provides a snapshot of a company's financial position at a specific point in time?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Balance sheet</button>
+              <button class="answer-btn" data-correct="false">B) Income statement</button>
+              <button class="answer-btn" data-correct="false">C) Statement of cash flows</button>
+              <button class="answer-btn" data-correct="false">D) Statement of retained earnings</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The balance sheet (statement of financial position) provides a snapshot at a specific date. The income statement, cash flow statement, and statement of retained earnings all report flows of activity over a period of time.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. According to the semi-strong form of the Efficient Market Hypothesis:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Technical analysis can produce excess returns</button>
+              <button class="answer-btn" data-correct="false">B) Fundamental analysis can produce excess returns</button>
+              <button class="answer-btn" data-correct="true">C) Neither technical nor fundamental analysis can produce excess returns</button>
+              <button class="answer-btn" data-correct="false">D) Only insider information is reflected in stock prices</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The semi-strong form states that all publicly available information (including historical prices and fundamental data) is reflected in stock prices. Therefore, neither technical analysis (which uses historical prices) nor fundamental analysis (which uses public information) can consistently produce excess returns.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. A stock is trading at $60 per share and has earnings per share of $4. What is the P/E ratio?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 4</button>
+              <button class="answer-btn" data-correct="true">B) 15</button>
+              <button class="answer-btn" data-correct="false">C) 24</button>
+              <button class="answer-btn" data-correct="false">D) 240</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              P/E Ratio = Market Price per Share / Earnings per Share = $60 / $4 = 15. This means investors are willing to pay $15 for every $1 of earnings. The P/E ratio is the most widely used valuation metric for comparing stocks.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Free cash flow is calculated as:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Net income minus dividends</button>
+              <button class="answer-btn" data-correct="true">B) Operating cash flow minus capital expenditures</button>
+              <button class="answer-btn" data-correct="false">C) Revenue minus total expenses</button>
+              <button class="answer-btn" data-correct="false">D) Total assets minus total liabilities</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Free Cash Flow (FCF) = Operating Cash Flow - Capital Expenditures. FCF represents the cash available to the company after maintaining and investing in its asset base. It can be used for dividends, debt repayment, stock buybacks, or further investment.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="economic-factors.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 1 &mdash; Economic Factors</span>
+            </div>
+          </a>
+          <a href="equity-investments.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 3 &mdash; Equity Investments</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

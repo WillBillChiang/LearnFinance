@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series24-q001",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "A general securities principal's primary responsibility is to:",
+    "choices": ["A. Execute trades on behalf of clients", "B. Supervise the activities of registered representatives and ensure compliance with regulations", "C. Manage the firm's investment portfolio", "D. Develop marketing materials for the firm"],
+    "correct": 1,
+    "explanation": "The primary responsibility of a general securities principal (Series 24) is to supervise registered representatives and the firm's overall securities activities to ensure compliance with FINRA rules, SEC regulations, and internal firm policies. This includes reviewing transactions, communications, and customer complaints."
+  },
+  {
+    "id": "series24-q002",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "Under FINRA rules, a member firm must establish and maintain a system to supervise the activities of each registered representative. This system is documented in the firm's:",
+    "choices": ["A. Annual report", "B. Written supervisory procedures (WSPs)", "C. Marketing brochure", "D. Customer account agreements"],
+    "correct": 1,
+    "explanation": "FINRA Rule 3110 requires each member firm to establish, maintain, and enforce written supervisory procedures (WSPs) that are designed to achieve compliance with applicable securities laws and regulations. WSPs must be reviewed and updated at least annually."
+  },
+  {
+    "id": "series24-q003",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "How often must a firm conduct an inspection of each branch office that supervises one or more non-branch locations?",
+    "choices": ["A. Semi-annually", "B. Annually", "C. Every 2 years", "D. Every 3 years"],
+    "correct": 1,
+    "explanation": "Under FINRA Rule 3110, branch offices that supervise one or more non-branch locations must be inspected at least annually. Other branch offices must be inspected at least every three years, with the inspection cycle determined by the firm's risk assessment. Non-branch locations follow a separate schedule."
+  },
+  {
+    "id": "series24-q004",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "A customer complaint is defined by FINRA as any written statement from a customer or person acting on behalf of a customer alleging:",
+    "choices": ["A. Dissatisfaction with market performance", "B. A grievance involving the activities of the member or associated person", "C. High fees charged by the firm", "D. Slow execution speed"],
+    "correct": 1,
+    "explanation": "FINRA defines a customer complaint as any written statement by a customer or person acting on behalf of a customer alleging a grievance involving the activities of a member firm or its associated persons in connection with solicitation or execution of a securities transaction or the disposition of securities or funds."
+  },
+  {
+    "id": "series24-q005",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "Under FINRA Rule 4530, a member firm must report certain events to FINRA within how many calendar days?",
+    "choices": ["A. 10 calendar days", "B. 15 calendar days", "C. 30 calendar days", "D. 60 calendar days"],
+    "correct": 2,
+    "explanation": "Under FINRA Rule 4530, member firms must report specified events (such as certain customer complaints, regulatory actions, criminal proceedings, and financial events) to FINRA within 30 calendar days. Statistical and summary information on customer complaints must be reported quarterly."
+  },
+  {
+    "id": "series24-q006",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "A registered representative wants to engage in an outside business activity. Under FINRA rules, the representative must:",
+    "choices": ["A. Simply inform their supervisor verbally", "B. Provide prior written notice to their broker-dealer", "C. Obtain approval from FINRA directly", "D. Only disclose if the activity is securities-related"],
+    "correct": 1,
+    "explanation": "Under FINRA Rule 3270, registered representatives must provide prior written notice to their member firm before engaging in any outside business activity. The firm then evaluates whether the activity creates conflicts, requires supervision, or should be prohibited. This ensures proper oversight of representatives' activities."
+  },
+  {
+    "id": "series24-q007",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "A firm's chief compliance officer (CCO) is responsible for:",
+    "choices": ["A. Making investment decisions for clients", "B. Overseeing the firm's compliance program and regulatory obligations", "C. Managing the firm's proprietary trading desk", "D. Approving all customer margin accounts"],
+    "correct": 1,
+    "explanation": "The CCO is responsible for overseeing the firm's compliance program, including ensuring adherence to securities laws, FINRA rules, and internal policies. The CCO advises management on regulatory matters, conducts compliance testing, and manages the firm's response to regulatory inquiries and examinations."
+  },
+  {
+    "id": "series24-q008",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "A principal must review and approve retail communications before first use. Which of the following is a retail communication?",
+    "choices": ["A. A phone call to one existing client", "B. A social media post on the firm's official account visible to the general public", "C. An email response to a single client's question", "D. A private message to a prospective client"],
+    "correct": 1,
+    "explanation": "Under FINRA's communication rules (Rule 2210), retail communication is any written (including electronic) communication distributed or made available to more than 25 retail investors within any 30-calendar-day period. A social media post on the firm's official account accessible to the public qualifies as retail communication requiring principal pre-approval."
+  },
+  {
+    "id": "series24-q009",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "Which of the following constitutes a material change requiring an amendment to a firm's Form BD?",
+    "choices": ["A. Hiring a new administrative assistant", "B. A change in the firm's principal business address", "C. An increase in office supply expenses", "D. A change in the office cleaning service provider"],
+    "correct": 1,
+    "explanation": "Changes to the information on Form BD (Uniform Application for Broker-Dealer Registration) that are material must be promptly reported through an amendment. Material changes include changes to the firm's address, ownership, control persons, disciplinary history, and business activities."
+  },
+  {
+    "id": "series24-q010",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "Under the SEC's Customer Protection Rule (Rule 15c3-3), a broker-dealer must:",
+    "choices": ["A. Maintain a minimum net worth of $10 million", "B. Segregate customer funds and securities from the firm's proprietary assets", "C. Report all trades to the SEC within 24 hours", "D. Limit the number of customer accounts to 10,000"],
+    "correct": 1,
+    "explanation": "SEC Rule 15c3-3 (Customer Protection Rule) requires broker-dealers to maintain physical possession or control of all fully paid and excess margin securities carried for customers, and to maintain a special reserve bank account for the exclusive benefit of customers. This protects customer assets from firm insolvency."
+  },
+  {
+    "id": "series24-q011",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "A registered representative has been repeatedly late in submitting required documentation. The appropriate supervisory action is:",
+    "choices": ["A. Ignore the behavior if trades are processed correctly", "B. Document the issue, counsel the representative, and escalate if the behavior continues", "C. Immediately terminate the representative", "D. Report the representative to law enforcement"],
+    "correct": 1,
+    "explanation": "Supervisors should use a progressive approach to compliance issues. Documentation, counseling, and escalation are appropriate steps. Simply ignoring the behavior is a supervisory failure, while immediate termination may be disproportionate for documentation delays. The response should be proportional and documented."
+  },
+  {
+    "id": "series24-q012",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "A broker-dealer's annual compliance meeting must cover:",
+    "choices": ["A. Only new products being offered", "B. Applicable compliance matters including the firm's business and regulatory obligations", "C. Only sales techniques and goals", "D. Only changes to the firm's organizational structure"],
+    "correct": 1,
+    "explanation": "FINRA Rule 3110 requires firms to hold an annual compliance meeting with all registered persons. The meeting must address compliance matters relevant to the firm's business, including updates to regulations, review of the firm's policies and procedures, and discussion of common compliance issues and findings."
+  },
+  {
+    "id": "series24-q013",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "A firm is considering offering a new complex product to retail customers. The principal should ensure:",
+    "choices": ["A. That only experienced agents sell the product", "B. That the firm conducts appropriate due diligence and establishes suitability procedures", "C. That the product is marketed to all customers equally", "D. That the product has the highest commission structure"],
+    "correct": 1,
+    "explanation": "Before offering new or complex products, a principal must ensure the firm conducts thorough due diligence, understands the product's features and risks, establishes appropriate suitability criteria, creates training programs for agents, and develops supervisory procedures. This is part of the firm's product review process."
+  },
+  {
+    "id": "series24-q014",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "Under FINRA rules, a designated principal must review and endorse all transactions in customer accounts. How soon after execution should this review occur?",
+    "choices": ["A. Within the same business day", "B. Within a reasonably prompt time", "C. Within 30 business days", "D. At the end of each quarter"],
+    "correct": 1,
+    "explanation": "FINRA Rule 3110 requires that a registered principal review transactions within a reasonably prompt time. While there is no specific deadline stated in the rule, the review should occur as soon as practicable to allow for timely detection of potential violations or unsuitable activity."
+  },
+  {
+    "id": "series24-q015",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "The SEC's Regulation Best Interest (Reg BI) requires broker-dealers to:",
+    "choices": ["A. Always charge the lowest possible fees", "B. Act in the best interest of the retail customer when making a recommendation", "C. Only recommend proprietary products", "D. Guarantee that recommended investments will be profitable"],
+    "correct": 1,
+    "explanation": "Regulation Best Interest requires broker-dealers and their associated persons to act in the best interest of the retail customer when making recommendations, without placing the broker-dealer's interest ahead of the customer's. Reg BI has four component obligations: disclosure, care, conflict of interest, and compliance."
+  },
+  {
+    "id": "series24-q016",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "When a customer opens a new account, the firm must obtain which of the following?",
+    "choices": ["A. The customer's complete medical history", "B. Customer identification information as required by the Customer Identification Program (CIP)", "C. A minimum initial deposit of $10,000", "D. Three personal references"],
+    "correct": 1,
+    "explanation": "Under the USA PATRIOT Act and the Customer Identification Program (CIP) requirements, broker-dealers must collect and verify customer identification information including name, date of birth, address, and identification number (SSN or tax ID). This is part of the firm's anti-money laundering (AML) program."
+  },
+  {
+    "id": "series24-q017",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "Heightened supervision is MOST likely required for a registered representative who:",
+    "choices": ["A. Has consistently met sales targets", "B. Has a history of customer complaints or disciplinary actions", "C. Has been with the firm for over 10 years", "D. Holds multiple securities licenses"],
+    "correct": 1,
+    "explanation": "Heightened supervision is required for registered representatives with a history of customer complaints, disciplinary actions, or other regulatory concerns. The firm must document the enhanced supervisory procedures and ensure they are reasonably designed to prevent future violations."
+  },
+  {
+    "id": "series24-q018",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "Under FINRA rules, which of the following activities requires prior principal approval?",
+    "choices": ["A. Placing a market order on behalf of a client with written authority", "B. Opening a new customer account", "C. Sending a routine trade confirmation", "D. Providing a client with a mutual fund prospectus"],
+    "correct": 1,
+    "explanation": "Opening new customer accounts requires prior principal approval under FINRA rules. The principal must review the customer's information, including financial profile and investment objectives, to ensure the account is properly documented and any potential issues are identified before trading begins."
+  },
+  {
+    "id": "series24-q019",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "A broker-dealer's continuing education requirements include:",
+    "choices": ["A. A regulatory element only", "B. A firm element only", "C. Both a regulatory element and a firm element", "D. No continuing education is required after initial licensing"],
+    "correct": 2,
+    "explanation": "FINRA's continuing education program has two components: the Regulatory Element (online training that must be completed annually by December 31 for each registration held, per FINRA Rule 1240 effective January 1, 2023) and the Firm Element (annual training developed by the firm based on its business activities, regulatory developments, and the needs of its registered persons)."
+  },
+  {
+    "id": "series24-q020",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "A principal discovers that a registered representative has been conducting personal securities transactions without reporting them as required. The principal should:",
+    "choices": ["A. Overlook it if the trades were profitable", "B. Take appropriate action including investigating the trades and reporting the violation", "C. Allow the representative to file the reports retroactively without consequence", "D. Only address it at the annual performance review"],
+    "correct": 1,
+    "explanation": "Failure to report personal securities transactions is a compliance violation. The principal must take prompt action including investigating the unreported trades for potential conflicts or violations, reporting the issue through the firm's compliance channels, and taking appropriate disciplinary action."
+  },
+  {
+    "id": "series24-q021",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "Under the Securities Exchange Act of 1934, a broker-dealer must file which form to register with the SEC?",
+    "choices": ["A. Form U4", "B. Form U5", "C. Form BD", "D. Form ADV"],
+    "correct": 2,
+    "explanation": "Form BD (Uniform Application for Broker-Dealer Registration) is used by broker-dealers to register with the SEC, state regulators, and self-regulatory organizations. Form U4 is for individual registrations, Form U5 is for termination of individual registrations, and Form ADV is for investment advisers."
+  },
+  {
+    "id": "series24-q022",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "A firm's Business Continuity Plan (BCP) must address:",
+    "choices": ["A. Only natural disasters", "B. Data backup, mission-critical systems, and financial/operational assessment procedures", "C. Only cybersecurity threats", "D. Only the firm's largest accounts"],
+    "correct": 1,
+    "explanation": "FINRA Rule 4370 requires each member firm to create and maintain a Business Continuity Plan that addresses data backup, mission-critical systems, financial and operational assessments, alternate communications, regulatory reporting, and customer access to funds and securities during a significant business disruption."
+  },
+  {
+    "id": "series24-q023",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "question": "Under FINRA rules, a supervisor who fails to reasonably supervise a registered representative may be:",
+    "choices": ["A. Exempt from any liability", "B. Subject to disciplinary action including fines and suspension", "C. Liable only if they directly participated in the violation", "D. Responsible only if the violation resulted in customer losses"],
+    "correct": 1,
+    "explanation": "Under FINRA rules and Section 15(b)(4)(E) of the Securities Exchange Act, supervisors who fail to reasonably supervise their registered representatives may be subject to disciplinary action, including fines, suspension, or barring from the industry. A supervisor can be held liable even without direct participation in the underlying violation."
+  },
+  {
+    "id": "series24-q024",
+    "topic": "series24-t2",
+    "topicName": "Regulatory Framework",
+    "question": "FINRA's suitability rule requires that a recommendation be suitable based on:",
+    "choices": ["A. The representative's personal investment preferences", "B. The customer's investment profile including financial situation, needs, and objectives", "C. The product's historical performance only", "D. The commission structure of the product"],
+    "correct": 1,
+    "explanation": "FINRA's suitability obligations (now incorporated into Reg BI for retail customers) require that recommendations be suitable based on the customer's investment profile, including age, financial situation, tax status, investment objectives, risk tolerance, time horizon, liquidity needs, and other relevant factors."
+  },
+  {
+    "id": "series24-q025",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "question": "Under AML regulations, a broker-dealer's Suspicious Activity Report (SAR) must be filed:",
+    "choices": ["A. Only when a customer requests it", "B. Within 30 calendar days of initial detection of suspicious activity", "C. Only for transactions over $1 million", "D. Only when law enforcement contacts the firm"],
+    "correct": 1,
+    "explanation": "Under the Bank Secrecy Act and FinCEN regulations, broker-dealers must file a Suspicious Activity Report (SAR) within 30 calendar days of becoming aware of suspicious activity. SARs are confidential; the firm must not notify the customer that a SAR has been filed. This is a critical component of AML compliance."
+  }
+]

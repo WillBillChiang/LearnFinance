@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series27-fc001",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Requirements",
+    "front": "What is the purpose of the net capital rule (SEC Rule 15c3-1)?",
+    "back": "The net capital rule requires broker-dealers to maintain minimum levels of net liquid assets to ensure they can meet obligations to customers and creditors. It is designed to protect customers by ensuring firms can promptly return customer securities and cash if the firm fails. The rule sets different minimum capital levels based on the firm's type of business."
+  },
+  {
+    "id": "series27-fc002",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Requirements",
+    "front": "What are the two methods for computing net capital?",
+    "back": "The basic method requires net capital equal to the greater of a fixed minimum or 6-2/3% of aggregate indebtedness. The alternative method requires net capital of the greater of a fixed minimum or 2% of aggregate debit items. Most large firms use the alternative method. Both methods require firms to value assets at market (haircuts) and exclude illiquid assets."
+  },
+  {
+    "id": "series27-fc003",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Requirements",
+    "front": "What are haircuts in the context of net capital?",
+    "back": "Haircuts are percentage deductions applied to the market value of securities positions when computing net capital. They account for the risk that securities may decline in value before they can be liquidated. Different types of securities have different haircut percentages: government securities have small haircuts while equity positions and options have larger ones."
+  },
+  {
+    "id": "series27-fc004",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Requirements",
+    "front": "What is aggregate indebtedness?",
+    "back": "Aggregate indebtedness is the total of a broker-dealer's liabilities, including money owed to customers, other broker-dealers, banks, and all other creditors. Under the basic method, a firm's net capital must equal at least 6-2/3% of aggregate indebtedness. If the ratio of aggregate indebtedness to net capital exceeds 15:1, the firm must file notice with regulators."
+  },
+  {
+    "id": "series27-fc005",
+    "topic": "series27-t2",
+    "topicName": "FOCUS Reports",
+    "front": "What is a FOCUS report?",
+    "back": "The Financial and Operational Combined Uniform Single (FOCUS) report is a financial statement filed by broker-dealers with FINRA and the SEC. It reports the firm's financial condition, including net capital computation, customer protection reserve, and income statements. Most firms file FOCUS Part II or IIA monthly or quarterly depending on their classification."
+  },
+  {
+    "id": "series27-fc006",
+    "topic": "series27-t2",
+    "topicName": "FOCUS Reports",
+    "front": "How often must FOCUS reports be filed?",
+    "back": "Carrying and clearing firms must file FOCUS reports monthly (Part II), due within 17 business days after month-end. Introducing firms file quarterly (Part IIA), due within 17 business days after quarter-end. Annual audited financial statements must be filed within 60 days of the firm's fiscal year-end. Timely and accurate filing is a critical regulatory obligation."
+  },
+  {
+    "id": "series27-fc007",
+    "topic": "series27-t2",
+    "topicName": "FOCUS Reports",
+    "front": "What financial statements are included in the FOCUS report?",
+    "back": "The FOCUS report includes a statement of financial condition (balance sheet), statement of income (loss), computation of net capital, customer reserve computation, and supplemental schedules. It provides regulators with a comprehensive view of the firm's financial health and compliance with capital requirements. All figures must be prepared in accordance with GAAP."
+  },
+  {
+    "id": "series27-fc008",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection Rule",
+    "front": "What is the Customer Protection Rule (SEC Rule 15c3-3)?",
+    "back": "Rule 15c3-3 requires broker-dealers to maintain physical possession or control of all fully paid and excess margin customer securities. It also requires a weekly reserve computation to determine the amount of cash or qualified securities that must be on deposit in a Special Reserve Bank Account for the exclusive benefit of customers."
+  },
+  {
+    "id": "series27-fc009",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection Rule",
+    "front": "What is the Special Reserve Bank Account?",
+    "back": "The Special Reserve Bank Account is a segregated bank account maintained exclusively for the benefit of customers under Rule 15c3-3. Based on the weekly reserve formula computation, broker-dealers must deposit any shortfall into this account by the following business day (or third business day for alternative method firms). The funds cannot be used for firm purposes."
+  },
+  {
+    "id": "series27-fc010",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection Rule",
+    "front": "What is the possession or control requirement?",
+    "back": "Broker-dealers must promptly obtain and maintain physical possession or control of all fully paid customer securities and excess margin securities. Control locations include the firm's vault, a clearing corporation, a bank, or another approved depository. Securities in transit, on loan, or pledged for firm purposes must be retrieved and placed in a control location."
+  },
+  {
+    "id": "series27-fc011",
+    "topic": "series27-t4",
+    "topicName": "Books and Records",
+    "front": "What records must broker-dealers maintain under SEC Rules 17a-3 and 17a-4?",
+    "back": "Broker-dealers must maintain blotters (transaction records), ledgers, customer account records, securities records, order tickets, confirmations, correspondence, financial records, and written supervisory procedures. Rule 17a-3 specifies what records must be created, and Rule 17a-4 specifies retention periods, typically 3 to 6 years depending on the record type."
+  },
+  {
+    "id": "series27-fc012",
+    "topic": "series27-t4",
+    "topicName": "Books and Records",
+    "front": "What is a blotter in broker-dealer recordkeeping?",
+    "back": "A blotter is a daily record of all purchases, sales, receipts, and deliveries of securities, as well as all cash receipts and disbursements. Broker-dealers must maintain separate blotters for securities transactions and cash movements. Blotters must be kept for a minimum of six years, with the first two years in an easily accessible location."
+  },
+  {
+    "id": "series27-fc013",
+    "topic": "series27-t4",
+    "topicName": "Books and Records",
+    "front": "What is the retention period for customer account records?",
+    "back": "Customer account records, including account agreements and documentation of account information, must be maintained for at least six years after the account is closed. Transaction records (confirmations, statements) must be kept for six years. Correspondence must be kept for three years. Electronic storage is permitted if it meets SEC requirements for accessibility and integrity."
+  },
+  {
+    "id": "series27-fc014",
+    "topic": "series27-t5",
+    "topicName": "Financial Responsibility",
+    "front": "What is the early warning notification requirement?",
+    "back": "Broker-dealers must promptly notify the SEC, FINRA, and their designated examining authority if their net capital falls below specified early warning levels. Under the basic method, notification is required if aggregate indebtedness exceeds 12 times net capital. Under the alternative method, notification is required if net capital falls below 5% of aggregate debit items."
+  },
+  {
+    "id": "series27-fc015",
+    "topic": "series27-t5",
+    "topicName": "Financial Responsibility",
+    "front": "What happens when a broker-dealer falls below minimum net capital?",
+    "back": "A broker-dealer that falls below its minimum net capital requirement must immediately cease conducting securities business (except for liquidating transactions) and notify the SEC and its SRO. The firm cannot make withdrawals of equity or distribute profits. If the deficiency is not cured promptly, the firm may face enforcement action, suspension, or liquidation."
+  },
+  {
+    "id": "series27-fc016",
+    "topic": "series27-t5",
+    "topicName": "Financial Responsibility",
+    "front": "What is a subordinated loan agreement?",
+    "back": "A subordinated loan agreement allows a broker-dealer to borrow funds that count as regulatory capital (equity) rather than liability for net capital purposes. The loan must be subordinated to all other claims, have a minimum maturity (usually at least one year), and be approved by FINRA. Repayment is restricted if it would cause a net capital deficiency."
+  },
+  {
+    "id": "series27-fc017",
+    "topic": "series27-t6",
+    "topicName": "Operations Management",
+    "front": "What is the role of a Financial and Operations Principal (FINOP)?",
+    "back": "A FINOP (Series 27) is responsible for the financial and operational compliance of a broker-dealer. Duties include preparing and filing FOCUS reports, computing net capital, overseeing the customer protection reserve, maintaining books and records, and ensuring compliance with financial responsibility rules. Every broker-dealer must designate at least one FINOP."
+  },
+  {
+    "id": "series27-fc018",
+    "topic": "series27-t6",
+    "topicName": "Operations Management",
+    "front": "What is the annual audit requirement for broker-dealers?",
+    "back": "Every broker-dealer must have its financial statements audited annually by an independent public accountant registered with the PCAOB. The audited report must be filed with the SEC within 60 calendar days of the firm's fiscal year-end. The audit must include an examination of the firm's net capital computation and customer protection compliance."
+  },
+  {
+    "id": "series27-fc019",
+    "topic": "series27-t6",
+    "topicName": "Operations Management",
+    "front": "What is a clearing arrangement between broker-dealers?",
+    "back": "A clearing arrangement is a contractual agreement between an introducing broker-dealer and a clearing firm. The clearing firm holds customer accounts, processes trades, maintains records, and handles settlement. The introducing firm handles customer relationships and trade execution. The arrangement must be documented in a fully executed clearing agreement filed with FINRA."
+  },
+  {
+    "id": "series27-fc020",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Requirements",
+    "front": "What is the minimum net capital for an introducing broker-dealer?",
+    "back": "An introducing broker-dealer that does not hold customer funds or securities must maintain minimum net capital of $50,000. If it receives but does not hold customer funds (promptly forwarding them to the clearing firm), the minimum is $50,000 to $100,000 depending on the arrangement. Fully disclosed introducing firms have lower requirements than self-clearing firms."
+  },
+  {
+    "id": "series27-fc021",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection Rule",
+    "front": "What is a free credit balance?",
+    "back": "A free credit balance is uninvested cash in a customer's brokerage account that is available for immediate withdrawal. Broker-dealers must notify customers of their free credit balances at least quarterly and inform them that these funds are not protected by SIPC if left in the account. Free credit balances are liabilities of the firm to the customer."
+  },
+  {
+    "id": "series27-fc022",
+    "topic": "series27-t4",
+    "topicName": "Books and Records",
+    "front": "What is the trade confirmation requirement?",
+    "back": "Broker-dealers must send written confirmations to customers at or before the completion of each transaction. Confirmations must include the trade date, settlement date, security description, quantity, price, commission or markup, and the firm's capacity (agent or principal). Electronic delivery is permitted with customer consent."
+  },
+  {
+    "id": "series27-fc023",
+    "topic": "series27-t5",
+    "topicName": "Financial Responsibility",
+    "front": "What are non-allowable assets in net capital computation?",
+    "back": "Non-allowable assets are deducted from net worth when computing net capital because they cannot be readily converted to cash. Examples include fixed assets (furniture, equipment), prepaid expenses, intangible assets (goodwill), unsecured receivables, and any securities positions that cannot be readily valued or liquidated. Only liquid assets count toward net capital."
+  },
+  {
+    "id": "series27-fc024",
+    "topic": "series27-t2",
+    "topicName": "FOCUS Reports",
+    "front": "What is the SSOI (Statement of Income) in the FOCUS report?",
+    "back": "The Statement of Income section of the FOCUS report details the firm's revenue and expenses during the reporting period. Revenue sources include commissions, trading profits, advisory fees, underwriting income, and interest. Expenses include compensation, communications, occupancy, and regulatory fees. This section helps regulators assess the firm's profitability and operational viability."
+  },
+  {
+    "id": "series27-fc025",
+    "topic": "series27-t6",
+    "topicName": "Operations Management",
+    "front": "What is the SEC Rule 17a-5 notification requirement?",
+    "back": "Rule 17a-5 requires broker-dealers to file periodic financial reports with the SEC and their SRO. This includes FOCUS reports, annual audited financial statements, and supplemental reports. It also requires notification within 24 hours if the firm's auditor discovers a material inadequacy in internal controls or a net capital deficiency during the annual audit."
+  },
+  {
+    "id": "series27-fc026",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Requirements",
+    "front": "What is the aggregate debit items computation?",
+    "back": "Aggregate debit items represent the total amount of money owed to the broker-dealer by customers, primarily from margin loans. Under the alternative net capital method, a firm must maintain net capital equal to at least 2% of aggregate debit items. This computation is performed weekly as part of the customer reserve formula under Rule 15c3-3."
+  },
+  {
+    "id": "series27-fc027",
+    "topic": "series27-t5",
+    "topicName": "Financial Responsibility",
+    "front": "What restrictions apply to equity capital withdrawals?",
+    "back": "SEC Rule 15c3-1(e) restricts broker-dealers from withdrawing equity capital if it would reduce net capital below required levels or below the early warning threshold. Withdrawals exceeding 30% of excess net capital require prior notice to the SEC and SRO at least two business days in advance. These restrictions protect customers and creditors."
+  },
+  {
+    "id": "series27-fc028",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection Rule",
+    "front": "What is the difference between fully paid and margin securities?",
+    "back": "Fully paid securities are those the customer owns outright with no margin loan balance. Excess margin securities are securities in a margin account whose value exceeds 140% of the customer's debit balance. Both categories are subject to the possession or control requirement. The firm may rehypothecate margin securities up to 140% of the debit balance."
+  },
+  {
+    "id": "series27-fc029",
+    "topic": "series27-t4",
+    "topicName": "Books and Records",
+    "front": "What is the electronic storage requirement for broker-dealer records?",
+    "back": "SEC Rule 17a-4(f) permits broker-dealers to store records electronically if the storage medium is non-rewritable and non-erasable (WORM format), preserves records for the required retention period, automatically verifies data quality, and is readily accessible. Firms must have a third-party access agreement and notify regulators of their electronic storage arrangements."
+  },
+  {
+    "id": "series27-fc030",
+    "topic": "series27-t6",
+    "topicName": "Operations Management",
+    "front": "What is DTC and what role does it play?",
+    "back": "The Depository Trust Company (DTC) is a central securities depository that provides custody and book-entry settlement services for most U.S. equities, corporate and municipal debt, and money market instruments. DTC eliminates the need for physical certificate movement, reduces settlement risk, and increases market efficiency. It is a subsidiary of the Depository Trust & Clearing Corporation."
+  }
+]

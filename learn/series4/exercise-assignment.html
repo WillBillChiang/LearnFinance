@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 4 Chapter 3: Exercise & Assignment — Exercise procedures, OCC assignment process, automatic exercise thresholds, settlement obligations, and expiration processing.">
+  <title>Exercise & Assignment — Series 4 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series4" data-chapter="exercise-assignment">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a>
+      <nav class="nav-desktop" aria-label="Main navigation"><ul class="nav-desktop__list"><li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="nav-desktop__link">Exams</a></li><li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li><li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li><li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li><li><a href="../../progress/" class="nav-desktop__link">Progress</a></li></ul></nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><ul class="mobile-nav__list"><li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="mobile-nav__link">Exams</a></li><li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li><li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li><li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li><li><a href="../../progress/" class="mobile-nav__link">Progress</a></li></ul></nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-principal">Chapter 3</span>
+          <h1>Exercise & Assignment</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 20 min read</span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Series 4</span>
+          </div>
+        </div>
+
+        <section class="lesson__section" id="exercise-procedures">
+          <h2>Exercise Procedures and Mechanics</h2>
+
+          <p>Exercise is the process by which an option holder elects to invoke the rights of the options contract. For call options, exercise means buying the underlying security at the strike price; for put options, exercise means selling the underlying security at the strike price. The Registered Options Principal must understand and supervise the exercise process to ensure customer instructions are executed properly and that the firm's obligations are fulfilled.</p>
+
+          <p>Under the OCC Rules, standardized options can be exercised on any business day during the option's life for American-style options. European-style options can only be exercised at expiration. Most equity options are American-style, while many index options are European-style. The ROP must ensure that registered representatives understand this distinction and communicate it correctly to customers.</p>
+
+          <h3>Customer Exercise Instructions</h3>
+
+          <p>When a customer wishes to exercise an option, they must provide explicit instructions to their broker-dealer. The firm's procedures for accepting exercise instructions typically include:</p>
+
+          <ul>
+            <li><strong>Exercise Notice Deadline:</strong> Customers must provide exercise instructions by the firm's internal deadline, which is typically earlier than the OCC's deadline. Many firms require exercise instructions by 5:30 PM ET on the last trading day before expiration.</li>
+            <li><strong>Proper Account Verification:</strong> The firm must verify that the customer holds the long option position and that the position is eligible for exercise.</li>
+            <li><strong>Financial Verification:</strong> For call exercises, the firm must verify that the customer has adequate funds to purchase the underlying shares (or adequate margin if in a margin account). For put exercises, the firm must verify that the customer owns the underlying shares to be delivered.</li>
+            <li><strong>Written Documentation:</strong> Exercise instructions should be documented in writing or through a recorded telephone line. The ROP must ensure documentation requirements are met.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Exercise:</strong> The process by which an option holder invokes the rights of the options contract. Call holders exercise to buy the underlying at the strike price; put holders exercise to sell the underlying at the strike price. Exercise converts the options position into a stock position (long for call exercise, short for put exercise).</p>
+            </div>
+          </div>
+
+          <h3>Firm-to-OCC Submission</h3>
+
+          <p>Once the broker-dealer receives a valid exercise instruction from a customer, the firm submits an exercise notice to the Options Clearing Corporation through its clearing member. The OCC has established specific deadlines for receiving exercise notices:</p>
+
+          <ul>
+            <li><strong>Standard Exercise Cutoff:</strong> 5:30 PM ET on the business day prior to expiration for expiring options</li>
+            <li><strong>Contrary Exercise Instructions:</strong> Used when a customer wants to prevent automatic exercise (discussed below) or exercise an option that would not be automatically exercised. These must typically be submitted by 5:30 PM ET.</li>
+            <li><strong>Extended Hours:</strong> Some options on certain securities may have exercise rights during extended trading hours, with corresponding extended exercise notice deadlines.</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>A critical supervisory issue arises when customers fail to provide exercise instructions for in-the-money options at expiration. The ROP must ensure the firm has procedures for proactively contacting customers who hold expiring in-the-money positions. Failure to exercise valuable options due to lack of customer communication can result in significant customer losses and firm liability. Many firms implement automatic exercise procedures, but customer communication remains essential.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="occ-role">
+          <h2>The OCC's Role in Exercise and Assignment</h2>
+
+          <p>The Options Clearing Corporation serves as the central clearinghouse for all standardized options traded on U.S. exchanges. The OCC is the issuer and guarantor of every listed option, standing between buyers and sellers. When a holder exercises an option, the OCC facilitates the process and assigns the obligation to a short position holder.</p>
+
+          <h3>OCC as Issuer and Guarantor</h3>
+
+          <p>When an options transaction occurs, the OCC effectively becomes the buyer to every seller and the seller to every buyer. This central counterparty role means that:</p>
+
+          <ul>
+            <li>Long position holders look to the OCC for performance when they exercise</li>
+            <li>Short position holders face assignment obligations from the OCC, not from a specific counterparty</li>
+            <li>The OCC guarantees completion of all valid exercises and assignments</li>
+            <li>The OCC maintains a substantial clearing fund and has loss mutualization agreements to ensure it can meet its obligations</li>
+          </ul>
+
+          <p>The ROP must understand that the OCC's guarantee is a cornerstone of the U.S. options market's integrity. This guarantee eliminates counterparty risk from the options market, meaning option holders need not worry about whether the other party can fulfill the contract's obligations.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>OCC Exercise Process:</strong> A customer holds 10 contracts of XYZ Jan 50 calls. On expiration Friday, XYZ closes at $55, making the options $5 in-the-money. The customer instructs their broker to exercise. The broker submits 10 exercise notices to the OCC before the deadline. The OCC processes the exercises and assigns the obligation to deliver 1,000 shares at $50 per share to 10 short call positions (not necessarily from the same firm), selected through its random allocation process. The customer's account is debited $50,000 and credited with 1,000 shares of XYZ stock the next business day.</p>
+            </div>
+          </div>
+
+          <h3>Position Reconciliation</h3>
+
+          <p>The OCC maintains comprehensive records of all open options positions through reports submitted by its clearing members. Each business day, clearing members reconcile their positions with the OCC. The ROP must ensure that the firm's internal position records match the OCC's records, as discrepancies can lead to processing errors during exercise and assignment.</p>
+        </section>
+
+        <section class="lesson__section" id="automatic-exercise">
+          <h2>Automatic Exercise Thresholds</h2>
+
+          <p>One of the most important OCC procedures that the ROP must understand is automatic exercise, also called "exercise by exception." This procedure was implemented to protect customers who hold in-the-money options at expiration but fail to provide exercise instructions.</p>
+
+          <h3>Current Automatic Exercise Thresholds (2026)</h3>
+
+          <p>Under OCC rules, the automatic exercise thresholds are:</p>
+
+          <ul>
+            <li><strong>Equity Options:</strong> Automatically exercised if $0.01 or more in-the-money at expiration</li>
+            <li><strong>Broad-Based Index Options (e.g., SPX):</strong> Automatically exercised if $0.01 or more in-the-money at expiration</li>
+            <li><strong>Narrow-Based Index Options:</strong> Automatically exercised if $0.01 or more in-the-money at expiration</li>
+            <li><strong>ETF Options:</strong> Automatically exercised if $0.01 or more in-the-money at expiration</li>
+          </ul>
+
+          <p>The $0.01 threshold applies universally across all standard equity and equity-index options. This replaced the previous higher thresholds and was implemented to better protect retail customers from inadvertently allowing valuable options to expire worthless.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 4 exam will test your knowledge of the $0.01 automatic exercise threshold for equity options. Remember: any option that is even $0.01 in-the-money at expiration will be automatically exercised unless the customer provides contrary instructions (a "Do Not Exercise" notice). This protects customers but can create unwanted positions, so customer communication before expiration is critical.</p>
+            </div>
+          </div>
+
+          <h3>Exercise by Exception Procedures</h3>
+
+          <p>The exercise by exception process works as follows:</p>
+
+          <ol>
+            <li><strong>Position Identification:</strong> On expiration Friday, the OCC identifies all options positions that meet the automatic exercise threshold.</li>
+            <li><strong>Automatic Processing:</strong> Unless the clearing member submits a contrary instruction (Do Not Exercise notice), the OCC automatically exercises these positions.</li>
+            <li><strong>Assignment Processing:</strong> The OCC then assigns the obligations resulting from these exercises (and any voluntary exercises) to short position holders.</li>
+            <li><strong>Settlement:</strong> Stock delivery and payment settle through the normal settlement cycle (T+1 for equity options).</li>
+          </ol>
+
+          <h3>Do Not Exercise (DNE) Instructions</h3>
+
+          <p>There are situations where a customer may not want an in-the-money option to be exercised, even though it would be automatically exercised under OCC rules. Common scenarios include:</p>
+
+          <ul>
+            <li>The customer lacks sufficient funds or margin to take delivery of the underlying shares (call exercise)</li>
+            <li>The customer does not own the underlying shares to deliver (put exercise)</li>
+            <li>Transaction costs of exercising and immediately closing the stock position would exceed the intrinsic value</li>
+            <li>The customer wants to close the position in the options market rather than converting to stock</li>
+          </ul>
+
+          <p>The ROP must ensure that the firm has procedures for accepting and submitting Do Not Exercise instructions to the OCC by the deadline (typically 5:30 PM ET on expiration day).</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Automatic exercise can create significant problems for customers who are unprepared. A customer with limited funds who holds expiring in-the-money call options may find their account automatically exercised, creating a large stock purchase that triggers margin calls. The ROP must ensure the firm proactively contacts customers before expiration to discuss their intentions and the consequences of exercise. Many firms implement procedures to prevent automatic exercise in accounts lacking adequate margin or equity.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="assignment-process">
+          <h2>Assignment Process and Random Allocation</h2>
+
+          <p>Assignment is the other side of the exercise process. When option holders exercise their rights, the OCC assigns the corresponding obligations to option writers (short positions). Understanding the assignment process is essential for the ROP, as assignment can create unexpected positions and obligations for customers with short options.</p>
+
+          <h3>OCC Random Allocation Method</h3>
+
+          <p>When the OCC receives exercise notices for a particular option series, it must determine which specific short positions will be assigned. The OCC uses a random allocation system:</p>
+
+          <ol>
+            <li><strong>Exercise Aggregation:</strong> The OCC aggregates all exercise notices received for each option series.</li>
+            <li><strong>Random Selection:</strong> The OCC uses a random number generator to select clearing members in proportion to their short positions. If 1,000 contracts are exercised and a clearing member holds 10% of the short open interest, that clearing member would expect to receive approximately 100 assignment notices (though the random process means the actual number may vary slightly).</li>
+            <li><strong>Member-Level Allocation:</strong> Each clearing member receives assignment notices from the OCC. The clearing member must then allocate these assignments among its customer and proprietary accounts.</li>
+            <li><strong>Firm Allocation Methods:</strong> Broker-dealers typically use one of three methods for allocating assignments: random, first-in-first-out (FIFO), or pro-rata. FINRA and exchange rules permit any reasonable allocation method, but the firm must apply its chosen method consistently and disclose it to customers.</li>
+          </ol>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Assignment:</strong> The process by which the OCC imposes the obligation on an option writer to fulfill the terms of the options contract. Call writers (short calls) are assigned the obligation to deliver stock at the strike price; put writers (short puts) are assigned the obligation to purchase stock at the strike price. Assignment is random and can occur at any time for American-style options.</p>
+            </div>
+          </div>
+
+          <h3>Assignment Notification</h3>
+
+          <p>Assignment notifications flow from the OCC to clearing members, and then from clearing members to broker-dealers and their customers. The timeline is:</p>
+
+          <ul>
+            <li><strong>Exercise Day (T):</strong> Exercises are submitted to the OCC by 5:30 PM ET</li>
+            <li><strong>Assignment Day (T):</strong> The OCC processes exercises and allocates assignments overnight. By early morning of T+1, clearing members receive assignment notices.</li>
+            <li><strong>Notification Day (T+1):</strong> Broker-dealers notify customers of assignments. Many firms provide notification electronically through the customer's online account interface. Settlement processing begins.</li>
+            <li><strong>Settlement Day (T+1):</strong> Stock and cash settle. For equity options, the standard settlement cycle is T+1 (next business day).</li>
+          </ul>
+
+          <p>The ROP must ensure that the firm has effective procedures for promptly notifying customers of assignments, as customers may need to take action quickly to manage the resulting stock position or meet margin calls.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Assignment Scenario:</strong> A customer is short 5 contracts of ABC Jan 60 calls. On Thursday evening, ABC announces strong earnings, and the stock gaps up to $70 in after-hours trading. By Friday morning, some long call holders have exercised early. The OCC allocates assignments randomly, and this customer's firm receives 2 assignment notices on the 5 short contracts. The customer is notified Friday morning that they must deliver 200 shares of ABC stock at $60 per share. If the customer doesn't own the shares, this creates a short stock position of 200 shares, which must be covered or maintained with appropriate margin.</p>
+            </div>
+          </div>
+
+          <h3>Firm Allocation Methods</h3>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Allocation Method</th>
+                  <th>Description</th>
+                  <th>Advantages</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Random</td>
+                  <td class="compare-table__cell">Uses random selection, similar to OCC method</td>
+                  <td class="compare-table__cell">Perceived as most fair; difficult to game</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">First-In-First-Out (FIFO)</td>
+                  <td class="compare-table__cell">Assigns to oldest short positions first</td>
+                  <td class="compare-table__cell">Simple to administer; predictable</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Pro-Rata</td>
+                  <td class="compare-table__cell">Distributes assignments proportionally across all short positions</td>
+                  <td class="compare-table__cell">Spreads assignment risk evenly</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="settlement-obligations">
+          <h2>Settlement Obligations and Timelines</h2>
+
+          <p>Exercise and assignment create settlement obligations that must be fulfilled according to specific timelines. The ROP must ensure that customers understand and can meet these obligations, and that the firm's operations and margin departments are prepared to handle settlement.</p>
+
+          <h3>Settlement Cycle for Equity Options</h3>
+
+          <p>When an equity option is exercised:</p>
+
+          <ul>
+            <li><strong>Call Exercise Settlement (T+1):</strong> The call holder (exerciser) must pay the total purchase price (strike price × number of shares) and receives the shares. The call writer (assignee) must deliver the shares and receives the payment. Settlement occurs T+1 (next business day).</li>
+            <li><strong>Put Exercise Settlement (T+1):</strong> The put holder (exerciser) must deliver the shares and receives the total sale proceeds (strike price × number of shares). The put writer (assignee) must pay for the shares and receives the shares. Settlement occurs T+1.</li>
+          </ul>
+
+          <h3>Settlement Timeline Comparison</h3>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Transaction Type</th>
+                  <th>Settlement Cycle</th>
+                  <th>Payment/Delivery Obligation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Call Exercise (Holder)</td>
+                  <td class="compare-table__cell">T+1</td>
+                  <td class="compare-table__cell">Pay strike price × shares; receive stock</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Call Assignment (Writer)</td>
+                  <td class="compare-table__cell">T+1</td>
+                  <td class="compare-table__cell">Deliver stock; receive strike price × shares</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Put Exercise (Holder)</td>
+                  <td class="compare-table__cell">T+1</td>
+                  <td class="compare-table__cell">Deliver stock; receive strike price × shares</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Put Assignment (Writer)</td>
+                  <td class="compare-table__cell">T+1</td>
+                  <td class="compare-table__cell">Pay strike price × shares; receive stock</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Index Option Exercise</td>
+                  <td class="compare-table__cell">T+1</td>
+                  <td class="compare-table__cell">Cash settlement only; no stock delivery</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Margin and Financial Requirements</h3>
+
+          <p>Exercise and assignment can create significant financial obligations. The ROP must ensure the firm monitors accounts for adequate margin and equity to meet settlement obligations:</p>
+
+          <ul>
+            <li><strong>Call Exercise (Long):</strong> Requires payment of the full strike price. In a cash account, funds must be available. In a margin account, Regulation T margin applies (currently 50% initial margin on the resulting long stock position).</li>
+            <li><strong>Call Assignment (Short):</strong> If the customer owns the stock (covered call), shares are simply delivered. If the customer doesn't own the stock (uncovered/naked call), this creates a short stock position requiring substantial margin (typically 30% of stock value plus the out-of-the-money amount, if any).</li>
+            <li><strong>Put Exercise (Long):</strong> If the customer owns the stock, shares are delivered. If the customer doesn't own the stock, this creates a short stock position requiring margin.</li>
+            <li><strong>Put Assignment (Short):</strong> Requires payment of the full strike price. If adequate funds are not available, this may trigger a margin call.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The T+1 settlement cycle for equity options means that customers have only one business day to meet settlement obligations after exercise or assignment. The ROP must ensure that margin departments monitor positions approaching expiration and that customers with insufficient funds are contacted proactively to avoid settlement failures.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="expiration-processing">
+          <h2>Expiration Processing and ROP Responsibilities</h2>
+
+          <p>Expiration Friday (the third Friday of the expiration month for monthly options) is one of the most critical days for options supervision. The ROP must ensure that comprehensive procedures are in place to manage the exercise, assignment, and expiration process efficiently and in customers' best interests.</p>
+
+          <h3>Pre-Expiration Customer Communication</h3>
+
+          <p>Best practices for ROPs include implementing procedures for proactive customer communication before expiration:</p>
+
+          <ul>
+            <li><strong>At-Risk Position Identification:</strong> By the Wednesday or Thursday before expiration, identify all customers holding expiring options positions, particularly those that are in-the-money.</li>
+            <li><strong>Customer Outreach:</strong> Contact customers with material expiring positions to discuss their intentions. Confirm whether they want to exercise, close the position, or let it expire.</li>
+            <li><strong>Margin Adequacy Review:</strong> For customers whose options are in-the-money and likely to be automatically exercised, verify that they have adequate margin or cash to take delivery of the underlying position.</li>
+            <li><strong>Documentation:</strong> Document all customer conversations and instructions regarding expiring positions.</li>
+          </ul>
+
+          <h3>Expiration Day Procedures</h3>
+
+          <p>On expiration Friday, the ROP should ensure the following procedures are executed:</p>
+
+          <ol>
+            <li><strong>Trading Deadline Monitoring:</strong> Options cease trading at 4:00 PM ET on expiration day. Monitor to ensure no late orders are accepted after the cutoff.</li>
+            <li><strong>Exercise Instruction Deadline:</strong> Enforce the firm's internal exercise instruction deadline (typically 5:30 PM ET for most firms). Late instructions may not be processable.</li>
+            <li><strong>Automatic Exercise Review:</strong> Review all positions subject to automatic exercise. Submit Do Not Exercise instructions where appropriate (e.g., accounts lacking margin for the resulting position).</li>
+            <li><strong>OCC Submission:</strong> Ensure all exercise and Do Not Exercise instructions are submitted to the OCC by the deadline.</li>
+            <li><strong>Settlement Preparation:</strong> Prepare for next-day settlement of exercises and assignments. Ensure clearing operations are staffed adequately.</li>
+          </ol>
+
+          <h3>Post-Expiration Processing</h3>
+
+          <p>The business day following expiration (settlement day):</p>
+
+          <ul>
+            <li><strong>Assignment Notification:</strong> Review assignment notices from the OCC. Allocate assignments to customer accounts according to the firm's allocation method.</li>
+            <li><strong>Customer Notification:</strong> Notify customers of assignments promptly. Many customers will need to take immediate action to close out the resulting stock position or meet margin calls.</li>
+            <li><strong>Margin Call Issuance:</strong> Issue margin calls for accounts that are undermargined due to exercise or assignment.</li>
+            <li><strong>Settlement Monitoring:</strong> Monitor settlement of all exercise and assignment obligations. Ensure stock and cash are delivered as required.</li>
+            <li><strong>Exception Handling:</strong> Address any settlement failures, processing errors, or customer disputes.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>For the Series 4 exam, remember the key deadlines: options trading stops at 4:00 PM ET on expiration Friday; exercise instructions must be submitted by the firm's deadline (typically 5:30 PM ET); the OCC deadline for exercise notices is 5:30 PM ET; assignment notices are distributed overnight; settlement occurs T+1. Know these timelines cold, as they are frequently tested.</p>
+            </div>
+          </div>
+
+          <h3>Common Expiration Issues and Solutions</h3>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Issue</th>
+                  <th>Cause</th>
+                  <th>ROP Solution</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Unwanted automatic exercise</td>
+                  <td class="compare-table__cell">Customer didn't provide DNE instructions</td>
+                  <td class="compare-table__cell">Proactive customer contact; clear DNE procedures</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Margin call after assignment</td>
+                  <td class="compare-table__cell">Uncovered position assigned; insufficient margin</td>
+                  <td class="compare-table__cell">Pre-expiration margin review; customer communication</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Valuable option expires worthless</td>
+                  <td class="compare-table__cell">Customer didn't provide exercise instructions</td>
+                  <td class="compare-table__cell">Automatic exercise protects most cases; document communication</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Pin risk at expiration</td>
+                  <td class="compare-table__cell">Underlying closes at or near strike price</td>
+                  <td class="compare-table__cell">Educate customers on pin risk; suggest closing positions before expiration</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the exercise and assignment process with <strong>"EATS"</strong>: <strong>E</strong>xercise instructions received from customers, <strong>A</strong>utomatic exercise applied by OCC (if $0.01 ITM), <strong>T</strong>ransmit to OCC by deadline (5:30 PM ET), <strong>S</strong>ettlement next business day (T+1). This sequence covers the complete lifecycle from customer intent to settlement.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Check Your Understanding</h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of exercise and assignment procedures. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Under current OCC rules, equity options are automatically exercised at expiration if they are in-the-money by at least:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) $0.01</button>
+              <button class="answer-btn" data-correct="false">B) $0.05</button>
+              <button class="answer-btn" data-correct="false">C) $0.25</button>
+              <button class="answer-btn" data-correct="false">D) $0.50</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">The OCC automatically exercises equity options that are $0.01 or more in-the-money at expiration. This threshold protects customers from inadvertently allowing valuable options to expire worthless, though it can also create unwanted stock positions if customers are not adequately prepared.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. The OCC uses which method to allocate assignments among its clearing members?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) First-in-first-out (FIFO)</button>
+              <button class="answer-btn" data-correct="true">B) Random allocation</button>
+              <button class="answer-btn" data-correct="false">C) Pro-rata allocation</button>
+              <button class="answer-btn" data-correct="false">D) Last-in-first-out (LIFO)</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">The OCC uses a random allocation method to assign exercise obligations among clearing members. This ensures fairness and prevents gaming of the assignment process. Individual broker-dealers may then use random, FIFO, or pro-rata methods to allocate among their customers.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Exercise and assignment of equity options settle on:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Trade date (T)</button>
+              <button class="answer-btn" data-correct="true">B) T+1 (next business day)</button>
+              <button class="answer-btn" data-correct="false">C) T+2 (two business days)</button>
+              <button class="answer-btn" data-correct="false">D) T+3 (three business days)</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Exercise and assignment of equity options settle T+1 (next business day). This means that stock and cash must be delivered the business day following exercise. The tight settlement cycle requires careful coordination between customers, broker-dealers, and the OCC.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. A customer holding an in-the-money option at expiration who does NOT want it to be exercised must provide:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) A sell-to-close order</button>
+              <button class="answer-btn" data-correct="true">B) A Do Not Exercise (DNE) instruction</button>
+              <button class="answer-btn" data-correct="false">C) A margin waiver</button>
+              <button class="answer-btn" data-correct="false">D) Written authorization to the exchange</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">A customer holding an in-the-money option at expiration who does not want it exercised must provide a Do Not Exercise (DNE) instruction to their broker-dealer by the firm's deadline. Without a DNE instruction, any option $0.01 or more in-the-money will be automatically exercised by the OCC.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. The typical firm deadline for customers to submit exercise instructions on expiration Friday is:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 12:00 PM ET</button>
+              <button class="answer-btn" data-correct="false">B) 4:00 PM ET</button>
+              <button class="answer-btn" data-correct="true">C) 5:30 PM ET</button>
+              <button class="answer-btn" data-correct="false">D) 7:00 PM ET</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Most firms set an internal exercise instruction deadline of 5:30 PM ET on expiration Friday. This gives the firm time to process customer instructions and submit exercise notices to the OCC by the OCC's deadline (also typically 5:30 PM ET). Note that options stop trading at 4:00 PM ET, but exercise instructions can be accepted until the later deadline.</div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Mark Chapter Complete</button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="options-trading-supervision.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span>
+            <div><span class="lesson__nav-label">Previous Chapter</span><span class="lesson__nav-title">Chapter 2 — Options Trading Supervision</span></div>
+          </a>
+          <a href="position-exercise-limits.html" class="lesson__nav-link lesson__nav-link--next">
+            <div><span class="lesson__nav-label">Next Chapter</span><span class="lesson__nav-title">Chapter 4 — Position &amp; Exercise Limits</span></div>
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc"><p class="lesson__toc-title">On This Page</p><ul class="lesson__toc-list"></ul></aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a><p class="footer__tagline">Free exam prep for every aspiring finance professional.</p></div>
+        <div class="footer__col"><h4 class="footer__col-title">Exams</h4><ul class="footer__links"><li><a href="../../exams/sie.html">SIE</a></li><li><a href="../../exams/series7.html">Series 7</a></li><li><a href="../../exams/series63.html">Series 63</a></li><li><a href="../../exams/series65.html">Series 65</a></li><li><a href="../../exams/series66.html">Series 66</a></li><li><a href="../../exams/">View All Exams</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Tools</h4><ul class="footer__links"><li><a href="../../learn/">Learn</a></li><li><a href="../../quiz/">Practice Quizzes</a></li><li><a href="../../flashcards/">Flashcards</a></li><li><a href="../../pathways/">Career Pathways</a></li><li><a href="../../progress/">Progress Tracker</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">About</h4><ul class="footer__links"><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../privacy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms of Use</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p></div>
+      <div class="footer__bottom"><p>&copy; 2026 LearnFinance. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

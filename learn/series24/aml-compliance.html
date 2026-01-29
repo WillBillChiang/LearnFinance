@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn about anti-money laundering programs, SAR filing, CIP requirements, OFAC compliance, and supervisory obligations for the Series 24 exam.">
+  <title>AML Compliance - Series 24 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series24" data-chapter="aml-compliance">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-principal">Chapter 10</span>
+          <h1>AML Compliance</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              20 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 24 — General Securities Principal
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1 ====== -->
+        <section class="lesson__section" id="bsa-patriot-act">
+          <h2>Bank Secrecy Act and USA PATRIOT Act</h2>
+
+          <p>Anti-money laundering (AML) compliance is one of the most critical supervisory responsibilities of a General Securities Principal. The foundation of AML compliance rests on two major pieces of federal legislation: the <strong>Bank Secrecy Act (BSA)</strong> enacted in 1970, and the <strong>USA PATRIOT Act</strong> enacted in 2001. Together, these laws establish a comprehensive framework requiring financial institutions, including broker-dealers, to implement programs designed to detect and prevent money laundering and terrorist financing.</p>
+
+          <p>The Bank Secrecy Act requires financial institutions to maintain records and file reports that have been determined to have a high degree of usefulness in criminal, tax, and regulatory investigations. Key BSA requirements include currency transaction reporting, suspicious activity reporting, and record retention. The BSA essentially transformed financial institutions into gatekeepers of the financial system, requiring them to serve as the first line of defense against money laundering.</p>
+
+          <p>The USA PATRIOT Act, passed in response to the September 11, 2001 terrorist attacks, significantly expanded AML requirements. Title III of the PATRIOT Act, known as the International Money Laundering Abatement and Anti-Terrorist Financing Act of 2001, added several critical requirements for broker-dealers including mandatory Customer Identification Programs (CIP), enhanced due diligence for certain accounts, prohibition on correspondent accounts with foreign shell banks, and special measures for jurisdictions or transactions of primary money laundering concern.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Money Laundering:</strong> The process of making illegally-gained proceeds (dirty money) appear legal (clean). Money laundering typically involves three stages: placement (introducing illicit funds into the financial system), layering (creating complex layers of transactions to obscure the source), and integration (making the laundered funds appear legitimate).</p>
+            </div>
+          </div>
+
+          <h3>FinCEN's Role</h3>
+
+          <p>The <strong>Financial Crimes Enforcement Network (FinCEN)</strong>, a bureau of the U.S. Department of the Treasury, is the primary federal regulator responsible for administering the Bank Secrecy Act. FinCEN collects and analyzes information about financial transactions to combat money laundering, terrorist financing, and other financial crimes. All Suspicious Activity Reports (SARs) and Currency Transaction Reports (CTRs) are filed with FinCEN. Broker-dealers must comply with FinCEN regulations, which are codified in Title 31 of the Code of Federal Regulations.</p>
+        </section>
+
+        <!-- ====== SECTION 2 ====== -->
+        <section class="lesson__section" id="finra-rule-3310">
+          <h2>FINRA Rule 3310: AML Compliance Program</h2>
+
+          <p>FINRA Rule 3310 requires every member firm to develop and implement a written anti-money laundering program approved in writing by senior management. The AML program must be reasonably designed to achieve and monitor the member's compliance with the Bank Secrecy Act and the implementing regulations promulgated by FinCEN. This is not optional—every broker-dealer registered with FINRA must have an AML program, regardless of size.</p>
+
+          <h3>The Four Pillars of an AML Program</h3>
+
+          <p>At a minimum, an AML program must include four essential components, often referred to as the "four pillars":</p>
+
+          <ul>
+            <li><strong>1. Internal Policies, Procedures, and Controls:</strong> Written procedures based on the firm's specific risk profile and business model. These procedures must address customer identification and verification, monitoring and reporting of suspicious activity, currency transaction reporting, record retention, training, and independent testing of the program.</li>
+            <li><strong>2. Designated AML Compliance Officer:</strong> An individual specifically designated and identified to FINRA as responsible for implementing and monitoring the AML program. The AML Compliance Officer must have sufficient authority, resources, and independence to effectively perform this role.</li>
+            <li><strong>3. Ongoing Training:</strong> Training for appropriate personnel, including all relevant employees, on AML policies and procedures. Training must be provided at least annually and must be tailored to the employee's role and responsibilities.</li>
+            <li><strong>4. Independent Testing:</strong> Periodic independent testing of the AML program, conducted by qualified persons not involved in the day-to-day operation of the program. The testing should evaluate the adequacy of policies and procedures, the effectiveness of the AML program, and compliance with BSA requirements. Testing must be conducted at least every two years, though annual testing is considered a best practice for most firms.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the four pillars: (1) Policies, Procedures, and Controls; (2) Designated AML Officer; (3) Ongoing Training; (4) Independent Testing. Independent testing must occur at least every two years, but many firms do it annually. The AML Compliance Officer must be specifically identified and must have sufficient authority and resources.</p>
+            </div>
+          </div>
+
+          <h3>Risk-Based Approach</h3>
+
+          <p>An effective AML program must be tailored to the firm's specific risk profile. FinCEN and FINRA expect firms to conduct a comprehensive risk assessment considering factors such as the types of products and services offered, customer demographics and geographic locations, distribution channels and business partners, and transaction volumes and patterns. Higher-risk areas require more robust controls and enhanced monitoring.</p>
+        </section>
+
+        <!-- ====== SECTION 3 ====== -->
+        <section class="lesson__section" id="customer-identification-program">
+          <h2>Customer Identification Program (CIP)</h2>
+
+          <p>Section 326 of the USA PATRIOT Act requires every broker-dealer to implement a <strong>Customer Identification Program (CIP)</strong> as part of its BSA compliance program. The CIP must include risk-based procedures for verifying the identity of each customer who opens an account. The purpose is to enable the firm to form a reasonable belief that it knows the true identity of each customer.</p>
+
+          <h3>Required Customer Information</h3>
+
+          <p>At a minimum, the CIP must require the firm to obtain the following information from each customer before or at the time of account opening:</p>
+
+          <ul>
+            <li><strong>For individuals:</strong> Name, date of birth, residential or business street address (not a P.O. box), and identification number (Social Security number for U.S. persons, or passport number and country of issuance for non-U.S. persons)</li>
+            <li><strong>For entities:</strong> Name, business street address (not a P.O. box), and taxpayer identification number (EIN)</li>
+          </ul>
+
+          <p>The firm must verify the customer's identity within a reasonable time before or after account opening, using documents, non-documentary methods, or a combination of both. For individuals, acceptable verification documents include unexpired government-issued identification displaying a photograph (driver's license, passport). For entities, acceptable documents include articles of incorporation, government-issued business licenses, or IRS letters confirming EIN.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>A firm cannot open an account if it cannot form a reasonable belief about the customer's true identity. If the firm cannot verify identity using documents, it must use non-documentary methods such as contacting the customer, independently verifying information, or checking references. Simply accepting self-reported information without verification is insufficient.</p>
+            </div>
+          </div>
+
+          <h3>Customer Notice</h3>
+
+          <p>The CIP must include procedures for providing customers with adequate notice that the firm is requesting information to verify their identities. This notice must be provided to customers before account opening. Many firms include CIP notice language in their account opening documents or post it conspicuously at account opening locations.</p>
+
+          <h3>Recordkeeping Requirements</h3>
+
+          <p>The firm must maintain a record of all identifying information obtained, the methods used and results of verification, and any resolution of discrepancies in the identifying information. CIP records must be retained for five years after the account is closed.</p>
+        </section>
+
+        <!-- ====== SECTION 4 ====== -->
+        <section class="lesson__section" id="suspicious-activity-reports">
+          <h2>Suspicious Activity Reports (SARs)</h2>
+
+          <p>A <strong>Suspicious Activity Report (SAR)</strong> is a report that broker-dealers must file with FinCEN when they detect transactions that may involve money laundering or fraud. SAR filing is perhaps the most important AML obligation, as it serves as the primary mechanism by which financial institutions alert law enforcement to potential criminal activity. SARs are filed on <strong>FinCEN Form 111</strong> (also known as the SAR-SF or Suspicious Activity Report for Securities and Futures).</p>
+
+          <h3>SAR Filing Thresholds and Timing</h3>
+
+          <p>A broker-dealer must file a SAR when it knows, suspects, or has reason to suspect that a transaction involves funds derived from illegal activity, is designed to evade BSA requirements, has no business or apparent lawful purpose, or involves the use of the broker-dealer to facilitate criminal activity. The specific filing thresholds are:</p>
+
+          <ul>
+            <li><strong>Insider trading:</strong> Any transaction, regardless of amount, where the firm knows or suspects insider trading has occurred</li>
+            <li><strong>Transactions aggregating $5,000 or more:</strong> Where the firm knows, suspects, or has reason to suspect the transaction involves funds from illegal activity or is designed to evade BSA regulations (applies to criminal violations affecting the firm)</li>
+            <li><strong>Transactions aggregating $5,000 or more:</strong> That involve potential money laundering or violations of the Bank Secrecy Act</li>
+            <li><strong>Transactions aggregating $25,000 or more:</strong> For which the firm knows of no reasonable explanation or lawful purpose, or for which the firm knows or suspects the transaction is designed to evade BSA requirements</li>
+          </ul>
+
+          <p>A SAR must be filed <strong>within 30 calendar days</strong> of the initial detection of the suspicious activity. If the firm cannot identify a subject (suspect) associated with the suspicious activity, the filing deadline is extended to 60 calendar days to provide additional time for investigation.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Structuring (Smurfing):</strong> The practice of conducting multiple transactions just below the $10,000 reporting threshold to avoid triggering a Currency Transaction Report. For example, depositing $9,500 in cash on multiple days instead of $20,000 all at once. Structuring is itself a federal crime under 31 U.S.C. Section 5324.</p>
+            </div>
+          </div>
+
+          <h3>Confidentiality of SARs</h3>
+
+          <p>SAR confidentiality is <strong>absolute</strong>. A firm and its employees may not disclose to any person involved in the transaction (the subject) that a SAR has been filed or that the transaction has been reported. This prohibition extends even after the employee leaves the firm. Violating SAR confidentiality can result in civil and criminal penalties. The firm may share SAR information with FinCEN, federal law enforcement, federal regulatory authorities, and state and local law enforcement under specified circumstances, but never with the subject of the SAR.</p>
+
+          <h3>Safe Harbor Protection</h3>
+
+          <p>Broker-dealers and their employees are provided safe harbor protection from civil liability for filing SARs. A firm or employee that files a SAR in good faith is protected from lawsuits by the subject of the report, even if the suspicions turn out to be unfounded. This protection is intended to encourage robust reporting without fear of litigation.</p>
+        </section>
+
+        <!-- ====== SECTION 5 ====== -->
+        <section class="lesson__section" id="currency-transaction-reports">
+          <h2>Currency Transaction Reports (CTRs)</h2>
+
+          <p>A <strong>Currency Transaction Report (CTR)</strong> must be filed for each currency transaction that exceeds <strong>$10,000</strong>. Unlike SARs, which are based on suspicion, CTRs are mechanical reports required for any currency transaction over the threshold, regardless of suspicion. CTRs are filed electronically through FinCEN's BSA E-Filing System.</p>
+
+          <h3>What Constitutes a Currency Transaction</h3>
+
+          <p>A currency transaction includes deposits, withdrawals, exchanges of currency, or other payments or transfers of currency. Currency includes U.S. and foreign coins and paper money. Importantly, CTRs are required only for transactions involving physical currency, not wire transfers, checks, or other non-cash instruments.</p>
+
+          <p>Multiple currency transactions must be aggregated if they are conducted by or on behalf of the same person during the same business day and total more than $10,000. For example, if a customer makes three separate cash deposits of $4,000, $3,500, and $3,000 in a single day, these must be aggregated to $10,500, triggering the CTR requirement.</p>
+
+          <h3>Filing Deadline</h3>
+
+          <p>CTRs must be filed within <strong>15 calendar days</strong> following the day on which the reportable transaction occurred. The report must include complete information about the customer, including name, address, Social Security number or EIN, date of birth, and occupation or type of business.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Layering:</strong> The second stage of money laundering, involving complex layers of financial transactions designed to separate illicit proceeds from their source and obscure the audit trail. Examples include wire transfers through multiple accounts, purchasing and selling securities, or converting funds into different currencies or financial instruments.</p>
+            </div>
+          </div>
+
+          <h3>CTR vs. SAR: Key Distinctions</h3>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Feature</th>
+                  <th>SAR (FinCEN Form 111)</th>
+                  <th>CTR</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Trigger</td>
+                  <td class="compare-table__cell">Suspicious activity (subjective)</td>
+                  <td class="compare-table__cell">Currency transactions over $10,000 (objective)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Threshold</td>
+                  <td class="compare-table__cell">$5,000 or $25,000 (depends on type)</td>
+                  <td class="compare-table__cell">$10,000</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Filing Deadline</td>
+                  <td class="compare-table__cell">30 days (or 60 if no subject identified)</td>
+                  <td class="compare-table__cell">15 days</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Confidentiality</td>
+                  <td class="compare-table__cell">Absolute - cannot disclose to subject</td>
+                  <td class="compare-table__cell">Not confidential - customer may be aware</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Transaction Type</td>
+                  <td class="compare-table__cell">Any suspicious transaction</td>
+                  <td class="compare-table__cell">Physical currency only</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 6 ====== -->
+        <section class="lesson__section" id="ofac-compliance">
+          <h2>OFAC and Sanctions Compliance</h2>
+
+          <p>The <strong>Office of Foreign Assets Control (OFAC)</strong>, a division of the U.S. Department of the Treasury, administers and enforces economic and trade sanctions based on U.S. foreign policy and national security goals. Broker-dealers must screen customers and transactions against OFAC's list of <strong>Specially Designated Nationals (SDNs)</strong> and blocked persons. Conducting business with sanctioned individuals, entities, or countries can result in severe civil and criminal penalties.</p>
+
+          <h3>OFAC Screening Requirements</h3>
+
+          <p>Firms must implement procedures to ensure they do not facilitate transactions involving SDNs or blocked persons. This requires screening new customers at account opening, ongoing screening of existing customers against updated OFAC lists, screening transactions in real-time or near real-time, and maintaining records of screening activities. OFAC publishes its SDN list online, and it is updated regularly—often weekly. Firms must ensure they are working with current lists.</p>
+
+          <h3>Blocked Transactions</h3>
+
+          <p>If a firm identifies a match with an OFAC-listed individual or entity, it must <strong>block</strong> (reject) the transaction and freeze the assets. The firm must report blocked transactions to OFAC within 10 business days and cannot release the blocked assets without authorization from OFAC. Even a partial match requires investigation to determine whether it is a true match or a false positive.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>OFAC violations carry severe penalties. Civil penalties can reach hundreds of thousands or even millions of dollars per violation. Willful violations can result in criminal penalties including imprisonment. A principal's failure to implement adequate OFAC screening procedures exposes both the firm and the principal to significant regulatory and legal risk.</p>
+            </div>
+          </div>
+
+          <h3>Sanctioned Countries and Comprehensive Embargoes</h3>
+
+          <p>In addition to the SDN list, OFAC maintains comprehensive sanctions programs targeting specific countries and regions. As of 2026, these include Cuba, Iran, North Korea, Syria, and certain regions of Ukraine (Crimea, Donetsk, and Luhansk). Transactions involving these jurisdictions are generally prohibited, with limited exceptions for humanitarian purposes.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Integration:</strong> The third and final stage of money laundering, in which the laundered funds are reintroduced into the legitimate economy in a way that makes them appear to be the proceeds of lawful activity. Examples include purchasing real estate, luxury goods, or businesses, or creating shell companies with legitimate-appearing revenue streams.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 7 ====== -->
+        <section class="lesson__section" id="red-flags-monitoring">
+          <h2>Red Flags and Suspicious Activity Detection</h2>
+
+          <p>Detecting suspicious activity requires vigilance and an understanding of common red flags that may indicate money laundering, fraud, or other illicit activity. As a principal, you are responsible for ensuring the firm has adequate systems to identify these red flags and that personnel are trained to recognize them.</p>
+
+          <h3>Common Red Flags</h3>
+
+          <p>Red flags that may warrant further investigation or SAR filing include:</p>
+
+          <ul>
+            <li><strong>Structuring behavior:</strong> Multiple transactions just below $10,000 to avoid CTR filing</li>
+            <li><strong>Unusual account activity:</strong> Sudden large deposits followed by immediate withdrawals, especially to foreign accounts</li>
+            <li><strong>Third-party transactions:</strong> Customers receiving wires from or sending wires to parties with no apparent connection to the customer</li>
+            <li><strong>Reluctance to provide information:</strong> Customer unwilling to provide required identification or information, or providing obviously false information</li>
+            <li><strong>Illogical transactions:</strong> Trading patterns that make no economic sense, such as buying and selling the same security at a loss</li>
+            <li><strong>Use of multiple accounts:</strong> Moving funds through multiple accounts with no apparent business purpose</li>
+            <li><strong>High-risk jurisdictions:</strong> Transactions involving countries known for money laundering or terrorist financing</li>
+            <li><strong>Secretive behavior:</strong> Customer insisting on secrecy or making unusual requests regarding confidentiality</li>
+            <li><strong>Shell companies:</strong> Business accounts with no clear business purpose or economic rationale</li>
+            <li><strong>Penny stock manipulation:</strong> Concentrated trading in low-priced securities with no legitimate purpose</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Placement:</strong> The first stage of money laundering, involving the introduction of illicit funds into the financial system. This is often the most vulnerable point for detection because large amounts of cash or unusual deposits may trigger scrutiny. Methods include depositing cash in small amounts (smurfing) or commingling illegal funds with legitimate business revenue.</p>
+            </div>
+          </div>
+
+          <h3>Enhanced Due Diligence</h3>
+
+          <p>For higher-risk customers, firms must conduct <strong>enhanced due diligence (EDD)</strong>. EDD involves obtaining additional information beyond standard CIP requirements, understanding the source of funds and wealth, conducting ongoing monitoring of account activity, and obtaining senior management approval for the relationship. Higher-risk categories include politically exposed persons (PEPs), customers from high-risk jurisdictions, and businesses with complex ownership structures or no clear business purpose.</p>
+        </section>
+
+        <!-- ====== SECTION 8 ====== -->
+        <section class="lesson__section" id="recordkeeping-requirements">
+          <h2>AML Recordkeeping Requirements</h2>
+
+          <p>The Bank Secrecy Act imposes extensive recordkeeping obligations on broker-dealers. As a principal, you must ensure the firm maintains all required AML records and makes them available to regulators upon request. Failure to maintain adequate records is itself a violation, even if no underlying suspicious activity occurred.</p>
+
+          <h3>Required Records and Retention Periods</h3>
+
+          <p>Key AML recordkeeping requirements include:</p>
+
+          <ul>
+            <li><strong>Customer Identification Program records:</strong> All identifying information, verification methods and results, and any discrepancies identified. Retention: 5 years after account closure.</li>
+            <li><strong>SARs and supporting documentation:</strong> Copies of all filed SARs and supporting work papers documenting the investigation. Retention: 5 years from filing date.</li>
+            <li><strong>CTRs and supporting documentation:</strong> Copies of all filed CTRs and records supporting the information reported. Retention: 5 years from filing date.</li>
+            <li><strong>Funds transfer records:</strong> Records of all wire transfers of $3,000 or more (both originating and receiving). Retention: 5 years.</li>
+            <li><strong>Monetary instrument purchases:</strong> Records of purchases of monetary instruments (cashier's checks, money orders, traveler's checks) between $3,000 and $10,000. Retention: 5 years.</li>
+            <li><strong>AML program and policies:</strong> Written AML program, risk assessments, policies, procedures, and training materials. Retention: 5 years after superseded.</li>
+            <li><strong>Independent testing reports:</strong> All independent audit and testing reports of the AML program. Retention: 5 years.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The standard AML retention period is 5 years for most records. Remember: CIP records are retained for 5 years after account closure, while SARs and CTRs are retained for 5 years from the filing date. Wire transfer records and monetary instrument purchases between $3,000 and $10,000 must also be retained.</p>
+            </div>
+          </div>
+
+          <h3>Availability to Regulators</h3>
+
+          <p>AML records must be made available to FINRA, the SEC, FinCEN, and other federal regulators upon request. Firms must be able to produce records promptly—typically within a few business days. Failure to produce required records can result in enforcement action and penalties, even if the underlying activity was compliant.</p>
+        </section>
+
+        <!-- ====== SECTION 9 ====== -->
+        <section class="lesson__section" id="principal-supervisory-responsibilities">
+          <h2>Principal Supervisory Responsibilities</h2>
+
+          <p>As a General Securities Principal, you have direct supervisory responsibility for ensuring the firm's AML program is effective and properly implemented. This extends beyond simply having a written AML program—you must actively supervise and verify that the program is functioning as intended.</p>
+
+          <h3>Key Principal Obligations</h3>
+
+          <p>Your AML supervisory responsibilities include:</p>
+
+          <ul>
+            <li><strong>Approving the AML program:</strong> Senior management, including principals with supervisory authority, must approve the firm's written AML program and any material updates</li>
+            <li><strong>Ensuring adequate resources:</strong> The AML Compliance Officer must have sufficient authority, resources, and access to information to perform their duties effectively</li>
+            <li><strong>Reviewing testing results:</strong> Principals must review the results of independent testing and ensure that identified deficiencies are remediated</li>
+            <li><strong>Monitoring escalations:</strong> When suspicious activity is identified, principals must be involved in the decision-making process regarding SAR filing</li>
+            <li><strong>Training oversight:</strong> Ensuring that all appropriate personnel receive required AML training and that training is documented</li>
+            <li><strong>Responding to examinations:</strong> Cooperating with regulatory examinations and ensuring that the firm takes corrective action in response to any findings</li>
+          </ul>
+
+          <h3>Penalties for AML Violations</h3>
+
+          <p>AML violations can result in severe penalties for both the firm and individual principals. Potential consequences include:</p>
+
+          <ul>
+            <li><strong>Civil monetary penalties:</strong> FinCEN and FINRA can impose substantial fines for AML program failures, failure to file SARs or CTRs, and other violations. Penalties can reach millions of dollars</li>
+            <li><strong>Criminal penalties:</strong> Willful violations of the Bank Secrecy Act can result in criminal prosecution, including imprisonment for up to five years and fines up to $250,000 for individuals</li>
+            <li><strong>Regulatory sanctions:</strong> FINRA can impose suspensions, bars, censures, and limitations on activities</li>
+            <li><strong>Reputational damage:</strong> Public disclosure of AML failures can severely damage a firm's reputation and business relationships</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>AML compliance is not a box-checking exercise. It requires ongoing vigilance, adequate resources, continuous training, and active principal oversight. Firms and principals can be held liable not only for failing to detect and report suspicious activity, but also for having inadequate AML programs. Your job as a principal is to ensure the program is reasonably designed and effectively implemented.</p>
+            </div>
+          </div>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Real-World AML Case Studies
+            </summary>
+            <div class="deep-dive__content">
+              <p>FINRA and FinCEN have brought numerous enforcement actions against broker-dealers for AML failures. Common themes in these cases include:</p>
+              <ul>
+                <li><strong>Failure to file SARs:</strong> Firms that identified red flags but failed to investigate or file SARs. In one case, a firm was fined $10 million for failing to file SARs on suspicious penny stock transactions despite multiple red flags.</li>
+                <li><strong>Inadequate CIP:</strong> Firms that opened accounts without properly verifying customer identities, particularly for foreign customers or entities with complex ownership structures.</li>
+                <li><strong>No independent testing:</strong> Firms that went years without conducting independent testing of their AML programs, or where testing was conducted by individuals who lacked independence.</li>
+                <li><strong>Ignoring red flags:</strong> Firms that generated AML alerts but failed to investigate or document the results of their investigations.</li>
+                <li><strong>Understaffed compliance:</strong> Firms where the AML Compliance Officer was responsible for monitoring thousands of accounts without adequate staff or technology support.</li>
+                <li><strong>OFAC screening failures:</strong> Firms that failed to screen customers against OFAC lists or that failed to update their screening systems with current lists.</li>
+              </ul>
+              <p>These cases underscore the importance of a robust, well-resourced, and actively supervised AML program. Regulatory expectations are high, and the consequences of failure are severe.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of AML compliance. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. What are the four required pillars of an AML compliance program under FINRA Rule 3310?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Policies and procedures, designated AML officer, ongoing training, and independent testing</button>
+              <button class="answer-btn" data-correct="false">B) CIP, SAR filing, CTR filing, and OFAC screening</button>
+              <button class="answer-btn" data-correct="false">C) Risk assessment, customer due diligence, transaction monitoring, and recordkeeping</button>
+              <button class="answer-btn" data-correct="false">D) Written procedures, annual certification, branch inspections, and compliance review</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The four pillars are: (1) internal policies, procedures, and controls; (2) a designated AML compliance officer; (3) ongoing training for appropriate personnel; and (4) independent testing of the program. These four elements are mandatory for every broker-dealer's AML program.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. A broker-dealer identifies suspicious trading activity totaling $8,000 that appears designed to evade BSA requirements. What is the firm's obligation?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) No SAR is required because the amount is below $10,000</button>
+              <button class="answer-btn" data-correct="false">B) File a SAR only if the activity exceeds $25,000</button>
+              <button class="answer-btn" data-correct="true">C) File a SAR within 30 days because the activity involves possible evasion of BSA requirements</button>
+              <button class="answer-btn" data-correct="false">D) Report the activity to FINRA but not to FinCEN</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A SAR must be filed for transactions aggregating $5,000 or more where the firm knows, suspects, or has reason to suspect the transaction is designed to evade BSA requirements. The $25,000 threshold applies only to transactions with no reasonable explanation or lawful purpose. Activity designed to evade reporting is suspicious at any amount exceeding $5,000.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Within how many calendar days must a SAR be filed after the initial detection of suspicious activity?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 15 days</button>
+              <button class="answer-btn" data-correct="false">B) 20 days</button>
+              <button class="answer-btn" data-correct="true">C) 30 days (or 60 days if no subject can be identified)</button>
+              <button class="answer-btn" data-correct="false">D) 45 days</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A SAR must be filed within 30 calendar days of initial detection. If the firm cannot identify a subject (suspect) associated with the suspicious activity, the deadline is extended to 60 days to allow additional time for investigation. This is different from the 15-day deadline for CTRs.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. A customer makes three separate cash deposits of $9,800 each in a single business day. What reporting obligation does this trigger?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) No reporting required because each transaction is under $10,000</button>
+              <button class="answer-btn" data-correct="false">B) File a CTR only, as the total exceeds $10,000</button>
+              <button class="answer-btn" data-correct="false">C) File a SAR only, as this appears to be structuring</button>
+              <button class="answer-btn" data-correct="true">D) File both a CTR (because aggregated total exceeds $10,000) and a SAR (because this appears to be structuring)</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Multiple currency transactions by the same person in a single business day must be aggregated. The total of $29,400 exceeds $10,000, triggering a CTR requirement. Additionally, the pattern of multiple deposits just under $10,000 appears to be structuring (an attempt to evade CTR reporting), which is itself illegal and requires SAR filing. Both reports must be filed.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. How often must independent testing of a firm's AML program be conducted at a minimum?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Annually</button>
+              <button class="answer-btn" data-correct="true">B) At least every two years</button>
+              <button class="answer-btn" data-correct="false">C) Every three years</button>
+              <button class="answer-btn" data-correct="false">D) Only when material changes occur to the program</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Independent testing must be conducted at least every two years, though annual testing is considered a best practice and is recommended for most firms. The testing must be conducted by qualified persons who are independent of the day-to-day operation of the AML program. Firms with higher risk profiles should conduct testing more frequently.
+            </div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="trading-supervision.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 8 — Trading Supervision</span>
+            </div>
+          </a>
+          <a href="index.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Course Overview</span>
+              <span class="lesson__nav-title">Back to Series 24 Home</span>
+            </div>
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

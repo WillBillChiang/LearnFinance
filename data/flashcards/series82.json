@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series82-fc001",
+    "topic": "series82-t1",
+    "topicName": "Private Placements Overview",
+    "front": "What is a private placement?",
+    "back": "A private placement is the sale of securities to a select group of investors without public registration with the SEC. It provides a faster and less costly method for companies to raise capital compared to public offerings. Private placements are exempt from full SEC registration under Regulation D and Section 4(a)(2) of the Securities Act of 1933."
+  },
+  {
+    "id": "series82-fc002",
+    "topic": "series82-t1",
+    "topicName": "Private Placements Overview",
+    "front": "What is the role of a private placement agent?",
+    "back": "A private placement agent (Series 82 registered representative) assists issuers in selling unregistered securities to qualified investors. They identify potential investors, distribute offering documents, facilitate due diligence, and negotiate terms. They must ensure compliance with applicable exemptions and verify that investors meet accreditation or sophistication requirements."
+  },
+  {
+    "id": "series82-fc003",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is Regulation D?",
+    "back": "Regulation D provides three SEC registration exemptions for private placements: Rule 504 (offerings up to $10 million), Rule 506(b) (unlimited amount, up to 35 non-accredited investors, no general solicitation), and Rule 506(c) (unlimited amount, only verified accredited investors, general solicitation permitted). Regulation D offerings require Form D filing within 15 days of first sale."
+  },
+  {
+    "id": "series82-fc004",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is an accredited investor under Regulation D?",
+    "back": "An accredited investor includes: individuals with income exceeding $200,000 ($300,000 joint) in the two most recent years with expectation of the same, individuals with net worth over $1 million (excluding primary residence), directors/officers of the issuer, banks, insurance companies, registered investment companies, and entities with assets over $5 million. Certain knowledgeable employees and holders of financial credentials also qualify."
+  },
+  {
+    "id": "series82-fc005",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is the difference between Rule 506(b) and Rule 506(c)?",
+    "back": "Rule 506(b) prohibits general solicitation and advertising but allows up to 35 non-accredited sophisticated investors alongside unlimited accredited investors. Rule 506(c) permits general solicitation and advertising but requires all purchasers to be accredited investors, and the issuer must take reasonable steps to verify accredited status. Both allow unlimited fundraising."
+  },
+  {
+    "id": "series82-fc006",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is Form D?",
+    "back": "Form D is a notice filed electronically with the SEC within 15 calendar days after the first sale of securities in a Regulation D offering. It provides basic information about the issuer, the offering, and the exemption relied upon. Form D is not a registration statement and does not require SEC review or approval. Amendments must be filed for material changes."
+  },
+  {
+    "id": "series82-fc007",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What are restricted securities?",
+    "back": "Restricted securities are securities acquired through unregistered private sales, such as Regulation D offerings. They cannot be freely resold in the public market without registration or an available exemption (such as Rule 144). Restricted securities bear a restrictive legend on the certificate or book-entry record indicating the transfer restrictions."
+  },
+  {
+    "id": "series82-fc008",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is the integration doctrine in private placements?",
+    "back": "The integration doctrine holds that multiple offerings that are part of a single plan of financing may be integrated and treated as one offering by the SEC. If integrated, the combined offering must satisfy a single exemption. Factors include timing, type of consideration, purpose of proceeds, and whether the same class of securities is offered. Safe harbors exist to prevent integration."
+  },
+  {
+    "id": "series82-fc009",
+    "topic": "series82-t3",
+    "topicName": "Other Exemptions",
+    "front": "What is Regulation A+?",
+    "back": "Regulation A+ provides an exemption for smaller public offerings in two tiers: Tier 1 allows offerings up to $20 million, and Tier 2 allows offerings up to $75 million in a 12-month period. Tier 2 offerings require audited financial statements and ongoing reporting. Unlike Reg D, Reg A+ securities are not restricted and may be freely traded. Reg A+ offerings require SEC qualification."
+  },
+  {
+    "id": "series82-fc010",
+    "topic": "series82-t3",
+    "topicName": "Other Exemptions",
+    "front": "What is Rule 144A?",
+    "back": "Rule 144A permits the resale of restricted securities to qualified institutional buyers (QIBs) without SEC registration. A QIB must own and invest at least $100 million in securities. Rule 144A creates a liquid secondary market for privately placed securities among large institutional investors, making private placements more attractive to issuers and initial purchasers."
+  },
+  {
+    "id": "series82-fc011",
+    "topic": "series82-t3",
+    "topicName": "Other Exemptions",
+    "front": "What is Section 4(a)(2) of the Securities Act?",
+    "back": "Section 4(a)(2) exempts from registration 'transactions by an issuer not involving any public offering.' It is the statutory basis for private placements. The SEC and courts consider factors such as the number and sophistication of offerees, manner of offering, relationship between issuer and offerees, and information provided. Regulation D provides a safe harbor for Section 4(a)(2)."
+  },
+  {
+    "id": "series82-fc012",
+    "topic": "series82-t3",
+    "topicName": "Other Exemptions",
+    "front": "What is Regulation S?",
+    "back": "Regulation S provides a safe harbor from SEC registration for securities offerings made outside the United States to non-U.S. persons. The offering must be made in an 'offshore transaction' with no directed selling efforts in the U.S. Distribution compliance periods and restrictions on flowback into U.S. markets apply to prevent circumvention of registration requirements."
+  },
+  {
+    "id": "series82-fc013",
+    "topic": "series82-t4",
+    "topicName": "Private Placement Documents",
+    "front": "What is a private placement memorandum (PPM)?",
+    "back": "A PPM is the primary disclosure document for a private placement, similar to a prospectus for public offerings. It describes the issuer's business, management, financial condition, terms of the offering, risk factors, use of proceeds, and investor suitability requirements. While not required by the SEC, a PPM is standard practice and provides anti-fraud protection for the issuer."
+  },
+  {
+    "id": "series82-fc014",
+    "topic": "series82-t4",
+    "topicName": "Private Placement Documents",
+    "front": "What is a subscription agreement?",
+    "back": "A subscription agreement is the contract between the investor and the issuer in a private placement. The investor agrees to purchase securities and represents their accredited status, investment experience, and understanding of the risks. The issuer retains the right to accept or reject subscriptions. Subscription funds are typically held in escrow until the minimum offering amount is reached."
+  },
+  {
+    "id": "series82-fc015",
+    "topic": "series82-t4",
+    "topicName": "Private Placement Documents",
+    "front": "What is an investor questionnaire?",
+    "back": "An investor questionnaire is a document completed by prospective investors in a private placement to establish their qualifications. It collects information about income, net worth, investment experience, and sophistication to verify accredited investor status or determine if a non-accredited investor meets sophistication requirements. It helps issuers document compliance with Regulation D."
+  },
+  {
+    "id": "series82-fc016",
+    "topic": "series82-t5",
+    "topicName": "Due Diligence and Suitability",
+    "front": "What due diligence must be performed for a private placement?",
+    "back": "Due diligence includes verifying the issuer's business operations, financial condition, management background, legal standing, and material contracts. The placement agent must review the PPM for accuracy and completeness, confirm the offering qualifies for an exemption, and verify investor qualifications. Adequate due diligence helps protect against anti-fraud liability."
+  },
+  {
+    "id": "series82-fc017",
+    "topic": "series82-t5",
+    "topicName": "Due Diligence and Suitability",
+    "front": "What suitability obligations apply to private placement sales?",
+    "back": "Representatives must ensure that private placement investments are suitable for each investor based on their financial situation, investment objectives, risk tolerance, and liquidity needs. Private placements are illiquid, high-risk investments not appropriate for all investors. FINRA rules require reasonable-basis and customer-specific suitability analyses before making recommendations."
+  },
+  {
+    "id": "series82-fc018",
+    "topic": "series82-t5",
+    "topicName": "Due Diligence and Suitability",
+    "front": "What are the risks specific to private placements?",
+    "back": "Key risks include illiquidity (no public market for resale), lack of public information and ongoing disclosure requirements, higher default risk (often early-stage or leveraged companies), concentration risk, valuation uncertainty, and longer investment horizons. Investors may not be able to sell their investment for years and may lose their entire investment."
+  },
+  {
+    "id": "series82-fc019",
+    "topic": "series82-t6",
+    "topicName": "PIPE Transactions",
+    "front": "What is a PIPE transaction?",
+    "back": "A Private Investment in Public Equity (PIPE) is a private placement of securities by a publicly traded company to select investors, typically at a discount to the current market price. PIPEs allow public companies to raise capital quickly without the delay and expense of a registered offering. The securities are initially restricted but typically registered for resale shortly after closing."
+  },
+  {
+    "id": "series82-fc020",
+    "topic": "series82-t6",
+    "topicName": "PIPE Transactions",
+    "front": "What are the regulatory considerations for PIPE transactions?",
+    "back": "PIPE transactions must comply with Regulation D or Section 4(a)(2) exemptions. Issuers must file a resale registration statement (typically Form S-3) to register the PIPE securities for public resale. Investors must not short the stock before the PIPE closes (Regulation M restrictions). Exchange listing rules may require shareholder approval if the PIPE exceeds 20% of outstanding shares."
+  },
+  {
+    "id": "series82-fc021",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is a sophisticated investor under Rule 506(b)?",
+    "back": "A sophisticated investor is a non-accredited investor who has sufficient knowledge and experience in financial and business matters to evaluate the merits and risks of an investment. The issuer or placement agent must reasonably believe the investor meets this standard. Up to 35 sophisticated non-accredited investors may participate in a Rule 506(b) offering."
+  },
+  {
+    "id": "series82-fc022",
+    "topic": "series82-t3",
+    "topicName": "Other Exemptions",
+    "front": "What is a qualified institutional buyer (QIB)?",
+    "back": "A QIB is an institutional investor that owns and invests on a discretionary basis at least $100 million in securities of non-affiliated issuers. For broker-dealers, the threshold is $10 million. QIBs include insurance companies, registered investment companies, pension funds, and banks. The QIB standard is used for Rule 144A resale transactions."
+  },
+  {
+    "id": "series82-fc023",
+    "topic": "series82-t4",
+    "topicName": "Private Placement Documents",
+    "front": "What is an operating agreement in private placements?",
+    "back": "An operating agreement governs the operations and management of an LLC issuing securities in a private placement. It outlines member rights and obligations, management structure, distribution policies, voting rights, transfer restrictions, and dissolution procedures. Investors should review the operating agreement carefully as it defines their economic and governance rights."
+  },
+  {
+    "id": "series82-fc024",
+    "topic": "series82-t5",
+    "topicName": "Due Diligence and Suitability",
+    "front": "What is the anti-fraud provision applicable to private placements?",
+    "back": "Section 10(b) and Rule 10b-5 of the Securities Exchange Act of 1934 prohibit fraud in connection with the purchase or sale of any security, including private placements. Material misstatements or omissions in a PPM can result in civil and criminal liability. Even though private placements are exempt from registration, they are never exempt from anti-fraud provisions."
+  },
+  {
+    "id": "series82-fc025",
+    "topic": "series82-t1",
+    "topicName": "Private Placements Overview",
+    "front": "What types of securities are commonly sold in private placements?",
+    "back": "Common private placement securities include limited partnership interests, LLC membership interests, preferred stock, convertible notes, common stock (for pre-IPO companies), structured notes, and hedge fund interests. Real estate, oil and gas programs, and private equity funds are frequently structured as private placements. The types range across equity, debt, and hybrid instruments."
+  },
+  {
+    "id": "series82-fc026",
+    "topic": "series82-t2",
+    "topicName": "Regulation D",
+    "front": "What is general solicitation and when is it permitted?",
+    "back": "General solicitation includes advertising, mass mailings, public seminars, and media broadcasts used to market securities. Under Rule 506(b), general solicitation is prohibited. Under Rule 506(c), general solicitation is permitted provided all purchasers are verified accredited investors. The issuer must take reasonable steps to verify accreditation, such as reviewing tax returns or obtaining written confirmation from professionals."
+  },
+  {
+    "id": "series82-fc027",
+    "topic": "series82-t6",
+    "topicName": "PIPE Transactions",
+    "front": "What is the typical discount in a PIPE transaction?",
+    "back": "PIPE transactions typically offer securities at a discount of 5-15% below the current market price to compensate investors for the illiquidity during the period before the resale registration statement becomes effective. The discount may also reflect the size of the placement relative to the company's float and the perceived risk of the investment."
+  },
+  {
+    "id": "series82-fc028",
+    "topic": "series82-t3",
+    "topicName": "Other Exemptions",
+    "front": "What is Rule 504 of Regulation D?",
+    "back": "Rule 504 exempts offerings of up to $10 million in a 12-month period. It is available to non-reporting companies and does not require specific investor qualifications. General solicitation may be permitted in some circumstances (when the offering is registered in at least one state). Securities may be freely transferable if certain conditions are met, otherwise they are restricted."
+  },
+  {
+    "id": "series82-fc029",
+    "topic": "series82-t5",
+    "topicName": "Due Diligence and Suitability",
+    "front": "What is a bad actor disqualification under Rule 506?",
+    "back": "Rule 506(d) disqualifies offerings from using Rule 506 exemptions if the issuer or certain covered persons (such as directors, officers, 20% shareholders, or placement agents) have experienced specified disqualifying events. These include felony or misdemeanor convictions related to securities, SEC disciplinary orders, or court injunctions. A reasonable care exception exists if the issuer did not know of the disqualification."
+  },
+  {
+    "id": "series82-fc030",
+    "topic": "series82-t1",
+    "topicName": "Private Placements Overview",
+    "front": "What are the advantages of a private placement over a public offering?",
+    "back": "Advantages include: lower costs (no SEC registration fees or extensive disclosure preparation), faster execution (weeks versus months), fewer ongoing reporting obligations, flexible deal terms negotiated directly with investors, confidentiality of business information, and no public market scrutiny. However, private placements result in restricted securities and a smaller potential investor base."
+  }
+]

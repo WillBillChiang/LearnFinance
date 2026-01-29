@@ -1,0 +1,525 @@
+/* ===== Keyframe Animations ===== */
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  10%, 30%, 50%, 70%, 90% { transform: translateX(-4px); }
+  20%, 40%, 60%, 80% { transform: translateX(4px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes toastIn {
+  from {
+    transform: translateX(100%) translateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes toastOut {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 0; transform: scale(0); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes confettiFall {
+  0% {
+    transform: translateY(-100%) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100vh) rotate(720deg);
+    opacity: 0;
+  }
+}
+
+@keyframes progressFill {
+  from { width: 0; }
+}
+
+@keyframes dashAnimation {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(4);
+    opacity: 0;
+  }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes subtleBounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(26, 86, 219, 0.2); }
+  50% { box-shadow: 0 0 0 8px rgba(26, 86, 219, 0); }
+}
+
+@keyframes numberPop {
+  0% { transform: scale(0.8); opacity: 0; }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* ===== Scroll Reveal Classes ===== */
+
+.js-ready .reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.js-ready .reveal-left {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.js-ready .reveal-right {
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.js-ready .reveal-scale {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Stagger delays for children */
+.stagger > :nth-child(1) { transition-delay: 0ms; }
+.stagger > :nth-child(2) { transition-delay: 80ms; }
+.stagger > :nth-child(3) { transition-delay: 160ms; }
+.stagger > :nth-child(4) { transition-delay: 240ms; }
+.stagger > :nth-child(5) { transition-delay: 320ms; }
+.stagger > :nth-child(6) { transition-delay: 400ms; }
+.stagger > :nth-child(7) { transition-delay: 480ms; }
+.stagger > :nth-child(8) { transition-delay: 560ms; }
+.stagger > :nth-child(9) { transition-delay: 640ms; }
+
+/* ===== Hero Animation ===== */
+
+.hero {
+  background: linear-gradient(-45deg, #1e3a5f, #1a56db, #2563eb, #7c3aed);
+  background-size: 300% 300%;
+  animation: gradientShift 20s ease infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(2px 2px at 20% 30%, rgba(255,255,255,0.15), transparent),
+    radial-gradient(2px 2px at 40% 70%, rgba(255,255,255,0.1), transparent),
+    radial-gradient(2px 2px at 60% 40%, rgba(255,255,255,0.08), transparent),
+    radial-gradient(2px 2px at 80% 20%, rgba(255,255,255,0.1), transparent),
+    radial-gradient(3px 3px at 10% 60%, rgba(255,255,255,0.06), transparent),
+    radial-gradient(2px 2px at 90% 80%, rgba(255,255,255,0.08), transparent);
+  animation: float 8s ease-in-out infinite;
+}
+
+/* Subtle mesh overlay for hero depth */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 50%, rgba(255,255,255,0.06) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+/* ===== Card Hover ===== */
+
+.card-animated {
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.card-animated:hover {
+  transform: translateY(-4px) scale(1.02);
+  box-shadow: var(--shadow-xl);
+}
+
+/* ===== Flip card for flashcards ===== */
+
+.flip-card {
+  perspective: 1000px;
+  width: 100%;
+  max-width: 500px;
+  height: 320px;
+  cursor: pointer;
+}
+
+.flip-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card__inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card__front,
+.flip-card__back {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl);
+  border-radius: var(--radius-xl);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  text-align: center;
+}
+
+.flip-card__back {
+  transform: rotateY(180deg);
+  background: var(--color-primary-bg);
+  border-color: var(--color-primary);
+}
+
+/* ===== Quiz transitions ===== */
+
+.quiz-question-enter {
+  animation: slideLeft 0.3s ease forwards;
+}
+
+.quiz-question-exit {
+  animation: slideRight 0.3s ease forwards;
+  position: absolute;
+}
+
+.answer-shake {
+  animation: shake 0.5s ease;
+}
+
+.answer-pulse {
+  animation: pulse 0.3s ease;
+}
+
+/* ===== Confetti container ===== */
+
+.confetti-container {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  position: absolute;
+  top: -10px;
+  width: 10px;
+  height: 10px;
+  animation: confettiFall 3s ease-out forwards;
+}
+
+/* ===== SVG Progress Ring ===== */
+
+.progress-ring {
+  transform: rotate(-90deg);
+}
+
+.progress-ring__circle {
+  transition: stroke-dashoffset 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ===== Counter animation ===== */
+
+.counter {
+  display: inline-block;
+}
+
+.counter.animating {
+  animation: countUp 0.3s ease;
+}
+
+/* ===== Mastery stars ===== */
+
+.mastery-stars {
+  display: flex;
+  gap: 2px;
+}
+
+.mastery-star {
+  width: 16px;
+  height: 16px;
+  color: var(--color-border);
+  transition: all var(--transition-base);
+}
+
+.mastery-star.filled {
+  color: var(--color-warning);
+}
+
+.mastery-star.new {
+  animation: sparkle 0.6s ease;
+}
+
+/* ===== Swipe animation for flashcards ===== */
+
+.swipe-left {
+  animation: 0.3s ease forwards;
+  animation-name: swipeLeft;
+}
+
+.swipe-right {
+  animation: 0.3s ease forwards;
+  animation-name: swipeRight;
+}
+
+@keyframes swipeLeft {
+  to {
+    transform: translateX(-120%) rotate(-15deg);
+    opacity: 0;
+  }
+}
+
+@keyframes swipeRight {
+  to {
+    transform: translateX(120%) rotate(15deg);
+    opacity: 0;
+  }
+}
+
+/* Card stack visual */
+.card-stack {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+.card-stack__card {
+  position: absolute;
+  inset: 0;
+  transition: all var(--transition-base);
+}
+
+.card-stack__card:nth-child(2) {
+  transform: translateY(6px) scale(0.97);
+  opacity: 0.7;
+}
+
+.card-stack__card:nth-child(3) {
+  transform: translateY(12px) scale(0.94);
+  opacity: 0.4;
+}
+
+/* ===== Mobile Performance Optimizations ===== */
+
+@media (max-width: 768px) {
+  .hero {
+    background-size: 200% 200%;
+    animation-duration: 25s;
+  }
+
+  .hero::before {
+    animation: none;
+  }
+
+  .reveal,
+  .reveal-left,
+  .reveal-right,
+  .reveal-scale {
+    transition-duration: 0.3s;
+  }
+
+  .card-animated:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .flip-card {
+    height: min(320px, 50svh);
+  }
+
+  .card-stack {
+    height: min(320px, 50svh);
+  }
+}
+
+/* ===== Swipe Indicators ===== */
+.swipe-indicator {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+  pointer-events: none;
+  transition: opacity 0.1s ease;
+  z-index: 10;
+}
+
+.swipe-indicator--left {
+  right: var(--space-md);
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
+  border: 2px solid var(--color-danger);
+}
+
+.swipe-indicator--right {
+  left: var(--space-md);
+  background: var(--color-accent-bg);
+  color: var(--color-accent-dark);
+  border: 2px solid var(--color-accent);
+}
+
+/* ===== Reduced motion ===== */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .reveal,
+  .reveal-left,
+  .reveal-right,
+  .reveal-scale {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .hero {
+    animation: none;
+    background-position: 0% 50%;
+  }
+}

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series53-q001",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "The Municipal Securities Rulemaking Board (MSRB) has the authority to:",
+    "choices": ["A. Enforce its rules directly against violators", "B. Write rules governing municipal securities activities", "C. Impose fines and penalties on broker-dealers", "D. Approve or reject municipal bond issues"],
+    "correct": 1,
+    "explanation": "The MSRB has rulemaking authority for municipal securities activities but does NOT have enforcement authority. Enforcement is delegated to FINRA (for broker-dealers), the SEC, and bank regulators. The MSRB writes rules that govern the conduct of municipal securities dealers and advisors."
+  },
+  {
+    "id": "series53-q002",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "MSRB Rule G-37 addresses:",
+    "choices": ["A. Record-keeping requirements for municipal dealers", "B. Political contributions and prohibitions on municipal securities business", "C. Customer complaint procedures", "D. Advertising standards for municipal securities"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-37 (Political Contributions and Prohibitions on Municipal Securities Business) restricts municipal securities dealers from engaging in municipal securities business with an issuer if certain political contributions have been made to officials of that issuer. This prevents pay-to-play practices."
+  },
+  {
+    "id": "series53-q003",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "In a competitive bid underwriting for municipal bonds, the winning syndicate is typically the one that:",
+    "choices": ["A. Has the largest number of syndicate members", "B. Offers the lowest net interest cost (NIC) or true interest cost (TIC) to the issuer", "C. Offers the highest yield to investors", "D. Has the best credit rating"],
+    "correct": 1,
+    "explanation": "In competitive bid underwritings, the issuer selects the syndicate that offers the lowest borrowing cost, measured by either net interest cost (NIC) or true interest cost (TIC). TIC is generally preferred because it accounts for the time value of money. The winning bid results in the lowest cost of borrowing for the issuer."
+  },
+  {
+    "id": "series53-q004",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "A syndicate member's participation in a municipal bond underwriting is determined by their:",
+    "choices": ["A. Net capital position", "B. Allocation or participation amount agreed upon in the syndicate agreement", "C. Geographic proximity to the issuer", "D. Number of retail customers"],
+    "correct": 1,
+    "explanation": "Each syndicate member's participation (their share of the underwriting) is specified in the syndicate agreement (Agreement Among Underwriters). This determines the member's financial liability, allocation of bonds, and share of the spread. Members may also receive selling concessions for bonds they sell."
+  },
+  {
+    "id": "series53-q005",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "A municipal securities principal must ensure that all advertising and sales literature:",
+    "choices": ["A. Guarantees returns to investors", "B. Is approved by FINRA before distribution", "C. Is fair, accurate, and not misleading, and complies with MSRB Rule G-21", "D. Includes the firm's stock price"],
+    "correct": 2,
+    "explanation": "MSRB Rule G-21 requires that all advertising by municipal securities dealers be fair, accurate, and not misleading. A municipal securities principal must review and approve all advertising before use to ensure compliance with applicable rules and that no material facts are omitted."
+  },
+  {
+    "id": "series53-q006",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "Under MSRB Rule G-17, the duty of fair dealing requires municipal securities dealers to:",
+    "choices": ["A. Charge the lowest possible commissions", "B. Deal fairly with all persons and not engage in deceptive, dishonest, or unfair practices", "C. Only sell investment-grade municipal bonds", "D. Guarantee the credit quality of all bonds sold"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-17 establishes the fundamental duty of fair dealing in the municipal securities market. Dealers must deal fairly with all persons and not engage in any deceptive, dishonest, or unfair practice. This is the MSRB's general anti-fraud rule and applies to all municipal securities activities."
+  },
+  {
+    "id": "series53-q007",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "In a negotiated underwriting of municipal bonds, the spread (gross profit) is divided into all of the following EXCEPT:",
+    "choices": ["A. Management fee", "B. Underwriting fee (additional takedown)", "C. Selling concession", "D. MSRB registration fee"],
+    "correct": 3,
+    "explanation": "The municipal bond underwriting spread consists of the management fee (paid to the lead manager), the underwriting fee or additional takedown (compensation for underwriting risk), and the selling concession (paid for selling bonds to investors). There is no MSRB registration fee component of the spread."
+  },
+  {
+    "id": "series53-q008",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "A municipal securities principal must review customer accounts to ensure suitability. Under MSRB Rule G-19, this includes evaluating:",
+    "choices": ["A. Only the customer's income", "B. The customer's financial status, tax status, investment objectives, and other relevant information", "C. Only whether the customer has purchased municipal bonds before", "D. The customer's political affiliation"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-19 (Suitability) requires that recommendations be suitable based on the customer's financial status, tax status, investment objectives, and other information known to the dealer. The principal must supervise that representatives are conducting proper suitability analysis for each customer."
+  },
+  {
+    "id": "series53-q009",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "Under MSRB Rule G-37, a de minimis political contribution is limited to:",
+    "choices": ["A. $100 per official per election", "B. $250 per official per election for individuals entitled to vote for the official", "C. $500 per official per election", "D. $1,000 per official per election"],
+    "correct": 1,
+    "explanation": "Under Rule G-37, individuals entitled to vote for an official may contribute up to $250 per official per election without triggering the two-year ban on municipal securities business with that issuer. Contributions exceeding this de minimis amount, or contributions by persons not entitled to vote for the official, trigger the prohibition."
+  },
+  {
+    "id": "series53-q010",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "The official statement for a new municipal bond issue must be delivered to purchasers:",
+    "choices": ["A. Before the bonds begin trading in the secondary market", "B. By settlement of the transaction", "C. Within 90 days of the sale", "D. Only upon request"],
+    "correct": 1,
+    "explanation": "Under MSRB Rule G-32, dealers must deliver the official statement to customers by settlement of the transaction. If the official statement is not yet available, a preliminary official statement should be provided, followed by the final official statement when available. Dealers must also submit the official statement to EMMA."
+  },
+  {
+    "id": "series53-q011",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "MSRB Rule G-27 requires that each municipal securities dealer designate:",
+    "choices": ["A. At least one municipal securities representative per branch", "B. A municipal securities principal to supervise municipal activities", "C. An independent compliance consultant", "D. A liaison to the MSRB"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-27 requires each dealer to designate at least one municipal securities principal who is qualified (Series 53) to supervise the firm's municipal securities activities. The principal is responsible for ensuring compliance with MSRB rules, reviewing transactions, and supervising municipal securities personnel."
+  },
+  {
+    "id": "series53-q012",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "EMMA (Electronic Municipal Market Access) is operated by the MSRB to provide:",
+    "choices": ["A. Trading execution services for municipal bonds", "B. Free public access to municipal bond disclosures, trade data, and other information", "C. Credit ratings for municipal issuers", "D. Insurance for municipal bond investors"],
+    "correct": 1,
+    "explanation": "EMMA is the MSRB's free, centralized online platform that provides public access to municipal securities disclosures (official statements, continuing disclosures), real-time trade data, and other information. EMMA enhances transparency in the municipal securities market."
+  },
+  {
+    "id": "series53-q013",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "When a municipal bond syndicate is formed with an Eastern (undivided) account, each member is liable for:",
+    "choices": ["A. Only their own allocation of bonds", "B. Their proportionate share of any unsold bonds regardless of whether they sold their own allocation", "C. Only bonds they personally sold", "D. No unsold bonds"],
+    "correct": 1,
+    "explanation": "In an Eastern (undivided) account, each syndicate member is liable for their proportionate share of any unsold bonds, even if the member has sold their entire allocation. This shared liability distinguishes it from a Western (divided) account, where members are only responsible for their own unsold bonds."
+  },
+  {
+    "id": "series53-q014",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "Under MSRB rules, the principal must ensure that customer confirmations for municipal bond trades include:",
+    "choices": ["A. Only the price and settlement date", "B. The bond's CUSIP number, yield, price, accrued interest, and other material terms", "C. Only the bond's credit rating", "D. The syndicate members involved in the original underwriting"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-15 requires detailed information on customer confirmations including the CUSIP number, trade date, settlement date, yield, price, accrued interest, capacity (agent or principal), and other material terms. The principal must review confirmations for accuracy and completeness."
+  },
+  {
+    "id": "series53-q015",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "The Tower Amendment prohibits the MSRB from requiring:",
+    "choices": ["A. Registration of municipal securities dealers", "B. Issuers to file documents with the MSRB prior to sale", "C. Municipal securities representatives to pass qualification exams", "D. Dealers to report trades to EMMA"],
+    "correct": 1,
+    "explanation": "The Tower Amendment (Section 15B(d)(1) of the Securities Exchange Act) prohibits the MSRB from requiring issuers to file any document with the MSRB or any other body prior to the sale of municipal securities. This preserves the autonomy of state and local government issuers."
+  },
+  {
+    "id": "series53-q016",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "A municipal bond is quoted on a yield basis. If the yield decreases, the bond's dollar price will:",
+    "choices": ["A. Decrease", "B. Increase", "C. Remain unchanged", "D. Depend on the coupon rate only"],
+    "correct": 1,
+    "explanation": "Bond prices and yields have an inverse relationship. When the yield decreases, the bond's dollar price increases. Municipal bonds are commonly quoted on a yield-to-maturity or yield-to-call basis in the secondary market. A lower yield means investors are paying more for the same stream of cash flows."
+  },
+  {
+    "id": "series53-q017",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "A municipal securities principal must review the firm's MSRB Rule G-37 political contribution records:",
+    "choices": ["A. Only when a contribution is made", "B. Quarterly, to ensure compliance and prepare Form G-37", "C. Only at year-end", "D. Never, as this is handled by the MSRB"],
+    "correct": 1,
+    "explanation": "The principal must regularly review political contribution records to ensure compliance with Rule G-37. Dealers must file quarterly reports (Form G-37) with the MSRB disclosing political contributions by the dealer, its MFPs, and its PAC. The principal should proactively monitor contributions to prevent inadvertent violations."
+  },
+  {
+    "id": "series53-q018",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "Under SEC Rule 15c2-12, a primary offering participant must:",
+    "choices": ["A. Guarantee the creditworthiness of the issuer", "B. Obtain and review the issuer's official statement before bidding or purchasing bonds", "C. Rate the bonds before sale", "D. Provide insurance for the bonds"],
+    "correct": 1,
+    "explanation": "SEC Rule 15c2-12 requires underwriters (primary offering participants) to obtain and review the issuer's official statement before purchasing or bidding on municipal bonds. The underwriter must also reasonably determine that the issuer has agreed to provide continuing disclosure after the offering."
+  },
+  {
+    "id": "series53-q019",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "The priority of orders in a municipal bond syndicate is typically set by the:",
+    "choices": ["A. Individual selling group members", "B. Syndicate manager as outlined in the priority provisions of the syndicate letter", "C. Issuer's financial advisor", "D. MSRB"],
+    "correct": 1,
+    "explanation": "The syndicate manager establishes the priority of orders in the syndicate letter (Agreement Among Underwriters). The typical priority is: (1) presale orders, (2) group net orders, (3) designated orders, and (4) member orders. This priority determines the order in which bonds are allocated during the offering."
+  },
+  {
+    "id": "series53-q020",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "Under MSRB Rule G-20, a municipal securities dealer may give gifts to persons other than those employed by the dealer, provided the gifts do not exceed:",
+    "choices": ["A. $50 per person per year", "B. $100 per person per year", "C. $250 per person per year", "D. $500 per person per year"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-20 limits gifts given by municipal securities dealers to $100 per person per year. This limit aligns with FINRA's gift rule and prevents undue influence or conflicts of interest. The rule excludes occasional meals, tickets, and legitimate business entertainment."
+  },
+  {
+    "id": "series53-q021",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "Continuing disclosure obligations for municipal issuers under SEC Rule 15c2-12 include filing:",
+    "choices": ["A. Quarterly financial statements with the SEC", "B. Annual financial information and material event notices on EMMA", "C. Monthly trade reports with FINRA", "D. Weekly price updates for all outstanding bonds"],
+    "correct": 1,
+    "explanation": "Under SEC Rule 15c2-12, municipal issuers must commit to providing continuing disclosure, including annual financial information and operating data, and timely notice of specified material events (such as rating changes, defaults, and adverse tax opinions). These filings are made on EMMA."
+  },
+  {
+    "id": "series53-q022",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "When pricing a new issue of serial municipal bonds, the underwriter sets yields that create a:",
+    "choices": ["A. Flat yield curve", "B. Normal (ascending) yield curve where longer maturities have higher yields", "C. Inverted yield curve", "D. Random yield pattern"],
+    "correct": 1,
+    "explanation": "In a normal interest rate environment, municipal bond serial offerings are priced with a normal (ascending) yield curve, where longer maturities carry higher yields to compensate investors for greater interest rate risk and duration. This is known as the reoffering scale."
+  },
+  {
+    "id": "series53-q023",
+    "topic": "series53-t3",
+    "topicName": "Supervision of Municipal Activities",
+    "question": "A municipal securities principal must ensure that the firm maintains records of municipal securities transactions for at least:",
+    "choices": ["A. 3 years", "B. 4 years", "C. 5 years", "D. 6 years"],
+    "correct": 3,
+    "explanation": "Under MSRB Rule G-8 (Books and Records) and SEC requirements, municipal securities dealers must maintain records of their activities for at least 6 years. This includes transaction records, customer account information, correspondence, and other documents required by MSRB rules."
+  },
+  {
+    "id": "series53-q024",
+    "topic": "series53-t1",
+    "topicName": "Municipal Securities Regulation",
+    "question": "A municipal fund security, such as a 529 plan, is subject to MSRB rules because:",
+    "choices": ["A. It is a registered investment company", "B. It is issued by or on behalf of a state or local government entity and meets the definition", "C. It is listed on a national securities exchange", "D. It is insured by the FDIC"],
+    "correct": 1,
+    "explanation": "Municipal fund securities (including 529 college savings plans and local government investment pools) are subject to MSRB rules because they are issued by or on behalf of state and local government entities and meet the regulatory definition of municipal securities. Dealers and advisors involved with these products must comply with applicable MSRB rules."
+  },
+  {
+    "id": "series53-q025",
+    "topic": "series53-t2",
+    "topicName": "Underwriting and Trading",
+    "question": "The good faith deposit in a competitive bid municipal bond underwriting serves to:",
+    "choices": ["A. Pay the MSRB's fee for the offering", "B. Demonstrate the bidder's serious intent and financial commitment", "C. Cover the issuer's legal costs", "D. Fund the bond insurance premium"],
+    "correct": 1,
+    "explanation": "A good faith deposit (typically 1-2% of the par value of the bonds) is required with competitive bids to demonstrate the bidder's serious intent and financial commitment to the underwriting. If the winning bidder fails to honor the bid, the good faith deposit may be forfeited to the issuer as liquidated damages."
+  }
+]

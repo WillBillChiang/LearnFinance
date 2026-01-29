@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series82-q001",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Regulation D under the Securities Act of 1933 provides exemptions from registration for:",
+    "choices": ["A. All securities offerings regardless of size", "B. Private placements of securities to certain qualified investors", "C. Only government securities", "D. Securities listed on a national exchange"],
+    "correct": 1,
+    "explanation": "Regulation D provides a safe harbor exemption from SEC registration for private placements of securities. It allows companies to raise capital by selling securities to qualified investors without the time and expense of a full public registration. The key rules under Reg D are Rules 504, 506(b), and 506(c)."
+  },
+  {
+    "id": "series82-q002",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Under Regulation D Rule 506(b), an issuer may sell securities to an unlimited number of accredited investors and up to how many non-accredited investors?",
+    "choices": ["A. 10", "B. 25", "C. 35", "D. 50"],
+    "correct": 2,
+    "explanation": "Rule 506(b) allows an issuer to sell securities to an unlimited number of accredited investors and up to 35 non-accredited investors (who must be sophisticated). However, if any non-accredited investors participate, the issuer must provide them with specified disclosure documents similar to those in a registered offering."
+  },
+  {
+    "id": "series82-q003",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Which of the following qualifies as an accredited investor under Regulation D?",
+    "choices": ["A. Any individual with annual income of $50,000", "B. An individual with a net worth exceeding $1 million (excluding primary residence)", "C. Any college graduate", "D. An individual with a net worth of $500,000 including their home"],
+    "correct": 1,
+    "explanation": "An accredited investor includes individuals with a net worth exceeding $1 million (excluding the value of their primary residence) or annual income exceeding $200,000 ($300,000 with spouse) for the past two years with expectation of the same. Institutions such as banks, insurance companies, and entities with assets over $5 million also qualify."
+  },
+  {
+    "id": "series82-q004",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Under Rule 506(c) of Regulation D, the key difference from Rule 506(b) is that:",
+    "choices": ["A. There is no limit on the offering amount", "B. General solicitation and advertising are permitted, but all purchasers must be verified accredited investors", "C. Non-accredited investors may participate", "D. No Form D filing is required"],
+    "correct": 1,
+    "explanation": "Rule 506(c), added by the JOBS Act, permits general solicitation and advertising in private placements, provided that all purchasers are accredited investors and the issuer takes reasonable steps to verify their accredited status. This is a key distinction from Rule 506(b), which prohibits general solicitation."
+  },
+  {
+    "id": "series82-q005",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Form D must be filed with the SEC within how many days after the first sale of securities in a Regulation D offering?",
+    "choices": ["A. 5 calendar days", "B. 15 calendar days", "C. 30 calendar days", "D. 60 calendar days"],
+    "correct": 1,
+    "explanation": "Issuers must file Form D with the SEC no later than 15 calendar days after the first sale of securities in a Regulation D offering. Form D is a brief notice that includes the names of the company's executives, the size of the offering, and the exemption being relied upon."
+  },
+  {
+    "id": "series82-q006",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Securities sold in a Regulation D offering are:",
+    "choices": ["A. Freely tradeable immediately upon purchase", "B. Restricted securities that cannot be freely resold without registration or an exemption", "C. Listed on a national exchange within 30 days", "D. Guaranteed by the SEC"],
+    "correct": 1,
+    "explanation": "Securities sold under Regulation D are restricted securities. They cannot be freely resold without registration under the Securities Act or an applicable exemption (such as Rule 144). Purchasers must hold restricted securities for a specified period before they can be resold, and they must meet certain conditions."
+  },
+  {
+    "id": "series82-q007",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Rule 144 allows holders of restricted securities to sell them publicly after a holding period of:",
+    "choices": ["A. 3 months for reporting companies", "B. 6 months for reporting companies, 12 months for non-reporting companies", "C. 12 months for all companies", "D. 24 months for all companies"],
+    "correct": 1,
+    "explanation": "Under Rule 144, restricted securities of SEC-reporting companies may be sold after a 6-month holding period (subject to volume, manner of sale, and notice requirements). For non-reporting companies, the holding period is 12 months. After one year (reporting companies), affiliates can sell subject to volume limits; non-affiliates can sell freely."
+  },
+  {
+    "id": "series82-q008",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Integration of multiple offerings is a concern because:",
+    "choices": ["A. It increases the issuer's stock price", "B. Separate offerings may be combined and treated as a single offering, potentially violating exemption conditions", "C. It allows the issuer to avoid all SEC oversight", "D. It reduces the amount of required disclosure"],
+    "correct": 1,
+    "explanation": "Integration is the SEC's concern that an issuer might try to avoid registration requirements by breaking a single offering into multiple smaller ones. If offerings are integrated (treated as one), the combined offering might exceed exemption limits or violate conditions. Factors considered include timing, purpose, type of consideration, and whether the same class of securities is involved."
+  },
+  {
+    "id": "series82-q009",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "A private placement memorandum (PPM) is:",
+    "choices": ["A. A required SEC filing for all private placements", "B. A disclosure document provided to prospective investors describing the investment opportunity and its risks", "C. A guarantee of investment returns", "D. A contract between the issuer and the SEC"],
+    "correct": 1,
+    "explanation": "A private placement memorandum (PPM) is a disclosure document provided to prospective investors in a private placement. While not technically required by Regulation D for accredited-only offerings, it is standard practice and strongly recommended. The PPM describes the investment, risks, management, financials, and terms. It provides important anti-fraud protection for the issuer."
+  },
+  {
+    "id": "series82-q010",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Under the Securities Act of 1933, which section provides the statutory basis for private placement exemptions?",
+    "choices": ["A. Section 3(a)(11)", "B. Section 4(a)(2)", "C. Section 5", "D. Section 12"],
+    "correct": 1,
+    "explanation": "Section 4(a)(2) of the Securities Act of 1933 exempts from registration 'transactions by an issuer not involving any public offering.' Regulation D provides the safe harbor rules that help issuers comply with this exemption. Section 3(a)(11) covers intrastate offerings, and Section 5 contains the registration requirements."
+  },
+  {
+    "id": "series82-q011",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Rule 504 of Regulation D allows a non-reporting company to raise up to how much in a 12-month period?",
+    "choices": ["A. $1 million", "B. $5 million", "C. $10 million", "D. $50 million"],
+    "correct": 2,
+    "explanation": "Rule 504 allows non-reporting companies to raise up to $10 million in a 12-month period. Rule 504 does not limit the number or sophistication of investors, but general solicitation is generally not permitted unless the offering is registered in a state that requires delivery of a disclosure document."
+  },
+  {
+    "id": "series82-q012",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Regulation S provides an exemption for:",
+    "choices": ["A. Sales of securities to state governments", "B. Offers and sales of securities outside the United States", "C. Small offerings under $1 million", "D. Sales to employees of the issuer"],
+    "correct": 1,
+    "explanation": "Regulation S provides an exemption from SEC registration for offers and sales of securities that occur outside the United States. The exemption requires that the offering is made in an offshore transaction and that no directed selling efforts are made in the United States. Securities sold under Reg S may become restricted upon flowback into the U.S."
+  },
+  {
+    "id": "series82-q013",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "In a private placement, the placement agent's role is similar to:",
+    "choices": ["A. An auditor in a public offering", "B. An underwriter in a public offering, helping to find and place securities with investors", "C. A transfer agent", "D. A credit rating agency"],
+    "correct": 1,
+    "explanation": "The placement agent serves a role similar to an underwriter in a public offering. The placement agent helps the issuer structure the offering, identify and contact potential investors, negotiate terms, and facilitate the closing. Unlike firm commitment underwriting, placement agents typically operate on a best-efforts basis."
+  },
+  {
+    "id": "series82-q014",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "A broker-dealer acting as a placement agent in a Regulation D offering must comply with:",
+    "choices": ["A. Only MSRB rules", "B. SEC rules, FINRA rules, and state securities laws", "C. Only state securities laws", "D. No specific regulations apply to placement agents"],
+    "correct": 1,
+    "explanation": "Broker-dealers acting as placement agents must comply with all applicable regulatory requirements including SEC regulations, FINRA rules (including suitability, anti-fraud, and supervision requirements), and relevant state securities (blue sky) laws. They must also conduct appropriate due diligence on the offering."
+  },
+  {
+    "id": "series82-q015",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "A subscription agreement in a private placement serves to:",
+    "choices": ["A. Register the securities with the SEC", "B. Document the investor's commitment to purchase and include representations about accredited status and investment intent", "C. Guarantee the investor's return on investment", "D. Transfer the securities to the investor's brokerage account"],
+    "correct": 1,
+    "explanation": "A subscription agreement is the contract by which an investor agrees to purchase securities in a private placement. It typically includes the investor's representations regarding accredited investor status, investment intent (purchasing for investment, not resale), acknowledgment of risks, and receipt of the PPM. It also documents the number of shares/units purchased and the purchase price."
+  },
+  {
+    "id": "series82-q016",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Under FINRA Rule 5123, member firms involved in private placements must:",
+    "choices": ["A. Guarantee the success of the offering", "B. File the PPM or term sheet with FINRA within 15 calendar days of the first sale", "C. Register the securities with FINRA", "D. Limit sales to institutional investors only"],
+    "correct": 1,
+    "explanation": "FINRA Rule 5123 requires member firms participating in private placements to file the offering documents (PPM, term sheet, or other documents) with FINRA within 15 calendar days of the date of first sale. This allows FINRA to monitor the terms and compensation associated with private placements."
+  },
+  {
+    "id": "series82-q017",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "Regulation A+ (Tier 2) allows companies to raise up to how much in a 12-month period?",
+    "choices": ["A. $5 million", "B. $20 million", "C. $50 million", "D. $75 million"],
+    "correct": 3,
+    "explanation": "Regulation A+ Tier 2 allows companies to raise up to $75 million in a 12-month period. Tier 2 offerings are subject to SEC qualification, ongoing reporting requirements, and investment limits for non-accredited investors (no more than 10% of income or net worth). Tier 2 offerings preempt state blue sky registration requirements."
+  },
+  {
+    "id": "series82-q018",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Due diligence in a private placement context requires the placement agent to:",
+    "choices": ["A. Guarantee the accuracy of all issuer statements", "B. Conduct a reasonable investigation into the issuer, its business, management, and financial condition", "C. Only review the offering price", "D. Confirm only the issuer's legal name"],
+    "correct": 1,
+    "explanation": "Due diligence requires the placement agent to conduct a reasonable investigation into all material aspects of the issuer and the offering, including the business model, management team, financial condition, legal issues, use of proceeds, and risk factors. Proper due diligence protects investors and provides the agent with anti-fraud defenses."
+  },
+  {
+    "id": "series82-q019",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "A Special Purpose Acquisition Company (SPAC) raises capital through an IPO with the intent to:",
+    "choices": ["A. Invest in government bonds", "B. Acquire or merge with a private company within a specified timeframe", "C. Operate as a mutual fund", "D. Provide lending services to small businesses"],
+    "correct": 1,
+    "explanation": "A SPAC is a blank-check company that raises capital through an IPO with the sole purpose of acquiring or merging with a private company (the de-SPAC transaction) within a specified timeframe (typically 18-24 months). If no acquisition is completed, the SPAC must return the IPO proceeds to shareholders."
+  },
+  {
+    "id": "series82-q020",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "Regulation D offerings are exempt from SEC registration but are NOT exempt from:",
+    "choices": ["A. All securities laws", "B. Anti-fraud provisions of federal and state securities laws", "C. State taxation", "D. FINRA membership requirements"],
+    "correct": 1,
+    "explanation": "While Regulation D provides an exemption from SEC registration, it does NOT exempt issuers or placement agents from the anti-fraud provisions of federal securities laws (including Section 17(a) of the Securities Act and Section 10(b) of the Exchange Act) or state anti-fraud provisions. Material misstatements or omissions are still prohibited."
+  },
+  {
+    "id": "series82-q021",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "In a Regulation D offering, what is the purpose of the investor questionnaire?",
+    "choices": ["A. To determine the investor's political preferences", "B. To collect information to verify accredited investor status and suitability", "C. To register the investor with the SEC", "D. To assign a risk score that determines the return"],
+    "correct": 1,
+    "explanation": "The investor questionnaire collects financial and background information to verify that the investor meets accredited investor criteria and that the investment is suitable. It typically asks about income, net worth, investment experience, and risk tolerance. This documentation is crucial for the issuer's compliance with Regulation D requirements."
+  },
+  {
+    "id": "series82-q022",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "The concept of 'bad actor' disqualification under Rule 506(d) prevents:",
+    "choices": ["A. All new companies from using Regulation D", "B. Certain persons with regulatory, criminal, or court-ordered sanctions from participating in Rule 506 offerings", "C. Non-accredited investors from participating in any offering", "D. Foreign investors from purchasing U.S. securities"],
+    "correct": 1,
+    "explanation": "Rule 506(d) disqualifies issuers from relying on the Rule 506 exemptions if the issuer or certain related persons (such as directors, officers, promoters, or placement agents) have specified criminal, regulatory, or court-ordered sanctions. This 'bad actor' provision protects investors from persons with a history of securities violations."
+  },
+  {
+    "id": "series82-q023",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "A private equity fund structured as a limited partnership typically uses which exemption from investment company registration?",
+    "choices": ["A. Section 3(c)(1) or Section 3(c)(7) of the Investment Company Act of 1940", "B. Section 4(a)(2) of the Securities Act of 1933", "C. Regulation A", "D. Rule 504 of Regulation D"],
+    "correct": 0,
+    "explanation": "Private equity funds typically rely on Section 3(c)(1) (limiting the fund to 100 beneficial owners) or Section 3(c)(7) (limiting to qualified purchasers) of the Investment Company Act of 1940 to avoid registration as an investment company. These exemptions allow the fund to pool capital without the regulatory burdens of registered investment companies."
+  },
+  {
+    "id": "series82-q024",
+    "topic": "series82-t2",
+    "topicName": "Regulatory Framework for Private Placements",
+    "question": "FINRA Rule 5122 applies to:",
+    "choices": ["A. Public offerings of common stock", "B. Private placements of securities issued by FINRA member firms or their control entities", "C. Municipal bond underwriting", "D. Money market fund offerings"],
+    "correct": 1,
+    "explanation": "FINRA Rule 5122 specifically applies to private placements of securities issued by FINRA member firms or their control entities. It requires enhanced disclosure to investors about the use of proceeds, the offering expenses, and any participating member's financial condition. The rule was adopted to address risks specific to member firm private offerings."
+  },
+  {
+    "id": "series82-q025",
+    "topic": "series82-t1",
+    "topicName": "Private Placements",
+    "question": "The JOBS Act Title III (Regulation Crowdfunding) allows companies to raise capital through crowdfunding up to:",
+    "choices": ["A. $500,000 per year", "B. $1.07 million per year", "C. $5 million per year", "D. $10 million per year"],
+    "correct": 2,
+    "explanation": "Regulation Crowdfunding (Title III of the JOBS Act) allows eligible companies to raise up to $5 million in a 12-month period through registered crowdfunding intermediaries (broker-dealers or funding portals). Individual investment amounts are limited based on the investor's income and net worth."
+  }
+]

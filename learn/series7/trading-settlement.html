@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 7 Chapter 11: Trading and Settlement — Order types, trade execution, settlement cycles, clearing, corporate actions, and trade reporting for the Series 7 exam.">
+  <title>Trading and Settlement - Series 7 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series7" data-chapter="trading-settlement">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../learn/" class="nav-desktop__link nav-desktop__link--active">Learn</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../learn/" class="mobile-nav__link mobile-nav__link--active">Learn</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-entry">Chapter 11</span>
+          <h1>Trading and Settlement</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              55 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 7 Topic 11
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="badge badge-warning">High Testability</span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Order Types ====== -->
+        <section class="lesson__section" id="order-types">
+          <h2>Order Types</h2>
+
+          <p>Understanding order types is one of the most critical skills for any registered representative and is heavily tested on the Series 7 exam. Each order type serves a specific purpose and carries different implications for execution price, speed, and risk. You must know not only what each order type does, but when and why a customer would use it.</p>
+
+          <h3>Market Orders</h3>
+
+          <p>A <strong>market order</strong> is an instruction to buy or sell a security immediately at the best available price. Market orders guarantee execution but do not guarantee a specific price. They are the most common order type and provide the fastest execution. In liquid markets, the execution price is typically close to the quoted price, but in volatile or illiquid markets, the fill price may differ significantly from the last quoted price — a phenomenon known as <strong>slippage</strong>.</p>
+
+          <h3>Limit Orders</h3>
+
+          <p>A <strong>limit order</strong> specifies the maximum price a buyer is willing to pay (buy limit) or the minimum price a seller is willing to accept (sell limit). Limit orders guarantee price but do not guarantee execution — the order will only execute if the market reaches the specified price or better.</p>
+
+          <ul>
+            <li><strong>Buy limit order:</strong> Placed <strong>below</strong> the current market price. Executes at the limit price or lower. Used by investors who believe the stock will decline before rising.</li>
+            <li><strong>Sell limit order:</strong> Placed <strong>above</strong> the current market price. Executes at the limit price or higher. Used to lock in profits at a target price.</li>
+          </ul>
+
+          <h3>Stop Orders (Stop-Loss Orders)</h3>
+
+          <p>A <strong>stop order</strong> becomes a market order once a specified price (the stop price) is reached. Stop orders are primarily used to limit losses or protect profits.</p>
+
+          <ul>
+            <li><strong>Sell stop order:</strong> Placed <strong>below</strong> the current market price. When the stock drops to the stop price, the order becomes a market order to sell. Used to limit losses on a long position. Example: You own stock at $50 and place a sell stop at $45. If the stock falls to $45, your stop triggers and becomes a market sell order.</li>
+            <li><strong>Buy stop order:</strong> Placed <strong>above</strong> the current market price. When the stock rises to the stop price, the order becomes a market order to buy. Used to limit losses on a short position or to buy on an upward breakout.</li>
+          </ul>
+
+          <h3>Stop-Limit Orders</h3>
+
+          <p>A <strong>stop-limit order</strong> combines features of both stop and limit orders. When the stop price is reached, the order becomes a limit order (not a market order). This gives the investor price control once the stop is triggered, but introduces the risk that the order may not execute if the market moves past the limit price too quickly.</p>
+
+          <p>Example: A stop-limit order to sell at $45 stop, $44 limit means that if the stock falls to $45, a limit order to sell at $44 or better is activated. If the stock gaps down below $44 without trading at $44, the order may not execute.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the placement rules: <strong>Buy limits and sell stops are placed BELOW</strong> the current market price. <strong>Sell limits and buy stops are placed ABOVE</strong> the current market price. A helpful mnemonic: <strong>"BLiSS"</strong> = Buy Limits and Sell Stops are below. Everything else is above.</p>
+            </div>
+          </div>
+
+          <h3>Time-in-Force Qualifiers</h3>
+
+          <ul>
+            <li><strong>Day order:</strong> Valid only for the trading day on which it is entered. If not executed by market close, it expires. All orders are day orders by default unless otherwise specified.</li>
+            <li><strong>Good-Till-Cancelled (GTC):</strong> Remains active until executed or cancelled by the customer. FINRA member firms typically impose a maximum duration (e.g., 90 days) and notify the customer when a GTC order is about to expire.</li>
+            <li><strong>Immediate or Cancel (IOC):</strong> Must be executed immediately. Any portion not immediately filled is cancelled.</li>
+            <li><strong>Fill or Kill (FOK):</strong> Must be executed in its entirety immediately or cancelled entirely. No partial fills allowed.</li>
+            <li><strong>All or None (AON):</strong> Must be executed in its entirety but does not need to be filled immediately. The order remains active until it can be filled completely.</li>
+            <li><strong>Not Held (NH):</strong> Gives the floor broker or market maker discretion over the time and price of execution. The customer cannot hold the broker liable for the execution quality. This is NOT considered a discretionary order because the customer has already specified the asset, action, and amount.</li>
+          </ul>
+
+          <!-- Compare Table: Order Types -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Order Type</th>
+                  <th>Placement vs. Market</th>
+                  <th>Guarantees Execution?</th>
+                  <th>Guarantees Price?</th>
+                  <th>Primary Purpose</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Market</td>
+                  <td class="compare-table__cell">At market</td>
+                  <td class="compare-table__cell">Yes</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">Immediate execution</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Buy Limit</td>
+                  <td class="compare-table__cell">Below market</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">Yes (or better)</td>
+                  <td class="compare-table__cell">Buy at target low price</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Sell Limit</td>
+                  <td class="compare-table__cell">Above market</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">Yes (or better)</td>
+                  <td class="compare-table__cell">Sell at target high price</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Sell Stop</td>
+                  <td class="compare-table__cell">Below market</td>
+                  <td class="compare-table__cell">Yes (once triggered)</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">Limit losses on long position</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Buy Stop</td>
+                  <td class="compare-table__cell">Above market</td>
+                  <td class="compare-table__cell">Yes (once triggered)</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">Limit losses on short position</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Stop-Limit</td>
+                  <td class="compare-table__cell">Varies</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">Yes (or better)</td>
+                  <td class="compare-table__cell">Price protection after stop trigger</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Trade Execution ====== -->
+        <section class="lesson__section" id="trade-execution">
+          <h2>Trade Execution</h2>
+
+          <h3>Auction Market vs. Dealer Market</h3>
+
+          <p>Securities are traded in two primary market structures:</p>
+
+          <p><strong>Auction market (exchange-based):</strong> Buyers and sellers compete against each other through a centralized order book. The NYSE is the best example. A Designated Market Maker (DMM) facilitates trading by maintaining an orderly market, providing liquidity, and narrowing the bid-ask spread. The highest bid and lowest ask determine the current market price. Trades occur when a buyer's price matches a seller's price.</p>
+
+          <p><strong>Dealer market (OTC/Nasdaq):</strong> Multiple dealers (market makers) compete for order flow by posting bid and ask prices. Each market maker quotes its own two-sided market. Trades occur when a customer's order matches a market maker's quote. Market makers profit from the bid-ask spread. Nasdaq operates as a dealer market, though it has increasingly adopted auction-like features.</p>
+
+          <h3>National Best Bid and Offer (NBBO)</h3>
+
+          <p>The <strong>NBBO</strong> represents the best available bid (highest) and best available ask (lowest) across all venues where a security trades. Broker-dealers have an obligation to execute customer orders at prices equal to or better than the NBBO. The NBBO is continuously updated as quotes change across all exchanges and market makers.</p>
+
+          <h3>Regulation NMS (National Market System)</h3>
+
+          <p><strong>Regulation NMS</strong>, adopted by the SEC in 2005, modernized the U.S. equity market structure. Its key provisions include:</p>
+
+          <ul>
+            <li><strong>Order Protection Rule (Rule 611):</strong> Prohibits trade-throughs — executing orders at prices inferior to displayed quotes on other venues. Ensures customers get the NBBO.</li>
+            <li><strong>Access Rule (Rule 610):</strong> Requires fair access to quotations and limits fees that trading centers can charge.</li>
+            <li><strong>Sub-Penny Rule (Rule 612):</strong> Prohibits quoting stocks in increments smaller than one cent for stocks priced at $1.00 or above.</li>
+            <li><strong>Market Data Rules:</strong> Requires the distribution of consolidated market data to all investors.</li>
+          </ul>
+
+          <h3>Best Execution Obligation</h3>
+
+          <p>Under <strong>FINRA Rule 5310</strong>, broker-dealers have a <strong>duty of best execution</strong> — they must use reasonable diligence to find the best market for a customer's order, considering factors such as price, speed, likelihood of execution, size, and the character of the order. Best execution does not mean the best possible price on every trade; rather, it means the firm must have a process to regularly review execution quality and seek favorable terms for customers.</p>
+
+          <!-- SVG Trade Lifecycle Diagram -->
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 720 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Trade lifecycle diagram showing the process from order entry to settlement">
+              <!-- Step 1: Order Entry -->
+              <rect x="10" y="60" width="120" height="70" rx="10" fill="#eff6ff" stroke="#1a56db" stroke-width="2"/>
+              <text class="label label--bold" x="70" y="90" fill="#1a56db" font-size="12">Order Entry</text>
+              <text class="label label--small" x="70" y="110" font-size="10">Customer places</text>
+              <text class="label label--small" x="70" y="122" font-size="10">order with rep</text>
+
+              <line x1="130" y1="95" x2="160" y2="95" stroke="#1a56db" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+              <!-- Step 2: Routing -->
+              <rect x="160" y="60" width="120" height="70" rx="10" fill="#eff6ff" stroke="#1a56db" stroke-width="2"/>
+              <text class="label label--bold" x="220" y="90" fill="#1a56db" font-size="12">Order Routing</text>
+              <text class="label label--small" x="220" y="110" font-size="10">Firm routes to</text>
+              <text class="label label--small" x="220" y="122" font-size="10">exchange/market</text>
+
+              <line x1="280" y1="95" x2="310" y2="95" stroke="#1a56db" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+              <!-- Step 3: Execution -->
+              <rect x="310" y="60" width="120" height="70" rx="10" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+              <text class="label label--bold" x="370" y="90" fill="#10b981" font-size="12">Execution</text>
+              <text class="label label--small" x="370" y="110" font-size="10">Trade matched</text>
+              <text class="label label--small" x="370" y="122" font-size="10">at best price</text>
+
+              <line x1="430" y1="95" x2="460" y2="95" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+              <!-- Step 4: Clearing -->
+              <rect x="460" y="60" width="120" height="70" rx="10" fill="#fefce8" stroke="#f59e0b" stroke-width="2"/>
+              <text class="label label--bold" x="520" y="90" fill="#92400e" font-size="12">Clearing</text>
+              <text class="label label--small" x="520" y="110" font-size="10">DTCC/NSCC</text>
+              <text class="label label--small" x="520" y="122" font-size="10">nets trades</text>
+
+              <line x1="580" y1="95" x2="610" y2="95" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowYellow)"/>
+
+              <!-- Step 5: Settlement -->
+              <rect x="610" y="60" width="100" height="70" rx="10" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+              <text class="label label--bold" x="660" y="90" fill="#8b5cf6" font-size="12">Settlement</text>
+              <text class="label label--small" x="660" y="110" font-size="10">T+1: Securities</text>
+              <text class="label label--small" x="660" y="122" font-size="10">&amp; cash exchange</text>
+
+              <!-- Timeline bar -->
+              <rect x="10" y="170" width="700" height="30" rx="15" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="1"/>
+              <text class="label label--small" x="70" y="190" fill="#64748b" font-size="11">Trade Date (T)</text>
+              <text class="label label--small" x="370" y="190" fill="#64748b" font-size="11">Clearing (T to T+1)</text>
+              <text class="label label--small" x="660" y="190" fill="#8b5cf6" font-size="11">Settlement (T+1)</text>
+
+              <!-- Arrow markers -->
+              <defs>
+                <marker id="arrowBlue" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#1a56db"/></marker>
+                <marker id="arrowGreen" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#10b981"/></marker>
+                <marker id="arrowYellow" markerWidth="8" markerHeight="8" refX="8" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#f59e0b"/></marker>
+              </defs>
+            </svg>
+            <figcaption>Figure 11.1 — The Trade Lifecycle. From order entry by the customer through routing, execution, clearing at DTCC/NSCC, and final settlement at T+1.</figcaption>
+          </figure>
+        </section>
+
+        <!-- ====== SECTION 3: Settlement ====== -->
+        <section class="lesson__section" id="settlement">
+          <h2>Settlement</h2>
+
+          <p><strong>Settlement</strong> is the process by which the buyer receives the securities and the seller receives payment. The settlement date is when the legal transfer of ownership occurs. Different types of securities have different settlement cycles.</p>
+
+          <h3>Settlement Dates</h3>
+
+          <ul>
+            <li><strong>Corporate stocks and bonds:</strong> <strong>T+1</strong> (regular-way settlement — trade date plus one business day). This was shortened from T+2 in May 2024 under SEC Rule 15c6-1(a).</li>
+            <li><strong>Government securities and options:</strong> <strong>T+1</strong> (next business day). Options previously settled same day for exercise; listed options settle T+1 for the premium.</li>
+            <li><strong>Cash settlement:</strong> Same day (T+0). Used in special circumstances; requires agreement between parties.</li>
+            <li><strong>When-issued securities:</strong> Settlement date is determined when the security is actually issued. No settlement until issuance.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Settlement Dates Summary</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>T+1:</strong> Stocks, corporate bonds, municipal bonds, mutual funds, government bonds, options (premium)</p>
+              <p><strong>T+0 (same day):</strong> Cash settlement (by special agreement)</p>
+              <p><strong>When issued:</strong> No settlement date until issuance — trades are made "when, as, and if issued"</p>
+              <p>Remember: "T" always refers to the <strong>trade date</strong> — the date the order is executed. Settlement is when securities and cash actually change hands.</p>
+            </div>
+          </div>
+
+          <h3>Ex-Dividend Date and Record Date</h3>
+
+          <p>When a company declares a dividend, several important dates determine who receives the payment:</p>
+
+          <ol>
+            <li><strong>Declaration date:</strong> The board of directors announces the dividend amount, record date, and payment date.</li>
+            <li><strong>Ex-dividend date:</strong> The first date on which a buyer of the stock is NOT entitled to the declared dividend. Under the T+1 settlement cycle, the ex-dividend date is typically <strong>one business day before the record date</strong>. The stock price typically drops by approximately the dividend amount on the ex-date.</li>
+            <li><strong>Record date:</strong> The date on which the company checks its records to determine which shareholders are entitled to receive the dividend. You must be a shareholder of record by this date.</li>
+            <li><strong>Payment date (payable date):</strong> The date the dividend is actually paid to shareholders of record.</li>
+          </ol>
+
+          <p><strong>Due bills:</strong> If a trade occurs near the ex-dividend date and settlement occurs after the record date, a <strong>due bill</strong> may be used to ensure the proper party receives the dividend. The due bill is a document attached to the security requiring the seller to forward the dividend to the buyer.</p>
+
+          <h3>Clearing Process — DTCC and NSCC</h3>
+
+          <p>The <strong>Depository Trust & Clearing Corporation (DTCC)</strong> and its subsidiary, the <strong>National Securities Clearing Corporation (NSCC)</strong>, provide clearing, settlement, and information services for the U.S. securities industry.</p>
+
+          <p>The NSCC uses a process called <strong>Continuous Net Settlement (CNS)</strong>, which nets all of a firm's buy and sell transactions in each security to a single net long or short position. This dramatically reduces the number of securities and cash deliveries that must occur, increasing efficiency and reducing risk. For example, if a firm bought 10,000 shares of XYZ and sold 8,000 shares of XYZ on the same day, it only needs to receive (and pay for) the net 2,000 shares.</p>
+
+          <p>The <strong>Depository Trust Company (DTC)</strong>, another DTCC subsidiary, holds securities in electronic (book-entry) form. Most securities are held in "street name" (the name of the broker-dealer) at the DTC, which facilitates rapid electronic transfer of ownership during settlement.</p>
+        </section>
+
+        <!-- ====== SECTION 4: Corporate Actions ====== -->
+        <section class="lesson__section" id="corporate-actions">
+          <h2>Corporate Actions</h2>
+
+          <p>Corporate actions are events initiated by a publicly traded company that affect its securities. Understanding how corporate actions impact shares, prices, and outstanding orders is critical for the Series 7 exam.</p>
+
+          <h3>Stock Splits</h3>
+
+          <p>A <strong>stock split</strong> increases the number of shares outstanding while proportionally reducing the price per share. The total market capitalization remains the same.</p>
+
+          <ul>
+            <li><strong>Forward split (e.g., 2-for-1):</strong> An investor who owns 100 shares at $80 would own 200 shares at $40 after a 2:1 split. The value remains $8,000.</li>
+            <li><strong>Reverse split (e.g., 1-for-4):</strong> An investor who owns 400 shares at $5 would own 100 shares at $20 after a 1:4 reverse split. Companies use reverse splits to increase their share price, often to maintain exchange listing requirements.</li>
+          </ul>
+
+          <p><strong>Effect on open orders:</strong> For forward splits, open orders below the market (buy limits and sell stops) are adjusted — the number of shares increases and the price decreases proportionally. For GTC orders, the order quantity is multiplied by the split ratio and the price is divided by the split ratio. Day orders are not adjusted because they expire at the end of the trading day.</p>
+
+          <h3>Stock Dividends</h3>
+
+          <p>A <strong>stock dividend</strong> distributes additional shares to existing shareholders instead of cash. For example, a 10% stock dividend gives shareholders 1 additional share for every 10 they own. Like stock splits, stock dividends increase the number of shares outstanding and reduce the price per share, with no change in total market value.</p>
+
+          <h3>Tender Offers</h3>
+
+          <p>A <strong>tender offer</strong> is a public offer to purchase shares from existing shareholders at a specified price, usually at a premium to the current market price. Tender offers are commonly made by companies seeking to acquire another company or by companies seeking to repurchase their own shares. Under SEC rules, tender offers must remain open for a minimum of <strong>20 business days</strong>, and shareholders who tender their shares can withdraw them at any time before the offer expires.</p>
+
+          <h3>Rights Offerings</h3>
+
+          <p>A <strong>rights offering</strong> (preemptive right) allows existing shareholders to purchase additional shares at a <strong>subscription price</strong> below the current market price, in proportion to their existing holdings. Rights protect shareholders from dilution when the company issues new shares. Rights are typically short-lived (30-45 days) and can be exercised, sold in the secondary market, or allowed to expire.</p>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Trade Reporting — TRACE and EMMA
+            </summary>
+            <div class="deep-dive__content">
+              <p>Trade reporting ensures transparency in the securities markets by making transaction data publicly available.</p>
+              <p><strong>TRACE (Trade Reporting and Compliance Engine):</strong> Operated by FINRA, TRACE provides real-time dissemination of transaction data for eligible fixed-income securities, including corporate bonds, agency debt, and asset-backed securities. Broker-dealers are required to report trades in TRACE-eligible securities within <strong>15 minutes</strong> of execution. TRACE brings transparency to the bond market, which was historically opaque.</p>
+              <p><strong>EMMA (Electronic Municipal Market Access):</strong> Operated by the MSRB, EMMA is the official source of data and disclosure documents for the municipal securities market. It provides free public access to municipal bond trade data, official statements (the muni equivalent of a prospectus), continuing disclosure filings, and credit ratings. Municipal securities dealers must report trades to the MSRB's Real-Time Transaction Reporting System (RTRS) within <strong>15 minutes</strong>.</p>
+              <p>For equities, trade reporting occurs through various exchange and FINRA-operated facilities. OTC equity trades must be reported through the <strong>OTC Reporting Facility (ORF)</strong> or the <strong>Alternative Display Facility (ADF)</strong> within 10 seconds of execution during market hours.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of trading and settlement concepts. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. A customer places a sell stop order at $45 on a stock currently trading at $50. What happens if the stock drops to $45?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) The order is cancelled</button>
+              <button class="answer-btn" data-correct="true">B) The order becomes a market order to sell</button>
+              <button class="answer-btn" data-correct="false">C) The order becomes a limit order to sell at $45</button>
+              <button class="answer-btn" data-correct="false">D) The stock is automatically sold at exactly $45</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              When a sell stop order's stop price is reached, it becomes a market order. As a market order, it will be executed at the next available price, which may be at, above, or below $45. There is no price guarantee once the stop is triggered. If the customer wanted price protection, they should use a stop-limit order.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. What is the regular-way settlement for corporate stocks?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Same day (T+0)</button>
+              <button class="answer-btn" data-correct="true">B) T+1 (trade date plus one business day)</button>
+              <button class="answer-btn" data-correct="false">C) T+2 (trade date plus two business days)</button>
+              <button class="answer-btn" data-correct="false">D) T+3 (trade date plus three business days)</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Regular-way settlement for corporate stocks (and most other securities) is T+1 — trade date plus one business day. This was shortened from T+2 in May 2024. Government securities and options also settle T+1 for premium payments.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Which organization provides clearing and settlement services for U.S. securities and uses continuous net settlement (CNS)?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) FINRA</button>
+              <button class="answer-btn" data-correct="false">B) The SEC</button>
+              <button class="answer-btn" data-correct="true">C) NSCC/DTCC</button>
+              <button class="answer-btn" data-correct="false">D) The Federal Reserve</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The National Securities Clearing Corporation (NSCC), a subsidiary of the Depository Trust & Clearing Corporation (DTCC), provides clearing services using Continuous Net Settlement (CNS). This process nets all buy and sell transactions to reduce the number of securities and cash movements needed for settlement.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. A customer owns 200 shares of XYZ at $60. The company announces a 3-for-1 stock split. After the split, the customer will own:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 200 shares at $60</button>
+              <button class="answer-btn" data-correct="false">B) 200 shares at $20</button>
+              <button class="answer-btn" data-correct="true">C) 600 shares at $20</button>
+              <button class="answer-btn" data-correct="false">D) 600 shares at $60</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              In a 3-for-1 stock split, the number of shares triples and the price is divided by 3. 200 shares x 3 = 600 shares. $60 / 3 = $20 per share. The total value remains the same: 200 x $60 = $12,000 = 600 x $20.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Under Regulation NMS, the Order Protection Rule (Rule 611) prevents which of the following?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Short selling without locating shares</button>
+              <button class="answer-btn" data-correct="true">B) Trade-throughs (executing at prices inferior to displayed quotes on other venues)</button>
+              <button class="answer-btn" data-correct="false">C) Insider trading</button>
+              <button class="answer-btn" data-correct="false">D) Quoting securities in sub-penny increments</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The Order Protection Rule (Rule 611) of Regulation NMS prevents trade-throughs — executing orders at prices worse than displayed quotations available on other trading venues. This ensures customers receive the National Best Bid and Offer (NBBO). The Sub-Penny Rule is Rule 612, not Rule 611.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="customer-accounts.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 10 — Customer Accounts</span>
+            </div>
+          </a>
+          <a href="regulations-compliance.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 12 — Regulations and Compliance</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS (JS populated) ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

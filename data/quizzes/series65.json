@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series65-q001",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "Under the Investment Advisers Act of 1940, an investment adviser with assets under management of $110 million or more must register with:",
+    "choices": ["A. The state where the adviser's principal office is located", "B. The Securities and Exchange Commission (SEC)", "C. Both the SEC and the state", "D. FINRA"],
+    "correct": 1,
+    "explanation": "Under the Investment Advisers Act of 1940, investment advisers with assets under management (AUM) of $100 million or more generally must register with the SEC. Advisers with AUM between $100-$110 million are in a buffer zone and may register with either. Advisers with $110 million or more must register with the SEC."
+  },
+  {
+    "id": "series65-q002",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "An investment adviser has a fiduciary duty to clients. This means the adviser must:",
+    "choices": ["A. Guarantee investment returns", "B. Always place the client's interests ahead of their own", "C. Only invest in risk-free securities", "D. Avoid charging fees for services"],
+    "correct": 1,
+    "explanation": "A fiduciary duty requires the investment adviser to always act in the best interest of the client, placing the client's interests ahead of their own. This includes the duty of loyalty (avoiding conflicts of interest or disclosing them) and the duty of care (providing suitable advice based on thorough analysis)."
+  },
+  {
+    "id": "series65-q003",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "An investment adviser wants to purchase shares from a client's account for the adviser's own account. This is known as:",
+    "choices": ["A. An agency cross transaction", "B. A principal transaction", "C. A block trade", "D. An allocation trade"],
+    "correct": 1,
+    "explanation": "When an investment adviser buys securities from or sells securities to a client's account for the adviser's own account (or an account in which the adviser has a financial interest), it is a principal transaction. The adviser must disclose this conflict and obtain the client's consent before the completion of each such transaction."
+  },
+  {
+    "id": "series65-q004",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "Modern Portfolio Theory suggests that investors should focus on:",
+    "choices": ["A. Individual stock selection based on fundamental analysis", "B. Portfolio risk and return rather than individual security analysis", "C. Timing the market for maximum returns", "D. Investing only in risk-free securities"],
+    "correct": 1,
+    "explanation": "Modern Portfolio Theory (MPT), developed by Harry Markowitz, focuses on portfolio construction and the relationship between risk and return at the portfolio level. MPT demonstrates that diversification can reduce risk without sacrificing expected return, and that the risk-return profile of the entire portfolio matters more than that of individual securities."
+  },
+  {
+    "id": "series65-q005",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "Beta measures a security's:",
+    "choices": ["A. Total risk", "B. Systematic (market) risk relative to the market", "C. Unsystematic risk", "D. Credit risk"],
+    "correct": 1,
+    "explanation": "Beta measures systematic (market) risk, which is the sensitivity of a security's returns relative to the overall market. A beta of 1.0 means the security moves with the market. A beta greater than 1.0 indicates greater volatility than the market, while a beta less than 1.0 indicates less volatility."
+  },
+  {
+    "id": "series65-q006",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "Which of the following measures risk-adjusted return using standard deviation?",
+    "choices": ["A. Alpha", "B. Beta", "C. Sharpe ratio", "D. R-squared"],
+    "correct": 2,
+    "explanation": "The Sharpe ratio measures risk-adjusted return by dividing the excess return (portfolio return minus risk-free rate) by the portfolio's standard deviation. A higher Sharpe ratio indicates better risk-adjusted performance. Standard deviation measures total risk (both systematic and unsystematic)."
+  },
+  {
+    "id": "series65-q007",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "Which of the following persons is EXCLUDED from the definition of an investment adviser under the USA?",
+    "choices": ["A. A financial planner charging fees for investment advice", "B. A bank or bank holding company", "C. A person managing a hedge fund for compensation", "D. A social media influencer offering paid stock picks"],
+    "correct": 1,
+    "explanation": "Banks and bank holding companies are excluded from the definition of investment adviser under both the federal Investment Advisers Act and the Uniform Securities Act. This exclusion recognizes that banking activities, including trust and fiduciary services, are already regulated by banking authorities."
+  },
+  {
+    "id": "series65-q008",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "An investment adviser must deliver Form ADV Part 2 (the brochure) to clients:",
+    "choices": ["A. Within 60 days after the advisory contract is signed", "B. At or before the time the advisory contract is entered into", "C. Only upon request by the client", "D. At the end of each calendar year"],
+    "correct": 1,
+    "explanation": "Investment advisers must deliver the Form ADV Part 2 (firm brochure) and Part 2B (brochure supplement) to prospective clients at or before entering into an advisory contract. Additionally, advisers must offer to deliver an updated brochure annually. This ensures clients have important information about the adviser before committing."
+  },
+  {
+    "id": "series65-q009",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "An investment adviser representative manages portfolios for multiple clients. When allocating trades for a hot IPO, the IAR must:",
+    "choices": ["A. Allocate all shares to the largest account", "B. Allocate shares proportionally and fairly among eligible client accounts", "C. Allocate shares to the account that generates the most fees", "D. Allocate shares first to accounts of family members"],
+    "correct": 1,
+    "explanation": "Investment advisers have a fiduciary duty to treat all clients fairly in trade allocation. When allocating limited shares (such as IPOs), the adviser must use a fair and equitable method, typically pro-rata allocation based on account size or a rotation system. Favoring certain accounts over others is a breach of fiduciary duty."
+  },
+  {
+    "id": "series65-q010",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "A client has a portfolio with an alpha of +2.5. This means the portfolio:",
+    "choices": ["A. Has underperformed its benchmark by 2.5%", "B. Has outperformed its benchmark by 2.5% on a risk-adjusted basis", "C. Has a beta of 2.5", "D. Has a standard deviation of 2.5%"],
+    "correct": 1,
+    "explanation": "Alpha measures the excess return of a portfolio relative to its expected return based on its beta and the market return (using the Capital Asset Pricing Model). A positive alpha of +2.5 indicates the portfolio outperformed its expected return by 2.5% on a risk-adjusted basis, suggesting skillful management."
+  },
+  {
+    "id": "series65-q011",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "The Capital Asset Pricing Model (CAPM) uses which of the following inputs?",
+    "choices": ["A. Risk-free rate, beta, and expected market return", "B. Standard deviation, correlation, and risk-free rate", "C. Sharpe ratio, alpha, and R-squared", "D. Dividend yield, P/E ratio, and earnings growth"],
+    "correct": 0,
+    "explanation": "CAPM calculates expected return as: Risk-free rate + Beta x (Expected market return - Risk-free rate). The model uses the risk-free rate (typically Treasury bills), the security's beta (systematic risk), and the expected market return to determine the required rate of return for an investment."
+  },
+  {
+    "id": "series65-q012",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "Under the USA, an investment adviser may charge a performance fee to:",
+    "choices": ["A. Any client who agrees to it", "B. Only clients who meet the qualified client threshold", "C. Only institutional clients", "D. Performance fees are always prohibited"],
+    "correct": 1,
+    "explanation": "Under both federal and state law, investment advisers may charge performance-based fees only to qualified clients. A qualified client is generally defined as having at least $1.1 million in assets under management with the adviser or a net worth exceeding $2.2 million. This protects less sophisticated investors from the risks associated with performance-based fee arrangements."
+  },
+  {
+    "id": "series65-q013",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "An investment adviser receives soft dollar benefits from a broker-dealer. The adviser's obligation is to:",
+    "choices": ["A. Keep the arrangement confidential", "B. Disclose the arrangement and ensure the benefits are used for eligible research purposes", "C. Return all soft dollar benefits to clients", "D. Use only the cheapest broker regardless of research quality"],
+    "correct": 1,
+    "explanation": "Investment advisers must disclose soft dollar arrangements to clients. Under the safe harbor of Section 28(e) of the Securities Exchange Act, advisers may use soft dollars for eligible research products and services that help in the investment decision-making process. The adviser must seek best execution and cannot sacrifice execution quality solely to obtain soft dollar benefits."
+  },
+  {
+    "id": "series65-q014",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "A bond portfolio manager is concerned about rising interest rates. Which strategy would BEST protect the portfolio?",
+    "choices": ["A. Extend the portfolio's duration", "B. Shorten the portfolio's duration", "C. Increase allocation to zero-coupon bonds", "D. Increase allocation to long-term bonds"],
+    "correct": 1,
+    "explanation": "When interest rates are expected to rise, bond prices will fall. Shortening the portfolio's duration reduces the portfolio's sensitivity to interest rate changes. Shorter-duration bonds experience smaller price declines when rates rise. Extending duration or adding zero-coupon/long-term bonds would increase rate sensitivity."
+  },
+  {
+    "id": "series65-q015",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "Dollar-cost averaging involves:",
+    "choices": ["A. Investing a fixed dollar amount at regular intervals regardless of price", "B. Buying at the lowest price each quarter", "C. Investing only when the market declines", "D. Maintaining a fixed number of shares each period"],
+    "correct": 0,
+    "explanation": "Dollar-cost averaging is a strategy of investing a fixed dollar amount at regular intervals regardless of market conditions. This results in purchasing more shares when prices are low and fewer shares when prices are high, potentially lowering the average cost per share over time. It does not guarantee a profit or protect against loss."
+  },
+  {
+    "id": "series65-q016",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "An investment adviser's custody of client assets triggers which additional requirement?",
+    "choices": ["A. Higher bonding requirements only", "B. Annual surprise examination by an independent public accountant", "C. Weekly reporting to the SEC", "D. Dual registration as a broker-dealer"],
+    "correct": 1,
+    "explanation": "When an investment adviser has custody of client assets, the adviser must undergo an annual surprise examination by an independent public accountant to verify client assets. This requirement protects clients from misappropriation. The adviser must also maintain client funds with a qualified custodian and provide regular account statements."
+  },
+  {
+    "id": "series65-q017",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "The duty of care for an investment adviser includes all of the following EXCEPT:",
+    "choices": ["A. Providing suitable investment advice based on the client's objectives", "B. Conducting reasonable investigation into investments before recommending them", "C. Guaranteeing a minimum rate of return on investments", "D. Monitoring client portfolios on an ongoing basis"],
+    "correct": 2,
+    "explanation": "The duty of care requires advisers to provide suitable advice, conduct reasonable due diligence, and monitor client portfolios. Guaranteeing a minimum rate of return is not part of the duty of care and is, in fact, prohibited. No adviser can guarantee investment results."
+  },
+  {
+    "id": "series65-q018",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "An investor with a long time horizon and high risk tolerance would be MOST suitable for which asset allocation?",
+    "choices": ["A. 80% bonds, 20% stocks", "B. 50% bonds, 50% stocks", "C. 80% stocks, 20% bonds", "D. 100% money market funds"],
+    "correct": 2,
+    "explanation": "An investor with a long time horizon and high risk tolerance is best suited for a growth-oriented portfolio with a higher allocation to equities (stocks). An 80% stock, 20% bond allocation provides significant growth potential while maintaining some fixed-income diversification. The long time horizon allows recovery from market downturns."
+  },
+  {
+    "id": "series65-q019",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "Under the USA, an investment adviser contract must include all of the following EXCEPT:",
+    "choices": ["A. The services to be provided", "B. The fee or compensation structure", "C. A guarantee of specific investment returns", "D. Whether the adviser has discretionary authority"],
+    "correct": 2,
+    "explanation": "An investment adviser contract must include the services to be provided, the fee structure, the term of the contract, and whether the adviser has discretionary authority. A guarantee of specific investment returns is prohibited and would never be included in a legitimate advisory contract."
+  },
+  {
+    "id": "series65-q020",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "R-squared measures:",
+    "choices": ["A. The total return of a portfolio", "B. The percentage of a portfolio's movement explained by the benchmark", "C. The risk-adjusted return", "D. The volatility of a security"],
+    "correct": 1,
+    "explanation": "R-squared (coefficient of determination) measures the percentage of a portfolio's return that can be explained by the movements of its benchmark index. An R-squared of 100 means the portfolio's returns perfectly correlate with the benchmark. A low R-squared suggests the portfolio behaves differently from its benchmark."
+  },
+  {
+    "id": "series65-q021",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "An investment adviser learns that a key employee is leaving to start a competing firm and plans to solicit the adviser's clients. The adviser's fiduciary obligation requires:",
+    "choices": ["A. Immediately contacting all clients to disparage the departing employee", "B. Taking no action since it is a business matter", "C. Acting in the clients' best interests and ensuring their accounts are properly managed during the transition", "D. Transferring all client accounts to the departing employee"],
+    "correct": 2,
+    "explanation": "The fiduciary duty requires the adviser to act in the best interest of clients at all times, including during employee departures. The adviser must ensure client accounts continue to be properly managed and that clients are informed of any material changes. Disparaging the departing employee or ignoring the situation would not serve clients' interests."
+  },
+  {
+    "id": "series65-q022",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "Which of the following is an example of unsystematic risk?",
+    "choices": ["A. Interest rate risk", "B. Inflation risk", "C. Business risk of a single company", "D. Market risk"],
+    "correct": 2,
+    "explanation": "Unsystematic (diversifiable) risk is specific to an individual company or industry. Business risk, such as the risk of a company's product failing, is unsystematic and can be reduced through diversification. Systematic risks like interest rate risk, inflation risk, and market risk affect the entire market and cannot be diversified away."
+  },
+  {
+    "id": "series65-q023",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Law",
+    "question": "When an investment adviser representative leaves their firm, the firm must file Form U5 with the Administrator within:",
+    "choices": ["A. 10 days", "B. 30 days", "C. 60 days", "D. 90 days"],
+    "correct": 1,
+    "explanation": "When an IAR leaves their firm, the firm must file Form U5 (Uniform Termination Notice) through the CRD system within 30 days of termination. This notifies the Administrator that the IAR is no longer associated with the firm. The IAR's registration becomes inactive until they register with a new adviser."
+  },
+  {
+    "id": "series65-q024",
+    "topic": "series65-t3",
+    "topicName": "Portfolio Management",
+    "question": "The efficient frontier represents:",
+    "choices": ["A. The set of portfolios offering the highest return for each level of risk", "B. All possible combinations of securities", "C. Only risk-free investments", "D. Portfolios with the highest risk"],
+    "correct": 0,
+    "explanation": "The efficient frontier is a curve on the risk-return graph representing the set of optimal portfolios that offer the maximum expected return for a given level of risk, or the minimum risk for a given level of expected return. Portfolios below the efficient frontier are suboptimal because better risk-return combinations exist."
+  },
+  {
+    "id": "series65-q025",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "question": "An adviser charges a 1% annual management fee based on AUM. The adviser is also considering adding a 12b-1 fee revenue-sharing arrangement with a mutual fund family. The adviser must:",
+    "choices": ["A. Keep the arrangement private as it is standard industry practice", "B. Disclose the conflict of interest to clients since it creates an incentive to recommend those funds", "C. Only disclose if clients ask directly", "D. Discontinue the management fee if receiving 12b-1 fees"],
+    "correct": 1,
+    "explanation": "The fiduciary duty requires full disclosure of all conflicts of interest. A revenue-sharing arrangement with a mutual fund family creates a conflict because the adviser has a financial incentive to recommend those funds over others. The adviser must disclose this arrangement to clients so they can make informed decisions."
+  }
+]

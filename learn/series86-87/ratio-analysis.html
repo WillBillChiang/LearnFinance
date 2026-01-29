@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn ratio analysis and the DuPont framework for the Series 86/87 exam. Covers profitability, liquidity, leverage, efficiency ratios, and ROE decomposition.">
+  <title>Ratio Analysis &amp; DuPont Framework - Series 86/87 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series86-87" data-chapter="ratio-analysis">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 3</span>
+          <h1>Ratio Analysis &amp; the DuPont Framework</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 35 min read</span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Series 86/87 &mdash; Research Analyst</span>
+          </div>
+        </div>
+
+        <section class="lesson__section" id="profitability-ratios">
+          <h2>Profitability Ratios</h2>
+
+          <p>Profitability ratios measure a company's ability to generate profits relative to its revenue, assets, or equity. They are among the most important metrics for research analysts because they reveal how efficiently management converts resources into shareholder value. Trends in profitability ratios over time, and comparisons to industry peers, provide critical insights into competitive positioning, pricing power, and operational efficiency.</p>
+
+          <h3>Margin Ratios</h3>
+
+          <p><strong>Gross Margin = Gross Profit / Revenue.</strong> This ratio measures the profitability of the company's core products or services after accounting for direct costs. A high gross margin indicates strong pricing power or efficient production. Companies in the software industry typically have gross margins above 70%, while grocery retailers may operate with gross margins of 25-30%. Changes in gross margin often reflect shifts in product mix, input cost inflation, pricing changes, or competitive pressure.</p>
+
+          <p><strong>Operating Margin = Operating Income / Revenue.</strong> Also called EBIT margin, this ratio captures profitability after both direct costs and operating expenses. Operating margin reflects management's effectiveness in controlling overhead costs and achieving operating leverage. A company can have a high gross margin but a low operating margin if SG&amp;A or R&amp;D spending is disproportionately large.</p>
+
+          <p><strong>Net Profit Margin = Net Income / Revenue.</strong> The bottom-line margin reflects all costs including interest, taxes, and non-recurring items. While useful for understanding overall profitability, net margin can be volatile due to tax rate changes, interest rate fluctuations, and one-time charges. Analysts often prefer operating margin for comparing operational performance across companies.</p>
+
+          <p><strong>EBITDA Margin = EBITDA / Revenue.</strong> By excluding depreciation and amortization, EBITDA margin provides a measure of cash-generating profitability that is less affected by differences in capital intensity and accounting policies for depreciation. It is widely used in leveraged buyout analysis and for valuing capital-intensive businesses.</p>
+
+          <h3>Return Ratios</h3>
+
+          <p><strong>Return on Equity (ROE) = Net Income / Average Shareholders' Equity.</strong> ROE measures the return generated on shareholders' invested capital. It is one of the most important metrics for equity investors because it directly relates to value creation. A company that consistently earns an ROE above its cost of equity is creating value; one that earns below its cost of equity is destroying value. Typical ROE targets are 15-20% for well-managed companies.</p>
+
+          <p><strong>Return on Assets (ROA) = Net Income / Average Total Assets.</strong> ROA measures how efficiently the company uses all of its assets (regardless of how they are financed) to generate profit. ROA is particularly useful for comparing companies with different capital structures because it is not affected by leverage. Asset-light business models (such as software companies) tend to have higher ROAs than asset-heavy models (such as manufacturers or utilities).</p>
+
+          <p><strong>Return on Invested Capital (ROIC) = NOPAT / Average Invested Capital.</strong> Where NOPAT (Net Operating Profit After Tax) = Operating Income x (1 - Tax Rate) and Invested Capital = Total Debt + Shareholders' Equity - Cash. ROIC is considered the gold standard of profitability metrics because it measures the return on all capital invested in the business, both debt and equity. When ROIC exceeds the weighted average cost of capital (WACC), the company is creating economic value.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 86 exam distinguishes between ROE, ROA, and ROIC. Remember: <strong>ROE</strong> can be artificially inflated by high leverage (more debt reduces equity in the denominator). <strong>ROA</strong> strips out leverage effects. <strong>ROIC</strong> is the most comprehensive measure because it includes all invested capital and uses after-tax operating income. A company with high ROE but low ROIC may be relying on leverage rather than operational excellence.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="liquidity-ratios">
+          <h2>Liquidity Ratios</h2>
+
+          <p>Liquidity ratios measure a company's ability to meet its short-term financial obligations. Even a highly profitable company can face financial distress if it lacks sufficient liquidity to pay its bills as they come due. Research analysts monitor liquidity ratios to assess near-term financial risk and to identify companies that may face working capital challenges.</p>
+
+          <p><strong>Current Ratio = Current Assets / Current Liabilities.</strong> This is the broadest measure of liquidity. A ratio above 1.0 indicates that current assets exceed current liabilities. However, a very high current ratio (e.g., above 3.0) may indicate that the company is not efficiently utilizing its assets. Industry norms vary significantly: retailers may operate with current ratios near 1.0, while industrial companies may maintain ratios of 1.5-2.0.</p>
+
+          <p><strong>Quick Ratio (Acid Test) = (Cash + Short-term Investments + Accounts Receivable) / Current Liabilities.</strong> The quick ratio excludes inventory and prepaid expenses, which are the least liquid current assets. It provides a more conservative measure of liquidity and is particularly important for companies where inventory may be slow-moving or difficult to liquidate.</p>
+
+          <p><strong>Cash Ratio = (Cash + Cash Equivalents) / Current Liabilities.</strong> The most conservative liquidity measure, the cash ratio only considers the most liquid assets. It answers the question: could the company pay off all current liabilities right now using only cash on hand?</p>
+
+          <p><strong>Working Capital = Current Assets - Current Liabilities.</strong> While not a ratio, working capital is a critical absolute measure of short-term financial health. Negative working capital (current liabilities exceeding current assets) is not necessarily problematic for companies with strong cash flow generation and favorable payment terms (such as large retailers that collect from customers before paying suppliers), but it can be a red flag for companies in financial distress.</p>
+        </section>
+
+        <section class="lesson__section" id="leverage-ratios">
+          <h2>Leverage Ratios</h2>
+
+          <p>Leverage (or solvency) ratios measure the extent to which a company uses debt financing and its ability to service that debt. Higher leverage amplifies both returns and risks. Research analysts evaluate leverage to assess the financial risk profile of a company, its capacity for additional borrowing, and its vulnerability to economic downturns or rising interest rates.</p>
+
+          <p><strong>Debt-to-Equity (D/E) = Total Debt / Total Shareholders' Equity.</strong> This ratio measures the proportion of debt relative to equity financing. A D/E ratio of 1.0 means the company has equal amounts of debt and equity. Industries with stable cash flows (utilities, telecom) can support higher D/E ratios, while cyclical businesses should maintain lower leverage.</p>
+
+          <p><strong>Debt-to-Capital = Total Debt / (Total Debt + Shareholders' Equity).</strong> Similar to D/E but bounded between 0 and 1.0, making it easier to compare across companies. A debt-to-capital ratio of 0.50 means debt represents half of total capitalization.</p>
+
+          <p><strong>Net Debt-to-EBITDA = (Total Debt - Cash) / EBITDA.</strong> This is the most widely used leverage metric in practice. It measures how many years of EBITDA it would take to repay the company's net debt. Credit rating agencies and lenders closely monitor this ratio. Generally, a ratio below 2.0x is considered conservative, 2.0-3.0x is moderate, and above 4.0x is considered highly leveraged.</p>
+
+          <p><strong>Interest Coverage = EBIT / Interest Expense.</strong> This ratio measures the company's ability to meet its interest obligations from operating earnings. A ratio below 1.5x indicates that the company may struggle to service its debt, while a ratio above 5.0x suggests comfortable coverage. Declining interest coverage is an early warning sign of potential financial distress.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>When calculating leverage ratios, always consider <strong>off-balance-sheet obligations</strong> that may not appear in total debt figures. These include operating lease commitments (now mostly on-balance-sheet under ASC 842, but legacy analysis may not include them), pension obligations, purchase commitments, and guarantees of subsidiary or affiliate debt. Adjusting for these items provides a more complete picture of a company's true leverage.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="efficiency-ratios">
+          <h2>Efficiency Ratios</h2>
+
+          <p>Efficiency (or activity) ratios measure how effectively a company manages its assets and working capital. These ratios are particularly important for understanding the cash conversion cycle and identifying potential operational improvements.</p>
+
+          <p><strong>Days Sales Outstanding (DSO) = (Accounts Receivable / Revenue) x 365.</strong> DSO measures the average number of days it takes to collect payment from customers after a sale. Rising DSO may indicate deteriorating credit quality of customers, more lenient credit terms, or aggressive revenue recognition. DSO should be compared to the company's stated payment terms and to industry averages.</p>
+
+          <p><strong>Days Inventory Outstanding (DIO) = (Inventory / COGS) x 365.</strong> DIO measures how many days of inventory the company holds on average. Rising DIO may indicate slowing demand, obsolescence risk, or supply chain inefficiencies. Just-in-time manufacturers may have DIO of 10-20 days, while companies with long production cycles may have DIO exceeding 100 days.</p>
+
+          <p><strong>Days Payable Outstanding (DPO) = (Accounts Payable / COGS) x 365.</strong> DPO measures how long the company takes to pay its suppliers. Longer payment terms are generally favorable from a cash flow perspective but may strain supplier relationships if extended too aggressively.</p>
+
+          <p><strong>Cash Conversion Cycle (CCC) = DSO + DIO - DPO.</strong> The CCC measures the number of days it takes for a company to convert its investment in inventory and other resources into cash from sales. A shorter CCC indicates more efficient working capital management. Some powerful companies (like large retailers) achieve negative CCCs by collecting from customers before paying suppliers.</p>
+
+          <p><strong>Asset Turnover = Revenue / Average Total Assets.</strong> This ratio measures how efficiently the company generates revenue from its asset base. Higher asset turnover indicates more efficient use of assets. Asset-light businesses (software, consulting) tend to have high asset turnover, while asset-heavy businesses (manufacturing, utilities) have lower turnover but may compensate with higher margins.</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Ratio Category</th>
+                  <th>Key Ratios</th>
+                  <th>What It Measures</th>
+                  <th>Ideal Direction</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Profitability</td>
+                  <td class="compare-table__cell">Gross margin, operating margin, ROE, ROIC</td>
+                  <td class="compare-table__cell">Ability to generate profits</td>
+                  <td class="compare-table__cell">Higher is better</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Liquidity</td>
+                  <td class="compare-table__cell">Current ratio, quick ratio, cash ratio</td>
+                  <td class="compare-table__cell">Ability to meet short-term obligations</td>
+                  <td class="compare-table__cell">Above 1.0 (context dependent)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Leverage</td>
+                  <td class="compare-table__cell">D/E, net debt/EBITDA, interest coverage</td>
+                  <td class="compare-table__cell">Financial risk from debt</td>
+                  <td class="compare-table__cell">Lower leverage, higher coverage</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Efficiency</td>
+                  <td class="compare-table__cell">DSO, DIO, DPO, CCC, asset turnover</td>
+                  <td class="compare-table__cell">How well assets are utilized</td>
+                  <td class="compare-table__cell">Shorter CCC, higher turnover</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="dupont-framework">
+          <h2>The DuPont Framework</h2>
+
+          <p>The <strong>DuPont Analysis</strong> is a powerful framework that decomposes Return on Equity (ROE) into its component drivers, enabling analysts to understand exactly why a company's ROE is high or low and what factors are driving changes over time. Named after the DuPont Corporation, which popularized the approach in the 1920s, it remains one of the most important analytical tools in equity research.</p>
+
+          <h3>Three-Component DuPont Decomposition</h3>
+
+          <p>The basic DuPont formula breaks ROE into three multiplicative components:</p>
+
+          <p><strong>ROE = Net Profit Margin x Asset Turnover x Equity Multiplier</strong></p>
+
+          <p>Where:</p>
+          <ul>
+            <li><strong>Net Profit Margin</strong> = Net Income / Revenue (measures profitability)</li>
+            <li><strong>Asset Turnover</strong> = Revenue / Average Total Assets (measures efficiency)</li>
+            <li><strong>Equity Multiplier</strong> = Average Total Assets / Average Shareholders' Equity (measures leverage)</li>
+          </ul>
+
+          <p>This decomposition reveals that a company can achieve a high ROE through three distinct strategies: (1) high profit margins (premium pricing or cost efficiency), (2) high asset turnover (efficient use of assets to generate revenue), or (3) high leverage (using borrowed money to amplify returns). Most successful companies rely on a combination, but the mix varies significantly by industry.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>DuPont comparison of two companies with identical 20% ROE:</strong></p>
+              <p><strong>Company A (Luxury brand):</strong> Net Margin 20% x Asset Turnover 0.5x x Equity Multiplier 2.0x = 20% ROE. This company achieves high ROE through high margins (premium pricing) and moderate leverage, despite low asset turnover (significant brand and inventory assets).</p>
+              <p><strong>Company B (Discount retailer):</strong> Net Margin 2% x Asset Turnover 5.0x x Equity Multiplier 2.0x = 20% ROE. This company achieves the same ROE through extremely high asset turnover (rapid inventory movement and efficient asset use) despite thin margins, with the same leverage.</p>
+              <p>Both companies achieve 20% ROE, but through fundamentally different business models. Understanding these drivers helps analysts evaluate the sustainability and quality of the returns.</p>
+            </div>
+          </div>
+
+          <h3>Five-Component DuPont Decomposition</h3>
+
+          <p>The extended DuPont model further decomposes net profit margin to separate the effects of operating efficiency, taxes, and interest expense:</p>
+
+          <p><strong>ROE = Tax Burden x Interest Burden x EBIT Margin x Asset Turnover x Equity Multiplier</strong></p>
+
+          <p>Where:</p>
+          <ul>
+            <li><strong>Tax Burden</strong> = Net Income / Pretax Income (what percentage of pretax profits is retained after taxes)</li>
+            <li><strong>Interest Burden</strong> = Pretax Income / EBIT (what percentage of operating income remains after interest expense)</li>
+            <li><strong>EBIT Margin</strong> = EBIT / Revenue (operating profitability)</li>
+            <li><strong>Asset Turnover</strong> = Revenue / Average Total Assets</li>
+            <li><strong>Equity Multiplier</strong> = Average Total Assets / Average Shareholders' Equity</li>
+          </ul>
+
+          <p>This extended decomposition is valuable because it isolates the impact of tax changes and interest expense changes from core operating performance. For example, if a company's ROE increases due to a lower tax rate (higher tax burden ratio) rather than improved operations, the analyst can identify that the improvement is not operationally driven and may not be sustainable if tax rates change.</p>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The DuPont framework is powerful because it transforms a single number (ROE) into a story about how the company creates value. An analyst who simply reports "ROE is 18%" provides little insight. An analyst who explains "ROE improved from 15% to 18% primarily due to a 200 basis point expansion in operating margin driven by scale efficiencies, partially offset by declining asset turnover from a recent acquisition" provides actionable intelligence for investors.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="peer-comparison">
+          <h2>Peer Comparison and Industry Context</h2>
+
+          <p>Financial ratios are most meaningful when compared to relevant benchmarks. Absolute ratio values have limited interpretive value without context. A current ratio of 1.2 might be strong for a retailer but weak for a manufacturer. The three primary benchmarks for ratio analysis are:</p>
+
+          <ul>
+            <li><strong>Historical comparison (time-series):</strong> Comparing a company's current ratios to its own historical values reveals trends and turning points. This is the most useful benchmark for identifying improvements or deterioration in a specific company's performance.</li>
+            <li><strong>Peer comparison (cross-sectional):</strong> Comparing ratios to a carefully selected group of peer companies reveals relative strengths and weaknesses. The key challenge is selecting appropriate peers — companies should be similar in terms of business model, size, geography, and end markets.</li>
+            <li><strong>Industry averages:</strong> Published industry averages provide a broader benchmark but may obscure important differences between companies within an industry. Industry averages are most useful as a starting point for analysis.</li>
+          </ul>
+
+          <p>When conducting peer comparison, analysts must be aware of differences in accounting policies that can distort ratio comparisons. For example, companies using different depreciation methods, inventory valuation methods, or revenue recognition policies may report different ratios even if their underlying economics are identical. Adjusting for these differences is an important part of rigorous comparative analysis.</p>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of ratio analysis and the DuPont framework.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Using the DuPont framework, a company has a net profit margin of 8%, asset turnover of 1.5x, and an equity multiplier of 2.0x. What is the company's ROE?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 12%</button>
+              <button class="answer-btn" data-correct="false">B) 16%</button>
+              <button class="answer-btn" data-correct="true">C) 24%</button>
+              <button class="answer-btn" data-correct="false">D) 32%</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              ROE = Net Profit Margin x Asset Turnover x Equity Multiplier = 8% x 1.5 x 2.0 = 24%. The DuPont decomposition shows that this company's ROE is driven by moderate margins amplified by good asset efficiency and moderate leverage.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. The Cash Conversion Cycle (CCC) is calculated as:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) DSO + DPO - DIO</button>
+              <button class="answer-btn" data-correct="true">B) DSO + DIO - DPO</button>
+              <button class="answer-btn" data-correct="false">C) DPO + DIO - DSO</button>
+              <button class="answer-btn" data-correct="false">D) DSO - DIO - DPO</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              CCC = Days Sales Outstanding + Days Inventory Outstanding - Days Payable Outstanding. The CCC measures the total number of days from paying for inventory to collecting cash from customers. A shorter (or negative) CCC indicates more efficient working capital management.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. A company has EBIT of $10 million and interest expense of $8 million. Its interest coverage ratio is:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) 1.25x</button>
+              <button class="answer-btn" data-correct="false">B) 0.80x</button>
+              <button class="answer-btn" data-correct="false">C) 2.50x</button>
+              <button class="answer-btn" data-correct="false">D) 8.00x</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Interest Coverage = EBIT / Interest Expense = $10M / $8M = 1.25x. This is a dangerously low coverage ratio, indicating the company barely earns enough to cover its interest payments. A decline in EBIT of just 25% would make the company unable to meet its interest obligations from operating earnings.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which liquidity ratio is the MOST conservative?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Current ratio</button>
+              <button class="answer-btn" data-correct="false">B) Quick ratio</button>
+              <button class="answer-btn" data-correct="true">C) Cash ratio</button>
+              <button class="answer-btn" data-correct="false">D) Working capital ratio</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The cash ratio (Cash and Cash Equivalents / Current Liabilities) is the most conservative liquidity measure because it only considers cash, the most liquid asset. The quick ratio adds receivables and short-term investments, while the current ratio includes all current assets including inventory.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. ROIC is considered superior to ROE as a profitability metric because ROIC:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Is always higher than ROE</button>
+              <button class="answer-btn" data-correct="false">B) Excludes the impact of depreciation</button>
+              <button class="answer-btn" data-correct="true">C) Measures returns on all invested capital regardless of financing mix</button>
+              <button class="answer-btn" data-correct="false">D) Uses revenue instead of net income in the numerator</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              ROIC measures returns on all invested capital (both debt and equity), making it independent of the company's capital structure. ROE can be artificially inflated by high leverage (more debt reduces equity, boosting the ratio). ROIC provides a cleaner measure of the company's operating efficiency and value creation.
+            </div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="financial-statement-analysis.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span>
+            <div><span class="lesson__nav-label">Previous Chapter</span><span class="lesson__nav-title">Chapter 2 &mdash; Financial Statement Analysis</span></div>
+          </a>
+          <a href="valuation-dcf.html" class="lesson__nav-link lesson__nav-link--next">
+            <div><span class="lesson__nav-label">Next Chapter</span><span class="lesson__nav-title">Chapter 4 &mdash; Valuation: DCF</span></div>
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc"><p class="lesson__toc-title">On This Page</p><ul class="lesson__toc-list"></ul></aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a><p class="footer__tagline">Free exam prep for every aspiring finance professional.</p></div>
+        <div class="footer__col"><h4 class="footer__col-title">Exams</h4><ul class="footer__links"><li><a href="../../exams/sie.html">SIE</a></li><li><a href="../../exams/series7.html">Series 7</a></li><li><a href="../../exams/series63.html">Series 63</a></li><li><a href="../../exams/series65.html">Series 65</a></li><li><a href="../../exams/series66.html">Series 66</a></li><li><a href="../../exams/">View All Exams</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Tools</h4><ul class="footer__links"><li><a href="../../learn/">Learn</a></li><li><a href="../../quiz/">Practice Quizzes</a></li><li><a href="../../flashcards/">Flashcards</a></li><li><a href="../../pathways/">Career Pathways</a></li><li><a href="../../progress/">Progress Tracker</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">About</h4><ul class="footer__links"><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../privacy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms of Use</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p></div>
+      <div class="footer__bottom"><p>&copy; 2026 LearnFinance. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

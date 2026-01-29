@@ -1,0 +1,1293 @@
+{
+  "exams": [
+    {
+      "id": "sie",
+      "series": "SIE",
+      "name": "Securities Industry Essentials",
+      "category": "entry",
+      "description": "Foundation exam covering capital markets, products, trading, and regulations",
+      "chapters": [
+        {
+          "id": "capital-markets",
+          "number": 1,
+          "title": "Knowledge of Capital Markets",
+          "file": "capital-markets.html",
+          "description": "Regulatory agencies, market structure, economic factors, and the IPO process",
+          "readTime": 25,
+          "examWeight": "16%",
+          "examTopic": "Topic 1"
+        },
+        {
+          "id": "products-equity",
+          "number": 2,
+          "title": "Equity Securities",
+          "file": "products-equity.html",
+          "description": "Common and preferred stock, rights, warrants, and ADRs",
+          "readTime": 20,
+          "examTopic": "Topic 2"
+        },
+        {
+          "id": "products-debt",
+          "number": 3,
+          "title": "Debt Securities",
+          "file": "products-debt.html",
+          "description": "Bond types, pricing, yields, and interest rate risk fundamentals",
+          "readTime": 30,
+          "examTopic": "Topic 2"
+        },
+        {
+          "id": "products-options",
+          "number": 4,
+          "title": "Options Basics",
+          "file": "products-options.html",
+          "description": "Call and put options, premiums, intrinsic and time value concepts",
+          "readTime": 25,
+          "examTopic": "Topic 2"
+        },
+        {
+          "id": "products-packaged",
+          "number": 5,
+          "title": "Packaged Products",
+          "file": "products-packaged.html",
+          "description": "Mutual funds, ETFs, UITs, and variable annuities",
+          "readTime": 25,
+          "examTopic": "Topic 2"
+        },
+        {
+          "id": "products-alternatives",
+          "number": 6,
+          "title": "Alternative Investments",
+          "file": "products-alternatives.html",
+          "description": "REITs, DPPs, hedge funds, and other non-traditional investment vehicles",
+          "readTime": 18,
+          "examTopic": "Topic 2"
+        },
+        {
+          "id": "products-risk",
+          "number": 7,
+          "title": "Investment Risks",
+          "file": "products-risk.html",
+          "description": "Systematic and unsystematic risk types affecting investment products",
+          "readTime": 20,
+          "examWeight": "44%",
+          "examTopic": "Topic 2"
+        },
+        {
+          "id": "trading-accounts",
+          "number": 8,
+          "title": "Customer Accounts",
+          "file": "trading-accounts.html",
+          "description": "Account types, opening procedures, suitability, and customer documentation",
+          "readTime": 25,
+          "examWeight": "31%",
+          "examTopic": "Topic 3"
+        },
+        {
+          "id": "trading-orders",
+          "number": 9,
+          "title": "Trading & Settlement",
+          "file": "trading-orders.html",
+          "description": "Order types, execution, settlement cycles, and trade confirmation",
+          "readTime": 20,
+          "examTopic": "Topic 3"
+        },
+        {
+          "id": "trading-prohibited",
+          "number": 10,
+          "title": "Prohibited Activities",
+          "file": "trading-prohibited.html",
+          "description": "Insider trading, market manipulation, and other prohibited practices",
+          "readTime": 20,
+          "examTopic": "Topic 3"
+        },
+        {
+          "id": "regulatory-framework",
+          "number": 11,
+          "title": "Regulatory Framework",
+          "file": "regulatory-framework.html",
+          "description": "SROs, federal securities laws, and industry regulatory structure",
+          "readTime": 25,
+          "examWeight": "9%",
+          "examTopic": "Topic 4"
+        }
+      ]
+    },
+    {
+      "id": "series-7",
+      "series": "Series 7",
+      "name": "General Securities Representative",
+      "category": "representative",
+      "description": "Comprehensive exam for general securities representatives covering all major product types and regulations",
+      "chapters": [
+        {
+          "id": "equity-securities",
+          "number": 1,
+          "title": "Equity Securities",
+          "file": "equity-securities.html",
+          "description": "Common and preferred stock characteristics, valuation, and corporate actions",
+          "readTime": 25
+        },
+        {
+          "id": "debt-securities",
+          "number": 2,
+          "title": "Debt Securities",
+          "file": "debt-securities.html",
+          "description": "Corporate bonds, pricing, yield calculations, and credit analysis",
+          "readTime": 30
+        },
+        {
+          "id": "municipal-bonds",
+          "number": 3,
+          "title": "Municipal Bonds",
+          "file": "municipal-bonds.html",
+          "description": "GO and revenue bonds, tax treatment, and municipal market participants",
+          "readTime": 30
+        },
+        {
+          "id": "government-securities",
+          "number": 4,
+          "title": "Government Securities",
+          "file": "government-securities.html",
+          "description": "Treasury securities, agency bonds, and money market instruments",
+          "readTime": 20
+        },
+        {
+          "id": "options-basics",
+          "number": 5,
+          "title": "Options Basics",
+          "file": "options-basics.html",
+          "description": "Options contracts, terminology, and fundamental strategies",
+          "readTime": 25
+        },
+        {
+          "id": "options-strategies",
+          "number": 6,
+          "title": "Options Strategies",
+          "file": "options-strategies.html",
+          "description": "Spreads, straddles, combinations, and hedging techniques",
+          "readTime": 30
+        },
+        {
+          "id": "investment-companies",
+          "number": 7,
+          "title": "Investment Companies",
+          "file": "investment-companies.html",
+          "description": "Mutual funds, closed-end funds, ETFs, and their regulatory framework",
+          "readTime": 25
+        },
+        {
+          "id": "variable-products",
+          "number": 8,
+          "title": "Variable Products",
+          "file": "variable-products.html",
+          "description": "Variable annuities, variable life insurance, and separate accounts",
+          "readTime": 20
+        },
+        {
+          "id": "retirement-plans",
+          "number": 9,
+          "title": "Retirement Plans",
+          "file": "retirement-plans.html",
+          "description": "IRAs, 401(k)s, defined benefit and defined contribution plans",
+          "readTime": 25
+        },
+        {
+          "id": "customer-accounts",
+          "number": 10,
+          "title": "Customer Accounts",
+          "file": "customer-accounts.html",
+          "description": "Account types, margin requirements, and customer suitability obligations",
+          "readTime": 25
+        },
+        {
+          "id": "trading-settlement",
+          "number": 11,
+          "title": "Trading & Settlement",
+          "file": "trading-settlement.html",
+          "description": "Order execution, settlement procedures, and trade reporting",
+          "readTime": 20
+        },
+        {
+          "id": "regulations-compliance",
+          "number": 12,
+          "title": "Regulations & Compliance",
+          "file": "regulations-compliance.html",
+          "description": "FINRA rules, SEC regulations, and compliance requirements",
+          "readTime": 25
+        },
+        {
+          "id": "tax-considerations",
+          "number": 13,
+          "title": "Tax Considerations",
+          "file": "tax-considerations.html",
+          "description": "Capital gains, tax-advantaged accounts, and tax implications of securities transactions",
+          "readTime": 20
+        }
+      ]
+    },
+    {
+      "id": "series-63",
+      "series": "Series 63",
+      "name": "Uniform Securities Agent State Law",
+      "category": "state",
+      "description": "State law exam covering the Uniform Securities Act and state-level regulations",
+      "chapters": [
+        {
+          "id": "uniform-securities-act",
+          "number": 1,
+          "title": "Uniform Securities Act Overview",
+          "file": "uniform-securities-act.html",
+          "description": "Purpose, scope, and key definitions of the Uniform Securities Act",
+          "readTime": 20
+        },
+        {
+          "id": "securities-registration",
+          "number": 2,
+          "title": "Securities Registration",
+          "file": "securities-registration.html",
+          "description": "Registration methods, exemptions, and filing requirements for securities",
+          "readTime": 20
+        },
+        {
+          "id": "broker-dealer-regulation",
+          "number": 3,
+          "title": "Broker-Dealer Regulation",
+          "file": "broker-dealer-regulation.html",
+          "description": "State registration requirements and regulations for broker-dealers and agents",
+          "readTime": 18
+        },
+        {
+          "id": "investment-adviser-regulation",
+          "number": 4,
+          "title": "Investment Adviser Regulation",
+          "file": "investment-adviser-regulation.html",
+          "description": "Registration, exclusions, and regulatory requirements for investment advisers",
+          "readTime": 18
+        },
+        {
+          "id": "business-practices",
+          "number": 5,
+          "title": "Business Practices & Ethics",
+          "file": "business-practices.html",
+          "description": "Ethical obligations, prohibited practices, and fiduciary standards",
+          "readTime": 20
+        },
+        {
+          "id": "administrative-provisions",
+          "number": 6,
+          "title": "Administrative Provisions",
+          "file": "administrative-provisions.html",
+          "description": "Administrator powers, enforcement actions, and remedies under the USA",
+          "readTime": 15
+        }
+      ]
+    },
+    {
+      "id": "series-65",
+      "series": "Series 65",
+      "name": "Uniform Investment Adviser Law",
+      "category": "adviser",
+      "description": "Exam for investment adviser representatives covering economics, analysis, and fiduciary obligations",
+      "chapters": [
+        {
+          "id": "economic-factors",
+          "number": 1,
+          "title": "Economic Factors",
+          "file": "economic-factors.html",
+          "description": "Macroeconomic concepts, monetary and fiscal policy, and business cycles",
+          "readTime": 25
+        },
+        {
+          "id": "financial-reporting",
+          "number": 2,
+          "title": "Financial Reporting & Analysis",
+          "file": "financial-reporting.html",
+          "description": "Financial statements, accounting methods, and analytical techniques",
+          "readTime": 25
+        },
+        {
+          "id": "equity-investments",
+          "number": 3,
+          "title": "Equity Investments",
+          "file": "equity-investments.html",
+          "description": "Stock valuation, analysis methods, and equity market characteristics",
+          "readTime": 25
+        },
+        {
+          "id": "fixed-income",
+          "number": 4,
+          "title": "Fixed Income Analysis",
+          "file": "fixed-income.html",
+          "description": "Bond analysis, duration, convexity, and yield curve strategies",
+          "readTime": 25
+        },
+        {
+          "id": "pooled-investments",
+          "number": 5,
+          "title": "Pooled Investments",
+          "file": "pooled-investments.html",
+          "description": "Mutual funds, ETFs, hedge funds, and other pooled investment vehicles",
+          "readTime": 20
+        },
+        {
+          "id": "portfolio-management",
+          "number": 6,
+          "title": "Portfolio Management",
+          "file": "portfolio-management.html",
+          "description": "Modern portfolio theory, asset allocation, and portfolio construction strategies",
+          "readTime": 30
+        },
+        {
+          "id": "retirement-planning",
+          "number": 7,
+          "title": "Retirement Planning",
+          "file": "retirement-planning.html",
+          "description": "Qualified and non-qualified plans, IRAs, and retirement income strategies",
+          "readTime": 20
+        },
+        {
+          "id": "fiduciary-duty",
+          "number": 8,
+          "title": "Fiduciary Duty & Ethics",
+          "file": "fiduciary-duty.html",
+          "description": "Fiduciary obligations, ethical standards, and conflicts of interest management",
+          "readTime": 20
+        },
+        {
+          "id": "laws-regulations",
+          "number": 9,
+          "title": "Laws & Regulations",
+          "file": "laws-regulations.html",
+          "description": "Federal and state securities laws governing investment advisers",
+          "readTime": 25
+        }
+      ]
+    },
+    {
+      "id": "series-66",
+      "series": "Series 66",
+      "name": "Uniform Combined State Law",
+      "category": "state",
+      "description": "Combined state law exam covering both agent and adviser representative requirements",
+      "chapters": [
+        {
+          "id": "usa-overview",
+          "number": 1,
+          "title": "USA Overview",
+          "file": "usa-overview.html",
+          "description": "Uniform Securities Act framework, definitions, and jurisdictional scope",
+          "readTime": 20
+        },
+        {
+          "id": "registration-requirements",
+          "number": 2,
+          "title": "Registration Requirements",
+          "file": "registration-requirements.html",
+          "description": "Registration procedures for persons, securities, and transactions",
+          "readTime": 20
+        },
+        {
+          "id": "exemptions",
+          "number": 3,
+          "title": "Exemptions",
+          "file": "exemptions.html",
+          "description": "Exempt securities, exempt transactions, and federal covered securities",
+          "readTime": 20
+        },
+        {
+          "id": "broker-dealer-agents",
+          "number": 4,
+          "title": "Broker-Dealer & Agents",
+          "file": "broker-dealer-agents.html",
+          "description": "Regulatory obligations and conduct standards for broker-dealers and their agents",
+          "readTime": 18
+        },
+        {
+          "id": "investment-advisers",
+          "number": 5,
+          "title": "Investment Advisers",
+          "file": "investment-advisers.html",
+          "description": "Investment adviser registration, exclusions, and fiduciary responsibilities",
+          "readTime": 20
+        },
+        {
+          "id": "ethical-practices",
+          "number": 6,
+          "title": "Ethical Practices",
+          "file": "ethical-practices.html",
+          "description": "Ethical obligations, prohibited conduct, and best practices for securities professionals",
+          "readTime": 20
+        },
+        {
+          "id": "client-recommendations",
+          "number": 7,
+          "title": "Client Recommendations",
+          "file": "client-recommendations.html",
+          "description": "Suitability standards, risk assessment, and client-centered recommendation practices",
+          "readTime": 22
+        },
+        {
+          "id": "administrative-remedies",
+          "number": 8,
+          "title": "Administrative Remedies",
+          "file": "administrative-remedies.html",
+          "description": "Enforcement actions, penalties, and administrative procedures under state law",
+          "readTime": 15
+        }
+      ]
+    },
+    {
+      "id": "series-6",
+      "series": "Series 6",
+      "name": "Investment Company and Variable Contracts Products Representative",
+      "category": "representative",
+      "description": "Exam for representatives selling mutual funds, variable annuities, and variable life insurance",
+      "chapters": [
+        {
+          "id": "investment-companies",
+          "number": 1,
+          "title": "Investment Companies",
+          "file": "investment-companies.html",
+          "description": "Types of investment companies, regulatory structure, and key characteristics",
+          "readTime": 22
+        },
+        {
+          "id": "mutual-fund-features",
+          "number": 2,
+          "title": "Mutual Fund Features",
+          "file": "mutual-fund-features.html",
+          "description": "Share classes, fee structures, pricing, and distribution methods",
+          "readTime": 22
+        },
+        {
+          "id": "variable-annuities",
+          "number": 3,
+          "title": "Variable Annuities",
+          "file": "variable-annuities.html",
+          "description": "Annuity structure, payout options, tax treatment, and suitability considerations",
+          "readTime": 20
+        },
+        {
+          "id": "variable-life",
+          "number": 4,
+          "title": "Variable Life Insurance",
+          "file": "variable-life.html",
+          "description": "Variable life and variable universal life policy features and regulations",
+          "readTime": 18
+        },
+        {
+          "id": "education-savings",
+          "number": 5,
+          "title": "Education Savings",
+          "file": "education-savings.html",
+          "description": "529 plans, Coverdell ESAs, and other education funding vehicles",
+          "readTime": 15
+        },
+        {
+          "id": "suitability-recommendations",
+          "number": 6,
+          "title": "Suitability & Recommendations",
+          "file": "suitability-recommendations.html",
+          "description": "Customer suitability obligations, risk profiling, and recommendation standards",
+          "readTime": 20
+        },
+        {
+          "id": "regulatory-requirements",
+          "number": 7,
+          "title": "Regulatory Requirements",
+          "file": "regulatory-requirements.html",
+          "description": "FINRA and SEC rules governing investment company product sales",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-24",
+      "series": "Series 24",
+      "name": "General Securities Principal",
+      "category": "principal",
+      "description": "Principal-level exam covering supervision of broker-dealer operations and compliance",
+      "chapters": [
+        {
+          "id": "bd-registration",
+          "number": 1,
+          "title": "BD Registration",
+          "file": "bd-registration.html",
+          "description": "Broker-dealer registration process, membership applications, and ongoing obligations",
+          "readTime": 22
+        },
+        {
+          "id": "personnel-management",
+          "number": 2,
+          "title": "Personnel Management",
+          "file": "personnel-management.html",
+          "description": "Hiring, registration, qualification, and supervision of associated persons",
+          "readTime": 20
+        },
+        {
+          "id": "compliance-systems",
+          "number": 3,
+          "title": "Compliance Systems",
+          "file": "compliance-systems.html",
+          "description": "Written supervisory procedures, compliance reviews, and internal controls",
+          "readTime": 25
+        },
+        {
+          "id": "financial-responsibility",
+          "number": 4,
+          "title": "Financial Responsibility",
+          "file": "financial-responsibility.html",
+          "description": "Net capital requirements, customer protection rule, and financial reporting",
+          "readTime": 25
+        },
+        {
+          "id": "business-continuity",
+          "number": 5,
+          "title": "Business Continuity",
+          "file": "business-continuity.html",
+          "description": "Business continuity planning, disaster recovery, and operational resilience",
+          "readTime": 18
+        },
+        {
+          "id": "customer-account-supervision",
+          "number": 6,
+          "title": "Customer Account Supervision",
+          "file": "customer-account-supervision.html",
+          "description": "Account opening supervision, suitability review, and ongoing monitoring",
+          "readTime": 25
+        },
+        {
+          "id": "communications-advertising",
+          "number": 7,
+          "title": "Communications & Advertising",
+          "file": "communications-advertising.html",
+          "description": "Review and approval of retail and institutional communications",
+          "readTime": 22
+        },
+        {
+          "id": "trading-supervision",
+          "number": 8,
+          "title": "Trading Supervision",
+          "file": "trading-supervision.html",
+          "description": "Trade review, best execution, and market manipulation prevention",
+          "readTime": 25
+        },
+        {
+          "id": "investment-banking-supervision",
+          "number": 9,
+          "title": "Investment Banking Supervision",
+          "file": "investment-banking-supervision.html",
+          "description": "Supervisory responsibilities for underwriting and private placement activities",
+          "readTime": 22
+        },
+        {
+          "id": "aml-compliance",
+          "number": 10,
+          "title": "AML Compliance",
+          "file": "aml-compliance.html",
+          "description": "Anti-money laundering programs, SAR filing, and CIP requirements",
+          "readTime": 20
+        }
+      ]
+    },
+    {
+      "id": "series-27",
+      "series": "Series 27",
+      "name": "Financial and Operations Principal",
+      "category": "principal",
+      "description": "Exam for financial and operations principals covering net capital, customer protection, and financial reporting",
+      "chapters": [
+        {
+          "id": "financial-reporting",
+          "number": 1,
+          "title": "Financial Reporting",
+          "file": "financial-reporting.html",
+          "description": "FOCUS reports, financial statements, and regulatory filing requirements",
+          "readTime": 25
+        },
+        {
+          "id": "audit-requirements",
+          "number": 2,
+          "title": "Audit Requirements",
+          "file": "audit-requirements.html",
+          "description": "Annual audit obligations, surprise examinations, and internal audit procedures",
+          "readTime": 20
+        },
+        {
+          "id": "trade-operations",
+          "number": 3,
+          "title": "Trade Operations",
+          "file": "trade-operations.html",
+          "description": "Trade processing, clearance, settlement, and fail management procedures",
+          "readTime": 22
+        },
+        {
+          "id": "account-administration",
+          "number": 4,
+          "title": "Account Administration",
+          "file": "account-administration.html",
+          "description": "Account maintenance, transfer procedures, and customer asset safeguarding",
+          "readTime": 18
+        },
+        {
+          "id": "net-capital-basics",
+          "number": 5,
+          "title": "Net Capital Basics",
+          "file": "net-capital-basics.html",
+          "description": "Net capital rule fundamentals, minimum requirements, and basic computations",
+          "readTime": 25
+        },
+        {
+          "id": "net-capital-advanced",
+          "number": 6,
+          "title": "Net Capital Advanced",
+          "file": "net-capital-advanced.html",
+          "description": "Advanced net capital computations, haircuts, and alternative net capital method",
+          "readTime": 28
+        },
+        {
+          "id": "customer-protection",
+          "number": 7,
+          "title": "Customer Protection Rule",
+          "file": "customer-protection.html",
+          "description": "Rule 15c3-3 requirements, reserve formula, and possession and control",
+          "readTime": 25
+        },
+        {
+          "id": "cash-management",
+          "number": 8,
+          "title": "Cash Management",
+          "file": "cash-management.html",
+          "description": "Bank account management, cash flow monitoring, and liquidity requirements",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-53",
+      "series": "Series 53",
+      "name": "Municipal Securities Principal",
+      "category": "principal",
+      "description": "Principal exam for supervising municipal securities activities and ensuring MSRB compliance",
+      "chapters": [
+        {
+          "id": "underwriting-supervision",
+          "number": 1,
+          "title": "Underwriting Supervision",
+          "file": "underwriting-supervision.html",
+          "description": "Supervisory responsibilities for municipal securities underwriting activities",
+          "readTime": 22
+        },
+        {
+          "id": "trading-supervision",
+          "number": 2,
+          "title": "Trading Supervision",
+          "file": "trading-supervision.html",
+          "description": "Oversight of municipal securities trading, pricing, and best execution",
+          "readTime": 20
+        },
+        {
+          "id": "msrb-rules",
+          "number": 3,
+          "title": "MSRB Rules",
+          "file": "msrb-rules.html",
+          "description": "Key MSRB rules governing professional conduct and fair dealing",
+          "readTime": 25
+        },
+        {
+          "id": "political-contributions",
+          "number": 4,
+          "title": "Political Contributions",
+          "file": "political-contributions.html",
+          "description": "Rule G-37 pay-to-play restrictions and political contribution limitations",
+          "readTime": 18
+        },
+        {
+          "id": "client-supervision",
+          "number": 5,
+          "title": "Client Supervision",
+          "file": "client-supervision.html",
+          "description": "Customer account supervision, suitability, and disclosure requirements",
+          "readTime": 20
+        },
+        {
+          "id": "recordkeeping-compliance",
+          "number": 6,
+          "title": "Recordkeeping & Compliance",
+          "file": "recordkeeping-compliance.html",
+          "description": "Books and records requirements, compliance procedures, and regulatory reporting",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-79",
+      "series": "Series 79",
+      "name": "Investment Banking Representative",
+      "category": "representative",
+      "description": "Exam for investment banking representatives covering M&A, underwriting, and financial advisory",
+      "chapters": [
+        {
+          "id": "due-diligence",
+          "number": 1,
+          "title": "Due Diligence",
+          "file": "due-diligence.html",
+          "description": "Due diligence processes, information gathering, and verification procedures",
+          "readTime": 22
+        },
+        {
+          "id": "financial-analysis",
+          "number": 2,
+          "title": "Financial Analysis",
+          "file": "financial-analysis.html",
+          "description": "Financial statement analysis, ratio interpretation, and company evaluation",
+          "readTime": 25
+        },
+        {
+          "id": "valuation-methods",
+          "number": 3,
+          "title": "Valuation Methods",
+          "file": "valuation-methods.html",
+          "description": "DCF analysis, comparable company analysis, and precedent transactions",
+          "readTime": 30
+        },
+        {
+          "id": "ipo-process",
+          "number": 4,
+          "title": "IPO Process",
+          "file": "ipo-process.html",
+          "description": "Initial public offering mechanics, pricing, allocation, and stabilization",
+          "readTime": 25
+        },
+        {
+          "id": "debt-equity-offerings",
+          "number": 5,
+          "title": "Debt & Equity Offerings",
+          "file": "debt-equity-offerings.html",
+          "description": "Follow-on offerings, debt issuance, and capital raising structures",
+          "readTime": 22
+        },
+        {
+          "id": "underwriting",
+          "number": 6,
+          "title": "Underwriting",
+          "file": "underwriting.html",
+          "description": "Underwriting syndicates, agreements, and distribution mechanisms",
+          "readTime": 22
+        },
+        {
+          "id": "mergers-acquisitions",
+          "number": 7,
+          "title": "Mergers & Acquisitions",
+          "file": "mergers-acquisitions.html",
+          "description": "M&A transaction structures, tender offers, and fairness opinions",
+          "readTime": 25
+        },
+        {
+          "id": "restructuring",
+          "number": 8,
+          "title": "Restructuring",
+          "file": "restructuring.html",
+          "description": "Corporate restructuring, bankruptcy proceedings, and distressed transactions",
+          "readTime": 20
+        }
+      ]
+    },
+    {
+      "id": "series-82",
+      "series": "Series 82",
+      "name": "Private Securities Offerings Representative",
+      "category": "representative",
+      "description": "Exam for representatives engaged in private placement activities under Regulation D and other exemptions",
+      "chapters": [
+        {
+          "id": "private-placement-overview",
+          "number": 1,
+          "title": "Private Placement Overview",
+          "file": "private-placement-overview.html",
+          "description": "Overview of private placements, exempt offerings, and the regulatory landscape",
+          "readTime": 20
+        },
+        {
+          "id": "regulation-d",
+          "number": 2,
+          "title": "Regulation D",
+          "file": "regulation-d.html",
+          "description": "Rules 504, 506(b), and 506(c) exemption requirements and conditions",
+          "readTime": 22
+        },
+        {
+          "id": "other-exemptions",
+          "number": 3,
+          "title": "Other Exemptions",
+          "file": "other-exemptions.html",
+          "description": "Regulation A, Regulation S, Rule 144, and additional exemption frameworks",
+          "readTime": 20
+        },
+        {
+          "id": "client-suitability",
+          "number": 4,
+          "title": "Client Suitability",
+          "file": "client-suitability.html",
+          "description": "Accredited investor verification, suitability analysis, and investor qualifications",
+          "readTime": 18
+        },
+        {
+          "id": "offering-documents",
+          "number": 5,
+          "title": "Offering Documents",
+          "file": "offering-documents.html",
+          "description": "Private placement memoranda, subscription agreements, and disclosure requirements",
+          "readTime": 18
+        },
+        {
+          "id": "compliance-recordkeeping",
+          "number": 6,
+          "title": "Compliance & Recordkeeping",
+          "file": "compliance-recordkeeping.html",
+          "description": "Regulatory compliance obligations and recordkeeping for private placements",
+          "readTime": 15
+        }
+      ]
+    },
+    {
+      "id": "series-86-87",
+      "series": "Series 86/87",
+      "name": "Research Analyst",
+      "category": "specialist",
+      "description": "Two-part exam for research analysts covering analysis techniques and regulatory requirements",
+      "chapters": [
+        {
+          "id": "information-sources",
+          "number": 1,
+          "title": "Information Sources",
+          "file": "information-sources.html",
+          "description": "Primary and secondary research sources, data collection, and information verification",
+          "readTime": 18
+        },
+        {
+          "id": "financial-statement-analysis",
+          "number": 2,
+          "title": "Financial Statement Analysis",
+          "file": "financial-statement-analysis.html",
+          "description": "Income statement, balance sheet, and cash flow analysis techniques",
+          "readTime": 25
+        },
+        {
+          "id": "ratio-analysis",
+          "number": 3,
+          "title": "Ratio Analysis",
+          "file": "ratio-analysis.html",
+          "description": "Profitability, liquidity, solvency, and efficiency ratio interpretation",
+          "readTime": 25
+        },
+        {
+          "id": "valuation-dcf",
+          "number": 4,
+          "title": "DCF Valuation",
+          "file": "valuation-dcf.html",
+          "description": "Discounted cash flow modeling, WACC calculation, and terminal value estimation",
+          "readTime": 28
+        },
+        {
+          "id": "valuation-comparables",
+          "number": 5,
+          "title": "Comparable Valuation",
+          "file": "valuation-comparables.html",
+          "description": "Comparable company analysis, trading multiples, and peer group selection",
+          "readTime": 22
+        },
+        {
+          "id": "research-reports",
+          "number": 6,
+          "title": "Research Reports",
+          "file": "research-reports.html",
+          "description": "Research report structure, writing standards, and distribution requirements",
+          "readTime": 20
+        },
+        {
+          "id": "forecasting",
+          "number": 7,
+          "title": "Forecasting",
+          "file": "forecasting.html",
+          "description": "Revenue and earnings forecasting methodologies and scenario analysis",
+          "readTime": 22
+        },
+        {
+          "id": "regulations-ethics",
+          "number": 8,
+          "title": "Regulations & Ethics",
+          "file": "regulations-ethics.html",
+          "description": "Research analyst conflicts of interest, independence requirements, and ethical standards",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-99",
+      "series": "Series 99",
+      "name": "Operations Professional",
+      "category": "operations",
+      "description": "Exam for operations professionals covering settlement, clearing, and back-office functions",
+      "chapters": [
+        {
+          "id": "settlement-clearing",
+          "number": 1,
+          "title": "Settlement & Clearing",
+          "file": "settlement-clearing.html",
+          "description": "Trade settlement cycles, clearing processes, and DTCC operations",
+          "readTime": 22
+        },
+        {
+          "id": "account-operations",
+          "number": 2,
+          "title": "Account Operations",
+          "file": "account-operations.html",
+          "description": "Account setup, maintenance, transfers, and corporate action processing",
+          "readTime": 20
+        },
+        {
+          "id": "margin-lending",
+          "number": 3,
+          "title": "Margin & Lending",
+          "file": "margin-lending.html",
+          "description": "Margin account operations, Regulation T, and securities lending procedures",
+          "readTime": 22
+        },
+        {
+          "id": "books-records",
+          "number": 4,
+          "title": "Books & Records",
+          "file": "books-records.html",
+          "description": "Recordkeeping requirements, retention schedules, and books and records rules",
+          "readTime": 20
+        },
+        {
+          "id": "compliance-ethics",
+          "number": 5,
+          "title": "Compliance & Ethics",
+          "file": "compliance-ethics.html",
+          "description": "Operational compliance obligations, ethical conduct, and regulatory reporting",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-4",
+      "series": "Series 4",
+      "name": "Registered Options Principal",
+      "category": "principal",
+      "description": "Principal exam for supervising options trading activities and ensuring compliance",
+      "chapters": [
+        {
+          "id": "options-account-supervision",
+          "number": 1,
+          "title": "Options Account Supervision",
+          "file": "options-account-supervision.html",
+          "description": "Options account approval, suitability assessment, and account-level supervision",
+          "readTime": 22
+        },
+        {
+          "id": "options-trading-supervision",
+          "number": 2,
+          "title": "Options Trading Supervision",
+          "file": "options-trading-supervision.html",
+          "description": "Monitoring options trading activity, order review, and execution oversight",
+          "readTime": 25
+        },
+        {
+          "id": "exercise-assignment",
+          "number": 3,
+          "title": "Exercise & Assignment",
+          "file": "exercise-assignment.html",
+          "description": "Exercise procedures, assignment processes, and expiration management",
+          "readTime": 20
+        },
+        {
+          "id": "position-exercise-limits",
+          "number": 4,
+          "title": "Position & Exercise Limits",
+          "file": "position-exercise-limits.html",
+          "description": "Regulatory position limits, exercise limits, and reporting thresholds",
+          "readTime": 18
+        },
+        {
+          "id": "options-margin",
+          "number": 5,
+          "title": "Options Margin",
+          "file": "options-margin.html",
+          "description": "Margin requirements for options positions, strategy-based margins, and maintenance",
+          "readTime": 22
+        },
+        {
+          "id": "options-regulations",
+          "number": 6,
+          "title": "Options Regulations",
+          "file": "options-regulations.html",
+          "description": "OCC rules, exchange regulations, and FINRA options-related requirements",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-9-10",
+      "series": "Series 9/10",
+      "name": "General Securities Sales Supervisor",
+      "category": "principal",
+      "description": "Two-part supervisory exam covering options sales and general sales supervision",
+      "chapters": [
+        {
+          "id": "options-sales-supervision",
+          "number": 1,
+          "title": "Options Sales Supervision",
+          "file": "options-sales-supervision.html",
+          "description": "Supervising options sales activities, customer communications, and suitability",
+          "readTime": 22
+        },
+        {
+          "id": "customer-account-supervision",
+          "number": 2,
+          "title": "Customer Account Supervision",
+          "file": "customer-account-supervision.html",
+          "description": "Account opening review, ongoing supervision, and customer complaint management",
+          "readTime": 22
+        },
+        {
+          "id": "communications-supervision",
+          "number": 3,
+          "title": "Communications Supervision",
+          "file": "communications-supervision.html",
+          "description": "Review and approval of correspondence, advertising, and sales literature",
+          "readTime": 20
+        },
+        {
+          "id": "compliance-programs",
+          "number": 4,
+          "title": "Compliance Programs",
+          "file": "compliance-programs.html",
+          "description": "Developing and maintaining compliance programs and supervisory systems",
+          "readTime": 22
+        },
+        {
+          "id": "regulatory-framework",
+          "number": 5,
+          "title": "Regulatory Framework",
+          "file": "regulatory-framework.html",
+          "description": "FINRA, SEC, and exchange rules governing sales supervision responsibilities",
+          "readTime": 20
+        },
+        {
+          "id": "complaint-handling",
+          "number": 6,
+          "title": "Complaint Handling",
+          "file": "complaint-handling.html",
+          "description": "Customer complaint procedures, arbitration, and dispute resolution processes",
+          "readTime": 18
+        },
+        {
+          "id": "trading-operations",
+          "number": 7,
+          "title": "Trading Operations",
+          "file": "trading-operations.html",
+          "description": "Trade supervision, order handling, and operational compliance oversight",
+          "readTime": 20
+        }
+      ]
+    },
+    {
+      "id": "series-52",
+      "series": "Series 52",
+      "name": "Municipal Securities Representative",
+      "category": "representative",
+      "description": "Exam for municipal securities representatives covering bond types, markets, and MSRB regulations",
+      "chapters": [
+        {
+          "id": "municipal-bonds-overview",
+          "number": 1,
+          "title": "Municipal Bonds Overview",
+          "file": "municipal-bonds-overview.html",
+          "description": "Introduction to municipal securities, issuers, and market participants",
+          "readTime": 22
+        },
+        {
+          "id": "municipal-bond-types",
+          "number": 2,
+          "title": "Municipal Bond Types",
+          "file": "municipal-bond-types.html",
+          "description": "General obligation bonds, revenue bonds, and special tax obligations",
+          "readTime": 22
+        },
+        {
+          "id": "short-term-instruments",
+          "number": 3,
+          "title": "Short-Term Instruments",
+          "file": "short-term-instruments.html",
+          "description": "Municipal notes, commercial paper, and variable rate demand obligations",
+          "readTime": 18
+        },
+        {
+          "id": "primary-market",
+          "number": 4,
+          "title": "Primary Market",
+          "file": "primary-market.html",
+          "description": "Competitive and negotiated underwriting, syndicate formation, and new issue pricing",
+          "readTime": 25
+        },
+        {
+          "id": "secondary-market",
+          "number": 5,
+          "title": "Secondary Market",
+          "file": "secondary-market.html",
+          "description": "Secondary market trading, quotations, and inter-dealer transaction practices",
+          "readTime": 22
+        },
+        {
+          "id": "municipal-analysis",
+          "number": 6,
+          "title": "Municipal Analysis",
+          "file": "municipal-analysis.html",
+          "description": "Credit analysis, yield calculations, and municipal bond valuation techniques",
+          "readTime": 25
+        },
+        {
+          "id": "tax-considerations",
+          "number": 7,
+          "title": "Tax Considerations",
+          "file": "tax-considerations.html",
+          "description": "Tax-exempt interest, AMT implications, and de minimis discount rules",
+          "readTime": 20
+        },
+        {
+          "id": "msrb-regulatory",
+          "number": 8,
+          "title": "MSRB & Regulatory",
+          "file": "msrb-regulatory.html",
+          "description": "MSRB rules, professional qualifications, and regulatory compliance requirements",
+          "readTime": 22
+        }
+      ]
+    },
+    {
+      "id": "series-50",
+      "series": "Series 50",
+      "name": "Municipal Advisor Representative",
+      "category": "adviser",
+      "description": "Exam for municipal advisor representatives covering advisory activities and regulatory standards",
+      "chapters": [
+        {
+          "id": "advisory-activities",
+          "number": 1,
+          "title": "Advisory Activities",
+          "file": "advisory-activities.html",
+          "description": "Scope of municipal advisory activities and fiduciary obligations to clients",
+          "readTime": 20
+        },
+        {
+          "id": "financing-structures",
+          "number": 2,
+          "title": "Financing Structures",
+          "file": "financing-structures.html",
+          "description": "Municipal financing structures, bond structuring, and debt instruments",
+          "readTime": 22
+        },
+        {
+          "id": "debt-management",
+          "number": 3,
+          "title": "Debt Management",
+          "file": "debt-management.html",
+          "description": "Debt portfolio management, refunding strategies, and credit considerations",
+          "readTime": 20
+        },
+        {
+          "id": "solicitor-activities",
+          "number": 4,
+          "title": "Solicitor Activities",
+          "file": "solicitor-activities.html",
+          "description": "Solicitation of municipal entities, disclosure requirements, and compensation",
+          "readTime": 18
+        },
+        {
+          "id": "regulatory-framework",
+          "number": 5,
+          "title": "Regulatory Framework",
+          "file": "regulatory-framework.html",
+          "description": "MSRB rules, SEC regulations, and regulatory structure for municipal advisors",
+          "readTime": 20
+        },
+        {
+          "id": "professional-standards",
+          "number": 6,
+          "title": "Professional Standards",
+          "file": "professional-standards.html",
+          "description": "Professional conduct standards, conflicts of interest, and ethical obligations",
+          "readTime": 18
+        }
+      ]
+    },
+    {
+      "id": "series-3",
+      "series": "Series 3",
+      "name": "National Commodity Futures",
+      "category": "specialist",
+      "description": "Exam for futures professionals covering commodity futures, options on futures, and NFA regulations",
+      "chapters": [
+        {
+          "id": "futures-fundamentals",
+          "number": 1,
+          "title": "Futures Fundamentals",
+          "file": "futures-fundamentals.html",
+          "description": "Futures contract specifications, margin, and the mechanics of futures trading",
+          "readTime": 22
+        },
+        {
+          "id": "futures-trading",
+          "number": 2,
+          "title": "Futures Trading",
+          "file": "futures-trading.html",
+          "description": "Order types, hedging strategies, and speculative trading techniques",
+          "readTime": 22
+        },
+        {
+          "id": "options-on-futures",
+          "number": 3,
+          "title": "Options on Futures",
+          "file": "options-on-futures.html",
+          "description": "Options on futures contracts, pricing factors, and combination strategies",
+          "readTime": 25
+        },
+        {
+          "id": "market-analysis",
+          "number": 4,
+          "title": "Market Analysis",
+          "file": "market-analysis.html",
+          "description": "Fundamental and technical analysis methods for commodity markets",
+          "readTime": 22
+        },
+        {
+          "id": "risk-management",
+          "number": 5,
+          "title": "Risk Management",
+          "file": "risk-management.html",
+          "description": "Risk identification, measurement, and mitigation strategies for futures trading",
+          "readTime": 22
+        },
+        {
+          "id": "customer-accounts",
+          "number": 6,
+          "title": "Customer Accounts",
+          "file": "customer-accounts.html",
+          "description": "Account opening, customer suitability, and margin requirements for futures accounts",
+          "readTime": 18
+        },
+        {
+          "id": "nfa-cftc-regulations",
+          "number": 7,
+          "title": "NFA & CFTC Regulations",
+          "file": "nfa-cftc-regulations.html",
+          "description": "National Futures Association rules and CFTC regulatory framework",
+          "readTime": 20
+        }
+      ]
+    }
+  ]
+}

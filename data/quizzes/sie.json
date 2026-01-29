@@ -1,0 +1,702 @@
+[
+  {
+    "id": "sie-q001",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "Which of the following organizations is a self-regulatory organization (SRO) responsible for overseeing broker-dealers and their registered representatives?",
+    "choices": [
+      "A. The Securities and Exchange Commission (SEC)",
+      "B. The Federal Reserve Board (FRB)",
+      "C. The Financial Industry Regulatory Authority (FINRA)",
+      "D. The Municipal Securities Rulemaking Board (MSRB)"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. FINRA is the primary self-regulatory organization (SRO) that oversees broker-dealers and their registered representatives. The SEC is a government agency, not an SRO. The FRB is the central banking system. The MSRB is also an SRO, but it only writes rules for the municipal securities market and does not directly oversee or enforce compliance by broker-dealers — that enforcement is carried out by FINRA, the SEC, and bank regulators."
+  },
+  {
+    "id": "sie-q002",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "An investor purchases shares of a company directly from the issuer in a public offering. This transaction takes place in which market?",
+    "choices": [
+      "A. The secondary market",
+      "B. The primary market",
+      "C. The third market",
+      "D. The fourth market"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. The primary market is where newly issued securities are sold directly from the issuer to investors through offerings such as IPOs. The secondary market involves trading of previously issued securities between investors. The third market refers to exchange-listed securities traded OTC, and the fourth market involves direct institution-to-institution trades."
+  },
+  {
+    "id": "sie-q003",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "During a period of rising inflation, which of the following is the Federal Reserve MOST likely to do?",
+    "choices": [
+      "A. Lower the discount rate",
+      "B. Purchase government securities in open market operations",
+      "C. Raise the federal funds rate target",
+      "D. Lower the reserve requirement for banks"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. To combat rising inflation, the Federal Reserve typically raises the federal funds rate target, which increases borrowing costs and slows economic activity. Lowering the discount rate, purchasing securities, and lowering reserve requirements are all expansionary monetary policy tools that would increase the money supply and potentially worsen inflation."
+  },
+  {
+    "id": "sie-q004",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "A company conducting an initial public offering (IPO) files a registration statement with the SEC. During the cooling-off period, which of the following is permitted?",
+    "choices": [
+      "A. Accepting orders from customers",
+      "B. Distributing a red herring prospectus",
+      "C. Selling shares to institutional investors",
+      "D. Publishing advertisements with the final offering price"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. During the cooling-off period (the time between the filing of the registration statement and its effective date), a preliminary prospectus known as a red herring may be distributed to gauge investor interest. No sales or orders may be accepted during this period, and the final offering price has not yet been determined."
+  },
+  {
+    "id": "sie-q005",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "Which of the following best describes the role of the Federal Deposit Insurance Corporation (FDIC)?",
+    "choices": [
+      "A. It regulates the issuance of municipal securities",
+      "B. It insures customer accounts at broker-dealers up to $500,000",
+      "C. It insures deposits at member banks up to applicable limits",
+      "D. It sets monetary policy for the United States"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. The FDIC insures deposits at member banks, currently up to $250,000 per depositor per insured bank. SIPC, not the FDIC, protects customer accounts at broker-dealers. The MSRB regulates municipal securities, and the Federal Reserve sets monetary policy."
+  },
+  {
+    "id": "sie-q006",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "Which of the following securities would be exempt from registration under the Securities Act of 1933?",
+    "choices": [
+      "A. Common stock of a publicly traded technology company",
+      "B. U.S. Treasury bonds",
+      "C. Shares of a mutual fund",
+      "D. Corporate bonds issued by a Fortune 500 company"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. U.S. government securities, including Treasury bonds, bills, and notes, are exempt from registration under the Securities Act of 1933. Common stocks, mutual fund shares, and corporate bonds of publicly traded companies must be registered with the SEC before being offered to the public."
+  },
+  {
+    "id": "sie-q007",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "An inverted yield curve, where short-term interest rates are higher than long-term rates, is generally considered an indicator of which of the following?",
+    "choices": [
+      "A. An expanding economy",
+      "B. A potential economic recession",
+      "C. Rising inflation expectations",
+      "D. Increasing corporate earnings"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. An inverted yield curve, where short-term interest rates exceed long-term rates, has historically been a reliable predictor of economic recessions. It suggests that investors expect future economic weakness and lower interest rates. A normal upward-sloping yield curve is more typical of economic expansion."
+  },
+  {
+    "id": "sie-q008",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "question": "In a firm commitment underwriting, the underwriter assumes which of the following roles?",
+    "choices": [
+      "A. Acts as an agent, selling shares on a best-efforts basis",
+      "B. Purchases the entire issue from the issuer and resells it to the public",
+      "C. Only provides advisory services without taking financial risk",
+      "D. Agrees to buy only the unsold portion of the offering"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. In a firm commitment underwriting, the underwriter (or underwriting syndicate) purchases the entire issue from the issuer at a discount and assumes the financial risk of reselling the securities to the public. A best-efforts underwriting is where the underwriter acts as an agent. Buying the unsold portion describes a standby underwriting."
+  },
+  {
+    "id": "sie-q009",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor holds 100 shares of XYZ common stock. The company declares a 10% stock dividend. After the dividend, how many shares will the investor hold?",
+    "choices": [
+      "A. 100 shares",
+      "B. 105 shares",
+      "C. 110 shares",
+      "D. 200 shares"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. A 10% stock dividend means the investor receives an additional 10% of their current holdings. 10% of 100 shares equals 10 additional shares, bringing the total to 110 shares. The market price per share would adjust downward proportionally so that the total value of the position remains approximately the same."
+  },
+  {
+    "id": "sie-q010",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following bonds would be MOST sensitive to changes in interest rates?",
+    "choices": [
+      "A. A 2-year bond with a 6% coupon",
+      "B. A 30-year zero-coupon bond",
+      "C. A 5-year bond with an 8% coupon",
+      "D. A 10-year bond with a 5% coupon"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Bond price sensitivity to interest rate changes (duration) increases with longer maturities and lower coupon rates. A 30-year zero-coupon bond has the longest maturity and no coupon payments, giving it the highest duration and greatest sensitivity to interest rate changes among the choices listed."
+  },
+  {
+    "id": "sie-q011",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "A municipal bond issued to build a new toll road, with debt service paid from tolls collected, is an example of which type of bond?",
+    "choices": [
+      "A. A general obligation bond",
+      "B. A revenue bond",
+      "C. A moral obligation bond",
+      "D. A tax anticipation note"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. A revenue bond is backed by the income generated from the specific project it was issued to finance, such as tolls from a toll road. A general obligation bond is backed by the full faith and credit (taxing power) of the issuing municipality. A moral obligation bond has a non-binding pledge of state support, and a tax anticipation note is a short-term instrument."
+  },
+  {
+    "id": "sie-q012",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor writes (sells) one XYZ Dec 50 call for a premium of $3. What is the investor's maximum potential loss?",
+    "choices": [
+      "A. $300",
+      "B. $4,700",
+      "C. $5,000",
+      "D. Unlimited"
+    ],
+    "correct": 3,
+    "explanation": "The correct answer is D. A writer (seller) of a naked call has unlimited potential loss because there is no theoretical limit to how high the price of the underlying stock can rise. If the stock price rises significantly above $50, the call writer must deliver shares at $50 regardless of the current market price. The premium received ($300) only partially offsets the loss."
+  },
+  {
+    "id": "sie-q013",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor purchases a mutual fund with a front-end sales load of 5%. If the investor invests $10,000, how much is actually invested in fund shares?",
+    "choices": [
+      "A. $9,000",
+      "B. $9,500",
+      "C. $10,000",
+      "D. $10,500"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. With a front-end sales load of 5%, the sales charge is deducted from the initial investment before shares are purchased. 5% of $10,000 equals $500, so $9,500 is actually invested in fund shares. The $500 goes to the selling broker-dealer and its representatives as compensation."
+  },
+  {
+    "id": "sie-q014",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following is a characteristic of preferred stock but NOT common stock?",
+    "choices": [
+      "A. Voting rights in corporate elections",
+      "B. A fixed dividend rate",
+      "C. Potential for capital appreciation",
+      "D. Representation of ownership in the company"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Preferred stock typically has a fixed dividend rate, which is stated as a percentage of par value or as a dollar amount. Common stockholders may receive variable dividends at the board's discretion. Both common and preferred represent ownership, and both have potential for capital appreciation. Voting rights are generally associated with common stock, not preferred stock."
+  },
+  {
+    "id": "sie-q015",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor is considering an exchange-traded fund (ETF) that tracks the S&P 500 Index. Which of the following statements about ETFs is TRUE?",
+    "choices": [
+      "A. ETFs can only be purchased at the end-of-day NAV",
+      "B. ETFs trade on exchanges throughout the trading day like stocks",
+      "C. ETFs always have higher expense ratios than mutual funds",
+      "D. ETFs are not subject to market risk"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. ETFs trade on exchanges throughout the trading day at market-determined prices, unlike mutual funds which are priced and traded only at end-of-day NAV. ETFs generally have lower expense ratios than actively managed mutual funds. Like all equity investments, ETFs are subject to market risk."
+  },
+  {
+    "id": "sie-q016",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "A corporate bond is currently trading at 103. This means the bond is trading at:",
+    "choices": [
+      "A. A discount to par value",
+      "B. Par value",
+      "C. A premium to par value",
+      "D. Its face value of $103"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Corporate bonds are quoted as a percentage of par value ($1,000). A bond trading at 103 is trading at 103% of par, or $1,030, which is above (at a premium to) its $1,000 par value. Bonds trade at a premium when their coupon rate is higher than the prevailing market interest rate."
+  },
+  {
+    "id": "sie-q017",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following types of risk refers to the danger that an investor will not be able to sell a security quickly without significantly affecting its price?",
+    "choices": [
+      "A. Market risk",
+      "B. Credit risk",
+      "C. Liquidity risk",
+      "D. Inflation risk"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Liquidity risk (also called marketability risk) is the risk that an investor cannot quickly sell a security at or near its fair market value. Thinly traded securities, limited partnerships, and certain real estate investments carry higher liquidity risk. Market risk relates to overall market movements, credit risk to default probability, and inflation risk to purchasing power erosion."
+  },
+  {
+    "id": "sie-q018",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "A variable annuity's investment returns are based on the performance of:",
+    "choices": [
+      "A. The insurance company's general account",
+      "B. The underlying separate account subaccounts",
+      "C. A fixed interest rate guaranteed by the insurer",
+      "D. U.S. Treasury securities"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. A variable annuity's returns are determined by the performance of the underlying separate account subaccounts, which are similar to mutual funds. The separate account is kept separate from the insurance company's general account. Unlike fixed annuities, variable annuities do not guarantee a specific rate of return, and the investment risk is borne by the contract owner."
+  },
+  {
+    "id": "sie-q019",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor buys one XYZ Jun 40 put for a premium of $2. At expiration, XYZ is trading at $35. What is the investor's profit or loss?",
+    "choices": [
+      "A. $200 loss",
+      "B. $300 profit",
+      "C. $500 profit",
+      "D. $700 profit"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. The put option is in the money since the stock price ($35) is below the strike price ($40). The intrinsic value of the put is $40 - $35 = $5 per share, or $500 for the contract. Subtracting the $200 premium paid, the investor's profit is $300 ($500 - $200 = $300)."
+  },
+  {
+    "id": "sie-q020",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following statements about U.S. Treasury TIPS (Treasury Inflation-Protected Securities) is correct?",
+    "choices": [
+      "A. The coupon rate adjusts with inflation while principal remains fixed",
+      "B. The principal adjusts with inflation while the coupon rate remains fixed",
+      "C. Both the principal and coupon rate adjust with inflation",
+      "D. Neither the principal nor coupon rate adjusts; they offer a fixed premium over inflation"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. With TIPS, the principal value adjusts based on changes in the Consumer Price Index (CPI). The coupon rate remains fixed, but because it is applied to the inflation-adjusted principal, the dollar amount of interest payments changes over time. This provides investors with protection against inflation risk."
+  },
+  {
+    "id": "sie-q021",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "A closed-end fund differs from an open-end fund in that a closed-end fund:",
+    "choices": [
+      "A. Continuously offers new shares to investors",
+      "B. Has a fixed number of shares that trade on an exchange",
+      "C. Must redeem shares at NAV upon investor request",
+      "D. Cannot use leverage in its investment portfolio"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. A closed-end fund issues a fixed number of shares through an IPO, and those shares then trade on an exchange at market-determined prices that may be above (premium) or below (discount) the fund's NAV. Open-end funds (mutual funds) continuously issue and redeem shares at NAV. Closed-end funds may use leverage in their portfolios."
+  },
+  {
+    "id": "sie-q022",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor owns a convertible bond with a conversion ratio of 25. If the bond is trading at $1,100, what is the parity price of the underlying common stock?",
+    "choices": [
+      "A. $25",
+      "B. $40",
+      "C. $44",
+      "D. $50"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Parity price is the price at which the convertible bond and the underlying stock have equal value. Parity price of stock = Bond market price / Conversion ratio = $1,100 / 25 = $44. If the stock is trading above $44, conversion would be profitable; below $44, the bondholder would be better off selling the bond in the market."
+  },
+  {
+    "id": "sie-q023",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following money market instruments is issued by corporations to meet short-term financing needs?",
+    "choices": [
+      "A. Treasury bills",
+      "B. Certificates of deposit",
+      "C. Commercial paper",
+      "D. Banker's acceptances"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Commercial paper is an unsecured, short-term debt instrument issued by corporations, typically with maturities ranging from 1 to 270 days, to finance short-term liabilities such as payroll and accounts payable. Treasury bills are issued by the U.S. government. CDs are issued by banks. Banker's acceptances are used in international trade."
+  },
+  {
+    "id": "sie-q024",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor holds a portfolio consisting entirely of technology stocks. This portfolio is MOST exposed to which type of risk?",
+    "choices": [
+      "A. Systematic risk",
+      "B. Nonsystematic risk",
+      "C. Interest rate risk",
+      "D. Inflation risk"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Nonsystematic risk (also called unsystematic, diversifiable, or business risk) is the risk specific to a particular company, industry, or sector. A portfolio concentrated entirely in technology stocks is highly exposed to sector-specific events. This risk can be reduced through diversification across different industries and asset classes."
+  },
+  {
+    "id": "sie-q025",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following statements about municipal bonds is TRUE?",
+    "choices": [
+      "A. Interest is always exempt from federal, state, and local taxes",
+      "B. Interest is generally exempt from federal income tax",
+      "C. Municipal bonds carry no credit risk",
+      "D. Municipal bonds always have higher yields than corporate bonds"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Interest earned on municipal bonds is generally exempt from federal income tax. State and local tax exemption applies only if the investor resides in the state of issuance (and the bond is not a private activity bond subject to AMT). Municipal bonds do carry credit risk and typically offer lower yields than comparable corporate bonds due to their tax advantage."
+  },
+  {
+    "id": "sie-q026",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "A Unit Investment Trust (UIT) differs from a mutual fund in that a UIT:",
+    "choices": [
+      "A. Has an actively managed portfolio",
+      "B. Holds a fixed portfolio of securities that does not change",
+      "C. Has no maturity date",
+      "D. Always invests exclusively in equities"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. A UIT holds a fixed portfolio of securities selected at the time of creation that generally does not change over the life of the trust. Unlike mutual funds, UITs are not actively managed. UITs typically have a stated maturity date at which point the portfolio is liquidated and proceeds are distributed to unit holders."
+  },
+  {
+    "id": "sie-q027",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor who is bullish on ABC stock would MOST likely initiate which of the following options strategies?",
+    "choices": [
+      "A. Buy an ABC put option",
+      "B. Write an ABC call option",
+      "C. Buy an ABC call option",
+      "D. Write an ABC put and buy an ABC put"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. A bullish investor expects the stock price to rise and would buy a call option, giving the right to purchase shares at the strike price. If the stock rises above the strike price, the call increases in value. Buying puts is a bearish strategy, writing naked calls has unlimited risk if the stock rises, and the fourth choice would create offsetting positions and is not a directionally bullish strategy."
+  },
+  {
+    "id": "sie-q028",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following risks is MOST associated with investing in a fixed annuity?",
+    "choices": [
+      "A. Market risk",
+      "B. Purchasing power (inflation) risk",
+      "C. Currency risk",
+      "D. Liquidity risk from exchange trading"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Fixed annuities pay a guaranteed fixed rate of return. While this eliminates market risk, it exposes the investor to purchasing power (inflation) risk because the fixed payments may not keep pace with inflation over time. Since annuities do not trade on exchanges, exchange-related liquidity risk is not applicable, though surrender charges may limit access to funds."
+  },
+  {
+    "id": "sie-q029",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "Which of the following is TRUE about American Depositary Receipts (ADRs)?",
+    "choices": [
+      "A. They represent ownership of shares in a U.S. company traded on foreign exchanges",
+      "B. They represent ownership of shares in a foreign company and trade on U.S. exchanges",
+      "C. They are exempt from SEC registration requirements",
+      "D. They eliminate all foreign investment risks"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. ADRs are receipts for shares of foreign companies held by U.S. depositary banks, and they trade on U.S. exchanges in U.S. dollars. ADRs make it easier for U.S. investors to invest in foreign companies. However, they are still subject to currency risk, political risk, and other risks associated with foreign investments. Sponsored ADRs must be registered with the SEC."
+  },
+  {
+    "id": "sie-q030",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "question": "An investor owns a callable bond with a 6% coupon. The issuer is MOST likely to call the bond when:",
+    "choices": [
+      "A. Interest rates have risen significantly above 6%",
+      "B. Interest rates have fallen significantly below 6%",
+      "C. The bond is trading at a discount",
+      "D. The bond's credit rating has been downgraded"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Issuers are most likely to call bonds when interest rates have fallen significantly, because they can refinance their debt at a lower rate. If the bond has a 6% coupon and market rates drop to 4%, the issuer can call the 6% bond and reissue new bonds at 4%, saving on interest costs. This is known as call risk or reinvestment risk for the investor."
+  },
+  {
+    "id": "sie-q031",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "Which of the following account types provides tax-deferred growth on investments?",
+    "choices": [
+      "A. Individual brokerage account",
+      "B. Joint tenants in common account",
+      "C. Traditional Individual Retirement Account (IRA)",
+      "D. Transfer on death (TOD) account"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. A Traditional IRA provides tax-deferred growth, meaning earnings are not taxed until distributions are taken, typically in retirement. Contributions may also be tax-deductible depending on income and other factors. Individual brokerage accounts, joint accounts, and TOD accounts are taxable accounts where investment earnings are subject to taxes in the year they are realized."
+  },
+  {
+    "id": "sie-q032",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A customer places an order to buy 200 shares of ABC at $45 or better. This is an example of which type of order?",
+    "choices": [
+      "A. A market order",
+      "B. A stop order",
+      "C. A limit order",
+      "D. A stop-limit order"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. A limit order specifies the maximum price (for buy orders) or minimum price (for sell orders) at which the customer is willing to execute. 'Buy at $45 or better' means the investor will pay no more than $45 per share. A market order would execute at the best available price with no price restriction. Stop orders become market orders when triggered."
+  },
+  {
+    "id": "sie-q033",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "Regular-way settlement for corporate stock trades is:",
+    "choices": [
+      "A. Trade date (T+0)",
+      "B. Trade date plus one business day (T+1)",
+      "C. Trade date plus two business days (T+2)",
+      "D. Trade date plus three business days (T+3)"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. As of May 28, 2024, regular-way settlement for most securities transactions — including corporate stocks, bonds, and municipal securities — is T+1 (trade date plus one business day). This means if a trade is executed on Monday, settlement occurs on Tuesday. U.S. government securities and options also settle T+1."
+  },
+  {
+    "id": "sie-q034",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A customer opens a margin account and purchases $20,000 worth of stock. Under Regulation T, what is the minimum initial deposit required?",
+    "choices": [
+      "A. $5,000",
+      "B. $10,000",
+      "C. $15,000",
+      "D. $20,000"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Regulation T, set by the Federal Reserve Board, requires an initial margin deposit of 50% of the purchase price of securities bought on margin. For a $20,000 purchase, the customer must deposit $10,000 (50% x $20,000), and the remaining $10,000 can be borrowed from the broker-dealer as a margin loan."
+  },
+  {
+    "id": "sie-q035",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A registered representative recommends that a retired, conservative investor put their entire life savings into a speculative biotech stock. This is an example of:",
+    "choices": [
+      "A. Churning",
+      "B. An unsuitable recommendation",
+      "C. Front-running",
+      "D. Insider trading"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Making an unsuitable recommendation involves suggesting investments that do not align with a customer's stated investment objectives, financial situation, risk tolerance, and other relevant factors. Recommending speculative stocks for a conservative retiree's entire savings is clearly unsuitable. Churning involves excessive trading, front-running is trading ahead of a customer order, and insider trading is trading on material nonpublic information."
+  },
+  {
+    "id": "sie-q036",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "In a joint tenants with right of survivorship (JTWROS) account, what happens to the assets when one account holder dies?",
+    "choices": [
+      "A. The assets are distributed according to the deceased's will",
+      "B. The assets are frozen until probate is completed",
+      "C. The assets pass directly to the surviving account holder(s)",
+      "D. The assets are split equally between the estate and the surviving holder"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. In a JTWROS account, when one owner dies, their share of the account passes directly to the surviving owner(s) by operation of law, bypassing probate. This is the defining feature of right of survivorship. In contrast, a tenants in common (TIC) account allows each owner's share to pass to their estate upon death."
+  },
+  {
+    "id": "sie-q037",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "Which of the following is a characteristic of a cash account?",
+    "choices": [
+      "A. The customer may borrow against securities in the account",
+      "B. The customer must pay for securities in full by settlement date",
+      "C. Short selling is permitted",
+      "D. The broker-dealer may hypothecate the customer's securities"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. In a cash account, the customer must pay for securities in full by the settlement date. Borrowing against securities, short selling, and hypothecation (pledging customer securities as collateral for margin loans) are features of margin accounts, not cash accounts."
+  },
+  {
+    "id": "sie-q038",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A customer wants to sell stock short. Which of the following is required?",
+    "choices": [
+      "A. The customer must own the stock being sold",
+      "B. The transaction must be done in a margin account",
+      "C. The customer must have written permission from the issuer",
+      "D. Short selling is prohibited for retail investors"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Short selling requires a margin account because the customer is borrowing shares from the broker-dealer to sell them, with the obligation to return the shares later. The customer does not own the stock (that would be a long sale). Written permission from the issuer is not required. Short selling is available to both retail and institutional investors."
+  },
+  {
+    "id": "sie-q039",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "Which of the following constitutes churning?",
+    "choices": [
+      "A. An investor frequently trading their own account based on personal research",
+      "B. A registered representative executing excessive trades in a customer's account primarily to generate commissions",
+      "C. A broker-dealer charging above-average commissions on trades",
+      "D. A registered representative recommending the same stock to multiple clients"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Churning is the prohibited practice of a registered representative excessively trading in a customer's account primarily to generate commissions rather than to benefit the customer. The representative must have control over the account (discretionary authority or de facto control). An investor trading their own account cannot be churned because they control the trading."
+  },
+  {
+    "id": "sie-q040",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A customer places a sell stop order at $45 for a stock currently trading at $48. The order will be triggered when:",
+    "choices": [
+      "A. The stock reaches $48 or higher",
+      "B. The stock trades at $45 or below",
+      "C. The stock trades at exactly $45",
+      "D. The stock opens at $45 the next trading day"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. A sell stop order is placed below the current market price and is triggered when the stock trades at or below the stop price. Once triggered, it becomes a market order and is executed at the best available price. Sell stop orders are commonly used to protect profits or limit losses on a long stock position."
+  },
+  {
+    "id": "sie-q041",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "The Securities Investor Protection Corporation (SIPC) provides coverage of up to:",
+    "choices": [
+      "A. $250,000 per account, including up to $100,000 for cash",
+      "B. $500,000 per customer, including up to $250,000 for cash",
+      "C. $500,000 per account, with no limit on cash",
+      "D. $1,000,000 per customer, including up to $500,000 for cash"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. SIPC protects customer accounts up to $500,000 per customer, of which up to $250,000 may be for cash claims, in the event that a broker-dealer fails financially. SIPC does not protect against market losses or bad investment decisions. It is not a government agency but a nonprofit membership corporation."
+  },
+  {
+    "id": "sie-q042",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "Under FINRA rules, which of the following activities would be considered front-running?",
+    "choices": [
+      "A. A representative placing a personal trade after seeing a research report published on the firm's website",
+      "B. A representative executing a large customer order before placing a personal trade",
+      "C. A representative placing a personal trade ahead of a known pending large customer order that is likely to affect the stock's price",
+      "D. A representative recommending a stock to a client based on publicly available information"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Front-running is the prohibited practice of trading in a personal or proprietary account ahead of a known pending customer order that is likely to move the market price. This allows the individual to profit from the anticipated price movement. Proper procedure requires executing customer orders before personal trades."
+  },
+  {
+    "id": "sie-q043",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A customer wants to open a custodial account for a minor under the Uniform Transfers to Minors Act (UTMA). Which of the following is TRUE?",
+    "choices": [
+      "A. Two custodians must be named on the account",
+      "B. Gifts to the account are revocable until the minor reaches the age of majority",
+      "C. The minor is the beneficial owner of the account assets",
+      "D. Margin trading is permitted in the account"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. In a UTMA custodial account, the minor is the beneficial owner of the assets. Only one custodian may be named on the account at a time. Gifts are irrevocable once made. Margin trading and short selling are not permitted in custodial accounts. The custodian manages the account in a fiduciary capacity until the minor reaches the age of majority."
+  },
+  {
+    "id": "sie-q044",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "A registered representative receives a written complaint from a customer. The representative should FIRST:",
+    "choices": [
+      "A. Attempt to resolve the complaint directly with the customer",
+      "B. Notify their supervisor or compliance department immediately",
+      "C. Ignore the complaint if they believe it is unfounded",
+      "D. Contact the customer's attorney to discuss the matter"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Under FINRA rules, all written customer complaints must be promptly reported to the representative's supervisor or compliance department. The firm must maintain records of all complaints and take appropriate action. Representatives should never attempt to resolve complaints on their own or ignore them, regardless of whether they believe the complaint has merit."
+  },
+  {
+    "id": "sie-q045",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "question": "If a customer fails to meet a margin call, the broker-dealer may:",
+    "choices": [
+      "A. Wait indefinitely for the customer to deposit additional funds",
+      "B. Sell securities in the account to bring it into compliance",
+      "C. Transfer the deficit to the customer's cash account",
+      "D. Extend additional credit without restrictions"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. If a customer fails to meet a margin call, the broker-dealer has the right to sell (liquidate) securities in the margin account to bring the account back into compliance with margin requirements. The firm is not required to wait for the customer to deposit funds and may sell without prior notice, though most firms attempt to contact the customer first."
+  },
+  {
+    "id": "sie-q046",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "question": "The Securities Act of 1933 is primarily concerned with:",
+    "choices": [
+      "A. Regulating the secondary market trading of securities",
+      "B. Requiring the registration of new securities and providing full disclosure to investors",
+      "C. Establishing the Securities and Exchange Commission",
+      "D. Regulating investment advisers"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. The Securities Act of 1933, also known as the 'Paper Act' or the 'Truth in Securities Act,' primarily governs the issuance of new securities in the primary market. It requires that securities be registered with the SEC and that investors receive a prospectus with full and fair disclosure. The Securities Exchange Act of 1934 established the SEC and regulates secondary market trading."
+  },
+  {
+    "id": "sie-q047",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "question": "Under current FINRA rules, how often must a registered person complete the Regulatory Element of continuing education (CE)?",
+    "choices": [
+      "A. Every three years, within 120 days of their registration anniversary",
+      "B. Every two years by the end of the calendar year",
+      "C. Annually by December 31, with registration becoming inactive (CE-inactive) if not completed",
+      "D. Only once, within the first year of registration"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Effective January 1, 2023, FINRA Rule 1240 requires every registered person to complete the Regulatory Element of continuing education annually by December 31 for each registration category they hold. Failure to complete the requirement by December 31 results in the person's registration becoming CE-inactive, meaning they may not perform any activities requiring registration until the requirement is fulfilled. A registration that remains CE-inactive for two consecutive years is subject to administrative termination."
+  },
+  {
+    "id": "sie-q048",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "question": "The Securities Exchange Act of 1934 requires which of the following?",
+    "choices": [
+      "A. Registration of new securities offerings with the SEC",
+      "B. Registration of exchanges, broker-dealers, and securities traded on exchanges",
+      "C. Registration of investment companies and their offerings",
+      "D. Registration of municipal securities dealers only"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. The Securities Exchange Act of 1934 regulates the secondary market and requires the registration of securities exchanges, broker-dealers, and securities that trade on exchanges. It also established the SEC, prohibits manipulative and deceptive practices, and requires periodic financial reporting by public companies. The 1933 Act covers registration of new offerings, and the Investment Company Act of 1940 covers investment companies."
+  },
+  {
+    "id": "sie-q049",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "question": "An associated person of a FINRA member firm wants to open a brokerage account at another firm. Which of the following is required?",
+    "choices": [
+      "A. No notification is necessary if the account is only for personal investing",
+      "B. The employing firm must be notified in writing, and the executing firm must send duplicate confirmations or statements upon request",
+      "C. The associated person must receive written approval from FINRA before opening the account",
+      "D. The account must be a managed account supervised by the employing firm"
+    ],
+    "correct": 1,
+    "explanation": "The correct answer is B. Under FINRA Rule 3210, an associated person who wishes to open an account at another broker-dealer must provide written notice to their employing firm. The executing firm must also send duplicate confirmations, statements, or other information to the employing firm upon its request. This allows the employer to monitor for potential conflicts of interest or prohibited trading activity."
+  },
+  {
+    "id": "sie-q050",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "question": "Under the Bank Secrecy Act (BSA) and anti-money laundering (AML) regulations, broker-dealers are required to file a Suspicious Activity Report (SAR) for transactions that:",
+    "choices": [
+      "A. Exceed $3,000 in cash",
+      "B. Involve any international wire transfer",
+      "C. Are known or suspected to involve funds from illegal activity or are designed to evade reporting requirements",
+      "D. Involve customers who refuse to provide a Social Security number"
+    ],
+    "correct": 2,
+    "explanation": "The correct answer is C. Under BSA/AML regulations, broker-dealers must file a SAR when they know, suspect, or have reason to suspect that a transaction involves funds derived from illegal activity, is designed to evade reporting requirements, lacks a lawful purpose, or involves the use of the firm to facilitate criminal activity. SARs are filed with FinCEN and the firm may not notify the customer that a SAR has been filed."
+  }
+]

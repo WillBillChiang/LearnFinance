@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series99-q001",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "The standard settlement cycle for most U.S. equity trades is:",
+    "choices": ["A. Trade date (T+0)", "B. Trade date plus one business day (T+1)", "C. Trade date plus two business days (T+2)", "D. Trade date plus three business days (T+3)"],
+    "correct": 1,
+    "explanation": "As of May 2024, the standard settlement cycle for most U.S. equity securities is T+1 (trade date plus one business day). This was reduced from T+2 to reduce counterparty risk, decrease margin requirements, and align with technological advancements in trade processing."
+  },
+  {
+    "id": "series99-q002",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "The Depository Trust Company (DTC) serves as:",
+    "choices": ["A. A regulatory body for broker-dealers", "B. A central securities depository that holds securities and facilitates their transfer", "C. A stock exchange", "D. A credit rating agency"],
+    "correct": 1,
+    "explanation": "DTC is the central securities depository in the United States. It holds trillions of dollars in securities and facilitates the settlement of trades through book-entry (electronic) transfers. DTC eliminates the need for physical delivery of securities certificates, improving efficiency and reducing risk."
+  },
+  {
+    "id": "series99-q003",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "A 'fail to deliver' occurs when:",
+    "choices": ["A. A customer places a trade that is not executed", "B. A selling party does not deliver securities to the buying party by the settlement date", "C. A broker-dealer closes for the day", "D. A customer's check bounces"],
+    "correct": 1,
+    "explanation": "A fail to deliver occurs when the selling party is unable to deliver the securities to the buying party by the settlement date. This can result from operational errors, short selling without proper locate, or other issues. Persistent fails can trigger regulatory consequences under SEC Regulation SHO."
+  },
+  {
+    "id": "series99-q004",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "Under the Bank Secrecy Act, broker-dealers must file a Currency Transaction Report (CTR) for cash transactions exceeding:",
+    "choices": ["A. $3,000", "B. $5,000", "C. $10,000", "D. $25,000"],
+    "correct": 2,
+    "explanation": "Under the Bank Secrecy Act, broker-dealers must file a Currency Transaction Report (CTR) with FinCEN for cash transactions exceeding $10,000 in a single business day. Multiple transactions that aggregate to over $10,000 must also be reported. This requirement is a key component of anti-money laundering compliance."
+  },
+  {
+    "id": "series99-q005",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "The Customer Identification Program (CIP) requires broker-dealers to verify customer identity using:",
+    "choices": ["A. Only a driver's license", "B. A combination of name, date of birth, address, and identification number", "C. Only a Social Security number", "D. A fingerprint scan"],
+    "correct": 1,
+    "explanation": "Under the USA PATRIOT Act, the CIP requires broker-dealers to collect and verify four key pieces of identifying information: name, date of birth, address, and identification number (Social Security number for U.S. persons or passport/government-issued ID for non-U.S. persons). Verification may use documentary or non-documentary methods."
+  },
+  {
+    "id": "series99-q006",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "The National Securities Clearing Corporation (NSCC) provides which critical function?",
+    "choices": ["A. Listing securities on exchanges", "B. Clearing and settling trades, including netting of obligations to reduce settlement risk", "C. Setting interest rates", "D. Approving IPOs"],
+    "correct": 1,
+    "explanation": "The NSCC is the central clearing counterparty that clears and settles most U.S. equity and corporate bond trades. Its netting process aggregates all buy and sell obligations, resulting in each participant having a single net obligation, dramatically reducing the volume of securities and cash that must change hands."
+  },
+  {
+    "id": "series99-q007",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "A 'good delivery' of physical securities requires all of the following EXCEPT:",
+    "choices": ["A. Proper denomination of certificates", "B. Valid signatures or power of substitution", "C. A recent credit report from the registered owner", "D. Certificates in the correct registered form"],
+    "correct": 2,
+    "explanation": "Good delivery of physical securities requires proper denomination, valid authorized signatures (or signature guarantee/power of substitution), certificates in the proper registered form, and legal transfer of ownership documentation. A credit report from the owner is not required for good delivery."
+  },
+  {
+    "id": "series99-q008",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "Regulation SHO governs:",
+    "choices": ["A. Municipal bond trading", "B. Short selling, including locate requirements and close-out obligations", "C. Mutual fund sales charges", "D. Options expiration procedures"],
+    "correct": 1,
+    "explanation": "SEC Regulation SHO governs short selling practices. Key requirements include the locate requirement (a broker must reasonably believe shares can be borrowed before executing a short sale), the close-out requirement (fails to deliver must be closed out within specified timeframes), and the threshold security list publication."
+  },
+  {
+    "id": "series99-q009",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "When a stock goes ex-dividend, the stock price typically:",
+    "choices": ["A. Increases by the dividend amount", "B. Decreases by approximately the dividend amount", "C. Remains unchanged", "D. Doubles"],
+    "correct": 1,
+    "explanation": "On the ex-dividend date, the stock price is adjusted downward by approximately the amount of the dividend. This is because buyers on or after the ex-date are not entitled to receive the declared dividend. The ex-date is one business day before the record date."
+  },
+  {
+    "id": "series99-q010",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "A broker-dealer's AML (Anti-Money Laundering) program must include all of the following EXCEPT:",
+    "choices": ["A. Internal policies, procedures, and controls", "B. A designated AML compliance officer", "C. Ongoing employee training", "D. A guarantee that no suspicious activity will occur"],
+    "correct": 3,
+    "explanation": "An AML program must include: (1) internal policies, procedures, and controls, (2) a designated AML compliance officer, (3) ongoing employee training, and (4) independent testing of the program. No program can guarantee that suspicious activity will never occur; the requirement is to have reasonable systems to detect and report it."
+  },
+  {
+    "id": "series99-q011",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "Corporate actions processed by operations departments include all of the following EXCEPT:",
+    "choices": ["A. Stock splits", "B. Dividend payments", "C. Merger/acquisition share conversions", "D. Setting the company's marketing strategy"],
+    "correct": 3,
+    "explanation": "Operations departments process corporate actions such as stock splits, dividend payments, mergers and acquisitions (share conversions), tender offers, rights offerings, and name changes. Marketing strategy is a business function, not a corporate action handled by securities operations."
+  },
+  {
+    "id": "series99-q012",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "Under the Bank Secrecy Act, broker-dealers must file Suspicious Activity Reports (SARs) for transactions involving at least:",
+    "choices": ["A. $1,000", "B. $2,000", "C. $5,000", "D. $10,000"],
+    "correct": 2,
+    "explanation": "Broker-dealers must file SARs for transactions of $5,000 or more that the firm knows, suspects, or has reason to suspect involve funds from illegal activity, are designed to evade reporting requirements, lack a business or lawful purpose, or involve the use of the firm to facilitate criminal activity."
+  },
+  {
+    "id": "series99-q013",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "A Delivery Versus Payment (DVP) arrangement means:",
+    "choices": ["A. Securities are delivered before payment is received", "B. Payment and securities delivery occur simultaneously to reduce counterparty risk", "C. Payment is made 30 days after delivery", "D. Only cash payments are accepted"],
+    "correct": 1,
+    "explanation": "Delivery Versus Payment (DVP) is a settlement mechanism where securities delivery and cash payment occur simultaneously. This eliminates the risk that one party delivers without receiving the corresponding payment (settlement risk). DVP is the standard for institutional transactions and is a key risk-reduction mechanism."
+  },
+  {
+    "id": "series99-q014",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "The Office of Foreign Assets Control (OFAC) requires broker-dealers to:",
+    "choices": ["A. Screen all new accounts and transactions against the Specially Designated Nationals (SDN) list", "B. Report all foreign client transactions to the State Department", "C. Refuse to open accounts for any non-U.S. citizen", "D. Charge higher fees for international transactions"],
+    "correct": 0,
+    "explanation": "OFAC requires all U.S. persons, including broker-dealers, to screen customers and transactions against the Specially Designated Nationals (SDN) list and other sanctions lists. Transactions with blocked persons or countries are prohibited. Firms must block assets of designated persons and report blocked transactions to OFAC."
+  },
+  {
+    "id": "series99-q015",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "The transfer agent for a corporation is responsible for:",
+    "choices": ["A. Setting the stock price", "B. Maintaining shareholder records, issuing new certificates, and processing transfers", "C. Underwriting new stock offerings", "D. Managing the company's investment portfolio"],
+    "correct": 1,
+    "explanation": "The transfer agent maintains the official record of shareholders, issues and cancels stock certificates, processes transfers of ownership, and distributes dividends and other communications on behalf of the issuer. Transfer agents play a critical role in the settlement and corporate actions processes."
+  },
+  {
+    "id": "series99-q016",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "A broker-dealer discovers a potential violation of securities law by one of its employees. Under regulatory obligations, the firm must:",
+    "choices": ["A. Wait to see if regulators discover the violation", "B. Report the violation through appropriate regulatory channels and take corrective action", "C. Terminate the employee without investigation", "D. Cover up the violation to protect the firm's reputation"],
+    "correct": 1,
+    "explanation": "Broker-dealers have an obligation to report potential violations through appropriate regulatory channels (such as FINRA Rule 4530 filings) and take corrective action. Failure to report known violations can result in additional liability for the firm and its supervisors. Cover-ups constitute separate violations."
+  },
+  {
+    "id": "series99-q017",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "When processing a reverse stock split of 1-for-5, a shareholder holding 500 shares will have:",
+    "choices": ["A. 2,500 shares at a lower price", "B. 100 shares at a higher price", "C. 500 shares at the same price", "D. 5 shares at a much higher price"],
+    "correct": 1,
+    "explanation": "In a 1-for-5 reverse stock split, every 5 old shares become 1 new share. A shareholder with 500 shares would have 100 shares (500/5). The stock price adjusts proportionally upward (multiplied by 5) so the total market value remains the same. Reverse splits are often used to raise the per-share price."
+  },
+  {
+    "id": "series99-q018",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "The SEC's Regulation S-P requires broker-dealers to:",
+    "choices": ["A. File annual reports with the SEC", "B. Protect the privacy of customer financial information and provide privacy notices", "C. Register all employees with FINRA", "D. Maintain minimum net capital requirements"],
+    "correct": 1,
+    "explanation": "Regulation S-P (Privacy of Consumer Financial Information) requires broker-dealers to provide initial and annual privacy notices to customers describing their information-sharing practices. Firms must also implement policies to protect customer nonpublic personal information and provide opt-out rights for certain information sharing."
+  },
+  {
+    "id": "series99-q019",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "An 'as of' trade is processed to:",
+    "choices": ["A. Trade securities at a future date", "B. Correct an error by entering a trade with a prior trade date", "C. Guarantee a specific price", "D. Avoid settlement obligations"],
+    "correct": 1,
+    "explanation": "An 'as of' trade is used to correct errors by processing a trade as if it occurred on a prior date. This adjusts the books and records to reflect when the trade should have originally been processed. As-of trades require proper documentation and approval, as they can be subject to abuse."
+  },
+  {
+    "id": "series99-q020",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "Under FINRA rules, a broker-dealer must retain electronic communications for:",
+    "choices": ["A. 1 year", "B. 3 years", "C. At least 3 years, with the first 2 years in an accessible place", "D. 10 years"],
+    "correct": 2,
+    "explanation": "Under SEC Rule 17a-4 and FINRA rules, broker-dealers must retain business-related electronic communications (including emails) for at least 3 years, with the first 2 years in an easily accessible location. These records must be maintained in a non-rewriteable, non-erasable format (WORM compliance)."
+  },
+  {
+    "id": "series99-q021",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "A margin call is issued when:",
+    "choices": ["A. A customer wants to withdraw funds", "B. The equity in a customer's margin account falls below the maintenance requirement", "C. A customer places a limit order", "D. The market closes for the day"],
+    "correct": 1,
+    "explanation": "A margin call (maintenance call) is issued when the equity in a margin account falls below the minimum maintenance requirement (typically 25% for long positions under FINRA rules, though firms may set higher house requirements). The customer must deposit additional funds or securities to restore the account to the required level."
+  },
+  {
+    "id": "series99-q022",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "A broker-dealer's business continuity plan must be:",
+    "choices": ["A. Filed with the SEC annually", "B. Reviewed and updated at least annually, with key elements disclosed to customers", "C. Kept confidential from all employees", "D. Updated only after a disruption occurs"],
+    "correct": 1,
+    "explanation": "Under FINRA Rule 4370, broker-dealers must create, maintain, and update their business continuity plans at least annually. The firm must also provide customers with a summary of its BCP, including how customers can access funds and securities in the event of a significant business disruption."
+  },
+  {
+    "id": "series99-q023",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "When a bond trade settles, accrued interest is calculated from:",
+    "choices": ["A. The trade date to the settlement date", "B. The last coupon payment date up to but not including the settlement date", "C. The issue date to the maturity date", "D. The settlement date to the next coupon payment date"],
+    "correct": 1,
+    "explanation": "Accrued interest on bonds is calculated from the last coupon payment date (or dated date for new issues) up to but not including the settlement date. The buyer pays accrued interest to the seller at settlement and then receives the full next coupon payment. This ensures fair compensation between buyer and seller."
+  },
+  {
+    "id": "series99-q024",
+    "topic": "series99-t2",
+    "topicName": "Compliance and Regulatory Obligations",
+    "question": "Customer Relationship Summary (Form CRS) must be delivered to:",
+    "choices": ["A. Only institutional investors", "B. All retail investors before or at the time of entering into a new account relationship", "C. Only customers with accounts over $250,000", "D. Only customers who request it"],
+    "correct": 1,
+    "explanation": "Form CRS (Customer Relationship Summary) must be delivered to all retail investors before or at the earliest of a recommendation, placing an order, or opening an account. It provides a brief summary of the firm's services, fees, conflicts of interest, and disciplinary history in a standardized format."
+  },
+  {
+    "id": "series99-q025",
+    "topic": "series99-t1",
+    "topicName": "Operations and Settlement",
+    "question": "The Continuous Net Settlement (CNS) system operated by NSCC:",
+    "choices": ["A. Settles each trade individually", "B. Nets all of a participant's buy and sell obligations into a single net position per security", "C. Only processes government bond trades", "D. Delays settlement for 30 days"],
+    "correct": 1,
+    "explanation": "The Continuous Net Settlement system nets all of a participant's buy and sell obligations for each security into a single net long or short position. This dramatically reduces the number of securities that must be delivered and the amount of cash that must be exchanged, improving settlement efficiency and reducing risk."
+  }
+]

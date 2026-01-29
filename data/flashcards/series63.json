@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series63-fc001",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "front": "What is the Uniform Securities Act (USA)?",
+    "back": "The Uniform Securities Act is a model state law designed to guide individual states in drafting their own securities regulations. It provides a framework for regulating securities transactions, registration of securities and industry professionals, and anti-fraud provisions at the state level. Each state may adopt, modify, or reject its provisions."
+  },
+  {
+    "id": "series63-fc002",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "front": "Who is the Administrator under the USA?",
+    "back": "The Administrator is the state official or agency responsible for administering and enforcing the state's securities laws. The Administrator has broad powers including rulemaking, investigation, issuing subpoenas, and denying, suspending, or revoking registrations. The Administrator's actions are subject to judicial review but their orders take effect immediately."
+  },
+  {
+    "id": "series63-fc003",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "front": "What powers does the Administrator have?",
+    "back": "The Administrator can make rules and orders, conduct investigations, issue subpoenas, administer oaths, inspect books and records, issue cease and desist orders, and deny, suspend, or revoke registrations. The Administrator cannot impose criminal penalties (only courts can) and cannot issue injunctions (only courts can). The Administrator may impose fines in some jurisdictions."
+  },
+  {
+    "id": "series63-fc004",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "front": "What are the three methods of securities registration under the USA?",
+    "back": "The three methods are: (1) Registration by notification (filing) for established issuers meeting certain criteria, (2) Registration by coordination, filed simultaneously with a federal registration under the Securities Act of 1933, and (3) Registration by qualification, used when other methods are unavailable, requiring the most detailed disclosure."
+  },
+  {
+    "id": "series63-fc005",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "front": "What is registration by coordination?",
+    "back": "Registration by coordination is used when a security is being registered at both the federal and state levels simultaneously. The issuer files a registration statement with the state that coordinates with the federal SEC filing. The state registration becomes effective at the same time as the federal registration, provided certain conditions are met."
+  },
+  {
+    "id": "series63-fc006",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "front": "What securities are exempt from state registration?",
+    "back": "Exempt securities include U.S. government and municipal securities, bank and savings institution securities, securities issued by nonprofits, insurance company securities, and securities listed on national exchanges (blue-chip exemption). These securities are exempt from registration requirements but remain subject to anti-fraud provisions."
+  },
+  {
+    "id": "series63-fc007",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "front": "What transactions are exempt from state registration?",
+    "back": "Exempt transactions include isolated non-issuer transactions, transactions by executors or fiduciaries, private placements (limited offeree exemption), transactions with institutional investors, pre-organization certificates (limited to 10 subscribers), and unsolicited brokerage transactions. These transactions are exempt from registration but remain subject to anti-fraud provisions."
+  },
+  {
+    "id": "series63-fc008",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "What is a broker-dealer under the USA?",
+    "back": "A broker-dealer is any person engaged in the business of effecting transactions in securities for the account of others (broker) or for its own account (dealer). Banks, savings institutions, and issuers selling their own securities are generally excluded from the definition. Broker-dealers must register in each state where they conduct business."
+  },
+  {
+    "id": "series63-fc009",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "What is an agent under the USA?",
+    "back": "An agent is any individual who represents a broker-dealer or issuer in effecting or attempting to effect purchases or sales of securities. Officers and directors of issuers may be excluded from the agent definition if they are not compensated for sales and do not regularly participate in securities transactions. Agents must register in the states where they operate."
+  },
+  {
+    "id": "series63-fc010",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "When must a broker-dealer register in a state?",
+    "back": "A broker-dealer must register in a state if it has a place of business in that state or if it directs communications to more than five non-institutional clients in the state during a 12-month period. Broker-dealers with no place of business in the state that deal exclusively with institutional investors or other broker-dealers may be exempt."
+  },
+  {
+    "id": "series63-fc011",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "What is the registration process for agents?",
+    "back": "Agents register by filing an application with the state Administrator, typically through the Central Registration Depository (CRD) system. The application includes personal information, employment history, disciplinary history, and consent to service of process. Registration is effective when granted and must be renewed annually. An agent's registration follows their broker-dealer."
+  },
+  {
+    "id": "series63-fc012",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "What is consent to service of process?",
+    "back": "Consent to service of process is a legal document filed with the state Administrator that appoints the Administrator as the registrant's agent for receiving legal notices and lawsuits. This ensures that non-resident broker-dealers, agents, and investment advisers can be served with legal process through the Administrator, simplifying enforcement actions."
+  },
+  {
+    "id": "series63-fc013",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "What is churning?",
+    "back": "Churning is the excessive buying and selling of securities in a customer's account by a broker primarily to generate commissions rather than to benefit the customer. It is a fraudulent and prohibited practice. To prove churning, the broker must have control of the account, trading must be excessive in light of the client's objectives, and the broker must have acted with intent."
+  },
+  {
+    "id": "series63-fc014",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "What are some prohibited practices under the USA?",
+    "back": "Prohibited practices include making untrue statements of material fact, omitting material facts, engaging in fraud or deceit, making unsuitable recommendations, charging excessive markups, guaranteeing against losses, sharing in customer accounts (except under specific conditions), and borrowing or lending money to/from customers without proper authorization."
+  },
+  {
+    "id": "series63-fc015",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "What is the anti-fraud provision of the USA?",
+    "back": "The anti-fraud provision applies universally to all securities transactions, regardless of whether the security or transaction is exempt from registration. It prohibits any person from employing any device, scheme, or artifice to defraud, making untrue statements of material fact, or engaging in any act that would operate as a fraud or deceit on another person."
+  },
+  {
+    "id": "series63-fc016",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "Can an agent share in profits or losses of a customer's account?",
+    "back": "An agent may share in profits and losses of a customer's account only if: the customer provides written authorization, the broker-dealer approves the arrangement in writing, and the agent shares proportionately to their financial contribution. An exception exists for accounts held jointly with immediate family members, where proportionate sharing is not required."
+  },
+  {
+    "id": "series63-fc017",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "What is selling away?",
+    "back": "Selling away occurs when a registered agent engages in private securities transactions outside the scope of their employment with their broker-dealer, without the broker-dealer's knowledge and approval. This is a serious violation because the broker-dealer cannot supervise the transaction, and the customer may lack regulatory protections."
+  },
+  {
+    "id": "series63-fc018",
+    "topic": "series63-t5",
+    "topicName": "Remedies and Administrative Provisions",
+    "front": "What are the criminal penalties under the USA?",
+    "back": "A person who willfully violates the USA or its rules may face criminal penalties of up to 3 years in prison and/or a $5,000 fine. Criminal prosecution must be initiated by the appropriate legal authority (such as the state attorney general), not the Administrator. The statute of limitations for criminal prosecution is 5 years from the alleged violation."
+  },
+  {
+    "id": "series63-fc019",
+    "topic": "series63-t5",
+    "topicName": "Remedies and Administrative Provisions",
+    "front": "What is the statute of limitations for civil suits under the USA?",
+    "back": "Under the USA, a civil action for rescission must be brought within the earlier of 3 years after the sale or 2 years after discovery of the violation. If a customer receives a rescission offer from the seller and fails to accept within 30 days, the right to seek remedies may be forfeited."
+  },
+  {
+    "id": "series63-fc020",
+    "topic": "series63-t5",
+    "topicName": "Remedies and Administrative Provisions",
+    "front": "What grounds can the Administrator use to deny a registration?",
+    "back": "The Administrator may deny, suspend, or revoke a registration if the applicant has been convicted of a securities-related felony within the past 10 years, is subject to an SEC or SRO disciplinary order, has filed a false application, is insolvent, lacks proper qualifications, or has engaged in dishonest or unethical business practices."
+  },
+  {
+    "id": "series63-fc021",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "front": "What is the definition of a 'security' under the USA?",
+    "back": "The USA defines a security broadly to include stocks, bonds, notes, debentures, investment contracts, certificates of interest, and any instrument commonly known as a security. Fixed annuities, whole life insurance, bank CDs, and commodities are generally NOT considered securities. The Howey Test is used to determine if an investment contract qualifies as a security."
+  },
+  {
+    "id": "series63-fc022",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "front": "What is the Howey Test?",
+    "back": "The Howey Test, from the Supreme Court case SEC v. W.J. Howey Co., determines whether a transaction qualifies as an investment contract (and thus a security). It requires: (1) an investment of money, (2) in a common enterprise, (3) with an expectation of profit, (4) derived primarily from the efforts of others. All four elements must be present."
+  },
+  {
+    "id": "series63-fc023",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "What happens to an agent's registration when they leave a broker-dealer?",
+    "back": "When an agent terminates employment with a broker-dealer, their registration is no longer effective. The broker-dealer must promptly notify the Administrator of the termination. If the agent joins another broker-dealer, they must register under the new firm. The agent cannot conduct securities business during any gap in registration."
+  },
+  {
+    "id": "series63-fc024",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "What is an unsolicited transaction?",
+    "back": "An unsolicited transaction is one initiated by the customer without any recommendation or suggestion from the agent. Unsolicited transactions are exempt from state registration requirements. The agent should mark the order ticket as unsolicited to document that the transaction was customer-initiated. However, anti-fraud provisions still apply to all transactions."
+  },
+  {
+    "id": "series63-fc025",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "front": "What is the limited offering exemption (private placement) under the USA?",
+    "back": "The limited offering exemption allows securities to be sold without state registration if offered to a limited number of persons (typically no more than 10 non-institutional buyers in a state during a 12-month period), no general solicitation is used, and no commissions are paid for sales to non-institutional buyers. The issuer must reasonably believe buyers are purchasing for investment."
+  },
+  {
+    "id": "series63-fc026",
+    "topic": "series63-t5",
+    "topicName": "Remedies and Administrative Provisions",
+    "front": "What is a cease and desist order?",
+    "back": "A cease and desist order is an administrative action issued by the Administrator directing a person to stop engaging in a specific activity that violates the USA. The Administrator can issue the order without a prior hearing if a post-order hearing is promptly provided. Violation of a cease and desist order may lead to further penalties."
+  },
+  {
+    "id": "series63-fc027",
+    "topic": "series63-t4",
+    "topicName": "Ethical Practices and Prohibited Activities",
+    "front": "What is commingling of funds?",
+    "back": "Commingling occurs when an agent or adviser mixes client funds with their own personal funds or with the firm's funds. This is strictly prohibited under the USA. Client funds must be kept in separate, properly labeled accounts. Commingling makes it difficult to identify and protect client assets and is considered a fraudulent practice."
+  },
+  {
+    "id": "series63-fc028",
+    "topic": "series63-t3",
+    "topicName": "Registration of Persons",
+    "front": "What is an investment adviser representative (IAR) under the USA?",
+    "back": "An IAR is an individual who works for an investment adviser and makes recommendations, manages client accounts, or solicits advisory services. IARs must register in the state where they have a place of business. They are the state-level equivalent of supervised persons under federal law and must meet qualification requirements set by the state."
+  },
+  {
+    "id": "series63-fc029",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "front": "What is the 'place of business' concept under the USA?",
+    "back": "A place of business is any location where a broker-dealer, agent, or investment adviser regularly provides securities services. It includes offices, branches, and even locations where an agent meets clients regularly. The concept is important for determining registration requirements, as persons with a place of business in a state must generally register there."
+  },
+  {
+    "id": "series63-fc030",
+    "topic": "series63-t5",
+    "topicName": "Remedies and Administrative Provisions",
+    "front": "What is rescission?",
+    "back": "Rescission is a legal remedy that returns parties to their pre-transaction positions. In securities law, it means the seller must refund the purchase price plus interest to the buyer, and the buyer returns the security. A seller who discovers a violation may offer rescission to the buyer; if the buyer rejects the offer within 30 days, the buyer may lose the right to sue."
+  }
+]

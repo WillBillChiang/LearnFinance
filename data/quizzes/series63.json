@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series63-q001",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Under the Uniform Securities Act (USA), which of the following is considered a security?",
+    "choices": ["A. A fixed annuity contract", "B. A whole life insurance policy", "C. An investment contract", "D. A bank certificate of deposit"],
+    "correct": 2,
+    "explanation": "Under the Uniform Securities Act, an investment contract is considered a security. Fixed annuities, whole life insurance policies, and bank CDs are specifically excluded from the definition of a security under the USA. Variable annuities and variable life insurance, however, are considered securities."
+  },
+  {
+    "id": "series63-q002",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Under the USA, which of the following is exempt from the definition of a 'broker-dealer'?",
+    "choices": ["A. An agent who effects transactions for a broker-dealer", "B. An issuer selling its own securities", "C. A firm that solicits orders from the public", "D. A firm that charges commissions on trades"],
+    "correct": 1,
+    "explanation": "Under the Uniform Securities Act, an issuer selling its own securities is excluded from the definition of broker-dealer, provided the issuer has no place of business in the state and deals only with other broker-dealers or institutional buyers. Issuers are treated separately from broker-dealers under state law."
+  },
+  {
+    "id": "series63-q003",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "question": "Which method of state securities registration requires the MOST disclosure by the issuer?",
+    "choices": ["A. Registration by notification", "B. Registration by coordination", "C. Registration by qualification", "D. All methods require the same disclosure"],
+    "correct": 2,
+    "explanation": "Registration by qualification requires the most disclosure and is the most rigorous method. It is used when the other methods are not available, typically for companies going public for the first time in a single state. The Administrator has broad authority to require additional disclosures."
+  },
+  {
+    "id": "series63-q004",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "question": "A registration by coordination becomes effective:",
+    "choices": ["A. 30 days after filing with the state", "B. When the SEC registration becomes effective", "C. Immediately upon filing", "D. 60 days after the Administrator reviews it"],
+    "correct": 1,
+    "explanation": "Registration by coordination becomes effective at the same time the federal (SEC) registration statement becomes effective, provided the registration has been on file with the state for a specified period and no stop order is in effect. This method coordinates state and federal registration."
+  },
+  {
+    "id": "series63-q005",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "question": "Which of the following securities is EXEMPT from registration under the Uniform Securities Act?",
+    "choices": ["A. Stock of a startup technology company", "B. Securities issued by the U.S. government", "C. Penny stocks sold to retail investors", "D. Shares of a newly formed private company"],
+    "correct": 1,
+    "explanation": "U.S. government securities are exempt from state registration under the Uniform Securities Act. Other exempt securities include those issued by Canadian government entities, banks, savings institutions, and securities listed on recognized exchanges. The exemption from registration does not exempt the securities from anti-fraud provisions."
+  },
+  {
+    "id": "series63-q006",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "Under the USA, which of the following activities by an agent is PROHIBITED?",
+    "choices": ["A. Recommending a diversified portfolio", "B. Sharing in the profits of a customer's account with the customer's written consent and the broker-dealer's approval", "C. Effecting trades in a discretionary account after receiving written authorization", "D. Effecting transactions without the customer's knowledge or authorization"],
+    "correct": 3,
+    "explanation": "Effecting unauthorized transactions is a prohibited practice under the Uniform Securities Act. This constitutes fraud and a violation of the agent's duty to the client. All trades must be authorized by the customer unless the agent has proper discretionary authority in writing."
+  },
+  {
+    "id": "series63-q007",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "An agent guarantees a customer that a stock will increase in value by 20% within a year. This practice is:",
+    "choices": ["A. Acceptable if the agent genuinely believes it", "B. Acceptable if put in writing", "C. Prohibited under the USA", "D. Acceptable if the principal approves"],
+    "correct": 2,
+    "explanation": "Guaranteeing future performance of any security is prohibited under the Uniform Securities Act. No one can predict future market movements with certainty. This prohibition applies regardless of the agent's belief, whether it is in writing, or whether the firm approves."
+  },
+  {
+    "id": "series63-q008",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "The state securities Administrator may do all of the following EXCEPT:",
+    "choices": ["A. Deny a registration", "B. Issue a cease and desist order", "C. Impose a prison sentence", "D. Revoke a license"],
+    "correct": 2,
+    "explanation": "The state securities Administrator has administrative powers including the ability to deny, suspend, or revoke registrations and issue cease and desist orders. However, the Administrator cannot impose criminal penalties such as prison sentences. Only a court of law can impose criminal penalties after a criminal prosecution."
+  },
+  {
+    "id": "series63-q009",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Under the Uniform Securities Act, which of the following is NOT included in the definition of 'security'?",
+    "choices": ["A. A stock certificate", "B. A fixed annuity issued by an insurance company", "C. An investment contract", "D. A bond"],
+    "correct": 1,
+    "explanation": "Under the Uniform Securities Act, a fixed annuity issued by an insurance company is excluded from the definition of 'security' because it is considered an insurance product, not an investment. Variable annuities, however, are considered securities because their value fluctuates with investment performance. Stocks, bonds, and investment contracts are all included in the definition of a security."
+  },
+  {
+    "id": "series63-q010",
+    "topic": "series63-t2",
+    "topicName": "Registration of Persons",
+    "question": "Under the USA, an agent's registration is effective:",
+    "choices": ["A. In all 50 states simultaneously", "B. Only in the state where the broker-dealer is headquartered", "C. Only in the state(s) where registration is granted", "D. Nationwide once registered with FINRA"],
+    "correct": 2,
+    "explanation": "An agent's registration is effective only in the state(s) where registration has been granted. Each state has its own registration requirements. An agent must register in every state where they conduct business. FINRA registration (via the CRD system) facilitates the process but does not create nationwide registration."
+  },
+  {
+    "id": "series63-q011",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "Churning a customer's account refers to:",
+    "choices": ["A. Investing in volatile securities", "B. Excessive trading to generate commissions without regard to the client's interests", "C. Making unauthorized purchases in a margin account", "D. Trading in a customer's account without discretion"],
+    "correct": 1,
+    "explanation": "Churning is the prohibited practice of excessive trading in a customer's account primarily to generate commissions for the agent, without regard to the customer's investment objectives. Factors considered include the turnover rate, the cost-to-equity ratio, and whether the trading pattern is consistent with the customer's goals."
+  },
+  {
+    "id": "series63-q012",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "A broker-dealer's office located in State A has an agent who solicits orders from customers in State B. Under the USA, the agent must be registered in:",
+    "choices": ["A. State A only", "B. State B only", "C. Both State A and State B", "D. Neither state if the BD is registered in State A"],
+    "correct": 2,
+    "explanation": "Under the USA, an agent must be registered in every state where they conduct securities business. Since the agent works in State A and solicits customers in State B, registration is required in both states. The location of the broker-dealer does not eliminate the agent's registration requirement."
+  },
+  {
+    "id": "series63-q013",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "question": "A registration by notification is available to issuers that have been:",
+    "choices": ["A. In business for at least 1 year", "B. In continuous operation for at least 36 months and meet certain financial criteria", "C. Listed on a national securities exchange for at least 5 years", "D. Approved by the SEC within the past 12 months"],
+    "correct": 1,
+    "explanation": "Registration by notification (filing) is the simplest method and is available to established issuers that have been in continuous operation for at least 36 months (3 years) and meet certain financial requirements such as no default on debt and consistent dividend payments. This method requires minimal disclosure."
+  },
+  {
+    "id": "series63-q014",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "An agent tells a client that a security has been approved by the state Administrator. This statement is:",
+    "choices": ["A. True if the security is registered in the state", "B. Prohibited, as registration does not imply approval", "C. Acceptable if the agent qualifies the statement", "D. Required to be disclosed to all customers"],
+    "correct": 1,
+    "explanation": "It is illegal to state or imply that a security has been approved or endorsed by the Administrator or any regulatory authority. Registration merely allows the security to be sold in the state; it does not indicate approval, a recommendation, or that the Administrator has verified the accuracy of the registration information."
+  },
+  {
+    "id": "series63-q015",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Under the USA, a private placement exemption (limited offering exemption) is available when offers are directed to no more than:",
+    "choices": ["A. 5 persons in 12 months", "B. 10 persons in 12 months", "C. 25 persons in 12 months", "D. 35 persons in 12 months"],
+    "correct": 1,
+    "explanation": "Under the Uniform Securities Act, the limited offering exemption is available when offers are directed to no more than 10 persons (excluding institutional investors) in the state within a 12-month period. The issuer must reasonably believe the buyers are purchasing for investment purposes, not for resale."
+  },
+  {
+    "id": "series63-q016",
+    "topic": "series63-t2",
+    "topicName": "Registration of Persons",
+    "question": "When an agent terminates employment with one broker-dealer and moves to another, which of the following is TRUE?",
+    "choices": ["A. The agent's registration automatically transfers to the new firm", "B. The agent must re-register through the new broker-dealer", "C. The agent has a 90-day grace period to complete new registration", "D. The agent's previous registration remains valid for 12 months"],
+    "correct": 1,
+    "explanation": "When an agent changes broker-dealers, the previous registration is no longer effective. The agent must re-register through the new broker-dealer. There is no automatic transfer of registration. The new broker-dealer must file a new registration application (Form U4) on behalf of the agent."
+  },
+  {
+    "id": "series63-q017",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "Under the USA, sharing in the profits and losses of a customer's account is:",
+    "choices": ["A. Always prohibited", "B. Permitted with the customer's written consent and broker-dealer approval, in proportion to the agent's financial contribution", "C. Permitted only for accounts over $1 million", "D. Allowed without restriction for family members"],
+    "correct": 1,
+    "explanation": "An agent may share in the profits and losses of a customer's account only if: (1) the customer provides written consent, (2) the broker-dealer approves, and (3) the sharing is proportional to the agent's financial contribution to the account. An exception allows disproportionate sharing for immediate family members with firm approval."
+  },
+  {
+    "id": "series63-q018",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Under the USA, the statute of limitations for civil liability related to securities fraud is:",
+    "choices": ["A. 1 year from discovery, 2 years from the event", "B. 2 years from discovery, 3 years from the event", "C. 3 years from discovery, 5 years from the event", "D. 5 years from the event with no discovery requirement"],
+    "correct": 1,
+    "explanation": "Under the Uniform Securities Act, an aggrieved person must bring a civil action within 2 years of discovery of the violation or 3 years from the date of the event (sale or contract), whichever comes first. These limitations ensure that claims are brought in a timely manner."
+  },
+  {
+    "id": "series63-q019",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "An investment adviser representative (IAR) recommends that all clients invest 100% of their portfolio in a single stock. This practice is:",
+    "choices": ["A. Acceptable if the stock has a strong track record", "B. Acceptable if the IAR discloses the risk", "C. Prohibited as it fails to consider individual client suitability", "D. Required if the stock is a blue-chip company"],
+    "correct": 2,
+    "explanation": "Recommending the same investment to all clients without considering their individual financial situations, objectives, and risk tolerances is a prohibited practice. Investment advisers and their representatives have a fiduciary duty to provide suitable recommendations tailored to each client's unique circumstances."
+  },
+  {
+    "id": "series63-q020",
+    "topic": "series63-t2",
+    "topicName": "Registration of Securities",
+    "question": "Under the USA, the Administrator may issue a stop order to:",
+    "choices": ["A. Prevent a security from being traded on a national exchange", "B. Deny or suspend the effectiveness of a registration statement", "C. Arrest a person suspected of securities fraud", "D. Set the price of a security"],
+    "correct": 1,
+    "explanation": "The Administrator may issue a stop order to deny, suspend, or revoke the effectiveness of a registration statement for a security. This is an administrative action that prevents the security from being sold in the state. A stop order can be issued before or after the registration becomes effective."
+  },
+  {
+    "id": "series63-q021",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Which of the following transactions is exempt under the USA?",
+    "choices": ["A. A sale by a retail investor to another retail investor", "B. An unsolicited order placed by a client through a registered agent", "C. A public offering by a new issuer", "D. A cold call solicitation by an agent"],
+    "correct": 1,
+    "explanation": "Unsolicited transactions (orders initiated by the client without solicitation from the agent) are exempt transactions under the Uniform Securities Act. This is because the client made the decision independently. However, the anti-fraud provisions still apply to all transactions, including exempt ones."
+  },
+  {
+    "id": "series63-q022",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "Selling away refers to an agent who:",
+    "choices": ["A. Sells securities at a discount", "B. Sells securities outside the scope of the broker-dealer's business without the firm's knowledge", "C. Sells securities to out-of-state clients", "D. Sells only exempt securities"],
+    "correct": 1,
+    "explanation": "Selling away is the prohibited practice of an agent conducting securities transactions outside the scope of their employment with their broker-dealer, without the firm's knowledge or approval. This includes selling private investments or outside securities. Agents must conduct all securities business through their registered broker-dealer."
+  },
+  {
+    "id": "series63-q023",
+    "topic": "series63-t1",
+    "topicName": "Uniform Securities Act",
+    "question": "Under the USA, the criminal penalty for willful violations includes:",
+    "choices": ["A. A fine of up to $1,000", "B. Imprisonment for up to 1 year", "C. A fine of up to $5,000 and/or imprisonment for up to 3 years", "D. A fine of up to $10,000 and/or imprisonment for up to 5 years"],
+    "correct": 2,
+    "explanation": "Under the Uniform Securities Act, a person who willfully violates the provisions of the Act may be subject to a fine of up to $5,000 and/or imprisonment for up to 3 years. Criminal prosecution requires proof of willful intent, which is a higher burden of proof than civil actions."
+  },
+  {
+    "id": "series63-q024",
+    "topic": "series63-t2",
+    "topicName": "Registration of Persons",
+    "question": "Which of the following would require registration as an investment adviser in a state?",
+    "choices": ["A. A bank that provides investment advice as part of its trust services", "B. A lawyer whose investment advice is incidental to their legal practice", "C. A financial planner who charges fees for investment advice and has no federal exemption", "D. A publisher of a general circulation financial newsletter"],
+    "correct": 2,
+    "explanation": "A financial planner who charges fees for investment advice and lacks a federal exemption must register as an investment adviser at the state level. Banks, lawyers (when advice is incidental), accountants (when advice is incidental), and bona fide publishers of general circulation materials are excluded from the definition of investment adviser."
+  },
+  {
+    "id": "series63-q025",
+    "topic": "series63-t3",
+    "topicName": "Prohibited Practices",
+    "question": "An agent learns of a pending merger through their broker-dealer before the information is publicly available. Trading on this information is:",
+    "choices": ["A. Permitted if the agent trades only for their own account", "B. Permitted if the agent shares the information with only one client", "C. Prohibited as it constitutes insider trading", "D. Permitted if the agent obtains firm approval"],
+    "correct": 2,
+    "explanation": "Trading on material nonpublic information (insider trading) is prohibited under both federal securities laws and the Uniform Securities Act. This applies whether the agent trades for their own account, tips others, or trades for client accounts. Insider trading is subject to severe civil and criminal penalties."
+  }
+]

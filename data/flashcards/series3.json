@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series3-fc001",
+    "topic": "series3-t1",
+    "topicName": "Futures Market Fundamentals",
+    "front": "What is a futures contract?",
+    "back": "A futures contract is a standardized, exchange-traded agreement to buy or sell a specific quantity of a commodity or financial instrument at a predetermined price on a specified future date. Unlike forward contracts, futures are standardized (quantity, quality, delivery date) and traded on regulated exchanges with daily mark-to-market settlement through a clearinghouse."
+  },
+  {
+    "id": "series3-fc002",
+    "topic": "series3-t1",
+    "topicName": "Futures Market Fundamentals",
+    "front": "What is the difference between a long and short futures position?",
+    "back": "A long position is an obligation to buy the underlying asset at the contract price on the delivery date. Going long is bullish, profiting when prices rise. A short position is an obligation to sell the underlying asset, which is bearish and profits when prices fall. Both parties must deposit margin to guarantee performance of their obligations."
+  },
+  {
+    "id": "series3-fc003",
+    "topic": "series3-t1",
+    "topicName": "Futures Market Fundamentals",
+    "front": "What is the role of a futures exchange?",
+    "back": "Futures exchanges provide a centralized, regulated marketplace for trading standardized futures contracts. They establish contract specifications, trading rules, and delivery procedures. Exchanges ensure market integrity through surveillance and enforcement. Major U.S. futures exchanges include the CME Group (CME, CBOT, NYMEX, COMEX), which handles most domestic futures trading."
+  },
+  {
+    "id": "series3-fc004",
+    "topic": "series3-t1",
+    "topicName": "Futures Market Fundamentals",
+    "front": "What is the role of the clearinghouse in futures?",
+    "back": "The clearinghouse acts as the counterparty to every futures trade, becoming the buyer to every seller and the seller to every buyer. This eliminates counterparty risk between individual traders. The clearinghouse collects margin, performs daily mark-to-market settlement, and ensures contract performance. It guarantees the financial integrity of the market."
+  },
+  {
+    "id": "series3-fc005",
+    "topic": "series3-t2",
+    "topicName": "Margin and Settlement",
+    "front": "What is initial margin in futures trading?",
+    "back": "Initial margin is the deposit required when opening a futures position, typically set by the exchange as a percentage of the contract value (usually 3-12%). It serves as a good-faith performance bond, not a down payment. Initial margin can be posted in cash, Treasury securities, or other approved collateral. It is held by the clearinghouse to guarantee contract performance."
+  },
+  {
+    "id": "series3-fc006",
+    "topic": "series3-t2",
+    "topicName": "Margin and Settlement",
+    "front": "What is maintenance margin in futures?",
+    "back": "Maintenance margin is the minimum amount that must be maintained in a futures margin account after the initial deposit. If the account balance falls below the maintenance margin due to adverse price movements, a margin call is issued requiring the trader to deposit additional funds to bring the account back to the initial margin level. Failure to meet the call may result in position liquidation."
+  },
+  {
+    "id": "series3-fc007",
+    "topic": "series3-t2",
+    "topicName": "Margin and Settlement",
+    "front": "What is daily mark-to-market settlement?",
+    "back": "Mark-to-market is the daily process of settling gains and losses on futures positions based on the settlement price. Profits are credited and losses are debited from the trader's margin account each day. This daily cash settlement ensures that losses do not accumulate and reduces the risk of default. It distinguishes futures from forward contracts."
+  },
+  {
+    "id": "series3-fc008",
+    "topic": "series3-t3",
+    "topicName": "Hedging with Futures",
+    "front": "What is a long hedge?",
+    "back": "A long hedge (buying hedge) involves purchasing futures contracts to protect against rising prices of a commodity or asset the hedger plans to buy in the future. For example, a manufacturer who needs corn in three months buys corn futures to lock in the purchase price. If prices rise, gains on the futures offset the higher cash market cost."
+  },
+  {
+    "id": "series3-fc009",
+    "topic": "series3-t3",
+    "topicName": "Hedging with Futures",
+    "front": "What is a short hedge?",
+    "back": "A short hedge (selling hedge) involves selling futures contracts to protect against declining prices of a commodity or asset the hedger currently owns or will produce. For example, a farmer sells wheat futures to lock in the sale price of next season's crop. If prices fall, gains on the futures offset the lower cash market revenue."
+  },
+  {
+    "id": "series3-fc010",
+    "topic": "series3-t3",
+    "topicName": "Hedging with Futures",
+    "front": "What is basis in futures trading?",
+    "back": "Basis is the difference between the cash (spot) price and the futures price for the same commodity: Basis = Cash Price - Futures Price. Basis reflects local supply and demand, transportation costs, storage costs, and time to delivery. A strengthening basis benefits short hedgers, while a weakening basis benefits long hedgers. Understanding basis is critical for effective hedging."
+  },
+  {
+    "id": "series3-fc011",
+    "topic": "series3-t3",
+    "topicName": "Hedging with Futures",
+    "front": "What is basis risk?",
+    "back": "Basis risk is the risk that the basis (cash price minus futures price) will change unfavorably during a hedge. Perfect hedges are rare because cash and futures prices do not always move in lockstep. Basis risk arises from differences in location, quality, timing, or the use of a cross-hedge (hedging with a related but different commodity). Hedgers exchange price risk for basis risk."
+  },
+  {
+    "id": "series3-fc012",
+    "topic": "series3-t4",
+    "topicName": "Speculation in Futures",
+    "front": "What is leverage in futures trading?",
+    "back": "Leverage in futures allows traders to control a large contract value with a relatively small margin deposit (typically 3-12% of the contract value). This amplifies both gains and losses. A 5% margin means 20:1 leverage, so a 5% move in the underlying creates a 100% gain or loss on the margin. Leverage makes futures highly capital-efficient but also very risky."
+  },
+  {
+    "id": "series3-fc013",
+    "topic": "series3-t4",
+    "topicName": "Speculation in Futures",
+    "front": "What is a spread trade in futures?",
+    "back": "A spread trade involves simultaneously buying and selling related futures contracts to profit from changes in the price difference between them. Types include calendar spreads (same commodity, different months), inter-commodity spreads (related commodities, same month), and inter-market spreads (same commodity, different exchanges). Spreads typically have lower risk and margin requirements than outright positions."
+  },
+  {
+    "id": "series3-fc014",
+    "topic": "series3-t4",
+    "topicName": "Speculation in Futures",
+    "front": "What is contango in futures markets?",
+    "back": "Contango is a market condition where futures prices are higher than the current spot price, typically reflecting storage costs, insurance, and financing costs (cost of carry). It is the normal condition for storable commodities. In contango, longer-dated futures contracts trade at progressively higher prices. Rolling a long position in contango incurs a negative roll yield."
+  },
+  {
+    "id": "series3-fc015",
+    "topic": "series3-t4",
+    "topicName": "Speculation in Futures",
+    "front": "What is backwardation in futures markets?",
+    "back": "Backwardation occurs when futures prices are lower than the current spot price. This can happen when there is strong current demand or limited near-term supply. Backwardation provides a positive roll yield for long positions. Normal backwardation, a related concept, refers to futures trading below the expected future spot price, compensating speculators for taking on risk."
+  },
+  {
+    "id": "series3-fc016",
+    "topic": "series3-t5",
+    "topicName": "Options on Futures",
+    "front": "What is an option on a futures contract?",
+    "back": "An option on a futures contract gives the holder the right, but not the obligation, to enter into a futures position at a specified strike price before expiration. A call option gives the right to go long the futures; a put option gives the right to go short. Exercise results in a futures position, not delivery of the underlying commodity."
+  },
+  {
+    "id": "series3-fc017",
+    "topic": "series3-t5",
+    "topicName": "Options on Futures",
+    "front": "How do options on futures differ from options on securities?",
+    "back": "Options on futures are exercised into futures positions (long for calls, short for puts) rather than into the underlying asset. Margin requirements differ because futures positions are marked to market. The underlying futures contract has a defined expiration, adding another time dimension. Options on futures are regulated by the CFTC, while securities options are regulated by the SEC."
+  },
+  {
+    "id": "series3-fc018",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What is the CFTC?",
+    "back": "The Commodity Futures Trading Commission (CFTC) is the federal regulatory agency that oversees the U.S. futures and options-on-futures markets. Created in 1974, the CFTC regulates exchanges, clearinghouses, intermediaries (futures commission merchants, introducing brokers, commodity trading advisors, and commodity pool operators), and enforces anti-fraud and anti-manipulation provisions."
+  },
+  {
+    "id": "series3-fc019",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What is the NFA?",
+    "back": "The National Futures Association (NFA) is the self-regulatory organization for the U.S. futures industry. NFA membership is mandatory for firms and individuals conducting futures business. The NFA develops and enforces rules, conducts audits, administers qualification exams (including the Series 3), and handles dispute resolution through arbitration and mediation."
+  },
+  {
+    "id": "series3-fc020",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What is a Futures Commission Merchant (FCM)?",
+    "back": "An FCM is a firm that solicits or accepts orders for futures or options on futures and accepts money or other assets as margin to support those positions. FCMs must be registered with the CFTC and be NFA members. They are the futures industry equivalent of a broker-dealer and are responsible for holding customer funds in segregated accounts."
+  },
+  {
+    "id": "series3-fc021",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What is a Commodity Trading Advisor (CTA)?",
+    "back": "A CTA is a person or firm that, for compensation, advises others on buying or selling futures contracts, options on futures, or forex contracts. CTAs may manage individual accounts using discretionary authority. They must register with the CFTC, become NFA members, and provide a disclosure document to prospective clients detailing their trading program, risks, and performance record."
+  },
+  {
+    "id": "series3-fc022",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What is a Commodity Pool Operator (CPO)?",
+    "back": "A CPO is a person or firm that operates a commodity pool, which is a fund that combines money from multiple investors to trade futures, options on futures, and forex. CPOs must register with the CFTC, become NFA members, and provide a disclosure document and periodic account statements. Commodity pools are the futures equivalent of hedge funds or mutual funds."
+  },
+  {
+    "id": "series3-fc023",
+    "topic": "series3-t7",
+    "topicName": "Market Analysis",
+    "front": "What is open interest in futures?",
+    "back": "Open interest is the total number of outstanding futures contracts that have not been offset or fulfilled by delivery. It represents the total number of long or short positions (not both). Rising open interest with rising prices suggests new buyers are entering, confirming an uptrend. Falling open interest suggests positions are being liquidated."
+  },
+  {
+    "id": "series3-fc024",
+    "topic": "series3-t7",
+    "topicName": "Market Analysis",
+    "front": "What is the Commitment of Traders (COT) report?",
+    "back": "The COT report, published weekly by the CFTC, breaks down open interest in major futures markets by trader category: commercial hedgers, large speculators (managed money), and small speculators. Analysts use the COT report to gauge market sentiment and positioning. Extreme positions by speculators may signal potential reversals."
+  },
+  {
+    "id": "series3-fc025",
+    "topic": "series3-t1",
+    "topicName": "Futures Market Fundamentals",
+    "front": "What is the difference between physical delivery and cash settlement?",
+    "back": "Physical delivery requires the actual commodity to be delivered at expiration (common for agricultural and energy futures). Cash settlement involves a final cash payment based on the difference between the contract price and the final settlement price (used for financial futures like stock index and interest rate futures). Most futures are offset before delivery; only a small percentage result in actual delivery."
+  },
+  {
+    "id": "series3-fc026",
+    "topic": "series3-t3",
+    "topicName": "Hedging with Futures",
+    "front": "What is a cross-hedge?",
+    "back": "A cross-hedge uses futures on a related but different commodity to hedge price risk in the cash market when no exact futures contract exists. For example, an airline might use heating oil futures to hedge jet fuel costs. Cross-hedging introduces additional basis risk because the hedged commodity and the futures contract may not move in perfect correlation."
+  },
+  {
+    "id": "series3-fc027",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What are the customer fund segregation requirements?",
+    "back": "CFTC regulations require FCMs to segregate customer funds from the firm's own money. Customer funds must be held in separate accounts at approved depositories. The FCM cannot use customer funds for proprietary trading or other firm purposes. Daily calculations must verify that segregated funds equal or exceed customer obligations. This rule protects customers if the FCM fails."
+  },
+  {
+    "id": "series3-fc028",
+    "topic": "series3-t5",
+    "topicName": "Options on Futures",
+    "front": "What is delta in options on futures?",
+    "back": "Delta measures the rate of change in an option's premium relative to a change in the underlying futures price. A call with a delta of 0.50 will increase by $0.50 for each $1.00 increase in the futures price. At-the-money options have deltas near 0.50, deep in-the-money options approach 1.0, and out-of-the-money options approach 0. Delta helps quantify directional exposure."
+  },
+  {
+    "id": "series3-fc029",
+    "topic": "series3-t7",
+    "topicName": "Market Analysis",
+    "front": "What are limit moves in futures?",
+    "back": "Limit moves occur when a futures price reaches the maximum daily price change allowed by the exchange. A limit up means the price has risen the maximum amount; limit down means it has fallen the maximum. Trading may be halted or restricted at the limit. Limit moves protect against excessive volatility but can prevent traders from exiting positions, known as being locked limit."
+  },
+  {
+    "id": "series3-fc030",
+    "topic": "series3-t6",
+    "topicName": "Regulatory Framework",
+    "front": "What are the disclosure requirements for commodity trading advisors?",
+    "back": "CTAs must provide a disclosure document to prospective clients at least 21 days before the client opens an account. The document must include the CTA's trading program, risk factors, fee structure, conflicts of interest, past performance (or a disclaimer if no track record exists), and the principal's background. The NFA reviews disclosure documents for compliance."
+  }
+]

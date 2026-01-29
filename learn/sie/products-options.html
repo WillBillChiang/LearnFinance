@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn about options basics including calls, puts, options strategies, settlement, and the Options Clearing Corporation for the SIE exam. Part of SIE Topic 2 — Products and Risks (44%).">
+  <title>Options Basics - SIE Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="sie" data-chapter="products-options">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-entry">Chapter 4</span>
+          <h1>Options Basics</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              45 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              SIE Topic 2 — Products &amp; Risks
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="badge badge-warning">44% of Exam (combined)</span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Options Fundamentals ====== -->
+        <section class="lesson__section" id="options-fundamentals">
+          <h2>Options Fundamentals</h2>
+
+          <p>An <strong>option</strong> is a derivative contract that gives the holder the <strong>right, but not the obligation</strong>, to buy or sell an underlying asset at a specific price (the strike price) on or before a specific date (the expiration date). Options are powerful financial instruments used for speculation, income generation, and hedging. The SIE exam tests fundamental options concepts, not complex strategies.</p>
+
+          <h3>Key Options Terminology</h3>
+
+          <ul>
+            <li><strong>Call Option:</strong> Gives the buyer the right to <strong>buy</strong> the underlying security at the strike price.</li>
+            <li><strong>Put Option:</strong> Gives the buyer the right to <strong>sell</strong> the underlying security at the strike price.</li>
+            <li><strong>Premium:</strong> The price paid by the buyer to the seller (writer) for the option contract. This is the cost of acquiring the right.</li>
+            <li><strong>Strike (Exercise) Price:</strong> The predetermined price at which the underlying security can be bought (call) or sold (put).</li>
+            <li><strong>Expiration Date:</strong> The last date on which the option can be exercised. Standard equity options expire on the third Friday of the expiration month.</li>
+            <li><strong>Buyer (Holder):</strong> The party that purchases the option and pays the premium. The buyer has rights.</li>
+            <li><strong>Seller (Writer):</strong> The party that sells the option and receives the premium. The writer has obligations.</li>
+            <li><strong>Contract Size:</strong> One standard equity option contract covers 100 shares of the underlying stock.</li>
+          </ul>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>"Call Up, Put Down"</strong> — A call buyer is bullish (expects the price to go UP). A put buyer is bearish (expects the price to go DOWN). If you "call" someone, you want them to come UP. If you "put" something down, it goes DOWN.</p>
+            </div>
+          </div>
+
+          <h3>American vs. European Style</h3>
+
+          <p><strong>American-style options</strong> can be exercised at any time before or on the expiration date. Most equity options in the U.S. are American-style.</p>
+
+          <p><strong>European-style options</strong> can only be exercised on the expiration date itself. Most index options are European-style.</p>
+
+          <p>The naming has nothing to do with geography; both types trade globally.</p>
+
+          <h3>The Options Clearing Corporation (OCC)</h3>
+
+          <p>The <strong>Options Clearing Corporation (OCC)</strong> is the central clearinghouse for all listed options in the United States. It serves as the guarantor for every options contract, ensuring that the terms are fulfilled. When a buyer exercises an option, the OCC randomly assigns the exercise notice to a writer of that option. The OCC issues the <strong>options disclosure document (ODD)</strong>, which must be provided to customers before they can trade options.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Intrinsic Value:</strong> The amount by which an option is "in-the-money." For a call: Market Price - Strike Price (if positive). For a put: Strike Price - Market Price (if positive). If the result is zero or negative, the option has no intrinsic value.</p>
+              <p><strong>Time Value:</strong> The portion of the premium above the intrinsic value. Time value = Premium - Intrinsic Value. Time value reflects the probability that the option could become more valuable before expiration. Time value declines as expiration approaches (time decay).</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Call Options ====== -->
+        <section class="lesson__section" id="call-options">
+          <h2>Call Options</h2>
+
+          <p>A <strong>call option</strong> gives the buyer the right to purchase 100 shares of the underlying stock at the strike price on or before the expiration date. The call buyer pays a premium for this right and is <strong>bullish</strong> — expecting the stock price to rise above the strike price plus the premium paid.</p>
+
+          <h3>Long Call (Buyer)</h3>
+
+          <ul>
+            <li><strong>Outlook:</strong> Bullish</li>
+            <li><strong>Maximum Gain:</strong> Unlimited (the stock can rise without limit)</li>
+            <li><strong>Maximum Loss:</strong> Limited to the premium paid</li>
+            <li><strong>Breakeven:</strong> Strike Price + Premium</li>
+          </ul>
+
+          <p>The long call buyer profits when the stock price rises above the breakeven point. If the stock stays at or below the strike price, the option expires worthless and the buyer loses only the premium paid.</p>
+
+          <h3>Short Call (Writer/Seller)</h3>
+
+          <ul>
+            <li><strong>Outlook:</strong> Neutral to slightly bearish</li>
+            <li><strong>Maximum Gain:</strong> Limited to the premium received</li>
+            <li><strong>Maximum Loss:</strong> Unlimited (obligated to sell shares at the strike price, regardless of how high the market price goes)</li>
+            <li><strong>Breakeven:</strong> Strike Price + Premium</li>
+          </ul>
+
+          <p>The call writer collects the premium upfront and hopes the option expires worthless. If the stock rises sharply, the writer faces potentially unlimited losses because they must sell the stock at the strike price, no matter how high the market goes.</p>
+
+          <!-- Long Call Payoff Diagram -->
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Long call option payoff diagram showing breakeven point, maximum loss equal to premium, and unlimited upside potential">
+              <!-- Grid and Axes -->
+              <line x1="80" y1="280" x2="550" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+              <line x1="80" y1="20" x2="80" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+
+              <!-- Zero line -->
+              <line x1="80" y1="180" x2="550" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+
+              <!-- Y-axis labels -->
+              <text class="label label--small" x="25" y="180" fill="#64748b">$0</text>
+              <text class="label label--small" x="25" y="230" fill="#ef4444">-$5</text>
+              <text class="label label--small" x="25" y="130" fill="#10b981">+$5</text>
+              <text class="label label--small" x="25" y="80" fill="#10b981">+$10</text>
+              <text class="label label--small" x="15" y="150" fill="#64748b" transform="rotate(-90, 15, 150)" font-size="11">Profit / Loss</text>
+
+              <!-- X-axis labels -->
+              <text class="label label--small" x="180" y="300" fill="#64748b">$45</text>
+              <text class="label label--small" x="280" y="300" fill="#64748b">$50</text>
+              <text class="label label--small" x="380" y="300" fill="#64748b">$55</text>
+              <text class="label label--small" x="480" y="300" fill="#64748b">$60</text>
+              <text class="label label--small" x="330" y="325" fill="#64748b">Stock Price at Expiration</text>
+
+              <!-- Payoff line - flat at max loss, then slopes up -->
+              <polyline points="80,230 280,230 380,180 480,130 540,90" fill="none" stroke="#1a56db" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+              <!-- Loss shading -->
+              <rect x="80" y="180" width="300" height="50" fill="rgba(239,68,68,0.08)"/>
+
+              <!-- Profit shading -->
+              <polygon points="380,180 480,130 540,90 540,180" fill="rgba(16,185,129,0.08)"/>
+
+              <!-- Strike price marker -->
+              <line x1="280" y1="175" x2="280" y2="240" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,4"/>
+              <text class="label label--bold" x="280" y="260" fill="#f59e0b" font-size="11">Strike: $50</text>
+
+              <!-- Breakeven marker -->
+              <circle cx="380" cy="180" r="6" fill="#1a56db"/>
+              <text class="label label--bold" x="380" y="170" fill="#1a56db" font-size="11">Breakeven: $55</text>
+
+              <!-- Max loss annotation -->
+              <text class="label label--small" x="160" y="225" fill="#ef4444" font-size="11">Max Loss = $5 (premium)</text>
+
+              <!-- Unlimited gain annotation -->
+              <text class="label label--small" x="470" y="80" fill="#10b981" font-size="11">Unlimited Gain</text>
+              <line x1="520" y1="85" x2="540" y2="70" stroke="#10b981" stroke-width="1.5"/>
+              <polygon points="542,68 536,78 544,76" fill="#10b981"/>
+
+              <!-- Title -->
+              <text class="label label--bold" x="310" y="18" fill="#1e293b" font-size="14">Long Call Payoff (Strike $50, Premium $5)</text>
+            </svg>
+            <figcaption>Figure 4.1 — Long Call Payoff Diagram. The buyer's maximum loss is the premium ($5). Profit begins above the breakeven price ($55 = $50 strike + $5 premium). Upside potential is theoretically unlimited.</figcaption>
+          </figure>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>You buy 1 XYZ Jan 50 Call at $5. This means you pay $500 (5 x 100 shares) for the right to buy 100 shares of XYZ at $50 before January expiration.</p>
+              <p><strong>If XYZ rises to $65:</strong> Your call is worth $15 intrinsic value ($65 - $50). Profit = $15 - $5 premium = $10 per share = $1,000 total.</p>
+              <p><strong>If XYZ stays at $48:</strong> The call expires worthless. Loss = $5 premium = $500 total.</p>
+              <p><strong>Breakeven:</strong> $50 + $5 = $55. At $55, you break even exactly.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Put Options ====== -->
+        <section class="lesson__section" id="put-options">
+          <h2>Put Options</h2>
+
+          <p>A <strong>put option</strong> gives the buyer the right to sell 100 shares of the underlying stock at the strike price on or before the expiration date. The put buyer is <strong>bearish</strong> — expecting the stock price to decline below the strike price minus the premium paid.</p>
+
+          <h3>Long Put (Buyer)</h3>
+
+          <ul>
+            <li><strong>Outlook:</strong> Bearish</li>
+            <li><strong>Maximum Gain:</strong> Strike Price - Premium (the stock can only go to $0)</li>
+            <li><strong>Maximum Loss:</strong> Limited to the premium paid</li>
+            <li><strong>Breakeven:</strong> Strike Price - Premium</li>
+          </ul>
+
+          <h3>Short Put (Writer/Seller)</h3>
+
+          <ul>
+            <li><strong>Outlook:</strong> Neutral to slightly bullish</li>
+            <li><strong>Maximum Gain:</strong> Limited to the premium received</li>
+            <li><strong>Maximum Loss:</strong> Strike Price - Premium (if the stock goes to $0, the writer must still buy at the strike)</li>
+            <li><strong>Breakeven:</strong> Strike Price - Premium</li>
+          </ul>
+
+          <!-- Long Put Payoff Diagram -->
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 600 350" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Long put option payoff diagram showing breakeven point, maximum loss equal to premium, and maximum gain when stock goes to zero">
+              <!-- Grid and Axes -->
+              <line x1="80" y1="280" x2="550" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+              <line x1="80" y1="20" x2="80" y2="280" stroke="#e2e8f0" stroke-width="2"/>
+
+              <!-- Zero line -->
+              <line x1="80" y1="180" x2="550" y2="180" stroke="#e2e8f0" stroke-width="1" stroke-dasharray="4,4"/>
+
+              <!-- Y-axis labels -->
+              <text class="label label--small" x="25" y="180" fill="#64748b">$0</text>
+              <text class="label label--small" x="25" y="230" fill="#ef4444">-$3</text>
+              <text class="label label--small" x="25" y="130" fill="#10b981">+$3</text>
+              <text class="label label--small" x="25" y="50" fill="#10b981">+$12</text>
+
+              <!-- X-axis labels -->
+              <text class="label label--small" x="110" y="300" fill="#64748b">$30</text>
+              <text class="label label--small" x="210" y="300" fill="#64748b">$35</text>
+              <text class="label label--small" x="310" y="300" fill="#64748b">$40</text>
+              <text class="label label--small" x="410" y="300" fill="#64748b">$45</text>
+              <text class="label label--small" x="510" y="300" fill="#64748b">$50</text>
+              <text class="label label--small" x="310" y="325" fill="#64748b">Stock Price at Expiration</text>
+
+              <!-- Payoff line - slopes down to left, flat at max loss on right -->
+              <polyline points="80,45 110,70 210,120 260,155 310,180 310,230 550,230" fill="none" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+              <!-- Loss shading -->
+              <rect x="310" y="180" width="240" height="50" fill="rgba(239,68,68,0.08)"/>
+
+              <!-- Profit shading -->
+              <polygon points="80,45 80,180 260,180 260,155 210,120 110,70" fill="rgba(16,185,129,0.08)"/>
+
+              <!-- Strike price marker -->
+              <line x1="310" y1="175" x2="310" y2="240" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,4"/>
+              <text class="label label--bold" x="310" y="260" fill="#f59e0b" font-size="11">Strike: $40</text>
+
+              <!-- Breakeven marker -->
+              <circle cx="260" cy="155" r="6" fill="#8b5cf6"/>
+              <text class="label label--bold" x="260" y="145" fill="#8b5cf6" font-size="11">Breakeven: $37</text>
+
+              <!-- Max loss annotation -->
+              <text class="label label--small" x="430" y="225" fill="#ef4444" font-size="11">Max Loss = $3 (premium)</text>
+
+              <!-- Max gain annotation -->
+              <text class="label label--small" x="100" y="38" fill="#10b981" font-size="11">Max Gain = $37</text>
+
+              <!-- Title -->
+              <text class="label label--bold" x="310" y="18" fill="#1e293b" font-size="14">Long Put Payoff (Strike $40, Premium $3)</text>
+            </svg>
+            <figcaption>Figure 4.2 — Long Put Payoff Diagram. The put buyer profits when the stock falls below the breakeven ($37 = $40 strike - $3 premium). Maximum loss is the $3 premium. Maximum gain is $37 (if stock falls to $0).</figcaption>
+          </figure>
+
+          <!-- Compare Table: Calls vs Puts -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Feature</th>
+                  <th>Long Call</th>
+                  <th>Short Call</th>
+                  <th>Long Put</th>
+                  <th>Short Put</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Position</td>
+                  <td class="compare-table__cell">Buy call</td>
+                  <td class="compare-table__cell">Sell (write) call</td>
+                  <td class="compare-table__cell">Buy put</td>
+                  <td class="compare-table__cell">Sell (write) put</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Outlook</td>
+                  <td class="compare-table__cell">Bullish</td>
+                  <td class="compare-table__cell">Neutral/Bearish</td>
+                  <td class="compare-table__cell">Bearish</td>
+                  <td class="compare-table__cell">Neutral/Bullish</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Right or Obligation</td>
+                  <td class="compare-table__cell">Right to buy</td>
+                  <td class="compare-table__cell">Obligation to sell</td>
+                  <td class="compare-table__cell">Right to sell</td>
+                  <td class="compare-table__cell">Obligation to buy</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Max Gain</td>
+                  <td class="compare-table__cell">Unlimited</td>
+                  <td class="compare-table__cell">Premium received</td>
+                  <td class="compare-table__cell">Strike - Premium</td>
+                  <td class="compare-table__cell">Premium received</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Max Loss</td>
+                  <td class="compare-table__cell">Premium paid</td>
+                  <td class="compare-table__cell">Unlimited</td>
+                  <td class="compare-table__cell">Premium paid</td>
+                  <td class="compare-table__cell">Strike - Premium</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Breakeven</td>
+                  <td class="compare-table__cell">Strike + Premium</td>
+                  <td class="compare-table__cell">Strike + Premium</td>
+                  <td class="compare-table__cell">Strike - Premium</td>
+                  <td class="compare-table__cell">Strike - Premium</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The SIE exam frequently tests max gain, max loss, and breakeven for basic options positions. Remember these rules:</p>
+              <ul>
+                <li><strong>Buyers</strong> always have limited risk (premium paid) and either unlimited gain (calls) or large gain (puts)</li>
+                <li><strong>Writers</strong> always have limited gain (premium received) and either unlimited risk (naked calls) or large risk (naked puts)</li>
+                <li><strong>Call breakeven:</strong> Strike + Premium. <strong>Put breakeven:</strong> Strike - Premium.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Options Strategies ====== -->
+        <section class="lesson__section" id="options-strategies">
+          <h2>Options Strategies</h2>
+
+          <p>While the SIE exam does not require deep knowledge of complex multi-leg options strategies, you should understand the basic hedging strategies that combine options with stock positions. These strategies are commonly used by investors to manage risk or generate income.</p>
+
+          <h3>Covered Calls</h3>
+
+          <p>A <strong>covered call</strong> involves owning the underlying stock and selling (writing) a call option on that stock. This is one of the most conservative options strategies.</p>
+
+          <ul>
+            <li><strong>Position:</strong> Long 100 shares + Short 1 call option</li>
+            <li><strong>Outlook:</strong> Neutral to slightly bullish. The investor expects the stock to stay flat or rise modestly.</li>
+            <li><strong>Purpose:</strong> Generate income from the premium received. The premium provides a small buffer against minor price declines.</li>
+            <li><strong>Risk:</strong> If the stock rises above the strike price, the shares will be called away (the investor must sell at the strike price, missing out on further upside). If the stock drops significantly, the investor still bears the loss on the stock, though the premium received offsets some of the loss.</li>
+            <li><strong>Max Gain:</strong> Premium + (Strike Price - Purchase Price of stock). Capped at the strike price.</li>
+            <li><strong>Max Loss:</strong> Purchase Price of stock - Premium received (if stock goes to $0).</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>An investor owns 100 shares of ABC at $50 and sells 1 ABC 55 Call at $3.</p>
+              <p><strong>If ABC rises to $60:</strong> Shares are called away at $55. Profit = ($55 - $50) + $3 premium = $8 per share = $800. (The investor misses the extra $5 gain above $55.)</p>
+              <p><strong>If ABC stays at $50:</strong> The call expires worthless. The investor keeps the shares and the $3 premium ($300 income).</p>
+              <p><strong>If ABC drops to $44:</strong> The call expires worthless. Stock loss = $6 per share. Net loss = $6 - $3 premium = $3 per share ($300). The premium cushioned the loss.</p>
+            </div>
+          </div>
+
+          <h3>Protective Puts</h3>
+
+          <p>A <strong>protective put</strong> (also called a "married put") involves owning the underlying stock and buying a put option on that stock. This is essentially buying insurance on your stock position.</p>
+
+          <ul>
+            <li><strong>Position:</strong> Long 100 shares + Long 1 put option</li>
+            <li><strong>Outlook:</strong> Bullish on the stock but concerned about short-term downside risk.</li>
+            <li><strong>Purpose:</strong> Protect against significant downside loss. The put acts as a floor price — no matter how far the stock falls, you can sell at the strike price.</li>
+            <li><strong>Cost:</strong> The premium paid for the put reduces overall returns (like paying an insurance premium).</li>
+            <li><strong>Max Gain:</strong> Unlimited (the stock can rise indefinitely, minus the put premium).</li>
+            <li><strong>Max Loss:</strong> (Purchase Price of stock - Strike Price of put) + Premium paid.</li>
+          </ul>
+
+          <h3>Straddles Overview</h3>
+
+          <p>A <strong>straddle</strong> involves buying (or selling) both a call and a put on the same stock with the same strike price and expiration date.</p>
+
+          <p>A <strong>long straddle</strong> (buy a call + buy a put) is used when an investor expects a large move in either direction but is unsure which way. The investor profits if the stock moves significantly up or down beyond the total premiums paid. Maximum loss is the total premiums paid (if the stock stays at the strike price).</p>
+
+          <p>A <strong>short straddle</strong> (sell a call + sell a put) generates income when the investor expects the stock to remain relatively stable. Maximum gain is the total premiums received. Risk is substantial in both directions.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Naked (uncovered) option writing</strong> carries the highest risk. A naked call writer has unlimited potential loss because the stock can theoretically rise to infinity, and the writer must deliver shares at the strike price. A naked put writer's maximum loss is substantial (the stock can fall to $0). Only experienced, well-capitalized investors should write naked options, and it requires special account approval.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Options Settlement and Exercise ====== -->
+        <section class="lesson__section" id="options-settlement-and-exercise">
+          <h2>Options Settlement and Exercise</h2>
+
+          <p>Understanding how options are exercised, assigned, and settled is important for the SIE exam. This section covers the mechanics of what happens when an option holder decides to exercise their rights.</p>
+
+          <h3>In-the-Money, At-the-Money, Out-of-the-Money</h3>
+
+          <p>An option's "moneyness" describes the relationship between the underlying stock's price and the strike price:</p>
+
+          <ul>
+            <li><strong>In-the-Money (ITM):</strong> The option has intrinsic value. A call is ITM when the stock price is above the strike. A put is ITM when the stock price is below the strike.</li>
+            <li><strong>At-the-Money (ATM):</strong> The stock price equals the strike price. The option has no intrinsic value but may have significant time value.</li>
+            <li><strong>Out-of-the-Money (OTM):</strong> The option has no intrinsic value. A call is OTM when the stock price is below the strike. A put is OTM when the stock price is above the strike.</li>
+          </ul>
+
+          <h3>The Exercise and Assignment Process</h3>
+
+          <p>When an option buyer decides to exercise their option, the process works as follows:</p>
+
+          <ol>
+            <li>The buyer notifies their broker of the intent to exercise.</li>
+            <li>The broker submits an exercise notice to the OCC.</li>
+            <li>The OCC randomly selects a member firm with customers who have written that particular option.</li>
+            <li>The assigned firm selects one of its customers who has written the option (using random selection, first-in-first-out, or another approved method).</li>
+            <li>The assigned writer must fulfill their obligation (sell shares for a call, buy shares for a put).</li>
+          </ol>
+
+          <p>Equity options settle on a <strong>T+1 basis</strong> (one business day after exercise). The underlying shares settle on the standard stock settlement cycle.</p>
+
+          <h3>Automatic Exercise</h3>
+
+          <p>The OCC automatically exercises options that are <strong>in-the-money by $0.01 or more</strong> at expiration, unless the holder provides instructions not to exercise. This is called the "exercise by exception" rule. Holders who do not want their ITM options exercised must notify their broker before the cutoff time on expiration day.</p>
+
+          <h3>Options Expiration Cycle</h3>
+
+          <p>Standard equity options expire on the <strong>third Friday of the expiration month</strong> (technically Saturday, but trading stops on Friday). Weekly options (weeklys) expire every Friday and provide shorter-term trading opportunities. LEAPS (Long-term Equity Anticipation Securities) are options with expiration dates up to three years out.</p>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>For the SIE exam, remember the essentials: <strong>Buyers have rights; writers have obligations.</strong> Call buyers are bullish; put buyers are bearish. The maximum loss for any option buyer is the premium paid. The OCC is the guarantor and issuer of all listed options. Options that are ITM by $0.01+ are automatically exercised at expiration.</p>
+            </div>
+          </div>
+
+          <!-- Options Breakeven Calculator -->
+          <div class="calculator" data-type="breakeven">
+            <h3 class="calculator__title">Options Breakeven Calculator</h3>
+            <p class="calculator__description">Calculate the breakeven price for a long call or long put position.</p>
+            <div class="calculator__inputs">
+              <div class="calculator__field">
+                <label class="calculator__label" for="strike-price">Strike Price ($)</label>
+                <input class="calculator__input" type="number" id="strike-price" name="strike-price" placeholder="e.g., 50" step="0.50" min="0">
+              </div>
+              <div class="calculator__field">
+                <label class="calculator__label" for="premium">Premium ($)</label>
+                <input class="calculator__input" type="number" id="premium" name="premium" placeholder="e.g., 3.00" step="0.05" min="0">
+              </div>
+              <div class="calculator__field">
+                <label class="calculator__label" for="option-type">Option Type</label>
+                <select class="calculator__input" id="option-type" name="option-type">
+                  <option value="call">Call</option>
+                  <option value="put">Put</option>
+                </select>
+              </div>
+            </div>
+            <div class="calculator__actions">
+              <button class="calculator__btn" onclick="calculateBreakeven()">Calculate</button>
+              <button class="calculator__btn calculator__btn--reset" onclick="resetBreakeven()">Reset</button>
+            </div>
+            <div class="calculator__result" id="breakeven-result">
+              <span class="calculator__result-label">Breakeven Price</span>
+              <span class="calculator__result-value" id="breakeven-value">--</span>
+              <span class="calculator__result-detail" id="breakeven-detail"></span>
+            </div>
+            <div class="calculator__breakdown" id="breakeven-breakdown" style="display:none;">
+              <div class="calculator__breakdown-row">
+                <span>Max Loss (per share)</span>
+                <strong id="max-loss-value">--</strong>
+              </div>
+              <div class="calculator__breakdown-row">
+                <span>Max Loss (per contract)</span>
+                <strong id="max-loss-contract">--</strong>
+              </div>
+              <div class="calculator__breakdown-row">
+                <span>Max Gain</span>
+                <strong id="max-gain-value">--</strong>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            function calculateBreakeven() {
+              const strike = parseFloat(document.getElementById('strike-price').value);
+              const premium = parseFloat(document.getElementById('premium').value);
+              const type = document.getElementById('option-type').value;
+              if (isNaN(strike) || isNaN(premium)) return;
+
+              let breakeven, detail, maxGain;
+              if (type === 'call') {
+                breakeven = strike + premium;
+                detail = 'For a long call: Breakeven = Strike ($' + strike.toFixed(2) + ') + Premium ($' + premium.toFixed(2) + ')';
+                maxGain = 'Unlimited';
+              } else {
+                breakeven = strike - premium;
+                detail = 'For a long put: Breakeven = Strike ($' + strike.toFixed(2) + ') - Premium ($' + premium.toFixed(2) + ')';
+                maxGain = '$' + ((strike - premium) * 100).toFixed(2) + ' (per contract)';
+              }
+
+              document.getElementById('breakeven-value').textContent = '$' + breakeven.toFixed(2);
+              document.getElementById('breakeven-detail').textContent = detail;
+              document.getElementById('breakeven-result').classList.add('calculator__result--visible');
+
+              document.getElementById('max-loss-value').textContent = '$' + premium.toFixed(2);
+              document.getElementById('max-loss-contract').textContent = '$' + (premium * 100).toFixed(2);
+              document.getElementById('max-gain-value').textContent = maxGain;
+              document.getElementById('breakeven-breakdown').style.display = 'block';
+            }
+            function resetBreakeven() {
+              document.getElementById('strike-price').value = '';
+              document.getElementById('premium').value = '';
+              document.getElementById('option-type').value = 'call';
+              document.getElementById('breakeven-value').textContent = '--';
+              document.getElementById('breakeven-detail').textContent = '';
+              document.getElementById('breakeven-result').classList.remove('calculator__result--visible');
+              document.getElementById('breakeven-breakdown').style.display = 'none';
+            }
+          </script>
+
+          <!-- Deep Dive: The Greeks -->
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              The Greeks — Delta, Gamma, Theta, Vega
+            </summary>
+            <div class="deep-dive__content">
+              <p>The "Greeks" are measures of the sensitivity of an option's price to various factors. While the SIE exam only tests basic options concepts, understanding the Greeks provides valuable insight into how options behave:</p>
+
+              <p><strong>Delta</strong> measures how much the option's price changes for a $1 move in the underlying stock.</p>
+              <ul>
+                <li>Call options have a delta between 0 and +1. A delta of 0.50 means the call's price rises $0.50 for every $1 increase in the stock.</li>
+                <li>Put options have a delta between 0 and -1. A delta of -0.40 means the put's price rises $0.40 for every $1 decrease in the stock.</li>
+                <li>At-the-money options typically have a delta near +/-0.50. Deep in-the-money options approach +/-1.00.</li>
+              </ul>
+
+              <p><strong>Gamma</strong> measures the rate of change of delta. It tells you how quickly delta changes as the stock price moves. Gamma is highest for at-the-money options near expiration.</p>
+
+              <p><strong>Theta</strong> measures time decay — how much value the option loses each day as it approaches expiration. Theta is always negative for option buyers (time works against them) and positive for option writers (time works in their favor). Time decay accelerates as expiration approaches, especially in the last 30 days.</p>
+
+              <p><strong>Vega</strong> measures the option's sensitivity to changes in implied volatility. Higher volatility increases option premiums (both calls and puts), while lower volatility decreases them. Vega is highest for at-the-money options with longer time to expiration.</p>
+
+              <p><strong>Key relationship:</strong> Option buyers benefit from rising volatility (Vega) but suffer from time decay (Theta). Option writers benefit from time decay but are hurt by rising volatility. This tension between Theta and Vega is at the heart of options trading.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of options basics. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. An investor buys 1 ABC July 60 Call at $4. What is the maximum loss?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $60 per share</button>
+              <button class="answer-btn" data-correct="true">B) $400</button>
+              <button class="answer-btn" data-correct="false">C) $6,400</button>
+              <button class="answer-btn" data-correct="false">D) Unlimited</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The maximum loss for any option buyer is the premium paid. The premium is $4 per share x 100 shares = $400 per contract. If the stock stays at or below $60, the call expires worthless and the buyer loses the entire $400 premium.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Which entity guarantees the performance of listed options contracts?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) FINRA</button>
+              <button class="answer-btn" data-correct="false">B) SEC</button>
+              <button class="answer-btn" data-correct="true">C) OCC (Options Clearing Corporation)</button>
+              <button class="answer-btn" data-correct="false">D) SIPC</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The Options Clearing Corporation (OCC) serves as the central clearinghouse and guarantor for all listed options contracts in the United States. It ensures that the terms of every options contract are fulfilled. The OCC also issues the options disclosure document (ODD).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. A stock is trading at $72. A call option has a strike price of $65 and a premium of $10. What is the intrinsic value of this call?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $10</button>
+              <button class="answer-btn" data-correct="true">B) $7</button>
+              <button class="answer-btn" data-correct="false">C) $3</button>
+              <button class="answer-btn" data-correct="false">D) $0</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Intrinsic value of a call = Market Price - Strike Price = $72 - $65 = $7. The premium ($10) consists of $7 intrinsic value + $3 time value. The call is in-the-money by $7.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which options strategy involves owning the underlying stock AND selling a call option?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Covered call</button>
+              <button class="answer-btn" data-correct="false">B) Protective put</button>
+              <button class="answer-btn" data-correct="false">C) Long straddle</button>
+              <button class="answer-btn" data-correct="false">D) Naked call</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A covered call involves owning the underlying stock (long position) and selling (writing) a call option against it. This strategy generates income from the premium while accepting that the stock may be called away if it rises above the strike price. It is one of the most conservative options strategies.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. An investor buys 1 XYZ Oct 45 Put at $2. What is the breakeven price?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $47</button>
+              <button class="answer-btn" data-correct="true">B) $43</button>
+              <button class="answer-btn" data-correct="false">C) $45</button>
+              <button class="answer-btn" data-correct="false">D) $40</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              For a long put: Breakeven = Strike Price - Premium = $45 - $2 = $43. The investor needs the stock to fall below $43 to begin making a profit. At exactly $43, the gain from exercising the put ($2) exactly offsets the premium paid ($2).
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="products-debt.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 3 — Debt Securities</span>
+            </div>
+          </a>
+          <a href="products-packaged.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 5 — Packaged Products</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

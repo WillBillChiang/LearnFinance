@@ -1,0 +1,682 @@
+/* ===== Landing Page ===== */
+
+.hero {
+  padding: var(--space-4xl) 0;
+  color: white;
+  text-align: center;
+  margin-top: calc(-1 * var(--header-height));
+  padding-top: calc(var(--header-height) + var(--space-4xl));
+  min-height: 520px;
+  display: flex;
+  align-items: center;
+}
+
+.hero > .container {
+  width: 100%;
+}
+
+.hero h1 {
+  color: white;
+  font-size: var(--text-5xl);
+  margin-bottom: var(--space-md);
+  position: relative;
+  letter-spacing: -0.02em;
+}
+
+.hero p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: var(--text-xl);
+  max-width: 600px;
+  margin: 0 auto var(--space-xl);
+  position: relative;
+}
+
+.hero .btn-primary {
+  background: white;
+  color: var(--color-primary);
+  font-size: var(--text-base);
+  padding: 0.875rem 2rem;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+.hero .btn-primary:hover {
+  background: rgba(255,255,255,0.95);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.hero .btn-secondary {
+  border-color: rgba(255,255,255,0.5);
+  color: white;
+}
+
+.hero .btn-secondary:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: white;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Hero sub-elements */
+.hero__background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.hero__content {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.hero__actions {
+  display: flex;
+  gap: var(--space-md);
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+/* Exam Categories */
+.categories {
+  padding: var(--space-3xl) 0;
+}
+
+.category {
+  margin-bottom: var(--space-2xl);
+}
+
+.category__title {
+  margin-bottom: var(--space-xl);
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--space-lg);
+}
+
+/* Stats bar */
+.stats-bar {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-xl) 0;
+}
+
+.stats-bar__inner {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-3xl);
+  flex-wrap: wrap;
+}
+
+/* Category Section */
+.category-section {
+  padding: var(--space-3xl) 0;
+}
+
+.category-header {
+  text-align: center;
+  margin-bottom: var(--space-2xl);
+}
+
+.category-header p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Exam Cards on Landing */
+.exam-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-xl);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-base);
+}
+
+.exam-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.exam-card__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-md);
+}
+
+.exam-card__series {
+  font-size: var(--text-2xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+}
+
+.exam-card__name {
+  font-size: var(--text-base);
+  font-weight: var(--weight-semibold);
+  margin-bottom: var(--space-sm);
+}
+
+.exam-card__desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  flex: 1;
+  margin-bottom: var(--space-md);
+}
+
+.exam-card__meta {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-md);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+.exam-card__meta-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+}
+
+/* How it works */
+.how-it-works {
+  background: var(--color-surface);
+  padding: var(--space-3xl) 0;
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2xl);
+  counter-reset: step;
+}
+
+.step {
+  text-align: center;
+  position: relative;
+}
+
+.step__number {
+  width: 56px;
+  height: 56px;
+  background: var(--gradient-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--text-xl);
+  font-weight: var(--weight-bold);
+  margin: 0 auto var(--space-md);
+  box-shadow: var(--shadow-colored-primary);
+}
+
+.step__title {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+  margin-bottom: var(--space-sm);
+}
+
+.step__desc {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 768px) {
+  .steps {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  .hero {
+    min-height: auto;
+    padding: var(--space-2xl) 0;
+    padding-top: calc(var(--header-height) + var(--space-2xl));
+  }
+
+  .stats-bar__inner {
+    gap: var(--space-xl);
+  }
+
+  .exam-card:hover {
+    transform: none;
+  }
+
+  .exam-card:active {
+    box-shadow: var(--shadow-md);
+  }
+
+  .dashboard-stats .stat {
+    padding: var(--space-md);
+  }
+}
+
+/* ===== Exam Catalog ===== */
+
+.catalog-header {
+  padding: var(--space-2xl) 0;
+  text-align: center;
+}
+
+.catalog-filters {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-xl);
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: var(--space-sm) var(--space-lg);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.filter-btn:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.filter-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: white;
+}
+
+.catalog-search {
+  max-width: 400px;
+  margin: 0 auto var(--space-xl);
+  position: relative;
+}
+
+.catalog-search input {
+  width: 100%;
+  padding: 0.75rem var(--space-lg) 0.75rem 2.75rem;
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  transition: border-color var(--transition-fast);
+}
+
+.catalog-search input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+}
+
+.catalog-search__icon {
+  position: absolute;
+  left: var(--space-md);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-muted);
+}
+
+/* ===== Individual Exam Page ===== */
+
+.exam-hero {
+  padding: var(--space-2xl) 0;
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--space-2xl);
+}
+
+.exam-hero__badge {
+  display: inline-block;
+  margin-bottom: var(--space-md);
+}
+
+.exam-hero__series {
+  font-size: var(--text-5xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-xs);
+}
+
+.exam-hero__title {
+  font-size: var(--text-2xl);
+  margin-bottom: var(--space-md);
+}
+
+.exam-hero__purpose {
+  font-size: var(--text-lg);
+  color: var(--color-text-secondary);
+  max-width: 700px;
+}
+
+/* Topic section */
+.topic-section {
+  margin-bottom: var(--space-lg);
+}
+
+.topic-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  margin-bottom: var(--space-md);
+}
+
+.topic-title {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+}
+
+.topic-weight {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+}
+
+.subtopic-list {
+  list-style: none;
+  padding: 0;
+}
+
+.subtopic-item {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-sm);
+  padding: var(--space-sm) 0;
+  border-bottom: 1px solid var(--color-border-light);
+  color: var(--color-text-secondary);
+  font-size: var(--text-sm);
+}
+
+.subtopic-item:last-child {
+  border-bottom: none;
+}
+
+/* Concept card */
+.concept-card {
+  background: var(--color-primary-bg);
+  border: 1px solid transparent;
+  border-radius: var(--radius-lg);
+  padding: var(--space-md) var(--space-lg);
+  margin-bottom: var(--space-sm);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.concept-card:hover {
+  border-color: var(--color-primary);
+}
+
+.concept-card__title {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.concept-card__body {
+  display: none;
+  margin-top: var(--space-md);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+  line-height: var(--leading-relaxed);
+}
+
+.concept-card.expanded .concept-card__body {
+  display: block;
+  animation: fadeSlideUp 0.3s ease;
+}
+
+.concept-card .keyword {
+  background: rgba(26, 86, 219, 0.1);
+  color: var(--color-primary);
+  padding: 0.1em 0.3em;
+  border-radius: var(--radius-sm);
+  font-weight: var(--weight-medium);
+}
+
+/* Donut chart container */
+.donut-chart-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-xl);
+  padding: var(--space-xl) 0;
+}
+
+.donut-chart {
+  width: 200px;
+  height: 200px;
+}
+
+.donut-legend {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.donut-legend__item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-size: var(--text-sm);
+  color: var(--color-text-secondary);
+}
+
+.donut-legend__color {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .donut-chart-container {
+    flex-direction: column;
+  }
+}
+
+/* ===== Pathway Page ===== */
+
+.pathway-container {
+  padding: var(--space-2xl) 0;
+}
+
+.pathway-diagram {
+  position: relative;
+  min-height: 600px;
+  overflow-x: auto;
+}
+
+.pathway-node {
+  position: absolute;
+  background: var(--color-surface);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-md) var(--space-lg);
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition-base);
+  z-index: 1;
+  min-width: 120px;
+}
+
+.pathway-node:hover {
+  transform: scale(1.05);
+  box-shadow: var(--shadow-lg);
+  z-index: 2;
+}
+
+.pathway-node.entry { border-color: var(--color-entry); }
+.pathway-node.representative { border-color: var(--color-representative); }
+.pathway-node.principal { border-color: var(--color-principal); }
+
+.pathway-node.highlighted {
+  box-shadow: 0 0 0 3px var(--color-primary), var(--shadow-lg);
+}
+
+.pathway-node__label {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+}
+
+.pathway-node__name {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+/* Career tracks */
+.pathway-tracks {
+  display: flex;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-xl);
+}
+
+.track-btn {
+  padding: var(--space-sm) var(--space-md);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-full);
+  background: transparent;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  color: var(--color-text-secondary);
+}
+
+.track-btn:hover, .track-btn.active {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: var(--color-primary-bg);
+}
+
+/* ===== Progress Dashboard ===== */
+
+.dashboard-header {
+  padding: var(--space-2xl) 0;
+  text-align: center;
+}
+
+.dashboard-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-md);
+  margin-bottom: var(--space-2xl);
+}
+
+.dashboard-stats .stat {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+}
+
+/* Study streak heatmap */
+.heatmap {
+  margin: var(--space-xl) 0;
+}
+
+.heatmap__grid {
+  display: grid;
+  grid-template-columns: repeat(52, 1fr);
+  gap: 3px;
+}
+
+.heatmap__cell {
+  aspect-ratio: 1;
+  border-radius: 2px;
+  background: var(--color-border-light);
+}
+
+.heatmap__cell.level-1 { background: var(--color-accent-bg); }
+.heatmap__cell.level-2 { background: #6ee7b7; }
+.heatmap__cell.level-3 { background: var(--color-accent); }
+.heatmap__cell.level-4 { background: var(--color-accent-dark); }
+
+/* Exam progress grid */
+.exam-progress-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--space-lg);
+}
+
+.exam-progress-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-lg);
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  transition: all var(--transition-base);
+}
+
+.exam-progress-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.exam-progress-card__ring {
+  flex-shrink: 0;
+}
+
+.exam-progress-card__info {
+  flex: 1;
+  min-width: 0;
+}
+
+.exam-progress-card__title {
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semibold);
+  margin-bottom: var(--space-xs);
+}
+
+.exam-progress-card__meta {
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+}
+
+@media (max-width: 768px) {
+  .dashboard-stats {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heatmap__grid {
+    grid-template-columns: repeat(26, 1fr);
+  }
+}
+
+/* ===== About Page ===== */
+
+.about-section {
+  padding: var(--space-2xl) 0;
+}
+
+.about-section h2 {
+  margin-bottom: var(--space-md);
+}
+
+.disclaimer-box {
+  background: var(--color-warning-bg);
+  border: 1px solid var(--color-warning);
+  border-radius: var(--radius-lg);
+  padding: var(--space-xl);
+  margin-bottom: var(--space-xl);
+}
+
+.disclaimer-box p {
+  color: var(--color-text);
+  margin-bottom: 0;
+}

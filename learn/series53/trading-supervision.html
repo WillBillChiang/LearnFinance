@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 53 Chapter 2: Trading Supervision — Learn secondary market trading in municipal securities, quotation practices, EMMA reporting, and supervisory responsibilities.">
+  <title>Trading Supervision — Series 53 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series53" data-chapter="trading-supervision">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-principal">Chapter 2</span>
+          <h1>Trading Supervision</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              30 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 53
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1 ====== -->
+        <section class="lesson__section" id="secondary-market-overview">
+          <h2>Secondary Market Overview</h2>
+
+          <p>The secondary market for municipal securities is where previously issued bonds are bought and sold among investors. Unlike equities that trade on centralized exchanges, municipal securities trade in a decentralized over-the-counter (OTC) market through a network of broker-dealers. As a Municipal Securities Principal, supervising secondary market trading activities is one of your core responsibilities.</p>
+
+          <p>The municipal secondary market is enormous, with approximately $3.9 trillion in outstanding securities and average daily trading volume of roughly 30,000 to 50,000 trades per day. Unlike the equity market, where identical shares trade millions of times, most municipal bonds trade infrequently. There are over one million unique CUSIP numbers in the municipal market, and many individual bond issues may trade only a few times per year. This infrequent trading creates unique pricing challenges and heightened supervisory obligations.</p>
+
+          <p>The decentralized nature of the municipal market means there is no central limit order book, no exchange-based price discovery, and limited pre-trade transparency. Dealers typically hold inventory of municipal bonds and make markets by quoting bid and ask prices to customers and other dealers. This dealer-centric model places significant emphasis on fair pricing, which the principal must supervise diligently.</p>
+
+          <h3>Types of Secondary Market Transactions</h3>
+
+          <p>Municipal securities trade in several ways in the secondary market:</p>
+
+          <ul>
+            <li><strong>Principal Transactions:</strong> The dealer buys bonds for its own inventory or sells bonds from its own inventory to a customer. In a principal transaction, the dealer's compensation is embedded in the markup (when selling) or markdown (when buying). Most municipal secondary market trades are principal transactions.</li>
+            <li><strong>Agency Transactions:</strong> The dealer acts as an agent, facilitating a trade between two parties without taking ownership of the bonds. The dealer earns a disclosed commission. Agency transactions are less common in the municipal market but do occur, particularly on alternative trading systems (ATS).</li>
+            <li><strong>Interdealer Transactions:</strong> Trades between two broker-dealers, often facilitated by interdealer brokers (also called brokers' brokers). These firms operate anonymous electronic platforms where dealers can buy and sell bonds from each other.</li>
+            <li><strong>Riskless Principal Transactions:</strong> The dealer receives a customer order, purchases the bonds from another source, and immediately resells them to the customer. The dealer briefly takes title but assumes no market risk. The compensation is the markup between the acquisition cost and the customer price.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Brokers' Broker:</strong> A specialized interdealer broker that facilitates trades between municipal securities dealers on an anonymous basis. Brokers' brokers do not maintain inventory or deal directly with retail customers. They serve as intermediaries in the institutional market.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2 ====== -->
+        <section class="lesson__section" id="quotation-practices">
+          <h2>Quotation Practices</h2>
+
+          <p>Municipal bond quotations differ from equity quotations in important ways. The principal must understand these practices to effectively supervise trading desk activity and ensure compliance with MSRB rules governing quotations.</p>
+
+          <h3>Yield vs. Dollar Price Quotations</h3>
+
+          <p>Municipal bonds may be quoted on either a <strong>yield basis</strong> or a <strong>dollar price basis</strong>:</p>
+
+          <ul>
+            <li><strong>Yield Basis:</strong> Most common for new issues and bonds trading at par or near par. The bond is quoted at a specific yield to maturity (YTM) or yield to call (YTC). For example, a bond quoted at "3.25%" means it is priced to yield 3.25% to maturity. When yields go down, prices go up, and vice versa.</li>
+            <li><strong>Dollar Price Basis:</strong> Bonds trading at a significant premium or discount are typically quoted as a percentage of par value. For example, a bond quoted at "102" is priced at 102% of par value, or $1,020 per $1,000 par bond. Bonds in default (trading flat) are always quoted on a dollar basis.</li>
+          </ul>
+
+          <h3>Types of Quotations Under MSRB Rules</h3>
+
+          <p>MSRB Rule G-13 governs quotation practices and the principal must ensure compliance with these requirements:</p>
+
+          <ul>
+            <li><strong>Bona Fide Quotations:</strong> A firm quote that represents a genuine willingness to buy or sell at the stated price. If a dealer publishes a bona fide bid or offer, it must be prepared to trade at that price for at least one round lot (typically $100,000 par value for institutional trades or $5,000 for retail).</li>
+            <li><strong>Nominal (Informational) Quotations:</strong> Quotes that indicate approximate market levels but are not firm. Nominal quotes must be clearly identified as such (e.g., "nominal," "FYI," or "for informational purposes only"). Misrepresenting a nominal quote as a firm quote is a violation.</li>
+            <li><strong>Workable Indications:</strong> A quote indicating that a dealer may be willing to trade at approximately the stated price, subject to confirmation. Common in the interdealer market, a workable indication requires the dealer to re-confirm willingness before a counterparty can execute.</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Publishing a quotation that does not represent a bona fide bid or offer, without clearly labeling it as nominal or informational, is a violation of MSRB Rule G-13. This applies to quotations on any platform, including electronic trading systems, bidding platforms, and dealer-to-dealer communications. The principal must implement procedures to review quotations published by the firm.</p>
+            </div>
+          </div>
+
+          <h3>Bid-Wanted and Offer-Wanted Processes</h3>
+
+          <p>Because many municipal bonds trade infrequently, dealers often use <strong>bid-wanted</strong> processes to find buyers for customer or inventory positions. In a bid-wanted, the dealer announces that bonds are available and solicits bids from other dealers or customers. The process may be conducted through electronic platforms, interdealer brokers, or direct communications.</p>
+
+          <p>Similarly, an <strong>offer-wanted</strong> process is used when a customer or dealer is seeking to purchase specific bonds. The dealer solicits offers from other dealers who may hold the bonds in inventory.</p>
+
+          <p>The principal must ensure that bid-wanted and offer-wanted processes are conducted fairly and that the results are communicated promptly to customers. If a customer's bonds are being sold through a bid-wanted, the customer should understand the process and any minimum price requirements should be established in advance.</p>
+        </section>
+
+        <!-- ====== SECTION 3 ====== -->
+        <section class="lesson__section" id="emma-reporting">
+          <h2>EMMA and Trade Reporting</h2>
+
+          <p>The <strong>Electronic Municipal Market Access</strong> (EMMA) system is the MSRB's centralized platform for municipal securities information. EMMA serves as the official repository for municipal securities data, including trade reports, official statements, continuing disclosures, and real-time trade prices. Understanding EMMA reporting requirements is essential for the Municipal Securities Principal.</p>
+
+          <h3>Real-Time Trade Reporting (RTRS)</h3>
+
+          <p>MSRB Rule G-14 requires that all municipal securities transactions be reported to the MSRB's Real-Time Transaction Reporting System (RTRS) within 15 minutes of the time of trade. This includes:</p>
+
+          <ul>
+            <li>Customer purchase and sale transactions</li>
+            <li>Interdealer transactions</li>
+            <li>The price, yield, par value, and time of trade</li>
+            <li>Whether the trade was a principal or agency transaction</li>
+            <li>Special conditions (e.g., when-issued, delayed delivery)</li>
+          </ul>
+
+          <p>Trade data is disseminated publicly through EMMA, providing price transparency to all market participants. This transparency is a relatively recent development in the municipal market; prior to the implementation of trade reporting, investors had little visibility into the prices at which bonds were actually trading.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The 15-minute reporting window is critical for the Series 53 exam. Remember that all municipal trades must be reported to the RTRS within <strong>15 minutes</strong> of execution. Exceptions are limited, and late reporting can result in regulatory sanctions. The principal is responsible for ensuring the firm's trade reporting procedures are adequate.</p>
+            </div>
+          </div>
+
+          <h3>EMMA Disclosure Requirements</h3>
+
+          <p>Beyond trade reporting, EMMA serves as the repository for key municipal securities documents and disclosures:</p>
+
+          <ul>
+            <li><strong>Official Statements:</strong> Under MSRB Rule G-32, underwriters must submit the official statement for each new issue to EMMA within one business day of receiving it from the issuer. This makes the document publicly available to all investors.</li>
+            <li><strong>Continuing Disclosures:</strong> Under SEC Rule 15c2-12, issuers who access the public markets must commit to providing annual financial information and material event notices. These continuing disclosures are filed on EMMA and are accessible to the public.</li>
+            <li><strong>Material Event Notices:</strong> Issuers must file notices of material events (such as credit rating changes, defaults, bond calls, or defeasances) on EMMA within ten business days of the event.</li>
+            <li><strong>Advance Refunding Documents:</strong> Documents related to advance refundings and other post-issuance activities are also filed on EMMA.</li>
+          </ul>
+
+          <h3>Primary Offering Price and Spread Disclosure</h3>
+
+          <p>Under MSRB Rule G-32, the underwriter must also provide detailed information about the initial offering prices and spreads for new issues. This information is submitted electronically to EMMA and includes:</p>
+
+          <ul>
+            <li>The initial offering price for each maturity</li>
+            <li>The underwriting spread</li>
+            <li>Any fees paid to the underwriter</li>
+            <li>The CUSIP number for each maturity</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Reporting Requirement</th>
+                  <th>Rule</th>
+                  <th>Deadline</th>
+                  <th>Filed On</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Trade reports</td>
+                  <td class="compare-table__cell">G-14</td>
+                  <td class="compare-table__cell">15 minutes of trade</td>
+                  <td class="compare-table__cell">RTRS / EMMA</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Official statement</td>
+                  <td class="compare-table__cell">G-32</td>
+                  <td class="compare-table__cell">1 business day of receipt</td>
+                  <td class="compare-table__cell">EMMA</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Continuing disclosures</td>
+                  <td class="compare-table__cell">SEC 15c2-12</td>
+                  <td class="compare-table__cell">Annual / event-driven</td>
+                  <td class="compare-table__cell">EMMA</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Material event notices</td>
+                  <td class="compare-table__cell">SEC 15c2-12</td>
+                  <td class="compare-table__cell">10 business days of event</td>
+                  <td class="compare-table__cell">EMMA</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4 ====== -->
+        <section class="lesson__section" id="pricing-and-fair-dealing">
+          <h2>Pricing and Fair Dealing in the Secondary Market</h2>
+
+          <p>One of the most important supervisory responsibilities of the Municipal Securities Principal is ensuring that the firm's secondary market pricing is fair and reasonable. MSRB Rule G-30 establishes the standard: the prices at which municipal securities are purchased from or sold to customers must be fair and reasonable, taking into consideration all relevant factors.</p>
+
+          <h3>Markup/Markdown Standards</h3>
+
+          <p>When a dealer sells bonds from inventory to a customer (a principal transaction), the dealer's compensation is embedded in the <strong>markup</strong> over the dealer's acquisition cost. When a dealer buys bonds from a customer, the compensation is the <strong>markdown</strong> below the bond's market value. Under Rule G-30, these markups and markdowns must be fair and reasonable.</p>
+
+          <p>Relevant factors for determining fair pricing include:</p>
+
+          <ul>
+            <li><strong>Prevailing market conditions:</strong> Current interest rates, recent trades in the same or similar bonds, and overall market environment</li>
+            <li><strong>The dealer's cost of the bonds:</strong> How much the dealer paid and when, though cost alone does not determine fair price</li>
+            <li><strong>The maturity and quality of the bonds:</strong> Longer maturities and lower credit qualities may justify wider spreads</li>
+            <li><strong>The size of the transaction:</strong> Larger transactions may command tighter spreads; small odd-lot trades may justify wider spreads</li>
+            <li><strong>The difficulty of execution:</strong> Illiquid bonds or unusual structures may justify higher compensation</li>
+            <li><strong>The services provided:</strong> Research, advice, and other value-added services</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>While the MSRB has not established a specific maximum markup percentage, regulators have indicated that markups and markdowns on municipal securities should generally not exceed 2% of the market value for reasonably liquid bonds. For less liquid or more complex bonds, wider spreads may be justifiable but must still be fair and reasonable under the circumstances. The principal must implement and enforce pricing review procedures.</p>
+            </div>
+          </div>
+
+          <h3>Customer Confirmation Requirements</h3>
+
+          <p>Under MSRB Rule G-15, every customer transaction must be confirmed in writing. The confirmation must include:</p>
+
+          <ul>
+            <li>A description of the security (issuer, maturity, coupon, CUSIP)</li>
+            <li>The trade date, settlement date, and capacity (principal or agent)</li>
+            <li>The price and yield (both yield to maturity and yield to call, if applicable)</li>
+            <li>The total dollar amount of the transaction</li>
+            <li>Accrued interest, if any</li>
+            <li>Any special conditions or features of the bond</li>
+          </ul>
+
+          <p>In 2018, the MSRB implemented markup/markdown disclosure requirements. For principal transactions, the confirmation must now disclose the firm's markup or markdown and a reference price (typically the prevailing market price at the time of the trade) when the firm has executed a corresponding trade on the same trading day. This transparency requirement helps customers evaluate whether they received a fair price.</p>
+
+          <h3>Supervision of Trading Activities</h3>
+
+          <p>The principal must establish procedures to monitor trading activities on an ongoing basis, including:</p>
+
+          <ul>
+            <li>Daily review of trades for fair pricing and compliance with markup guidelines</li>
+            <li>Review of exception reports flagging trades with excessive markups or markdowns</li>
+            <li>Monitoring for patterns of unfair pricing, such as systematic overcharging of retail customers</li>
+            <li>Ensuring timely and accurate trade reporting to RTRS</li>
+            <li>Reviewing quotation practices for compliance with Rule G-13</li>
+            <li>Verifying that customer confirmations are accurate and timely</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 5 ====== -->
+        <section class="lesson__section" id="alternative-trading-systems">
+          <h2>Alternative Trading Systems and Electronic Platforms</h2>
+
+          <p>The municipal securities market has evolved significantly with the growth of electronic trading platforms and alternative trading systems (ATS). These platforms provide increased price transparency and efficiency but also create new supervisory challenges for the Municipal Securities Principal.</p>
+
+          <h3>Types of Electronic Platforms</h3>
+
+          <p>Municipal securities are traded on several types of electronic platforms:</p>
+
+          <ul>
+            <li><strong>Alternative Trading Systems (ATS):</strong> SEC-registered platforms that match buyers and sellers. Some ATSs operate on an anonymous basis, similar to exchange trading, while others facilitate disclosed negotiations between counterparties.</li>
+            <li><strong>Electronic Bidding Platforms:</strong> Used primarily for competitive underwriting, these platforms allow syndicates to submit bids electronically for new issues.</li>
+            <li><strong>Dealer-to-Dealer Platforms:</strong> Electronic platforms that facilitate interdealer trading, often operated by brokers' brokers.</li>
+            <li><strong>Retail Platforms:</strong> Platforms that allow retail investors to access municipal bond inventory and execute trades electronically.</li>
+          </ul>
+
+          <p>The principal must ensure that the firm's use of electronic trading platforms complies with all applicable MSRB rules, including fair pricing (G-30), quotation practices (G-13), and trade reporting (G-14). The automation of trading does not relieve the firm of its supervisory obligations; in fact, electronic trading may require additional supervisory procedures to address the unique risks of automated systems, including technology failures, erroneous orders, and cybersecurity threats.</p>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the key MSRB trading rules with <strong>"13-14-15-30"</strong>: Rule G-<strong>13</strong> = Quotations, Rule G-<strong>14</strong> = Trade reporting (15 minutes), Rule G-<strong>15</strong> = Customer confirmations, Rule G-<strong>30</strong> = Fair pricing. Think: "Quote it (13), Report it (14), Confirm it (15), Price it fairly (30)."</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of municipal trading supervision. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Under MSRB Rule G-14, municipal securities transactions must be reported to RTRS within:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 5 minutes of the trade</button>
+              <button class="answer-btn" data-correct="true">B) 15 minutes of the trade</button>
+              <button class="answer-btn" data-correct="false">C) 30 minutes of the trade</button>
+              <button class="answer-btn" data-correct="false">D) End of the trading day</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              MSRB Rule G-14 requires all municipal securities transactions to be reported to the Real-Time Transaction Reporting System (RTRS) within 15 minutes of the time of trade. This applies to both customer and interdealer transactions.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. A dealer publishes a municipal bond quotation marked "FYI." This is known as a:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Bona fide quotation</button>
+              <button class="answer-btn" data-correct="true">B) Nominal or informational quotation</button>
+              <button class="answer-btn" data-correct="false">C) Workable indication</button>
+              <button class="answer-btn" data-correct="false">D) Firm bid</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A quotation marked "FYI" is a nominal or informational quotation under MSRB Rule G-13. It indicates approximate market levels but is not a firm commitment to trade. Nominal quotes must be clearly labeled as such to avoid misleading other market participants.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Under MSRB Rule G-32, the underwriter must submit the official statement to EMMA within:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) One business day of receipt from the issuer</button>
+              <button class="answer-btn" data-correct="false">B) Five business days of the closing</button>
+              <button class="answer-btn" data-correct="false">C) 15 minutes of the first trade</button>
+              <button class="answer-btn" data-correct="false">D) 30 calendar days of the settlement date</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              MSRB Rule G-32 requires underwriters to submit the official statement to EMMA within one business day of receiving it from the issuer. This ensures that the document is publicly available to all investors in a timely manner.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which MSRB rule establishes that prices charged to customers must be fair and reasonable?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Rule G-13</button>
+              <button class="answer-btn" data-correct="false">B) Rule G-14</button>
+              <button class="answer-btn" data-correct="false">C) Rule G-15</button>
+              <button class="answer-btn" data-correct="true">D) Rule G-30</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              MSRB Rule G-30 establishes the fair pricing standard, requiring that prices charged to customers be fair and reasonable, taking into consideration all relevant factors including market conditions, bond characteristics, and transaction size.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. A brokers' broker in the municipal market is best described as:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) A retail broker-dealer that sells municipal bonds to individual investors</button>
+              <button class="answer-btn" data-correct="true">B) An interdealer broker that facilitates anonymous trading between dealers</button>
+              <button class="answer-btn" data-correct="false">C) A financial advisor that helps issuers structure bond offerings</button>
+              <button class="answer-btn" data-correct="false">D) An underwriter that manages competitive bid processes</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A brokers' broker is a specialized interdealer broker that facilitates trades between municipal securities dealers on an anonymous basis. They do not maintain inventory or deal directly with retail customers, serving solely as intermediaries in the institutional interdealer market.
+            </div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="underwriting-supervision.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 1 — Underwriting Supervision</span>
+            </div>
+          </a>
+          <a href="msrb-rules.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 3 — MSRB Rules</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, the MSRB, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

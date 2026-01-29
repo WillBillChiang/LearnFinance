@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series6-q001",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "Which of the following best describes an open-end investment company?",
+    "choices": ["A. It issues a fixed number of shares that trade on an exchange", "B. It continuously offers and redeems shares at NAV", "C. It invests exclusively in government bonds", "D. It is exempt from SEC registration"],
+    "correct": 1,
+    "explanation": "An open-end investment company (mutual fund) continuously offers new shares to investors and redeems existing shares at the net asset value (NAV). This distinguishes them from closed-end funds, which issue a fixed number of shares that trade on exchanges."
+  },
+  {
+    "id": "series6-q002",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "A mutual fund has total assets of $500 million, liabilities of $20 million, and 40 million shares outstanding. What is the NAV per share?",
+    "choices": ["A. $12.00", "B. $12.50", "C. $13.00", "D. $11.50"],
+    "correct": 0,
+    "explanation": "NAV per share = (Total Assets - Liabilities) / Shares Outstanding = ($500M - $20M) / 40M = $480M / 40M = $12.00. NAV is calculated at the close of each business day and represents the per-share value of the fund's net assets."
+  },
+  {
+    "id": "series6-q003",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "An investor purchases Class A shares of a mutual fund. Which of the following is TRUE?",
+    "choices": ["A. The investor pays a back-end load upon redemption", "B. The investor pays a front-end sales charge at the time of purchase", "C. The investor pays higher ongoing 12b-1 fees than Class C shares", "D. There are no sales charges of any kind"],
+    "correct": 1,
+    "explanation": "Class A shares charge a front-end sales charge (load) at the time of purchase, reducing the initial investment. They typically have lower ongoing 12b-1 fees compared to Class B or C shares. Class A shares also offer breakpoint discounts for larger purchases."
+  },
+  {
+    "id": "series6-q004",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "Which mutual fund share class would be MOST appropriate for a large lump-sum investment?",
+    "choices": ["A. Class A shares", "B. Class B shares", "C. Class C shares", "D. All classes are equally appropriate"],
+    "correct": 0,
+    "explanation": "Class A shares are most appropriate for large lump-sum investments because breakpoint discounts reduce the front-end sales charge as the investment amount increases. Class B shares have back-end loads and higher 12b-1 fees, while Class C shares have level loads with no breakpoints."
+  },
+  {
+    "id": "series6-q005",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "A letter of intent (LOI) for mutual fund breakpoints allows an investor to:",
+    "choices": ["A. Lock in the current NAV for future purchases", "B. Receive a reduced sales charge based on intended future purchases over 13 months", "C. Avoid all sales charges permanently", "D. Redeem shares without paying taxes"],
+    "correct": 1,
+    "explanation": "A letter of intent allows an investor to qualify for breakpoint discounts by committing to invest a specific amount over a 13-month period. If the investor does not fulfill the LOI, the fund will retroactively charge the higher sales charge on previous purchases."
+  },
+  {
+    "id": "series6-q006",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "During the accumulation phase of a variable annuity, the investment grows:",
+    "choices": ["A. At a fixed rate guaranteed by the insurance company", "B. Tax-free permanently", "C. On a tax-deferred basis", "D. Subject to annual capital gains taxes"],
+    "correct": 2,
+    "explanation": "Variable annuity earnings grow on a tax-deferred basis during the accumulation phase. No taxes are owed until withdrawals begin. Upon withdrawal, earnings are taxed as ordinary income (not capital gains). This tax-deferred growth is a primary benefit of annuity products."
+  },
+  {
+    "id": "series6-q007",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "Which of the following is NOT a characteristic of a variable annuity?",
+    "choices": ["A. Investment in separate accounts", "B. Guaranteed fixed rate of return", "C. Death benefit for beneficiaries", "D. Tax-deferred growth"],
+    "correct": 1,
+    "explanation": "Variable annuities do NOT guarantee a fixed rate of return. The returns depend on the performance of the underlying separate account investments chosen by the contract owner. A fixed annuity provides guaranteed returns. Variable annuities do offer tax-deferred growth, separate account investments, and typically a death benefit."
+  },
+  {
+    "id": "series6-q008",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "A client invested $100,000 in a variable annuity. The current value is $150,000. If the client withdraws $30,000, how much is taxable?",
+    "choices": ["A. $0", "B. $20,000", "C. $30,000", "D. $50,000"],
+    "correct": 2,
+    "explanation": "Variable annuity withdrawals follow the LIFO (last-in, first-out) method for tax purposes. Earnings are considered withdrawn first. Since there is $50,000 in earnings ($150,000 - $100,000), the entire $30,000 withdrawal is taxable as ordinary income because it comes entirely from earnings."
+  },
+  {
+    "id": "series6-q009",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "The separate account of a variable annuity is considered a security and must be registered under which act?",
+    "choices": ["A. Securities Act of 1933 only", "B. Investment Company Act of 1940 only", "C. Both the Securities Act of 1933 and the Investment Company Act of 1940", "D. Neither act applies"],
+    "correct": 2,
+    "explanation": "Variable annuity separate accounts are considered securities and must be registered under both the Securities Act of 1933 (governs the offering of the contract) and the Investment Company Act of 1940 (governs the separate account as an investment company). The annuity contract itself is also an insurance product regulated by state insurance departments."
+  },
+  {
+    "id": "series6-q010",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "A variable annuity contract owner dies during the accumulation phase. The death benefit is typically:",
+    "choices": ["A. The current account value or total premiums paid, whichever is greater", "B. Always the current account value regardless of premiums paid", "C. Zero, because variable annuities have no death benefit", "D. The total premiums paid plus a fixed interest rate"],
+    "correct": 0,
+    "explanation": "Most variable annuity contracts include a standard death benefit that pays the beneficiary the greater of the current account value or the total premiums paid (minus any withdrawals). This guarantees beneficiaries will receive at least the amount invested even if the account has declined in value."
+  },
+  {
+    "id": "series6-q011",
+    "topic": "series6-t3",
+    "topicName": "529 Plans",
+    "question": "Which of the following is TRUE about 529 college savings plans?",
+    "choices": ["A. Contributions are federally tax-deductible", "B. Qualified withdrawals for education expenses are tax-free", "C. Only parents may open accounts for their children", "D. Investments are guaranteed by the state"],
+    "correct": 1,
+    "explanation": "529 plan qualified withdrawals used for eligible education expenses (tuition, fees, room and board, books) are free from federal income tax. Contributions are not federally tax-deductible, though some states offer state tax deductions. Anyone can open a 529 plan for a beneficiary, and investments are not guaranteed."
+  },
+  {
+    "id": "series6-q012",
+    "topic": "series6-t3",
+    "topicName": "529 Plans",
+    "question": "A non-qualified withdrawal from a 529 plan results in:",
+    "choices": ["A. No tax consequences", "B. Ordinary income tax on the earnings plus a 10% penalty on the earnings", "C. Capital gains tax on the full withdrawal amount", "D. A flat 25% penalty on the entire withdrawal"],
+    "correct": 1,
+    "explanation": "Non-qualified withdrawals from a 529 plan result in the earnings portion being subject to ordinary income tax plus a 10% federal penalty on the earnings. The original contribution (basis) is not subject to tax or penalty since it was made with after-tax dollars."
+  },
+  {
+    "id": "series6-q013",
+    "topic": "series6-t3",
+    "topicName": "529 Plans",
+    "question": "How often can a 529 plan account owner change the investment options within the plan?",
+    "choices": ["A. Daily", "B. Monthly", "C. Twice per calendar year", "D. Once per calendar year"],
+    "correct": 2,
+    "explanation": "Under federal rules, 529 plan account owners may change investment options (reallocate existing investments) up to twice per calendar year. However, new contributions can be directed to any available investment option at any time. This rule prevents excessive trading within the accounts."
+  },
+  {
+    "id": "series6-q014",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "Which of the following is a money market fund NOT permitted to do?",
+    "choices": ["A. Invest in commercial paper", "B. Maintain a stable NAV of $1.00", "C. Charge a front-end sales load", "D. Invest in short-term government securities"],
+    "correct": 2,
+    "explanation": "Money market funds are not permitted to charge front-end sales loads (sales charges). They may charge 12b-1 fees within regulatory limits. Money market funds typically invest in short-term, high-quality instruments like commercial paper, Treasury bills, and repurchase agreements while seeking to maintain a stable $1.00 NAV."
+  },
+  {
+    "id": "series6-q015",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "A mutual fund that invests at least 80% of its assets in both stocks and bonds is known as a:",
+    "choices": ["A. Growth fund", "B. Income fund", "C. Balanced fund", "D. Sector fund"],
+    "correct": 2,
+    "explanation": "A balanced fund invests in both stocks and bonds, typically maintaining a relatively fixed allocation between the two asset classes. This provides investors with both growth potential (from equities) and income (from bonds) within a single fund, along with built-in diversification."
+  },
+  {
+    "id": "series6-q016",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "Under the 12b-1 rule, which of the following is TRUE?",
+    "choices": ["A. 12b-1 fees cannot exceed 1% of average net assets annually", "B. 12b-1 fees are one-time charges paid at purchase", "C. Only no-load funds may charge 12b-1 fees", "D. 12b-1 fees are used exclusively for portfolio management"],
+    "correct": 0,
+    "explanation": "Under FINRA rules, 12b-1 fees (asset-based distribution fees) cannot exceed 1% of average net assets annually, with a maximum of 0.75% for distribution and 0.25% for service fees. These are ongoing fees deducted from fund assets to cover marketing, distribution, and shareholder service costs."
+  },
+  {
+    "id": "series6-q017",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "Which of the following determines the payout amount during the annuity phase of a variable annuity?",
+    "choices": ["A. The general account performance", "B. The performance of the separate account relative to the assumed interest rate (AIR)", "C. The Consumer Price Index", "D. A fixed schedule set at contract inception"],
+    "correct": 1,
+    "explanation": "During the annuity (payout) phase of a variable annuity, the payment amount is determined by comparing the actual performance of the separate account to the assumed interest rate (AIR). If returns exceed the AIR, payments increase. If returns fall below the AIR, payments decrease."
+  },
+  {
+    "id": "series6-q018",
+    "topic": "series6-t3",
+    "topicName": "529 Plans",
+    "question": "A grandparent contributes $95,000 to a grandchild's 529 plan in a single year. For gift tax purposes, the contribution is treated as:",
+    "choices": ["A. A fully taxable gift exceeding the annual exclusion", "B. Spread evenly over 5 years using the gift tax election", "C. Exempt from gift tax rules entirely", "D. Subject to estate tax rather than gift tax"],
+    "correct": 1,
+    "explanation": "529 plans allow a special gift tax election where a lump-sum contribution of up to 5 times the annual gift tax exclusion can be spread over 5 years for gift tax purposes. At $19,000 per year (2025 exclusion amount), that allows up to $95,000 without using the lifetime gift tax exemption. The donor must file a gift tax return electing this treatment."
+  },
+  {
+    "id": "series6-q019",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "Which of the following investors would be LEAST suitable for a growth fund?",
+    "choices": ["A. A 30-year-old saving for retirement", "B. A 25-year-old with a high risk tolerance", "C. A 70-year-old retiree needing current income", "D. A 40-year-old with a long time horizon"],
+    "correct": 2,
+    "explanation": "A 70-year-old retiree needing current income would be the least suitable investor for a growth fund. Growth funds invest primarily in stocks with capital appreciation potential but typically provide little current income through dividends. A retiree needing income would be better served by income funds or bond funds."
+  },
+  {
+    "id": "series6-q020",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "An investor redeems mutual fund shares that were held for 8 months at a profit. The gain is taxed as:",
+    "choices": ["A. Long-term capital gain", "B. Short-term capital gain at ordinary income rates", "C. Tax-exempt", "D. Qualified dividend income"],
+    "correct": 1,
+    "explanation": "Mutual fund shares held for 12 months or less are taxed at short-term capital gains rates, which are the same as ordinary income tax rates. To qualify for the lower long-term capital gains rate, the shares must be held for more than 12 months."
+  },
+  {
+    "id": "series6-q021",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "An investor who is 55 years old takes a full surrender of a variable annuity. In addition to ordinary income tax on earnings, the investor will pay:",
+    "choices": ["A. No additional penalty", "B. A 10% early withdrawal penalty on the earnings", "C. A 10% penalty on the entire account value", "D. A 25% penalty on the earnings"],
+    "correct": 1,
+    "explanation": "Withdrawals from a variable annuity before age 59 1/2 are subject to a 10% early withdrawal penalty on the earnings portion, in addition to ordinary income tax. The penalty does not apply to the return of premium (cost basis). Exceptions include death, disability, and annuitization."
+  },
+  {
+    "id": "series6-q022",
+    "topic": "series6-t3",
+    "topicName": "529 Plans",
+    "question": "A 529 plan beneficiary receives a scholarship. The account owner may withdraw an amount equal to the scholarship:",
+    "choices": ["A. Completely tax-free and penalty-free", "B. Subject to income tax on earnings but without the 10% penalty", "C. Subject to both income tax and the 10% penalty", "D. Only if the beneficiary is changed"],
+    "correct": 1,
+    "explanation": "If a 529 plan beneficiary receives a scholarship, the account owner may withdraw an amount up to the scholarship without paying the 10% penalty. However, the earnings portion of the withdrawal is still subject to ordinary income tax. This is an exception to the normal penalty rules for non-qualified distributions."
+  },
+  {
+    "id": "series6-q023",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "The prospectus of a mutual fund must be delivered to an investor:",
+    "choices": ["A. At or before the time of sale", "B. Within 30 days after the sale", "C. Only if the investor requests it", "D. At the time of the first dividend payment"],
+    "correct": 0,
+    "explanation": "Under the Securities Act of 1933, a mutual fund prospectus must be delivered to the investor at or before the time of sale (confirmation of the transaction). The prospectus contains essential information about the fund's objectives, risks, fees, and performance history."
+  },
+  {
+    "id": "series6-q024",
+    "topic": "series6-t2",
+    "topicName": "Variable Annuities",
+    "question": "Surrender charges on variable annuities typically:",
+    "choices": ["A. Remain constant throughout the contract", "B. Increase over time", "C. Decrease over time and eventually disappear", "D. Apply only to contributions made in the first year"],
+    "correct": 2,
+    "explanation": "Surrender charges (contingent deferred sales charges) on variable annuities typically decline over a period of years (e.g., 7% in year one, decreasing by 1% each year) and eventually reach zero. This declining schedule encourages long-term holding and compensates the insurance company for upfront sales costs."
+  },
+  {
+    "id": "series6-q025",
+    "topic": "series6-t1",
+    "topicName": "Mutual Funds",
+    "question": "Which of the following is NOT a type of distribution that a mutual fund may pay to shareholders?",
+    "choices": ["A. Dividend distributions from net investment income", "B. Capital gains distributions from realized gains", "C. Return of capital distributions", "D. Interest distributions from unrealized gains"],
+    "correct": 3,
+    "explanation": "Mutual funds cannot distribute interest from unrealized gains because unrealized gains have not been received as income. Funds can distribute dividends from net investment income, capital gains from the sale of portfolio securities, and return of capital (which reduces cost basis). Unrealized gains only become distributable once the securities are sold."
+  }
+]

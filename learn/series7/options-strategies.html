@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Master options strategies for the Series 7 exam: covered calls, protective puts, collars, bull/bear spreads, straddles, combinations, max gain/loss/breakeven calculations, and margin requirements.">
+  <title>Options Strategies - Series 7 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series7" data-chapter="options-strategies">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-entry">Chapter 6</span>
+          <h1>Options Strategies</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              60 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 7 &mdash; Options
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="badge badge-warning">High-Weight Exam Topic</span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Covered Calls ====== -->
+        <section class="lesson__section" id="covered-calls">
+          <h2>Covered Calls</h2>
+
+          <p>A <strong>covered call</strong> is the most conservative and commonly tested options strategy on the Series 7 exam. It involves owning 100 shares of the underlying stock and writing (selling) one call option against those shares. The long stock position "covers" the obligation created by the short call, meaning if the buyer exercises, the writer can simply deliver the shares they already own.</p>
+
+          <h3>Why Write Covered Calls?</h3>
+
+          <p>The primary motivation for writing covered calls is to generate <strong>income</strong> from the premium received. Investors who are moderately bullish or neutral on a stock they own can collect premium income while waiting for the stock to appreciate. This strategy is commonly used by income-oriented investors and portfolio managers.</p>
+
+          <h3>Profit, Loss, and Breakeven</h3>
+
+          <ul>
+            <li><strong>Market outlook:</strong> Neutral to moderately bullish</li>
+            <li><strong>Maximum gain:</strong> Premium received + (Strike price - Stock purchase price) x 100. The stock can only appreciate to the strike price before being called away.</li>
+            <li><strong>Maximum loss:</strong> (Stock purchase price - Premium received) x 100. The stock could fall to zero, but the premium offsets some of the loss.</li>
+            <li><strong>Breakeven:</strong> Stock purchase price - Premium received</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>An investor buys 100 shares of XYZ at $50 and writes 1 XYZ July 55 Call @ $3.</p>
+              <ul>
+                <li><strong>Max gain:</strong> $3 (premium) + ($55 - $50) = $3 + $5 = $8 per share = <strong>$800</strong>. This occurs if XYZ rises to $55 or above and the call is exercised.</li>
+                <li><strong>Max loss:</strong> ($50 - $3) x 100 = <strong>$4,700</strong>. This occurs if XYZ falls to $0.</li>
+                <li><strong>Breakeven:</strong> $50 - $3 = <strong>$47</strong>. Below $47, the investor loses money.</li>
+              </ul>
+              <p>Note that the covered call writer gives up upside potential above the strike price in exchange for the premium income.</p>
+            </div>
+          </div>
+
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Covered call payoff diagram showing capped upside and reduced downside">
+              <line x1="60" y1="150" x2="460" y2="150" stroke="#334155" stroke-width="2"/>
+              <line x1="60" y1="20" x2="60" y2="260" stroke="#334155" stroke-width="2"/>
+              <text x="250" y="290" text-anchor="middle" fill="#64748b" font-size="12">Stock Price at Expiration</text>
+              <text x="250" y="16" text-anchor="middle" fill="#1e40af" font-size="14" font-weight="bold">Covered Call Payoff</text>
+              <text x="465" y="146" fill="#64748b" font-size="10">$0</text>
+              <!-- Payoff line -->
+              <line x1="80" y1="250" x2="200" y2="130" stroke="#3b82f6" stroke-width="3"/>
+              <line x1="200" y1="130" x2="300" y2="80" stroke="#3b82f6" stroke-width="3"/>
+              <line x1="300" y1="80" x2="440" y2="80" stroke="#22c55e" stroke-width="3"/>
+              <!-- Stock only (dashed) -->
+              <line x1="80" y1="260" x2="440" y2="30" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6"/>
+              <text x="430" y="45" fill="#94a3b8" font-size="9">Stock Only</text>
+              <!-- Strike -->
+              <line x1="300" y1="75" x2="300" y2="155" stroke="#6366f1" stroke-width="1" stroke-dasharray="4"/>
+              <text x="300" y="168" text-anchor="middle" fill="#6366f1" font-size="10">Strike ($55)</text>
+              <!-- Breakeven -->
+              <line x1="200" y1="125" x2="200" y2="155" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4"/>
+              <text x="200" y="168" text-anchor="middle" fill="#f59e0b" font-size="10">BE ($47)</text>
+              <!-- Labels -->
+              <text x="380" y="74" text-anchor="middle" fill="#22c55e" font-size="10">Max Gain = $800</text>
+            </svg>
+            <figcaption>Figure 6.1 &mdash; Covered Call payoff diagram. The upside is capped at the strike price (plus premium), but the breakeven is lowered by the premium received. The dashed line shows the stock-only position for comparison.</figcaption>
+          </figure>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 7 loves to test covered calls. Remember three things: (1) It generates income through premium. (2) It caps upside gain at the strike price. (3) It lowers the breakeven point by the premium amount. A covered call is suitable for an investor who is willing to sell their stock at the strike price and wants to earn income while waiting.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Protective Puts ====== -->
+        <section class="lesson__section" id="protective-puts">
+          <h2>Protective Puts</h2>
+
+          <p>A <strong>protective put</strong> (also called a "married put") involves buying a put option while owning the underlying stock. Think of it as buying <strong>insurance</strong> on a stock position. The put guarantees a minimum selling price (the strike price), limiting downside risk while preserving unlimited upside potential.</p>
+
+          <h3>Profit, Loss, and Breakeven</h3>
+
+          <ul>
+            <li><strong>Market outlook:</strong> Bullish (investor wants to keep the stock but fears a short-term decline)</li>
+            <li><strong>Maximum gain:</strong> Unlimited (if the stock rises, the put expires worthless and the stock appreciates; gain is reduced by the premium paid for the put)</li>
+            <li><strong>Maximum loss:</strong> (Stock purchase price - Strike price + Premium paid) x 100. The put limits how much the stock loss can be.</li>
+            <li><strong>Breakeven:</strong> Stock purchase price + Premium paid</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>An investor buys 100 shares of XYZ at $50 and buys 1 XYZ July 50 Put @ $2.</p>
+              <ul>
+                <li><strong>Max gain:</strong> Unlimited (stock can rise indefinitely, minus the $2 premium cost)</li>
+                <li><strong>Max loss:</strong> ($50 - $50 + $2) x 100 = <strong>$200</strong>. Even if XYZ falls to $0, the investor can exercise the put to sell at $50; the only loss is the premium.</li>
+                <li><strong>Breakeven:</strong> $50 + $2 = <strong>$52</strong>. The stock must rise above $52 for the investor to profit.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>Covered calls and protective puts are opposites in philosophy: <strong>Covered calls</strong> sacrifice upside for income (premium received). <strong>Protective puts</strong> sacrifice income for downside protection (premium paid). Both involve owning stock, but the option type differs: call written vs. put purchased.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Collars ====== -->
+        <section class="lesson__section" id="collars">
+          <h2>Collars</h2>
+
+          <p>A <strong>collar</strong> combines a covered call with a protective put. The investor owns 100 shares of stock, writes an out-of-the-money call, and buys an out-of-the-money put. The premium received from the call offsets (partially or entirely) the cost of the put. A "zero-cost collar" occurs when the call premium exactly equals the put premium.</p>
+
+          <h3>How It Works</h3>
+
+          <ul>
+            <li>The put sets a <strong>floor</strong> (minimum selling price) for the stock</li>
+            <li>The call sets a <strong>ceiling</strong> (maximum selling price) for the stock</li>
+            <li>The investor's profit and loss are both limited within a defined range</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>An investor owns 100 shares of XYZ at $50, writes 1 XYZ 55 Call @ $2, and buys 1 XYZ 45 Put @ $2 (zero-cost collar).</p>
+              <ul>
+                <li><strong>Max gain:</strong> ($55 - $50) x 100 = $500 (stock appreciation capped at call strike; net premium = $0)</li>
+                <li><strong>Max loss:</strong> ($50 - $45) x 100 = $500 (downside protected at put strike; net premium = $0)</li>
+                <li>The investor's outcome is bounded between a $500 gain and a $500 loss</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Spreads ====== -->
+        <section class="lesson__section" id="spreads">
+          <h2>Spread Strategies</h2>
+
+          <p>A <strong>spread</strong> involves simultaneously buying and selling options of the <strong>same type</strong> (both calls or both puts) on the same underlying stock, but with different strike prices and/or expiration dates. Spreads limit both maximum gain and maximum loss. There are two main categories: <strong>vertical spreads</strong> (different strikes, same expiration) and <strong>horizontal/calendar spreads</strong> (same strike, different expirations). The Series 7 focuses primarily on vertical spreads.</p>
+
+          <h3>Debit Spreads vs. Credit Spreads</h3>
+
+          <p>Understanding whether a spread is a debit or credit is essential:</p>
+
+          <ul>
+            <li><strong>Debit spread:</strong> The option purchased costs more than the option sold. The investor pays a net premium (net debit). Maximum loss = net debit paid. Maximum gain = difference in strikes - net debit.</li>
+            <li><strong>Credit spread:</strong> The option sold generates more premium than the option purchased costs. The investor receives a net premium (net credit). Maximum gain = net credit received. Maximum loss = difference in strikes - net credit.</li>
+          </ul>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>For any spread: <strong>Max gain + Max loss = Difference in strike prices</strong>. If you know the net debit or net credit and the spread width, you can always find the other value. For debit spreads, max loss = net debit. For credit spreads, max gain = net credit.</p>
+            </div>
+          </div>
+
+          <!-- ====== BULL CALL SPREAD ====== -->
+          <h3>Bull Call Spread (Debit Call Spread)</h3>
+
+          <p>A <strong>bull call spread</strong> involves buying a call with a lower strike price and selling a call with a higher strike price (same expiration). This is a moderately bullish strategy that costs a net debit.</p>
+
+          <ul>
+            <li><strong>Construction:</strong> Buy lower strike call + Sell higher strike call</li>
+            <li><strong>Market outlook:</strong> Moderately bullish</li>
+            <li><strong>Max gain:</strong> Difference in strikes - Net debit</li>
+            <li><strong>Max loss:</strong> Net debit paid</li>
+            <li><strong>Breakeven:</strong> Lower strike + Net debit</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>Buy 1 XYZ July 50 Call @ $5 and Sell 1 XYZ July 60 Call @ $2. Net debit = $5 - $2 = $3 ($300).</p>
+              <ul>
+                <li><strong>Max gain:</strong> ($60 - $50) - $3 = $7 per share = <strong>$700</strong></li>
+                <li><strong>Max loss:</strong> $3 per share = <strong>$300</strong> (net debit)</li>
+                <li><strong>Breakeven:</strong> $50 + $3 = <strong>$53</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bull call spread payoff diagram">
+              <line x1="60" y1="140" x2="460" y2="140" stroke="#334155" stroke-width="2"/>
+              <line x1="60" y1="20" x2="60" y2="240" stroke="#334155" stroke-width="2"/>
+              <text x="250" y="270" text-anchor="middle" fill="#64748b" font-size="12">Stock Price at Expiration</text>
+              <text x="250" y="16" text-anchor="middle" fill="#1e40af" font-size="14" font-weight="bold">Bull Call Spread Payoff</text>
+              <!-- Payoff line -->
+              <line x1="80" y1="185" x2="200" y2="185" stroke="#ef4444" stroke-width="3"/>
+              <line x1="200" y1="185" x2="350" y2="65" stroke="#3b82f6" stroke-width="3"/>
+              <line x1="350" y1="65" x2="440" y2="65" stroke="#22c55e" stroke-width="3"/>
+              <!-- Markers -->
+              <line x1="200" y1="135" x2="200" y2="190" stroke="#6366f1" stroke-width="1" stroke-dasharray="4"/>
+              <text x="200" y="205" text-anchor="middle" fill="#6366f1" font-size="10">Lower Strike ($50)</text>
+              <line x1="350" y1="60" x2="350" y2="145" stroke="#6366f1" stroke-width="1" stroke-dasharray="4"/>
+              <text x="350" y="158" text-anchor="middle" fill="#6366f1" font-size="10">Upper Strike ($60)</text>
+              <line x1="240" y1="135" x2="240" y2="170" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4"/>
+              <text x="240" y="183" text-anchor="middle" fill="#f59e0b" font-size="10">BE ($53)</text>
+              <!-- Labels -->
+              <text x="130" y="180" text-anchor="middle" fill="#ef4444" font-size="10">Max Loss = $300</text>
+              <text x="400" y="58" text-anchor="middle" fill="#22c55e" font-size="10">Max Gain = $700</text>
+            </svg>
+            <figcaption>Figure 6.2 &mdash; Bull Call Spread payoff diagram. Both gain and loss are limited. The investor profits as the stock rises between the two strike prices.</figcaption>
+          </figure>
+
+          <!-- ====== BEAR PUT SPREAD ====== -->
+          <h3>Bear Put Spread (Debit Put Spread)</h3>
+
+          <p>A <strong>bear put spread</strong> involves buying a put with a higher strike price and selling a put with a lower strike price (same expiration). This is a moderately bearish strategy that costs a net debit.</p>
+
+          <ul>
+            <li><strong>Construction:</strong> Buy higher strike put + Sell lower strike put</li>
+            <li><strong>Market outlook:</strong> Moderately bearish</li>
+            <li><strong>Max gain:</strong> Difference in strikes - Net debit</li>
+            <li><strong>Max loss:</strong> Net debit paid</li>
+            <li><strong>Breakeven:</strong> Higher strike - Net debit</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>Buy 1 XYZ July 60 Put @ $6 and Sell 1 XYZ July 50 Put @ $2. Net debit = $6 - $2 = $4 ($400).</p>
+              <ul>
+                <li><strong>Max gain:</strong> ($60 - $50) - $4 = $6 per share = <strong>$600</strong></li>
+                <li><strong>Max loss:</strong> $4 per share = <strong>$400</strong> (net debit)</li>
+                <li><strong>Breakeven:</strong> $60 - $4 = <strong>$56</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ====== BULL PUT SPREAD ====== -->
+          <h3>Bull Put Spread (Credit Put Spread)</h3>
+
+          <p>A <strong>bull put spread</strong> involves selling a put with a higher strike price and buying a put with a lower strike price. This is a moderately bullish strategy that generates a net credit. The investor wants the stock to stay above the higher strike so both puts expire worthless.</p>
+
+          <ul>
+            <li><strong>Construction:</strong> Sell higher strike put + Buy lower strike put</li>
+            <li><strong>Market outlook:</strong> Moderately bullish</li>
+            <li><strong>Max gain:</strong> Net credit received</li>
+            <li><strong>Max loss:</strong> Difference in strikes - Net credit</li>
+            <li><strong>Breakeven:</strong> Higher strike - Net credit</li>
+          </ul>
+
+          <!-- ====== BEAR CALL SPREAD ====== -->
+          <h3>Bear Call Spread (Credit Call Spread)</h3>
+
+          <p>A <strong>bear call spread</strong> involves selling a call with a lower strike price and buying a call with a higher strike price. This is a moderately bearish strategy that generates a net credit. The investor wants the stock to stay below the lower strike so both calls expire worthless.</p>
+
+          <ul>
+            <li><strong>Construction:</strong> Sell lower strike call + Buy higher strike call</li>
+            <li><strong>Market outlook:</strong> Moderately bearish</li>
+            <li><strong>Max gain:</strong> Net credit received</li>
+            <li><strong>Max loss:</strong> Difference in strikes - Net credit</li>
+            <li><strong>Breakeven:</strong> Lower strike + Net credit</li>
+          </ul>
+
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 500 280" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bear call spread payoff diagram">
+              <line x1="60" y1="140" x2="460" y2="140" stroke="#334155" stroke-width="2"/>
+              <line x1="60" y1="20" x2="60" y2="240" stroke="#334155" stroke-width="2"/>
+              <text x="250" y="270" text-anchor="middle" fill="#64748b" font-size="12">Stock Price at Expiration</text>
+              <text x="250" y="16" text-anchor="middle" fill="#1e40af" font-size="14" font-weight="bold">Bear Call Spread Payoff</text>
+              <!-- Payoff line -->
+              <line x1="80" y1="95" x2="200" y2="95" stroke="#22c55e" stroke-width="3"/>
+              <line x1="200" y1="95" x2="350" y2="210" stroke="#3b82f6" stroke-width="3"/>
+              <line x1="350" y1="210" x2="440" y2="210" stroke="#ef4444" stroke-width="3"/>
+              <!-- Markers -->
+              <line x1="200" y1="90" x2="200" y2="145" stroke="#6366f1" stroke-width="1" stroke-dasharray="4"/>
+              <text x="200" y="158" text-anchor="middle" fill="#6366f1" font-size="10">Lower Strike ($50)</text>
+              <line x1="350" y1="140" x2="350" y2="215" stroke="#6366f1" stroke-width="1" stroke-dasharray="4"/>
+              <text x="350" y="228" text-anchor="middle" fill="#6366f1" font-size="10">Upper Strike ($60)</text>
+              <line x1="240" y1="115" x2="240" y2="145" stroke="#f59e0b" stroke-width="1" stroke-dasharray="4"/>
+              <text x="240" y="158" text-anchor="middle" fill="#f59e0b" font-size="10">BE ($53)</text>
+              <!-- Labels -->
+              <text x="130" y="88" text-anchor="middle" fill="#22c55e" font-size="10">Max Gain = Credit</text>
+              <text x="400" y="205" text-anchor="middle" fill="#ef4444" font-size="10">Max Loss</text>
+            </svg>
+            <figcaption>Figure 6.3 &mdash; Bear Call Spread payoff diagram. Profit is capped at the net credit if the stock stays below the lower strike. Loss is capped at the spread width minus the credit.</figcaption>
+          </figure>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>To quickly identify a spread as bullish or bearish, look at the dominant position (the one with the most premium). In a <strong>bull spread</strong>, the lower strike option dominates (buy lower call or sell higher put). In a <strong>bear spread</strong>, the higher strike option dominates (buy higher put or sell lower call). Also, debit spreads profit from the spread widening; credit spreads profit from the spread narrowing.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Straddles and Combinations ====== -->
+        <section class="lesson__section" id="straddles-combinations">
+          <h2>Straddles and Combinations</h2>
+
+          <p>Straddles and combinations involve buying or selling both a call AND a put on the same underlying stock. These strategies are used when an investor has a view on <strong>volatility</strong> rather than direction.</p>
+
+          <h3>Long Straddle</h3>
+
+          <p>A <strong>long straddle</strong> involves buying a call AND buying a put with the <strong>same strike price and expiration date</strong>. The investor expects a large price move in either direction but is unsure which way.</p>
+
+          <ul>
+            <li><strong>Construction:</strong> Buy 1 call + Buy 1 put (same strike and expiration)</li>
+            <li><strong>Market outlook:</strong> Volatile (expects a big move up OR down)</li>
+            <li><strong>Max gain:</strong> Unlimited on the upside; substantial on the downside (strike - combined premiums, if stock drops to $0)</li>
+            <li><strong>Max loss:</strong> Total premiums paid (both call and put premiums). This occurs if the stock is exactly at the strike price at expiration.</li>
+            <li><strong>Breakeven (upper):</strong> Strike + Total premiums</li>
+            <li><strong>Breakeven (lower):</strong> Strike - Total premiums</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>Buy 1 XYZ July 50 Call @ $3 and Buy 1 XYZ July 50 Put @ $2. Total premium = $5 ($500).</p>
+              <ul>
+                <li><strong>Max loss:</strong> $5 x 100 = <strong>$500</strong> (occurs if XYZ = $50 at expiration)</li>
+                <li><strong>Upper breakeven:</strong> $50 + $5 = <strong>$55</strong></li>
+                <li><strong>Lower breakeven:</strong> $50 - $5 = <strong>$45</strong></li>
+                <li>The investor profits if XYZ moves above $55 or below $45</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>Short Straddle</h3>
+
+          <p>A <strong>short straddle</strong> involves writing a call AND writing a put with the <strong>same strike price and expiration date</strong>. The investor expects the stock to remain <strong>stable</strong> near the strike price, allowing both options to expire worthless and keeping both premiums.</p>
+
+          <ul>
+            <li><strong>Construction:</strong> Write 1 call + Write 1 put (same strike and expiration)</li>
+            <li><strong>Market outlook:</strong> Neutral / Stable (expects little price movement)</li>
+            <li><strong>Max gain:</strong> Total premiums received. This occurs if the stock is exactly at the strike price at expiration.</li>
+            <li><strong>Max loss:</strong> Unlimited on the upside (due to the short call); substantial on the downside (stock can fall to $0)</li>
+            <li><strong>Breakeven (upper):</strong> Strike + Total premiums</li>
+            <li><strong>Breakeven (lower):</strong> Strike - Total premiums</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Short straddles carry <strong>unlimited risk</strong> (from the short call component). This strategy requires a high level of options approval and substantial margin. It is one of the riskiest options strategies. If the stock makes a large unexpected move in either direction, losses can be severe.</p>
+            </div>
+          </div>
+
+          <h3>Combinations</h3>
+
+          <p>A <strong>combination</strong> is similar to a straddle but uses different strike prices, different expiration dates, or both. For example, buying a call with a $55 strike and buying a put with a $45 strike (same expiration) is a long combination (sometimes called a long strangle). Combinations are cheaper than straddles because one or both options are further out-of-the-money, but the stock must move further to reach profitability.</p>
+
+          <ul>
+            <li><strong>Long strangle:</strong> Buy OTM call + Buy OTM put. Cheaper than a straddle but requires a larger move to profit. Two breakeven points.</li>
+            <li><strong>Short strangle:</strong> Sell OTM call + Sell OTM put. Collects less premium than a short straddle but has a wider profitable range.</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 6: Strategy Comparison ====== -->
+        <section class="lesson__section" id="strategy-comparison">
+          <h2>Strategy Comparison Table</h2>
+
+          <p>The following table summarizes the key characteristics of the most important options strategies tested on the Series 7.</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Strategy</th>
+                  <th>Outlook</th>
+                  <th>Max Gain</th>
+                  <th>Max Loss</th>
+                  <th>Breakeven</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Covered Call</strong></td>
+                  <td class="compare-table__cell">Neutral / Mildly Bullish</td>
+                  <td class="compare-table__cell">Premium + (Strike - Stock price)</td>
+                  <td class="compare-table__cell">Stock price - Premium (stock to $0)</td>
+                  <td class="compare-table__cell">Stock price - Premium</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Protective Put</strong></td>
+                  <td class="compare-table__cell">Bullish (hedged)</td>
+                  <td class="compare-table__cell">Unlimited</td>
+                  <td class="compare-table__cell">(Stock price - Strike) + Premium</td>
+                  <td class="compare-table__cell">Stock price + Premium</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Bull Call Spread</strong></td>
+                  <td class="compare-table__cell">Moderately Bullish</td>
+                  <td class="compare-table__cell">Spread width - Net debit</td>
+                  <td class="compare-table__cell">Net debit</td>
+                  <td class="compare-table__cell">Lower strike + Net debit</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Bear Put Spread</strong></td>
+                  <td class="compare-table__cell">Moderately Bearish</td>
+                  <td class="compare-table__cell">Spread width - Net debit</td>
+                  <td class="compare-table__cell">Net debit</td>
+                  <td class="compare-table__cell">Higher strike - Net debit</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Bull Put Spread</strong></td>
+                  <td class="compare-table__cell">Moderately Bullish</td>
+                  <td class="compare-table__cell">Net credit</td>
+                  <td class="compare-table__cell">Spread width - Net credit</td>
+                  <td class="compare-table__cell">Higher strike - Net credit</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Bear Call Spread</strong></td>
+                  <td class="compare-table__cell">Moderately Bearish</td>
+                  <td class="compare-table__cell">Net credit</td>
+                  <td class="compare-table__cell">Spread width - Net credit</td>
+                  <td class="compare-table__cell">Lower strike + Net credit</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Long Straddle</strong></td>
+                  <td class="compare-table__cell">Volatile (either direction)</td>
+                  <td class="compare-table__cell">Unlimited (upside) / Substantial (downside)</td>
+                  <td class="compare-table__cell">Total premiums paid</td>
+                  <td class="compare-table__cell">Strike +/- Total premiums</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell"><strong>Short Straddle</strong></td>
+                  <td class="compare-table__cell">Neutral / Stable</td>
+                  <td class="compare-table__cell">Total premiums received</td>
+                  <td class="compare-table__cell">Unlimited</td>
+                  <td class="compare-table__cell">Strike +/- Total premiums</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 7: Margin Requirements ====== -->
+        <section class="lesson__section" id="margin-requirements">
+          <h2>Margin Requirements Overview</h2>
+
+          <p>Options trading requires different levels of margin depending on the risk involved. The Series 7 tests a general understanding of margin requirements for options, not exact calculations.</p>
+
+          <ul>
+            <li><strong>Long options (buying calls or puts):</strong> Must be paid for in full. No margin allowed for purchasing options. The buyer must pay 100% of the premium.</li>
+            <li><strong>Covered call writing:</strong> No additional margin required beyond owning the underlying stock, because the stock covers the obligation.</li>
+            <li><strong>Naked (uncovered) call writing:</strong> Requires the most margin due to unlimited risk. Margin = 100% of premium + 20% of underlying stock value - any amount out-of-the-money (minimum 10% of stock value + premium).</li>
+            <li><strong>Naked put writing:</strong> Similar margin formula to naked calls, but the minimum is 10% of the strike price + premium.</li>
+            <li><strong>Spreads:</strong> Debit spreads must be paid for in full. Credit spreads require margin equal to the difference in strike prices minus the net credit received.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>For the Series 7, remember the key principle: <strong>buyers pay in full, writers post margin</strong> (except for covered writers). The riskier the strategy, the higher the margin requirement. Also remember that options cannot be purchased on margin because they are wasting assets (they expire).</p>
+            </div>
+          </div>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Options Approval Levels
+            </summary>
+            <div class="deep-dive__content">
+              <p>Broker-dealers assign options approval levels based on the customer's experience, financial situation, and investment objectives. While the exact level structure varies by firm, a typical hierarchy is:</p>
+
+              <ul>
+                <li><strong>Level 1:</strong> Writing covered calls and cash-secured puts. Lowest risk.</li>
+                <li><strong>Level 2:</strong> Buying calls and puts. Risk limited to premium paid.</li>
+                <li><strong>Level 3:</strong> Spreads (debit and credit). Both risk and reward are limited.</li>
+                <li><strong>Level 4:</strong> Writing naked (uncovered) options. Highest risk, highest margin. The customer must be experienced, financially sophisticated, and understand the risks.</li>
+              </ul>
+
+              <p>Before any options trading can begin, the customer must receive the OCC's <strong>Options Disclosure Document (ODD)</strong>, also known as "Characteristics and Risks of Standardized Options." The ODD must be delivered at or before the time the account is approved for options trading. The customer must also sign an <strong>Options Agreement</strong> within 15 days of account approval.</p>
+
+              <p>A <strong>Registered Options Principal (ROP)</strong> must approve all options accounts. The ROP reviews the customer's financial information, investment experience, and investment objectives to determine the appropriate approval level.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of options strategies. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. An investor owns 100 shares of ABC at $40 and writes 1 ABC October 45 Call @ $3. What is the maximum gain on this covered call position?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $300</button>
+              <button class="answer-btn" data-correct="true">B) $800</button>
+              <button class="answer-btn" data-correct="false">C) $4,500</button>
+              <button class="answer-btn" data-correct="false">D) Unlimited</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Maximum gain on a covered call = Premium + (Strike - Stock purchase price) = $3 + ($45 - $40) = $3 + $5 = $8 per share = $800. The stock can only be sold at the strike price ($45) if the call is exercised, plus the $3 premium received.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. An investor buys 1 XYZ November 60 Call @ $5 and sells 1 XYZ November 70 Call @ $2. What is the maximum loss?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) $300</button>
+              <button class="answer-btn" data-correct="false">B) $500</button>
+              <button class="answer-btn" data-correct="false">C) $700</button>
+              <button class="answer-btn" data-correct="false">D) $1,000</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              This is a bull call spread (debit spread). Net debit = $5 - $2 = $3 per share = $300 total. For a debit spread, the maximum loss is always the net debit paid. This occurs if both options expire worthless (stock at or below $60 at expiration).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. An investor buys 1 DEF March 40 Call @ $4 and buys 1 DEF March 40 Put @ $3. What are the breakeven points?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $36 and $44</button>
+              <button class="answer-btn" data-correct="true">B) $33 and $47</button>
+              <button class="answer-btn" data-correct="false">C) $37 and $43</button>
+              <button class="answer-btn" data-correct="false">D) $36 and $47</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              This is a long straddle. Total premiums = $4 + $3 = $7. Upper breakeven = Strike + Total premiums = $40 + $7 = $47. Lower breakeven = Strike - Total premiums = $40 - $7 = $33. The investor profits if DEF is above $47 or below $33 at expiration.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which strategy would be most appropriate for an investor who owns a stock and wants to protect against a decline while keeping upside potential?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Writing a covered call</button>
+              <button class="answer-btn" data-correct="true">B) Buying a protective put</button>
+              <button class="answer-btn" data-correct="false">C) Writing a short straddle</button>
+              <button class="answer-btn" data-correct="false">D) Buying a long straddle</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A protective put provides downside protection (the put sets a floor price) while preserving unlimited upside potential. The covered call generates income but caps the upside. A straddle involves both calls and puts and is a volatility play, not a hedging strategy for an existing stock position.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. An investor sells 1 GHI August 55 Put @ $4 and buys 1 GHI August 45 Put @ $1. What is the maximum gain and maximum loss?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Max gain $1,000; Max loss $300</button>
+              <button class="answer-btn" data-correct="true">B) Max gain $300; Max loss $700</button>
+              <button class="answer-btn" data-correct="false">C) Max gain $400; Max loss $600</button>
+              <button class="answer-btn" data-correct="false">D) Max gain $300; Max loss $1,000</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              This is a bull put spread (credit spread). Net credit = $4 - $1 = $3 per share = $300 (max gain). Spread width = $55 - $45 = $10. Max loss = Spread width - Net credit = $10 - $3 = $7 per share = $700. The investor profits if GHI stays above $55; maximum loss occurs if GHI falls below $45.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="options-basics.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 5 &mdash; Options Basics</span>
+            </div>
+          </a>
+          <a href="investment-companies.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 7 &mdash; Investment Companies</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

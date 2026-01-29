@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series4-q001",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "A Registered Options Principal (ROP) must approve which of the following before a customer begins trading options?",
+    "choices": ["A. Only the customer's first options trade", "B. The customer's options account, including review of the options agreement and suitability determination", "C. Only margin transactions", "D. Only uncovered options trades"],
+    "correct": 1,
+    "explanation": "Before a customer can trade options, a Registered Options Principal must approve the account by reviewing the customer's financial situation, investment objectives, and trading experience. The customer must also sign an options agreement and return it within 15 days of account approval. The ROP ensures the account is suitable for options trading."
+  },
+  {
+    "id": "series4-q002",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "Under exchange rules, the Options Disclosure Document (ODD) must be delivered to a customer:",
+    "choices": ["A. At the time of the first options trade execution", "B. At or before the time the account is approved for options trading", "C. Within 30 days of the first options trade", "D. Only if the customer requests it"],
+    "correct": 1,
+    "explanation": "The Options Disclosure Document (ODD), titled 'Characteristics and Risks of Standardized Options,' must be delivered to the customer at or before the time the account is approved for options trading. This document describes the characteristics, risks, and mechanics of options trading and is published by the Options Clearing Corporation (OCC)."
+  },
+  {
+    "id": "series4-q003",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "An options principal must review options correspondence and advertising to ensure it is:",
+    "choices": ["A. Guaranteed to attract new clients", "B. Fair, balanced, and not misleading, with adequate disclosure of risks", "C. Focused only on the potential profits of options trading", "D. Distributed to all existing customers"],
+    "correct": 1,
+    "explanation": "Options communications must be fair, balanced, and not misleading. The ROP must ensure that all options advertising and correspondence presents risks alongside potential benefits, does not exaggerate returns, and complies with exchange and FINRA rules. Risk disclosure is especially critical for options communications."
+  },
+  {
+    "id": "series4-q004",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "An uncovered (naked) call writer faces:",
+    "choices": ["A. Limited risk equal to the premium received", "B. Unlimited potential loss", "C. Maximum loss equal to the strike price", "D. No risk if the option expires out of the money"],
+    "correct": 1,
+    "explanation": "An uncovered call writer has unlimited loss potential because the underlying security can theoretically rise without limit. If assigned, the writer must purchase the security at the market price and deliver it at the strike price. The loss equals the market price minus the strike price minus the premium received. This is the riskiest options strategy."
+  },
+  {
+    "id": "series4-q005",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "A married put strategy involves:",
+    "choices": ["A. Selling a put and a call on the same stock", "B. Buying stock and buying a put on that stock simultaneously for protection", "C. Writing a covered call", "D. Buying a straddle"],
+    "correct": 1,
+    "explanation": "A married put (protective put) involves purchasing stock and simultaneously buying a put option on that stock. The put acts as insurance against a decline in the stock price, limiting the downside risk to the put's strike price minus the premium paid. The investor retains unlimited upside potential."
+  },
+  {
+    "id": "series4-q006",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "Options account approval levels typically range from Level 1 (most conservative) to Level 4 (most aggressive). Which strategy would typically require the highest approval level?",
+    "choices": ["A. Covered call writing", "B. Long puts for hedging", "C. Uncovered (naked) options writing", "D. Buying calls for speculation"],
+    "correct": 2,
+    "explanation": "Uncovered (naked) options writing requires the highest approval level because it carries the greatest risk. Covered calls are typically Level 1, long options are Level 2, spreads are Level 3, and naked writing is Level 4. The ROP must ensure that customers are approved only for strategies consistent with their experience and risk tolerance."
+  },
+  {
+    "id": "series4-q007",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "A bull call spread involves:",
+    "choices": ["A. Buying a call with a lower strike and selling a call with a higher strike on the same underlying", "B. Selling a call with a lower strike and buying a call with a higher strike", "C. Buying a put and a call at the same strike", "D. Selling two calls at different expirations"],
+    "correct": 0,
+    "explanation": "A bull call spread (debit spread) involves buying a call with a lower strike price and selling a call with a higher strike price on the same underlying security with the same expiration. Maximum profit is the difference between strikes minus the net premium paid. Maximum loss is the net premium paid."
+  },
+  {
+    "id": "series4-q008",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "Position limits for options are established to:",
+    "choices": ["A. Guarantee profits for options traders", "B. Prevent any single entity from having undue influence over the market through excessive options positions", "C. Limit the number of options contracts available", "D. Set the maximum price for options"],
+    "correct": 1,
+    "explanation": "Position limits restrict the maximum number of options contracts on the same side of the market (bullish or bearish) that any person or group can hold. These limits prevent market manipulation and excessive concentration of risk. Exercise limits typically mirror position limits."
+  },
+  {
+    "id": "series4-q009",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "The Options Clearing Corporation (OCC) serves as:",
+    "choices": ["A. The regulator of all options exchanges", "B. The central counterparty that guarantees performance on all listed options contracts", "C. The broker-dealer that executes all options trades", "D. The advisor that recommends options strategies to investors"],
+    "correct": 1,
+    "explanation": "The OCC is the central clearing corporation for all listed options traded on U.S. exchanges. It serves as the counterparty (buyer to every seller and seller to every buyer) for all options contracts, guaranteeing performance. This eliminates counterparty risk and ensures contract settlement."
+  },
+  {
+    "id": "series4-q010",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "An ROP discovers that a registered representative has been recommending uncovered call writing to conservative, income-seeking clients. The ROP should:",
+    "choices": ["A. Allow the trades since they generate premium income", "B. Take immediate action to stop unsuitable recommendations and review affected accounts", "C. Congratulate the representative on generating revenue", "D. Wait until the end of the quarter to review"],
+    "correct": 1,
+    "explanation": "Uncovered call writing carries unlimited risk and is unsuitable for conservative, income-seeking clients. The ROP must take immediate supervisory action to stop the unsuitable recommendations, review all affected customer accounts for potential harm, and take appropriate disciplinary action against the representative."
+  },
+  {
+    "id": "series4-q011",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "A straddle involves:",
+    "choices": ["A. Buying a call and put with the same strike price and expiration on the same underlying", "B. Buying calls at two different strike prices", "C. Selling a covered call", "D. Buying stock and selling a put"],
+    "correct": 0,
+    "explanation": "A straddle involves simultaneously buying (long straddle) or selling (short straddle) a call and a put with the same strike price, expiration date, and underlying security. A long straddle profits from large price movements in either direction. A short straddle profits when the stock remains near the strike price."
+  },
+  {
+    "id": "series4-q012",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "Under Regulation T, the margin requirement for a long options position is:",
+    "choices": ["A. 25% of the option's market value", "B. 100% of the option's premium (full payment)", "C. 50% of the underlying stock's value", "D. No margin is required"],
+    "correct": 1,
+    "explanation": "Under Regulation T, buyers of options (long calls or long puts) must pay the full premium (100%) at the time of purchase. Options are not marginable for buyers because they have a fixed, limited life and could become worthless. However, writers (sellers) of options have margin requirements based on the strategy."
+  },
+  {
+    "id": "series4-q013",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "The options agreement must be returned by the customer within how many days of account approval?",
+    "choices": ["A. 5 days", "B. 10 days", "C. 15 days", "D. 30 days"],
+    "correct": 2,
+    "explanation": "The customer must sign and return the options agreement within 15 days after the account is approved for options trading. If the agreement is not returned within this period, the account is restricted to closing transactions only until the signed agreement is received."
+  },
+  {
+    "id": "series4-q014",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "An investor sells a cash-secured put. The maximum risk is:",
+    "choices": ["A. Unlimited", "B. The strike price minus the premium received (times 100 shares)", "C. The premium received", "D. The stock price at the time of sale"],
+    "correct": 1,
+    "explanation": "A cash-secured put writer deposits enough cash to purchase the stock if assigned. The maximum loss occurs if the stock falls to zero: the writer must buy at the strike price, having already received the premium. Maximum loss = (Strike Price - Premium) x 100 shares. The maximum gain is the premium received."
+  },
+  {
+    "id": "series4-q015",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "Exercise limits apply to:",
+    "choices": ["A. Only market makers", "B. All options holders during any five consecutive business days", "C. Only institutional investors", "D. Only options writers"],
+    "correct": 1,
+    "explanation": "Exercise limits restrict the number of options contracts that can be exercised by a single person or entity within any five consecutive business days. These limits correspond to position limits and prevent any single participant from having an outsized impact on the market through excessive exercises."
+  },
+  {
+    "id": "series4-q016",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "A branch office receives a customer complaint about an options trade. The ROP must:",
+    "choices": ["A. Destroy the complaint to protect the firm's reputation", "B. Document, investigate, and respond to the complaint in accordance with firm procedures and FINRA rules", "C. Ignore the complaint if the trade was profitable", "D. Transfer the complaint to another branch"],
+    "correct": 1,
+    "explanation": "All customer complaints must be documented, investigated, and responded to in accordance with the firm's procedures and FINRA rules. The ROP must ensure proper handling, which includes maintaining records of the complaint and the firm's response. FINRA Rule 4513 requires maintenance of a customer complaint file."
+  },
+  {
+    "id": "series4-q017",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "An iron condor strategy involves:",
+    "choices": ["A. Buying one call and one put", "B. Selling an out-of-the-money put spread and an out-of-the-money call spread simultaneously", "C. Buying a deep in-the-money call", "D. Writing an uncovered call and put at the same strike"],
+    "correct": 1,
+    "explanation": "An iron condor combines a short out-of-the-money put spread (bull put spread) with a short out-of-the-money call spread (bear call spread). The strategy profits when the underlying stays within a range defined by the short strikes. Maximum profit is the net credit received; maximum loss is limited by the long options."
+  },
+  {
+    "id": "series4-q018",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "LEAPS (Long-Term Equity Anticipation Securities) differ from standard options in that they:",
+    "choices": ["A. Have no expiration date", "B. Have expiration dates up to 3 years in the future", "C. Can only be written by institutional investors", "D. Are not cleared by the OCC"],
+    "correct": 1,
+    "explanation": "LEAPS are long-term options with expiration dates up to three years in the future, compared to standard options which typically expire within a few months. They are cleared by the OCC like standard options and are subject to the same regulatory requirements. LEAPS provide longer-term hedging and speculation opportunities."
+  },
+  {
+    "id": "series4-q019",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "An ROP must ensure that the firm's options sales literature includes:",
+    "choices": ["A. Guaranteed return projections", "B. A statement that options involve risk and may not be suitable for all investors", "C. Only success stories from options traders", "D. The firm's stock price"],
+    "correct": 1,
+    "explanation": "All options sales literature must include appropriate risk disclosures, stating that options involve risk and may not be suitable for all investors. The ROP must review and approve all options communications before use to ensure they are fair, balanced, not misleading, and contain adequate risk disclosure."
+  },
+  {
+    "id": "series4-q020",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "Time decay (theta) has the GREATEST impact on:",
+    "choices": ["A. Deep in-the-money options with long expiration", "B. At-the-money options near expiration", "C. Deep out-of-the-money options with long expiration", "D. All options equally"],
+    "correct": 1,
+    "explanation": "Time decay (theta) accelerates as options approach expiration, and its impact is greatest on at-the-money options. At-the-money options have the highest time value, so they lose the most value as expiration approaches. Deep in-the-money options have mostly intrinsic value, and deep out-of-the-money options have little value to lose."
+  },
+  {
+    "id": "series4-q021",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "Under CBOE rules, a customer's options account must be reviewed for suitability:",
+    "choices": ["A. Only at the time of account opening", "B. On an ongoing basis and whenever there is a material change in the customer's financial situation", "C. Every 5 years", "D. Only when the customer requests a review"],
+    "correct": 1,
+    "explanation": "Options account suitability must be reviewed on an ongoing basis, not just at account opening. The firm must update customer information periodically and whenever there is a known material change in the customer's financial situation, investment objectives, or risk tolerance. This ensures continued suitability of the account's options activity."
+  },
+  {
+    "id": "series4-q022",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "A discretionary options account requires:",
+    "choices": ["A. No special documentation", "B. Written authorization from the customer and approval and frequent review by the ROP", "C. Only verbal authorization from the customer", "D. Approval from the SEC"],
+    "correct": 1,
+    "explanation": "Discretionary options accounts require written authorization from the customer granting trading authority, approval by the ROP, and frequent supervisory review of trading activity. Each discretionary order must be identified as such. The ROP must monitor for excessive trading and ensure the activity is consistent with the customer's objectives."
+  },
+  {
+    "id": "series4-q023",
+    "topic": "series4-t2",
+    "topicName": "Options Strategies and Risk",
+    "question": "The maximum gain on a long put position is:",
+    "choices": ["A. Unlimited", "B. The strike price minus the premium paid (times 100)", "C. The premium paid", "D. The current stock price"],
+    "correct": 1,
+    "explanation": "The maximum gain on a long put occurs when the underlying stock falls to zero. The gain equals the strike price minus the premium paid (times 100 shares per contract). For example, a long put at strike 50 with premium of 3 has a maximum gain of ($50 - $3) x 100 = $4,700."
+  },
+  {
+    "id": "series4-q024",
+    "topic": "series4-t3",
+    "topicName": "Options Compliance",
+    "question": "An options report showing a large concentration of positions in a single underlying security should trigger:",
+    "choices": ["A. Automatic account closure", "B. Supervisory review to assess concentration risk and compliance with position limits", "C. A congratulatory message to the customer", "D. No action unless the positions lose money"],
+    "correct": 1,
+    "explanation": "Large concentrated options positions should trigger supervisory review by the ROP to assess concentration risk, verify compliance with position and exercise limits, evaluate suitability, and determine whether the positions pose undue risk to the customer or the firm. Proactive monitoring of large positions is a key supervisory obligation."
+  },
+  {
+    "id": "series4-q025",
+    "topic": "series4-t1",
+    "topicName": "Options Supervision",
+    "question": "Index options differ from equity options in that:",
+    "choices": ["A. They expire on Fridays", "B. They are settled in cash rather than by delivery of the underlying security", "C. They have no expiration date", "D. They can only be traded by institutional investors"],
+    "correct": 1,
+    "explanation": "Index options are settled in cash rather than by physical delivery of securities. When an index option is exercised, the holder receives the cash difference between the strike price and the index value. This is because it is impractical to deliver all the component securities of an index. Equity options are settled by delivery of the underlying stock."
+  }
+]

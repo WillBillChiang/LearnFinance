@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 4 Chapter 2: Options Trading Supervision — Order handling best practices, execution quality monitoring, strategy review, and trade record retention obligations.">
+  <title>Options Trading Supervision — Series 4 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series4" data-chapter="options-trading-supervision">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a>
+      <nav class="nav-desktop" aria-label="Main navigation"><ul class="nav-desktop__list"><li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="nav-desktop__link">Exams</a></li><li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li><li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li><li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li><li><a href="../../progress/" class="nav-desktop__link">Progress</a></li></ul></nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><ul class="mobile-nav__list"><li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="mobile-nav__link">Exams</a></li><li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li><li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li><li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li><li><a href="../../progress/" class="mobile-nav__link">Progress</a></li></ul></nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-principal">Chapter 2</span>
+          <h1>Options Trading Supervision</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 30 min read</span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Series 4</span>
+          </div>
+        </div>
+
+        <section class="lesson__section" id="order-handling">
+          <h2>Order Handling and Execution</h2>
+
+          <p>The Registered Options Principal must supervise order handling to ensure that customer orders are executed promptly, accurately, and in accordance with applicable exchange rules. Options order handling has unique characteristics compared to equity orders, including the need to manage complex multi-leg strategies, time-sensitive expirations, and the interaction between options and underlying securities.</p>
+
+          <p>Options exchanges use a combination of electronic trading systems and market makers (also called specialists or designated primary market makers, depending on the exchange) to facilitate order execution. The ROP must understand how orders flow through these systems and where supervisory attention is most needed.</p>
+
+          <h3>Order Types in Options Trading</h3>
+
+          <p>The ROP must ensure that representatives and traders properly utilize the various order types available for options trading:</p>
+
+          <ul>
+            <li><strong>Market Orders:</strong> Executed immediately at the best available price. In options, market orders can be risky because bid-ask spreads may be wide, especially for illiquid options. The ROP should monitor for excessive use of market orders in illiquid series.</li>
+            <li><strong>Limit Orders:</strong> Specify a maximum purchase price or minimum sale price. Most options orders are limit orders due to the wide spreads common in options markets.</li>
+            <li><strong>Stop Orders:</strong> Become market orders when a specified price is reached. Not all exchanges accept stop orders for options.</li>
+            <li><strong>Spread Orders:</strong> Simultaneous buy and sell of related options. Can be executed at a net debit or credit price. The ROP must ensure that spread orders are properly marked and meet the firm's criteria for the customer's trading level.</li>
+            <li><strong>Straddle and Strangle Orders:</strong> Multi-leg orders that combine calls and puts. Require higher trading level approval.</li>
+            <li><strong>Contingency Orders:</strong> Orders whose execution depends on another event or condition. These require careful supervision to ensure proper execution.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Spread Order:</strong> A multi-leg options order that involves simultaneously buying and selling options on the same underlying security. Spreads can be vertical (different strikes, same expiration), horizontal (same strike, different expirations), or diagonal (different strikes and expirations). The net premium paid or received is called the spread's debit or credit.</p>
+            </div>
+          </div>
+
+          <h3>Best Execution Obligations</h3>
+
+          <p>Under FINRA Rule 5310, broker-dealers have a best execution obligation: they must use reasonable diligence to determine the best market for a security and execute orders at the most favorable terms reasonably available. For options, this means considering:</p>
+
+          <ul>
+            <li>The quoted prices on multiple exchanges (many options are multiply listed)</li>
+            <li>The size of the order relative to available liquidity</li>
+            <li>Market conditions at the time of execution</li>
+            <li>The speed of execution</li>
+            <li>The likelihood of execution at the quoted price</li>
+          </ul>
+
+          <p>Options are traded on multiple exchanges (CBOE, NYSE Arca, NASDAQ PHLX, ISE, MIAX, among others), and the same option may be quoted at different prices on different exchanges. The ROP must ensure the firm has procedures for order routing that seek the best available price across all venues.</p>
+        </section>
+
+        <section class="lesson__section" id="strategy-review">
+          <h2>Strategy Review and Monitoring</h2>
+
+          <p>The ROP must monitor customer trading activity for appropriateness and compliance on an ongoing basis. This includes reviewing trading patterns, strategy usage, and potential violations of trading level restrictions.</p>
+
+          <h3>Key Monitoring Areas</h3>
+
+          <ul>
+            <li><strong>Trading Level Compliance:</strong> Ensuring customers only execute strategies permitted at their approved level. A customer approved for Level 2 (long options only) must not execute uncovered writes.</li>
+            <li><strong>Pattern Analysis:</strong> Reviewing for excessive trading (churning), unsuitable strategies, or patterns that suggest the customer may not understand the risks of their activity.</li>
+            <li><strong>Concentrated Positions:</strong> Monitoring for situations where a customer has a disproportionately large position in a single underlying security or a single options series.</li>
+            <li><strong>Expiration Activity:</strong> Heightened supervision during expiration weeks, when customer communication about expiring positions, exercise decisions, and settlement obligations is critical.</li>
+            <li><strong>Complex Strategy Execution:</strong> Reviewing multi-leg orders and complex strategies to ensure they are properly constructed and within the customer's approved level.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 4 exam frequently tests the ROP's obligation regarding <strong>discretionary accounts</strong>. Every discretionary options order must be reviewed and approved by the ROP <strong>promptly</strong> -- typically defined as the same day the order is executed or by the next business day. Frequent options trading in discretionary accounts requires enhanced monitoring for suitability.</p>
+            </div>
+          </div>
+
+          <h3>Record Retention for Options</h3>
+
+          <p>The ROP must ensure that the firm maintains comprehensive records of all options-related activities. Under SEC Rule 17a-4 and exchange rules, key records include:</p>
+
+          <ul>
+            <li>Options account applications and approval documentation</li>
+            <li>Evidence of ODD delivery</li>
+            <li>Signed options agreements</li>
+            <li>Order tickets with all required information (time received, time executed, strategy type, customer instructions)</li>
+            <li>Customer confirmations</li>
+            <li>Account statements showing options positions</li>
+            <li>Customer correspondence related to options</li>
+            <li>Exception reports and supervisory review documentation</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Record Type</th>
+                  <th>Retention Period</th>
+                  <th>Format</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Account applications</td>
+                  <td class="compare-table__cell">6 years after account closed</td>
+                  <td class="compare-table__cell">Electronic or physical</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Order tickets</td>
+                  <td class="compare-table__cell">6 years</td>
+                  <td class="compare-table__cell">Electronic or physical</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Customer confirmations</td>
+                  <td class="compare-table__cell">6 years</td>
+                  <td class="compare-table__cell">Electronic or physical</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Customer correspondence</td>
+                  <td class="compare-table__cell">3 years</td>
+                  <td class="compare-table__cell">Electronic or physical</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Advertising materials</td>
+                  <td class="compare-table__cell">3 years from last use</td>
+                  <td class="compare-table__cell">Electronic or physical</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The ROP's supervisory role extends beyond initial account approval. Ongoing monitoring of trading activity, execution quality, and compliance with trading level restrictions is essential. The ROP should use exception-based reports to identify accounts requiring heightened attention, including accounts with concentrated positions, frequent trading, or strategies that approach or exceed the customer's risk tolerance.</p>
+            </div>
+          </div>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>ROP monitoring: <strong>"CLEPS"</strong> = <strong>C</strong>ompliance with trading levels, <strong>L</strong>evels of activity (churning), <strong>E</strong>xpiration activity, <strong>P</strong>osition concentrations, <strong>S</strong>trategy appropriateness. Review CLEPS daily to stay on top of your supervisory obligations.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Check Your Understanding</h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of options trading supervision. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Under best execution obligations, the ROP must ensure the firm considers:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Prices available across all exchanges where the option is listed</button>
+              <button class="answer-btn" data-correct="false">B) Only the firm's preferred exchange</button>
+              <button class="answer-btn" data-correct="false">C) The exchange with the highest volume</button>
+              <button class="answer-btn" data-correct="false">D) Only the CBOE</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Best execution under FINRA Rule 5310 requires the firm to use reasonable diligence to determine the best market for a security. Since many options are multiply listed on several exchanges, the firm must consider prices across all venues where the option trades.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. A discretionary options order must be reviewed by the ROP:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Promptly, typically the same day or next business day</button>
+              <button class="answer-btn" data-correct="false">B) Within 5 business days</button>
+              <button class="answer-btn" data-correct="false">C) Before the order is executed</button>
+              <button class="answer-btn" data-correct="false">D) At the end of each month</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Discretionary options orders must be reviewed and approved by the ROP promptly after execution, typically the same day or by the next business day. This ensures timely supervisory oversight of discretionary trading activity.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Which order type is most commonly used for options transactions due to wide bid-ask spreads?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Market orders</button>
+              <button class="answer-btn" data-correct="true">B) Limit orders</button>
+              <button class="answer-btn" data-correct="false">C) Stop orders</button>
+              <button class="answer-btn" data-correct="false">D) Fill-or-kill orders</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Limit orders are most commonly used for options transactions because bid-ask spreads in options can be significantly wider than in equities. Limit orders protect customers from unfavorable executions caused by wide spreads, especially in illiquid option series.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Customer correspondence related to options must be retained for:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) 3 years</button>
+              <button class="answer-btn" data-correct="false">B) 4 years</button>
+              <button class="answer-btn" data-correct="false">C) 6 years</button>
+              <button class="answer-btn" data-correct="false">D) 7 years</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Customer correspondence related to options must be retained for 3 years. This is shorter than the 6-year retention period for account applications, order tickets, and confirmations.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Which of the following would require the MOST heightened supervision by the ROP?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) A customer purchasing protective puts on existing stock positions</button>
+              <button class="answer-btn" data-correct="false">B) A customer writing covered calls on a large equity portfolio</button>
+              <button class="answer-btn" data-correct="true">C) Frequent trading in a discretionary account with concentrated uncovered positions</button>
+              <button class="answer-btn" data-correct="false">D) A customer purchasing long calls with a small percentage of net worth</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Frequent trading in a discretionary account with concentrated uncovered positions combines three high-risk factors: discretionary authority, potential churning, and unlimited loss exposure. This scenario requires the highest level of supervisory attention from the ROP.</div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Mark Chapter Complete</button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="options-account-supervision.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span>
+            <div><span class="lesson__nav-label">Previous Chapter</span><span class="lesson__nav-title">Chapter 1 — Options Account Supervision</span></div>
+          </a>
+          <a href="exercise-assignment.html" class="lesson__nav-link lesson__nav-link--next">
+            <div><span class="lesson__nav-label">Next Chapter</span><span class="lesson__nav-title">Chapter 3 — Exercise &amp; Assignment</span></div>
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc"><p class="lesson__toc-title">On This Page</p><ul class="lesson__toc-list"></ul></aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a><p class="footer__tagline">Free exam prep for every aspiring finance professional.</p></div>
+        <div class="footer__col"><h4 class="footer__col-title">Exams</h4><ul class="footer__links"><li><a href="../../exams/sie.html">SIE</a></li><li><a href="../../exams/series7.html">Series 7</a></li><li><a href="../../exams/series63.html">Series 63</a></li><li><a href="../../exams/series65.html">Series 65</a></li><li><a href="../../exams/series66.html">Series 66</a></li><li><a href="../../exams/">View All Exams</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Tools</h4><ul class="footer__links"><li><a href="../../learn/">Learn</a></li><li><a href="../../quiz/">Practice Quizzes</a></li><li><a href="../../flashcards/">Flashcards</a></li><li><a href="../../pathways/">Career Pathways</a></li><li><a href="../../progress/">Progress Tracker</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">About</h4><ul class="footer__links"><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../privacy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms of Use</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p></div>
+      <div class="footer__bottom"><p>&copy; 2026 LearnFinance. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

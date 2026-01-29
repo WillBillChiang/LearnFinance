@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series86-87-q001",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "A research analyst's primary obligation when publishing a research report is to:",
+    "choices": ["A. Ensure the report generates maximum trading volume", "B. Provide an objective, fair, and honest analysis based on reasonable investigation", "C. Support the firm's investment banking relationships", "D. Recommend only securities the firm underwrites"],
+    "correct": 1,
+    "explanation": "Research analysts must provide objective, fair, and honest analysis based on reasonable investigation and due diligence. FINRA Rule 2241 requires that research reports have a reasonable basis and that analysts not subordinate their judgment to investment banking interests. Objectivity and independence are fundamental to research integrity."
+  },
+  {
+    "id": "series86-87-q002",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "Under FINRA rules, a research analyst must disclose in their report if:",
+    "choices": ["A. They attended the company's investor day", "B. They or their firm have a financial interest in the subject company", "C. They previously worked in a different industry", "D. They hold a CFA designation"],
+    "correct": 1,
+    "explanation": "FINRA Rule 2241 requires disclosure of conflicts of interest, including whether the analyst or firm owns securities of the subject company, whether the firm has received investment banking compensation from the company, and whether the analyst received compensation related to investment banking activities. These disclosures help investors evaluate the analyst's objectivity."
+  },
+  {
+    "id": "series86-87-q003",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "The price-to-earnings (P/E) ratio is calculated by dividing:",
+    "choices": ["A. Earnings per share by the stock price", "B. The stock price by earnings per share", "C. Total revenue by net income", "D. Market capitalization by total assets"],
+    "correct": 1,
+    "explanation": "The P/E ratio is calculated by dividing the current stock price by the earnings per share (EPS). It indicates how much investors are willing to pay for each dollar of earnings. A higher P/E may suggest higher growth expectations, while a lower P/E may indicate value or lower growth prospects."
+  },
+  {
+    "id": "series86-87-q004",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "The dividend discount model (DDM) is most appropriate for valuing:",
+    "choices": ["A. High-growth technology companies that do not pay dividends", "B. Mature companies with stable and predictable dividend payments", "C. Companies in bankruptcy", "D. Companies with highly volatile earnings"],
+    "correct": 1,
+    "explanation": "The DDM values a stock based on the present value of expected future dividends. It is most appropriate for mature companies with stable, predictable dividend payments and consistent payout ratios. It is less suitable for companies that do not pay dividends or have highly unpredictable earnings."
+  },
+  {
+    "id": "series86-87-q005",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "A company has EPS of $3.00, a P/E ratio of 20x, and 50 million shares outstanding. What is the implied market capitalization?",
+    "choices": ["A. $1.5 billion", "B. $3.0 billion", "C. $6.0 billion", "D. $150 million"],
+    "correct": 1,
+    "explanation": "Implied stock price = EPS x P/E = $3.00 x 20 = $60. Market capitalization = Stock price x Shares outstanding = $60 x 50 million = $3.0 billion. This shows how P/E multiples translate to company valuations."
+  },
+  {
+    "id": "series86-87-q006",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "A 'quiet period' restriction requires that research analysts:",
+    "choices": ["A. Not publish any research for the entire year", "B. Not publish research on a company for a specified period around an investment banking transaction", "C. Only publish positive research reports", "D. Not communicate with the company's management"],
+    "correct": 1,
+    "explanation": "Under FINRA Rule 2241, quiet period restrictions prevent research analysts from publishing research reports on a company for specified periods around investment banking transactions. Members that participated as underwriter or dealer in an IPO must observe a minimum 10-calendar-day quiet period; for secondary offerings, managers and co-managers must observe a 3-day quiet period. These restrictions do not apply to Emerging Growth Companies (EGCs) or covered investment funds. This protects research integrity and prevents the appearance that research is promoting the firm's investment banking deals."
+  },
+  {
+    "id": "series86-87-q007",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "The Gordon Growth Model assumes that dividends grow at:",
+    "choices": ["A. A variable rate that increases over time", "B. A constant rate indefinitely", "C. Zero percent forever", "D. The rate of inflation only"],
+    "correct": 1,
+    "explanation": "The Gordon Growth Model (a constant-growth DDM) assumes that dividends grow at a constant rate indefinitely. The formula is: Stock Value = D1 / (k - g), where D1 is the expected next dividend, k is the required rate of return, and g is the constant growth rate. The growth rate must be less than the required return."
+  },
+  {
+    "id": "series86-87-q008",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "The return on equity (ROE) is calculated as:",
+    "choices": ["A. Net income divided by total assets", "B. Net income divided by shareholders' equity", "C. Operating income divided by total revenue", "D. EBITDA divided by total debt"],
+    "correct": 1,
+    "explanation": "Return on Equity (ROE) = Net Income / Shareholders' Equity. It measures how effectively management is using shareholders' capital to generate profits. A higher ROE generally indicates more efficient use of equity capital. ROE can be decomposed using the DuPont analysis into profit margin, asset turnover, and financial leverage."
+  },
+  {
+    "id": "series86-87-q009",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "The DuPont analysis breaks down ROE into three components:",
+    "choices": ["A. Revenue growth, cost reduction, and market share", "B. Profit margin, asset turnover, and financial leverage", "C. P/E ratio, dividend yield, and earnings growth", "D. Current ratio, quick ratio, and debt ratio"],
+    "correct": 1,
+    "explanation": "The DuPont analysis decomposes ROE into: Profit Margin (Net Income/Revenue) x Asset Turnover (Revenue/Total Assets) x Financial Leverage (Total Assets/Equity). This framework helps analysts identify whether ROE is driven by profitability, efficiency, or leverage, providing deeper insight into a company's financial performance."
+  },
+  {
+    "id": "series86-87-q010",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "A company's current ratio is 2.5:1. This indicates that:",
+    "choices": ["A. The company has $2.50 in current assets for every $1 of current liabilities", "B. The company's debt is 2.5 times its equity", "C. The company's revenue is 2.5 times its expenses", "D. The company's stock price is 2.5 times its book value"],
+    "correct": 0,
+    "explanation": "The current ratio (Current Assets / Current Liabilities) of 2.5:1 means the company has $2.50 in current assets for every $1 of current liabilities. This liquidity ratio indicates the company's ability to meet short-term obligations. A ratio above 1.0 suggests the company can cover its short-term liabilities."
+  },
+  {
+    "id": "series86-87-q011",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "Under FINRA Rule 2241, investment banking personnel may NOT:",
+    "choices": ["A. Attend meetings with issuers", "B. Review or approve research reports before publication or direct the content of research", "C. Read published research reports", "D. Work in the same building as research analysts"],
+    "correct": 1,
+    "explanation": "FINRA Rule 2241 prohibits investment banking personnel from reviewing, approving, or directing the content of research reports before publication. This separation (known as an information barrier) protects research independence and prevents investment banking interests from influencing research recommendations."
+  },
+  {
+    "id": "series86-87-q012",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "Enterprise Value/EBITDA is preferred over P/E for comparing companies because:",
+    "choices": ["A. EBITDA is always larger than net income", "B. EV/EBITDA is unaffected by differences in capital structure, tax rates, and depreciation", "C. P/E is not used by professional investors", "D. EBITDA includes interest and taxes"],
+    "correct": 1,
+    "explanation": "EV/EBITDA is capital-structure neutral (because EV accounts for both debt and equity, and EBITDA is pre-interest), tax-rate neutral (EBITDA is pre-tax), and not affected by depreciation policies. This makes it ideal for comparing companies with different financing structures, tax situations, and capital intensity."
+  },
+  {
+    "id": "series86-87-q013",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "Free cash flow (FCF) is important to analysts because it represents:",
+    "choices": ["A. The company's total revenue", "B. Cash available to be distributed to capital providers after maintaining and expanding the asset base", "C. The total amount of dividends declared", "D. The balance in the company's bank accounts"],
+    "correct": 1,
+    "explanation": "Free cash flow represents the cash generated by operations after capital expenditures needed to maintain and grow the business. It is the cash available for distribution to shareholders (dividends, buybacks), debt repayment, and strategic investments. FCF is often considered a more reliable measure than earnings because it is harder to manipulate."
+  },
+  {
+    "id": "series86-87-q014",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "When performing a sum-of-the-parts (SOTP) valuation, an analyst:",
+    "choices": ["A. Uses a single multiple for the entire company", "B. Values each business segment separately and adds them together to derive total enterprise value", "C. Only values the largest segment", "D. Ignores corporate overhead costs"],
+    "correct": 1,
+    "explanation": "Sum-of-the-parts valuation involves valuing each of a diversified company's business segments independently using appropriate multiples or DCF for each segment, then summing the values. This approach is particularly useful for conglomerates or companies with distinct business lines that trade at different industry multiples."
+  },
+  {
+    "id": "series86-87-q015",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "An analyst's compensation may NOT be directly tied to:",
+    "choices": ["A. The overall profitability of the firm", "B. Specific investment banking transactions involving companies they cover", "C. The accuracy of their earnings estimates over time", "D. Client feedback on their research quality"],
+    "correct": 1,
+    "explanation": "Under FINRA Rule 2241, a research analyst's compensation may not be directly or indirectly linked to specific investment banking transactions. This prevents the conflict of interest where an analyst might issue favorable research to help win investment banking business. Compensation may be based on overall firm profitability or research quality."
+  },
+  {
+    "id": "series86-87-q016",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "A company changes its depreciation method from accelerated to straight-line. This change will likely:",
+    "choices": ["A. Decrease reported earnings in the short term", "B. Increase reported earnings in the short term by reducing depreciation expense", "C. Have no effect on reported earnings", "D. Increase cash flow from operations"],
+    "correct": 1,
+    "explanation": "Switching from accelerated to straight-line depreciation reduces depreciation expense in the near term (since accelerated methods front-load depreciation). This increases reported earnings but does not change actual cash flows. Analysts should adjust for such accounting changes when comparing performance across periods or companies."
+  },
+  {
+    "id": "series86-87-q017",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "The PEG ratio (P/E to Growth) is calculated as:",
+    "choices": ["A. Stock price divided by revenue growth", "B. P/E ratio divided by the expected earnings growth rate", "C. EPS divided by the dividend growth rate", "D. Market cap divided by EBITDA growth"],
+    "correct": 1,
+    "explanation": "The PEG ratio = P/E ratio / Expected EPS growth rate. A PEG of 1.0 suggests the stock is fairly valued relative to its growth rate. A PEG below 1.0 may indicate undervaluation, while above 1.0 may suggest overvaluation. The PEG ratio helps compare companies with different growth rates."
+  },
+  {
+    "id": "series86-87-q018",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "Earnings quality is considered HIGH when:",
+    "choices": ["A. Earnings are primarily from one-time gains", "B. Operating cash flow closely tracks reported earnings and earnings are from recurring operations", "C. The company uses aggressive accounting assumptions", "D. Earnings include significant non-cash revenue recognition"],
+    "correct": 1,
+    "explanation": "High earnings quality is characterized by earnings that closely match operating cash flows, come from recurring core business operations, and are based on conservative accounting assumptions. Low quality earnings may include one-time gains, aggressive revenue recognition, or a significant gap between net income and operating cash flow."
+  },
+  {
+    "id": "series86-87-q019",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "A research report must include which of the following?",
+    "choices": ["A. The analyst's personal stock portfolio", "B. A price target guaranteed by the firm", "C. The definition of each rating category used and the distribution of ratings", "D. The firm's total revenue from investment banking"],
+    "correct": 2,
+    "explanation": "FINRA Rule 2241 requires research reports to include the definition of each rating category (e.g., buy, hold, sell) and the percentage of the firm's coverage universe in each category. This helps investors understand the rating system and whether the firm is disproportionately issuing buy recommendations."
+  },
+  {
+    "id": "series86-87-q020",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "In a two-stage dividend discount model, the analyst projects:",
+    "choices": ["A. Constant dividend growth forever", "B. A high-growth phase followed by a stable-growth phase that continues indefinitely", "C. Declining dividends until the company is liquidated", "D. Zero dividends for the first stage and then constant dividends"],
+    "correct": 1,
+    "explanation": "The two-stage DDM projects dividends in two phases: a high-growth phase (typically 5-10 years) where dividends grow at an above-average rate, followed by a terminal stable-growth phase where dividends grow at a sustainable rate indefinitely. This model is more flexible than the constant-growth DDM for companies transitioning between growth stages."
+  },
+  {
+    "id": "series86-87-q021",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "The debt-to-equity ratio of a company is 1.5:1. This means:",
+    "choices": ["A. The company has $1.50 in equity for every $1 of debt", "B. The company has $1.50 in total debt for every $1 of shareholders' equity", "C. The company's assets are 1.5 times its liabilities", "D. The company pays 1.5% interest on its debt"],
+    "correct": 1,
+    "explanation": "A debt-to-equity ratio of 1.5:1 means the company has $1.50 of total debt for every $1.00 of shareholders' equity. This leverage ratio measures the extent to which a company is financed by debt versus equity. Higher ratios indicate more financial leverage and potentially greater financial risk."
+  },
+  {
+    "id": "series86-87-q022",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "question": "The Global Research Analyst Settlement of 2003 addressed:",
+    "choices": ["A. Insider trading by retail investors", "B. Conflicts of interest between research and investment banking at major firms", "C. Accounting fraud at Enron", "D. Market manipulation by hedge funds"],
+    "correct": 1,
+    "explanation": "The Global Research Analyst Settlement addressed conflicts of interest at major Wall Street firms where research analysts were pressured to issue favorable research to help win investment banking business. The settlement imposed structural reforms, fines, and requirements for independent research, leading to significant improvements in research independence."
+  },
+  {
+    "id": "series86-87-q023",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "A residual income model values a company based on:",
+    "choices": ["A. Only projected dividends", "B. Book value of equity plus the present value of expected excess returns above the cost of equity", "C. Historical stock prices", "D. Total revenue growth rate"],
+    "correct": 1,
+    "explanation": "The residual income model values equity as book value plus the present value of future residual income (earnings in excess of the required return on equity). Residual income = Net Income - (Equity x Cost of Equity). This model is useful when a company does not pay dividends or when cash flows are difficult to predict."
+  },
+  {
+    "id": "series86-87-q024",
+    "topic": "series86-87-t3",
+    "topicName": "Financial Statement Analysis",
+    "question": "An increasing accounts receivable days ratio may indicate:",
+    "choices": ["A. The company is collecting payments faster", "B. The company is having difficulty collecting payments or may be recognizing revenue aggressively", "C. The company has increased its cash position", "D. The company has reduced its sales"],
+    "correct": 1,
+    "explanation": "An increasing accounts receivable days (Days Sales Outstanding) ratio suggests the company is taking longer to collect payments from customers. This could indicate deteriorating credit quality of customers, more lenient credit terms, or aggressive revenue recognition where sales are recorded before cash collection is reasonably assured."
+  },
+  {
+    "id": "series86-87-q025",
+    "topic": "series86-87-t2",
+    "topicName": "Equity Valuation",
+    "question": "When applying a discount for lack of marketability (DLOM) in a valuation, the analyst is adjusting for:",
+    "choices": ["A. The company's declining revenue", "B. The inability to easily sell or convert the security to cash due to lack of a public trading market", "C. The company's high debt levels", "D. Seasonal fluctuations in the stock price"],
+    "correct": 1,
+    "explanation": "A discount for lack of marketability (DLOM) is applied to reflect the reduced value of securities that cannot be easily sold in a public market. Private company shares or restricted stock typically receive a DLOM because investors cannot readily liquidate their positions. The discount compensates for the illiquidity risk."
+  }
+]

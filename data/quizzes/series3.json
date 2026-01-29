@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series3-q001",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "A futures contract is a standardized agreement to:",
+    "choices": ["A. Purchase an option on a commodity", "B. Buy or sell a specific quantity of a commodity at a predetermined price on a future delivery date", "C. Invest in a mutual fund that holds commodities", "D. Borrow money using commodities as collateral"],
+    "correct": 1,
+    "explanation": "A futures contract is a standardized, exchange-traded agreement obligating the buyer to purchase and the seller to deliver a specific quantity and quality of a commodity (or financial instrument) at a predetermined price on a specified future delivery date. Unlike options, futures contracts carry obligations for both parties."
+  },
+  {
+    "id": "series3-q002",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Initial margin in futures trading represents:",
+    "choices": ["A. A loan from the broker", "B. A good faith deposit (performance bond) required to open a futures position", "C. The total cost of the futures contract", "D. The maximum potential loss"],
+    "correct": 1,
+    "explanation": "Initial margin in futures trading is a good faith deposit (performance bond) required to open a position. It is typically 3-12% of the contract's total value. Unlike stock margin, futures margin is not a loan; it is a deposit ensuring the trader can meet their contractual obligations. The margin is set by the exchange."
+  },
+  {
+    "id": "series3-q003",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "A trader who is 'long' a corn futures contract expects:",
+    "choices": ["A. Corn prices to decrease", "B. Corn prices to increase", "C. Corn prices to remain unchanged", "D. Corn to be delivered immediately"],
+    "correct": 1,
+    "explanation": "A long futures position (buyer) profits when prices increase. The trader has agreed to buy corn at the contract price, so rising prices mean they can sell at a higher price for a profit. Conversely, a short futures position (seller) profits when prices decrease."
+  },
+  {
+    "id": "series3-q004",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "A wheat farmer who wants to protect against falling wheat prices should:",
+    "choices": ["A. Buy wheat futures contracts (go long)", "B. Sell wheat futures contracts (go short)", "C. Buy wheat call options", "D. Buy more wheat seeds"],
+    "correct": 1,
+    "explanation": "A wheat farmer (who will sell wheat at harvest) should sell wheat futures contracts (short hedge) to lock in a selling price. If wheat prices fall, the profit on the short futures position offsets the lower cash market price. This is a classic short hedge used by producers to protect against price declines."
+  },
+  {
+    "id": "series3-q005",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "A cereal manufacturer who needs to purchase wheat in three months should:",
+    "choices": ["A. Sell wheat futures (go short)", "B. Buy wheat futures (go long) to lock in the purchase price", "C. Wait and buy at the current spot price", "D. Buy put options on wheat"],
+    "correct": 1,
+    "explanation": "A cereal manufacturer (who will buy wheat) should buy wheat futures contracts (long hedge) to lock in a purchase price. If wheat prices rise, the profit on the long futures position offsets the higher cash market price. This is a classic long hedge used by consumers/end users to protect against price increases."
+  },
+  {
+    "id": "series3-q006",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Daily settlement (mark-to-market) in futures trading means:",
+    "choices": ["A. All contracts expire daily", "B. Gains and losses are settled at the end of each trading day and credited or debited to margin accounts", "C. Traders must close all positions by the end of each day", "D. Contract prices are fixed for the entire day"],
+    "correct": 1,
+    "explanation": "Mark-to-market is the daily settlement process where futures positions are revalued at the end of each trading day. Gains are credited and losses are debited to the trader's margin account. If the account falls below the maintenance margin level, the trader receives a margin call and must deposit additional funds."
+  },
+  {
+    "id": "series3-q007",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "The maintenance margin in futures is the minimum amount that must be maintained in the margin account. If the account falls below this level:",
+    "choices": ["A. The position is automatically closed", "B. The trader receives a margin call and must restore the account to the initial margin level", "C. The exchange lends the trader money", "D. No action is required until the contract expires"],
+    "correct": 1,
+    "explanation": "When a margin account falls below the maintenance margin level, the trader receives a margin call requiring them to deposit sufficient funds to bring the account back to the initial margin level (not just the maintenance level). If the margin call is not met, the broker may liquidate the position."
+  },
+  {
+    "id": "series3-q008",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "The Commodity Futures Trading Commission (CFTC) is the primary regulator of:",
+    "choices": ["A. The stock market", "B. Commodity futures, options on futures, and swaps markets", "C. Municipal securities", "D. Mutual funds"],
+    "correct": 1,
+    "explanation": "The CFTC is the independent federal agency that regulates the U.S. commodity futures, options on futures, and swaps markets. It was created by the Commodity Futures Trading Commission Act of 1974. The CFTC's mission is to promote market integrity, protect market participants, and prevent fraud and manipulation."
+  },
+  {
+    "id": "series3-q009",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "The National Futures Association (NFA) serves as:",
+    "choices": ["A. A government agency", "B. The self-regulatory organization for the U.S. derivatives industry", "C. A commodity exchange", "D. A clearinghouse for futures contracts"],
+    "correct": 1,
+    "explanation": "The NFA is the self-regulatory organization (SRO) for the U.S. derivatives industry, including futures, options on futures, and retail forex. The NFA registers industry participants, enforces compliance, provides arbitration services, and works to protect market participants. Membership is mandatory for most industry participants."
+  },
+  {
+    "id": "series3-q010",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "Basis in futures trading is defined as:",
+    "choices": ["A. The total value of the futures contract", "B. The difference between the cash (spot) price and the futures price", "C. The initial margin requirement", "D. The commission charged by the broker"],
+    "correct": 1,
+    "explanation": "Basis = Cash price - Futures price. Basis can be positive (backwardation) or negative (contango). Hedgers are concerned with basis risk because changes in the basis affect the effectiveness of the hedge. Basis typically converges to zero as the futures contract approaches expiration."
+  },
+  {
+    "id": "series3-q011",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Contango in the futures market describes a situation where:",
+    "choices": ["A. Futures prices are lower than the spot price", "B. Futures prices are higher than the spot price, with prices increasing for more distant delivery months", "C. All futures prices are equal", "D. The market is closed for trading"],
+    "correct": 1,
+    "explanation": "Contango is a market condition where futures prices are higher than the current spot price and increase for more distant delivery months. This typically reflects carrying costs (storage, insurance, financing). The opposite condition is backwardation, where futures prices are below the spot price."
+  },
+  {
+    "id": "series3-q012",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "A spread trade in futures involves:",
+    "choices": ["A. Buying one futures contract and simultaneously selling a related futures contract", "B. Buying only call options", "C. Selling futures on margin", "D. Purchasing the physical commodity"],
+    "correct": 0,
+    "explanation": "A spread trade involves simultaneously buying one futures contract and selling a related futures contract. Common spreads include calendar spreads (same commodity, different months), inter-commodity spreads (different but related commodities), and inter-market spreads (same commodity, different exchanges). Spreads typically have lower risk and lower margin requirements."
+  },
+  {
+    "id": "series3-q013",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "A Futures Commission Merchant (FCM) is:",
+    "choices": ["A. A trader who speculates in commodity markets", "B. A firm that solicits or accepts orders for futures contracts and accepts payment/margin from customers", "C. A commodity producer", "D. A government regulator"],
+    "correct": 1,
+    "explanation": "A Futures Commission Merchant (FCM) is a firm that solicits or accepts orders to buy or sell futures contracts, commodity options, or swaps and accepts money or property as margin. FCMs must be registered with the CFTC and NFA. They play a role similar to broker-dealers in the securities industry."
+  },
+  {
+    "id": "series3-q014",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Most futures contracts are settled by:",
+    "choices": ["A. Physical delivery of the commodity", "B. Offset (closing out the position before expiration)", "C. Exchange of futures for physicals", "D. Conversion to options"],
+    "correct": 1,
+    "explanation": "The vast majority (approximately 97-98%) of futures contracts are settled by offset, meaning the trader takes an equal and opposite position before expiration to close out their original position. For example, a trader who bought (long) a contract would sell (short) the same contract to close the position."
+  },
+  {
+    "id": "series3-q015",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "A short hedge would be used by:",
+    "choices": ["A. An investor who expects gold prices to rise", "B. A producer or owner of a commodity who wants to protect against price declines", "C. A speculator betting on higher oil prices", "D. A consumer of raw materials expecting price increases"],
+    "correct": 1,
+    "explanation": "A short hedge (selling futures) is used by producers, farmers, or owners of a commodity to protect against price declines. By selling futures, they lock in a selling price. If the cash price falls, the gain on the short futures position offsets the lower selling price in the cash market."
+  },
+  {
+    "id": "series3-q016",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "An Introducing Broker (IB) differs from a Futures Commission Merchant (FCM) in that an IB:",
+    "choices": ["A. Can accept customer funds and margin", "B. Cannot accept customer funds or margin; it introduces accounts to an FCM", "C. Trades only for its own account", "D. Is exempt from all regulations"],
+    "correct": 1,
+    "explanation": "An Introducing Broker (IB) solicits and accepts customer orders but does NOT accept money, securities, or property as margin. Instead, the IB introduces customer accounts to a Futures Commission Merchant (FCM) that holds customer funds and executes trades. IBs must be registered with the CFTC and NFA."
+  },
+  {
+    "id": "series3-q017",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Daily price limits on futures contracts are set by the exchange to:",
+    "choices": ["A. Guarantee profits for traders", "B. Prevent excessive price movements in a single trading session and maintain orderly markets", "C. Set the final settlement price", "D. Limit trading volume"],
+    "correct": 1,
+    "explanation": "Daily price limits restrict how much a futures contract price can move up or down in a single trading session from the previous day's settlement price. This prevents panic-driven excessive moves and provides market participants time to assess information. When a limit is reached, trading may be halted (limit up/limit down)."
+  },
+  {
+    "id": "series3-q018",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "A cross-hedge involves:",
+    "choices": ["A. Hedging with a futures contract on the exact same commodity", "B. Hedging with a futures contract on a related but different commodity because an exact match is not available", "C. Not using any hedge", "D. Hedging with two identical futures contracts"],
+    "correct": 1,
+    "explanation": "A cross-hedge uses a futures contract on a different but correlated commodity when a futures contract on the exact commodity being hedged is not available. For example, a jet fuel producer might use crude oil futures to hedge because there is no liquid jet fuel futures market. Cross-hedges introduce additional basis risk."
+  },
+  {
+    "id": "series3-q019",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "A Commodity Trading Advisor (CTA) is a person who:",
+    "choices": ["A. Operates a commodity exchange", "B. Provides advice on buying or selling futures contracts, commodity options, or swaps for compensation", "C. Clears futures trades", "D. Produces physical commodities"],
+    "correct": 1,
+    "explanation": "A CTA is a person or organization that, for compensation, advises others on the buying or selling of commodity futures contracts, commodity options, or swaps. CTAs may also manage client accounts. They must register with the CFTC and become members of the NFA, and they must provide a disclosure document to prospective clients."
+  },
+  {
+    "id": "series3-q020",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Open interest in a futures market represents:",
+    "choices": ["A. The total number of contracts traded during the day", "B. The total number of outstanding (open) contracts that have not been offset or fulfilled by delivery", "C. The maximum number of contracts that can be created", "D. The number of participants in the market"],
+    "correct": 1,
+    "explanation": "Open interest is the total number of outstanding futures contracts (either long or short, but not both) that have not been offset by an opposing trade or fulfilled by delivery. It increases when new buyers and sellers enter the market and decreases when existing positions are closed out."
+  },
+  {
+    "id": "series3-q021",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "Basis risk is the risk that:",
+    "choices": ["A. The futures market will be closed", "B. The basis (cash price minus futures price) may change unfavorably during the hedging period", "C. Margin requirements will increase", "D. The commodity will not be delivered"],
+    "correct": 1,
+    "explanation": "Basis risk is the risk that the relationship between the cash price and the futures price (the basis) may change unfavorably during the hedging period. A hedger replaces price risk with basis risk, which is typically much smaller. Basis risk is higher for cross-hedges and when the delivery month does not align with the hedging period."
+  },
+  {
+    "id": "series3-q022",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "Under CFTC regulations, a Commodity Pool Operator (CPO) manages:",
+    "choices": ["A. A single trader's account", "B. A pooled investment fund that trades commodity futures and options", "C. A commodity exchange", "D. A physical commodity warehouse"],
+    "correct": 1,
+    "explanation": "A Commodity Pool Operator (CPO) operates a pooled investment fund (commodity pool) that combines funds from multiple investors to trade commodity futures, options, and swaps. CPOs must register with the CFTC and NFA, and they must provide a disclosure document to prospective investors that includes risk factors and past performance."
+  },
+  {
+    "id": "series3-q023",
+    "topic": "series3-t1",
+    "topicName": "Commodities Futures Basics",
+    "question": "Which type of order guarantees execution but not price?",
+    "choices": ["A. Limit order", "B. Market order", "C. Stop-limit order", "D. Fill-or-kill order"],
+    "correct": 1,
+    "explanation": "A market order is an order to buy or sell at the best available price. It guarantees execution (the trade will happen) but not the price at which it will be executed, as the market price may move between the time the order is placed and executed. Limit orders guarantee price but not execution."
+  },
+  {
+    "id": "series3-q024",
+    "topic": "series3-t2",
+    "topicName": "Hedging and Speculation",
+    "question": "A bull spread using futures involves:",
+    "choices": ["A. Buying the nearby month and selling the deferred month", "B. Selling the nearby month and buying the deferred month", "C. Buying and selling the same month", "D. Only buying contracts"],
+    "correct": 0,
+    "explanation": "A bull spread (in most commodities) involves buying the nearby (closer) delivery month and selling the deferred (further out) delivery month. The trader profits if the spread between the two months widens (nearby rises faster or falls slower than the deferred). This reflects a bullish view on near-term supply/demand."
+  },
+  {
+    "id": "series3-q025",
+    "topic": "series3-t3",
+    "topicName": "Futures Regulation",
+    "question": "The NFA's Know Your Customer (KYC) rule requires:",
+    "choices": ["A. Only that the customer's name be recorded", "B. That FCMs and IBs obtain information about the customer's financial condition, trading experience, and investment objectives", "C. That customers pass a trading exam", "D. Only that customers provide a valid email address"],
+    "correct": 1,
+    "explanation": "NFA's KYC rule requires registered firms to obtain and verify information about customers before opening an account, including financial condition, income, net worth, trading experience, and investment objectives. This information is used to assess suitability and risk, and to comply with anti-money laundering requirements."
+  }
+]

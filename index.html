@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Free comprehensive study materials, practice quizzes, and flashcards for all FINRA broker-dealer licensing exams including SIE, Series 7, Series 63, Series 66, and more.">
+  <meta name="keywords" content="FINRA, SIE, Series 7, Series 63, Series 65, Series 66, broker-dealer, licensing exam, study materials, practice quiz, flashcards">
+  <meta name="author" content="LearnFinance">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="LearnFinance - Master Your FINRA Licensing Exams">
+  <meta property="og:description" content="Free comprehensive study materials, practice quizzes, and flashcards for all broker-dealer licensing exams.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://learnfinance.com">
+  <meta property="og:image" content="https://learnfinance.com/images/og-image.png">
+  <meta property="og:site_name" content="LearnFinance">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LearnFinance - Master Your FINRA Licensing Exams">
+  <meta name="twitter:description" content="Free comprehensive study materials, practice quizzes, and flashcards for all broker-dealer licensing exams.">
+
+  <title>LearnFinance - Master Your FINRA Licensing Exams</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/quiz.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="stylesheet" href="css/dark-mode.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="home">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="/" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="learn/" class="nav-desktop__link">Learn</a></li>
+          <li><a href="exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <!-- Mobile Hamburger -->
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="learn/" class="mobile-nav__link">Learn</a></li>
+        <li><a href="exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- ====== HERO ====== -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__background" aria-hidden="true"></div>
+      <div class="hero__content container">
+        <h1 id="hero-heading" class="hero__title reveal">Master Your FINRA Licensing Exams</h1>
+        <p class="hero__subtitle reveal">Free comprehensive study materials, practice quizzes, and flashcards for all broker-dealer licensing exams</p>
+        <div class="hero__actions reveal">
+          <a href="exams/" class="btn btn--primary btn--lg">Browse All Exams</a>
+          <a href="pathways/" class="btn btn--secondary btn--lg">Find Your Path</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== STATS BAR ====== -->
+    <section class="stats-bar" aria-label="Site statistics">
+      <div class="stats-bar__inner container">
+        <div class="stat reveal">
+          <span class="stat__number" data-count="18">0</span>
+          <span class="stat__label">Exams Covered</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__number" data-count="1000" data-suffix="+">0</span>
+          <span class="stat__label">Practice Questions</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__number" data-count="100" data-suffix="%">0</span>
+          <span class="stat__label">Free Forever</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EXAM CATEGORIES ====== -->
+    <section class="categories" aria-labelledby="categories-heading">
+      <div class="container">
+        <h2 id="categories-heading" class="section-heading reveal">Explore Licensing Exams</h2>
+        <p class="section-subheading reveal">From entry level to principal — find the exam that fits your career path.</p>
+
+        <!-- Entry Level -->
+        <div class="category reveal">
+          <h3 class="category__title">
+            <span class="badge badge-entry">Entry Level</span>
+          </h3>
+          <div class="card-grid stagger">
+            <a href="exams/sie.html" class="exam-card" aria-label="SIE Exam — Securities Industry Essentials">
+              <div class="exam-card__header">
+                <span class="exam-card__series">SIE</span>
+                <span class="badge badge-entry">Entry</span>
+              </div>
+              <h4 class="exam-card__name">Securities Industry Essentials</h4>
+              <p class="exam-card__desc">Foundational knowledge of the securities industry required before any representative-level exam.</p>
+            </a>
+          </div>
+        </div>
+
+        <!-- Representative Level -->
+        <div class="category reveal">
+          <h3 class="category__title">
+            <span class="badge badge-representative">Representative Level</span>
+          </h3>
+          <div class="card-grid stagger">
+            <a href="exams/series7.html" class="exam-card" aria-label="Series 7 — General Securities Representative">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 7</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">General Securities Representative</h4>
+              <p class="exam-card__desc">Qualifies individuals to sell a broad range of securities products including stocks, bonds, and options.</p>
+            </a>
+
+            <a href="exams/series6.html" class="exam-card" aria-label="Series 6 — Investment Company / Variable Contracts Representative">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 6</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Investment Company / Variable Contracts</h4>
+              <p class="exam-card__desc">Qualifies individuals to sell mutual funds, variable annuities, and insurance premium products.</p>
+            </a>
+
+            <a href="exams/series63.html" class="exam-card" aria-label="Series 63 — Uniform Securities Agent State Law">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 63</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Uniform Securities Agent State Law</h4>
+              <p class="exam-card__desc">Covers state securities regulations required for agents transacting business in most states.</p>
+            </a>
+
+            <a href="exams/series65.html" class="exam-card" aria-label="Series 65 — Uniform Investment Adviser Law">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 65</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Uniform Investment Adviser Law</h4>
+              <p class="exam-card__desc">Qualifies individuals as investment adviser representatives under state securities law.</p>
+            </a>
+
+            <a href="exams/series66.html" class="exam-card" aria-label="Series 66 — Uniform Combined State Law">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 66</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Uniform Combined State Law</h4>
+              <p class="exam-card__desc">Combines Series 63 and 65 content for securities agents who also act as investment advisers.</p>
+            </a>
+
+            <a href="exams/series79.html" class="exam-card" aria-label="Series 79 — Investment Banking Representative">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 79</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Investment Banking Representative</h4>
+              <p class="exam-card__desc">Qualifies individuals to advise on or facilitate debt and equity offerings and mergers and acquisitions.</p>
+            </a>
+
+            <a href="exams/series82.html" class="exam-card" aria-label="Series 82 — Private Securities Offerings Representative">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 82</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Private Securities Offerings</h4>
+              <p class="exam-card__desc">Qualifies individuals to sell private placement securities under Regulation D and other exemptions.</p>
+            </a>
+
+            <a href="exams/series86-87.html" class="exam-card" aria-label="Series 86/87 — Research Analyst">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 86/87</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Research Analyst</h4>
+              <p class="exam-card__desc">Two-part exam qualifying individuals to publish research reports and make recommendations on securities.</p>
+            </a>
+
+            <a href="exams/series99.html" class="exam-card" aria-label="Series 99 — Operations Professional">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 99</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Operations Professional</h4>
+              <p class="exam-card__desc">Qualifies individuals performing operations functions at a broker-dealer firm.</p>
+            </a>
+
+            <a href="exams/series52.html" class="exam-card" aria-label="Series 52 — Municipal Securities Representative">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 52</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Municipal Securities Representative</h4>
+              <p class="exam-card__desc">Qualifies individuals to transact business in municipal securities with public customers.</p>
+            </a>
+
+            <a href="exams/series50.html" class="exam-card" aria-label="Series 50 — Municipal Adviser Representative">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 50</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">Municipal Adviser Representative</h4>
+              <p class="exam-card__desc">Qualifies individuals to provide advice to municipal entities on bond issuances and investments.</p>
+            </a>
+
+            <a href="exams/series3.html" class="exam-card" aria-label="Series 3 — National Commodities Futures">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 3</span>
+                <span class="badge badge-representative">Rep</span>
+              </div>
+              <h4 class="exam-card__name">National Commodities Futures</h4>
+              <p class="exam-card__desc">Qualifies individuals to sell commodity futures contracts, options, and forex on behalf of clients.</p>
+            </a>
+          </div>
+        </div>
+
+        <!-- Principal Level -->
+        <div class="category reveal">
+          <h3 class="category__title">
+            <span class="badge badge-principal">Principal Level</span>
+          </h3>
+          <div class="card-grid stagger">
+            <a href="exams/series24.html" class="exam-card" aria-label="Series 24 — General Securities Principal">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 24</span>
+                <span class="badge badge-principal">Principal</span>
+              </div>
+              <h4 class="exam-card__name">General Securities Principal</h4>
+              <p class="exam-card__desc">Qualifies individuals to manage or supervise a broker-dealer's investment banking or securities business.</p>
+            </a>
+
+            <a href="exams/series27.html" class="exam-card" aria-label="Series 27 — Financial and Operations Principal">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 27</span>
+                <span class="badge badge-principal">Principal</span>
+              </div>
+              <h4 class="exam-card__name">Financial and Operations Principal</h4>
+              <p class="exam-card__desc">Qualifies individuals to manage the financial and operational compliance of a broker-dealer firm.</p>
+            </a>
+
+            <a href="exams/series53.html" class="exam-card" aria-label="Series 53 — Municipal Securities Principal">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 53</span>
+                <span class="badge badge-principal">Principal</span>
+              </div>
+              <h4 class="exam-card__name">Municipal Securities Principal</h4>
+              <p class="exam-card__desc">Qualifies individuals to manage and supervise municipal securities activities at a broker-dealer.</p>
+            </a>
+
+            <a href="exams/series4.html" class="exam-card" aria-label="Series 4 — Registered Options Principal">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 4</span>
+                <span class="badge badge-principal">Principal</span>
+              </div>
+              <h4 class="exam-card__name">Registered Options Principal</h4>
+              <p class="exam-card__desc">Qualifies individuals to supervise a firm's options trading activities and compliance.</p>
+            </a>
+
+            <a href="exams/series9-10.html" class="exam-card" aria-label="Series 9/10 — General Securities Sales Supervisor">
+              <div class="exam-card__header">
+                <span class="exam-card__series">Series 9/10</span>
+                <span class="badge badge-principal">Principal</span>
+              </div>
+              <h4 class="exam-card__name">General Securities Sales Supervisor</h4>
+              <p class="exam-card__desc">Two-part exam qualifying individuals to supervise sales activities at a general securities broker-dealer.</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====== HOW IT WORKS ====== -->
+    <section class="how-it-works" aria-labelledby="how-heading">
+      <div class="container">
+        <h2 id="how-heading" class="section-heading reveal">How It Works</h2>
+        <p class="section-subheading reveal">Three simple steps to exam readiness.</p>
+
+        <div class="steps stagger">
+          <div class="step reveal">
+            <div class="step__number" aria-hidden="true">1</div>
+            <h3 class="step__title">Choose Your Exam</h3>
+            <p class="step__desc">Browse our catalog of 18 FINRA licensing exams or use the Pathways tool to find exactly which exams your career requires.</p>
+          </div>
+
+          <div class="step reveal">
+            <div class="step__number" aria-hidden="true">2</div>
+            <h3 class="step__title">Study the Material</h3>
+            <p class="step__desc">Work through comprehensive study guides, key concept breakdowns, and flashcards organized by topic for efficient learning.</p>
+          </div>
+
+          <div class="step reveal">
+            <div class="step__number" aria-hidden="true">3</div>
+            <h3 class="step__title">Practice &amp; Track Progress</h3>
+            <p class="step__desc">Take timed practice quizzes that mirror the real exam format, review detailed explanations, and monitor your progress over time.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+
+      <div class="footer__grid">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="/" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+
+        <!-- Exams Column -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="exams/sie.html">SIE</a></li>
+            <li><a href="exams/series7.html">Series 7</a></li>
+            <li><a href="exams/series63.html">Series 63</a></li>
+            <li><a href="exams/series65.html">Series 65</a></li>
+            <li><a href="exams/series66.html">Series 66</a></li>
+            <li><a href="exams/">View All Exams</a></li>
+          </ul>
+        </div>
+
+        <!-- Tools Column -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="quiz/">Practice Quizzes</a></li>
+            <li><a href="flashcards/">Flashcards</a></li>
+            <li><a href="pathways/">Career Pathways</a></li>
+            <li><a href="progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+
+        <!-- About Column -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script type="module" src="js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="learn/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+      <span>Learn</span>
+    </a>
+    <a href="exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

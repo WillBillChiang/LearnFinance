@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Free SIE exam study guide with comprehensive topic outlines, key concepts, practice questions, and progress tracking for the Securities Industry Essentials exam.">
+  <meta name="keywords" content="SIE exam, Securities Industry Essentials, FINRA, study guide, practice questions, capital markets, securities products, regulatory framework">
+  <meta name="author" content="LearnFinance">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SIE Exam Study Guide - LearnFinance">
+  <meta property="og:description" content="Free comprehensive study materials, practice quizzes, and flashcards for the Securities Industry Essentials (SIE) exam.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://learnfinance.com/exams/sie.html">
+  <meta property="og:image" content="https://learnfinance.com/images/og-sie.png">
+  <meta property="og:site_name" content="LearnFinance">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SIE Exam Study Guide - LearnFinance">
+  <meta name="twitter:description" content="Free comprehensive study materials, practice quizzes, and flashcards for the SIE exam.">
+
+  <title>SIE Exam - Securities Industry Essentials | LearnFinance</title>
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/navigation.css">
+  <link rel="stylesheet" href="../css/animations.css">
+  <link rel="stylesheet" href="../css/quiz.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/dark-mode.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="exam" data-exam="sie">
+
+  <!-- ====== READING PROGRESS BAR ====== -->
+  <div class="reading-progress" id="reading-progress" aria-hidden="true"></div>
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../exams/" class="nav-desktop__link active">Exams</a></li>
+          <li><a href="../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <!-- Mobile Hamburger -->
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../exams/" class="mobile-nav__link active">Exams</a></li>
+        <li><a href="../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="container">
+
+      <!-- ====== BREADCRUMBS ====== -->
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="../">Home</a>
+        <span class="breadcrumbs__sep" aria-hidden="true">/</span>
+        <a href="../exams/">Exams</a>
+        <span class="breadcrumbs__sep" aria-hidden="true">/</span>
+        <span class="breadcrumbs__current" aria-current="page">SIE</span>
+      </nav>
+
+      <!-- ====== TWO-COLUMN LAYOUT ====== -->
+      <div class="layout-sidebar">
+
+        <!-- ====== LEFT COLUMN (Main Content) ====== -->
+        <div class="main-content">
+
+          <!-- ====== EXAM HERO ====== -->
+          <section class="exam-hero" aria-labelledby="exam-title">
+            <div class="exam-hero__badge">
+              <span class="badge badge-entry">Entry Level</span>
+            </div>
+            <div class="exam-hero__series">SIE</div>
+            <h1 id="exam-title" class="exam-hero__title">Securities Industry Essentials Exam</h1>
+            <p class="exam-hero__purpose">The SIE exam assesses a candidate's basic knowledge of the securities industry, including fundamental concepts of securities products, the structure of the securities industry markets, regulatory agencies and their functions, and prohibited practices. It is a prerequisite for all FINRA representative-level registration exams and is open to anyone aged 18 or older -- no firm sponsorship required.</p>
+          </section>
+
+          <!-- ====== DONUT CHART ====== -->
+          <section class="section" aria-labelledby="weight-heading">
+            <h2 id="weight-heading" class="mb-3">Topic Weight Distribution</h2>
+            <div id="donut-chart" class="donut-chart-container" role="img" aria-label="Donut chart showing SIE exam topic weights: Knowledge of Capital Markets 16%, Understanding Products and Their Risks 44%, Understanding Trading Customer Accounts and Prohibited Activities 31%, Overview of the Regulatory Framework 9%">
+              <!-- JS will populate the donut chart SVG and legend -->
+            </div>
+          </section>
+
+          <!-- ====== CONTENT OUTLINE ====== -->
+          <section class="section" aria-labelledby="outline-heading">
+            <h2 id="outline-heading" class="mb-3">Content Outline</h2>
+
+            <div class="accordion" role="presentation">
+
+              <!-- ====== SECTION 1: Knowledge of Capital Markets ====== -->
+              <div class="accordion-item" id="section-1">
+                <button class="accordion-trigger" aria-expanded="false" aria-controls="section-1-content" id="section-1-trigger">
+                  <span>
+                    <strong>Section 1:</strong> Knowledge of Capital Markets
+                    <span class="topic-weight">&mdash; 16% (12 questions)</span>
+                  </span>
+                  <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="5 8 10 13 15 8"></polyline>
+                  </svg>
+                </button>
+                <div class="accordion-content" id="section-1-content" role="region" aria-labelledby="section-1-trigger">
+                  <div class="accordion-body">
+
+                    <!-- Weight Bar -->
+                    <div class="weight-bar mb-3">
+                      <div class="weight-bar__track">
+                        <div class="weight-bar__fill" style="width: 16%; background: var(--color-primary);"></div>
+                      </div>
+                      <span class="weight-bar__label">16%</span>
+                    </div>
+
+                    <!-- Subtopics -->
+                    <h4 class="mb-2">Subtopics</h4>
+                    <ul class="subtopic-list mb-4">
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s1-regulatory-entities" aria-label="Mark as studied: Regulatory entities">
+                          <span>Regulatory entities, agencies, and market participants (SEC, FINRA, MSRB, Federal Reserve, OCC, FDIC, state regulators)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s1-types-of-markets" aria-label="Mark as studied: Types of markets">
+                          <span>Types of markets and market structure (auction markets, dealer markets, electronic communication networks)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s1-market-participants" aria-label="Mark as studied: Market participants">
+                          <span>Market participants and their roles (broker-dealers, custodians, market makers, transfer agents)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s1-economic-factors" aria-label="Mark as studied: Economic factors">
+                          <span>Economic factors affecting securities markets (GDP, CPI, interest rates, business cycles, fiscal and monetary policy)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s1-types-of-offerings" aria-label="Mark as studied: Types of offerings">
+                          <span>Types of offerings and the offering process (IPOs, secondary offerings, private placements, Reg D, Reg A)</span>
+                        </label>
+                      </li>
+                    </ul>
+
+                    <!-- Concept Cards -->
+                    <h4 class="mb-2">Key Concepts</h4>
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>SEC vs FINRA</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p>The <span class="keyword">SEC</span> (Securities and Exchange Commission) is the federal government agency responsible for enforcing securities laws, regulating the securities industry, and protecting investors. It was created by the Securities Exchange Act of 1934.</p>
+                        <p><span class="keyword">FINRA</span> (Financial Industry Regulatory Authority) is a self-regulatory organization (SRO) that oversees broker-dealers and their registered representatives. While the SEC has broad authority, FINRA handles day-to-day regulation including licensing exams, member firm inspections, and disciplinary actions. FINRA operates under SEC oversight but is not a government agency.</p>
+                      </div>
+                    </div>
+
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Primary vs Secondary Markets</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p>The <span class="keyword">primary market</span> is where new securities are issued and sold for the first time. When a company conducts an IPO or issues new bonds, these transactions occur in the primary market. The issuer receives the proceeds from primary market sales.</p>
+                        <p>The <span class="keyword">secondary market</span> is where previously issued securities are bought and sold between investors. Stock exchanges like the NYSE and Nasdaq are secondary markets. The original issuer does not receive proceeds from secondary market transactions -- they flow between buyers and sellers.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- ====== SECTION 2: Understanding Products and Their Risks ====== -->
+              <div class="accordion-item" id="section-2">
+                <button class="accordion-trigger" aria-expanded="false" aria-controls="section-2-content" id="section-2-trigger">
+                  <span>
+                    <strong>Section 2:</strong> Understanding Products and Their Risks
+                    <span class="topic-weight">&mdash; 44% (33 questions)</span>
+                  </span>
+                  <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="5 8 10 13 15 8"></polyline>
+                  </svg>
+                </button>
+                <div class="accordion-content" id="section-2-content" role="region" aria-labelledby="section-2-trigger">
+                  <div class="accordion-body">
+
+                    <!-- Weight Bar -->
+                    <div class="weight-bar mb-3">
+                      <div class="weight-bar__track">
+                        <div class="weight-bar__fill" style="width: 44%; background: var(--color-accent);"></div>
+                      </div>
+                      <span class="weight-bar__label">44%</span>
+                    </div>
+
+                    <!-- Subtopics -->
+                    <h4 class="mb-2">Subtopics</h4>
+                    <ul class="subtopic-list mb-4">
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-common-stock" aria-label="Mark as studied: Common stock">
+                          <span>Equity securities: common stock (voting rights, dividends, American Depositary Receipts)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-preferred-stock" aria-label="Mark as studied: Preferred stock">
+                          <span>Preferred stock (cumulative, participating, convertible, callable)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-corporate-bonds" aria-label="Mark as studied: Corporate bonds">
+                          <span>Corporate bonds (secured bonds, debentures, convertible bonds, callable bonds, zero-coupon bonds)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-government-securities" aria-label="Mark as studied: Government securities">
+                          <span>Government securities (T-bills, T-notes, T-bonds, TIPS, agency securities)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-municipal-bonds" aria-label="Mark as studied: Municipal bonds">
+                          <span>Municipal bonds (general obligation bonds, revenue bonds, tax-exempt status)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-money-market" aria-label="Mark as studied: Money market instruments">
+                          <span>Money market instruments (commercial paper, repurchase agreements, bankers' acceptances, certificates of deposit)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-investment-companies" aria-label="Mark as studied: Investment companies">
+                          <span>Investment companies (open-end mutual funds, closed-end funds, ETFs, unit investment trusts)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-variable-products" aria-label="Mark as studied: Variable products">
+                          <span>Variable products (variable annuities, variable life insurance)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-dpps" aria-label="Mark as studied: Direct participation programs">
+                          <span>Direct participation programs (REITs, oil and gas programs, limited partnerships)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-options" aria-label="Mark as studied: Options basics">
+                          <span>Options basics (calls, puts, intrinsic value, time value)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s2-risk-types" aria-label="Mark as studied: Risk types">
+                          <span>Types of investment risk (market, credit, interest rate, inflation, liquidity, currency, political, reinvestment risk)</span>
+                        </label>
+                      </li>
+                    </ul>
+
+                    <!-- Concept Cards -->
+                    <h4 class="mb-2">Key Concepts</h4>
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Bond Price vs Yield</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p>Bond prices and yields have an <span class="keyword">inverse relationship</span>. When prevailing interest rates rise, existing bond prices fall because newly issued bonds offer higher coupon rates, making older bonds less attractive. Conversely, when interest rates fall, existing bond prices rise.</p>
+                        <p>This is one of the most fundamental concepts in fixed-income investing. For example, if you hold a bond paying 3% and new bonds are issued at 5%, your bond's market price will decrease to make its effective yield competitive with the new issues. Longer-term bonds are more sensitive to interest rate changes than shorter-term bonds -- a concept known as <span class="keyword">duration risk</span>.</p>
+                      </div>
+                    </div>
+
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Call vs Put Options</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p>A <span class="keyword">call option</span> gives the holder the right, but not the obligation, to buy the underlying security at a specified strike price before the expiration date. Call buyers are bullish -- they profit when the underlying asset's price rises above the strike price plus the premium paid.</p>
+                        <p>A <span class="keyword">put option</span> gives the holder the right, but not the obligation, to sell the underlying security at a specified strike price before the expiration date. Put buyers are bearish -- they profit when the underlying asset's price falls below the strike price minus the premium paid.</p>
+                        <p>Options have two components of value: <span class="keyword">intrinsic value</span> (the amount an option is in-the-money) and <span class="keyword">time value</span> (the premium above intrinsic value reflecting time remaining until expiration).</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- ====== SECTION 3: Understanding Trading, Customer Accounts, and Prohibited Activities ====== -->
+              <div class="accordion-item" id="section-3">
+                <button class="accordion-trigger" aria-expanded="false" aria-controls="section-3-content" id="section-3-trigger">
+                  <span>
+                    <strong>Section 3:</strong> Understanding Trading, Customer Accounts, and Prohibited Activities
+                    <span class="topic-weight">&mdash; 31% (23 questions)</span>
+                  </span>
+                  <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="5 8 10 13 15 8"></polyline>
+                  </svg>
+                </button>
+                <div class="accordion-content" id="section-3-content" role="region" aria-labelledby="section-3-trigger">
+                  <div class="accordion-body">
+
+                    <!-- Weight Bar -->
+                    <div class="weight-bar mb-3">
+                      <div class="weight-bar__track">
+                        <div class="weight-bar__fill" style="width: 31%; background: var(--color-warning);"></div>
+                      </div>
+                      <span class="weight-bar__label">31%</span>
+                    </div>
+
+                    <!-- Subtopics -->
+                    <h4 class="mb-2">Subtopics</h4>
+                    <ul class="subtopic-list mb-4">
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-account-types" aria-label="Mark as studied: Account types">
+                          <span>Types of accounts (cash accounts, margin accounts, retirement accounts, custodial accounts, trust accounts, corporate accounts)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-opening-accounts" aria-label="Mark as studied: Opening accounts">
+                          <span>Opening and maintaining customer accounts (new account forms, customer identification programs, suitability requirements)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-order-types" aria-label="Mark as studied: Order types">
+                          <span>Types of orders and order execution (market orders, limit orders, stop orders, stop-limit orders, GTC orders, day orders)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-trade-settlement" aria-label="Mark as studied: Trade settlement">
+                          <span>Trade settlement procedures (T+1 regular way settlement, cash settlement)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-margin-accounts" aria-label="Mark as studied: Margin accounts">
+                          <span>Margin accounts and requirements (Regulation T, maintenance margin requirements, margin calls)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-corporate-actions" aria-label="Mark as studied: Corporate actions">
+                          <span>Corporate actions (stock splits, dividends, mergers, tender offers, rights offerings)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s3-prohibited-practices" aria-label="Mark as studied: Prohibited practices">
+                          <span>Prohibited practices (churning, unauthorized trading, selling away, front running, insider trading, market manipulation, parking securities)</span>
+                        </label>
+                      </li>
+                    </ul>
+
+                    <!-- Concept Cards -->
+                    <h4 class="mb-2">Key Concepts</h4>
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Margin Requirements</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p><span class="keyword">Regulation T</span>, set by the Federal Reserve Board, requires investors to deposit at least 50% of the purchase price when buying securities on margin. This is the initial margin requirement.</p>
+                        <p>After the initial purchase, the account must maintain a minimum equity level known as the <span class="keyword">maintenance margin</span>, which is typically 25% of the current market value of the securities (though many firms set higher house requirements of 30-35%). If the account equity falls below this level, the investor receives a <span class="keyword">margin call</span> and must deposit additional funds or securities to bring the account back into compliance.</p>
+                      </div>
+                    </div>
+
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Insider Trading</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p><span class="keyword">Insider trading</span> is the illegal practice of trading securities based on material, nonpublic information (MNPI). It is prohibited under <span class="keyword">SEC Rule 10b-5</span>, which makes it unlawful to use any manipulative or deceptive device in connection with the purchase or sale of any security.</p>
+                        <p>An "insider" can be a corporate officer, director, or employee, but the prohibition extends to anyone who possesses and trades on MNPI -- including friends, family members, or business associates who receive tips. Both the person who provides the tip (tipper) and the person who trades on it (tippee) can be held liable. Penalties include fines up to three times the profit gained or loss avoided, plus criminal penalties including imprisonment.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              <!-- ====== SECTION 4: Overview of the Regulatory Framework ====== -->
+              <div class="accordion-item" id="section-4">
+                <button class="accordion-trigger" aria-expanded="false" aria-controls="section-4-content" id="section-4-trigger">
+                  <span>
+                    <strong>Section 4:</strong> Overview of the Regulatory Framework
+                    <span class="topic-weight">&mdash; 9% (7 questions)</span>
+                  </span>
+                  <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <polyline points="5 8 10 13 15 8"></polyline>
+                  </svg>
+                </button>
+                <div class="accordion-content" id="section-4-content" role="region" aria-labelledby="section-4-trigger">
+                  <div class="accordion-body">
+
+                    <!-- Weight Bar -->
+                    <div class="weight-bar mb-3">
+                      <div class="weight-bar__track">
+                        <div class="weight-bar__fill" style="width: 9%; background: var(--color-purple);"></div>
+                      </div>
+                      <span class="weight-bar__label">9%</span>
+                    </div>
+
+                    <!-- Subtopics -->
+                    <h4 class="mb-2">Subtopics</h4>
+                    <ul class="subtopic-list mb-4">
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-act-of-1933" aria-label="Mark as studied: Securities Act of 1933">
+                          <span>Securities Act of 1933 (registration of new securities, prospectus requirements, exempt securities and transactions)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-act-of-1934" aria-label="Mark as studied: Securities Exchange Act of 1934">
+                          <span>Securities Exchange Act of 1934 (creation of the SEC, registration of exchanges, broker-dealer regulation, anti-fraud provisions)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-act-of-1940-ic" aria-label="Mark as studied: Investment Company Act of 1940">
+                          <span>Investment Company Act of 1940 (regulation of mutual funds, requirements for investment companies)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-act-of-1940-ia" aria-label="Mark as studied: Investment Advisers Act of 1940">
+                          <span>Investment Advisers Act of 1940 (registration and regulation of investment advisers, fiduciary duty)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-finra-rules" aria-label="Mark as studied: FINRA rules and bylaws">
+                          <span>FINRA rules and bylaws (membership requirements, conduct rules, enforcement actions)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-registration" aria-label="Mark as studied: Registration requirements">
+                          <span>Registration requirements (Form U4 for registration, Form U5 for termination)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-continuing-education" aria-label="Mark as studied: Continuing education">
+                          <span>Continuing education requirements (regulatory element, firm element)</span>
+                        </label>
+                      </li>
+                      <li class="subtopic-item">
+                        <label class="checkbox">
+                          <input type="checkbox" data-topic="sie-s4-reportable-events" aria-label="Mark as studied: Reportable events">
+                          <span>Reportable events and disclosures (customer complaints, criminal matters, financial disclosures)</span>
+                        </label>
+                      </li>
+                    </ul>
+
+                    <!-- Concept Cards -->
+                    <h4 class="mb-2">Key Concepts</h4>
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Act of 1933 vs 1934</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p>The <span class="keyword">Securities Act of 1933</span> (also called the "Paper Act" or "Truth in Securities Act") primarily regulates the issuance of new securities in the primary market. It requires that investors receive financial and other significant information about securities being offered for public sale, typically through a prospectus. Its focus is on disclosure and preventing fraud in the sale of new securities.</p>
+                        <p>The <span class="keyword">Securities Exchange Act of 1934</span> (also called the "People Act") regulates the secondary market -- the trading of securities after their initial issuance. It created the SEC, established rules for exchanges and broker-dealers, and includes anti-fraud provisions such as Rule 10b-5. A helpful mnemonic: 1933 = new issues (3 comes first, like the primary market); 1934 = secondary trading (4 comes second).</p>
+                      </div>
+                    </div>
+
+                    <div class="concept-card" role="button" tabindex="0" aria-expanded="false">
+                      <div class="concept-card__title">
+                        <span>Form U4 vs U5</span>
+                        <svg class="accordion-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" width="16" height="16">
+                          <polyline points="5 8 10 13 15 8"></polyline>
+                        </svg>
+                      </div>
+                      <div class="concept-card__body">
+                        <p><span class="keyword">Form U4</span> (Uniform Application for Securities Industry Registration or Transfer) is used to register individuals with FINRA member firms, other self-regulatory organizations, and jurisdictions. It collects personal information, employment history, disclosure questions about criminal history, regulatory actions, customer complaints, and financial events like bankruptcies.</p>
+                        <p><span class="keyword">Form U5</span> (Uniform Termination Notice for Securities Industry Registration) is filed when a registered person leaves a firm, whether voluntarily or involuntarily. The firm must file the U5 within 30 days of termination. The U5 includes the reason for termination and any updated disclosure information. Both forms become part of the individual's permanent record accessible through FINRA's BrokerCheck system.</p>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+            </div><!-- /.accordion -->
+          </section>
+
+          <!-- ====== STUDY TIPS ====== -->
+          <section class="section" aria-labelledby="tips-heading">
+            <h2 id="tips-heading" class="mb-3">Study Tips for the SIE Exam</h2>
+            <div class="card card--flat" style="transform: none;">
+              <ul style="list-style: none; padding: 0;">
+                <li class="subtopic-item" style="padding: var(--space-md) 0;">
+                  <strong style="color: var(--color-primary);">Prioritize Section 2.</strong>
+                  <span>At 44% of the exam, "Understanding Products and Their Risks" is nearly half the test. Know every product type, how it works, and what risks apply to each.</span>
+                </li>
+                <li class="subtopic-item" style="padding: var(--space-md) 0;">
+                  <strong style="color: var(--color-primary);">Master the inverse relationship.</strong>
+                  <span>Bond prices and interest rates moving inversely is tested repeatedly. Understand how this affects different maturities, coupon rates, and bond types.</span>
+                </li>
+                <li class="subtopic-item" style="padding: var(--space-md) 0;">
+                  <strong style="color: var(--color-primary);">Learn the key legislation dates.</strong>
+                  <span>Know which Act governs what: 1933 = new issues, 1934 = secondary trading and SEC creation, 1940 = investment companies and advisers. These distinctions are heavily tested.</span>
+                </li>
+                <li class="subtopic-item" style="padding: var(--space-md) 0;">
+                  <strong style="color: var(--color-primary);">Use the process of elimination.</strong>
+                  <span>The SIE is multiple choice. Even if you are unsure, eliminating one or two clearly wrong answers dramatically improves your odds.</span>
+                </li>
+                <li class="subtopic-item" style="padding: var(--space-md) 0;">
+                  <strong style="color: var(--color-primary);">Take practice exams under timed conditions.</strong>
+                  <span>Simulating test conditions builds confidence and helps with pacing. Aim to finish with time to spare for review. You have about 1.2 minutes per question.</span>
+                </li>
+                <li class="subtopic-item" style="padding: var(--space-md) 0;">
+                  <strong style="color: var(--color-primary);">Know prohibited activities cold.</strong>
+                  <span>Expect several scenario-based questions about churning, front running, insider trading, and selling away. Understand both the definition and how to identify each violation in practice.</span>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- ====== MINI PRACTICE QUIZ ====== -->
+          <section class="section" aria-labelledby="quiz-heading">
+            <h2 id="quiz-heading" class="mb-2">Practice Questions</h2>
+            <p class="mb-4">Test your knowledge with these SIE-style questions. Click an answer to check if you are correct.</p>
+
+            <!-- Question 1 -->
+            <div class="card mb-3" style="transform: none;">
+              <p class="font-semibold" style="color: var(--color-text);">1. Which of the following is a self-regulatory organization (SRO)?</p>
+              <div class="mt-2">
+                <button class="answer-btn" data-correct="false">A) Securities and Exchange Commission (SEC)</button>
+                <button class="answer-btn" data-correct="true">B) Financial Industry Regulatory Authority (FINRA)</button>
+                <button class="answer-btn" data-correct="false">C) Federal Reserve Board (FRB)</button>
+                <button class="answer-btn" data-correct="false">D) Federal Deposit Insurance Corporation (FDIC)</button>
+              </div>
+              <div class="answer-explanation mt-2" hidden>
+                <p class="text-sm"><strong>Correct: B.</strong> FINRA is a self-regulatory organization that regulates broker-dealers and their registered representatives. The SEC, FRB, and FDIC are all government agencies, not SROs.</p>
+              </div>
+            </div>
+
+            <!-- Question 2 -->
+            <div class="card mb-3" style="transform: none;">
+              <p class="font-semibold" style="color: var(--color-text);">2. When interest rates rise, what happens to the price of existing bonds?</p>
+              <div class="mt-2">
+                <button class="answer-btn" data-correct="false">A) Bond prices rise</button>
+                <button class="answer-btn" data-correct="true">B) Bond prices fall</button>
+                <button class="answer-btn" data-correct="false">C) Bond prices remain unchanged</button>
+                <button class="answer-btn" data-correct="false">D) Bond prices become more volatile but do not trend in either direction</button>
+              </div>
+              <div class="answer-explanation mt-2" hidden>
+                <p class="text-sm"><strong>Correct: B.</strong> Bond prices and interest rates have an inverse relationship. When rates rise, existing bonds with lower coupon rates become less attractive, causing their market prices to decrease.</p>
+              </div>
+            </div>
+
+            <!-- Question 3 -->
+            <div class="card mb-3" style="transform: none;">
+              <p class="font-semibold" style="color: var(--color-text);">3. Under Regulation T, what is the initial margin requirement for purchasing securities?</p>
+              <div class="mt-2">
+                <button class="answer-btn" data-correct="false">A) 25%</button>
+                <button class="answer-btn" data-correct="false">B) 30%</button>
+                <button class="answer-btn" data-correct="true">C) 50%</button>
+                <button class="answer-btn" data-correct="false">D) 75%</button>
+              </div>
+              <div class="answer-explanation mt-2" hidden>
+                <p class="text-sm"><strong>Correct: C.</strong> Regulation T, established by the Federal Reserve Board, requires investors to deposit at least 50% of the purchase price as initial margin. The 25% figure refers to the FINRA minimum maintenance margin requirement.</p>
+              </div>
+            </div>
+
+            <!-- Question 4 -->
+            <div class="card mb-3" style="transform: none;">
+              <p class="font-semibold" style="color: var(--color-text);">4. A registered representative executes trades in a customer's account without prior authorization to generate commissions. This is an example of:</p>
+              <div class="mt-2">
+                <button class="answer-btn" data-correct="false">A) Front running</button>
+                <button class="answer-btn" data-correct="true">B) Churning</button>
+                <button class="answer-btn" data-correct="false">C) Selling away</button>
+                <button class="answer-btn" data-correct="false">D) Parking</button>
+              </div>
+              <div class="answer-explanation mt-2" hidden>
+                <p class="text-sm"><strong>Correct: B.</strong> Churning is the excessive trading in a customer's account primarily to generate commissions for the representative, without regard to the customer's investment objectives. Front running involves trading ahead of a client order, selling away is conducting business outside the firm, and parking is hiding the true ownership of securities.</p>
+              </div>
+            </div>
+
+            <!-- Question 5 -->
+            <div class="card mb-3" style="transform: none;">
+              <p class="font-semibold" style="color: var(--color-text);">5. Which securities legislation is primarily concerned with regulating the issuance of new securities in the primary market?</p>
+              <div class="mt-2">
+                <button class="answer-btn" data-correct="true">A) Securities Act of 1933</button>
+                <button class="answer-btn" data-correct="false">B) Securities Exchange Act of 1934</button>
+                <button class="answer-btn" data-correct="false">C) Investment Company Act of 1940</button>
+                <button class="answer-btn" data-correct="false">D) Investment Advisers Act of 1940</button>
+              </div>
+              <div class="answer-explanation mt-2" hidden>
+                <p class="text-sm"><strong>Correct: A.</strong> The Securities Act of 1933 (the "Paper Act") regulates new issuances in the primary market, requiring registration and prospectus delivery. The 1934 Act regulates secondary market trading, while the 1940 Acts address investment companies and investment advisers respectively.</p>
+              </div>
+            </div>
+
+          </section>
+
+          <!-- ====== RELATED EXAMS ====== -->
+          <section class="section" aria-labelledby="related-heading">
+            <h2 id="related-heading" class="mb-3">Related Exams</h2>
+            <p class="mb-4">After passing the SIE, you will need to pass one or more of these representative-level exams to complete your registration.</p>
+            <div class="grid-2">
+              <a href="series7.html" class="exam-card" aria-label="Series 7 Exam - General Securities Representative">
+                <div class="exam-card__header">
+                  <span class="exam-card__series">Series 7</span>
+                  <span class="badge badge-representative">Rep</span>
+                </div>
+                <h4 class="exam-card__name">General Securities Representative</h4>
+                <p class="exam-card__desc">The most common next step after the SIE. Qualifies you to sell a broad range of securities products including stocks, bonds, options, and packaged products.</p>
+              </a>
+              <a href="series63.html" class="exam-card" aria-label="Series 63 Exam - Uniform Securities Agent State Law">
+                <div class="exam-card__header">
+                  <span class="exam-card__series">Series 63</span>
+                  <span class="badge badge-representative">Rep</span>
+                </div>
+                <h4 class="exam-card__name">Uniform Securities Agent State Law</h4>
+                <p class="exam-card__desc">Required in most states in addition to the Series 7. Covers state securities regulations, registration requirements, and ethical practices.</p>
+              </a>
+            </div>
+          </section>
+
+        </div><!-- /.main-content -->
+
+        <!-- ====== RIGHT COLUMN (Sidebar) ====== -->
+        <aside class="sidebar" aria-label="Exam details and progress">
+
+          <!-- Quick Facts -->
+          <div class="quick-facts mb-4">
+            <h3 class="mb-2" style="font-size: var(--text-lg);">Quick Facts</h3>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Questions</span>
+              <span class="quick-facts__value">75 scored (85 total)</span>
+            </div>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Time Limit</span>
+              <span class="quick-facts__value">1 hour 45 min</span>
+            </div>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Passing Score</span>
+              <span class="quick-facts__value">70%</span>
+            </div>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Cost</span>
+              <span class="quick-facts__value">$80</span>
+            </div>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Prerequisites</span>
+              <span class="quick-facts__value">None</span>
+            </div>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Sponsorship</span>
+              <span class="quick-facts__value">Not required</span>
+            </div>
+            <div class="quick-facts__item">
+              <span class="quick-facts__label">Who Needs It</span>
+              <span class="quick-facts__value">All securities industry entrants</span>
+            </div>
+          </div>
+
+          <!-- Overall Progress -->
+          <div class="card mb-4" style="transform: none;">
+            <h3 class="mb-2" style="font-size: var(--text-lg);">Your Progress</h3>
+            <div class="progress-label">
+              <span>Topics Studied</span>
+              <span id="exam-progress-label">0%</span>
+            </div>
+            <div class="progress-bar progress-bar--lg">
+              <div class="progress-bar__fill" id="exam-progress-bar" style="width: 0%;" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" aria-label="SIE exam study progress"></div>
+            </div>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="flex flex-col gap-sm">
+            <a href="../quiz/?exam=sie" class="btn btn-primary btn-lg" style="width: 100%; justify-content: center;">Start Full Quiz</a>
+            <a href="../flashcards/?exam=sie" class="btn btn-secondary btn-lg" style="width: 100%; justify-content: center;">Practice Flashcards</a>
+          </div>
+
+        </aside>
+
+      </div><!-- /.layout-sidebar -->
+
+    </div><!-- /.container -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+
+      <div class="footer__grid">
+        <!-- Brand -->
+        <div class="footer__brand">
+          <a href="../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+
+        <!-- Exams Column -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="sie.html">SIE</a></li>
+            <li><a href="series7.html">Series 7</a></li>
+            <li><a href="series63.html">Series 63</a></li>
+            <li><a href="series65.html">Series 65</a></li>
+            <li><a href="series66.html">Series 66</a></li>
+            <li><a href="../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+
+        <!-- Tools Column -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../quiz/">Practice Quizzes</a></li>
+            <li><a href="../flashcards/">Flashcards</a></li>
+            <li><a href="../pathways/">Career Pathways</a></li>
+            <li><a href="../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+
+        <!-- About Column -->
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../about.html">About Us</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+            <li><a href="../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Disclaimer -->
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- App Script -->
+  <script type="module" src="../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

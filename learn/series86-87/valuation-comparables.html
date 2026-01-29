@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn comparable company and transaction analysis for the Series 86/87 exam. Covers trading comps, transaction comps, EV/EBITDA, P/E, EV/Revenue, and peer selection.">
+  <title>Valuation: Comparable Analysis - Series 86/87 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series86-87" data-chapter="valuation-comparables">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a>
+      <nav class="nav-desktop" aria-label="Main navigation"><ul class="nav-desktop__list"><li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="nav-desktop__link">Exams</a></li><li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li><li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li><li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li><li><a href="../../progress/" class="nav-desktop__link">Progress</a></li></ul></nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><ul class="mobile-nav__list"><li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="mobile-nav__link">Exams</a></li><li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li><li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li><li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li><li><a href="../../progress/" class="mobile-nav__link">Progress</a></li></ul></nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 5</span>
+          <h1>Valuation: Comparable Analysis</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 35 min read</span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Series 86/87 &mdash; Research Analyst</span>
+          </div>
+        </div>
+
+        <section class="lesson__section" id="trading-comps-overview">
+          <h2>Trading Comparables (Public Comps)</h2>
+
+          <p>Comparable company analysis (often called "trading comps" or "public comps") is a relative valuation method that determines the value of a company by comparing it to similar publicly traded companies. The fundamental principle is that similar companies should trade at similar valuation multiples. By identifying the right peer group and applying appropriate multiples, analysts can derive an implied valuation range for the target company.</p>
+
+          <p>Trading comps are the most widely used valuation methodology in equity research for several reasons: they are based on readily available market data, they reflect the market's current assessment of value, they are relatively easy to compute and explain, and they provide a market-based benchmark against which to compare DCF and other valuation approaches.</p>
+
+          <h3>Steps in Comparable Company Analysis</h3>
+
+          <ol>
+            <li><strong>Select the peer group:</strong> Identify companies that are similar in terms of industry, business model, size, growth rate, profitability, and risk profile. This is the most critical and subjective step in the process.</li>
+            <li><strong>Gather financial data:</strong> Collect current share prices, shares outstanding, net debt, and financial metrics (revenue, EBITDA, net income, EPS) for the peer group. Use both historical (trailing twelve months, or TTM) and projected (next twelve months, or NTM) data.</li>
+            <li><strong>Calculate valuation multiples:</strong> Compute relevant multiples for each peer company, including both enterprise value-based and equity value-based multiples.</li>
+            <li><strong>Determine the appropriate multiple range:</strong> Analyze the distribution of peer multiples and select the relevant range (typically the median or interquartile range). Exclude outliers that may distort the analysis.</li>
+            <li><strong>Apply the multiples:</strong> Multiply the target company's financial metric by the selected peer multiple to derive an implied valuation range.</li>
+          </ol>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 86 exam tests your understanding of the distinction between <strong>enterprise value multiples</strong> and <strong>equity value multiples</strong>. Enterprise value multiples (EV/EBITDA, EV/Revenue, EV/EBIT) use pre-debt, pre-interest metrics and are capital structure-neutral. Equity value multiples (P/E, Price/Book) reflect the value to equity holders after debt. Never mix them — for example, never divide equity value (market cap) by EBITDA, or enterprise value by EPS.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="key-multiples">
+          <h2>Key Valuation Multiples</h2>
+
+          <h3>Enterprise Value-Based Multiples</h3>
+
+          <p><strong>EV/EBITDA</strong> is the most widely used enterprise value multiple. It measures the total value of the business relative to its operating cash earnings. EV/EBITDA is capital structure-neutral (because both numerator and denominator are pre-debt) and unaffected by differences in depreciation policies. Typical ranges vary widely by industry: mature industrials may trade at 8-12x, high-growth technology companies at 15-30x or higher, and utilities at 6-9x.</p>
+
+          <p><strong>EV/Revenue</strong> (also called EV/Sales) is used when a company is unprofitable or when revenue is considered the most reliable metric. It is commonly applied to early-stage growth companies, SaaS businesses, and companies undergoing restructuring. The limitation of EV/Revenue is that it ignores profitability entirely — two companies with the same revenue but vastly different margins should not be valued at the same multiple.</p>
+
+          <p><strong>EV/EBIT</strong> is similar to EV/EBITDA but accounts for depreciation and amortization. It is preferred when comparing companies with significantly different capital intensity, as it captures the economic cost of asset usage that EBITDA ignores.</p>
+
+          <h3>Equity Value-Based Multiples</h3>
+
+          <p><strong>Price/Earnings (P/E)</strong> is the most widely quoted equity valuation multiple. It divides the share price by earnings per share (EPS). P/E is intuitive and widely understood, but it has significant limitations: it is distorted by differences in capital structure (leverage), tax rates, and non-recurring items. P/E is most useful for comparing companies with similar leverage profiles and tax situations.</p>
+
+          <p><strong>Price/Book (P/B)</strong> compares the market value of equity to its book value (shareholders' equity). P/B is commonly used for financial institutions (banks, insurance companies) where book value is a meaningful indicator of the asset base. A P/B ratio above 1.0 indicates the market values the company above its accounting book value, reflecting expected future profitability.</p>
+
+          <p><strong>PEG Ratio = P/E / Expected EPS Growth Rate.</strong> The PEG ratio adjusts P/E for growth, making it useful for comparing companies with different growth rates. A PEG of 1.0 is sometimes considered "fair value," though this rule of thumb has significant limitations.</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Multiple</th>
+                  <th>Numerator</th>
+                  <th>Denominator</th>
+                  <th>Best Used For</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">EV/EBITDA</td>
+                  <td class="compare-table__cell">Enterprise Value</td>
+                  <td class="compare-table__cell">EBITDA</td>
+                  <td class="compare-table__cell">Most companies; capital structure-neutral comparison</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">EV/Revenue</td>
+                  <td class="compare-table__cell">Enterprise Value</td>
+                  <td class="compare-table__cell">Revenue</td>
+                  <td class="compare-table__cell">Unprofitable/early-stage companies, SaaS</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">EV/EBIT</td>
+                  <td class="compare-table__cell">Enterprise Value</td>
+                  <td class="compare-table__cell">EBIT</td>
+                  <td class="compare-table__cell">Comparing companies with different capex profiles</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">P/E</td>
+                  <td class="compare-table__cell">Share Price (Equity Value)</td>
+                  <td class="compare-table__cell">EPS (Net Income)</td>
+                  <td class="compare-table__cell">Profitable companies with similar leverage</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">P/B</td>
+                  <td class="compare-table__cell">Share Price (Equity Value)</td>
+                  <td class="compare-table__cell">Book Value per Share</td>
+                  <td class="compare-table__cell">Banks and financial institutions</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">PEG</td>
+                  <td class="compare-table__cell">P/E Ratio</td>
+                  <td class="compare-table__cell">EPS Growth Rate</td>
+                  <td class="compare-table__cell">Growth-adjusted comparisons</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="peer-group-selection">
+          <h2>Peer Group Selection</h2>
+
+          <p>The quality of a comparable company analysis depends critically on the quality of the peer group selection. An improperly selected peer group will produce misleading multiples and unreliable valuations. Analysts should consider the following criteria when building a peer group:</p>
+
+          <ul>
+            <li><strong>Industry and sub-industry:</strong> Companies in the same industry face similar market dynamics, competitive pressures, and regulatory environments. Sub-industry classification matters — a cloud software company should not be compared to a hardware manufacturer, even though both are in "technology."</li>
+            <li><strong>Business model:</strong> Companies should have similar business models in terms of revenue composition (recurring vs. non-recurring), customer type (B2B vs. B2C), and geographic focus (domestic vs. international).</li>
+            <li><strong>Size:</strong> Larger companies often trade at premium multiples due to greater liquidity, diversification, and perceived stability. Comparing a $50 billion large-cap to a $500 million small-cap may not be meaningful.</li>
+            <li><strong>Growth profile:</strong> Companies with higher expected growth rates typically command higher multiples. A peer group should include companies with similar growth trajectories.</li>
+            <li><strong>Profitability:</strong> Companies with higher margins and returns on capital tend to trade at higher multiples. Margin differences should be acknowledged when interpreting comp data.</li>
+            <li><strong>Geographic market:</strong> Companies operating in different geographies may have different growth opportunities, risk profiles, and tax rates.</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>A common mistake is selecting peers based solely on industry classification. Two companies in the same industry can have radically different business models, growth rates, and margin profiles, leading to very different appropriate multiples. Always supplement industry classification with fundamental analysis of business model similarity. A peer group of 5-10 well-selected companies is far more useful than a larger group of loosely related names.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="transaction-comps">
+          <h2>Precedent Transaction Analysis (Transaction Comps)</h2>
+
+          <p><strong>Precedent transaction analysis</strong> (also called "transaction comps" or "deal comps") values a company by examining the prices paid in comparable M&amp;A transactions. Rather than looking at how similar companies are currently trading in the public market, this method examines what acquirers have actually paid to buy similar companies.</p>
+
+          <p>Transaction multiples typically include a <strong>control premium</strong> — the additional amount above the trading price that an acquirer pays to gain control of the target company. Control premiums typically range from 20-40% above the unaffected share price, reflecting the value of controlling the target's strategy, operations, and cash flows, as well as expected synergies.</p>
+
+          <h3>Key Steps in Precedent Transaction Analysis</h3>
+
+          <ol>
+            <li><strong>Identify relevant transactions:</strong> Screen for M&amp;A transactions involving companies similar to the target in terms of industry, size, and business model. Focus on recent transactions (typically within the last 3-5 years) to reflect current market conditions.</li>
+            <li><strong>Gather transaction data:</strong> Collect the deal value (enterprise value paid), financial metrics of the target at the time of the deal, and any disclosed synergy estimates.</li>
+            <li><strong>Calculate implied multiples:</strong> Compute EV/EBITDA, EV/Revenue, and other relevant multiples implied by the transaction price.</li>
+            <li><strong>Analyze and adjust:</strong> Consider the circumstances of each deal (strategic vs. financial buyer, competitive auction vs. negotiated deal, market conditions at the time).</li>
+            <li><strong>Apply to the target:</strong> Use the relevant range of transaction multiples to derive an implied valuation for the target company.</li>
+          </ol>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Valuation triangulation:</strong> An analyst values a mid-cap software company using three methods:</p>
+              <p><strong>DCF:</strong> Implies $45-55 per share based on projected free cash flows discounted at 10% WACC.</p>
+              <p><strong>Trading comps:</strong> Peer software companies trade at 15-20x NTM EV/EBITDA, implying $40-52 per share for the target.</p>
+              <p><strong>Transaction comps:</strong> Recent software acquisitions occurred at 18-25x EV/EBITDA (including control premiums), implying $48-65 per share.</p>
+              <p>The analyst notes that all three methods point to a range of $40-65, with the base case centered around $48-52. The transaction comps suggest higher values due to control premiums. The current share price is $38, supporting a "Buy" recommendation with an implied upside of 25-35% to the base case.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="enterprise-value-calculation">
+          <h2>Enterprise Value Calculation</h2>
+
+          <p>Correctly calculating enterprise value is essential for computing EV-based multiples. Enterprise value represents the total value of the business to all capital providers and is calculated as:</p>
+
+          <p><strong>Enterprise Value = Market Capitalization + Total Debt + Preferred Stock + Minority Interest - Cash and Cash Equivalents</strong></p>
+
+          <p>Understanding why each component is included or excluded is critical:</p>
+
+          <ul>
+            <li><strong>Market Capitalization (Equity Value):</strong> The market value of common equity = share price x diluted shares outstanding. Use the treasury stock method for in-the-money options and warrants.</li>
+            <li><strong>Total Debt:</strong> Added because an acquirer would assume the company's debt obligations. Debt includes short-term borrowings, long-term debt, capital leases, and any other interest-bearing liabilities.</li>
+            <li><strong>Preferred Stock:</strong> Added because preferred shareholders have a senior claim to equity holders and must be compensated in any change of control.</li>
+            <li><strong>Minority Interest:</strong> Added because EV-based metrics (EBITDA, Revenue) include 100% of consolidated subsidiaries' financial results, so the value must include the minority owners' share.</li>
+            <li><strong>Cash and Cash Equivalents:</strong> Subtracted because an acquirer would receive the company's cash balance, effectively reducing the net cost of the acquisition.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>No single valuation method is sufficient on its own. Best practice is to use a "valuation football field" that presents the implied value range from multiple methods (DCF, trading comps, transaction comps) side by side. Where the ranges overlap provides the highest-conviction valuation range. Significant divergence between methods warrants investigation into the underlying assumptions.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Check Your Understanding</h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of comparable company and transaction analysis.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Which valuation multiple is MOST appropriate for valuing an unprofitable, high-growth SaaS company?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) P/E ratio</button>
+              <button class="answer-btn" data-correct="true">B) EV/Revenue</button>
+              <button class="answer-btn" data-correct="false">C) Price/Book</button>
+              <button class="answer-btn" data-correct="false">D) EV/EBIT</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">EV/Revenue is the most appropriate multiple for unprofitable companies because revenue is positive even when earnings metrics (EBITDA, EBIT, EPS) are negative. P/E and EV/EBIT cannot be computed for unprofitable companies. P/B is primarily used for financial institutions.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Precedent transaction multiples are typically HIGHER than trading comps multiples because they include:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) A control premium paid by the acquirer</button>
+              <button class="answer-btn" data-correct="false">B) A liquidity discount for private transactions</button>
+              <button class="answer-btn" data-correct="false">C) Lower growth assumptions</button>
+              <button class="answer-btn" data-correct="false">D) Tax benefits not reflected in trading prices</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Transaction multiples are typically higher than trading multiples because acquirers pay a control premium (usually 20-40% above the unaffected share price) to gain control of the target company. This premium reflects the value of controlling strategy and operations plus expected deal synergies.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. When calculating Enterprise Value, cash is subtracted because:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Cash is not a productive asset</button>
+              <button class="answer-btn" data-correct="true">B) An acquirer receives the company's cash, reducing the effective acquisition cost</button>
+              <button class="answer-btn" data-correct="false">C) Cash is already included in market capitalization</button>
+              <button class="answer-btn" data-correct="false">D) Cash does not generate EBITDA</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Cash is subtracted from enterprise value because if an acquirer purchases a company, they effectively receive the target's cash balance, which offsets part of the acquisition cost. Enterprise Value represents the net cost of acquiring the business operations, exclusive of cash on the balance sheet.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. The MOST important factor in selecting a comparable company peer group is:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Market capitalization similarity</button>
+              <button class="answer-btn" data-correct="true">B) Business model and industry similarity</button>
+              <button class="answer-btn" data-correct="false">C) Geographic proximity</button>
+              <button class="answer-btn" data-correct="false">D) Similar share price levels</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Business model and industry similarity is the most important criterion for peer selection because companies facing similar competitive dynamics, growth opportunities, and risk profiles should trade at similar multiples. Market cap, geography, and share price levels are secondary considerations.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. An analyst should NOT divide market capitalization by EBITDA because:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) EBITDA is always negative</button>
+              <button class="answer-btn" data-correct="true">B) Market cap is an equity metric while EBITDA is a pre-debt metric, creating a mismatch</button>
+              <button class="answer-btn" data-correct="false">C) Market cap includes cash while EBITDA does not</button>
+              <button class="answer-btn" data-correct="false">D) EBITDA should only be used with Price/Book ratios</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Market capitalization (equity value) belongs to equity holders only, while EBITDA is a pre-debt metric available to all capital providers (debt and equity). Dividing equity value by a pre-debt metric creates an inconsistent ratio. The correct pairing is EV/EBITDA (enterprise value metric / enterprise metric) or P/E (equity metric / equity metric).</div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Mark Chapter Complete</button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="valuation-dcf.html" class="lesson__nav-link lesson__nav-link--prev"><span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span><div><span class="lesson__nav-label">Previous Chapter</span><span class="lesson__nav-title">Chapter 4 &mdash; Valuation: DCF</span></div></a>
+          <a href="research-reports.html" class="lesson__nav-link lesson__nav-link--next"><div><span class="lesson__nav-label">Next Chapter</span><span class="lesson__nav-title">Chapter 6 &mdash; Research Reports &amp; Communications</span></div><span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span></a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc"><p class="lesson__toc-title">On This Page</p><ul class="lesson__toc-list"></ul></aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a><p class="footer__tagline">Free exam prep for every aspiring finance professional.</p></div>
+        <div class="footer__col"><h4 class="footer__col-title">Exams</h4><ul class="footer__links"><li><a href="../../exams/sie.html">SIE</a></li><li><a href="../../exams/series7.html">Series 7</a></li><li><a href="../../exams/series63.html">Series 63</a></li><li><a href="../../exams/series65.html">Series 65</a></li><li><a href="../../exams/series66.html">Series 66</a></li><li><a href="../../exams/">View All Exams</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Tools</h4><ul class="footer__links"><li><a href="../../learn/">Learn</a></li><li><a href="../../quiz/">Practice Quizzes</a></li><li><a href="../../flashcards/">Flashcards</a></li><li><a href="../../pathways/">Career Pathways</a></li><li><a href="../../progress/">Progress Tracker</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">About</h4><ul class="footer__links"><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../privacy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms of Use</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p></div>
+      <div class="footer__bottom"><p>&copy; 2026 LearnFinance. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

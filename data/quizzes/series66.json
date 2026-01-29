@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series66-q001",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "Under the Uniform Securities Act, which of the following is NOT required to register as a broker-dealer in a state?",
+    "choices": ["A. A firm with an office in the state effecting trades", "B. A firm with no office in the state that deals exclusively with institutional clients", "C. A firm soliciting retail clients through cold calls", "D. A firm advertising securities services to residents of the state"],
+    "correct": 1,
+    "explanation": "A broker-dealer with no office in the state that deals exclusively with existing institutional clients or other broker-dealers is exempt from state registration. This institutional exemption recognizes that sophisticated investors need less regulatory protection than retail investors."
+  },
+  {
+    "id": "series66-q002",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "The state Administrator may take all of the following actions EXCEPT:",
+    "choices": ["A. Issue subpoenas", "B. Deny registration applications", "C. Impose jail sentences for violations", "D. Issue cease and desist orders"],
+    "correct": 2,
+    "explanation": "The state Administrator has administrative authority and cannot impose criminal penalties such as jail sentences. Only courts can impose criminal penalties after prosecution. The Administrator may issue subpoenas, deny or revoke registrations, issue cease and desist orders, and impose administrative fines."
+  },
+  {
+    "id": "series66-q003",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "An investment adviser must register with the SEC rather than the state when the adviser's AUM reaches:",
+    "choices": ["A. $25 million", "B. $50 million", "C. $100 million", "D. $110 million"],
+    "correct": 3,
+    "explanation": "Investment advisers must register with the SEC when AUM reaches $110 million or more. Advisers with AUM between $100-$110 million may register with either the SEC or the state. Advisers with less than $100 million in AUM generally register at the state level unless they qualify for another SEC exemption."
+  },
+  {
+    "id": "series66-q004",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "Which of the following describes an investment adviser's duty when recommending securities?",
+    "choices": ["A. Recommend only securities that will increase in value", "B. Recommend suitable investments based on the client's financial profile and objectives", "C. Recommend only government-backed securities", "D. Recommend securities that generate the highest commissions"],
+    "correct": 1,
+    "explanation": "Investment advisers have a fiduciary duty to recommend investments that are suitable for each client based on their individual financial situation, investment objectives, risk tolerance, time horizon, and other relevant factors. The adviser must conduct a thorough analysis of the client's needs before making recommendations."
+  },
+  {
+    "id": "series66-q005",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "An agent discovers that a senior client shows signs of diminished mental capacity. The agent should:",
+    "choices": ["A. Continue trading as usual since the account is open", "B. Close the account immediately", "C. Contact the designated trusted contact person and follow the firm's procedures for vulnerable adults", "D. Transfer the account to another agent"],
+    "correct": 2,
+    "explanation": "When an agent suspects diminished capacity in a senior client, they should follow their firm's procedures for protecting vulnerable adults. This typically includes contacting the designated trusted contact person, placing a temporary hold on suspicious disbursements, and notifying supervisors. FINRA Rule 2165 provides a framework for such situations."
+  },
+  {
+    "id": "series66-q006",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "Under the USA, a registration of a security by notification becomes effective:",
+    "choices": ["A. Immediately upon filing", "B. At 3:00 PM Eastern on the second business day after filing, if no stop order is issued", "C. 30 days after filing", "D. Only when the Administrator provides written approval"],
+    "correct": 1,
+    "explanation": "Under the Uniform Securities Act, a registration by notification (filing) becomes effective at 3:00 PM Eastern on the second full business day after filing, provided no stop order has been issued and the filing is complete. This is the simplest and fastest registration method, available to established issuers."
+  },
+  {
+    "id": "series66-q007",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "An investment adviser's contract with a client must NOT contain which of the following provisions?",
+    "choices": ["A. A description of the advisory services provided", "B. A provision requiring the client to waive any rights under the USA", "C. The compensation structure and fee schedule", "D. The conditions under which the contract may be terminated"],
+    "correct": 1,
+    "explanation": "An advisory contract cannot contain any provision that requires the client to waive compliance with any portion of the Uniform Securities Act or any other securities law. Such waivers are void and unenforceable. Clients cannot be asked to give up their legal rights and protections."
+  },
+  {
+    "id": "series66-q008",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "An investment adviser representative learns material nonpublic information about a client's employer. The IAR should:",
+    "choices": ["A. Trade on the information before it becomes public", "B. Share the information with their best clients", "C. Not trade on the information and maintain it as confidential", "D. Immediately disclose the information to the media"],
+    "correct": 2,
+    "explanation": "Material nonpublic information (MNPI) must not be traded on or shared with others. Using MNPI for trading is insider trading, which violates federal securities laws and the Uniform Securities Act. The IAR must maintain the information as confidential and should consider establishing information barriers to prevent misuse."
+  },
+  {
+    "id": "series66-q009",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "Under the USA, an offer of securities to no more than 10 non-institutional persons in a state during a 12-month period qualifies as which type of exemption?",
+    "choices": ["A. Exempt security", "B. Exempt transaction (limited offering)", "C. Federal covered security", "D. Regulation A offering"],
+    "correct": 1,
+    "explanation": "This describes the limited offering (private placement) exempt transaction under the USA. Offers can be made to up to 10 non-institutional persons in the state during 12 months, the seller reasonably believes buyers are purchasing for investment, and no commissions are paid to non-registered persons. This is a transaction exemption, not a security exemption."
+  },
+  {
+    "id": "series66-q010",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "An investment adviser charges a wrap fee that covers advisory services, trade execution, and custodial services. The adviser must disclose:",
+    "choices": ["A. Nothing additional beyond the wrap fee amount", "B. That the wrap fee may cost more than purchasing services separately", "C. Only the advisory portion of the fee", "D. Only information if the client specifically asks"],
+    "correct": 1,
+    "explanation": "Wrap fee programs require full disclosure, including that the total cost may exceed what the client would pay if services were purchased separately. The adviser must provide a wrap fee brochure (Form ADV Part 2A, Appendix 1) that describes all services included, the total fee, and potential conflicts of interest."
+  },
+  {
+    "id": "series66-q011",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "An agent recommends a mutual fund to a client and receives a higher commission from the fund company. This situation requires:",
+    "choices": ["A. No action since commissions are standard practice", "B. Disclosure of the conflict of interest to the client", "C. Returning the excess commission to the client", "D. Recommending a no-load fund instead"],
+    "correct": 1,
+    "explanation": "When an agent receives higher compensation for recommending certain products, this creates a conflict of interest that must be disclosed to the client. The client has a right to know that the agent may be incentivized to recommend one product over another. Full disclosure allows the client to evaluate the recommendation in proper context."
+  },
+  {
+    "id": "series66-q012",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "Federal covered securities include all of the following EXCEPT:",
+    "choices": ["A. Securities listed on the NYSE", "B. Securities issued by an investment company registered under the Investment Company Act of 1940", "C. Securities sold exclusively within one state", "D. Securities offered under SEC Regulation D Rule 506"],
+    "correct": 2,
+    "explanation": "Federal covered securities are those subject to federal regulation and generally exempt from state registration. They include exchange-listed securities, registered investment company securities, and Reg D Rule 506 offerings. Intrastate offerings (sold exclusively within one state) are not federal covered and are subject to state registration."
+  },
+  {
+    "id": "series66-q013",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "An investment adviser must keep records for a minimum of:",
+    "choices": ["A. 3 years", "B. 5 years", "C. 7 years", "D. 10 years"],
+    "correct": 1,
+    "explanation": "Under both federal and state rules, investment advisers are generally required to maintain their books and records for a minimum of 5 years from the end of the fiscal year in which the last entry was made. The first 2 years of records must be maintained at the adviser's principal office."
+  },
+  {
+    "id": "series66-q014",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "A broker-dealer is settling a customer complaint. Under the USA, the firm may require the customer to agree to:",
+    "choices": ["A. Arbitration as a condition of opening an account", "B. Waive the right to sue under state securities laws", "C. Keep the settlement terms confidential while preserving the right to contact regulators", "D. Not file complaints with any regulatory body"],
+    "correct": 2,
+    "explanation": "A firm may include reasonable confidentiality provisions in settlement agreements but cannot require a client to waive their rights under securities laws or prevent them from contacting regulators. Predispute arbitration agreements are permitted, but post-dispute settlements cannot restrict the client's right to report violations."
+  },
+  {
+    "id": "series66-q015",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "Under the USA, consent to service of process means:",
+    "choices": ["A. The registrant agrees to answer phone calls from the Administrator", "B. The registrant appoints the Administrator to receive legal papers on their behalf", "C. The registrant consents to annual audits", "D. The registrant agrees to publish their registration information"],
+    "correct": 1,
+    "explanation": "Consent to service of process is a requirement when registering in a state. By filing the consent, the registrant appoints the state Administrator (or a designated official) as their agent to receive legal documents (lawsuits, subpoenas) on their behalf. This ensures legal process can be served even if the person is out of state."
+  },
+  {
+    "id": "series66-q016",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "Under the USA, which of the following is TRUE about advisory contracts?",
+    "choices": ["A. They may be assigned to another adviser with client consent", "B. They may never be assigned under any circumstances", "C. They may not be assigned without client consent", "D. Assignment is permitted as long as fees remain unchanged"],
+    "correct": 2,
+    "explanation": "Under the Uniform Securities Act and the Investment Advisers Act of 1940, an advisory contract may not be assigned without the client's consent. Assignment occurs when there is a transfer of the contract or a change in majority ownership of the advisory firm. Client consent is required to protect the client's choice of adviser."
+  },
+  {
+    "id": "series66-q017",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "Borrowing money from a client is:",
+    "choices": ["A. Always permitted with written consent", "B. Generally prohibited but may be permitted under specific circumstances with firm approval", "C. Permitted only if the agent pays market interest rates", "D. Always prohibited without exception"],
+    "correct": 1,
+    "explanation": "Borrowing money from clients is generally prohibited but may be permitted in limited circumstances, such as when the client is a lending institution or a family member. Even in permitted situations, the firm must have written procedures allowing it and must approve the arrangement. This protects clients from exploitation."
+  },
+  {
+    "id": "series66-q018",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "A person who has been convicted of a securities-related felony within the past 10 years is:",
+    "choices": ["A. Automatically registered upon application", "B. Exempt from registration requirements", "C. Subject to statutory disqualification from registration", "D. Required to register only at the federal level"],
+    "correct": 2,
+    "explanation": "A person convicted of a securities-related felony (or any felony involving dishonesty) within the past 10 years is subject to statutory disqualification. The Administrator may deny, suspend, or revoke registration. This provision protects the public from persons who have demonstrated dishonest or criminal behavior in the securities industry."
+  },
+  {
+    "id": "series66-q019",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "An investment adviser representative (IAR) must be registered in:",
+    "choices": ["A. Only the state where the adviser's principal office is located", "B. Every state where the IAR has clients", "C. The state where the IAR maintains a place of business", "D. All 50 states automatically"],
+    "correct": 2,
+    "explanation": "An IAR must register in the state where they maintain a place of business. Under the NSMIA and state law, IARs of state-registered advisers register in their state. IARs of SEC-registered advisers register in states where they have a place of business. The definition of 'place of business' is key to determining registration requirements."
+  },
+  {
+    "id": "series66-q020",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "An agent receives a gift valued at $150 from a mutual fund wholesaler. Under industry rules, the agent should:",
+    "choices": ["A. Accept the gift without disclosure", "B. Decline or report the gift, as it may exceed the firm's gift policy limits", "C. Accept the gift but donate it to charity", "D. Accept the gift since there is no regulatory limit"],
+    "correct": 1,
+    "explanation": "FINRA rules limit gifts to $100 per person per year in the context of securities business. A $150 gift exceeds this limit and should be declined or reported per the firm's gift policy. This rule prevents conflicts of interest and ensures agents make recommendations based on client needs, not personal inducements."
+  },
+  {
+    "id": "series66-q021",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "An isolated non-issuer transaction by a person who is not regularly in the securities business is:",
+    "choices": ["A. Subject to full registration requirements", "B. An exempt transaction under the USA", "C. Prohibited under the USA", "D. Subject to double the normal registration fee"],
+    "correct": 1,
+    "explanation": "An isolated non-issuer transaction is an exempt transaction under the USA. This exemption applies to occasional or isolated transactions by persons not regularly engaged in the securities business. The anti-fraud provisions of the USA still apply to these transactions."
+  },
+  {
+    "id": "series66-q022",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Regulation",
+    "question": "Form ADV Part 1 contains information about the adviser that is primarily intended for:",
+    "choices": ["A. Prospective clients only", "B. The general public on the adviser's website", "C. Regulatory authorities (SEC and/or state)", "D. The adviser's employees"],
+    "correct": 2,
+    "explanation": "Form ADV Part 1 contains information used primarily by regulators, including details about the adviser's business, ownership, clients, employees, disciplinary history, and affiliations. Part 2 (the brochure) is the client-facing document. Both parts are filed through the IARD system."
+  },
+  {
+    "id": "series66-q023",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "An investment adviser must provide which document to clients at least annually?",
+    "choices": ["A. Form ADV Part 1", "B. An updated Form ADV Part 2 brochure or a summary of material changes", "C. The adviser's audited financial statements", "D. A list of all securities owned by the adviser"],
+    "correct": 1,
+    "explanation": "Investment advisers must annually deliver to clients either an updated Form ADV Part 2 brochure or a summary of material changes that have occurred since the last delivery. This ensures clients have current information about the adviser's business practices, fees, conflicts of interest, and disciplinary history."
+  },
+  {
+    "id": "series66-q024",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "question": "The de minimis exemption under the USA allows an out-of-state investment adviser to avoid state registration if the adviser has:",
+    "choices": ["A. No clients in the state", "B. 5 or fewer clients in the state and does not hold itself out as an adviser in the state", "C. 10 or fewer clients in the state", "D. Only institutional clients in the state"],
+    "correct": 1,
+    "explanation": "The de minimis exemption allows an out-of-state investment adviser to have up to 5 clients in a state within the preceding 12 months without registering, provided the adviser does not hold itself out to the general public as an adviser in that state and has no place of business there."
+  },
+  {
+    "id": "series66-q025",
+    "topic": "series66-t3",
+    "topicName": "Ethical Practices and Obligations",
+    "question": "An adviser discovers an error in a client's account that resulted in a $500 loss. The adviser should:",
+    "choices": ["A. Ignore the error if it is small relative to the account size", "B. Promptly disclose the error and make the client whole", "C. Wait to see if the client notices", "D. Offset the loss by taking extra risk in the account"],
+    "correct": 1,
+    "explanation": "Fiduciary duty requires prompt disclosure of errors and making the client whole. Hiding errors, waiting for discovery, or taking additional risk to cover losses are all violations of the adviser's obligations. Transparency and accountability are fundamental to the fiduciary relationship."
+  }
+]

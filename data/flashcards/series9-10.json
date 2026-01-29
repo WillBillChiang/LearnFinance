@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series9-10-fc001",
+    "topic": "series9-10-t1",
+    "topicName": "Sales Supervision Fundamentals",
+    "front": "What is the role of a General Securities Sales Supervisor (Series 9/10)?",
+    "back": "A General Securities Sales Supervisor oversees the day-to-day sales activities of registered representatives, including options. They supervise trading activity, review correspondence and communications, ensure suitability of recommendations, handle customer complaints, and enforce compliance with FINRA rules and firm policies. The Series 9/10 qualifies individuals for this supervisory role."
+  },
+  {
+    "id": "series9-10-fc002",
+    "topic": "series9-10-t1",
+    "topicName": "Sales Supervision Fundamentals",
+    "front": "What is the difference between Series 9/10 and Series 24?",
+    "back": "The Series 9/10 qualifies a principal to supervise sales activities including options but not investment banking, market making, or financial operations. The Series 24 is a broader principal license covering most BD supervisory activities except options. A firm may require both licenses for comprehensive supervisory authority. The Series 9/10 focuses specifically on sales practice supervision."
+  },
+  {
+    "id": "series9-10-fc003",
+    "topic": "series9-10-t2",
+    "topicName": "Supervision of Customer Accounts",
+    "front": "What is the know-your-customer (KYC) obligation?",
+    "back": "KYC requires broker-dealers to understand the essential facts about every customer, including their financial situation, investment objectives, risk tolerance, and experience. This information is gathered at account opening and must be updated periodically. KYC forms the foundation for suitability determinations and helps detect unauthorized or inappropriate activity."
+  },
+  {
+    "id": "series9-10-fc004",
+    "topic": "series9-10-t2",
+    "topicName": "Supervision of Customer Accounts",
+    "front": "What are the requirements for opening a discretionary account?",
+    "back": "A discretionary account requires written authorization from the customer (power of attorney or trading authorization), principal approval, and enhanced supervisory review of transactions. Each discretionary trade must be approved by a principal promptly. Supervisors must monitor for excessive trading and ensure transactions are consistent with the customer's stated objectives."
+  },
+  {
+    "id": "series9-10-fc005",
+    "topic": "series9-10-t2",
+    "topicName": "Supervision of Customer Accounts",
+    "front": "What is Regulation Best Interest (Reg BI) and how does it affect supervision?",
+    "back": "Reg BI requires that broker-dealers act in the best interest of retail customers when making recommendations. Supervisors must ensure representatives satisfy the Care, Disclosure, Conflict of Interest, and Compliance obligations. This includes reviewing recommendations for cost considerations, reasonably available alternatives, and proper conflict mitigation."
+  },
+  {
+    "id": "series9-10-fc006",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What constitutes excessive trading (churning)?",
+    "back": "Churning is excessive trading in a customer's account to generate commissions rather than serve the customer's interest. Indicators include high turnover ratios (annualized cost-to-equity ratio above 6% is presumptive), in-and-out trading, high commission-to-equity ratios, and transactions inconsistent with the customer's stated objectives. Supervisors must monitor these metrics."
+  },
+  {
+    "id": "series9-10-fc007",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What is unauthorized trading?",
+    "back": "Unauthorized trading occurs when a representative executes transactions without the customer's prior knowledge or consent in a non-discretionary account. This is a serious violation that can result in disciplinary action, customer complaints, and arbitration. Supervisors must investigate any allegations of unauthorized trading and review order tickets and communications for evidence."
+  },
+  {
+    "id": "series9-10-fc008",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What is the obligation regarding outside business activities?",
+    "back": "FINRA Rule 3270 requires registered persons to provide written notice to their firm before engaging in any outside business activity. The firm must evaluate whether the activity creates conflicts of interest, requires supervision, or could mislead customers. The supervisor must approve or disapprove the activity and document the decision. Unapproved outside activities are a serious violation."
+  },
+  {
+    "id": "series9-10-fc009",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What is the private securities transactions rule?",
+    "back": "FINRA Rule 3280 requires registered persons to provide written notice to their firm before participating in any private securities transaction (selling away). If the person receives compensation, the firm must approve the activity and supervise it as if it were the firm's own transaction. Selling away without approval is one of the most common regulatory violations."
+  },
+  {
+    "id": "series9-10-fc010",
+    "topic": "series9-10-t4",
+    "topicName": "Communications Supervision",
+    "front": "What is the supervisor's role in reviewing communications?",
+    "back": "Supervisors must establish and enforce procedures to review all communications with the public, including retail communications, correspondence, and institutional communications. Retail communications require principal pre-approval. Correspondence and institutional communications may be reviewed using risk-based sampling. Supervisors must watch for misleading claims, unauthorized promises, and compliance violations."
+  },
+  {
+    "id": "series9-10-fc011",
+    "topic": "series9-10-t4",
+    "topicName": "Communications Supervision",
+    "front": "What are the rules for social media and digital communications?",
+    "back": "FINRA treats social media posts as either retail communications or correspondence depending on the audience. Interactive content (real-time posts) is treated as correspondence. Static content (websites, blogs) is treated as retail communication requiring pre-approval. Representatives must have firm approval to use personal devices for business, and firms must retain all business-related electronic communications."
+  },
+  {
+    "id": "series9-10-fc012",
+    "topic": "series9-10-t4",
+    "topicName": "Communications Supervision",
+    "front": "What must be disclosed in performance advertising?",
+    "back": "Performance claims must present a fair and balanced picture. Past performance must not be presented as a guarantee of future results. Hypothetical or back-tested performance must be clearly labeled with assumptions disclosed. Cherry-picking favorable periods is prohibited. All relevant costs and fees must be included. Comparisons to benchmarks must be appropriate and disclosed."
+  },
+  {
+    "id": "series9-10-fc013",
+    "topic": "series9-10-t5",
+    "topicName": "Options Supervision",
+    "front": "What is the ROP's role in supervising options activity?",
+    "back": "The Registered Options Principal must approve all options accounts, review options transactions for suitability and compliance with approved trading levels, ensure delivery of the Options Disclosure Document, monitor position and exercise limits, review options communications, and investigate any customer complaints related to options. The ROP ensures the firm's options business operates within regulatory requirements."
+  },
+  {
+    "id": "series9-10-fc014",
+    "topic": "series9-10-t5",
+    "topicName": "Options Supervision",
+    "front": "How should a supervisor evaluate options suitability?",
+    "back": "Supervisors must verify that options strategies match the customer's experience level, financial resources, investment objectives, and risk tolerance. Covered calls may be suitable for conservative income-seeking investors, while naked writing requires sophisticated investors with substantial net worth. The supervisor must ensure the approved trading level corresponds to the customer's profile."
+  },
+  {
+    "id": "series9-10-fc015",
+    "topic": "series9-10-t6",
+    "topicName": "Customer Complaint Handling",
+    "front": "How should a supervisor handle a customer complaint?",
+    "back": "Upon receiving a written complaint, the supervisor must acknowledge it promptly, investigate the allegations thoroughly, document findings, and take appropriate action. Written complaints must be maintained in a complaint file and reported per FINRA Rule 4530. Complaints alleging theft, fraud, or forgery require reporting within 30 days. Patterns of complaints may indicate supervisory failures."
+  },
+  {
+    "id": "series9-10-fc016",
+    "topic": "series9-10-t6",
+    "topicName": "Customer Complaint Handling",
+    "front": "What is the FINRA arbitration and mediation process?",
+    "back": "FINRA arbitration is the primary forum for resolving disputes between customers and broker-dealers. Most customer agreements include mandatory arbitration clauses. Claims under $50,000 may be resolved by a single arbitrator; larger claims use a three-member panel. Mediation is voluntary and non-binding. Supervisors must cooperate with arbitration proceedings and produce required records."
+  },
+  {
+    "id": "series9-10-fc017",
+    "topic": "series9-10-t2",
+    "topicName": "Supervision of Customer Accounts",
+    "front": "What is the duty to supervise elder and vulnerable adult accounts?",
+    "back": "FINRA Rule 2165 allows firms to place temporary holds on disbursements when there is reasonable belief of financial exploitation of seniors (65+) or vulnerable adults. The hold may last up to 25 business days (extendable to 55). Firms must designate a trusted contact person for accounts. Supervisors must train staff to recognize signs of exploitation and follow escalation procedures."
+  },
+  {
+    "id": "series9-10-fc018",
+    "topic": "series9-10-t2",
+    "topicName": "Supervision of Customer Accounts",
+    "front": "What is the trusted contact person requirement?",
+    "back": "FINRA Rule 4512 requires firms to make reasonable efforts to obtain the name and contact information of a trusted contact person for each customer account. The trusted contact may be contacted regarding potential financial exploitation, health status, or identity confirmation. Customers are not required to provide a trusted contact, but firms must ask."
+  },
+  {
+    "id": "series9-10-fc019",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What is the supervisory obligation regarding variable annuity sales?",
+    "back": "FINRA Rule 2330 requires a registered principal to review and approve variable annuity transactions. The principal must determine suitability based on the customer's age, tax status, liquidity needs, and whether the customer would benefit from the tax deferral. Exchanges and replacements face heightened scrutiny. The 1035 exchange must demonstrate material benefit to the customer."
+  },
+  {
+    "id": "series9-10-fc020",
+    "topic": "series9-10-t1",
+    "topicName": "Sales Supervision Fundamentals",
+    "front": "What is a branch office inspection requirement?",
+    "back": "FINRA Rule 3110 requires inspections of each branch office based on a risk-based cycle. Offices that supervise other offices must be inspected at least annually. Other branch offices must be inspected at least every three years. Inspections must cover safeguarding customer assets, books and records, supervisory controls, and compliance with firm policies."
+  },
+  {
+    "id": "series9-10-fc021",
+    "topic": "series9-10-t1",
+    "topicName": "Sales Supervision Fundamentals",
+    "front": "What is the annual compliance review requirement?",
+    "back": "FINRA requires each firm to designate a chief compliance officer (CCO) who conducts an annual review of the firm's supervisory system. The review must include testing of policies and procedures, identifying areas of noncompliance, and recommending improvements. A written report of findings must be presented to senior management and maintained in firm records."
+  },
+  {
+    "id": "series9-10-fc022",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What is front-running?",
+    "back": "Front-running occurs when a broker-dealer or its personnel trade ahead of a customer's order that is expected to move the market. This is a serious violation of FINRA rules and securities laws. Supervisors must monitor for patterns suggesting front-running, such as proprietary trades executed just before large customer orders in the same security."
+  },
+  {
+    "id": "series9-10-fc023",
+    "topic": "series9-10-t4",
+    "topicName": "Communications Supervision",
+    "front": "What are the rules for testimonials in securities communications?",
+    "back": "Testimonials are permitted in communications with the public but must disclose whether the person providing the testimonial is a client, whether compensation was paid, and that past performance does not guarantee future results. The testimonial must not be misleading, and the communication must include appropriate risk disclosures. The supervisor must pre-approve all testimonials."
+  },
+  {
+    "id": "series9-10-fc024",
+    "topic": "series9-10-t6",
+    "topicName": "Customer Complaint Handling",
+    "front": "What is the obligation regarding BrokerCheck disclosure?",
+    "back": "BrokerCheck is FINRA's online tool that provides public access to registration and disciplinary information about broker-dealers and their registered representatives. Customer complaints, arbitration awards, regulatory actions, and employment history are disclosed. Firms must provide customers with a BrokerCheck hotline number and website information. This promotes transparency and informed decision-making."
+  },
+  {
+    "id": "series9-10-fc025",
+    "topic": "series9-10-t5",
+    "topicName": "Options Supervision",
+    "front": "What is the special statement for uncovered options writers?",
+    "back": "FINRA requires that customers be provided with a Special Statement for Uncovered Options Writers before being approved for writing uncovered options. This document describes the significant risks of naked writing, including potentially unlimited losses for naked calls. The supervisor must ensure delivery is documented and that the customer acknowledges understanding the risks."
+  },
+  {
+    "id": "series9-10-fc026",
+    "topic": "series9-10-t2",
+    "topicName": "Supervision of Customer Accounts",
+    "front": "What is the obligation for supervising new representatives?",
+    "back": "New representatives require closer supervision during their initial period at the firm. Supervisors should review a higher percentage of their transactions, correspondence, and customer interactions. Some firms implement a probationary period with pre-approval requirements. Training on firm procedures, products, and compliance expectations should be provided before the representative begins soliciting."
+  },
+  {
+    "id": "series9-10-fc027",
+    "topic": "series9-10-t3",
+    "topicName": "Supervision of Sales Practices",
+    "front": "What are red flags for potential sales practice violations?",
+    "back": "Red flags include frequent customer complaints, unusually high commission revenue, excessive trading activity, concentrated positions in customer accounts, frequent address changes or third-party withdrawals from customer accounts, customers who do not match the profile of recommended products, and patterns of transactions shortly before corporate announcements."
+  },
+  {
+    "id": "series9-10-fc028",
+    "topic": "series9-10-t1",
+    "topicName": "Sales Supervision Fundamentals",
+    "front": "What is the supervisory control system requirement?",
+    "back": "FINRA Rule 3120 requires each broker-dealer to establish, maintain, and enforce a system of supervisory controls that tests and verifies compliance with applicable laws and regulations. This includes creating additional supervisory procedures and written reports by designated supervisory control persons. The system must address areas including customer account activity, transmittals, and changes in customer information."
+  },
+  {
+    "id": "series9-10-fc029",
+    "topic": "series9-10-t6",
+    "topicName": "Customer Complaint Handling",
+    "front": "What is the expungement process for CRD records?",
+    "back": "Expungement is the process of removing customer complaint or arbitration information from a registered person's CRD record. It requires a court order confirming that the claim was factually impossible, clearly erroneous, or false. FINRA has heightened standards making expungement difficult to obtain. Supervisors should understand the process to properly advise representatives."
+  },
+  {
+    "id": "series9-10-fc030",
+    "topic": "series9-10-t4",
+    "topicName": "Communications Supervision",
+    "front": "What is the filing requirement for options communications?",
+    "back": "Communications about options must be filed with the options exchange within 10 calendar days of first use (or prior to use for new firms in their first year). Options communications must include the name and address of the firm, be accompanied by any supporting documentation, and comply with OCC and exchange rules regarding content standards and risk disclosure."
+  }
+]

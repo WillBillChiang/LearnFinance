@@ -1,0 +1,247 @@
+[
+  {
+    "id": "series7-fc001",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "front": "What are the two main types of equity securities?",
+    "back": "The two main types are common stock and preferred stock. Common stock provides voting rights and potential dividends, while preferred stock offers a fixed dividend and priority in liquidation but typically no voting rights. Both represent ownership in a corporation."
+  },
+  {
+    "id": "series7-fc002",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "front": "What rights does a common stockholder have?",
+    "back": "Common stockholders have the right to vote on corporate matters (such as board elections and mergers), receive dividends when declared, inspect corporate books, maintain proportionate ownership through preemptive rights, and receive residual assets upon liquidation after all creditors and preferred stockholders are paid."
+  },
+  {
+    "id": "series7-fc003",
+    "topic": "series7-t1",
+    "topicName": "Equity Securities",
+    "front": "What is cumulative preferred stock?",
+    "back": "Cumulative preferred stock requires that any missed (unpaid) dividends accumulate as dividends in arrears. All accumulated unpaid dividends must be paid to cumulative preferred stockholders before any dividends can be paid to common stockholders. This feature provides greater dividend protection than non-cumulative preferred stock."
+  },
+  {
+    "id": "series7-fc004",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "front": "What is the relationship between bond prices and interest rates?",
+    "back": "Bond prices and interest rates have an inverse relationship. When interest rates rise, existing bond prices fall because their fixed coupon payments become less attractive compared to newly issued bonds. Conversely, when interest rates fall, existing bond prices rise. This is a fundamental concept known as interest rate risk."
+  },
+  {
+    "id": "series7-fc005",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "front": "What is a callable bond?",
+    "back": "A callable bond gives the issuer the right to redeem the bond before its maturity date, typically at a premium above par value. Issuers usually call bonds when interest rates decline so they can refinance at lower rates. This feature benefits the issuer but exposes investors to reinvestment risk, as they may have to reinvest proceeds at lower prevailing rates."
+  },
+  {
+    "id": "series7-fc006",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "front": "What is current yield on a bond?",
+    "back": "Current yield is calculated by dividing the annual coupon payment by the bond's current market price. For example, a bond with a $60 annual coupon trading at $900 has a current yield of 6.67%. Current yield does not account for capital gains or losses at maturity, which distinguishes it from yield to maturity (YTM)."
+  },
+  {
+    "id": "series7-fc007",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "front": "What is yield to maturity (YTM)?",
+    "back": "Yield to maturity is the total return anticipated if a bond is held until it matures. It factors in the current market price, par value, coupon rate, and time to maturity. YTM accounts for both the coupon income and any capital gain or loss realized at maturity, making it a more comprehensive measure than current yield."
+  },
+  {
+    "id": "series7-fc008",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "front": "What is a call option?",
+    "back": "A call option gives the holder (buyer) the right, but not the obligation, to buy the underlying asset at a specified strike price before or on the expiration date. The buyer pays a premium for this right. Call buyers are bullish, expecting the price of the underlying asset to rise above the strike price plus the premium paid."
+  },
+  {
+    "id": "series7-fc009",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "front": "What is a put option?",
+    "back": "A put option gives the holder (buyer) the right, but not the obligation, to sell the underlying asset at a specified strike price before or on the expiration date. The buyer pays a premium for this right. Put buyers are bearish, expecting the price of the underlying asset to fall below the strike price minus the premium paid."
+  },
+  {
+    "id": "series7-fc010",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "front": "What does 'in the money' mean for a call option?",
+    "back": "A call option is 'in the money' when the market price of the underlying asset is above the strike price. This means the option has intrinsic value because the holder could exercise the option to buy the asset below its current market price. For example, a call with a $50 strike is in the money when the stock trades at $55."
+  },
+  {
+    "id": "series7-fc011",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "front": "What is a covered call strategy?",
+    "back": "A covered call involves owning the underlying stock and selling (writing) a call option against it. The writer collects premium income, which provides limited downside protection. If the stock rises above the strike price, the shares may be called away, capping the upside. This is considered a conservative income-generating strategy."
+  },
+  {
+    "id": "series7-fc012",
+    "topic": "series7-t3",
+    "topicName": "Options",
+    "front": "What is the maximum loss for a buyer of a call option?",
+    "back": "The maximum loss for a call option buyer is the premium paid for the option. If the underlying asset's price stays at or below the strike price through expiration, the option expires worthless and the buyer loses the entire premium. This limited-risk characteristic is a key advantage of buying options versus holding the underlying asset."
+  },
+  {
+    "id": "series7-fc013",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "front": "What is the difference between a general obligation bond and a revenue bond?",
+    "back": "General obligation (GO) bonds are backed by the full faith, credit, and taxing power of the issuing municipality. Revenue bonds are backed only by the revenue generated from a specific project or source, such as a toll road or hospital. GO bonds generally carry less risk and require voter approval, while revenue bonds do not require voter approval."
+  },
+  {
+    "id": "series7-fc014",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "front": "What is the tax treatment of municipal bond interest?",
+    "back": "Interest from municipal bonds is generally exempt from federal income tax. If the investor resides in the same state as the issuer, the interest may also be exempt from state and local taxes (triple tax-exempt). However, municipal bond interest may be subject to the alternative minimum tax (AMT), particularly for private activity bonds."
+  },
+  {
+    "id": "series7-fc015",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "front": "What is a tax equivalent yield?",
+    "back": "Tax equivalent yield converts a tax-free municipal bond yield to an equivalent taxable yield for comparison purposes. It is calculated as: Municipal Yield / (1 - Tax Bracket). For example, a 4% muni yield for an investor in the 30% bracket equals 4% / 0.70 = 5.71% taxable equivalent. Higher tax brackets benefit more from tax-exempt income."
+  },
+  {
+    "id": "series7-fc016",
+    "topic": "series7-t5",
+    "topicName": "Investment Company Products",
+    "front": "What is the difference between open-end and closed-end funds?",
+    "back": "Open-end funds (mutual funds) continuously issue and redeem shares at net asset value (NAV) and have no limit on shares outstanding. Closed-end funds issue a fixed number of shares through an IPO, and shares then trade on exchanges at market prices that may be above (premium) or below (discount) the NAV."
+  },
+  {
+    "id": "series7-fc017",
+    "topic": "series7-t5",
+    "topicName": "Investment Company Products",
+    "front": "How is Net Asset Value (NAV) calculated?",
+    "back": "NAV is calculated by taking the fund's total assets, subtracting total liabilities, and dividing by the number of outstanding shares. The formula is: NAV = (Total Assets - Total Liabilities) / Shares Outstanding. NAV is computed at the end of each business day and represents the per-share value of the fund."
+  },
+  {
+    "id": "series7-fc018",
+    "topic": "series7-t5",
+    "topicName": "Investment Company Products",
+    "front": "What are the three classes of mutual fund shares?",
+    "back": "Class A shares charge a front-end sales load at purchase. Class B shares charge a back-end load (contingent deferred sales charge) upon redemption that typically decreases over time. Class C shares charge a level load, usually 1% annually, with no or minimal front-end or back-end loads. Each class has different expense ratios and is suited to different holding periods."
+  },
+  {
+    "id": "series7-fc019",
+    "topic": "series7-t5",
+    "topicName": "Investment Company Products",
+    "front": "What is an exchange-traded fund (ETF)?",
+    "back": "An ETF is an investment fund that trades on stock exchanges like individual stocks throughout the day at market prices. Most ETFs passively track an index and typically have lower expense ratios than mutual funds. ETFs offer tax efficiency through in-kind creation and redemption mechanisms and can be bought on margin or sold short."
+  },
+  {
+    "id": "series7-fc020",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "front": "What is the key difference between a traditional IRA and a Roth IRA?",
+    "back": "Traditional IRA contributions may be tax-deductible, and withdrawals in retirement are taxed as ordinary income. Roth IRA contributions are made with after-tax dollars (not deductible), but qualified distributions in retirement are completely tax-free. Roth IRAs also have no required minimum distributions (RMDs) during the owner's lifetime."
+  },
+  {
+    "id": "series7-fc021",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "front": "What is a 401(k) plan?",
+    "back": "A 401(k) is an employer-sponsored defined contribution retirement plan that allows employees to defer a portion of their pre-tax salary into an investment account. Employers may match contributions up to a certain percentage. Contributions reduce taxable income, and funds grow tax-deferred until withdrawal in retirement, when they are taxed as ordinary income."
+  },
+  {
+    "id": "series7-fc022",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "front": "What is a required minimum distribution (RMD)?",
+    "back": "An RMD is the minimum amount that must be withdrawn annually from a retirement account starting at age 73. RMDs apply to traditional IRAs, 401(k)s, and most other tax-deferred retirement plans. Failure to take an RMD results in a 25% excise tax on the amount not withdrawn. Roth IRAs are exempt from RMDs during the owner's lifetime."
+  },
+  {
+    "id": "series7-fc023",
+    "topic": "series7-t7",
+    "topicName": "Margin Accounts",
+    "front": "What is Regulation T?",
+    "back": "Regulation T, established by the Federal Reserve Board, governs the extension of credit by broker-dealers to customers. It sets the initial margin requirement at 50% for equity securities, meaning a customer must deposit at least 50% of the purchase price when buying on margin. Reg T applies to the initial purchase transaction."
+  },
+  {
+    "id": "series7-fc024",
+    "topic": "series7-t7",
+    "topicName": "Margin Accounts",
+    "front": "What is a margin call?",
+    "back": "A margin call occurs when the equity in a margin account falls below the required maintenance level (typically 25% for long positions per FINRA rules). The broker-dealer demands the investor deposit additional cash or securities to bring the account back to the minimum level. If the investor fails to meet the call, the broker may liquidate securities."
+  },
+  {
+    "id": "series7-fc025",
+    "topic": "series7-t8",
+    "topicName": "Customer Accounts",
+    "front": "What is the Customer Identification Program (CIP)?",
+    "back": "The CIP requires broker-dealers to verify the identity of each customer opening an account, as mandated by the USA PATRIOT Act. Firms must collect and verify the customer's name, date of birth, address, and identification number (SSN or tax ID). The program is part of anti-money laundering (AML) compliance requirements."
+  },
+  {
+    "id": "series7-fc026",
+    "topic": "series7-t8",
+    "topicName": "Customer Accounts",
+    "front": "What is the suitability obligation under FINRA rules?",
+    "back": "FINRA's suitability rule requires broker-dealers to have a reasonable basis to believe a recommended transaction or investment strategy is suitable for the customer. This involves three components: reasonable-basis suitability (understanding the product), customer-specific suitability (matching to the customer's profile), and quantitative suitability (ensuring no excessive trading)."
+  },
+  {
+    "id": "series7-fc027",
+    "topic": "series7-t9",
+    "topicName": "Securities Regulations",
+    "front": "What is the Securities Act of 1933?",
+    "back": "The Securities Act of 1933 regulates the primary market and requires that new securities offerings be registered with the SEC before being sold to the public. It mandates full disclosure through a prospectus and registration statement. The Act is often called the 'Paper Act' or 'Truth in Securities Act' because its focus is on disclosure requirements."
+  },
+  {
+    "id": "series7-fc028",
+    "topic": "series7-t9",
+    "topicName": "Securities Regulations",
+    "front": "What is the Securities Exchange Act of 1934?",
+    "back": "The Securities Exchange Act of 1934 regulates the secondary market and created the Securities and Exchange Commission (SEC). It governs trading of securities after their initial issuance, including broker-dealer registration, insider trading, proxy solicitation, and periodic reporting requirements for public companies. It is sometimes called the 'People Act.'"
+  },
+  {
+    "id": "series7-fc029",
+    "topic": "series7-t10",
+    "topicName": "Trading and Settlement",
+    "front": "What is the standard settlement cycle for equity trades?",
+    "back": "The standard settlement cycle for equity securities is T+1 (effective May 28, 2024), meaning settlement occurs one business day after the trade date. This applies to stocks, corporate bonds, municipal securities, and ETFs. Government securities and options also settle T+1. Traditional mutual funds are purchased and redeemed at NAV and follow their own settlement process. The shorter settlement cycle reduces counterparty risk and improves market efficiency."
+  },
+  {
+    "id": "series7-fc030",
+    "topic": "series7-t10",
+    "topicName": "Trading and Settlement",
+    "front": "What is a market order?",
+    "back": "A market order is an instruction to buy or sell a security immediately at the best available current price. Market orders guarantee execution but not a specific price. They are most appropriate for liquid securities where the spread between bid and ask is narrow. In fast-moving markets, the execution price may differ from the last quoted price."
+  },
+  {
+    "id": "series7-fc031",
+    "topic": "series7-t10",
+    "topicName": "Trading and Settlement",
+    "front": "What is a limit order?",
+    "back": "A limit order specifies the maximum price a buyer will pay or the minimum price a seller will accept. Buy limit orders are placed below the current market price, and sell limit orders are placed above. Limit orders guarantee the price but not execution, as the market may never reach the specified price."
+  },
+  {
+    "id": "series7-fc032",
+    "topic": "series7-t10",
+    "topicName": "Trading and Settlement",
+    "front": "What is a stop order?",
+    "back": "A stop order (stop-loss order) becomes a market order once the specified stop price is reached. A sell stop is placed below the market price to limit losses on a long position. A buy stop is placed above the market price to limit losses on a short position. Once triggered, it does not guarantee execution at the stop price."
+  },
+  {
+    "id": "series7-fc033",
+    "topic": "series7-t2",
+    "topicName": "Debt Securities",
+    "front": "What are Treasury STRIPS?",
+    "back": "Treasury STRIPS (Separate Trading of Registered Interest and Principal of Securities) are zero-coupon securities created by separating the interest and principal components of Treasury notes and bonds. They are sold at a discount and mature at face value. Although no periodic interest is paid, the accrued interest (phantom income) is taxable annually at the federal level."
+  },
+  {
+    "id": "series7-fc034",
+    "topic": "series7-t4",
+    "topicName": "Municipal Securities",
+    "front": "What is a bond anticipation note (BAN)?",
+    "back": "A bond anticipation note is a short-term municipal security issued in expectation of future long-term bond financing. BANs are used to provide interim financing for projects until the municipality can issue long-term bonds at favorable rates. They typically mature within one year and are repaid from the proceeds of the subsequent bond issuance."
+  },
+  {
+    "id": "series7-fc035",
+    "topic": "series7-t6",
+    "topicName": "Retirement Plans",
+    "front": "What is a defined benefit plan?",
+    "back": "A defined benefit plan is an employer-sponsored retirement plan that promises a specified monthly benefit at retirement, often based on a formula involving salary and years of service. The employer bears the investment risk and is responsible for funding the plan adequately. These plans are insured by the Pension Benefit Guaranty Corporation (PBGC)."
+  }
+]

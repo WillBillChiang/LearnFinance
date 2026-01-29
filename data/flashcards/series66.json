@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series66-fc001",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "front": "What exams does the Series 66 replace?",
+    "back": "The Series 66 (Uniform Combined State Law Examination) combines the content of the Series 63 and Series 65 exams. Passing the Series 66 along with the Series 7 qualifies an individual as both a securities agent and an investment adviser representative at the state level. It covers state securities regulation and investment advisory practices."
+  },
+  {
+    "id": "series66-fc002",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "front": "What is the de minimis exemption for investment advisers?",
+    "back": "The de minimis exemption allows an investment adviser without a place of business in a state to avoid registration in that state if they have five or fewer clients who are residents of that state during the preceding 12 months. This exemption makes it practical for advisers to serve a small number of out-of-state clients without registering in every state."
+  },
+  {
+    "id": "series66-fc003",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "front": "What is NASAA?",
+    "back": "The North American Securities Administrators Association (NASAA) is a voluntary organization of state and provincial securities regulators in the United States, Canada, and Mexico. NASAA develops model rules and uniform policies for state securities regulation, creates qualification exams (Series 63, 65, 66), and coordinates enforcement among member jurisdictions."
+  },
+  {
+    "id": "series66-fc004",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What is a wrap fee program?",
+    "back": "A wrap fee program charges a single bundled fee covering investment advisory services, brokerage execution, and custodial services. The fee is typically based on a percentage of assets under management. Advisers offering wrap programs must deliver a wrap fee brochure (Form ADV Part 2A, Appendix 1) disclosing the services, fees, and potential conflicts of interest."
+  },
+  {
+    "id": "series66-fc005",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What is the duty of best execution?",
+    "back": "Best execution is the obligation of an investment adviser to seek the most favorable terms for client transactions, considering factors such as price, commission costs, speed of execution, and the broker-dealer's reliability. Advisers may consider research and other services (soft dollars) when selecting broker-dealers, but best execution must remain the primary consideration."
+  },
+  {
+    "id": "series66-fc006",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What are soft dollar arrangements?",
+    "back": "Soft dollar arrangements occur when an adviser directs brokerage transactions to a broker-dealer in exchange for research or other services that benefit the adviser. Under Section 28(e) safe harbor, soft dollars may only be used for eligible research and brokerage services. The adviser must disclose soft dollar practices and ensure they benefit clients."
+  },
+  {
+    "id": "series66-fc007",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What is a principal transaction in advisory accounts?",
+    "back": "A principal transaction occurs when an adviser, acting as a dealer, buys a security from or sells a security to a client's account from the adviser's own inventory. Principal transactions require disclosure of the adviser's capacity and written client consent before completion of each transaction. This prevents advisers from dumping unwanted securities on clients."
+  },
+  {
+    "id": "series66-fc008",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What is an agency cross transaction?",
+    "back": "An agency cross transaction occurs when an adviser acts as broker for both the advisory client and another party on the other side of the transaction. The adviser must disclose the dual capacity, obtain written client consent, confirm the transaction in writing, and send an annual statement identifying all such transactions. This arrangement presents inherent conflicts of interest."
+  },
+  {
+    "id": "series66-fc009",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is the investment policy statement (IPS)?",
+    "back": "An investment policy statement is a written document that outlines a client's investment objectives, risk tolerance, time horizon, liquidity needs, tax considerations, legal constraints, and unique circumstances. It serves as a roadmap for portfolio construction and a benchmark for evaluating performance. The IPS should be reviewed and updated periodically."
+  },
+  {
+    "id": "series66-fc010",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is the time value of money?",
+    "back": "The time value of money is the concept that money available today is worth more than the same amount in the future due to its potential earning capacity. This principle underpins present value and future value calculations. It is used to evaluate investments, compare cash flows at different times, and determine the fair value of assets."
+  },
+  {
+    "id": "series66-fc011",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is the difference between growth and value investing?",
+    "back": "Growth investing focuses on companies with above-average earnings growth potential, typically with high P/E ratios and low or no dividends. Value investing seeks undervalued stocks trading below their intrinsic value, often with low P/E ratios and higher dividend yields. Growth stocks carry higher risk but offer greater upside, while value stocks may provide more stability."
+  },
+  {
+    "id": "series66-fc012",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is tax-loss harvesting?",
+    "back": "Tax-loss harvesting is a strategy of selling securities at a loss to offset capital gains and reduce tax liability. Investors can deduct up to $3,000 of net capital losses against ordinary income annually, with excess losses carried forward. The wash sale rule prohibits repurchasing a substantially identical security within 30 days before or after the sale."
+  },
+  {
+    "id": "series66-fc013",
+    "topic": "series66-t4",
+    "topicName": "Registration and Licensing",
+    "front": "How does an investment adviser representative (IAR) register?",
+    "back": "IARs register by filing Form U4 through the Investment Adviser Registration Depository (IARD) system. They must pass qualifying examinations (typically Series 65 or Series 66 plus Series 7), disclose disciplinary history, and submit to the jurisdiction of the state Administrator. Registration must be renewed annually, and material changes must be updated promptly."
+  },
+  {
+    "id": "series66-fc014",
+    "topic": "series66-t4",
+    "topicName": "Registration and Licensing",
+    "front": "When must a broker-dealer register in a state?",
+    "back": "A broker-dealer must register in a state if it has a place of business in that state. A BD without a place of business must register if it conducts securities business with non-institutional clients in the state (more than 5 retail clients in 12 months). BDs dealing exclusively with institutions or other BDs from out of state may be exempt."
+  },
+  {
+    "id": "series66-fc015",
+    "topic": "series66-t4",
+    "topicName": "Registration and Licensing",
+    "front": "What is the Canadian broker-dealer exemption?",
+    "back": "Under the USA, Canadian broker-dealers may be exempt from state registration if they have no office in the state, transact business only with persons temporarily in the state who are Canadian residents, and are registered in their Canadian jurisdiction. This exemption facilitates cross-border transactions for Canadians temporarily in the United States."
+  },
+  {
+    "id": "series66-fc016",
+    "topic": "series66-t5",
+    "topicName": "Ethical Practices",
+    "front": "What are the prohibited practices for investment advisers under state law?",
+    "back": "Prohibited practices include misrepresenting qualifications, guaranteeing against losses, charging unreasonable fees, failing to disclose conflicts of interest, borrowing from clients, engaging in principal transactions without disclosure, commingling client and firm funds, and recommending unsuitable investments. The anti-fraud provisions apply regardless of registration status."
+  },
+  {
+    "id": "series66-fc017",
+    "topic": "series66-t5",
+    "topicName": "Ethical Practices",
+    "front": "Can an investment adviser guarantee investment results?",
+    "back": "No, an investment adviser may not guarantee a client against loss or guarantee specific investment results. However, an adviser may enter into a performance-based fee arrangement with qualified clients, which is not considered a guarantee. Promising specific returns or stating that losses will be reimbursed is a prohibited practice under both federal and state law."
+  },
+  {
+    "id": "series66-fc018",
+    "topic": "series66-t5",
+    "topicName": "Ethical Practices",
+    "front": "What recordkeeping requirements apply to state-registered investment advisers?",
+    "back": "State-registered advisers must maintain books and records including client agreements, account statements, correspondence, advisory communications, financial statements, and transaction records. Records must generally be kept for five years, with the first two years in an easily accessible location. The state Administrator may inspect these records at any time."
+  },
+  {
+    "id": "series66-fc019",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is Monte Carlo simulation in financial planning?",
+    "back": "Monte Carlo simulation is a statistical technique that uses random sampling to model the probability of different outcomes in a financial plan. It runs thousands of scenarios with varying market returns, inflation, and other variables to estimate the likelihood of achieving financial goals. It provides a more realistic assessment than deterministic projections using fixed return assumptions."
+  },
+  {
+    "id": "series66-fc020",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is the efficient market hypothesis (EMH)?",
+    "back": "EMH states that security prices fully reflect all available information, making it impossible to consistently outperform the market. The weak form says prices reflect past trading data. The semi-strong form says prices reflect all public information. The strong form says prices reflect all public and private information. EMH supports passive investing strategies."
+  },
+  {
+    "id": "series66-fc021",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "front": "What is the National Securities Markets Improvement Act (NSMIA)?",
+    "back": "NSMIA (1996) established a framework dividing regulatory authority between federal and state governments. It preempted state registration for 'covered securities' (listed on national exchanges, federal covered investment companies, and Rule 506 offerings). States retained anti-fraud authority over all securities and registration authority over non-covered securities."
+  },
+  {
+    "id": "series66-fc022",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "front": "What is a federal covered security?",
+    "back": "Federal covered securities are exempt from state registration requirements under NSMIA. They include securities listed on national exchanges (NYSE, NASDAQ), securities issued by investment companies registered under the Investment Company Act of 1940, and securities sold under Rule 506 of Regulation D. States may still require notice filings and collect fees."
+  },
+  {
+    "id": "series66-fc023",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What are the disclosure requirements when an adviser uses a promoter (formerly called a solicitor)?",
+    "back": "Under the SEC's Marketing Rule (Rule 206(4)-1, effective November 4, 2023), the term 'solicitor' has been replaced by 'promoter.' When an investment adviser compensates a promoter for referring clients, the adviser must have a written agreement with the promoter and ensure the promoter discloses at the time of solicitation: the fact that they are being compensated, the compensation arrangement, and any material conflicts of interest. The adviser must have a reasonable basis for believing the promoter complies with the agreement and is not a disqualified person."
+  },
+  {
+    "id": "series66-fc024",
+    "topic": "series66-t5",
+    "topicName": "Ethical Practices",
+    "front": "What is the IA net worth requirement?",
+    "back": "State-registered investment advisers with custody of client funds must maintain a minimum net worth (typically $35,000). Advisers with discretionary authority but no custody must maintain a lower minimum (typically $10,000). If net worth falls below the requirement, the adviser must notify the state Administrator. These requirements protect clients against adviser insolvency."
+  },
+  {
+    "id": "series66-fc025",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is rebalancing a portfolio?",
+    "back": "Rebalancing is the process of realigning a portfolio's asset allocation back to its target percentages by buying or selling assets. Over time, market movements cause actual allocations to drift from targets. Regular rebalancing (calendar-based or threshold-based) maintains the desired risk-return profile and enforces a disciplined investment approach."
+  },
+  {
+    "id": "series66-fc026",
+    "topic": "series66-t4",
+    "topicName": "Registration and Licensing",
+    "front": "What is the successor firm provision?",
+    "back": "When a broker-dealer or investment adviser merges with or is acquired by another firm, the successor firm may continue operations under the predecessor's registration for a limited period while filing a new registration. This provision ensures continuity of client service during transitions and prevents disruption to ongoing business activities."
+  },
+  {
+    "id": "series66-fc027",
+    "topic": "series66-t5",
+    "topicName": "Ethical Practices",
+    "front": "What is the fiduciary standard versus the suitability standard?",
+    "back": "The fiduciary standard requires investment advisers to act in the client's best interest at all times, placing client interests above their own. The suitability standard requires broker-dealers to recommend investments that are suitable based on the client's profile. The fiduciary standard is considered more stringent because it requires ongoing duty and full conflict disclosure."
+  },
+  {
+    "id": "series66-fc028",
+    "topic": "series66-t2",
+    "topicName": "Investment Adviser Practices",
+    "front": "What is discretionary authority?",
+    "back": "Discretionary authority allows an investment adviser to make investment decisions and execute trades on behalf of a client without obtaining the client's prior approval for each transaction. The client must grant this authority in writing. The adviser must still act within the guidelines of the investment policy statement and in the client's best interest."
+  },
+  {
+    "id": "series66-fc029",
+    "topic": "series66-t3",
+    "topicName": "Client Investment Recommendations",
+    "front": "What is duration in bond analysis?",
+    "back": "Duration measures a bond's sensitivity to changes in interest rates, expressed in years. It estimates the percentage change in a bond's price for a 1% change in interest rates. A duration of 5 means the bond's price would change approximately 5% for each 1% change in rates. Longer duration means greater interest rate risk. Duration is inversely related to coupon rate."
+  },
+  {
+    "id": "series66-fc030",
+    "topic": "series66-t1",
+    "topicName": "State Securities Regulation",
+    "front": "What is a notice filing?",
+    "back": "A notice filing is a streamlined registration process for federal covered securities at the state level. Since these securities are exempt from full state registration under NSMIA, states may only require issuers to file a notice and pay a fee. This applies to securities of registered investment companies and certain Regulation D offerings."
+  }
+]

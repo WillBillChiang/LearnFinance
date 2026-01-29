@@ -1,0 +1,562 @@
+[
+  {
+    "id": "sie-fc001",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the role of the SEC?",
+    "back": "The Securities and Exchange Commission (SEC) is the federal government agency responsible for enforcing federal securities laws, proposing securities rules, and regulating the securities industry. It was established by the Securities Exchange Act of 1934 to protect investors, maintain fair and orderly markets, and facilitate capital formation."
+  },
+  {
+    "id": "sie-fc002",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is FINRA and what does it do?",
+    "back": "FINRA (Financial Industry Regulatory Authority) is the largest self-regulatory organization (SRO) in the United States. It oversees broker-dealers and their registered representatives, writes and enforces rules governing their conduct, examines firms for compliance, and administers qualification exams such as the SIE, Series 7, and Series 63."
+  },
+  {
+    "id": "sie-fc003",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the difference between the primary market and the secondary market?",
+    "back": "The primary market is where newly issued securities are sold directly from the issuer to investors (e.g., IPOs and new bond offerings), with proceeds going to the issuer. The secondary market is where previously issued securities are traded between investors (e.g., on the NYSE or Nasdaq), with proceeds going to the selling investor, not the issuer."
+  },
+  {
+    "id": "sie-fc004",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the Federal Reserve Board (FRB) and what monetary policy tools does it use?",
+    "back": "The Federal Reserve Board is the central bank of the United States responsible for monetary policy. Its primary tools include setting the federal funds rate target, conducting open market operations (buying and selling government securities), adjusting the discount rate, and paying interest on reserve balances (IORB). Note: Reserve requirements were reduced to zero in March 2020 and are no longer actively used as a monetary policy tool. The Fed now operates under an 'ample reserves' framework, using IORB as a key tool to steer short-term interest rates."
+  },
+  {
+    "id": "sie-fc005",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is a firm commitment underwriting?",
+    "back": "In a firm commitment underwriting, the investment bank (underwriter) purchases the entire issue of securities from the issuer at a negotiated discount and assumes the financial risk of reselling those securities to the public. If the underwriter cannot sell all the shares, it must hold the unsold portion in its own inventory, absorbing the loss."
+  },
+  {
+    "id": "sie-fc006",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is a best efforts underwriting?",
+    "back": "In a best efforts underwriting, the underwriter acts as an agent for the issuer and agrees to use its best efforts to sell the securities but does not guarantee that the entire issue will be sold. The underwriter does not purchase the securities or take on financial risk. Any unsold shares are returned to the issuer."
+  },
+  {
+    "id": "sie-fc007",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is a red herring prospectus?",
+    "back": "A red herring prospectus (preliminary prospectus) is a document distributed during the cooling-off period between the filing of a registration statement and its effective date. It contains most of the information in the final prospectus but does not include the final offering price or effective date. It is used to gauge investor interest. The name comes from the red legend printed on its cover."
+  },
+  {
+    "id": "sie-fc008",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the yield curve and what does an inverted yield curve indicate?",
+    "back": "The yield curve is a graph plotting interest rates of bonds with equal credit quality across different maturities. A normal yield curve slopes upward, with longer maturities offering higher yields. An inverted yield curve occurs when short-term rates exceed long-term rates and has historically been a predictor of economic recession, suggesting investors expect future economic weakness and lower rates."
+  },
+  {
+    "id": "sie-fc009",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the MSRB?",
+    "back": "The Municipal Securities Rulemaking Board (MSRB) is an SRO that creates rules regulating firms and individuals involved in the underwriting, trading, and selling of municipal securities. However, the MSRB does not enforce its own rules; enforcement is handled by FINRA (for broker-dealers) and bank regulatory agencies (for banks)."
+  },
+  {
+    "id": "sie-fc010",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the difference between fiscal policy and monetary policy?",
+    "back": "Fiscal policy is managed by the U.S. government (Congress and the President) through taxation and government spending decisions to influence the economy. Monetary policy is managed by the Federal Reserve through controlling the money supply and interest rates. Both tools are used to promote economic stability, but they are administered by different entities."
+  },
+  {
+    "id": "sie-fc011",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the role of SIPC?",
+    "back": "The Securities Investor Protection Corporation (SIPC) is a nonprofit membership corporation that protects customer accounts at broker-dealers up to $500,000 per customer (including up to $250,000 for cash claims) in the event a broker-dealer fails financially. SIPC does not protect against market losses, bad investment decisions, or fraud. It is not a government agency."
+  },
+  {
+    "id": "sie-fc012",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is a Regulation D private placement?",
+    "back": "A Regulation D private placement is an offering of securities exempt from full SEC registration, sold to a limited number of accredited investors (and in some cases up to 35 non-accredited investors). Accredited investors include institutions and individuals meeting specific income or net worth thresholds. Private placements have restricted resale conditions and do not require a prospectus but must provide material information to investors."
+  },
+  {
+    "id": "sie-fc013",
+    "topic": "sie-t1",
+    "topicName": "Knowledge of Capital Markets",
+    "front": "What is the FDIC and how does it differ from SIPC?",
+    "back": "The Federal Deposit Insurance Corporation (FDIC) insures bank deposits up to $250,000 per depositor per insured bank, covering savings accounts, checking accounts, and CDs. SIPC covers customer accounts at broker-dealers up to $500,000. The key difference is that FDIC covers bank deposits while SIPC covers brokerage accounts. Neither protects against investment losses."
+  },
+  {
+    "id": "sie-fc014",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What are the key characteristics of common stock?",
+    "back": "Common stock represents ownership (equity) in a corporation. Key characteristics include voting rights (typically one vote per share), potential for capital appreciation, eligibility for dividends (not guaranteed), limited liability (maximum loss is the investment amount), and a residual claim on assets in liquidation (paid after all creditors and preferred stockholders)."
+  },
+  {
+    "id": "sie-fc015",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What are the key characteristics of preferred stock?",
+    "back": "Preferred stock is an equity security with features of both stocks and bonds. It typically pays a fixed dividend, has priority over common stock for dividends and liquidation proceeds, generally does not carry voting rights, and is more sensitive to interest rate changes than common stock. Cumulative preferred requires that any missed dividends be paid before common dividends can be distributed."
+  },
+  {
+    "id": "sie-fc016",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a corporate bond and how is it quoted?",
+    "back": "A corporate bond is a debt security issued by a corporation to raise capital, with a promise to pay periodic interest (coupon) and return the principal (par value, typically $1,000) at maturity. Corporate bonds are quoted as a percentage of par value. For example, a bond quoted at 98 is trading at 98% of $1,000, or $980 (at a discount), while a bond at 103 trades at $1,030 (at a premium)."
+  },
+  {
+    "id": "sie-fc017",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is the relationship between bond prices and interest rates?",
+    "back": "Bond prices and interest rates have an inverse relationship. When interest rates rise, existing bond prices fall because newly issued bonds offer higher yields, making older bonds less attractive. When interest rates fall, existing bond prices rise. This is known as interest rate risk, and it affects bonds with longer maturities and lower coupon rates more significantly."
+  },
+  {
+    "id": "sie-fc018",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a general obligation (GO) municipal bond?",
+    "back": "A general obligation bond is a municipal bond backed by the full faith and credit (taxing power) of the issuing municipality. The issuer pledges its ability to levy taxes (property taxes, income taxes, etc.) to pay debt service. GO bonds typically require voter approval and are considered lower risk than revenue bonds because they are supported by the issuer's overall taxing authority."
+  },
+  {
+    "id": "sie-fc019",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a revenue bond?",
+    "back": "A revenue bond is a municipal bond backed by the income generated from a specific project or facility, such as tolls from a highway, fees from a hospital, or rents from a housing project. Revenue bonds do not require voter approval and are generally considered riskier than general obligation bonds because repayment depends on the project's ability to generate sufficient revenue."
+  },
+  {
+    "id": "sie-fc020",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a call option?",
+    "back": "A call option gives the buyer (holder) the right, but not the obligation, to purchase 100 shares of the underlying security at a specified strike price before or on the expiration date. The buyer pays a premium for this right. Call buyers are bullish, expecting the stock price to rise above the strike price. Call sellers (writers) receive the premium and are obligated to sell shares if the option is exercised."
+  },
+  {
+    "id": "sie-fc021",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a put option?",
+    "back": "A put option gives the buyer (holder) the right, but not the obligation, to sell 100 shares of the underlying security at a specified strike price before or on the expiration date. The buyer pays a premium for this right. Put buyers are bearish, expecting the stock price to fall below the strike price. Put sellers (writers) receive the premium and are obligated to buy shares if the option is exercised."
+  },
+  {
+    "id": "sie-fc022",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is intrinsic value of an option?",
+    "back": "Intrinsic value is the amount by which an option is in the money. For a call option, intrinsic value equals the stock price minus the strike price (if positive). For a put option, intrinsic value equals the strike price minus the stock price (if positive). An option can never have negative intrinsic value; the minimum is zero. Any premium above intrinsic value is called time value (or extrinsic value)."
+  },
+  {
+    "id": "sie-fc023",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a mutual fund (open-end fund)?",
+    "back": "A mutual fund is an open-end investment company that pools money from many investors to purchase a diversified portfolio of securities. Shares are continuously issued and redeemed at the fund's net asset value (NAV), calculated at the end of each trading day. Mutual funds offer professional management, diversification, and liquidity but charge management fees and may have sales loads."
+  },
+  {
+    "id": "sie-fc024",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is an exchange-traded fund (ETF)?",
+    "back": "An ETF is an investment fund that trades on stock exchanges throughout the trading day at market-determined prices, like individual stocks. Most ETFs passively track an index and typically have lower expense ratios than actively managed mutual funds. ETFs offer intraday trading, tax efficiency, and transparency of holdings but may trade at a slight premium or discount to their NAV."
+  },
+  {
+    "id": "sie-fc025",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a closed-end fund?",
+    "back": "A closed-end fund is an investment company that issues a fixed number of shares through an IPO and then those shares trade on an exchange like stocks. Unlike open-end mutual funds, closed-end funds do not continuously issue or redeem shares. Their market price is determined by supply and demand and may trade at a premium or discount to the fund's NAV. Closed-end funds may also use leverage."
+  },
+  {
+    "id": "sie-fc026",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a Unit Investment Trust (UIT)?",
+    "back": "A Unit Investment Trust (UIT) is an investment company that issues redeemable units representing an interest in a fixed portfolio of securities. Unlike mutual funds, UITs are not actively managed; the portfolio is selected at creation and generally remains unchanged. UITs have a stated termination date at which point the portfolio is liquidated and proceeds are distributed to unit holders."
+  },
+  {
+    "id": "sie-fc027",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a variable annuity?",
+    "back": "A variable annuity is an insurance contract that combines features of insurance and securities. The investor's money is placed in a separate account invested in subaccounts (similar to mutual funds). Returns vary based on investment performance, and the contract owner bears the investment risk. Variable annuities grow tax-deferred, are subject to SEC regulation, and typically have surrender charges for early withdrawal."
+  },
+  {
+    "id": "sie-fc028",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is the difference between a fixed annuity and a variable annuity?",
+    "back": "A fixed annuity guarantees a fixed rate of return and is invested in the insurance company's general account; it is not considered a security. A variable annuity's returns depend on the performance of the separate account subaccounts and the contract owner bears the investment risk; it is considered a security and must be registered with the SEC. Variable annuities offer growth potential but no guaranteed return."
+  },
+  {
+    "id": "sie-fc029",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is market (systematic) risk?",
+    "back": "Market risk, also called systematic or non-diversifiable risk, is the risk that the overall market will decline, affecting virtually all securities regardless of their individual merits. It is caused by factors such as economic recessions, political events, wars, or pandemics. Market risk cannot be eliminated through diversification but can be measured using beta. It is the inherent risk of investing in the market."
+  },
+  {
+    "id": "sie-fc030",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is nonsystematic (unsystematic) risk?",
+    "back": "Nonsystematic risk, also called diversifiable, business, or company-specific risk, is the risk specific to a particular company, industry, or sector. Examples include a product recall, management changes, or regulatory action affecting one company. This risk can be reduced or eliminated through diversification across different companies, industries, and asset classes."
+  },
+  {
+    "id": "sie-fc031",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is interest rate risk?",
+    "back": "Interest rate risk is the risk that changes in interest rates will adversely affect the value of fixed-income securities. When interest rates rise, bond prices fall, and vice versa. Longer-term bonds and those with lower coupon rates are more sensitive to interest rate changes. This risk is particularly important for bondholders who may need to sell before maturity."
+  },
+  {
+    "id": "sie-fc032",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is credit (default) risk?",
+    "back": "Credit risk is the risk that a bond issuer will be unable to make timely interest payments or repay principal at maturity. Credit rating agencies (Moody's, S&P, Fitch) assess this risk. Investment-grade bonds (BBB/Baa or higher) have lower credit risk, while high-yield (junk) bonds (below BBB/Baa) have higher credit risk but offer higher yields to compensate investors for the additional risk."
+  },
+  {
+    "id": "sie-fc033",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is inflation (purchasing power) risk?",
+    "back": "Inflation risk, also called purchasing power risk, is the risk that the return on an investment will not keep pace with inflation, causing a loss of real purchasing power. Fixed-income investments and cash are most vulnerable because their returns are fixed while the cost of goods and services rises. Equities and real assets generally provide better inflation protection over the long term."
+  },
+  {
+    "id": "sie-fc034",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is liquidity risk?",
+    "back": "Liquidity risk is the risk that an investor will not be able to sell a security quickly or at a fair price. Thinly traded securities, limited partnerships, certain real estate investments, and small-cap stocks may have higher liquidity risk. Highly liquid investments include large-cap stocks on major exchanges and U.S. Treasury securities. Low liquidity can result in wider bid-ask spreads and price concessions."
+  },
+  {
+    "id": "sie-fc035",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is reinvestment risk?",
+    "back": "Reinvestment risk is the risk that proceeds from maturing investments or coupon payments will need to be reinvested at lower interest rates. This is particularly relevant for callable bonds, which may be called when rates fall, forcing investors to reinvest at lower yields. Zero-coupon bonds eliminate reinvestment risk because there are no periodic coupon payments to reinvest."
+  },
+  {
+    "id": "sie-fc036",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What are Treasury bills, notes, and bonds?",
+    "back": "Treasury bills (T-bills) are short-term government securities with maturities of 4, 8, 13, 26, or 52 weeks, sold at a discount and redeemed at par. Treasury notes have maturities of 2, 3, 5, 7, or 10 years and pay semiannual interest. Treasury bonds have maturities of 20 or 30 years and also pay semiannual interest. All are backed by the full faith and credit of the U.S. government."
+  },
+  {
+    "id": "sie-fc037",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What are TIPS (Treasury Inflation-Protected Securities)?",
+    "back": "TIPS are U.S. Treasury securities designed to protect investors against inflation. The principal value is adjusted daily using an Index Ratio published by the U.S. Treasury, based on changes in the Consumer Price Index for All Urban Consumers (CPI-U). The coupon rate is fixed but is applied to the inflation-adjusted principal, so semiannual interest payments increase with inflation and decrease with deflation. At maturity, the investor receives the greater of the adjusted principal or the original par value. The inflation adjustment to principal is taxable in the year it occurs, even though the adjusted principal is not received until maturity."
+  },
+  {
+    "id": "sie-fc038",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is commercial paper?",
+    "back": "Commercial paper is an unsecured, short-term debt instrument issued by corporations to meet short-term financing needs such as payroll, accounts payable, and inventory. It typically has maturities of 1 to 270 days and is sold at a discount to face value. Because maturities are under 270 days, commercial paper is exempt from SEC registration. Only highly creditworthy companies can issue it."
+  },
+  {
+    "id": "sie-fc039",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a convertible bond?",
+    "back": "A convertible bond is a corporate bond that can be converted into a predetermined number of shares of the issuer's common stock at the bondholder's option. The conversion ratio specifies how many shares the bondholder receives. Convertible bonds typically offer lower coupon rates than non-convertible bonds because of the added value of the conversion feature. They provide downside protection of bonds with upside equity potential."
+  },
+  {
+    "id": "sie-fc040",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a callable bond?",
+    "back": "A callable bond gives the issuer the right to redeem (call) the bond before its maturity date, usually at a premium above par value. Issuers typically call bonds when interest rates have fallen, allowing them to refinance at lower rates. This creates call risk (or reinvestment risk) for investors, who lose their higher-yielding investment and must reinvest proceeds at lower prevailing rates."
+  },
+  {
+    "id": "sie-fc041",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What are American Depositary Receipts (ADRs)?",
+    "back": "ADRs are receipts representing shares of foreign companies held in custody by a U.S. depositary bank. They trade on U.S. exchanges in U.S. dollars, making it easier for American investors to invest in foreign companies. ADRs still carry currency risk, political risk, and other risks associated with foreign investments. Sponsored ADRs are registered with the SEC, while unsponsored ADRs may trade OTC."
+  },
+  {
+    "id": "sie-fc042",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a zero-coupon bond?",
+    "back": "A zero-coupon bond does not make periodic interest payments. Instead, it is issued at a deep discount to its face (par) value and matures at par. The difference between the purchase price and face value represents the investor's return. Zero-coupon bonds have the highest interest rate sensitivity (duration) among bonds. Even though no cash interest is received, the annual accretion of discount is taxable as phantom income."
+  },
+  {
+    "id": "sie-fc043",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a money market fund?",
+    "back": "A money market fund is a type of mutual fund that invests in short-term, high-quality debt instruments such as Treasury bills, commercial paper, and certificates of deposit. These funds aim to maintain a stable NAV of $1 per share and provide modest returns with very low risk. They are highly liquid and are used as a cash management tool, but they are not FDIC insured."
+  },
+  {
+    "id": "sie-fc044",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is a 12b-1 fee?",
+    "back": "A 12b-1 fee is an annual fee charged by a mutual fund to cover distribution and marketing expenses, including trailing commissions paid to brokers. Under FINRA rules, 12b-1 fees are capped at 1% of average net assets per year, with no more than 0.75% for distribution and 0.25% for service (shareholder servicing). These fees are deducted from fund assets and reduce the investor's overall return."
+  },
+  {
+    "id": "sie-fc045",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What are mutual fund share classes (A, B, and C)?",
+    "back": "Class A shares charge a front-end sales load (deducted at purchase) and typically have lower ongoing expenses. Class B shares charge a back-end (contingent deferred) sales load if redeemed within a specified period and have higher 12b-1 fees. Class C shares typically have no front-end load, a small back-end load (usually 1% in the first year), and ongoing higher 12b-1 fees. Each class is suited to different investment horizons."
+  },
+  {
+    "id": "sie-fc046",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is NAV (Net Asset Value) and how is it calculated?",
+    "back": "Net Asset Value (NAV) is the per-share value of a mutual fund, calculated by taking the total market value of all the fund's assets, subtracting its liabilities, and dividing by the total number of outstanding shares. NAV is computed at the end of each trading day. Open-end mutual fund shares are bought and redeemed at the NAV (plus any applicable sales charge)."
+  },
+  {
+    "id": "sie-fc047",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is currency (exchange rate) risk?",
+    "back": "Currency risk is the risk that fluctuations in foreign exchange rates will negatively affect the value of investments denominated in a foreign currency. When the U.S. dollar strengthens against a foreign currency, the value of foreign investments decreases when converted back to dollars, and vice versa. This risk is particularly relevant for investors holding international stocks, bonds, or ADRs."
+  },
+  {
+    "id": "sie-fc048",
+    "topic": "sie-t2",
+    "topicName": "Understanding Products and Their Risks",
+    "front": "What is political (legislative) risk?",
+    "back": "Political risk is the risk that government actions, legislation, or regulatory changes will negatively affect an investment's value. This includes changes in tax laws, new regulations on specific industries, trade policies, nationalization of industries, or political instability. International investments carry higher political risk, especially in emerging markets. Domestic investments can also be affected by changes in U.S. tax policy or regulation."
+  },
+  {
+    "id": "sie-fc049",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a cash account?",
+    "back": "A cash account is a brokerage account in which the customer must pay for securities in full by the settlement date. No borrowing is permitted, short selling is not allowed, and securities cannot be used as collateral. Cash accounts are the most basic type of brokerage account and have fewer risks and regulatory requirements compared to margin accounts."
+  },
+  {
+    "id": "sie-fc050",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a margin account?",
+    "back": "A margin account allows investors to borrow money from their broker-dealer to purchase securities, using the purchased securities as collateral. This leverage amplifies both gains and losses. Regulation T requires an initial margin deposit of 50% of the purchase price. FINRA requires a minimum maintenance margin of 25%, though most firms set higher house requirements. Margin accounts also enable short selling."
+  },
+  {
+    "id": "sie-fc051",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is Regulation T?",
+    "back": "Regulation T, established by the Federal Reserve Board, governs the extension of credit by broker-dealers to customers. It sets the initial margin requirement at 50% of the purchase price of marginable securities, meaning investors must deposit at least half the cost of the securities they purchase on margin. Reg T also covers payment timing for cash accounts and rules for free-riding violations."
+  },
+  {
+    "id": "sie-fc052",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is the difference between JTWROS and TIC accounts?",
+    "back": "In a Joint Tenants with Right of Survivorship (JTWROS) account, when one owner dies, their share passes directly to the surviving owner(s), bypassing probate. All owners have equal and undivided interest. In a Tenants in Common (TIC) account, each owner may have an unequal share, and upon death, their share passes to their estate (not to the surviving owners) according to their will."
+  },
+  {
+    "id": "sie-fc053",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a market order?",
+    "back": "A market order is an order to buy or sell a security immediately at the best available current price. Market orders guarantee execution but not a specific price. They are the fastest type of order to fill and are appropriate when speed of execution is more important than the exact price. In volatile markets, the execution price may differ significantly from the last quoted price."
+  },
+  {
+    "id": "sie-fc054",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a limit order?",
+    "back": "A limit order specifies the maximum price a buyer is willing to pay or the minimum price a seller is willing to accept. A buy limit order is placed below the current market price, and a sell limit order is placed above the current market price. Limit orders guarantee the price (or better) but do not guarantee execution; the order will only fill if the market reaches the specified price."
+  },
+  {
+    "id": "sie-fc055",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a stop order (stop-loss order)?",
+    "back": "A stop order becomes a market order once the stock reaches a specified stop price. A sell stop is placed below the current market price to limit losses or protect profits on a long position. A buy stop is placed above the current market price to limit losses on a short position or enter a position on a breakout. Once triggered, the order executes at the next available price, which may differ from the stop price."
+  },
+  {
+    "id": "sie-fc056",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is settlement and what are the regular-way settlement times?",
+    "back": "Settlement is the process of transferring ownership of securities and payment between buyer and seller. Regular-way settlement for most securities (stocks, bonds, mutual funds, and options) is T+1 (trade date plus one business day). U.S. government securities also settle T+1. Cash trades settle on the same day (T+0). Settlement ensures the buyer receives securities and the seller receives payment."
+  },
+  {
+    "id": "sie-fc057",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a Traditional IRA?",
+    "back": "A Traditional IRA is a tax-advantaged retirement account. Contributions may be tax-deductible (depending on income and access to employer plans), and earnings grow tax-deferred. Withdrawals in retirement are taxed as ordinary income. Required minimum distributions (RMDs) must begin at age 73. Early withdrawals before age 59 1/2 generally incur a 10% penalty plus income taxes, with certain exceptions."
+  },
+  {
+    "id": "sie-fc058",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a Roth IRA and how does it differ from a Traditional IRA?",
+    "back": "A Roth IRA is funded with after-tax contributions (not tax-deductible), but qualified withdrawals in retirement are completely tax-free. Unlike a Traditional IRA, Roth IRAs have no required minimum distributions (RMDs) during the owner's lifetime. Contributions (not earnings) can be withdrawn at any time without penalty. Roth IRAs have income eligibility limits that phase out at higher income levels."
+  },
+  {
+    "id": "sie-fc059",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a UTMA/UGMA custodial account?",
+    "back": "UTMA (Uniform Transfers to Minors Act) and UGMA (Uniform Gifts to Minors Act) accounts are custodial accounts opened by an adult for the benefit of a minor. The minor is the beneficial owner, and gifts are irrevocable. Only one custodian is named at a time. Margin trading and short selling are prohibited. The custodian manages the account in a fiduciary capacity until the minor reaches the age of majority, at which point the assets transfer to the former minor."
+  },
+  {
+    "id": "sie-fc060",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is short selling?",
+    "back": "Short selling is the practice of selling borrowed securities with the expectation that the price will decline, allowing the investor to buy them back at a lower price and profit from the difference. The investor borrows shares from the broker-dealer and must eventually return them. Short selling requires a margin account and carries unlimited loss potential since the stock price can theoretically rise without limit."
+  },
+  {
+    "id": "sie-fc061",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is churning?",
+    "back": "Churning is the prohibited practice of excessive trading in a customer's account primarily to generate commissions for the broker rather than to benefit the customer. For churning to occur, the representative must have control over the account (either through discretionary authority or de facto control). Indicators include high turnover ratios, excessive commission-to-equity ratios, and frequent in-and-out trading with little net benefit to the customer."
+  },
+  {
+    "id": "sie-fc062",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is insider trading?",
+    "back": "Insider trading is the illegal practice of buying or selling securities based on material, nonpublic information (MNPI). Insiders include corporate officers, directors, and employees, as well as anyone who receives MNPI (tippees). Under the Securities Exchange Act of 1934 and SEC Rule 10b-5, insider trading can result in civil penalties of up to three times the profit gained or loss avoided, plus criminal penalties including fines and imprisonment."
+  },
+  {
+    "id": "sie-fc063",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is front-running?",
+    "back": "Front-running is the prohibited practice of a broker-dealer or registered representative trading in a personal or proprietary account ahead of a pending customer order that is expected to affect the price of a security. For example, buying shares before executing a large customer buy order that is likely to push the price up. FINRA rules require that customer orders always take priority over personal trades."
+  },
+  {
+    "id": "sie-fc064",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a discretionary account?",
+    "back": "A discretionary account is a brokerage account in which the customer authorizes the registered representative to make investment decisions (including what to buy or sell, how much, and when) without obtaining the customer's prior approval for each trade. Discretionary authority requires written authorization from the customer. Each discretionary trade must be marked as such and reviewed by a principal on the day the trade is entered."
+  },
+  {
+    "id": "sie-fc065",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a margin call?",
+    "back": "A margin call occurs when the equity in a margin account falls below the minimum maintenance requirement (FINRA minimum is 25%, but most firms require 30-35%). The customer must deposit additional funds or securities to bring the account back into compliance. If the customer fails to meet the margin call, the broker-dealer may liquidate securities in the account without prior notice to restore the required equity level."
+  },
+  {
+    "id": "sie-fc066",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is market manipulation?",
+    "back": "Market manipulation is any practice that artificially influences the price or volume of a security. Common forms include wash trading (buying and selling the same security to create the appearance of activity), matched orders (coordinating buy and sell orders to create false impressions), painting the tape (reporting false transactions), and pump and dump schemes (artificially inflating a stock's price before selling). All forms are prohibited under securities laws."
+  },
+  {
+    "id": "sie-fc067",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is the Customer Identification Program (CIP)?",
+    "back": "The Customer Identification Program (CIP) is required by the USA PATRIOT Act and anti-money laundering regulations. Broker-dealers must verify the identity of each customer who opens an account by collecting information such as name, date of birth, address, and identification number (e.g., Social Security number). The firm must also compare customer information against government lists of known or suspected terrorists."
+  },
+  {
+    "id": "sie-fc068",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is suitability and what is Reg BI?",
+    "back": "Suitability refers to the obligation of registered representatives to recommend investments that are appropriate for a customer based on their financial situation, needs, objectives, and risk tolerance. Regulation Best Interest (Reg BI), adopted by the SEC, raises the standard by requiring broker-dealers to act in the best interest of the customer at the time of a recommendation, going beyond traditional suitability by requiring disclosure, care, conflict of interest management, and compliance."
+  },
+  {
+    "id": "sie-fc069",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a 529 education savings plan?",
+    "back": "A 529 plan is a tax-advantaged investment account designed to save for qualified education expenses. Contributions are made with after-tax dollars but earnings grow tax-free, and withdrawals for qualified education expenses (tuition, room and board, books) are also tax-free. Many states offer state income tax deductions for contributions. Non-qualified withdrawals are subject to income tax and a 10% penalty on earnings."
+  },
+  {
+    "id": "sie-fc070",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is the ex-dividend date and why does it matter?",
+    "back": "The ex-dividend date is the first day a stock trades without the entitlement to the most recently declared dividend. An investor must purchase the stock before the ex-dividend date to receive the dividend. On the ex-date, the stock price typically drops by approximately the dividend amount. Under T+1 settlement (effective May 28, 2024), the ex-dividend date is the same day as the record date. An investor must buy at least one business day before the ex-date to settle in time. The key dates in order are: declaration date, ex-dividend date (= record date under T+1), payable date."
+  },
+  {
+    "id": "sie-fc071",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What are the key requirements for opening a new customer account?",
+    "back": "When opening a new customer account, the registered representative must collect essential information including the customer's name, address, date of birth, Social Security or tax ID number, employment status, annual income, net worth, investment objectives, risk tolerance, and investment experience. A principal must approve the new account. The customer must receive and be given the opportunity to verify the accuracy of their account information."
+  },
+  {
+    "id": "sie-fc072",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is free-riding and how is it prohibited?",
+    "back": "Free-riding occurs when a customer buys securities in a cash account, sells them before paying for them in full, and uses the sale proceeds to pay for the original purchase. This violates Regulation T because the customer never actually had the funds to pay for the purchase. If a free-riding violation occurs, the broker-dealer must freeze the account for 90 days, during which the customer must pay in full before any purchases."
+  },
+  {
+    "id": "sie-fc073",
+    "topic": "sie-t3",
+    "topicName": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+    "front": "What is a fiduciary account and what types exist?",
+    "back": "A fiduciary account is managed by someone authorized to act on behalf of another person. Types include custodial accounts (UTMA/UGMA for minors), trust accounts (managed by a trustee per trust agreement terms), estate accounts (managed by an executor or administrator), and guardian accounts (court-appointed guardians for incapacitated individuals). Fiduciaries must act in the best interest of the beneficiary and follow the prudent investor rule."
+  },
+  {
+    "id": "sie-fc074",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What is the Securities Act of 1933?",
+    "back": "The Securities Act of 1933, also known as the 'Paper Act' or 'Truth in Securities Act,' was the first major federal securities law. It requires that new securities offered to the public be registered with the SEC and that investors receive a prospectus containing material information about the offering. Its primary purpose is to ensure full and fair disclosure so investors can make informed decisions. It also prohibits fraud in the sale of securities."
+  },
+  {
+    "id": "sie-fc075",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What is the Securities Exchange Act of 1934?",
+    "back": "The Securities Exchange Act of 1934 created the SEC and regulates the secondary trading of securities. It requires registration of securities exchanges, broker-dealers, and transfer agents. It addresses ongoing reporting requirements for public companies (10-K, 10-Q, 8-K filings), prohibits market manipulation and fraud (Rule 10b-5), regulates proxy solicitations, and governs insider trading rules. It is sometimes called the 'People Act.'"
+  },
+  {
+    "id": "sie-fc076",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What is the Investment Company Act of 1940?",
+    "back": "The Investment Company Act of 1940 regulates the organization of companies that primarily invest in securities and offer their own shares to the public. It classifies investment companies into three types: face-amount certificate companies, unit investment trusts, and management companies (which include open-end/mutual funds and closed-end funds). The act sets requirements for investment company structure, operations, fees, and disclosure."
+  },
+  {
+    "id": "sie-fc077",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What are the FINRA continuing education (CE) requirements?",
+    "back": "FINRA continuing education has two elements. The Regulatory Element must be completed annually by December 31 for each registration category held (per FINRA Rule 1240, effective January 1, 2023). Failure to complete it by the deadline results in CE-inactive status, and the registered person may not perform any activities requiring registration. A registration that remains CE-inactive for two consecutive years is subject to administrative termination. The Firm Element is an annual training program developed by each firm based on its business needs and regulatory developments. Both elements ensure registered persons stay current on rules, regulations, and product knowledge."
+  },
+  {
+    "id": "sie-fc078",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What is the SIE exam and who must take it?",
+    "back": "The Securities Industry Essentials (SIE) exam is a FINRA qualification exam that assesses basic knowledge of the securities industry. Unlike other FINRA exams, it does not require firm sponsorship and can be taken by anyone aged 18 or older. The SIE is a corequisite to registration exams (such as the Series 7 or Series 6). It covers four topics: capital markets, products and risks, trading and accounts, and the regulatory framework. A passing score is 70%."
+  },
+  {
+    "id": "sie-fc079",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What are the key anti-money laundering (AML) requirements for broker-dealers?",
+    "back": "Under the Bank Secrecy Act (BSA) and USA PATRIOT Act, broker-dealers must establish an AML compliance program that includes internal policies and procedures, designation of an AML compliance officer, ongoing employee training, and independent testing. Firms must file Currency Transaction Reports (CTRs) for cash transactions exceeding $10,000 and Suspicious Activity Reports (SARs) for suspected illegal activity. Customer identification (CIP) is also required."
+  },
+  {
+    "id": "sie-fc080",
+    "topic": "sie-t4",
+    "topicName": "Overview of the Regulatory Framework",
+    "front": "What is Form U4 and Form U5?",
+    "back": "Form U4 (Uniform Application for Securities Industry Registration or Transfer) is filed when a registered representative joins a FINRA member firm. It collects personal information, employment history, disclosures of regulatory actions, criminal history, and customer complaints. Form U5 (Uniform Termination Notice) is filed when a representative leaves a firm, within 30 days of termination. Both forms become part of the individual's permanent CRD record and are publicly accessible through BrokerCheck."
+  }
+]

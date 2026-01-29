@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {"id": "sie", "label": "SIE", "name": "Securities Industry Essentials", "category": "entry"},
+    {"id": "series7", "label": "Series 7", "name": "General Securities Representative", "category": "representative"},
+    {"id": "series6", "label": "Series 6", "name": "Investment Company / Variable Contracts", "category": "representative"},
+    {"id": "series63", "label": "Series 63", "name": "Uniform Securities Agent State Law", "category": "representative"},
+    {"id": "series65", "label": "Series 65", "name": "Uniform Investment Adviser Law", "category": "representative"},
+    {"id": "series66", "label": "Series 66", "name": "Uniform Combined State Law", "category": "representative"},
+    {"id": "series79", "label": "Series 79", "name": "Investment Banking Representative", "category": "representative"},
+    {"id": "series82", "label": "Series 82", "name": "Private Securities Offerings", "category": "representative"},
+    {"id": "series86", "label": "Series 86/87", "name": "Research Analyst", "category": "representative"},
+    {"id": "series99", "label": "Series 99", "name": "Operations Professional", "category": "representative"},
+    {"id": "series52", "label": "Series 52", "name": "Municipal Securities Representative", "category": "representative"},
+    {"id": "series50", "label": "Series 50", "name": "Municipal Advisor Representative", "category": "representative"},
+    {"id": "series3", "label": "Series 3", "name": "National Commodities Futures", "category": "representative"},
+    {"id": "series24", "label": "Series 24", "name": "General Securities Principal", "category": "principal"},
+    {"id": "series27", "label": "Series 27", "name": "Financial and Operations Principal", "category": "principal"},
+    {"id": "series53", "label": "Series 53", "name": "Municipal Securities Principal", "category": "principal"},
+    {"id": "series4", "label": "Series 4", "name": "Registered Options Principal", "category": "principal"},
+    {"id": "series9", "label": "Series 9/10", "name": "General Securities Sales Supervisor", "category": "principal"}
+  ],
+  "edges": [
+    {"from": "sie", "to": "series7", "type": "prerequisite"},
+    {"from": "sie", "to": "series6", "type": "prerequisite"},
+    {"from": "sie", "to": "series63", "type": "prerequisite"},
+    {"from": "sie", "to": "series65", "type": "prerequisite"},
+    {"from": "sie", "to": "series79", "type": "prerequisite"},
+    {"from": "sie", "to": "series82", "type": "prerequisite"},
+    {"from": "sie", "to": "series99", "type": "prerequisite"},
+    {"from": "sie", "to": "series52", "type": "prerequisite"},
+    {"from": "sie", "to": "series50", "type": "prerequisite"},
+    {"from": "sie", "to": "series3", "type": "prerequisite"},
+    {"from": "series7", "to": "series66", "type": "prerequisite"},
+    {"from": "series7", "to": "series86", "type": "prerequisite"},
+    {"from": "series7", "to": "series24", "type": "prerequisite"},
+    {"from": "series7", "to": "series27", "type": "prerequisite"},
+    {"from": "series7", "to": "series4", "type": "prerequisite"},
+    {"from": "series7", "to": "series9", "type": "prerequisite"},
+    {"from": "series52", "to": "series53", "type": "prerequisite"}
+  ],
+  "tracks": [
+    {
+      "id": "general-rep",
+      "name": "General Securities Representative",
+      "description": "The most common path for full-service broker-dealer agents. Allows selling all securities products including stocks, bonds, options, and mutual funds.",
+      "exams": ["sie", "series7", "series63"],
+      "color": "#3b82f6"
+    },
+    {
+      "id": "general-rep-advisor",
+      "name": "Securities Rep + Investment Adviser",
+      "description": "For professionals providing both brokerage and advisory services. The Series 66 combines state law and investment adviser content.",
+      "exams": ["sie", "series7", "series66"],
+      "color": "#10b981"
+    },
+    {
+      "id": "investment-adviser",
+      "name": "Investment Adviser Representative",
+      "description": "For those providing fee-based investment advice. Does not require the Series 7 or firm sponsorship to sit for the exam.",
+      "exams": ["sie", "series65"],
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "investment-banking",
+      "name": "Investment Banking",
+      "description": "For investment bankers handling underwriting, mergers & acquisitions advisory, and other corporate finance activities.",
+      "exams": ["sie", "series79"],
+      "color": "#f59e0b"
+    },
+    {
+      "id": "branch-manager",
+      "name": "Branch Manager / General Principal",
+      "description": "Supervisory role overseeing all broker-dealer activities. The Series 24 is the gateway principal exam for most management positions.",
+      "exams": ["sie", "series7", "series24"],
+      "color": "#ef4444"
+    },
+    {
+      "id": "finops",
+      "name": "Financial & Operations Principal",
+      "description": "Responsible for financial operations, net capital compliance, customer reserve calculations, and regulatory record keeping.",
+      "exams": ["sie", "series7", "series27"],
+      "color": "#ec4899"
+    },
+    {
+      "id": "municipal",
+      "name": "Municipal Securities",
+      "description": "For professionals dealing in municipal securities, from trading muni bonds to supervising municipal activities.",
+      "exams": ["sie", "series52", "series53"],
+      "color": "#06b6d4"
+    },
+    {
+      "id": "research",
+      "name": "Research Analyst",
+      "description": "For equity research analysts producing investment research reports and recommendations on securities.",
+      "exams": ["sie", "series7", "series86"],
+      "color": "#84cc16"
+    }
+  ]
+}

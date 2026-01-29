@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Master investment companies for the Series 7 exam: mutual funds, NAV calculation, share classes, breakpoints, 12b-1 fees, closed-end funds, ETFs, UITs, and the Investment Company Act of 1940.">
+  <title>Investment Companies - Series 7 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series7" data-chapter="investment-companies">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-entry">Chapter 7</span>
+          <h1>Investment Companies</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              55 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 7 &mdash; Packaged Products
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="badge badge-warning">High-Weight Exam Topic</span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Investment Company Act of 1940 ====== -->
+        <section class="lesson__section" id="investment-company-act">
+          <h2>The Investment Company Act of 1940</h2>
+
+          <p>The <strong>Investment Company Act of 1940</strong> is the primary federal law governing investment companies. It established the regulatory framework for how investment companies are organized, how they operate, and how they are sold to the public. This Act is administered by the Securities and Exchange Commission (SEC).</p>
+
+          <p>Under the Act, an investment company is defined as any company that is primarily engaged in the business of investing, reinvesting, or trading in securities. The Act classifies investment companies into three types:</p>
+
+          <ol>
+            <li><strong>Management companies:</strong> The most common type, further divided into open-end (mutual funds) and closed-end funds. These companies actively manage a portfolio of securities.</li>
+            <li><strong>Unit Investment Trusts (UITs):</strong> Fixed portfolios of securities held in trust. They do not have a board of directors or investment adviser.</li>
+            <li><strong>Face-amount certificate companies:</strong> Rarely issued today. These are debt instruments where the company promises to pay a stated (face) amount at a future date.</li>
+          </ol>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Investment Company:</strong> A company that pools money from many investors to invest in a diversified portfolio of securities. The investment company issues shares to investors, and the value of those shares fluctuates with the value of the underlying portfolio. Governed by the Investment Company Act of 1940 and registered with the SEC.</p>
+            </div>
+          </div>
+
+          <h3>Key Provisions of the 1940 Act</h3>
+
+          <ul>
+            <li>At least <strong>40% of the board of directors</strong> must be non-interested (independent, outside) persons. For funds that use 12b-1 fees, a majority of the board must be independent.</li>
+            <li>Investment companies must have a clearly stated <strong>investment objective</strong> that can only be changed by a majority vote of shareholders.</li>
+            <li>Custody of fund assets must be maintained by a <strong>qualified custodian</strong> (typically a bank).</li>
+            <li>Shares cannot be sold on <strong>margin</strong> and cannot be sold <strong>short</strong>.</li>
+            <li>Fund shares cannot be purchased with <strong>borrowed money</strong> (except closed-end funds under certain conditions).</li>
+            <li>The fund must distribute at least <strong>90% of net investment income</strong> to shareholders to qualify as a regulated investment company (RIC) under Subchapter M of the Internal Revenue Code and avoid paying corporate taxes on distributed income.</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 2: Open-End Funds (Mutual Funds) ====== -->
+        <section class="lesson__section" id="open-end-funds">
+          <h2>Open-End Funds (Mutual Funds)</h2>
+
+          <p><strong>Open-end management companies</strong>, commonly known as <strong>mutual funds</strong>, are the most popular type of investment company. They are "open-end" because they continuously issue new shares and redeem existing shares directly with investors. There is no limit to the number of shares that can be issued.</p>
+
+          <h3>Net Asset Value (NAV)</h3>
+
+          <p>The <strong>Net Asset Value (NAV)</strong> is the per-share value of a mutual fund, calculated once per day after the market close (4:00 PM ET). The formula is:</p>
+
+          <p><strong>NAV = (Total Assets - Total Liabilities) / Number of Outstanding Shares</strong></p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>A mutual fund has total assets of $500 million and total liabilities of $5 million, with 25 million shares outstanding.</p>
+              <p><strong>NAV = ($500,000,000 - $5,000,000) / 25,000,000 = $495,000,000 / 25,000,000 = $19.80 per share</strong></p>
+            </div>
+          </div>
+
+          <h3>Forward Pricing</h3>
+
+          <p>Mutual fund shares are always bought and redeemed at the <strong>next calculated NAV</strong>. This is called <strong>forward pricing</strong>. If you place an order at 2:00 PM, you will receive the NAV calculated after the 4:00 PM market close. If you place an order after 4:00 PM, you receive the next business day's NAV. Investors do not know the exact price when they place their order.</p>
+
+          <h3>Public Offering Price (POP)</h3>
+
+          <p>For funds that charge a front-end sales charge (load), the <strong>Public Offering Price (POP)</strong> is higher than the NAV:</p>
+
+          <p><strong>POP = NAV + Sales Charge</strong></p>
+
+          <p>Or equivalently: <strong>POP = NAV / (1 - Sales Charge %)</strong></p>
+
+          <p>For no-load funds, POP = NAV (no sales charge is added).</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 7 will test the POP formula. Remember: the sales charge percentage is calculated as a percentage of the POP, not the NAV. Example: NAV = $19.00, POP = $20.00. Sales charge = $1.00. Sales charge % = $1 / $20 = 5% (not $1/$19 = 5.26%). The maximum allowable sales charge under FINRA rules is <strong>8.5%</strong> of the POP.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Share Classes ====== -->
+        <section class="lesson__section" id="share-classes">
+          <h2>Share Classes: A, B, and C</h2>
+
+          <p>Mutual funds typically offer multiple share classes, each with a different fee structure. The three most common are Class A, Class B, and Class C shares. Understanding the differences is critical for suitability recommendations on the Series 7.</p>
+
+          <h3>Class A Shares</h3>
+
+          <ul>
+            <li><strong>Front-end sales charge (load):</strong> Charged at the time of purchase. Deducted from the initial investment. Typical charges range from 3% to 5.75%.</li>
+            <li><strong>Lower 12b-1 fees:</strong> Typically 0.25% or less annually.</li>
+            <li><strong>Breakpoint discounts:</strong> The sales charge percentage decreases as the dollar amount invested increases. This makes Class A shares most suitable for larger investors.</li>
+            <li><strong>Best for:</strong> Larger investments and long-term holding periods.</li>
+          </ul>
+
+          <h3>Class B Shares</h3>
+
+          <ul>
+            <li><strong>No front-end sales charge:</strong> The entire investment is put to work immediately.</li>
+            <li><strong>Back-end sales charge (CDSC):</strong> Contingent Deferred Sales Charge assessed when shares are redeemed. Typically starts at 5-6% and declines by 1% per year, eventually reaching 0% (usually after 6-8 years).</li>
+            <li><strong>Higher 12b-1 fees:</strong> Typically 0.75% to 1.00% annually while the CDSC is in effect.</li>
+            <li><strong>Conversion:</strong> After the CDSC period expires, Class B shares automatically convert to Class A shares (with lower 12b-1 fees).</li>
+            <li><strong>No breakpoints:</strong> B shares do not qualify for breakpoint discounts.</li>
+            <li><strong>Best for:</strong> Smaller investments held for long periods. Note: Many fund companies have discontinued Class B shares.</li>
+          </ul>
+
+          <h3>Class C Shares</h3>
+
+          <ul>
+            <li><strong>Level load:</strong> No or very small front-end charge (typically 0-1%). Small back-end charge (typically 1%) if redeemed within the first year.</li>
+            <li><strong>Higher ongoing 12b-1 fees:</strong> Typically 1.00% annually for the life of the investment.</li>
+            <li><strong>No conversion:</strong> C shares do not convert to A shares. The higher 12b-1 fee continues indefinitely.</li>
+            <li><strong>No breakpoints:</strong> C shares do not qualify for breakpoint discounts.</li>
+            <li><strong>Best for:</strong> Shorter holding periods (1-3 years) or smaller investments.</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Recommending Class C shares for long-term investors is a potential suitability violation. Because C shares charge higher annual 12b-1 fees indefinitely (and never convert to lower-fee shares), they become more expensive than A shares over time. Similarly, selling B shares to an investor who qualifies for A share breakpoints is also problematic. Always match the share class to the investor's time horizon and investment amount.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Breakpoints ====== -->
+        <section class="lesson__section" id="breakpoints">
+          <h2>Breakpoints and Sales Charge Reductions</h2>
+
+          <p><strong>Breakpoints</strong> are volume discounts on the front-end sales charge for Class A mutual fund shares. As the dollar amount invested increases, the sales charge percentage decreases according to a schedule published in the fund's prospectus.</p>
+
+          <h3>Typical Breakpoint Schedule</h3>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Investment Amount</th>
+                  <th>Sales Charge</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Under $25,000</td>
+                  <td class="compare-table__cell">5.75%</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">$25,000 - $49,999</td>
+                  <td class="compare-table__cell">5.00%</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">$50,000 - $99,999</td>
+                  <td class="compare-table__cell">4.50%</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">$100,000 - $249,999</td>
+                  <td class="compare-table__cell">3.50%</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">$250,000 - $499,999</td>
+                  <td class="compare-table__cell">2.50%</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">$500,000 - $999,999</td>
+                  <td class="compare-table__cell">2.00%</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">$1,000,000+</td>
+                  <td class="compare-table__cell">0.00%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Letter of Intent (LOI)</h3>
+
+          <p>A <strong>Letter of Intent (LOI)</strong> allows an investor to receive a reduced sales charge by committing to invest a specified dollar amount over a <strong>13-month period</strong>. The investor receives the breakpoint discount immediately on all purchases. If the investor fails to meet the commitment, the fund will retroactively charge the higher sales load.</p>
+
+          <p>Key facts about LOIs:</p>
+          <ul>
+            <li>Valid for 13 months from the date of signing</li>
+            <li>Can be backdated up to 90 days to include a recent purchase</li>
+            <li>The fund holds a portion of shares in escrow as collateral until the LOI is fulfilled</li>
+            <li>Not a binding contract; the investor is not obligated to invest the full amount</li>
+            <li>If unfulfilled, the investor pays the difference in sales charges</li>
+          </ul>
+
+          <h3>Rights of Accumulation (ROA)</h3>
+
+          <p><strong>Rights of Accumulation (ROA)</strong> allow an investor to receive breakpoint discounts based on the <strong>current total value</strong> of all shares already owned in the same fund family, plus the new purchase amount. Unlike an LOI, which looks forward, ROA looks at the existing account value.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>An investor currently holds $40,000 in the ABC Growth Fund (Class A). They wish to invest an additional $15,000. Using ROA, the total is $55,000 ($40,000 current value + $15,000 new purchase), which qualifies for the $50,000 breakpoint. The investor pays the reduced 4.50% sales charge on the new $15,000 investment instead of the 5.00% rate.</p>
+            </div>
+          </div>
+
+          <h3>Breakpoint Sales Violations</h3>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Breakpoint abuse (breakpoint selling)</strong> is a serious FINRA violation. It occurs when a registered representative:</p>
+              <ul>
+                <li>Sells a mutual fund just below a breakpoint threshold (e.g., selling $49,000 instead of recommending $50,000 to reach the next breakpoint)</li>
+                <li>Splits a customer's investment across multiple fund families to avoid breakpoints</li>
+                <li>Fails to inform a customer about the availability of breakpoint discounts, LOIs, or ROA</li>
+                <li>Sells B or C shares to a customer who qualifies for A share breakpoints at a lower total cost</li>
+              </ul>
+              <p>FINRA considers breakpoint abuse a violation of the representative's suitability obligation and duty to act in the customer's best interest.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Fees and Expenses ====== -->
+        <section class="lesson__section" id="fees-expenses">
+          <h2>Fees, Expenses, and Distributions</h2>
+
+          <h3>12b-1 Fees</h3>
+
+          <p><strong>12b-1 fees</strong> (named after SEC Rule 12b-1) are annual fees paid from fund assets to cover marketing, distribution, and sometimes shareholder servicing costs. These fees are included in the fund's expense ratio and reduce the fund's return.</p>
+
+          <ul>
+            <li>Maximum 12b-1 fee: <strong>1.00% annually</strong> (0.75% for distribution + 0.25% for service fees)</li>
+            <li>If a fund charges more than 0.25% in 12b-1 fees, it cannot call itself a "no-load" fund</li>
+            <li>12b-1 fees are deducted daily from fund assets, reducing NAV over time</li>
+            <li>Must be approved by a majority of independent directors and by a majority of outstanding shares</li>
+          </ul>
+
+          <h3>Expense Ratio</h3>
+
+          <p>The <strong>expense ratio</strong> represents the total annual operating expenses of a fund expressed as a percentage of average net assets. It includes management fees, 12b-1 fees, administrative costs, and other operating expenses. It does NOT include sales charges (loads), brokerage commissions on portfolio trades, or interest expenses.</p>
+
+          <h3>Redemption Fees</h3>
+
+          <p>Some funds charge a <strong>redemption fee</strong> (typically 1-2%) on shares redeemed within a short period (e.g., 30-90 days) to discourage short-term trading and market timing. Unlike a CDSC, the redemption fee goes back into the fund (benefiting remaining shareholders) rather than to the distributor.</p>
+
+          <h3>Exchanges (Conversions)</h3>
+
+          <p>Most fund families allow shareholders to <strong>exchange</strong> shares from one fund to another within the same family, often at NAV (no additional sales charge). However, an exchange is a taxable event: the redemption of the original fund triggers a capital gain or loss.</p>
+
+          <h3>Distributions</h3>
+
+          <p>Mutual funds make two types of distributions to shareholders:</p>
+
+          <ul>
+            <li><strong>Income distributions:</strong> Dividends and interest earned by the fund's portfolio, minus fund expenses. Taxable as ordinary income to the shareholder (even if reinvested).</li>
+            <li><strong>Capital gains distributions:</strong> Net gains realized when the fund sells securities from its portfolio at a profit. Taxable as capital gains to the shareholder (long-term rates if the fund held the securities for more than one year).</li>
+          </ul>
+
+          <p>Shareholders may choose to receive distributions in cash or reinvest them in additional fund shares. Reinvested distributions are still taxable in the year received.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>A common Series 7 trap: reinvested distributions are taxable, even though the investor did not receive cash. Also, when a fund makes a capital gains distribution, the NAV drops by the amount of the distribution on the ex-dividend date. This does not represent a loss to the investor; it simply reflects the cash paid out.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 6: Closed-End Funds ====== -->
+        <section class="lesson__section" id="closed-end-funds">
+          <h2>Closed-End Funds</h2>
+
+          <p><strong>Closed-end funds</strong> (also called closed-end management companies) issue a fixed number of shares through an initial public offering (IPO) and then trade on stock exchanges like regular stocks. Unlike mutual funds, closed-end funds do not continuously issue or redeem shares.</p>
+
+          <h3>Key Characteristics</h3>
+
+          <ul>
+            <li><strong>Fixed number of shares:</strong> After the IPO, no new shares are issued (except through secondary offerings)</li>
+            <li><strong>Exchange-traded:</strong> Shares trade on stock exchanges (NYSE, Nasdaq) throughout the day at market-determined prices</li>
+            <li><strong>Price vs. NAV:</strong> Shares can trade at a <strong>premium</strong> (above NAV) or <strong>discount</strong> (below NAV) to their net asset value, depending on supply and demand</li>
+            <li><strong>Can use leverage:</strong> Closed-end funds can issue preferred stock or borrow money (use debt leverage) to amplify returns. This increases both potential gains and potential losses.</li>
+            <li><strong>No redemption at NAV:</strong> Investors sell shares on the exchange at the market price, not to the fund at NAV</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Premium/Discount:</strong> When a closed-end fund trades at a price ABOVE its NAV, it is trading at a premium. When it trades at a price BELOW its NAV, it is trading at a discount. For example, if a fund's NAV is $20 and it trades at $18, it is trading at a 10% discount ($2 / $20 = 10%). Most closed-end funds historically trade at a discount.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 7: ETFs ====== -->
+        <section class="lesson__section" id="etfs">
+          <h2>Exchange-Traded Funds (ETFs)</h2>
+
+          <p><strong>Exchange-Traded Funds (ETFs)</strong> are investment funds that trade on stock exchanges throughout the day, similar to stocks. Most ETFs are passively managed and track an index (e.g., S&P 500, Nasdaq-100), although actively managed ETFs have become increasingly common.</p>
+
+          <h3>Creation and Redemption Process</h3>
+
+          <p>ETFs have a unique creation/redemption mechanism that helps keep their market price close to NAV:</p>
+
+          <ul>
+            <li><strong>Authorized Participants (APs):</strong> Large institutional investors or market makers who have agreements with the ETF sponsor to create or redeem ETF shares</li>
+            <li><strong>Creation:</strong> An AP delivers a "basket" of the underlying securities (matching the fund's portfolio) to the ETF sponsor and receives a large block of ETF shares called a "creation unit" (typically 25,000-50,000 shares)</li>
+            <li><strong>Redemption:</strong> An AP delivers creation units back to the ETF sponsor and receives the basket of underlying securities in return</li>
+            <li><strong>Arbitrage mechanism:</strong> If the ETF trades at a premium to NAV, APs create new shares (buy underlying securities, exchange for ETF shares, sell on market), pushing the price back toward NAV. If it trades at a discount, APs redeem shares (buy ETF shares, exchange for underlying securities, sell them), pushing the price back up.</li>
+          </ul>
+
+          <h3>Tax Efficiency</h3>
+
+          <p>ETFs are generally more <strong>tax-efficient</strong> than mutual funds because of the in-kind creation/redemption process. When mutual fund investors redeem shares, the fund may need to sell securities to raise cash, triggering capital gains for all remaining shareholders. ETFs avoid this because redemptions are done in-kind (securities exchanged for securities), not through market sales.</p>
+
+          <h3>Other ETF Characteristics</h3>
+
+          <ul>
+            <li>Can be bought and sold throughout the trading day at market prices</li>
+            <li>Can be purchased on margin and sold short (unlike mutual funds)</li>
+            <li>Typically have lower expense ratios than mutual funds (especially index ETFs)</li>
+            <li>No minimum investment beyond the price of one share</li>
+            <li>Standard brokerage commissions apply (many brokers now offer commission-free ETF trading)</li>
+            <li>Investors pay the bid-ask spread when trading</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 8: UITs ====== -->
+        <section class="lesson__section" id="uits">
+          <h2>Unit Investment Trusts (UITs)</h2>
+
+          <p>A <strong>Unit Investment Trust (UIT)</strong> is a type of investment company that holds a <strong>fixed portfolio</strong> of securities assembled by a sponsor at the time the trust is created. The portfolio is not actively managed; securities are generally held until maturity (for bond UITs) or for a specified period (for equity UITs).</p>
+
+          <ul>
+            <li><strong>No board of directors or investment adviser:</strong> Unlike management companies, UITs have a trustee but no management team making ongoing investment decisions</li>
+            <li><strong>Trust units (not shares):</strong> Investors purchase units that represent an undivided interest in the trust's portfolio</li>
+            <li><strong>Fixed portfolio:</strong> Securities in the portfolio do not change (except for rare circumstances like defaults or mergers)</li>
+            <li><strong>Self-liquidating:</strong> UITs have a stated termination date. Bond UITs terminate when the bonds mature. Equity UITs have a set dissolution date.</li>
+            <li><strong>Redeemable:</strong> UIT units can be redeemed with the trustee at NAV at any time</li>
+            <li><strong>Sales charge:</strong> UITs typically charge a small sales charge (1-4%)</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The key distinction of a UIT is its <strong>fixed, unmanaged portfolio</strong>. There is no portfolio manager making buy and sell decisions. This results in lower expenses but less flexibility. Investors who want a buy-and-hold approach with a known portfolio may prefer UITs.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 9: Comparison ====== -->
+        <section class="lesson__section" id="fund-type-comparison">
+          <h2>Investment Company Comparison</h2>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Feature</th>
+                  <th>Open-End (Mutual Fund)</th>
+                  <th>Closed-End Fund</th>
+                  <th>ETF</th>
+                  <th>UIT</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Shares Issued</td>
+                  <td class="compare-table__cell">Unlimited (continuous)</td>
+                  <td class="compare-table__cell">Fixed (IPO)</td>
+                  <td class="compare-table__cell">Variable (creation/redemption)</td>
+                  <td class="compare-table__cell">Fixed (trust units)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Pricing</td>
+                  <td class="compare-table__cell">Forward pricing (NAV)</td>
+                  <td class="compare-table__cell">Market price (exchange)</td>
+                  <td class="compare-table__cell">Market price (exchange)</td>
+                  <td class="compare-table__cell">NAV (redeemed with trustee)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Trading</td>
+                  <td class="compare-table__cell">End of day only</td>
+                  <td class="compare-table__cell">Intraday on exchange</td>
+                  <td class="compare-table__cell">Intraday on exchange</td>
+                  <td class="compare-table__cell">Redeemed with trustee</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Premium/Discount</td>
+                  <td class="compare-table__cell">No (always at NAV)</td>
+                  <td class="compare-table__cell">Yes (common)</td>
+                  <td class="compare-table__cell">Minimal (arbitrage)</td>
+                  <td class="compare-table__cell">No</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Management</td>
+                  <td class="compare-table__cell">Actively or passively managed</td>
+                  <td class="compare-table__cell">Actively managed</td>
+                  <td class="compare-table__cell">Mostly passive (index)</td>
+                  <td class="compare-table__cell">Unmanaged (fixed)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Leverage</td>
+                  <td class="compare-table__cell">Generally not allowed</td>
+                  <td class="compare-table__cell">Allowed</td>
+                  <td class="compare-table__cell">Some leveraged ETFs exist</td>
+                  <td class="compare-table__cell">Not allowed</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Margin / Short Sales</td>
+                  <td class="compare-table__cell">Not allowed</td>
+                  <td class="compare-table__cell">Allowed</td>
+                  <td class="compare-table__cell">Allowed</td>
+                  <td class="compare-table__cell">Not allowed</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Tax Efficiency</td>
+                  <td class="compare-table__cell">Lower</td>
+                  <td class="compare-table__cell">Lower</td>
+                  <td class="compare-table__cell">Higher (in-kind)</td>
+                  <td class="compare-table__cell">Moderate</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Understanding Expense Ratios and Their Impact
+            </summary>
+            <div class="deep-dive__content">
+              <p>The expense ratio is one of the most important factors in long-term investment performance. Even small differences in expense ratios compound significantly over time. Consider two identical funds with 8% gross returns:</p>
+
+              <ul>
+                <li><strong>Fund A (0.20% expense ratio):</strong> $100,000 invested for 30 years grows to approximately $961,000 (net 7.80% return)</li>
+                <li><strong>Fund B (1.20% expense ratio):</strong> $100,000 invested for 30 years grows to approximately $725,000 (net 6.80% return)</li>
+              </ul>
+
+              <p>The 1% difference in expense ratios resulted in approximately $236,000 less wealth over 30 years. This is why FINRA emphasizes the importance of discussing fees with clients and why low-cost index funds and ETFs have gained enormous popularity.</p>
+
+              <p>Average expense ratios by fund type (approximate):</p>
+              <ul>
+                <li>Index ETFs: 0.03% - 0.20%</li>
+                <li>Index mutual funds: 0.05% - 0.30%</li>
+                <li>Actively managed equity funds: 0.50% - 1.50%</li>
+                <li>Closed-end funds: 0.80% - 2.00%+</li>
+              </ul>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of investment companies. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. A mutual fund has total assets of $200 million, liabilities of $4 million, and 10 million shares outstanding. What is the NAV?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $20.00</button>
+              <button class="answer-btn" data-correct="true">B) $19.60</button>
+              <button class="answer-btn" data-correct="false">C) $20.40</button>
+              <button class="answer-btn" data-correct="false">D) $19.00</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              NAV = (Total Assets - Total Liabilities) / Outstanding Shares = ($200,000,000 - $4,000,000) / 10,000,000 = $196,000,000 / 10,000,000 = $19.60 per share.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. An investor wants to invest $45,000 in Class A shares. The next breakpoint is at $50,000. What should the registered representative do?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Process the order as requested for $45,000</button>
+              <button class="answer-btn" data-correct="true">B) Inform the investor of the breakpoint at $50,000 and the available savings</button>
+              <button class="answer-btn" data-correct="false">C) Automatically increase the investment to $50,000</button>
+              <button class="answer-btn" data-correct="false">D) Recommend Class C shares instead</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The representative must inform the investor about the upcoming breakpoint and the potential savings. Failure to disclose breakpoint availability is a FINRA violation (breakpoint abuse). The representative should not automatically change the order but must ensure the investor makes an informed decision.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Which of the following is TRUE about closed-end funds?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) They continuously issue and redeem shares at NAV</button>
+              <button class="answer-btn" data-correct="false">B) They must use forward pricing</button>
+              <button class="answer-btn" data-correct="true">C) They can trade at a premium or discount to NAV</button>
+              <button class="answer-btn" data-correct="false">D) They cannot use leverage</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Closed-end funds trade on exchanges at market prices determined by supply and demand, which can be above (premium) or below (discount) the fund's NAV. They issue a fixed number of shares via IPO and do not redeem shares. They are also permitted to use leverage (issue preferred stock or borrow), which distinguishes them from open-end funds.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. What is the primary advantage of ETFs over mutual funds in terms of tax efficiency?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) ETFs are exempt from capital gains taxes</button>
+              <button class="answer-btn" data-correct="false">B) ETF dividends are tax-free</button>
+              <button class="answer-btn" data-correct="true">C) The in-kind creation/redemption process avoids triggering capital gains distributions</button>
+              <button class="answer-btn" data-correct="false">D) ETFs are not subject to any IRS reporting requirements</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              ETFs use an in-kind creation/redemption process where authorized participants exchange baskets of securities for ETF shares (and vice versa). This avoids selling securities on the open market, which would trigger capital gains. As a result, ETFs generally distribute fewer capital gains to shareholders than mutual funds. ETFs are not exempt from taxes; they simply generate fewer taxable events.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. A Letter of Intent (LOI) for mutual fund purchases is valid for what period?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 6 months</button>
+              <button class="answer-btn" data-correct="false">B) 12 months</button>
+              <button class="answer-btn" data-correct="true">C) 13 months</button>
+              <button class="answer-btn" data-correct="false">D) 24 months</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A Letter of Intent is valid for 13 months. During this period, the investor receives the reduced sales charge associated with the total amount pledged. The LOI can also be backdated up to 90 days to include a previous purchase. If the investor does not fulfill the LOI, the fund retroactively charges the higher sales load.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="options-strategies.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 6 &mdash; Options Strategies</span>
+            </div>
+          </a>
+          <a href="variable-products.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 8 &mdash; Variable Products</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series27-q001",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "SEC Rule 15c3-1 (Net Capital Rule) requires broker-dealers to maintain minimum net capital to:",
+    "choices": ["A. Maximize profits for shareholders", "B. Ensure the firm can meet its financial obligations to customers and counterparties", "C. Fund marketing and expansion activities", "D. Cover employee salary expenses"],
+    "correct": 1,
+    "explanation": "The Net Capital Rule (SEC Rule 15c3-1) requires broker-dealers to maintain minimum levels of net liquid assets (net capital) to ensure they can promptly meet their financial obligations to customers, counterparties, and creditors. This protects investors and maintains market confidence."
+  },
+  {
+    "id": "series27-q002",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "Under the basic method of the Net Capital Rule, a broker-dealer that carries customer accounts must maintain minimum net capital of:",
+    "choices": ["A. $5,000", "B. $50,000", "C. $250,000", "D. $1,000,000"],
+    "correct": 2,
+    "explanation": "Under the basic method (aggregate indebtedness method), a broker-dealer that carries customer accounts must maintain minimum net capital of $250,000. The alternative method requires net capital equal to the greater of $250,000 or 2% of aggregate debit items. Introducing brokers have lower requirements."
+  },
+  {
+    "id": "series27-q003",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "A broker-dealer's net capital falls below the required minimum. The firm must:",
+    "choices": ["A. Continue operations and restore capital within 90 days", "B. Immediately notify the SEC and its designated examining authority and cease certain business activities", "C. Simply file an amended FOCUS report at the end of the quarter", "D. Transfer customer accounts to another firm within 60 days"],
+    "correct": 1,
+    "explanation": "When a broker-dealer's net capital falls below the minimum requirement, the firm must immediately notify the SEC and its designated examining authority (DEA). The firm must also cease conducting business that would further reduce its net capital. This early warning system protects customers and the financial system."
+  },
+  {
+    "id": "series27-q004",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "The FOCUS report (Financial and Operational Combined Uniform Single report) must be filed by broker-dealers:",
+    "choices": ["A. Annually", "B. Monthly or quarterly, depending on the firm's classification", "C. Only when requested by regulators", "D. Every five years"],
+    "correct": 1,
+    "explanation": "The FOCUS report is the primary financial reporting document for broker-dealers. Carrying firms typically file monthly (Part II), while introducing firms generally file quarterly (Part IIA). The report includes balance sheet data, income statements, net capital computations, and other financial information."
+  },
+  {
+    "id": "series27-q005",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "A broker-dealer's annual audited financial statements must be prepared by:",
+    "choices": ["A. The firm's internal accounting department", "B. An independent public accountant registered with the PCAOB", "C. The firm's compliance officer", "D. Any CPA regardless of independence"],
+    "correct": 1,
+    "explanation": "SEC Rule 17a-5 requires that a broker-dealer's annual audited financial statements be prepared by an independent public accountant that is registered with the Public Company Accounting Oversight Board (PCAOB). The auditor must be independent and conduct the audit in accordance with PCAOB standards."
+  },
+  {
+    "id": "series27-q006",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "Under SEC Rule 15c3-3 (Customer Protection Rule), the purpose of the reserve formula computation is to:",
+    "choices": ["A. Calculate the firm's profit margin", "B. Determine the amount of cash that must be deposited in the Special Reserve Account for the exclusive benefit of customers", "C. Set commission rates for customer trades", "D. Determine employee bonus pools"],
+    "correct": 1,
+    "explanation": "The reserve formula computation under Rule 15c3-3 determines the amount of cash (or qualified securities) that must be maintained in a Special Reserve Bank Account for the exclusive benefit of customers. This ensures that customer cash and securities are adequately protected from firm insolvency."
+  },
+  {
+    "id": "series27-q007",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "How often must a carrying broker-dealer perform the reserve formula computation?",
+    "choices": ["A. Daily", "B. Weekly", "C. Monthly", "D. Quarterly"],
+    "correct": 1,
+    "explanation": "Carrying broker-dealers must perform the reserve formula computation weekly, as of the close of the last business day of the week. Any required deposits into the Special Reserve Account must be made no later than one hour after the opening of banking business on the second business day following the computation (typically Tuesday for a Friday computation). Some firms may need to compute daily."
+  },
+  {
+    "id": "series27-q008",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "Which of the following is considered a non-allowable asset for net capital computation purposes?",
+    "choices": ["A. Cash in bank accounts", "B. U.S. Treasury securities", "C. Office furniture and equipment", "D. Money market fund shares"],
+    "correct": 2,
+    "explanation": "Non-allowable assets for net capital purposes include illiquid assets such as office furniture and equipment, prepaid expenses, goodwill, and other assets that cannot be readily converted to cash. Only liquid assets (allowable assets) are included in the net capital computation."
+  },
+  {
+    "id": "series27-q009",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "A broker-dealer must file its annual audited report with the SEC within how many days of its fiscal year-end?",
+    "choices": ["A. 30 days", "B. 60 days", "C. 90 days", "D. 120 days"],
+    "correct": 1,
+    "explanation": "Under SEC Rule 17a-5, a broker-dealer must file its annual audited report within 60 calendar days of its fiscal year-end. The report includes audited financial statements, a compliance report, and the independent auditor's reports on the financial statements and internal controls."
+  },
+  {
+    "id": "series27-q010",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "Fully paid customer securities held by a broker-dealer must be:",
+    "choices": ["A. Pledged as collateral for the firm's loans", "B. Segregated and maintained in a good control location", "C. Registered in the firm's name", "D. Sold within 30 days of receipt"],
+    "correct": 1,
+    "explanation": "Under SEC Rule 15c3-3, fully paid customer securities must be segregated from the firm's proprietary assets and maintained in a good control location (such as a depository, vault, or approved custodian). This protects customer securities from being used for the firm's own purposes."
+  },
+  {
+    "id": "series27-q011",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "Haircuts in the net capital computation are applied to securities positions to:",
+    "choices": ["A. Increase the reported value of the firm's assets", "B. Account for the market risk and liquidity risk of securities held", "C. Reduce the firm's tax liability", "D. Increase the attractiveness of the firm's balance sheet"],
+    "correct": 1,
+    "explanation": "Haircuts are percentage deductions applied to the market value of securities positions in the net capital computation. They account for market risk (potential price decline) and liquidity risk. Different types of securities have different haircut percentages, with riskier or less liquid securities receiving larger haircuts."
+  },
+  {
+    "id": "series27-q012",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "A broker-dealer's books and records must be maintained for a minimum of:",
+    "choices": ["A. 3 years", "B. 5 years", "C. 6 years", "D. 10 years"],
+    "correct": 2,
+    "explanation": "Under SEC Rules 17a-3 and 17a-4, broker-dealers must maintain most books and records for a minimum of 6 years. Certain records, such as blotters, ledgers, and customer account records, must be kept for 6 years with the first 2 years in an easily accessible location."
+  },
+  {
+    "id": "series27-q013",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "SIPC (Securities Investor Protection Corporation) protects customer accounts up to:",
+    "choices": ["A. $100,000 in securities and $50,000 in cash", "B. $250,000 in securities and $100,000 in cash", "C. $500,000 total including $250,000 for cash claims", "D. $1,000,000 total with no cash limit"],
+    "correct": 2,
+    "explanation": "SIPC protects each customer's account up to $500,000 in total, including a maximum of $250,000 for cash claims. SIPC protection covers the loss of securities and cash due to broker-dealer failure, not market losses. SIPC does not cover commodity futures or investment contracts not registered with the SEC."
+  },
+  {
+    "id": "series27-q014",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "An introducing broker-dealer that does not carry customer accounts or funds must maintain minimum net capital of:",
+    "choices": ["A. $5,000", "B. $25,000", "C. $50,000", "D. $250,000"],
+    "correct": 2,
+    "explanation": "An introducing broker-dealer that does not hold customer funds or securities and introduces customer accounts to a clearing firm on a fully disclosed basis must maintain minimum net capital of $50,000. This is lower than the $250,000 requirement for carrying firms because the risk is substantially reduced."
+  },
+  {
+    "id": "series27-q015",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "The early warning notification level for net capital requires a broker-dealer to notify regulators when net capital falls below:",
+    "choices": ["A. The minimum required amount", "B. 120% of the minimum required amount", "C. 150% of the minimum required amount", "D. 200% of the minimum required amount"],
+    "correct": 1,
+    "explanation": "Under SEC Rule 17a-11, broker-dealers using the basic method must provide early warning notification when net capital falls below 120% of the minimum requirement. For firms using the alternative method, the early warning is triggered at 120% of the minimum or 5% of aggregate debit items, whichever is greater."
+  },
+  {
+    "id": "series27-q016",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "A broker-dealer receives customer funds. Under Rule 15c3-3, these funds must be deposited in the Special Reserve Account by:",
+    "choices": ["A. The same day", "B. The next business day (T+1)", "C. The second business day following computation", "D. Within 5 business days"],
+    "correct": 2,
+    "explanation": "Under Rule 15c3-3(e)(3), required deposits to the Special Reserve Account must be made no later than one hour after the opening of banking business on the second business day following the computation (typically Tuesday for a Friday computation). Any deficiency in the reserve must be corrected within this timeframe to maintain customer protection."
+  },
+  {
+    "id": "series27-q017",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "Which of the following would REDUCE a broker-dealer's net capital?",
+    "choices": ["A. Receiving a cash deposit from a customer", "B. An increase in the firm's aggregate indebtedness", "C. Purchasing U.S. Treasury bills", "D. Collecting a receivable from a clearing firm"],
+    "correct": 1,
+    "explanation": "An increase in aggregate indebtedness (liabilities) would reduce a broker-dealer's net capital. Net capital is essentially net worth minus non-allowable assets minus haircuts. Any increase in liabilities without a corresponding increase in allowable assets reduces net capital."
+  },
+  {
+    "id": "series27-q018",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "The compliance report filed with a broker-dealer's annual audit includes statements about:",
+    "choices": ["A. The firm's marketing effectiveness", "B. Whether the firm maintained compliance with net capital and customer protection rules", "C. The firm's projected revenue for the next fiscal year", "D. Employee satisfaction surveys"],
+    "correct": 1,
+    "explanation": "The compliance report, required under SEC Rule 17a-5, includes statements by the broker-dealer about whether it was in compliance with the net capital rule and the customer protection rule throughout the reporting period. The independent auditor also provides a report on these compliance statements."
+  },
+  {
+    "id": "series27-q019",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "A broker-dealer wants to use customer margin securities as collateral for a bank loan. This is known as:",
+    "choices": ["A. Segregation", "B. Rehypothecation", "C. Liquidation", "D. Arbitration"],
+    "correct": 1,
+    "explanation": "Rehypothecation is the practice of a broker-dealer using customer margin securities as collateral for bank loans (typically to finance margin lending to customers). This is permitted under SEC rules, but the amount that can be rehypothecated is limited to 140% of the customer's debit balance."
+  },
+  {
+    "id": "series27-q020",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "Under the alternative method of computing net capital, a carrying firm must maintain net capital equal to the greater of $250,000 or:",
+    "choices": ["A. 2% of aggregate debit items", "B. 5% of aggregate debit items", "C. 10% of total liabilities", "D. 15% of aggregate indebtedness"],
+    "correct": 0,
+    "explanation": "Under the alternative method, a carrying broker-dealer must maintain net capital equal to the greater of $250,000 or 2% of aggregate debit items. Aggregate debit items represent customer-related receivables and are calculated as part of the customer reserve formula."
+  },
+  {
+    "id": "series27-q021",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "What is a broker-dealer required to send to its customers annually?",
+    "choices": ["A. The firm's complete audited financial statements", "B. A statement of financial condition (balance sheet)", "C. A detailed breakdown of the firm's revenue sources", "D. A list of all the firm's proprietary positions"],
+    "correct": 1,
+    "explanation": "SEC Rule 17a-5(c) requires broker-dealers to send their customers a statement of financial condition (balance sheet) annually. This gives customers insight into the financial health of the firm holding their assets. The full audited statements are filed with regulators."
+  },
+  {
+    "id": "series27-q022",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "When a broker-dealer files for liquidation under SIPA, which entity is appointed to oversee the liquidation?",
+    "choices": ["A. The SEC", "B. FINRA", "C. A SIPC-appointed trustee", "D. The Federal Reserve"],
+    "correct": 2,
+    "explanation": "When a broker-dealer is liquidated under the Securities Investor Protection Act (SIPA), SIPC appoints a trustee to oversee the liquidation process. The trustee's primary responsibility is to return customer securities and cash as quickly as possible and to satisfy customer claims within SIPC coverage limits."
+  },
+  {
+    "id": "series27-q023",
+    "topic": "series27-t1",
+    "topicName": "Net Capital Rule",
+    "question": "A subordinated loan agreement between a broker-dealer and a lender serves to:",
+    "choices": ["A. Reduce the firm's net capital", "B. Count as a liability that must be deducted from net capital", "C. Augment the firm's net capital by subordinating the lender's claim below customers", "D. Eliminate the firm's reporting obligations"],
+    "correct": 2,
+    "explanation": "Subordinated loan agreements (subordinated debt) augment a broker-dealer's net capital because the lender agrees to subordinate their claim to those of customers and other creditors. These agreements must be approved by FINRA and meet specific regulatory requirements, including notice provisions before repayment."
+  },
+  {
+    "id": "series27-q024",
+    "topic": "series27-t2",
+    "topicName": "Financial Reporting",
+    "question": "A broker-dealer discovers a material inadequacy in its internal controls. The firm must:",
+    "choices": ["A. Correct it at the next annual audit", "B. Notify the SEC and its DEA within 24 hours", "C. Only report it if discovered by an external auditor", "D. Report it in the next quarterly FOCUS report"],
+    "correct": 1,
+    "explanation": "Under SEC Rule 17a-11, a broker-dealer must notify the SEC and its designated examining authority (DEA) within 24 hours of discovering a material inadequacy in its accounting system, internal controls, or procedures for safeguarding customer assets. Prompt notification is critical for investor protection."
+  },
+  {
+    "id": "series27-q025",
+    "topic": "series27-t3",
+    "topicName": "Customer Protection",
+    "question": "The possession or control requirement under Rule 15c3-3 requires a broker-dealer to obtain and maintain physical possession or control of all:",
+    "choices": ["A. Securities held in proprietary accounts", "B. Fully paid and excess margin securities carried for customers", "C. Only government securities", "D. Securities pledged as collateral by the firm"],
+    "correct": 1,
+    "explanation": "Rule 15c3-3 requires broker-dealers to maintain physical possession or control of all fully paid customer securities (securities with no debit balance) and excess margin securities (the amount of margin securities above 140% of the customer's debit balance). This prevents firms from improperly using customer assets."
+  }
+]

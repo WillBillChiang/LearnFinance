@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn about investment risks for the SIE exam: systematic vs unsystematic risk, types of risk, risk-return relationship, investment objectives, and portfolio diversification.">
+  <title>Investment Risks - SIE Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="sie" data-chapter="products-risk">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link active">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link active">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <p class="lesson__meta-item" style="color:var(--color-primary);font-weight:var(--weight-semibold);margin-bottom:var(--space-sm);">Chapter 7</p>
+          <h1>Investment Risks</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              24 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              SIE Topic 2 &mdash; Products &amp; Risks (44%)
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="badge badge-entry" style="font-size:var(--text-xs);">High Weight</span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Systematic vs Unsystematic ====== -->
+        <section class="lesson__section" id="systematic-vs-unsystematic">
+          <h2>Systematic vs. Unsystematic Risk</h2>
+
+          <p>One of the most fundamental concepts in investing is the distinction between two broad categories of risk. Every investment carries risk, but understanding the nature of that risk is essential for building a portfolio and for passing the SIE exam.</p>
+
+          <h3>Systematic Risk (Market Risk / Non-Diversifiable Risk)</h3>
+          <p><strong>Systematic risk</strong> affects the entire market or a broad segment of the market. It cannot be eliminated through diversification because it impacts virtually all securities simultaneously. Systematic risk arises from macroeconomic factors that are beyond the control of any individual company or investor.</p>
+
+          <p>Examples of systematic risk include:</p>
+          <ul>
+            <li>A sudden increase in interest rates by the Federal Reserve that depresses all bond and stock prices</li>
+            <li>A global recession that causes a broad market decline</li>
+            <li>Geopolitical events (wars, political crises) that create widespread market uncertainty</li>
+            <li>Inflation eroding the purchasing power of all investments</li>
+            <li>Changes in tax policy or government regulation affecting all businesses</li>
+          </ul>
+
+          <p>Systematic risk is measured by <strong>beta</strong>, which quantifies how sensitive an individual security or portfolio is relative to the overall market.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition: Beta</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Beta</strong> measures the volatility (systematic risk) of a security or portfolio relative to the overall market (typically the S&P 500).</p>
+              <ul>
+                <li><strong>Beta = 1.0:</strong> The security moves in line with the market. If the market rises 10%, the security is expected to rise approximately 10%.</li>
+                <li><strong>Beta &gt; 1.0:</strong> The security is <strong>more volatile</strong> than the market. A beta of 1.5 means the security is expected to move 50% more than the market in either direction. High-beta stocks are considered more aggressive.</li>
+                <li><strong>Beta &lt; 1.0:</strong> The security is <strong>less volatile</strong> than the market. A beta of 0.5 means the security is expected to move only half as much as the market. Low-beta stocks are considered more conservative or defensive.</li>
+                <li><strong>Beta = 0:</strong> The security's returns have no correlation to the market (e.g., Treasury bills).</li>
+                <li><strong>Negative beta:</strong> The security tends to move in the opposite direction of the market (rare; gold is sometimes cited as having a slightly negative beta).</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3>Unsystematic Risk (Business Risk / Diversifiable Risk)</h3>
+          <p><strong>Unsystematic risk</strong> is specific to a particular company, industry, or sector. It arises from factors unique to an individual business and can be <strong>reduced or eliminated through diversification</strong>. By owning a variety of securities across different industries and sectors, the positive performance of some holdings can offset the negative performance of others.</p>
+
+          <p>Examples of unsystematic risk include:</p>
+          <ul>
+            <li>A company's CEO resigns unexpectedly, causing its stock price to drop</li>
+            <li>A product recall due to safety issues at a specific manufacturer</li>
+            <li>A labor strike that shuts down production at one company</li>
+            <li>Increased competition that erodes a company's market share</li>
+            <li>A lawsuit or regulatory action against a specific firm</li>
+            <li>An industry-specific downturn (e.g., oil prices drop, affecting only energy companies)</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg></div>
+              <p class="callout__title">Exam Tip: All Investments Carry Risk</p>
+            </div>
+            <div class="callout__content">
+              <p>The SIE exam emphasizes that <strong>all investments carry some level of risk</strong>. Even the safest investments (like U.S. Treasury securities) carry inflation risk and opportunity cost risk. Diversification can reduce unsystematic risk but <strong>cannot eliminate systematic risk</strong>. This distinction is a frequently tested concept.</p>
+            </div>
+          </div>
+
+          <!-- SVG Diagram: Systematic vs Unsystematic -->
+          <div class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 660 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing the relationship between systematic and unsystematic risk, and how diversification reduces only unsystematic risk">
+              <!-- Total Risk circle -->
+              <ellipse cx="330" cy="160" rx="310" ry="140" fill="none" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8,4"/>
+              <text class="label label--bold" x="330" y="30">Total Investment Risk</text>
+
+              <!-- Systematic circle -->
+              <ellipse cx="220" cy="170" rx="175" ry="110" fill="rgba(239,68,68,0.08)" stroke="#ef4444" stroke-width="2"/>
+              <text x="145" y="120" font-family="var(--font-sans)" font-size="14" font-weight="600" fill="#ef4444" text-anchor="middle">SYSTEMATIC RISK</text>
+              <text x="145" y="140" font-family="var(--font-sans)" font-size="11" fill="#991b1b" text-anchor="middle">(Non-Diversifiable)</text>
+              <text x="145" y="170" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Market Risk</text>
+              <text x="145" y="186" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Interest Rate Risk</text>
+              <text x="145" y="202" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Inflation Risk</text>
+              <text x="145" y="218" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Currency Risk</text>
+              <text x="145" y="234" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Political Risk</text>
+
+              <!-- Unsystematic circle -->
+              <ellipse cx="440" cy="170" rx="175" ry="110" fill="rgba(59,130,246,0.08)" stroke="#3b82f6" stroke-width="2"/>
+              <text x="510" y="120" font-family="var(--font-sans)" font-size="14" font-weight="600" fill="#3b82f6" text-anchor="middle">UNSYSTEMATIC RISK</text>
+              <text x="510" y="140" font-family="var(--font-sans)" font-size="11" fill="#1e40af" text-anchor="middle">(Diversifiable)</text>
+              <text x="510" y="170" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Business Risk</text>
+              <text x="510" y="186" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Financial Risk</text>
+              <text x="510" y="202" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Credit / Default Risk</text>
+              <text x="510" y="218" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Management Risk</text>
+              <text x="510" y="234" font-family="var(--font-sans)" font-size="11" fill="#64748b" text-anchor="middle">Liquidity Risk</text>
+
+              <!-- Overlap area -->
+              <text x="330" y="168" font-family="var(--font-sans)" font-size="11" fill="#475569" text-anchor="middle" font-weight="600">Both affect</text>
+              <text x="330" y="184" font-family="var(--font-sans)" font-size="11" fill="#475569" text-anchor="middle" font-weight="600">portfolio value</text>
+
+              <!-- Diversification callout -->
+              <rect x="370" y="282" width="280" height="30" rx="6" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+              <text x="510" y="302" font-family="var(--font-sans)" font-size="12" fill="#065f46" text-anchor="middle" font-weight="600">Diversification reduces unsystematic risk only</text>
+            </svg>
+            <figcaption>Figure 7.1 &mdash; Systematic risk affects the entire market and cannot be diversified away. Unsystematic risk is company-specific and can be reduced through diversification.</figcaption>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Types of Risk ====== -->
+        <section class="lesson__section" id="types-of-risk">
+          <h2>Types of Investment Risk</h2>
+
+          <p>The SIE exam tests your understanding of numerous specific risk types. Each type affects different investments in different ways. Mastering these risk definitions and knowing which products are most exposed to each type is essential.</p>
+
+          <h3>Market Risk</h3>
+          <p>Market risk is the risk that the overall market declines, dragging down the value of most securities regardless of their individual fundamentals. Even a well-managed company with strong earnings can see its stock price fall during a market-wide selloff. Market risk is a form of systematic risk.</p>
+
+          <h3>Interest Rate Risk</h3>
+          <p>Interest rate risk is the risk that changes in prevailing interest rates will negatively affect the value of an investment. This risk is most directly associated with <strong>fixed-income securities (bonds)</strong>. When interest rates rise, existing bond prices fall (inverse relationship). Long-term bonds are more sensitive to interest rate changes than short-term bonds. Zero-coupon bonds have the highest interest rate risk because all of their return comes at maturity.</p>
+
+          <h3>Credit / Default Risk</h3>
+          <p>Credit risk (also called default risk) is the risk that a bond issuer will fail to make required interest or principal payments. Corporate bonds carry higher credit risk than government bonds. Bond credit ratings (from agencies like Moody's, S&P, and Fitch) assess the likelihood of default. Investment-grade bonds (BBB/Baa and above) have lower credit risk, while high-yield (junk) bonds (BB/Ba and below) have higher credit risk and offer higher yields to compensate.</p>
+
+          <h3>Inflation / Purchasing Power Risk</h3>
+          <p>Inflation risk is the risk that the purchasing power of investment returns will be eroded by rising prices. If your investment returns 4% but inflation is 3%, your real return is only 1%. Fixed-income investments are most vulnerable to inflation risk because their interest payments are fixed in nominal terms. <strong>Treasury Inflation-Protected Securities (TIPS)</strong> are specifically designed to protect against inflation risk.</p>
+
+          <h3>Reinvestment Risk</h3>
+          <p>Reinvestment risk is the risk that cash flows received from an investment (interest payments, dividends, or principal repayments) will have to be reinvested at a lower rate of return. This is particularly relevant for <strong>callable bonds</strong>, which an issuer may redeem early when interest rates fall. The bondholder receives their principal back but must reinvest at the now-lower prevailing rates.</p>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Memory Aid: Interest Rate Risk vs. Reinvestment Risk</p>
+            </div>
+            <div class="callout__content">
+              <p>Interest rate risk and reinvestment risk work in <strong>opposite directions</strong>. When rates rise, bond prices fall (interest rate risk hurts you), but you can reinvest cash flows at higher rates (reinvestment risk helps you). When rates fall, bond prices rise (interest rate risk helps you), but you must reinvest at lower rates (reinvestment risk hurts you). Think of them as two sides of the same coin.</p>
+            </div>
+          </div>
+
+          <h3>Liquidity Risk</h3>
+          <p>Liquidity risk is the risk that an investor will be unable to sell an investment quickly without accepting a significant price discount. Thinly traded stocks, non-traded REITs, limited partnership interests, and certain bonds may have liquidity risk. Large-cap stocks listed on major exchanges have minimal liquidity risk.</p>
+
+          <h3>Political / Legislative Risk</h3>
+          <p>Political risk (also called legislative risk or regulatory risk) is the risk that government actions -- such as new legislation, regulation, tax policy changes, or political instability -- will negatively affect investments. International investments carry additional political risk from foreign governments. Municipal bonds can be affected by changes in tax laws (since their tax-exempt status could theoretically be modified).</p>
+
+          <h3>Currency / Exchange Rate Risk</h3>
+          <p>Currency risk affects investors who hold investments denominated in a foreign currency. If the foreign currency depreciates relative to the investor's home currency, the investment's value decreases when converted back to the home currency -- even if the investment itself performed well in local-currency terms. American Depositary Receipts (ADRs) and international mutual funds expose U.S. investors to currency risk.</p>
+
+          <h3>Concentration Risk</h3>
+          <p>Concentration risk arises when a portfolio is heavily weighted in a single security, sector, or asset class. A portfolio consisting entirely of technology stocks, for example, is highly exposed to a technology sector downturn. Diversification across multiple sectors and asset classes reduces concentration risk.</p>
+
+          <h3>Opportunity Cost</h3>
+          <p>Opportunity cost is the potential return an investor forgoes by choosing one investment over another. If an investor places funds in a low-yielding savings account when they could have invested in stocks that returned 10%, the opportunity cost is the foregone return. All investment decisions involve opportunity cost.</p>
+
+          <!-- Risk Types Compare Table -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th data-col="risk">Risk Type</th>
+                  <th data-col="category">Category</th>
+                  <th data-col="most-affected">Most Affected Products</th>
+                  <th data-col="mitigation">Primary Mitigation</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Market Risk</td>
+                  <td class="compare-table__cell">Systematic</td>
+                  <td class="compare-table__cell">All equities, equity mutual funds</td>
+                  <td class="compare-table__cell">Asset allocation (adding bonds, cash)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Interest Rate Risk</td>
+                  <td class="compare-table__cell">Systematic</td>
+                  <td class="compare-table__cell">Bonds (esp. long-term, zero-coupon), preferred stock</td>
+                  <td class="compare-table__cell">Shorten duration, laddering</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Inflation Risk</td>
+                  <td class="compare-table__cell">Systematic</td>
+                  <td class="compare-table__cell">Fixed-income, cash equivalents</td>
+                  <td class="compare-table__cell">TIPS, equities, real assets</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Credit / Default Risk</td>
+                  <td class="compare-table__cell">Unsystematic</td>
+                  <td class="compare-table__cell">Corporate bonds, high-yield bonds</td>
+                  <td class="compare-table__cell">Diversification, invest in higher-rated bonds</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Reinvestment Risk</td>
+                  <td class="compare-table__cell">Systematic</td>
+                  <td class="compare-table__cell">Callable bonds, high-coupon bonds, CDs</td>
+                  <td class="compare-table__cell">Zero-coupon bonds (no reinvestment needed)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Liquidity Risk</td>
+                  <td class="compare-table__cell">Unsystematic</td>
+                  <td class="compare-table__cell">Non-traded REITs, DPPs, thinly traded stocks</td>
+                  <td class="compare-table__cell">Invest in exchange-traded securities</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Currency Risk</td>
+                  <td class="compare-table__cell">Systematic</td>
+                  <td class="compare-table__cell">Foreign securities, ADRs, international funds</td>
+                  <td class="compare-table__cell">Currency hedging, domestic investments</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Political Risk</td>
+                  <td class="compare-table__cell">Systematic</td>
+                  <td class="compare-table__cell">International investments, municipal bonds</td>
+                  <td class="compare-table__cell">Geographic diversification</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Concentration Risk</td>
+                  <td class="compare-table__cell">Unsystematic</td>
+                  <td class="compare-table__cell">Undiversified portfolios, sector funds</td>
+                  <td class="compare-table__cell">Diversification across sectors/assets</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Risk and Return ====== -->
+        <section class="lesson__section" id="risk-return">
+          <h2>Risk and Return Relationship</h2>
+
+          <p>The fundamental principle of investing is that <strong>higher risk is associated with higher potential returns</strong>. Investors who are willing to accept greater uncertainty and potential loss are compensated with the possibility of greater gains. Conversely, lower-risk investments offer more stable but typically lower returns.</p>
+
+          <p>This relationship can be visualized as a spectrum -- often depicted as a <strong>risk pyramid</strong> -- ranging from the safest investments at the base to the most speculative at the top.</p>
+
+          <!-- SVG Diagram: Risk Pyramid -->
+          <div class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 600 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Investment risk pyramid showing low risk investments at the wide base and high risk investments at the narrow top">
+              <!-- Pyramid levels from bottom to top -->
+              <!-- Level 1: Lowest risk -->
+              <polygon points="50,380 550,380 480,310 120,310" fill="#ecfdf5" stroke="#10b981" stroke-width="2"/>
+              <text x="300" y="340" font-family="var(--font-sans)" font-size="13" font-weight="600" fill="#065f46" text-anchor="middle">Treasury Securities, CDs, Money Market</text>
+              <text x="300" y="358" font-family="var(--font-sans)" font-size="11" fill="#064e3b" text-anchor="middle">Capital Preservation -- Lowest Risk, Lowest Return</text>
+
+              <!-- Level 2 -->
+              <polygon points="120,310 480,310 420,240 180,240" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+              <text x="300" y="268" font-family="var(--font-sans)" font-size="13" font-weight="600" fill="#1e40af" text-anchor="middle">Investment-Grade Bonds, Municipal Bonds</text>
+              <text x="300" y="286" font-family="var(--font-sans)" font-size="11" fill="#1e3a5f" text-anchor="middle">Income -- Low to Moderate Risk</text>
+
+              <!-- Level 3 -->
+              <polygon points="180,240 420,240 360,170 240,170" fill="#f5f3ff" stroke="#8b5cf6" stroke-width="2"/>
+              <text x="300" y="198" font-family="var(--font-sans)" font-size="13" font-weight="600" fill="#5b21b6" text-anchor="middle">Blue-Chip Stocks, Balanced Funds</text>
+              <text x="300" y="216" font-family="var(--font-sans)" font-size="11" fill="#4c1d95" text-anchor="middle">Growth &amp; Income -- Moderate Risk</text>
+
+              <!-- Level 4 -->
+              <polygon points="240,170 360,170 325,110 275,110" fill="#fffbeb" stroke="#f59e0b" stroke-width="2"/>
+              <text x="300" y="134" font-family="var(--font-sans)" font-size="12" font-weight="600" fill="#92400e" text-anchor="middle">Growth Stocks, High-Yield Bonds</text>
+              <text x="300" y="150" font-family="var(--font-sans)" font-size="11" fill="#78350f" text-anchor="middle">Growth -- Higher Risk</text>
+
+              <!-- Level 5: Highest risk -->
+              <polygon points="275,110 325,110 300,50" fill="#fef2f2" stroke="#ef4444" stroke-width="2"/>
+              <text x="300" y="82" font-family="var(--font-sans)" font-size="11" font-weight="600" fill="#991b1b" text-anchor="middle">Options,</text>
+              <text x="300" y="96" font-family="var(--font-sans)" font-size="11" font-weight="600" fill="#991b1b" text-anchor="middle">Futures</text>
+
+              <!-- Labels on sides -->
+              <text x="25" y="220" font-family="var(--font-sans)" font-size="12" fill="#64748b" text-anchor="middle" transform="rotate(-90,25,220)" font-weight="600">RISK INCREASES</text>
+              <line x1="35" y1="370" x2="35" y2="60" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+              <text x="575" y="220" font-family="var(--font-sans)" font-size="12" fill="#64748b" text-anchor="middle" transform="rotate(90,575,220)" font-weight="600">RETURN POTENTIAL</text>
+              <line x1="565" y1="370" x2="565" y2="60" stroke="#94a3b8" stroke-width="1.5" marker-end="url(#arrowGray)"/>
+
+              <!-- Caption -->
+              <text class="label label--small" x="300" y="410">Figure 7.2 &mdash; Risk Pyramid: Higher potential returns require accepting higher risk.</text>
+
+              <defs>
+                <marker id="arrowGray" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+                  <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+                </marker>
+              </defs>
+            </svg>
+            <figcaption>Figure 7.2 &mdash; The investment risk pyramid illustrates the risk-return tradeoff: the widest base represents the safest investments, while the narrow peak represents the most speculative.</figcaption>
+          </div>
+
+          <p>Key points about the risk-return spectrum for the SIE exam:</p>
+          <ul>
+            <li><strong>T-bills</strong> are considered the safest investment (virtually risk-free for default) but offer the lowest returns. The T-bill rate is often used as the "risk-free rate" in financial calculations.</li>
+            <li><strong>Government bonds</strong> (T-notes, T-bonds) carry interest rate risk but minimal credit risk.</li>
+            <li><strong>Investment-grade corporate bonds</strong> offer higher yields than Treasuries but carry credit risk.</li>
+            <li><strong>High-yield (junk) bonds</strong> offer even higher yields to compensate for significantly higher credit risk.</li>
+            <li><strong>Blue-chip stocks</strong> of large, established companies offer growth potential with moderate risk.</li>
+            <li><strong>Small-cap and growth stocks</strong> offer higher growth potential but greater volatility.</li>
+            <li><strong>Options and futures</strong> carry the highest risk, including the possibility of losing the entire investment (or more, in certain positions).</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 4: Investment Objectives ====== -->
+        <section class="lesson__section" id="objectives-tolerance">
+          <h2>Investment Objectives and Risk Tolerance</h2>
+
+          <p>Understanding investor objectives and risk tolerance is critical for the SIE exam because it forms the foundation of suitability analysis. Every investor has different financial goals, time horizons, and comfort levels with risk.</p>
+
+          <h3>Four Primary Investment Objectives</h3>
+
+          <p><strong>1. Capital Preservation:</strong> The primary goal is to protect the original investment amount. This is the most conservative objective, suitable for investors who cannot afford to lose any principal. Typical investments include money market funds, Treasury bills, CDs, and short-term government bonds. Returns are expected to be modest, often barely exceeding inflation.</p>
+
+          <p><strong>2. Income:</strong> The primary goal is to generate regular cash flow from investments. Income investors seek steady dividend or interest payments. Suitable investments include investment-grade bonds, dividend-paying stocks, REITs, and balanced funds. These investors accept moderate risk in exchange for reliable income streams.</p>
+
+          <p><strong>3. Growth:</strong> The primary goal is capital appreciation over time. Growth investors seek to increase the value of their portfolio through rising stock prices rather than current income. Suitable investments include growth stocks, growth mutual funds, and stock index funds. These investors accept higher volatility in exchange for greater long-term return potential.</p>
+
+          <p><strong>4. Speculation:</strong> The primary goal is to achieve maximum returns in a short period, accepting the highest level of risk including the potential loss of the entire investment. Speculative investors may use options, futures, penny stocks, or aggressive trading strategies. This objective is appropriate only for investors who can afford to lose their entire investment.</p>
+
+          <h3>Investor Profiles</h3>
+          <ul>
+            <li><strong>Conservative investors:</strong> Prioritize capital preservation and income. Low risk tolerance. Typically retirees or those with short time horizons. Portfolio weighted heavily toward bonds and cash.</li>
+            <li><strong>Moderate investors:</strong> Seek a balance of growth and income. Moderate risk tolerance. Typically middle-aged investors saving for retirement. Balanced portfolio of stocks and bonds.</li>
+            <li><strong>Aggressive investors:</strong> Prioritize growth and can tolerate significant volatility. High risk tolerance. Typically younger investors with long time horizons. Portfolio weighted heavily toward stocks, including growth and small-cap stocks.</li>
+          </ul>
+
+          <p><strong>Time horizon</strong> is one of the most important factors in determining appropriate risk levels. Investors with longer time horizons can generally afford to take more risk because they have time to recover from market downturns. As the time horizon shortens (approaching retirement, for example), investors typically shift toward more conservative allocations.</p>
+        </section>
+
+        <!-- ====== SECTION 5: Portfolio Diversification ====== -->
+        <section class="lesson__section" id="diversification">
+          <h2>Portfolio Diversification</h2>
+
+          <p>Diversification is one of the most powerful tools available to investors for managing risk. The principle is simple: <strong>don't put all your eggs in one basket</strong>. By spreading investments across different asset classes, sectors, and geographies, investors can reduce the impact of any single investment's poor performance on the overall portfolio.</p>
+
+          <h3>Why Diversification Works</h3>
+          <p>Diversification works because different investments respond differently to the same economic events. When one investment is declining, another may be rising or remaining stable. For example:</p>
+          <ul>
+            <li>When interest rates rise, bond prices typically fall, but bank stocks often benefit from higher lending margins.</li>
+            <li>When the domestic economy weakens, international investments may continue to perform well.</li>
+            <li>When stock prices drop, government bonds often rally as investors seek safety (a "flight to quality").</li>
+          </ul>
+
+          <p>The statistical concept underlying diversification is <strong>correlation</strong>. Correlation measures how closely two investments move in relation to each other, ranging from +1.0 (perfect positive correlation -- they move in the same direction) to -1.0 (perfect negative correlation -- they move in opposite directions). A correlation of 0 means no relationship. The most effective diversification combines assets with <strong>low or negative correlation</strong>.</p>
+
+          <h3>Asset Classes for Diversification</h3>
+          <ul>
+            <li><strong>Equities (stocks):</strong> Offer growth potential, historically highest long-term returns, but highest volatility. Can diversify by market cap (large, mid, small), style (growth, value), and geography (domestic, international, emerging markets).</li>
+            <li><strong>Fixed income (bonds):</strong> Provide income and stability. Generally lower returns than stocks but lower volatility. Can diversify by issuer type (government, corporate, municipal), credit quality, and maturity.</li>
+            <li><strong>Cash and cash equivalents:</strong> Money market funds, T-bills, CDs. Provide safety and liquidity but minimal returns.</li>
+            <li><strong>Real estate:</strong> Through REITs or direct ownership. Provides income and potential inflation protection. Low to moderate correlation with stocks.</li>
+            <li><strong>Commodities:</strong> Gold, oil, agricultural products. Often used as inflation hedges. Low correlation with traditional financial assets.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+              <p class="callout__title">Key Takeaway: Diversification Benefits</p>
+            </div>
+            <div class="callout__content">
+              <p>Diversification can significantly reduce unsystematic (company-specific) risk but <strong>cannot eliminate systematic (market) risk</strong>. Research suggests that holding approximately 20-30 different stocks across various sectors can eliminate most unsystematic risk. The remaining risk is systematic risk, which is inherent to investing in the market.</p>
+            </div>
+          </div>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Modern Portfolio Theory and the Efficient Frontier
+            </summary>
+            <div class="deep-dive__content">
+              <p><strong>Modern Portfolio Theory (MPT)</strong>, developed by Harry Markowitz in 1952, provides the mathematical framework for constructing portfolios that maximize expected return for a given level of risk. The key insight is that a portfolio's risk is not simply the weighted average of its individual holdings' risks -- it also depends on how those holdings are correlated with each other.</p>
+              <p>By combining assets with low or negative correlations, an investor can construct a portfolio whose total risk is <strong>less than</strong> the weighted average risk of its components. This is the mathematical explanation for why diversification works.</p>
+              <p>The <strong>efficient frontier</strong> is a curve that represents the set of optimal portfolios -- those that offer the highest expected return for each level of risk (or equivalently, the lowest risk for each level of expected return). Portfolios that fall below the efficient frontier are "suboptimal" because they could achieve higher returns for the same level of risk, or the same return with lower risk.</p>
+              <p>Key concepts from MPT that may appear on the SIE exam:</p>
+              <ul>
+                <li><strong>Efficient portfolio:</strong> A portfolio that lies on the efficient frontier and offers the maximum return for its level of risk.</li>
+                <li><strong>Optimal portfolio:</strong> The specific portfolio on the efficient frontier that best matches an individual investor's risk tolerance.</li>
+                <li><strong>Risk-return optimization:</strong> The process of constructing the most efficient portfolio by selecting the right mix of asset classes.</li>
+                <li><strong>Alpha:</strong> The return above (or below) what would be expected given the portfolio's level of risk (as measured by beta). Positive alpha indicates the portfolio outperformed its risk-adjusted benchmark.</li>
+              </ul>
+              <p>While the SIE exam does not require detailed MPT calculations, understanding the basic concepts -- that diversification reduces risk, correlation matters, and there is an optimal risk-return tradeoff -- is important.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ SECTION ====== -->
+        <section class="lesson__section" id="quiz">
+          <h2>Check Your Understanding</h2>
+          <div class="lesson-quiz">
+            <h3 class="lesson-quiz__title">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 015.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>
+              Chapter 7 Quiz
+            </h3>
+            <p class="lesson-quiz__subtitle">Test your knowledge of investment risks. Select the best answer for each question.</p>
+
+            <div class="lesson-quiz__item">
+              <p class="lesson-quiz__question">1. Which of the following risks can be reduced through diversification?</p>
+              <div class="lesson-quiz__options">
+                <button class="answer-btn" data-correct="false">A) Market risk</button>
+                <button class="answer-btn" data-correct="false">B) Interest rate risk</button>
+                <button class="answer-btn" data-correct="true">C) Business risk</button>
+                <button class="answer-btn" data-correct="false">D) Inflation risk</button>
+              </div>
+              <div class="lesson-quiz__explanation" aria-hidden="true">Business risk is a form of unsystematic (diversifiable) risk because it is specific to an individual company. By owning securities of many different companies across various industries, the impact of one company's business problems is minimized. Market risk, interest rate risk, and inflation risk are all forms of systematic risk that affect the entire market and cannot be diversified away.</div>
+            </div>
+
+            <div class="lesson-quiz__item">
+              <p class="lesson-quiz__question">2. A stock has a beta of 1.5. If the market increases by 10%, the stock would be expected to:</p>
+              <div class="lesson-quiz__options">
+                <button class="answer-btn" data-correct="false">A) Increase by 10%</button>
+                <button class="answer-btn" data-correct="true">B) Increase by 15%</button>
+                <button class="answer-btn" data-correct="false">C) Increase by 5%</button>
+                <button class="answer-btn" data-correct="false">D) Decrease by 15%</button>
+              </div>
+              <div class="lesson-quiz__explanation" aria-hidden="true">Beta measures a security's sensitivity to market movements. A beta of 1.5 means the stock is expected to move 1.5 times the market's movement. If the market rises 10%, the stock is expected to rise 15% (10% x 1.5). Conversely, if the market falls 10%, the stock would be expected to fall 15%.</div>
+            </div>
+
+            <div class="lesson-quiz__item">
+              <p class="lesson-quiz__question">3. Which type of bond has the GREATEST interest rate risk?</p>
+              <div class="lesson-quiz__options">
+                <button class="answer-btn" data-correct="false">A) 2-year Treasury note</button>
+                <button class="answer-btn" data-correct="false">B) 5-year corporate bond</button>
+                <button class="answer-btn" data-correct="false">C) 10-year municipal bond</button>
+                <button class="answer-btn" data-correct="true">D) 30-year zero-coupon bond</button>
+              </div>
+              <div class="lesson-quiz__explanation" aria-hidden="true">Interest rate risk increases with maturity (longer-term bonds are more sensitive to rate changes) and is greatest for zero-coupon bonds because they make no periodic interest payments -- all return comes at maturity. A 30-year zero-coupon bond combines the longest maturity with the zero-coupon structure, making it the most sensitive to interest rate changes.</div>
+            </div>
+
+            <div class="lesson-quiz__item">
+              <p class="lesson-quiz__question">4. A retired investor seeking regular income with minimal risk to principal would be classified as having which investment objective?</p>
+              <div class="lesson-quiz__options">
+                <button class="answer-btn" data-correct="false">A) Growth</button>
+                <button class="answer-btn" data-correct="true">B) Income</button>
+                <button class="answer-btn" data-correct="false">C) Speculation</button>
+                <button class="answer-btn" data-correct="false">D) Capital appreciation</button>
+              </div>
+              <div class="lesson-quiz__explanation" aria-hidden="true">An income objective focuses on generating regular cash flow (interest and dividends) with moderate risk. This is appropriate for a retired investor who needs regular income to cover living expenses and cannot afford significant losses to principal. Growth and speculation involve higher risk, which is inappropriate for someone relying on their investments for income.</div>
+            </div>
+
+            <div class="lesson-quiz__item">
+              <p class="lesson-quiz__question">5. An investor holds only pharmaceutical stocks in their portfolio. This investor is MOST exposed to:</p>
+              <div class="lesson-quiz__options">
+                <button class="answer-btn" data-correct="false">A) Interest rate risk</button>
+                <button class="answer-btn" data-correct="true">B) Concentration risk</button>
+                <button class="answer-btn" data-correct="false">C) Currency risk</button>
+                <button class="answer-btn" data-correct="false">D) Reinvestment risk</button>
+              </div>
+              <div class="lesson-quiz__explanation" aria-hidden="true">Concentration risk occurs when a portfolio is heavily weighted in a single sector, industry, or security. By holding only pharmaceutical stocks, the investor is fully exposed to any negative event that specifically affects the pharmaceutical industry (new regulations, drug recalls, patent expirations). This risk could be reduced by diversifying into other sectors.</div>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="mark-complete-btn lesson__complete" data-action="mark-complete">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV/NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="products-alternatives.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <span>
+              <span class="lesson__nav-label">Previous</span>
+              <span class="lesson__nav-title">Chapter 6 &mdash; Alternative Investments</span>
+            </span>
+          </a>
+          <a href="trading-accounts.html" class="lesson__nav-link lesson__nav-link--next">
+            <span>
+              <span class="lesson__nav-label">Next</span>
+              <span class="lesson__nav-title">Chapter 8 &mdash; Customer Accounts</span>
+            </span>
+            <span class="lesson__nav-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+      <div class="lesson__toc"></div>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

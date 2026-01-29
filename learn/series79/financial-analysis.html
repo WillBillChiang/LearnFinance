@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn financial statement analysis, ratio analysis, and analytical frameworks for investment banking for the Series 79 exam. Chapter 2 covers income statements, balance sheets, cash flows, and key ratios.">
+  <title>Financial Analysis - Series 79 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series79" data-chapter="financial-analysis">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 2</span>
+          <h1>Financial Analysis</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              40 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 79
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Financial Statements Overview ====== -->
+        <section class="lesson__section" id="financial-statements-overview">
+          <h2>Financial Statements Overview</h2>
+
+          <p>Financial statement analysis is a core competency for investment banking professionals. Whether advising on an M&A transaction, underwriting a securities offering, or providing a fairness opinion, the ability to analyze and interpret financial statements is fundamental. The Series 79 exam tests your understanding of the three primary financial statements, their interrelationships, and how they are used in investment banking analysis.</p>
+
+          <p>The three primary financial statements are the <strong>income statement</strong>, the <strong>balance sheet</strong>, and the <strong>cash flow statement</strong>. Together, they provide a comprehensive view of a company's financial performance, financial position, and cash generation. Public companies are required to file these statements quarterly (Form 10-Q) and annually (Form 10-K) with the SEC, following Generally Accepted Accounting Principles (GAAP) in the United States or International Financial Reporting Standards (IFRS) for international companies.</p>
+
+          <h3>The Income Statement</h3>
+
+          <p>The income statement (also called the profit and loss statement or P&L) reports a company's revenues, expenses, and net income over a specific period. It follows a top-down structure:</p>
+
+          <ul>
+            <li><strong>Revenue (Top Line):</strong> Total sales of goods or services. Analysts focus on organic revenue growth, pricing versus volume growth, and revenue mix by segment or product line.</li>
+            <li><strong>Cost of Goods Sold (COGS):</strong> Direct costs attributable to producing the goods or services sold. Revenue minus COGS equals gross profit.</li>
+            <li><strong>Gross Profit:</strong> Revenue minus COGS. The gross margin (gross profit / revenue) measures the profitability of the company's core products or services before operating expenses.</li>
+            <li><strong>Operating Expenses:</strong> Selling, general, and administrative (SG&A) expenses, research and development (R&D), depreciation and amortization. Revenue minus COGS minus operating expenses equals operating income (EBIT).</li>
+            <li><strong>EBIT (Earnings Before Interest and Taxes):</strong> Also called operating income, this measures the profitability of the company's core operations before the effects of capital structure (interest) and taxes.</li>
+            <li><strong>EBITDA (Earnings Before Interest, Taxes, Depreciation, and Amortization):</strong> EBIT plus depreciation and amortization. EBITDA is widely used in investment banking as a proxy for operating cash flow because it removes the effects of non-cash charges, capital structure, and taxes.</li>
+            <li><strong>Net Income (Bottom Line):</strong> The final profit after all expenses, interest, and taxes have been deducted. Earnings per share (EPS) is calculated as net income divided by the weighted average number of shares outstanding.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>EBITDA:</strong> Earnings Before Interest, Taxes, Depreciation, and Amortization. A widely used measure in investment banking that serves as a proxy for a company's operating cash flow. EBITDA removes the effects of financing decisions (interest), tax jurisdictions (taxes), and non-cash accounting charges (D&A), enabling more comparable analysis across companies.</p>
+            </div>
+          </div>
+
+          <h3>The Balance Sheet</h3>
+
+          <p>The balance sheet provides a snapshot of a company's financial position at a specific point in time. It follows the fundamental accounting equation: <strong>Assets = Liabilities + Shareholders' Equity</strong>.</p>
+
+          <p><strong>Assets</strong> are resources owned or controlled by the company that have future economic value. They are classified as current assets (expected to be converted to cash within one year, such as cash, accounts receivable, and inventory) and non-current assets (long-term assets such as property, plant, and equipment, intangible assets, and goodwill).</p>
+
+          <p><strong>Liabilities</strong> are obligations owed to third parties. They are classified as current liabilities (due within one year, such as accounts payable, accrued expenses, and the current portion of long-term debt) and non-current liabilities (long-term obligations such as long-term debt, deferred tax liabilities, and pension obligations).</p>
+
+          <p><strong>Shareholders' Equity</strong> represents the residual interest in the company's assets after deducting liabilities. It includes common stock, additional paid-in capital, retained earnings, and accumulated other comprehensive income (loss). In investment banking, the book value of equity is often compared to the market value of equity to assess whether a company is trading at a premium or discount to its book value.</p>
+
+          <h3>The Cash Flow Statement</h3>
+
+          <p>The cash flow statement tracks the actual cash inflows and outflows of the business during a period. It is organized into three sections:</p>
+
+          <ul>
+            <li><strong>Cash Flow from Operations (CFO):</strong> Cash generated by the company's core business activities. Starts with net income and adjusts for non-cash items (depreciation, amortization, stock-based compensation) and changes in working capital (accounts receivable, inventory, accounts payable).</li>
+            <li><strong>Cash Flow from Investing (CFI):</strong> Cash used for capital expenditures, acquisitions, and investments, as well as cash received from the sale of assets or investments. A key metric is <strong>capital expenditures (CapEx)</strong>, which represents spending on property, plant, and equipment.</li>
+            <li><strong>Cash Flow from Financing (CFF):</strong> Cash flows related to the company's capital structure, including debt issuance and repayment, equity issuance and buybacks, and dividend payments.</li>
+          </ul>
+
+          <p>A critical concept in investment banking is <strong>Free Cash Flow (FCF)</strong>, which represents the cash available to all capital providers (debt and equity holders) after the company has funded its operations and capital expenditures. The most common formulation is:</p>
+
+          <p><strong>Unlevered Free Cash Flow = EBIT x (1 - Tax Rate) + D&A - CapEx - Changes in Net Working Capital</strong></p>
+
+          <p><strong>Levered Free Cash Flow = Net Income + D&A - CapEx - Changes in Net Working Capital - Debt Repayments</strong></p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Understand the difference between <strong>unlevered free cash flow</strong> (used in DCF analysis to value the entire enterprise) and <strong>levered free cash flow</strong> (cash available to equity holders after debt obligations). The Series 79 frequently tests the components and uses of each.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Ratio Analysis ====== -->
+        <section class="lesson__section" id="ratio-analysis">
+          <h2>Ratio Analysis</h2>
+
+          <p>Ratio analysis is a fundamental tool for evaluating a company's financial health, profitability, efficiency, and leverage. Investment bankers use ratios extensively to compare companies within an industry, assess trends over time, and identify potential issues or opportunities. Understanding these ratios is critical for the Series 79 exam.</p>
+
+          <h3>Profitability Ratios</h3>
+
+          <p>Profitability ratios measure a company's ability to generate profits relative to its revenue, assets, or equity:</p>
+
+          <ul>
+            <li><strong>Gross Margin = Gross Profit / Revenue:</strong> Measures the percentage of revenue remaining after direct costs. Higher gross margins indicate stronger pricing power or more efficient production.</li>
+            <li><strong>EBITDA Margin = EBITDA / Revenue:</strong> Measures operating profitability before non-cash charges and capital structure effects. Widely used in investment banking for comparability.</li>
+            <li><strong>Net Profit Margin = Net Income / Revenue:</strong> Measures the percentage of revenue that translates to bottom-line profit after all expenses.</li>
+            <li><strong>Return on Equity (ROE) = Net Income / Average Shareholders' Equity:</strong> Measures how effectively the company uses equity capital to generate profits.</li>
+            <li><strong>Return on Assets (ROA) = Net Income / Average Total Assets:</strong> Measures how efficiently the company uses all its assets to generate profits.</li>
+            <li><strong>Return on Invested Capital (ROIC) = NOPAT / Invested Capital:</strong> Measures the return generated on all capital invested in the business, regardless of how it was financed. NOPAT = EBIT x (1 - Tax Rate). Invested Capital = Total Debt + Equity - Cash.</li>
+          </ul>
+
+          <h3>Leverage Ratios</h3>
+
+          <p>Leverage ratios assess the company's use of debt and its ability to service that debt. These ratios are critical in investment banking, particularly for evaluating credit risk and structuring transactions:</p>
+
+          <ul>
+            <li><strong>Debt-to-Equity = Total Debt / Total Equity:</strong> Measures the relative proportion of debt and equity used to finance the company.</li>
+            <li><strong>Debt-to-EBITDA = Total Debt / EBITDA:</strong> Also called the "leverage ratio," this is one of the most commonly used metrics in investment banking and credit analysis. It measures how many years it would take to repay all debt from operating cash flow.</li>
+            <li><strong>Interest Coverage Ratio = EBIT / Interest Expense:</strong> Measures the company's ability to pay interest on its outstanding debt. A ratio below 1.0x means the company cannot cover its interest payments from operating income.</li>
+            <li><strong>Net Debt / EBITDA = (Total Debt - Cash) / EBITDA:</strong> A refinement of Debt/EBITDA that accounts for cash on hand that could be used to repay debt.</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Ratio Category</th>
+                  <th>Key Ratios</th>
+                  <th>What It Measures</th>
+                  <th>IB Use Case</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Profitability</td>
+                  <td class="compare-table__cell">Gross margin, EBITDA margin, ROE, ROIC</td>
+                  <td class="compare-table__cell">Earnings power relative to revenue, equity, or capital</td>
+                  <td class="compare-table__cell">Comparable company analysis, performance assessment</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Leverage</td>
+                  <td class="compare-table__cell">Debt/EBITDA, interest coverage, D/E</td>
+                  <td class="compare-table__cell">Debt burden and ability to service obligations</td>
+                  <td class="compare-table__cell">Credit analysis, LBO modeling, debt capacity</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Liquidity</td>
+                  <td class="compare-table__cell">Current ratio, quick ratio</td>
+                  <td class="compare-table__cell">Ability to meet short-term obligations</td>
+                  <td class="compare-table__cell">Working capital assessment, credit analysis</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Efficiency</td>
+                  <td class="compare-table__cell">Asset turnover, inventory days, DSO, DPO</td>
+                  <td class="compare-table__cell">How effectively assets are used to generate revenue</td>
+                  <td class="compare-table__cell">Working capital analysis, operational efficiency</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Valuation</td>
+                  <td class="compare-table__cell">P/E, EV/EBITDA, EV/Revenue, P/B</td>
+                  <td class="compare-table__cell">Market value relative to financial metrics</td>
+                  <td class="compare-table__cell">Comparable analysis, pricing offerings</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Liquidity Ratios</h3>
+
+          <p>Liquidity ratios measure a company's ability to meet its short-term obligations:</p>
+
+          <ul>
+            <li><strong>Current Ratio = Current Assets / Current Liabilities:</strong> A ratio above 1.0x means the company has sufficient current assets to cover its current liabilities. Generally, a ratio between 1.5x and 3.0x is considered healthy, though this varies by industry.</li>
+            <li><strong>Quick Ratio = (Current Assets - Inventory) / Current Liabilities:</strong> A more conservative measure that excludes inventory, which may not be quickly converted to cash.</li>
+          </ul>
+
+          <h3>Efficiency Ratios</h3>
+
+          <p>Efficiency ratios measure how effectively a company uses its assets:</p>
+
+          <ul>
+            <li><strong>Days Sales Outstanding (DSO) = (Accounts Receivable / Revenue) x 365:</strong> Measures the average number of days to collect payment from customers.</li>
+            <li><strong>Days Inventory Outstanding (DIO) = (Inventory / COGS) x 365:</strong> Measures the average number of days inventory is held before being sold.</li>
+            <li><strong>Days Payable Outstanding (DPO) = (Accounts Payable / COGS) x 365:</strong> Measures the average number of days to pay suppliers.</li>
+            <li><strong>Cash Conversion Cycle = DSO + DIO - DPO:</strong> Measures the total time to convert inventory investments into cash. A shorter cycle indicates better working capital management.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>In investment banking, <strong>EBITDA</strong> and <strong>EBITDA-based ratios</strong> (EV/EBITDA, Debt/EBITDA) are the most commonly used metrics because they normalize for differences in capital structure, tax jurisdictions, and non-cash accounting policies, enabling more meaningful comparisons across companies.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Pro Forma and Adjusted Financial Statements ====== -->
+        <section class="lesson__section" id="pro-forma-adjusted-financials">
+          <h2>Pro Forma and Adjusted Financial Statements</h2>
+
+          <p>Investment bankers frequently work with <strong>pro forma financial statements</strong>, which present financial results as if a proposed transaction had already occurred. Pro forma statements are essential for modeling the impact of mergers, acquisitions, divestitures, and capital structure changes.</p>
+
+          <p>In an M&A context, pro forma financial statements combine the financial results of the acquirer and target, adjusted for the effects of the transaction, including purchase price allocation, financing terms, cost synergies, and one-time transaction expenses. These statements help the acquirer's management and board evaluate the financial impact of the deal and are required in SEC filings for material transactions.</p>
+
+          <h3>Quality of Earnings Adjustments</h3>
+
+          <p>Quality of earnings (QoE) analysis is a critical component of financial due diligence that adjusts reported earnings to reflect the underlying, sustainable economic performance of the business. Common adjustments include:</p>
+
+          <ul>
+            <li><strong>Non-recurring items:</strong> Removing one-time gains or losses (restructuring charges, litigation settlements, asset write-downs, gains on sale of assets)</li>
+            <li><strong>Owner/management adjustments:</strong> Normalizing above-market compensation, related-party transactions, or personal expenses charged to the business</li>
+            <li><strong>Revenue adjustments:</strong> Identifying non-recurring revenue, adjusting for contract timing differences, or correcting aggressive revenue recognition</li>
+            <li><strong>Expense normalization:</strong> Adjusting for deferred maintenance, under-investment, or unusual cost items</li>
+            <li><strong>Accounting policy differences:</strong> Adjusting for differences in depreciation methods, inventory accounting, or capitalization policies to enable comparability</li>
+          </ul>
+
+          <h3>Enterprise Value and Equity Value</h3>
+
+          <p>Two fundamental concepts in investment banking financial analysis are <strong>enterprise value (EV)</strong> and <strong>equity value</strong>:</p>
+
+          <p><strong>Enterprise Value = Market Capitalization + Total Debt + Preferred Stock + Minority Interest - Cash and Cash Equivalents</strong></p>
+
+          <p>Enterprise value represents the total value of the company's operations to all capital providers. It is capital-structure neutral and is therefore used with capital-structure neutral metrics like EBITDA, EBIT, and unlevered free cash flow.</p>
+
+          <p><strong>Equity Value = Enterprise Value - Total Debt - Preferred Stock - Minority Interest + Cash</strong> (or simply Market Capitalization for a publicly traded company)</p>
+
+          <p>Equity value represents the value attributable to common equity holders and is used with equity-specific metrics like net income and earnings per share.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>A common mistake is mixing enterprise value metrics with equity value metrics. <strong>EV/EBITDA</strong> and <strong>EV/Revenue</strong> are correct pairings because both the numerator and denominator are available to all capital providers. <strong>P/E</strong> (Price/Earnings) is an equity value metric because both share price and EPS relate to equity holders only. Never divide enterprise value by net income or equity value by EBITDA.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Industry-Specific Financial Analysis ====== -->
+        <section class="lesson__section" id="industry-specific-analysis">
+          <h2>Industry-Specific Financial Analysis</h2>
+
+          <p>Financial analysis in investment banking must be tailored to the specific industry of the company being analyzed. Different industries have different key metrics, margin profiles, and analytical frameworks. Understanding these differences is important for the Series 79 exam.</p>
+
+          <h3>Technology Companies</h3>
+          <p>Technology companies are often valued on revenue growth and recurring revenue metrics rather than current profitability. Key metrics include annual recurring revenue (ARR), monthly recurring revenue (MRR), customer acquisition cost (CAC), lifetime value (LTV), net revenue retention, and the "Rule of 40" (revenue growth rate + profit margin should exceed 40%). Software companies with high recurring revenue typically command premium valuations.</p>
+
+          <h3>Financial Institutions</h3>
+          <p>Banks and financial institutions have unique financial statement structures. Key metrics include net interest margin (NIM), return on assets (ROA), return on equity (ROE), efficiency ratio (non-interest expense / revenue), loan-to-deposit ratio, and asset quality metrics (non-performing loans, charge-off rates). EBITDA is not meaningful for financial institutions because interest is a core operating item, not a financing item.</p>
+
+          <h3>Real Estate Companies</h3>
+          <p>Real estate companies (particularly REITs) are analyzed using funds from operations (FFO), adjusted funds from operations (AFFO), net operating income (NOI), and capitalization rates. Traditional earnings metrics are less meaningful due to the impact of depreciation on real estate assets.</p>
+
+          <h3>Energy Companies</h3>
+          <p>Energy companies are analyzed using metrics specific to their subsector: for exploration and production companies, key metrics include proved reserves, production volumes, finding and development costs, and depletion rates. For midstream companies, distributable cash flow and coverage ratios are critical. For utilities, rate base, allowed return on equity, and regulatory recovery mechanisms are key analytical inputs.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>A SaaS company with $100M in ARR growing at 40% year-over-year with a net revenue retention rate of 120% would typically be valued at a significantly higher EV/Revenue multiple than a traditional manufacturing company with similar revenue. This is because the recurring revenue model provides greater visibility and predictability of future cash flows, and the high retention rate indicates strong product-market fit and expansion potential within the existing customer base.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Financial Modeling Fundamentals ====== -->
+        <section class="lesson__section" id="financial-modeling-fundamentals">
+          <h2>Financial Modeling Fundamentals</h2>
+
+          <p>Financial modeling is the process of building a mathematical representation of a company's financial performance, typically in a spreadsheet. Investment bankers build financial models to project future performance, value companies, analyze transactions, and support decision-making. While the Series 79 exam does not require you to build complex models, understanding the key concepts and outputs is essential.</p>
+
+          <h3>The Three-Statement Model</h3>
+
+          <p>The foundation of most financial models is the <strong>three-statement model</strong>, which integrates the income statement, balance sheet, and cash flow statement into a single dynamic framework. Key characteristics include:</p>
+
+          <ul>
+            <li>Revenue is projected based on assumptions about growth rates, pricing, volume, and market conditions</li>
+            <li>Expenses are modeled as a percentage of revenue or based on specific assumptions about cost structure</li>
+            <li>Working capital changes flow from balance sheet assumptions about DSO, DIO, and DPO</li>
+            <li>Capital expenditures are modeled based on maintenance requirements and growth investments</li>
+            <li>Debt and equity balances are projected based on the financing plan</li>
+            <li>All three statements are dynamically linked so that changes in one statement automatically flow through to the others</li>
+          </ul>
+
+          <h3>Sensitivity and Scenario Analysis</h3>
+
+          <p>Financial models typically include sensitivity analysis (examining how changes in key assumptions affect the output) and scenario analysis (modeling different cases such as base, upside, and downside). These tools help investment bankers and their clients understand the range of possible outcomes and the key drivers of value.</p>
+
+          <p>Common sensitivity variables include revenue growth rates, margin assumptions, discount rates, exit multiples, and leverage levels. Investment bankers present sensitivity tables that show how the implied valuation changes across different combinations of assumptions.</p>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the profitability waterfall with <strong>"Revenue Goes Every Place Nicely"</strong>: <strong>R</strong>evenue, <strong>G</strong>ross Profit, <strong>E</strong>BITDA, eBIT (<strong>P</strong>retax income), <strong>N</strong>et Income. Each level removes additional costs, giving a more refined view of profitability.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of financial analysis concepts. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. EBITDA is widely used in investment banking primarily because it:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Is required by SEC regulations for all filings</button>
+              <button class="answer-btn" data-correct="true">B) Normalizes for differences in capital structure, taxes, and non-cash charges</button>
+              <button class="answer-btn" data-correct="false">C) Represents the exact cash flow available to shareholders</button>
+              <button class="answer-btn" data-correct="false">D) Is always higher than net income</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              EBITDA is widely used because it normalizes for differences in capital structure (interest), tax jurisdictions (taxes), and non-cash accounting policies (depreciation and amortization), enabling more meaningful comparisons across companies. It is not a GAAP measure and does not represent exact cash flow.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Enterprise Value equals:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Market capitalization only</button>
+              <button class="answer-btn" data-correct="true">B) Market cap + total debt + preferred stock + minority interest - cash</button>
+              <button class="answer-btn" data-correct="false">C) Total assets minus total liabilities</button>
+              <button class="answer-btn" data-correct="false">D) Share price multiplied by net income</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Enterprise Value = Market Capitalization + Total Debt + Preferred Stock + Minority Interest - Cash and Cash Equivalents. It represents the total value of the company to all capital providers and is capital-structure neutral.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. A company with a Debt/EBITDA ratio of 5.0x is considered:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Minimally leveraged</button>
+              <button class="answer-btn" data-correct="false">B) Moderately leveraged</button>
+              <button class="answer-btn" data-correct="true">C) Highly leveraged</button>
+              <button class="answer-btn" data-correct="false">D) De-leveraged</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A Debt/EBITDA ratio of 5.0x means it would take 5 years of operating cash flow to repay all debt. This is generally considered highly leveraged. Investment-grade companies typically maintain ratios of 1.0x-3.0x, while highly leveraged or LBO situations may exceed 5.0x-6.0x.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which metric is most appropriate for valuing a bank?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) EV/EBITDA</button>
+              <button class="answer-btn" data-correct="false">B) EV/Revenue</button>
+              <button class="answer-btn" data-correct="true">C) Price/Book Value and ROE</button>
+              <button class="answer-btn" data-correct="false">D) EV/Subscribers</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Banks are best valued using Price/Book Value and ROE because EBITDA is not meaningful for financial institutions (interest is a core operating item, not a financing item). Price/Book captures the relationship between market value and the equity capital base, while ROE measures profitability relative to that capital.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. The Cash Conversion Cycle is calculated as:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) DSO + DPO - DIO</button>
+              <button class="answer-btn" data-correct="true">B) DSO + DIO - DPO</button>
+              <button class="answer-btn" data-correct="false">C) DPO + DIO - DSO</button>
+              <button class="answer-btn" data-correct="false">D) DSO - DIO - DPO</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Cash Conversion Cycle = Days Sales Outstanding + Days Inventory Outstanding - Days Payable Outstanding. It measures the total number of days from when inventory is purchased to when cash is collected from customers, net of the credit period received from suppliers.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="due-diligence.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 1 &mdash; Due Diligence Process</span>
+            </div>
+          </a>
+          <a href="valuation-methods.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 3 &mdash; Valuation Methods</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div>
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

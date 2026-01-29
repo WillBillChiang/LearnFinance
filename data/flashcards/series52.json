@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series52-fc001",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "front": "What are municipal securities?",
+    "back": "Municipal securities are debt obligations issued by states, cities, counties, and other governmental entities to fund public projects or operations. Interest is generally exempt from federal income tax and may be exempt from state and local taxes for residents of the issuing state. Municipal securities include general obligation bonds, revenue bonds, notes, and municipal fund securities."
+  },
+  {
+    "id": "series52-fc002",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "front": "What is a general obligation (GO) bond?",
+    "back": "A general obligation bond is backed by the full faith, credit, and taxing power of the issuing municipality. The issuer pledges its ability to levy taxes (property, income, or sales) to pay debt service. GO bonds typically require voter approval. They are considered lower risk than revenue bonds because they are supported by the issuer's overall taxing authority."
+  },
+  {
+    "id": "series52-fc003",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "front": "What is a revenue bond?",
+    "back": "A revenue bond is secured by the income from a specific project or source, such as tolls, utility charges, lease payments, or hospital fees. Revenue bonds do not require voter approval and are not backed by taxing power. They carry higher risk than GO bonds because their repayment depends on the success of the underlying project."
+  },
+  {
+    "id": "series52-fc004",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "front": "What are the types of short-term municipal notes?",
+    "back": "Short-term municipal notes include Tax Anticipation Notes (TANs), Revenue Anticipation Notes (RANs), Tax and Revenue Anticipation Notes (TRANs), Bond Anticipation Notes (BANs), and Grant Anticipation Notes (GANs). These notes mature within one year and are used to manage cash flow between anticipated receipts. They bridge temporary funding gaps for municipalities."
+  },
+  {
+    "id": "series52-fc005",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Features",
+    "front": "What is a call provision on a municipal bond?",
+    "back": "A call provision gives the issuer the right to redeem bonds before maturity, typically after a specified call protection period and at a stated call price (usually par or a small premium). Issuers call bonds when interest rates decline so they can refinance at lower rates. Callable bonds carry reinvestment risk for investors and are priced to the yield-to-worst."
+  },
+  {
+    "id": "series52-fc006",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Features",
+    "front": "What is a sinking fund provision?",
+    "back": "A sinking fund requires the issuer to set aside money periodically to retire a portion of the bond issue before maturity. This systematic reduction in outstanding debt lowers default risk for investors. Bonds retired through a sinking fund are typically selected by lottery at par. Sinking funds may be mandatory or optional."
+  },
+  {
+    "id": "series52-fc007",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Features",
+    "front": "What is the difference between serial and term bonds?",
+    "back": "Serial bonds have staggered maturity dates, with portions of the issue maturing each year. This provides a regular repayment schedule. Term bonds have a single maturity date, with the entire issue due at once (often with a sinking fund). Many municipal issues combine both types. Serial bonds are more common in municipal finance."
+  },
+  {
+    "id": "series52-fc008",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Features",
+    "front": "What is a zero-coupon municipal bond?",
+    "back": "A zero-coupon municipal bond is sold at a deep discount and pays no periodic interest. The return comes from the difference between the purchase price and par value at maturity. The imputed interest is tax-exempt at the federal level. The annual accretion of the discount increases the cost basis, and the bond is accreted using a straight-line or constant yield method."
+  },
+  {
+    "id": "series52-fc009",
+    "topic": "series52-t3",
+    "topicName": "Municipal Credit Analysis",
+    "front": "What factors are analyzed for GO bond credit quality?",
+    "back": "GO bond credit analysis considers the issuer's tax base breadth and diversity, debt burden per capita, overlapping debt, demographic trends (population, income, employment), economic diversity, financial management and budgetary practices, pension obligations, and historical debt repayment record. These factors help determine the issuer's ability and willingness to pay."
+  },
+  {
+    "id": "series52-fc010",
+    "topic": "series52-t3",
+    "topicName": "Municipal Credit Analysis",
+    "front": "What factors are analyzed for revenue bond credit quality?",
+    "back": "Revenue bond credit analysis examines the feasibility study, rate covenant (pledging to set rates sufficient to cover debt service), debt service coverage ratio, additional bonds test, competing facilities, management quality, and the legal security structure (flow of funds). The debt service coverage ratio is a key metric measuring the project's ability to generate sufficient revenue."
+  },
+  {
+    "id": "series52-fc011",
+    "topic": "series52-t3",
+    "topicName": "Municipal Credit Analysis",
+    "front": "What is a debt service coverage ratio?",
+    "back": "The debt service coverage ratio measures a revenue bond project's ability to pay its debt obligations. It is calculated as Net Revenue / Annual Debt Service. A ratio above 1.0x means the project generates enough revenue to cover debt payments. Most rate covenants require minimum coverage ratios (e.g., 1.25x), providing a margin of safety for bondholders."
+  },
+  {
+    "id": "series52-fc012",
+    "topic": "series52-t3",
+    "topicName": "Municipal Credit Analysis",
+    "front": "What is a flow of funds structure in revenue bonds?",
+    "back": "The flow of funds establishes the priority of revenue distribution for a revenue bond. Under a gross revenue pledge, debt service is paid first from total revenues. Under a net revenue pledge, operating and maintenance expenses are paid first, then debt service. The net revenue pledge is more common. The flow of funds is detailed in the bond indenture."
+  },
+  {
+    "id": "series52-fc013",
+    "topic": "series52-t4",
+    "topicName": "Municipal Tax Considerations",
+    "front": "What is the alternative minimum tax (AMT) and how does it affect municipal bonds?",
+    "back": "The AMT is a parallel tax system that eliminates certain deductions and preferences. Interest from private activity bonds (municipal bonds funding projects with private benefit, such as airports or stadiums) may be subject to AMT. Investors subject to AMT should consider this when purchasing private activity bonds, as the tax-exempt benefit may be reduced or eliminated."
+  },
+  {
+    "id": "series52-fc014",
+    "topic": "series52-t4",
+    "topicName": "Municipal Tax Considerations",
+    "front": "What is the de minimis tax rule for municipal bonds?",
+    "back": "The de minimis rule states that if a municipal bond is purchased at a market discount exceeding 0.25% per year to maturity (de minimis amount), the discount is treated as ordinary income upon sale or maturity. If the discount is equal to or less than the de minimis amount, it is treated as a capital gain. This affects the after-tax return for investors buying discounted bonds."
+  },
+  {
+    "id": "series52-fc015",
+    "topic": "series52-t4",
+    "topicName": "Municipal Tax Considerations",
+    "front": "What is the tax treatment of municipal bond premiums?",
+    "back": "When a tax-exempt municipal bond is purchased at a premium, the premium must be amortized over the life of the bond, reducing the cost basis. The amortized premium is not tax deductible for tax-exempt bonds. At maturity, the cost basis equals par value, so there is no capital gain or loss. Amortization follows either straight-line or constant yield method."
+  },
+  {
+    "id": "series52-fc016",
+    "topic": "series52-t5",
+    "topicName": "Municipal Market Operations",
+    "front": "What is the municipal securities primary market?",
+    "back": "The primary market is where new municipal bonds are initially sold to investors through either competitive or negotiated underwriting. In competitive sales, syndicates submit sealed bids. In negotiated sales, the issuer selects an underwriter directly. The primary market involves the official statement, pricing, allocation, and settlement of new issues."
+  },
+  {
+    "id": "series52-fc017",
+    "topic": "series52-t5",
+    "topicName": "Municipal Market Operations",
+    "front": "What is the municipal secondary market?",
+    "back": "The secondary market is where previously issued municipal bonds are traded between investors. Unlike equities, most municipal bonds trade over-the-counter (OTC) through dealer networks rather than on exchanges. The secondary market is less liquid than equity markets, and prices are negotiated between dealers and customers. MSRB trade reporting provides price transparency."
+  },
+  {
+    "id": "series52-fc018",
+    "topic": "series52-t5",
+    "topicName": "Municipal Market Operations",
+    "front": "What is accrued interest on a municipal bond?",
+    "back": "Accrued interest is the interest earned but not yet paid since the last coupon date. When a municipal bond is traded between interest payment dates, the buyer pays the seller the accrued interest in addition to the market price. Municipal bonds calculate accrued interest on a 30/360 day basis (each month has 30 days, each year has 360 days)."
+  },
+  {
+    "id": "series52-fc019",
+    "topic": "series52-t6",
+    "topicName": "MSRB Rules for Representatives",
+    "front": "What is MSRB Rule G-17 and why is it important?",
+    "back": "Rule G-17 is the MSRB's foundational conduct rule requiring all dealers to deal fairly with all persons and prohibiting deceptive, dishonest, or unfair practices. It applies to all municipal securities transactions and serves as the MSRB's primary anti-fraud provision. For underwriters, G-17 also requires specific disclosures to issuers about the nature of the underwriting relationship."
+  },
+  {
+    "id": "series52-fc020",
+    "topic": "series52-t6",
+    "topicName": "MSRB Rules for Representatives",
+    "front": "What is MSRB Rule G-47 on disclosure of material information?",
+    "back": "Rule G-47 requires dealers to disclose to customers, at or before the time of a municipal securities transaction, all material information known about the security. This includes credit and call features, pending litigation, rating changes, and any information that would affect investment decisions. The obligation exists even if the customer does not ask for the information."
+  },
+  {
+    "id": "series52-fc021",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "front": "What is an industrial development revenue bond (IDRB)?",
+    "back": "An IDRB is issued by a municipality on behalf of a private company to finance facilities such as factories or commercial buildings. The bonds are repaid from lease payments or revenues generated by the private user, not from taxes. IDRBs are classified as private activity bonds and their interest may be subject to the alternative minimum tax."
+  },
+  {
+    "id": "series52-fc022",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Features",
+    "front": "What is an advance refunding?",
+    "back": "An advance refunding occurs when an issuer sells new bonds and uses the proceeds to retire outstanding bonds before their call date. The proceeds are invested in an escrow account (typically in U.S. government securities) until the call date. Pre-refunded bonds are considered to be among the safest municipal bonds because they are backed by the escrowed government securities."
+  },
+  {
+    "id": "series52-fc023",
+    "topic": "series52-t3",
+    "topicName": "Municipal Credit Analysis",
+    "front": "What are the major municipal bond credit rating agencies?",
+    "back": "The three major credit rating agencies for municipal bonds are Moody's (Aaa to C scale), S&P Global (AAA to D scale), and Fitch (AAA to D scale). Investment-grade ratings are Baa3/BBB- and above. Ratings assess the issuer's creditworthiness and likelihood of timely payment. Insured bonds may receive higher ratings based on the insurer's credit."
+  },
+  {
+    "id": "series52-fc024",
+    "topic": "series52-t3",
+    "topicName": "Municipal Credit Analysis",
+    "front": "What is municipal bond insurance?",
+    "back": "Municipal bond insurance is purchased by the issuer from a monoline insurance company that guarantees timely payment of principal and interest if the issuer defaults. Insured bonds receive the rating of the insurer (if higher than the issuer's rating), typically resulting in lower borrowing costs. The insurance is irrevocable and lasts for the life of the bonds."
+  },
+  {
+    "id": "series52-fc025",
+    "topic": "series52-t5",
+    "topicName": "Municipal Market Operations",
+    "front": "What is a when-issued (WI) trade?",
+    "back": "A when-issued trade is a transaction in a new municipal bond that is traded before the actual settlement date has been determined. WI trades occur between the time bonds are awarded to the underwriting syndicate and the delivery date. Settlement occurs when the bonds are physically delivered. No accrued interest is calculated from WI trade date to settlement."
+  },
+  {
+    "id": "series52-fc026",
+    "topic": "series52-t6",
+    "topicName": "MSRB Rules for Representatives",
+    "front": "What is MSRB Rule G-37 regarding political contributions?",
+    "back": "Rule G-37 prohibits municipal securities dealers from engaging in municipal securities business with an issuer for two years after the dealer or certain covered associates make political contributions to officials of that issuer who can influence the awarding of business. There is a de minimis exception of $250 per election for individuals entitled to vote for the official."
+  },
+  {
+    "id": "series52-fc027",
+    "topic": "series52-t4",
+    "topicName": "Municipal Tax Considerations",
+    "front": "What is triple tax-exempt income?",
+    "back": "Triple tax-exempt income refers to municipal bond interest that is exempt from federal, state, and local income taxes. This occurs when the investor resides in the same state (and often the same city) as the issuing municipality. Triple tax exemption provides the greatest tax benefit and is particularly valuable for investors in high-tax jurisdictions."
+  },
+  {
+    "id": "series52-fc028",
+    "topic": "series52-t5",
+    "topicName": "Municipal Market Operations",
+    "front": "What is the MSRB Real-Time Transaction Reporting System (RTRS)?",
+    "back": "RTRS is the MSRB's system for collecting and disseminating municipal securities transaction data. Dealers must report trades within 15 minutes of execution. RTRS provides price transparency to the market by making trade data publicly available through EMMA. This helps investors evaluate the fairness of prices and promotes a more efficient municipal market."
+  },
+  {
+    "id": "series52-fc029",
+    "topic": "series52-t6",
+    "topicName": "MSRB Rules for Representatives",
+    "front": "What is MSRB Rule G-19 on suitability of recommendations?",
+    "back": "Rule G-19 requires municipal dealers to have a reasonable basis for recommending a transaction or investment strategy. They must gather information about the customer's financial status, tax status, investment objectives, and other factors. For institutional customers, the obligation may be modified if the institution can independently evaluate the recommendation."
+  },
+  {
+    "id": "series52-fc030",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "front": "What is a conduit issuer?",
+    "back": "A conduit issuer is a governmental entity that issues municipal bonds on behalf of a private entity (the conduit borrower), such as a hospital, university, or airport authority. The conduit issuer facilitates the tax-exempt financing, but the conduit borrower is responsible for repaying the bonds. The conduit issuer has no obligation to repay the bonds if the borrower defaults."
+  }
+]

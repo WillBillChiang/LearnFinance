@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn about investment companies for the Series 6 exam: open-end funds, NAV calculation, forward pricing, diversified vs. non-diversified funds, and share classes A, B, and C.">
+  <title>Investment Companies - Series 6 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series6" data-chapter="investment-companies">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 1</span>
+          <h1>Investment Companies</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              30 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 6
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Overview of Investment Companies ====== -->
+        <section class="lesson__section" id="overview-of-investment-companies">
+          <h2>Overview of Investment Companies</h2>
+
+          <p>Investment companies are the cornerstone of the Series 6 exam. These are entities that pool money from many investors and invest that capital in a diversified portfolio of securities. The Investment Company Act of 1940 is the primary federal law governing investment companies, and it defines three main types: face-amount certificate companies, unit investment trusts (UITs), and management companies. For the Series 6 exam, the majority of your focus will be on management companies, specifically open-end investment companies, commonly known as mutual funds.</p>
+
+          <p>The concept behind investment companies is straightforward: individual investors may lack the capital, expertise, or time to build a well-diversified portfolio on their own. By pooling money together, investment companies provide professional management, diversification, and economies of scale that would be difficult for individual investors to achieve independently.</p>
+
+          <h3>The Investment Company Act of 1940</h3>
+
+          <p>The Investment Company Act of 1940 is the foundational legislation that regulates the organization and activities of investment companies. Key provisions include requirements for registration with the SEC, restrictions on transactions between the fund and its affiliates, governance requirements (including independent board members), and restrictions on capital structure. Any company that issues securities and is primarily engaged in investing, reinvesting, or trading in securities must register under this act.</p>
+
+          <p>The act requires that at least 40% of the board of directors of an investment company be independent (not affiliated with the fund's investment adviser). In practice, most fund boards now have a majority of independent directors, which helps ensure that the interests of shareholders are protected.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Investment Company:</strong> An entity that pools capital from multiple investors and invests in a portfolio of securities. Governed by the Investment Company Act of 1940, investment companies must register with the SEC and adhere to strict governance, disclosure, and operational requirements.</p>
+            </div>
+          </div>
+
+          <h3>Three Types of Investment Companies</h3>
+
+          <p>The 1940 Act classifies investment companies into three categories:</p>
+
+          <ol>
+            <li><strong>Face-Amount Certificate Companies:</strong> These are the rarest type. They issue certificates that promise to pay investors a fixed sum (the face amount) at a specified future date. Investors pay either a lump sum or periodic installments. These are rarely issued today and are not a major focus of the Series 6 exam, but you should know they exist as one of the three types defined by the Act.</li>
+            <li><strong>Unit Investment Trusts (UITs):</strong> A UIT is a registered investment company that purchases a fixed portfolio of securities and holds them until a predetermined termination date. UITs do not have a board of directors or an investment adviser that actively manages the portfolio. Once the trust is established, the portfolio is generally not changed. UITs issue redeemable units (not shares) to investors. The fixed nature of the portfolio means UITs are considered passively managed.</li>
+            <li><strong>Management Companies:</strong> These are the most common type. Management companies employ an investment adviser who actively (or passively, in the case of index funds) manages a portfolio of securities. Management companies are further divided into two subtypes: open-end companies (mutual funds) and closed-end companies.</li>
+          </ol>
+        </section>
+
+        <!-- ====== SECTION 2: Open-End vs. Closed-End Funds ====== -->
+        <section class="lesson__section" id="open-end-vs-closed-end">
+          <h2>Open-End vs. Closed-End Funds</h2>
+
+          <p>The distinction between open-end and closed-end management companies is one of the most heavily tested concepts on the Series 6 exam. Understanding how each type issues and redeems shares, how pricing works, and the structural differences is essential.</p>
+
+          <h3>Open-End Funds (Mutual Funds)</h3>
+
+          <p>An open-end investment company, commonly called a <strong>mutual fund</strong>, continuously issues new shares to investors and redeems (buys back) shares from investors who wish to sell. There is no limit to the number of shares that can be outstanding. When you buy shares of a mutual fund, the fund creates new shares for you. When you sell (redeem) shares, the fund cancels those shares and pays you the current net asset value (NAV).</p>
+
+          <p>Key characteristics of open-end funds include:</p>
+
+          <ul>
+            <li><strong>Continuous offering:</strong> Shares are always available for purchase directly from the fund or through authorized dealers.</li>
+            <li><strong>Redeemable:</strong> Shareholders have the right to redeem their shares at NAV (plus or minus any applicable charges) at any time. The fund must redeem shares within seven calendar days of receiving a proper redemption request.</li>
+            <li><strong>Forward pricing:</strong> Shares are bought and sold at the next calculated NAV, not at intraday market prices. NAV is typically calculated once per day after market close (4:00 PM ET).</li>
+            <li><strong>No secondary market trading:</strong> Mutual fund shares do not trade on exchanges. All transactions occur directly with the fund company.</li>
+            <li><strong>Professional management:</strong> The fund employs an investment adviser that makes buy and sell decisions for the portfolio.</li>
+          </ul>
+
+          <h3>Closed-End Funds</h3>
+
+          <p>A closed-end investment company conducts an initial public offering (IPO) to raise capital, issues a fixed number of shares, and then those shares trade on an exchange (like the NYSE or Nasdaq) in the secondary market. Unlike mutual funds, closed-end funds do not continuously issue or redeem shares. If an investor wants to sell shares, they must sell them to another investor on the exchange, just like selling a stock.</p>
+
+          <p>Key characteristics of closed-end funds include:</p>
+
+          <ul>
+            <li><strong>Fixed capitalization:</strong> A set number of shares is issued at the IPO, and no new shares are created when investors buy.</li>
+            <li><strong>Exchange-traded:</strong> Shares trade throughout the day on stock exchanges at market prices that may differ from NAV.</li>
+            <li><strong>Premium or discount:</strong> Because shares trade on an exchange based on supply and demand, closed-end fund shares may trade at a premium (above NAV) or a discount (below NAV).</li>
+            <li><strong>No redemption:</strong> The fund does not buy back shares from investors. Liquidity comes from the secondary market.</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Feature</th>
+                  <th>Open-End (Mutual Fund)</th>
+                  <th>Closed-End Fund</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Share Issuance</td>
+                  <td class="compare-table__cell">Continuous; unlimited shares</td>
+                  <td class="compare-table__cell">Fixed at IPO</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">How Shares Are Bought</td>
+                  <td class="compare-table__cell">Directly from fund company</td>
+                  <td class="compare-table__cell">On an exchange from other investors</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Redemption</td>
+                  <td class="compare-table__cell">Fund must redeem at NAV within 7 days</td>
+                  <td class="compare-table__cell">No redemption; sell on exchange</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Pricing</td>
+                  <td class="compare-table__cell">Forward pricing at NAV</td>
+                  <td class="compare-table__cell">Market price (may differ from NAV)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Trading</td>
+                  <td class="compare-table__cell">End of day only</td>
+                  <td class="compare-table__cell">Intraday on exchanges</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Leverage Allowed</td>
+                  <td class="compare-table__cell">Generally no</td>
+                  <td class="compare-table__cell">Yes; may issue debt or preferred stock</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 6 exam focuses primarily on <strong>open-end funds (mutual funds)</strong>. Remember that the Series 6 license permits the sale of mutual funds, variable annuities, and variable life insurance, but NOT closed-end funds on the secondary market (that requires a Series 7). Know the distinctions between open-end and closed-end, but expect most questions to be about mutual fund mechanics.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Net Asset Value (NAV) ====== -->
+        <section class="lesson__section" id="net-asset-value">
+          <h2>Net Asset Value (NAV)</h2>
+
+          <p>The Net Asset Value (NAV) is the per-share value of a mutual fund and is the most important pricing concept for the Series 6 exam. NAV represents what each share of the fund is worth based on the market value of the fund's underlying portfolio, minus any liabilities.</p>
+
+          <h3>NAV Calculation</h3>
+
+          <p>The formula for NAV is straightforward:</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">NAV Formula</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>NAV = (Total Assets - Total Liabilities) / Number of Shares Outstanding</strong></p>
+              <p>Total Assets include the current market value of all securities in the portfolio, plus cash, plus any accrued income. Total Liabilities include any debts or expenses owed by the fund. The result is divided by the total number of shares currently outstanding.</p>
+            </div>
+          </div>
+
+          <p>For example, suppose a mutual fund holds securities with a total market value of $500 million, has $2 million in cash, and owes $2 million in liabilities. If the fund has 50 million shares outstanding, the NAV would be:</p>
+
+          <p><strong>NAV = ($500M + $2M - $2M) / 50M = $500M / 50M = $10.00 per share</strong></p>
+
+          <p>Mutual funds are required to calculate their NAV at least once per business day, typically at the close of trading on the NYSE (4:00 PM Eastern Time). The NAV reflects the closing prices of all securities in the fund's portfolio.</p>
+
+          <h3>Forward Pricing</h3>
+
+          <p><strong>Forward pricing</strong> is a fundamental rule for mutual fund transactions. It means that all purchases and redemptions of mutual fund shares are executed at the next calculated NAV after the order is received. If you place an order to buy mutual fund shares at 2:00 PM, you will receive shares at the NAV calculated at 4:00 PM that day. If you place an order at 5:00 PM (after the market closes), you will receive the next business day's NAV.</p>
+
+          <p>This rule is established under SEC Rule 22c-1 and is designed to ensure that all investors are treated fairly. Unlike stocks, which fluctuate in price throughout the day, mutual fund shares are always transacted at the next calculated NAV. There is no intraday trading of mutual fund shares.</p>
+
+          <h3>Public Offering Price (POP)</h3>
+
+          <p>While investors redeem shares at NAV, the price they pay to purchase shares may include a sales charge (also called a sales load). The price investors pay is called the <strong>Public Offering Price (POP)</strong>:</p>
+
+          <p><strong>POP = NAV + Sales Charge</strong></p>
+
+          <p>For no-load funds (funds without a front-end sales charge), the POP equals the NAV. For load funds, the sales charge is added to the NAV. The maximum sales charge allowed under FINRA rules is 8.5% of the POP, though most funds charge considerably less.</p>
+
+          <p>To calculate the sales charge percentage:</p>
+
+          <p><strong>Sales Charge % = (POP - NAV) / POP x 100</strong></p>
+
+          <p>Note that the sales charge percentage is always calculated as a percentage of the POP (not the NAV). This is an important distinction that appears frequently on the exam.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example Calculation</p>
+            </div>
+            <div class="callout__content">
+              <p>A mutual fund has a NAV of $20.00 and a POP of $21.25. What is the sales charge percentage?</p>
+              <p><strong>Sales Charge % = ($21.25 - $20.00) / $21.25 = $1.25 / $21.25 = 5.88%</strong></p>
+              <p>The investor pays $1.25 per share as a sales charge, which represents 5.88% of the POP.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Diversified vs. Non-Diversified ====== -->
+        <section class="lesson__section" id="diversified-vs-non-diversified">
+          <h2>Diversified vs. Non-Diversified Funds</h2>
+
+          <p>The Investment Company Act of 1940 establishes specific criteria that distinguish diversified and non-diversified management companies. This classification affects how concentrated a fund's portfolio can be and has direct implications for risk.</p>
+
+          <h3>Diversified Fund Requirements</h3>
+
+          <p>Under the 1940 Act, a diversified management company must meet the <strong>"75-5-10" test</strong> with respect to at least 75% of its total assets:</p>
+
+          <ul>
+            <li><strong>75%:</strong> At least 75% of the fund's total assets must be invested in securities of other issuers (not the fund's own securities or government securities).</li>
+            <li><strong>5%:</strong> Of this 75%, no more than 5% of the fund's total assets can be invested in the securities of any single issuer.</li>
+            <li><strong>10%:</strong> The fund cannot own more than 10% of the outstanding voting securities of any single issuer.</li>
+          </ul>
+
+          <p>The remaining 25% of the fund's assets are not subject to these restrictions. This means a diversified fund could theoretically invest up to 25% of its assets in a single company, though this would be unusual in practice.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Common Exam Trap</p>
+            </div>
+            <div class="callout__content">
+              <p>The 75-5-10 rule applies to only 75% of the fund's total assets, not 100%. Many exam questions try to trick you by suggesting that the 5% and 10% limits apply to the entire portfolio. They do not. The other 25% is unrestricted.</p>
+            </div>
+          </div>
+
+          <h3>Non-Diversified Funds</h3>
+
+          <p>A non-diversified fund is any management company that does not meet the 75-5-10 test. Non-diversified funds have greater flexibility to concentrate their holdings in fewer issuers or sectors. While this can lead to higher returns if the concentrated positions perform well, it also means significantly higher risk. Sector funds (funds that invest exclusively in one industry, such as technology or healthcare) are often non-diversified.</p>
+
+          <p>If a fund classifies itself as diversified, it must receive shareholder approval to change to non-diversified status. This protects investors who chose the fund based on its diversified classification.</p>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Subchapter M and Tax Treatment of Investment Companies
+            </summary>
+            <div class="deep-dive__content">
+              <p>Investment companies that qualify as "regulated investment companies" (RICs) under Subchapter M of the Internal Revenue Code receive favorable tax treatment. To qualify, a fund must distribute at least 90% of its net investment income to shareholders and meet certain diversification and income source requirements. The key benefit is that the fund avoids double taxation: the fund itself is not taxed on the income and gains it distributes to shareholders. Instead, shareholders pay taxes on the distributions they receive.</p>
+
+              <p>If a fund fails to meet Subchapter M requirements, it would be taxed as a regular corporation, and distributions to shareholders would also be taxed, resulting in double taxation. This is why virtually all mutual funds comply with Subchapter M requirements.</p>
+
+              <p>The income source requirement states that at least 90% of the fund's gross income must come from dividends, interest, and gains from the sale of securities. The diversification requirement under Subchapter M (which is separate from the 1940 Act diversification rules) requires that at the end of each fiscal quarter, at least 50% of the fund's assets must consist of cash, U.S. government securities, and securities of other RICs, with no single issuer representing more than 5% of total assets. Additionally, no more than 25% of the fund's assets can be invested in any one issuer.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== SECTION 5: Share Classes ====== -->
+        <section class="lesson__section" id="share-classes">
+          <h2>Share Classes</h2>
+
+          <p>One of the most important and frequently tested topics on the Series 6 exam is the different share classes available for mutual funds. Share classes represent different ways that investors pay for the costs of owning a mutual fund, particularly the sales charges and ongoing distribution fees. The most common share classes are Class A, Class B, and Class C shares.</p>
+
+          <h3>Class A Shares</h3>
+
+          <p>Class A shares charge a <strong>front-end sales load</strong>, which means the sales charge is deducted from the investor's initial purchase amount. For example, if an investor puts $10,000 into a Class A share fund with a 5% front-end load, $500 goes to the sales charge and $9,500 is actually invested in the fund.</p>
+
+          <p>Key features of Class A shares:</p>
+
+          <ul>
+            <li><strong>Front-end load:</strong> Paid at the time of purchase, reducing the amount invested.</li>
+            <li><strong>Lower 12b-1 fees:</strong> Class A shares typically have lower annual distribution fees (12b-1 fees), often around 0.25%, compared to Class B or C shares.</li>
+            <li><strong>Breakpoint discounts:</strong> Investors who purchase larger amounts receive reduced sales charges at specified breakpoint levels.</li>
+            <li><strong>Best for long-term, larger investments:</strong> Because of the lower ongoing expenses and breakpoint availability, Class A shares often have the lowest total cost for investors making larger investments and holding for the long term.</li>
+          </ul>
+
+          <h3>Class B Shares</h3>
+
+          <p>Class B shares charge a <strong>back-end sales load</strong>, also known as a Contingent Deferred Sales Charge (CDSC). No sales charge is deducted at the time of purchase, so the full investment amount goes to work immediately. However, if the investor redeems shares within a specified period (typically 6-8 years), a declining sales charge is assessed on the amount redeemed.</p>
+
+          <p>Key features of Class B shares:</p>
+
+          <ul>
+            <li><strong>Back-end load (CDSC):</strong> Charged upon redemption, typically declining over time (e.g., 5% in year 1, 4% in year 2, down to 0% after year 6-8).</li>
+            <li><strong>Higher 12b-1 fees:</strong> Typically 0.75% to 1.00% annually, which increases the fund's expense ratio.</li>
+            <li><strong>Automatic conversion:</strong> Class B shares typically convert to Class A shares after the CDSC schedule expires (usually 6-8 years), reducing ongoing expenses.</li>
+            <li><strong>No breakpoints:</strong> Breakpoint discounts are not available for Class B shares.</li>
+            <li><strong>FINRA restrictions:</strong> FINRA has limited the sale of Class B shares in recent years, and many fund families have discontinued them.</li>
+          </ul>
+
+          <h3>Class C Shares</h3>
+
+          <p>Class C shares are sometimes called <strong>"level-load"</strong> shares because they charge a relatively constant annual fee rather than a large upfront or back-end charge. They typically have a small CDSC (often 1%) that applies only if shares are redeemed within the first year.</p>
+
+          <p>Key features of Class C shares:</p>
+
+          <ul>
+            <li><strong>Level load:</strong> Small or no front-end load, with a small CDSC (usually 1% if redeemed within 1 year).</li>
+            <li><strong>Higher 12b-1 fees:</strong> Similar to Class B at 0.75% to 1.00%, but these fees continue indefinitely because Class C shares do not convert to Class A.</li>
+            <li><strong>No conversion:</strong> Unlike Class B, Class C shares do not convert to Class A, so the higher ongoing expenses persist.</li>
+            <li><strong>No breakpoints:</strong> Breakpoint discounts are not available.</li>
+            <li><strong>Best for shorter holding periods:</strong> Investors who plan to hold for 1-3 years may find Class C shares advantageous because they avoid a large front-end load.</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Feature</th>
+                  <th>Class A</th>
+                  <th>Class B</th>
+                  <th>Class C</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Sales Charge Timing</td>
+                  <td class="compare-table__cell">Front-end (at purchase)</td>
+                  <td class="compare-table__cell">Back-end (at redemption)</td>
+                  <td class="compare-table__cell">Level (ongoing)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">12b-1 Fees</td>
+                  <td class="compare-table__cell">Low (~0.25%)</td>
+                  <td class="compare-table__cell">High (~0.75-1.00%)</td>
+                  <td class="compare-table__cell">High (~0.75-1.00%)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Breakpoints</td>
+                  <td class="compare-table__cell">Yes</td>
+                  <td class="compare-table__cell">No</td>
+                  <td class="compare-table__cell">No</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Conversion</td>
+                  <td class="compare-table__cell">N/A</td>
+                  <td class="compare-table__cell">Converts to A after CDSC period</td>
+                  <td class="compare-table__cell">No conversion</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Best For</td>
+                  <td class="compare-table__cell">Large, long-term investments</td>
+                  <td class="compare-table__cell">Smaller investments held long-term</td>
+                  <td class="compare-table__cell">Short to mid-term holding periods</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>On the Series 6 exam, you may be asked which share class is most suitable for a customer based on their investment amount and time horizon. Remember: <strong>Class A</strong> is generally best for large investments held long-term (due to breakpoints and lower ongoing costs). <strong>Class C</strong> is typically best for shorter-term investors. <strong>Class B</strong> shares are rarely recommended today. Selling Class B shares when Class A breakpoints would result in lower costs is a suitability violation known as a "breakpoint sale."</p>
+            </div>
+          </div>
+
+          <h3>12b-1 Fees</h3>
+
+          <p>Named after SEC Rule 12b-1, these are annual fees that mutual funds charge to cover distribution and marketing costs. They are deducted from fund assets, which reduces the NAV and, consequently, investor returns. FINRA limits 12b-1 fees to a maximum of <strong>0.75% for distribution fees</strong> plus an additional <strong>0.25% for service fees</strong>, for a total maximum of 1.00%. A fund that charges more than 0.25% in 12b-1 fees cannot call itself a "no-load" fund.</p>
+
+          <h3>Expense Ratio</h3>
+
+          <p>The <strong>expense ratio</strong> represents the total annual cost of owning a mutual fund, expressed as a percentage of the fund's average net assets. It includes the management fee (paid to the investment adviser), 12b-1 fees, administrative costs, and other operating expenses. The expense ratio does NOT include sales loads or brokerage commissions on portfolio trades. Investors should compare expense ratios across similar funds because even small differences can significantly impact long-term returns.</p>
+        </section>
+
+        <!-- ====== SECTION 6: Other Investment Company Structures ====== -->
+        <section class="lesson__section" id="other-structures">
+          <h2>Other Investment Company Structures</h2>
+
+          <h3>Exchange-Traded Funds (ETFs)</h3>
+
+          <p>While ETFs are technically registered as open-end funds or UITs, they have unique characteristics that differentiate them from traditional mutual funds. ETFs trade on exchanges throughout the day like stocks, offer intraday pricing, and typically have lower expense ratios than actively managed mutual funds. Most ETFs track an index (passive management). While Series 6 representatives primarily sell mutual funds, understanding ETFs is important for recommending suitable investments.</p>
+
+          <h3>Money Market Funds</h3>
+
+          <p>Money market funds are a special type of open-end mutual fund that invests in short-term, high-quality debt instruments such as Treasury bills, commercial paper, and certificates of deposit. They aim to maintain a stable NAV of $1.00 per share (though this is not guaranteed). Money market funds provide liquidity and safety of principal but typically offer lower returns than other types of mutual funds. They are subject to SEC Rule 2a-7, which imposes strict requirements on portfolio quality, maturity, and diversification.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Important Distinction</p>
+            </div>
+            <div class="callout__content">
+              <p>Money market <strong>funds</strong> are NOT the same as bank money market <strong>accounts</strong>. Money market funds are securities products that are NOT insured by the FDIC. Bank money market accounts are deposit products that ARE insured by the FDIC up to $250,000. This distinction is frequently tested on the Series 6 exam.</p>
+            </div>
+          </div>
+
+          <h3>Fund of Funds</h3>
+
+          <p>A fund of funds is a mutual fund that invests in other mutual funds rather than directly in stocks or bonds. Target-date retirement funds are a common example: they hold a mix of stock and bond funds, gradually shifting to a more conservative allocation as the target retirement date approaches. Fund of funds provide automatic diversification and asset allocation, but investors should be aware that they may involve multiple layers of fees.</p>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of investment companies. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. A mutual fund has total assets of $200 million, total liabilities of $4 million, and 10 million shares outstanding. What is the fund's NAV per share?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $20.00</button>
+              <button class="answer-btn" data-correct="true">B) $19.60</button>
+              <button class="answer-btn" data-correct="false">C) $20.40</button>
+              <button class="answer-btn" data-correct="false">D) $19.00</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              NAV = (Total Assets - Total Liabilities) / Shares Outstanding = ($200M - $4M) / 10M = $196M / 10M = $19.60 per share. Always remember to subtract liabilities before dividing by shares outstanding.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Which type of investment company issues a fixed number of shares through an IPO and then trades on an exchange?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Open-end fund</button>
+              <button class="answer-btn" data-correct="true">B) Closed-end fund</button>
+              <button class="answer-btn" data-correct="false">C) Unit investment trust</button>
+              <button class="answer-btn" data-correct="false">D) Face-amount certificate company</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Closed-end funds issue a fixed number of shares through an IPO, and those shares then trade on exchanges in the secondary market. Open-end funds continuously issue and redeem shares. UITs issue redeemable units but are not traded on exchanges.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Under the 75-5-10 rule for diversified funds, the 5% limitation applies to what percentage of the fund's total assets?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 100%</button>
+              <button class="answer-btn" data-correct="true">B) 75%</button>
+              <button class="answer-btn" data-correct="false">C) 50%</button>
+              <button class="answer-btn" data-correct="false">D) 25%</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The 75-5-10 rule states that with respect to at least 75% of the fund's total assets, no more than 5% can be invested in any single issuer and no more than 10% of any issuer's voting securities can be owned. The remaining 25% is unrestricted.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which share class typically has the lowest total cost for an investor making a $100,000 investment and holding for 10 years?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Class A shares</button>
+              <button class="answer-btn" data-correct="false">B) Class B shares</button>
+              <button class="answer-btn" data-correct="false">C) Class C shares</button>
+              <button class="answer-btn" data-correct="false">D) All share classes have the same total cost</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              For large, long-term investments, Class A shares typically have the lowest total cost because of breakpoint discounts on the front-end load and lower ongoing 12b-1 fees (around 0.25% vs. 0.75-1.00% for B and C shares). Over 10 years, the lower annual expenses of Class A significantly outweigh the initial front-end load.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Forward pricing means that mutual fund transactions are executed at:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) The NAV at the time the order is placed</button>
+              <button class="answer-btn" data-correct="true">B) The next calculated NAV after the order is received</button>
+              <button class="answer-btn" data-correct="false">C) The previous day's closing NAV</button>
+              <button class="answer-btn" data-correct="false">D) A negotiated price between buyer and seller</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Forward pricing (SEC Rule 22c-1) requires that all mutual fund purchases and redemptions be executed at the next calculated NAV after the order is received. NAV is typically calculated once per day at the close of NYSE trading (4:00 PM ET). This ensures fair treatment for all investors.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="mutual-fund-features.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 2 — Mutual Fund Features &amp; Pricing</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

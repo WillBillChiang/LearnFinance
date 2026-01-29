@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series79-q001",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "In an initial public offering (IPO), the lead underwriter's primary role is to:",
+    "choices": ["A. Set the final market price after listing", "B. Manage the offering process including due diligence, structuring, pricing, and distribution", "C. Guarantee a specific return to investors", "D. Approve the offering on behalf of the SEC"],
+    "correct": 1,
+    "explanation": "The lead underwriter (bookrunner) manages all aspects of the IPO process including conducting due diligence, preparing the registration statement, structuring the offering, building the book, pricing the shares, and coordinating distribution. The lead underwriter assumes the greatest responsibility and risk in the syndicate."
+  },
+  {
+    "id": "series79-q002",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "During the cooling-off period of a securities offering, the underwriter may:",
+    "choices": ["A. Sell securities to the public", "B. Distribute the preliminary prospectus (red herring) to gauge investor interest", "C. Guarantee the offering price", "D. Begin trading the security on a stock exchange"],
+    "correct": 1,
+    "explanation": "During the cooling-off period (between filing the registration statement and its effective date), the underwriter may distribute the preliminary prospectus (red herring) and accept indications of interest. No binding sales or offers to sell may occur. This period allows investors to review the offering materials."
+  },
+  {
+    "id": "series79-q003",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "The discounted cash flow (DCF) method values a company based on:",
+    "choices": ["A. Its current stock price times the number of shares outstanding", "B. The present value of its expected future free cash flows", "C. The book value of its assets minus liabilities", "D. A multiple of its revenue"],
+    "correct": 1,
+    "explanation": "The DCF method values a company by projecting its future free cash flows and discounting them back to present value using an appropriate discount rate (typically the weighted average cost of capital - WACC). This intrinsic valuation method captures the time value of money and the company's growth potential."
+  },
+  {
+    "id": "series79-q004",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "Enterprise value (EV) is calculated as:",
+    "choices": ["A. Market capitalization only", "B. Market capitalization plus total debt minus cash and cash equivalents", "C. Total assets minus total liabilities", "D. Revenue times industry average P/E ratio"],
+    "correct": 1,
+    "explanation": "Enterprise value represents the total value of a business to all capital providers. It is calculated as market capitalization (equity value) plus total debt (including preferred stock and minority interest) minus cash and cash equivalents. EV is used in ratios like EV/EBITDA for company comparisons."
+  },
+  {
+    "id": "series79-q005",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "In an M&A transaction, a fairness opinion is:",
+    "choices": ["A. A legal opinion that the transaction complies with antitrust law", "B. An opinion from a financial advisor that the consideration offered is fair from a financial point of view", "C. A guarantee that the transaction will be profitable", "D. An SEC approval of the merger terms"],
+    "correct": 1,
+    "explanation": "A fairness opinion is provided by an independent financial advisor to the board of directors, stating that the consideration offered in a transaction is fair from a financial point of view to the shareholders. It does not guarantee the price is the best possible, only that it falls within a range of fairness. Boards often rely on fairness opinions for fiduciary duty protection."
+  },
+  {
+    "id": "series79-q006",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "A tender offer is a public offer to purchase shares directly from shareholders. It must remain open for at least:",
+    "choices": ["A. 5 business days", "B. 10 business days", "C. 20 business days", "D. 30 business days"],
+    "correct": 2,
+    "explanation": "Under SEC Rule 14e-1, a tender offer must remain open for at least 20 business days. If the terms of the tender offer change (such as price or percentage sought), the offer must remain open for at least 10 business days from the date of the change. Shareholders also have withdrawal rights during this period."
+  },
+  {
+    "id": "series79-q007",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "Comparable company analysis (trading comps) involves:",
+    "choices": ["A. Valuing a company based solely on its book value", "B. Comparing a company's valuation multiples to those of similar publicly traded companies", "C. Projecting the company's cash flows for the next 30 years", "D. Using the company's historical stock price to determine value"],
+    "correct": 1,
+    "explanation": "Comparable company analysis involves identifying similar publicly traded companies and comparing their valuation multiples (such as P/E, EV/EBITDA, EV/Revenue) to derive an implied valuation for the target company. This market-based approach reflects current market conditions and investor sentiment."
+  },
+  {
+    "id": "series79-q008",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "A green shoe option (overallotment option) allows the underwriter to:",
+    "choices": ["A. Cancel the offering if demand is insufficient", "B. Purchase additional shares (typically up to 15% of the offering) to cover overallotments", "C. Set the price below the filing range", "D. Delay the offering indefinitely"],
+    "correct": 1,
+    "explanation": "A green shoe (overallotment) option allows the underwriter to purchase additional shares from the issuer (typically up to 15% of the original offering size) to cover overallotments and stabilize the stock price in the aftermarket. This mechanism helps support the offering price during the initial trading period."
+  },
+  {
+    "id": "series79-q009",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "In a leveraged buyout (LBO), the acquisition is primarily financed through:",
+    "choices": ["A. Issuing new equity to public shareholders", "B. Significant amounts of debt using the target's assets and cash flows as collateral", "C. Government grants and subsidies", "D. The acquirer's existing cash reserves only"],
+    "correct": 1,
+    "explanation": "In a leveraged buyout, the acquisition is financed primarily through debt, typically using the target company's assets and future cash flows as collateral. The acquirer (often a private equity firm) uses a relatively small amount of equity and substantial borrowed funds, with the goal of generating returns through operational improvements and eventual exit."
+  },
+  {
+    "id": "series79-q010",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "WACC (Weighted Average Cost of Capital) is used in DCF analysis to:",
+    "choices": ["A. Calculate the company's revenue growth rate", "B. Discount projected free cash flows to their present value", "C. Determine the company's credit rating", "D. Set the offering price in an IPO"],
+    "correct": 1,
+    "explanation": "WACC represents the blended cost of a company's debt and equity financing, weighted by their respective proportions in the capital structure. It serves as the discount rate in DCF analysis to convert projected future free cash flows to present value. WACC reflects the minimum return required by all capital providers."
+  },
+  {
+    "id": "series79-q011",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "A shelf registration (SEC Rule 415) allows an issuer to:",
+    "choices": ["A. Avoid SEC registration entirely", "B. Register securities in advance and sell them in portions over a period of up to three years", "C. Issue securities only to institutional investors", "D. Register securities after they have been sold"],
+    "correct": 1,
+    "explanation": "A shelf registration under SEC Rule 415 allows well-known seasoned issuers (WKSIs) and other eligible issuers to register a large amount of securities in advance and then sell them in portions over time (up to three years) as market conditions are favorable. This provides flexibility and reduces issuance costs."
+  },
+  {
+    "id": "series79-q012",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "The Hart-Scott-Rodino (HSR) Act requires:",
+    "choices": ["A. Shareholder approval for all mergers", "B. Pre-merger notification to the FTC and DOJ for transactions exceeding certain thresholds", "C. SEC approval of all acquisition prices", "D. That all M&A transactions be structured as stock-for-stock deals"],
+    "correct": 1,
+    "explanation": "The Hart-Scott-Rodino Antitrust Improvements Act requires parties to certain mergers and acquisitions to file pre-merger notification with the Federal Trade Commission (FTC) and Department of Justice (DOJ) before completing the transaction. This allows regulators to review the transaction for potential antitrust concerns."
+  },
+  {
+    "id": "series79-q013",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "Precedent transaction analysis (deal comps) differs from comparable company analysis in that it uses:",
+    "choices": ["A. Only public market trading data", "B. Valuation multiples from completed M&A transactions involving similar companies", "C. Only discounted cash flow methodology", "D. Book value comparisons only"],
+    "correct": 1,
+    "explanation": "Precedent transaction analysis examines valuation multiples paid in previous M&A transactions involving similar companies. Unlike trading comps (which use current market data), deal comps incorporate control premiums paid by acquirers. This methodology reflects what buyers have actually been willing to pay, including synergy value."
+  },
+  {
+    "id": "series79-q014",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "During the book-building process for an IPO, the investment bank:",
+    "choices": ["A. Sets a fixed price that cannot change", "B. Gauges investor demand by collecting indications of interest at various prices within a filing range", "C. Sells shares only to retail investors", "D. Guarantees a minimum number of shares to each investor"],
+    "correct": 1,
+    "explanation": "Book-building involves the lead underwriter conducting a road show and collecting indications of interest from institutional investors at various price points within the preliminary filing range. This demand information helps determine the final offering price and allocation of shares."
+  },
+  {
+    "id": "series79-q015",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "An accretive acquisition is one where:",
+    "choices": ["A. The acquirer's stock price immediately drops after announcement", "B. The acquirer's earnings per share increases as a result of the acquisition", "C. The target company's revenue decreases", "D. The combined entity has lower revenue than the acquirer alone"],
+    "correct": 1,
+    "explanation": "An accretive acquisition increases the acquirer's earnings per share (EPS) after the transaction closes. This occurs when the earnings added by the target exceed the cost of financing the acquisition (whether through debt interest or dilution from new shares). Accretion/dilution analysis is a key metric in evaluating proposed M&A transactions."
+  },
+  {
+    "id": "series79-q016",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "The terminal value in a DCF model represents:",
+    "choices": ["A. The value of the company at the end of the explicit forecast period, capturing all future cash flows beyond that point", "B. The company's liquidation value", "C. The initial investment amount", "D. The company's current market capitalization"],
+    "correct": 0,
+    "explanation": "Terminal value captures the value of all cash flows beyond the explicit forecast period (typically 5-10 years). It is usually calculated using either the perpetuity growth method (Gordon Growth Model) or the exit multiple method. Terminal value typically represents a significant portion (often 60-80%) of the total enterprise value in a DCF analysis."
+  },
+  {
+    "id": "series79-q017",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "A reverse merger allows a private company to:",
+    "choices": ["A. Acquire a larger public company", "B. Become publicly traded by merging with an existing public shell company", "C. Avoid all SEC regulations permanently", "D. Convert all debt to equity"],
+    "correct": 1,
+    "explanation": "A reverse merger is a transaction where a private company merges with or acquires an existing publicly traded shell company, thereby becoming publicly traded without going through a traditional IPO process. This can be faster and less expensive than an IPO, though the company must still meet ongoing SEC reporting requirements."
+  },
+  {
+    "id": "series79-q018",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "Regulation M prohibits an underwriter from:",
+    "choices": ["A. Marketing the offering during the road show", "B. Engaging in manipulative trading activities that could artificially influence the price of the offered security", "C. Conducting due diligence on the issuer", "D. Forming a syndicate for the offering"],
+    "correct": 1,
+    "explanation": "SEC Regulation M prohibits underwriters, issuers, and other distribution participants from engaging in bids or purchases that could artificially influence the market price of a security during a distribution. This prevents manipulation and protects investors. Limited exceptions exist for stabilization transactions conducted in accordance with the rules."
+  },
+  {
+    "id": "series79-q019",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "In an M&A transaction, the concept of synergies refers to:",
+    "choices": ["A. The legal costs of the transaction", "B. The additional value created by combining two companies that exceeds their standalone values", "C. The premium paid to target shareholders", "D. The underwriting spread on the deal"],
+    "correct": 1,
+    "explanation": "Synergies represent the additional value created when two companies combine, where the combined entity is worth more than the sum of the two standalone companies. Synergies can be cost synergies (eliminating redundancies, economies of scale) or revenue synergies (cross-selling, expanded market reach). Quantifying synergies is crucial in justifying acquisition premiums."
+  },
+  {
+    "id": "series79-q020",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "The EV/EBITDA multiple is preferred over the P/E ratio in many valuation analyses because:",
+    "choices": ["A. It is always lower than P/E", "B. It is capital structure neutral and not affected by differences in depreciation policies", "C. It is mandated by the SEC", "D. It is easier to calculate"],
+    "correct": 1,
+    "explanation": "EV/EBITDA is preferred because it is capital structure neutral (not affected by differences in debt levels) and eliminates differences in depreciation and amortization policies. This makes it more useful for comparing companies with different capital structures, tax situations, and asset bases. P/E is affected by capital structure, taxes, and depreciation."
+  },
+  {
+    "id": "series79-q021",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "A comfort letter in a securities offering is provided by:",
+    "choices": ["A. The issuer's board of directors", "B. The issuer's independent auditor to the underwriter", "C. The SEC to the issuer", "D. The lead underwriter to investors"],
+    "correct": 1,
+    "explanation": "A comfort letter is provided by the issuer's independent auditor to the underwriter. It confirms that the financial statements in the registration statement are accurate and that no material adverse changes have occurred since the latest audit date. This supports the underwriter's due diligence defense under Section 11 of the Securities Act."
+  },
+  {
+    "id": "series79-q022",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "A poison pill (shareholder rights plan) is a defense mechanism that:",
+    "choices": ["A. Guarantees shareholders a minimum price for their shares", "B. Dilutes a hostile acquirer's ownership by allowing existing shareholders to purchase additional shares at a discount", "C. Prevents any shareholder from selling their shares", "D. Requires regulatory approval for all stock trades"],
+    "correct": 1,
+    "explanation": "A poison pill allows existing shareholders (other than the hostile acquirer) to purchase additional shares at a substantial discount if any entity acquires a specified percentage of the company's stock. This massively dilutes the acquirer's ownership position, making the hostile takeover prohibitively expensive."
+  },
+  {
+    "id": "series79-q023",
+    "topic": "series79-t2",
+    "topicName": "Valuation Methods",
+    "question": "Free cash flow to the firm (FCFF) is calculated as:",
+    "choices": ["A. Net income plus depreciation", "B. EBIT(1-tax rate) + Depreciation - Capital expenditures - Changes in working capital", "C. Revenue minus cost of goods sold", "D. Operating income minus interest expense"],
+    "correct": 1,
+    "explanation": "Free Cash Flow to the Firm (FCFF) = EBIT(1-tax rate) + Depreciation & Amortization - Capital Expenditures - Changes in Net Working Capital. FCFF represents the cash flow available to all capital providers (both debt and equity holders) after funding operations and investments. It is the cash flow used in an unlevered DCF."
+  },
+  {
+    "id": "series79-q024",
+    "topic": "series79-t1",
+    "topicName": "Investment Banking Process",
+    "question": "A PIPE (Private Investment in Public Equity) transaction involves:",
+    "choices": ["A. An IPO for a private company", "B. A private placement of securities by a publicly traded company to selected investors", "C. A public offering at a premium to market price", "D. A stock buyback program"],
+    "correct": 1,
+    "explanation": "A PIPE transaction involves a publicly traded company issuing securities privately to a select group of accredited or institutional investors. PIPEs are typically executed quickly and at a discount to the current market price. They provide a faster and more cost-effective capital-raising alternative to public offerings."
+  },
+  {
+    "id": "series79-q025",
+    "topic": "series79-t3",
+    "topicName": "Mergers and Acquisitions",
+    "question": "In a stock-for-stock merger, the exchange ratio is determined by:",
+    "choices": ["A. Dividing the target's earnings by the acquirer's earnings", "B. Dividing the offer price per target share by the acquirer's stock price", "C. Multiplying the number of shares of both companies", "D. The SEC setting the exchange ratio"],
+    "correct": 1,
+    "explanation": "The exchange ratio in a stock-for-stock merger is calculated by dividing the agreed offer price per target share by the acquirer's current stock price. For example, if the offer price is $50 and the acquirer's stock trades at $100, the exchange ratio is 0.5 (each target share receives 0.5 acquirer shares). The ratio may be fixed or floating depending on the merger agreement."
+  }
+]

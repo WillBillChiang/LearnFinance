@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series65-fc001",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Regulation",
+    "front": "What defines an investment adviser under federal and state law?",
+    "back": "An investment adviser is any person who, for compensation, engages in the business of advising others about the value of securities or the advisability of investing in securities. The three-prong test requires: (1) providing advice about securities, (2) being in the business of providing such advice, and (3) receiving compensation for the advice."
+  },
+  {
+    "id": "series65-fc002",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Regulation",
+    "front": "What is the difference between federal and state registration for investment advisers?",
+    "back": "Investment advisers with $100 million or more in assets under management (AUM) must register with the SEC. Advisers with less than $100 million AUM generally register with the state(s) where they have a place of business. Advisers between $100-110 million may register with either. This division is established by the Investment Advisers Act of 1940 as amended."
+  },
+  {
+    "id": "series65-fc003",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Regulation",
+    "front": "Who is excluded from the definition of investment adviser?",
+    "back": "Exclusions include banks, bank holding companies, lawyers, accountants, engineers, and teachers whose advisory services are incidental to their profession. Broker-dealers whose advisory services are incidental to their brokerage business and who receive no special compensation are also excluded. Publishers of bona fide newspapers and general-circulation publications are excluded as well."
+  },
+  {
+    "id": "series65-fc004",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What is fiduciary duty for investment advisers?",
+    "back": "Fiduciary duty requires investment advisers to act in the best interest of their clients at all times. This includes the duty of loyalty (putting client interests first), duty of care (providing competent and diligent advice), and the obligation to disclose all material conflicts of interest. Fiduciary duty is the highest legal standard of care."
+  },
+  {
+    "id": "series65-fc005",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What is the brochure rule (Form ADV Part 2)?",
+    "back": "The brochure rule requires investment advisers to deliver a written disclosure document (Form ADV Part 2A) to clients at or before entering into an advisory contract. The brochure must describe the adviser's business practices, fees, conflicts of interest, disciplinary history, and educational background. An annual summary of material changes must be offered to existing clients."
+  },
+  {
+    "id": "series65-fc006",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What is Form ADV?",
+    "back": "Form ADV is the registration document for investment advisers filed with the SEC or state regulators. Part 1 contains information about the adviser's business, ownership, clients, and disciplinary history (used by regulators). Part 2A is the brochure delivered to clients. Part 2B contains brochure supplements with information about specific advisory personnel."
+  },
+  {
+    "id": "series65-fc007",
+    "topic": "series65-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What are the disclosure requirements for conflicts of interest?",
+    "back": "Investment advisers must disclose all material conflicts of interest to clients, including agency cross transactions, principal transactions, referral fee arrangements, ownership interests in recommended securities, and relationships with broker-dealers. Full disclosure must be made before or at the time of the transaction, and client consent may be required for certain conflicts."
+  },
+  {
+    "id": "series65-fc008",
+    "topic": "series65-t3",
+    "topicName": "Advisory Contracts and Fees",
+    "front": "What are acceptable fee arrangements for investment advisers?",
+    "back": "Common fee arrangements include asset-based fees (percentage of AUM), hourly fees, fixed fees, and performance-based fees (with restrictions). Performance-based fees are generally only permitted for qualified clients with at least $1.1 million under management or a net worth exceeding $2.2 million. Advisers must disclose all fees clearly in writing."
+  },
+  {
+    "id": "series65-fc009",
+    "topic": "series65-t3",
+    "topicName": "Advisory Contracts and Fees",
+    "front": "What requirements apply to investment advisory contracts?",
+    "back": "Advisory contracts must be in writing, describe the services provided and the compensation, specify the contract's duration and termination provisions, and include a prohibition on assignment without client consent. No advisory contract may provide for compensation based on capital gains unless the client is a qualified client."
+  },
+  {
+    "id": "series65-fc010",
+    "topic": "series65-t3",
+    "topicName": "Advisory Contracts and Fees",
+    "front": "What is the prohibition on assignment of advisory contracts?",
+    "back": "Investment advisers cannot assign their advisory contracts to another adviser without the client's consent. Assignment includes any transfer of the contract and any change in a majority of the partnership's membership (for partnership advisers). This rule protects clients' right to choose who manages their money and ensures continuity of the advisory relationship."
+  },
+  {
+    "id": "series65-fc011",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is Modern Portfolio Theory (MPT)?",
+    "back": "Modern Portfolio Theory, developed by Harry Markowitz, is a framework for constructing portfolios that maximize expected return for a given level of risk through diversification. MPT demonstrates that portfolio risk can be reduced by combining assets with low or negative correlations. The efficient frontier represents the set of portfolios offering the highest return for each risk level."
+  },
+  {
+    "id": "series65-fc012",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is the Capital Asset Pricing Model (CAPM)?",
+    "back": "CAPM describes the relationship between systematic risk and expected return for assets. The formula is: Expected Return = Risk-Free Rate + Beta x (Market Return - Risk-Free Rate). It asserts that the only risk rewarded by the market is systematic (non-diversifiable) risk, measured by beta. CAPM is used to determine the required rate of return for an investment."
+  },
+  {
+    "id": "series65-fc013",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is beta in investment analysis?",
+    "back": "Beta measures a security's sensitivity to market movements (systematic risk). A beta of 1.0 means the security moves in line with the market. A beta greater than 1.0 indicates higher volatility than the market, while a beta less than 1.0 indicates lower volatility. Beta is used in the CAPM to calculate expected return and assess portfolio risk."
+  },
+  {
+    "id": "series65-fc014",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is alpha in portfolio management?",
+    "back": "Alpha measures a portfolio's risk-adjusted excess return compared to a benchmark. A positive alpha indicates the portfolio outperformed its expected return based on its risk level (beta), while a negative alpha indicates underperformance. Alpha is used to evaluate a portfolio manager's skill in generating returns beyond what is explained by market movements."
+  },
+  {
+    "id": "series65-fc015",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is the Sharpe ratio?",
+    "back": "The Sharpe ratio measures risk-adjusted return by calculating the excess return per unit of total risk (standard deviation). The formula is: (Portfolio Return - Risk-Free Rate) / Standard Deviation. A higher Sharpe ratio indicates better risk-adjusted performance. It uses total risk (not just systematic risk), making it useful for evaluating undiversified portfolios."
+  },
+  {
+    "id": "series65-fc016",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is the difference between systematic and unsystematic risk?",
+    "back": "Systematic risk (market risk) affects the entire market and cannot be eliminated through diversification; it includes interest rate, inflation, and political risks. Unsystematic risk (company-specific risk) is unique to a particular company or industry and can be reduced through diversification. Total risk equals systematic plus unsystematic risk."
+  },
+  {
+    "id": "series65-fc017",
+    "topic": "series65-t5",
+    "topicName": "Economics and Analysis",
+    "front": "What are the phases of the business cycle?",
+    "back": "The business cycle consists of four phases: expansion (rising GDP, employment, and consumer spending), peak (maximum economic output before decline), contraction/recession (declining GDP for two consecutive quarters, rising unemployment), and trough (lowest point before recovery begins). Understanding the cycle helps advisers make appropriate investment recommendations."
+  },
+  {
+    "id": "series65-fc018",
+    "topic": "series65-t5",
+    "topicName": "Economics and Analysis",
+    "front": "What is the yield curve and what does its shape indicate?",
+    "back": "The yield curve plots interest rates of bonds with equal credit quality across different maturities. A normal (upward-sloping) curve indicates longer maturities have higher yields. An inverted curve (short-term rates exceed long-term rates) is often a predictor of recession. A flat curve suggests economic uncertainty and may precede a transition in monetary policy."
+  },
+  {
+    "id": "series65-fc019",
+    "topic": "series65-t5",
+    "topicName": "Economics and Analysis",
+    "front": "What is the Federal Reserve's dual mandate?",
+    "back": "The Federal Reserve has a dual mandate to promote maximum employment and stable prices (low inflation). To achieve these goals, the Fed uses monetary policy tools including setting the federal funds rate target, conducting open market operations, adjusting the discount rate, and paying interest on reserve balances (IORB). Note: Reserve requirements were reduced to zero in March 2020 and are no longer actively used. Balancing these two objectives requires the Fed to manage trade-offs between economic growth and inflation."
+  },
+  {
+    "id": "series65-fc020",
+    "topic": "series65-t6",
+    "topicName": "Investment Vehicles and Strategies",
+    "front": "What is asset allocation?",
+    "back": "Asset allocation is the strategy of dividing a portfolio among different asset classes (stocks, bonds, cash, alternatives) based on the investor's goals, risk tolerance, and time horizon. Research suggests that asset allocation is the primary determinant of portfolio returns over time. Strategic allocation sets long-term targets, while tactical allocation makes short-term adjustments."
+  },
+  {
+    "id": "series65-fc021",
+    "topic": "series65-t6",
+    "topicName": "Investment Vehicles and Strategies",
+    "front": "What is dollar-cost averaging?",
+    "back": "Dollar-cost averaging is an investment strategy where a fixed dollar amount is invested at regular intervals regardless of market conditions. This results in purchasing more shares when prices are low and fewer when prices are high, potentially reducing the average cost per share over time. It does not guarantee profits or protect against losses in declining markets."
+  },
+  {
+    "id": "series65-fc022",
+    "topic": "series65-t6",
+    "topicName": "Investment Vehicles and Strategies",
+    "front": "What is a hedge fund?",
+    "back": "A hedge fund is a private investment partnership that uses advanced strategies such as leverage, short selling, derivatives, and concentrated positions to generate returns. Hedge funds are generally available only to accredited investors and qualified purchasers. They typically charge a management fee plus a performance fee (commonly '2 and 20') and have limited liquidity."
+  },
+  {
+    "id": "series65-fc023",
+    "topic": "series65-t6",
+    "topicName": "Investment Vehicles and Strategies",
+    "front": "What is a real estate investment trust (REIT)?",
+    "back": "A REIT is a company that owns, operates, or finances income-producing real estate. REITs must distribute at least 90% of taxable income as dividends to shareholders. They provide investors with exposure to real estate without direct property ownership, offer liquidity (for publicly traded REITs), and diversification benefits. REIT dividends are generally taxed as ordinary income."
+  },
+  {
+    "id": "series65-fc024",
+    "topic": "series65-t7",
+    "topicName": "Ethics and Compliance",
+    "front": "What is the investment adviser code of ethics requirement?",
+    "back": "SEC-registered investment advisers must adopt a written code of ethics that sets standards of conduct, requires reporting of personal securities transactions by access persons, requires pre-approval for IPO and limited offering participation, and addresses insider trading policies. The code must be provided to all supervised persons and enforced by a chief compliance officer."
+  },
+  {
+    "id": "series65-fc025",
+    "topic": "series65-t7",
+    "topicName": "Ethics and Compliance",
+    "front": "What is the custody rule for investment advisers?",
+    "back": "The custody rule requires investment advisers who have custody of client funds or securities to maintain them with a qualified custodian, send account statements to clients at least quarterly, and undergo an annual surprise examination by an independent public accountant. These protections ensure client assets are safeguarded against misuse or misappropriation."
+  },
+  {
+    "id": "series65-fc026",
+    "topic": "series65-t7",
+    "topicName": "Ethics and Compliance",
+    "front": "What constitutes custody of client assets?",
+    "back": "An adviser has custody if it directly or indirectly holds client funds or securities, has authority to obtain possession of them, or has the ability to deduct fees from client accounts. Standing letters of authorization, trustee roles, and certain bill-pay arrangements may also constitute custody. Having custody triggers enhanced regulatory requirements."
+  },
+  {
+    "id": "series65-fc027",
+    "topic": "series65-t4",
+    "topicName": "Portfolio Management",
+    "front": "What is standard deviation in portfolio management?",
+    "back": "Standard deviation measures the total variability (volatility) of a portfolio's returns from its mean return. A higher standard deviation indicates greater volatility and risk. It captures both systematic and unsystematic risk, making it a measure of total risk. The Sharpe ratio uses standard deviation to evaluate risk-adjusted performance."
+  },
+  {
+    "id": "series65-fc028",
+    "topic": "series65-t5",
+    "topicName": "Economics and Analysis",
+    "front": "What is the difference between fiscal and monetary policy?",
+    "back": "Fiscal policy is set by Congress and the President through government spending and taxation decisions. Monetary policy is set by the Federal Reserve through interest rates, open market operations, the discount rate, and interest on reserve balances (IORB). Note: Reserve requirements have been at zero since March 2020 and are no longer an active tool. Both policies influence economic growth and inflation, but they operate through different mechanisms and are controlled by different government entities."
+  },
+  {
+    "id": "series65-fc029",
+    "topic": "series65-t7",
+    "topicName": "Ethics and Compliance",
+    "front": "What is insider trading?",
+    "back": "Insider trading is the buying or selling of securities based on material, nonpublic information in violation of a duty of trust or confidence. It is prohibited under federal securities laws and can result in civil penalties of up to three times the profit gained or loss avoided (treble damages) and criminal penalties including fines and imprisonment."
+  },
+  {
+    "id": "series65-fc030",
+    "topic": "series65-t1",
+    "topicName": "Investment Adviser Regulation",
+    "front": "What is the Investment Advisers Act of 1940?",
+    "back": "The Investment Advisers Act of 1940 is the primary federal law regulating investment advisers. It requires advisers meeting certain thresholds to register with the SEC, establishes fiduciary duties, prohibits fraud, requires written advisory contracts, mandates recordkeeping, and restricts certain business practices. It was significantly amended by the Dodd-Frank Act in 2010."
+  }
+]

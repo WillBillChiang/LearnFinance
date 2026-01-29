@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 7 Chapter 2: Debt Securities. Corporate bond types, bond pricing, yield calculations, credit risk, convertible bonds, zero-coupon bonds, and callable/puttable bonds.">
+  <title>Debt Securities - Series 7 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series7" data-chapter="debt-securities">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 2</span>
+          <h1>Debt Securities</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              30 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 7 &mdash; Fixed Income
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Corporate Bond Types ====== -->
+        <section class="lesson__section" id="corporate-bond-types">
+          <h2>Corporate Bond Types</h2>
+
+          <p>Corporate bonds are debt instruments issued by corporations to raise capital. When an investor buys a bond, they are lending money to the issuer in exchange for periodic interest payments (coupons) and the return of principal (par value) at maturity. Corporate bonds are classified by the type and quality of their backing, which directly affects their credit risk and the interest rate the issuer must pay.</p>
+
+          <h3>Secured Bonds</h3>
+
+          <p>Secured bonds are backed by specific collateral, giving bondholders a claim on designated assets if the issuer defaults. The three main types of secured corporate bonds are:</p>
+
+          <p><strong>Mortgage Bonds:</strong> Secured by a lien on real property (land and buildings) owned by the issuer. In the event of default, the trustee can foreclose on the property and sell it to repay bondholders. Mortgage bonds may be classified as first mortgage (senior lien) or second mortgage (junior lien). First mortgage bondholders have priority over second mortgage bondholders on the same property. Mortgage bonds are considered among the safest corporate bonds because real estate typically retains significant value.</p>
+
+          <p><strong>Collateral Trust Bonds:</strong> Secured by a pledge of securities (stocks, bonds, or other financial assets) owned by the issuer, typically securities of a subsidiary. The pledged securities are held by a trustee. If the issuer defaults, the trustee can liquidate the securities to pay bondholders. The value of the collateral can fluctuate with market conditions, making these somewhat riskier than mortgage bonds.</p>
+
+          <p><strong>Equipment Trust Certificates (ETCs):</strong> Secured by specific equipment or machinery, most commonly used by railroads, airlines, and shipping companies. The equipment is purchased by a trustee and leased to the issuer. The issuer makes lease payments that cover principal and interest to bondholders. The trustee retains legal title to the equipment until the bonds are fully paid. ETCs often use a serial maturity structure, with portions maturing at regular intervals. They are considered very safe because the equipment has tangible resale value and the trustee can repossess it.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Trust Indenture:</strong> A legal contract between the bond issuer and a trustee (usually a bank) that specifies the terms of the bond issue, including the coupon rate, maturity date, collateral provisions, covenants, and default remedies. Required by the Trust Indenture Act of 1939 for corporate bond issues over $50 million sold in interstate commerce.</p>
+            </div>
+          </div>
+
+          <h3>Unsecured Bonds</h3>
+
+          <p>Unsecured bonds are not backed by specific collateral. Instead, they are supported by the issuer's general creditworthiness and ability to generate revenue. The two main types are:</p>
+
+          <p><strong>Debentures:</strong> Unsecured bonds backed only by the issuer's general credit and reputation. Debenture holders are general creditors with no specific claim on particular assets. Because they lack collateral, debentures are riskier than secured bonds and typically offer higher interest rates. Most corporate bonds issued by investment-grade companies are debentures, reflecting investor confidence in the company's financial strength.</p>
+
+          <p><strong>Subordinated Debentures:</strong> Unsecured bonds that rank below (are subordinate to) regular debentures and all other senior debt in the event of liquidation. In bankruptcy, subordinated debenture holders are paid only after secured creditors, general creditors, and senior debenture holders have been satisfied. Because of this additional risk, subordinated debentures pay the highest interest rates among corporate bonds.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Liquidation priority order for Series 7: (1) Secured bondholders, (2) Unsecured creditors / debenture holders, (3) Subordinated debenture holders, (4) Preferred stockholders, (5) Common stockholders. Remember that ALL bondholders (even subordinated) are paid before ANY equity holders. This is a fundamental distinction between debt and equity.</p>
+            </div>
+          </div>
+
+          <!-- Compare Table: Bond Types -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Bond Type</th>
+                  <th>Backing</th>
+                  <th>Risk Level</th>
+                  <th>Typical Yield</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Mortgage Bond</td>
+                  <td class="compare-table__cell">Real property (land, buildings)</td>
+                  <td class="compare-table__cell">Lowest (among corporates)</td>
+                  <td class="compare-table__cell">Lowest</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Equipment Trust Certificate</td>
+                  <td class="compare-table__cell">Equipment / machinery</td>
+                  <td class="compare-table__cell">Low</td>
+                  <td class="compare-table__cell">Low</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Collateral Trust Bond</td>
+                  <td class="compare-table__cell">Securities (stocks/bonds)</td>
+                  <td class="compare-table__cell">Moderate</td>
+                  <td class="compare-table__cell">Moderate</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Debenture</td>
+                  <td class="compare-table__cell">General credit only</td>
+                  <td class="compare-table__cell">Higher</td>
+                  <td class="compare-table__cell">Higher</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Subordinated Debenture</td>
+                  <td class="compare-table__cell">General credit (junior claim)</td>
+                  <td class="compare-table__cell">Highest (among bonds)</td>
+                  <td class="compare-table__cell">Highest</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Bond Pricing ====== -->
+        <section class="lesson__section" id="bond-pricing">
+          <h2>Bond Pricing: Points and Basis Points</h2>
+
+          <p>Understanding bond pricing conventions is critical for the Series 7 exam. Corporate and government bonds are quoted differently, and you must know how to convert quotes to dollar amounts.</p>
+
+          <h3>Corporate Bond Pricing (Points)</h3>
+
+          <p>Corporate bonds have a par value of $1,000 and are quoted as a <strong>percentage of par</strong>. Each point equals 1% of par value, or $10. Fractions are expressed in eighths or decimals.</p>
+
+          <ul>
+            <li>A bond quoted at <strong>98</strong> = 98% of $1,000 = <strong>$980</strong> (trading at a discount)</li>
+            <li>A bond quoted at <strong>100</strong> = 100% of $1,000 = <strong>$1,000</strong> (trading at par)</li>
+            <li>A bond quoted at <strong>103.50</strong> = 103.5% of $1,000 = <strong>$1,035</strong> (trading at a premium)</li>
+          </ul>
+
+          <h3>Basis Points</h3>
+
+          <p>A <strong>basis point (bp)</strong> equals 1/100th of 1 percent (0.01%). There are 100 basis points in 1 percentage point. Basis points are used to express changes in yield or interest rates with precision.</p>
+
+          <ul>
+            <li>50 basis points = 0.50%</li>
+            <li>100 basis points = 1.00%</li>
+            <li>A yield moving from 4.25% to 4.75% has increased by 50 basis points</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Corporate bonds are quoted in points (percentage of par). Municipal bonds can be quoted in points or on a yield basis. Treasury bonds are quoted in points and 32nds (e.g., 99:16 means 99 and 16/32 = 99.50% of par = $995). Know these conventions for the exam.</p>
+            </div>
+          </div>
+
+          <h3>Premium vs. Discount Bonds</h3>
+
+          <p>A bond's market price relative to par reveals important information about how its coupon rate compares to prevailing market interest rates:</p>
+
+          <ul>
+            <li><strong>Premium bond (price &gt; par):</strong> The coupon rate exceeds the current market yield. Investors are willing to pay more than par to receive the above-market coupon. As the bond approaches maturity, the premium amortizes toward par.</li>
+            <li><strong>Discount bond (price &lt; par):</strong> The coupon rate is below the current market yield. The bond must be priced below par to make the total return competitive. The discount accretes toward par at maturity.</li>
+            <li><strong>Par bond (price = par):</strong> The coupon rate equals the current market yield. All yields converge at the coupon rate.</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 3: Yield Calculations ====== -->
+        <section class="lesson__section" id="yield-calculations">
+          <h2>Yield Calculations</h2>
+
+          <p>The Series 7 exam tests four different yield measures for bonds. You must understand each, know the formulas, and recognize the relationships among them.</p>
+
+          <h3>Nominal Yield (Coupon Rate)</h3>
+
+          <p>The <strong>nominal yield</strong> is the annual interest rate stated on the bond, also called the coupon rate. It is fixed at issuance and does not change. Nominal yield is expressed as a percentage of par value.</p>
+
+          <p><strong>Formula:</strong> Nominal Yield = Annual Coupon Payment / Par Value</p>
+
+          <p>Example: A bond with a $1,000 par value paying $60 annually has a nominal yield of 6%.</p>
+
+          <h3>Current Yield (CY)</h3>
+
+          <p>The <strong>current yield</strong> measures the bond's annual income relative to its current market price. It reflects the actual income return an investor receives based on the purchase price.</p>
+
+          <p><strong>Formula:</strong> Current Yield = Annual Coupon Payment / Current Market Price</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>A 6% bond (pays $60 annually) is currently trading at $900 (a discount).</p>
+              <p><strong>Current Yield:</strong> $60 / $900 = <strong>6.67%</strong></p>
+              <p>Notice that because the bond was purchased at a discount, the current yield (6.67%) exceeds the nominal yield (6%). The investor paid less than par but receives the same $60 coupon.</p>
+            </div>
+          </div>
+
+          <!-- Interactive Calculator -->
+          <div class="interactive-calculator" id="current-yield-calculator">
+            <h4 class="interactive-calculator__title">Current Yield Calculator</h4>
+            <div class="interactive-calculator__inputs">
+              <div class="interactive-calculator__field">
+                <label for="calc-coupon">Annual Coupon ($)</label>
+                <input type="number" id="calc-coupon" value="60" min="0" step="1">
+              </div>
+              <div class="interactive-calculator__field">
+                <label for="calc-price">Current Market Price ($)</label>
+                <input type="number" id="calc-price" value="900" min="1" step="1">
+              </div>
+            </div>
+            <button class="interactive-calculator__btn" onclick="(function(){var c=parseFloat(document.getElementById('calc-coupon').value);var p=parseFloat(document.getElementById('calc-price').value);if(p>0&&c>=0){document.getElementById('calc-result').textContent='Current Yield: '+(c/p*100).toFixed(2)+'%';}else{document.getElementById('calc-result').textContent='Please enter valid values.';}})()">Calculate</button>
+            <p class="interactive-calculator__result" id="calc-result">Current Yield: 6.67%</p>
+          </div>
+
+          <h3>Yield to Maturity (YTM)</h3>
+
+          <p><strong>Yield to maturity</strong> is the total annualized return an investor earns if the bond is held to maturity and all coupons are reinvested at the YTM rate. It accounts for coupon income, the time value of money, and any gain or loss from buying the bond at a discount or premium. YTM is the most comprehensive and commonly used yield measure.</p>
+
+          <p><strong>Approximation Formula:</strong></p>
+          <p>YTM (approximate) = [Annual Coupon + (Par Value - Market Price) / Years to Maturity] / [(Par Value + Market Price) / 2]</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>A 6% bond ($60 annual coupon) with 10 years to maturity is purchased at $900.</p>
+              <p><strong>YTM (approx):</strong> [$60 + ($1,000 - $900) / 10] / [($1,000 + $900) / 2]</p>
+              <p>= [$60 + $10] / [$950] = $70 / $950 = <strong>7.37%</strong></p>
+              <p>YTM (7.37%) exceeds current yield (6.67%) because the investor also gains $100 (discount) upon maturity, adding to the total return.</p>
+            </div>
+          </div>
+
+          <h3>Yield to Call (YTC)</h3>
+
+          <p><strong>Yield to call</strong> is similar to YTM but assumes the bond is called (redeemed early by the issuer) at the earliest call date at the specified call price. YTC is relevant for callable bonds trading at a premium, where early redemption is likely because the issuer can refinance at lower rates.</p>
+
+          <p><strong>Approximation Formula:</strong></p>
+          <p>YTC (approximate) = [Annual Coupon + (Call Price - Market Price) / Years to Call] / [(Call Price + Market Price) / 2]</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Yield relationships for a DISCOUNT bond:</strong> Nominal Yield &lt; Current Yield &lt; YTM &lt; YTC<br>
+              <strong>Yield relationships for a PREMIUM bond:</strong> Nominal Yield &gt; Current Yield &gt; YTM &gt; YTC<br>
+              <strong>At PAR:</strong> All four yields are equal to the coupon rate.<br><br>
+              Memory trick: For discount bonds, yields get progressively larger. For premium bonds, yields get progressively smaller. The exam LOVES testing this pattern.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Bond Ratings and Credit Risk ====== -->
+        <section class="lesson__section" id="bond-ratings">
+          <h2>Bond Ratings and Credit Risk</h2>
+
+          <p><strong>Credit risk</strong> (default risk) is the risk that a bond issuer will fail to make timely interest or principal payments. Independent rating agencies assess this risk and assign ratings that guide investors.</p>
+
+          <h3>Rating Agencies and Scales</h3>
+
+          <p>The three major rating agencies are <strong>Moody's</strong>, <strong>Standard &amp; Poor's (S&amp;P)</strong>, and <strong>Fitch</strong>. Their rating scales:</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Grade</th>
+                  <th>S&amp;P / Fitch</th>
+                  <th>Moody's</th>
+                  <th>Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell" rowspan="4">Investment Grade</td>
+                  <td class="compare-table__cell">AAA</td>
+                  <td class="compare-table__cell">Aaa</td>
+                  <td class="compare-table__cell">Highest quality, minimal risk</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">AA</td>
+                  <td class="compare-table__cell">Aa</td>
+                  <td class="compare-table__cell">High quality, very low risk</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">A</td>
+                  <td class="compare-table__cell">A</td>
+                  <td class="compare-table__cell">Upper-medium grade</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">BBB</td>
+                  <td class="compare-table__cell">Baa</td>
+                  <td class="compare-table__cell">Medium grade, adequate protection</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell" rowspan="3">Speculative (High-Yield / Junk)</td>
+                  <td class="compare-table__cell">BB</td>
+                  <td class="compare-table__cell">Ba</td>
+                  <td class="compare-table__cell">Speculative elements</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">B</td>
+                  <td class="compare-table__cell">B</td>
+                  <td class="compare-table__cell">Highly speculative</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">CCC and below</td>
+                  <td class="compare-table__cell">Caa and below</td>
+                  <td class="compare-table__cell">Substantial risk to default</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>The dividing line between investment grade and speculative (junk) bonds is <strong>BBB/Baa</strong> (investment grade) versus <strong>BB/Ba</strong> (speculative). Many institutional investors and fiduciaries are restricted to investing in investment-grade bonds only.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Bond ratings assess <strong>credit risk only</strong>, not interest rate risk or other market risks. A AAA-rated bond can still lose significant market value if interest rates rise sharply. Never confuse "high quality" with "no risk." Additionally, ratings can change -- a downgrade can cause a bond's price to drop even without a change in interest rates.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Convertible Bonds ====== -->
+        <section class="lesson__section" id="convertible-bonds">
+          <h2>Convertible Bonds</h2>
+
+          <p>A <strong>convertible bond</strong> gives the bondholder the right to convert the bond into a fixed number of shares of the issuer's common stock. This conversion feature is valuable because it provides upside potential if the stock price rises while still offering the downside protection of a fixed-income instrument.</p>
+
+          <h3>Conversion Ratio and Conversion Price</h3>
+
+          <p>The <strong>conversion ratio</strong> is the number of common shares received upon conversion. The <strong>conversion price</strong> is the effective price per share paid through conversion.</p>
+
+          <p><strong>Conversion Ratio:</strong> = Par Value / Conversion Price</p>
+          <p><strong>Conversion Price:</strong> = Par Value / Conversion Ratio</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>A $1,000 par bond is convertible into common stock at a conversion price of $40.</p>
+              <p><strong>Conversion ratio:</strong> $1,000 / $40 = <strong>25 shares</strong></p>
+              <p>If the common stock is trading at $50, the conversion value is: 25 x $50 = <strong>$1,250</strong></p>
+              <p>If the bond is trading at $1,200, it is trading at a premium to its straight bond value but below its conversion value, presenting a potential arbitrage opportunity.</p>
+            </div>
+          </div>
+
+          <h3>Parity</h3>
+
+          <p><strong>Parity</strong> exists when the bond's market price equals its conversion value. At parity, an investor is indifferent between holding the bond and converting to stock.</p>
+
+          <p><strong>Parity price of common stock:</strong> = Bond Market Price / Conversion Ratio</p>
+          <p><strong>Parity price of bond:</strong> = Stock Price x Conversion Ratio</p>
+
+          <p>Because convertible bonds offer this equity conversion feature, they typically carry a <strong>lower coupon rate</strong> than comparable non-convertible bonds. Investors accept lower current income in exchange for the potential upside participation.</p>
+
+          <h3>Forced Conversion</h3>
+
+          <p>Many convertible bonds are also callable. If the conversion value exceeds the call price, the issuer can call the bonds, effectively forcing bondholders to convert rather than accept the below-market call price. This is known as <strong>forced conversion</strong> and is a common exam topic.</p>
+        </section>
+
+        <!-- ====== SECTION 6: Zero-Coupon and Callable/Puttable Bonds ====== -->
+        <section class="lesson__section" id="special-bond-types">
+          <h2>Zero-Coupon, Callable, and Puttable Bonds</h2>
+
+          <h3>Zero-Coupon Bonds</h3>
+
+          <p><strong>Zero-coupon bonds</strong> do not make periodic interest payments. Instead, they are issued at a deep discount from par value and mature at full par. The difference between the purchase price and par represents the investor's total return (interest income). Key characteristics:</p>
+
+          <ul>
+            <li>No reinvestment risk because there are no coupons to reinvest.</li>
+            <li>Highest interest rate (duration) risk of any bond type because all cash flow is received at maturity.</li>
+            <li><strong>Phantom income (OID):</strong> Even though no cash is received until maturity, the IRS requires the annual accretion of the Original Issue Discount (OID) to be reported as taxable interest income each year. This "phantom income" is a key disadvantage for taxable investors.</li>
+            <li>Most volatile bond type -- price swings are amplified because there are no interim cash flows to cushion the impact of interest rate changes.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Zero-coupon bonds: No reinvestment risk (no coupons to reinvest) but HIGHEST interest rate risk and price volatility. The phantom income (OID taxation) makes them unsuitable for taxable accounts. They are best suited for tax-deferred accounts (IRAs, 401(k)s) or for investors who want a guaranteed amount at a specific future date.</p>
+            </div>
+          </div>
+
+          <h3>Callable Bonds</h3>
+
+          <p>A <strong>callable bond</strong> gives the issuer the right to redeem the bond before maturity, typically at a call premium above par. Key points:</p>
+
+          <ul>
+            <li>Issuers call bonds when interest rates decline, allowing them to refinance at lower rates.</li>
+            <li>Call protection: Most callable bonds have a period (e.g., 5-10 years) during which they cannot be called.</li>
+            <li>Call risk hurts investors because they lose the above-market coupon and must reinvest at lower prevailing rates.</li>
+            <li>Callable bonds are priced to the WORST outcome: for premium bonds trading above the call price, use YTC (yield to call); for discount bonds, use YTM (yield to maturity).</li>
+          </ul>
+
+          <h3>Puttable Bonds</h3>
+
+          <p>A <strong>puttable bond</strong> gives the bondholder the right to sell the bond back to the issuer at par on specified dates before maturity. This feature benefits the investor:</p>
+
+          <ul>
+            <li>If interest rates rise and the bond's price falls below par, the investor can put (sell back) the bond at par instead of taking a loss.</li>
+            <li>The put feature provides downside protection and reduces interest rate risk.</li>
+            <li>Because the put feature is valuable to investors, puttable bonds typically carry lower coupon rates than comparable non-puttable bonds.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>Callable bonds benefit the ISSUER (they can refinance when rates drop). Puttable bonds benefit the INVESTOR (they can sell back when rates rise). Callable bonds offer higher coupons to compensate investors for call risk. Puttable bonds offer lower coupons because the put feature has value to the investor. This inverse relationship between features and coupon rates is a common exam question.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of debt securities. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Which type of corporate bond is backed by a lien on real property?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Mortgage bond</button>
+              <button class="answer-btn" data-correct="false">B) Collateral trust bond</button>
+              <button class="answer-btn" data-correct="false">C) Equipment trust certificate</button>
+              <button class="answer-btn" data-correct="false">D) Debenture</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Mortgage bonds are secured by a lien on real property (land and buildings). Collateral trust bonds are secured by securities. Equipment trust certificates are secured by equipment. Debentures are unsecured, backed only by the issuer's general credit.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. A 7% bond is trading at $1,050. What is the current yield?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 7.00%</button>
+              <button class="answer-btn" data-correct="true">B) 6.67%</button>
+              <button class="answer-btn" data-correct="false">C) 7.35%</button>
+              <button class="answer-btn" data-correct="false">D) 5.00%</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Current yield = Annual coupon / Market price = $70 / $1,050 = 6.67%. Because the bond is trading at a premium, the current yield is less than the nominal yield (7%).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. For a bond trading at a premium, which of the following yield relationships is correct?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Nominal &lt; Current &lt; YTM &lt; YTC</button>
+              <button class="answer-btn" data-correct="true">B) Nominal &gt; Current &gt; YTM &gt; YTC</button>
+              <button class="answer-btn" data-correct="false">C) Nominal = Current = YTM = YTC</button>
+              <button class="answer-btn" data-correct="false">D) YTC &gt; YTM &gt; Current &gt; Nominal</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              For a premium bond: Nominal Yield > Current Yield > Yield to Maturity > Yield to Call. Each successive yield measure accounts for more of the premium loss, reducing the effective return. YTC is lowest because the premium is lost over a shorter period (to the call date rather than maturity).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. A $1,000 par convertible bond has a conversion price of $50. If the bond is trading at $1,150, what is the parity price of the common stock?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $50.00</button>
+              <button class="answer-btn" data-correct="true">B) $57.50</button>
+              <button class="answer-btn" data-correct="false">C) $20.00</button>
+              <button class="answer-btn" data-correct="false">D) $115.00</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Conversion ratio = $1,000 / $50 = 20 shares. Parity price of common stock = Bond market price / Conversion ratio = $1,150 / 20 = $57.50. At $57.50 per share, the conversion value (20 x $57.50 = $1,150) equals the bond's market price.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Which of the following is a key disadvantage of zero-coupon bonds for taxable investors?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) High reinvestment risk</button>
+              <button class="answer-btn" data-correct="false">B) Low interest rate sensitivity</button>
+              <button class="answer-btn" data-correct="true">C) Annual taxation on phantom income (OID accretion)</button>
+              <button class="answer-btn" data-correct="false">D) Mandatory call provisions</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Zero-coupon bonds have NO reinvestment risk (there are no coupons to reinvest) and HIGH interest rate sensitivity (not low). The key disadvantage for taxable investors is phantom income: the IRS requires annual taxation of the Original Issue Discount (OID) accretion even though the investor receives no cash until maturity. This makes zero-coupon bonds best suited for tax-deferred accounts.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="equity-securities.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 1 &mdash; Equity Securities</span>
+            </div>
+          </a>
+          <a href="municipal-bonds.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 3 &mdash; Municipal Bonds</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series50-fc001",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Overview",
+    "front": "What is a municipal advisor?",
+    "back": "A municipal advisor is a person or firm that provides advice to or on behalf of a municipal entity or obligated person regarding municipal financial products or the issuance of municipal securities. Municipal advisors owe a fiduciary duty to their municipal entity clients. They must register with the SEC and the MSRB under the Dodd-Frank Act."
+  },
+  {
+    "id": "series50-fc002",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Overview",
+    "front": "What is the difference between a municipal advisor and an underwriter?",
+    "back": "A municipal advisor provides independent advice to the issuer and owes a fiduciary duty. An underwriter purchases securities from the issuer for resale and has an arm's-length business relationship, not a fiduciary one. Under MSRB Rule G-17, underwriters must disclose that they are not acting as advisors. A firm generally cannot serve as both advisor and underwriter on the same transaction."
+  },
+  {
+    "id": "series50-fc003",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Overview",
+    "front": "Who is excluded from the definition of municipal advisor?",
+    "back": "Exclusions include underwriters (for the specific issue), registered investment advisers providing investment advice, banks acting in certain capacities, attorneys providing legal advice, accountants providing audit or accounting services, engineers providing engineering advice, appointed board members, and elected officials. These exclusions are narrow and apply only when the person acts within their excluded capacity."
+  },
+  {
+    "id": "series50-fc004",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What fiduciary duty does a municipal advisor owe?",
+    "back": "Municipal advisors owe a fiduciary duty to their municipal entity clients, which includes a duty of loyalty (acting in the client's best interest and putting client interests first), a duty of care (exercising due diligence and providing competent advice), and an obligation to fully disclose all material conflicts of interest. This is the highest standard of care in the securities industry."
+  },
+  {
+    "id": "series50-fc005",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What conflicts of interest must a municipal advisor disclose?",
+    "back": "Municipal advisors must disclose all material conflicts of interest, including compensation arrangements that could affect impartiality, relationships with other parties in the transaction (underwriters, banks, swap dealers), financial interests in recommended products, affiliate relationships, and any other circumstances that could compromise the advisor's ability to provide independent advice."
+  },
+  {
+    "id": "series50-fc006",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "How does the fiduciary duty differ for obligated persons versus municipal entities?",
+    "back": "Municipal advisors owe a full fiduciary duty to municipal entity clients. For obligated persons (private entities obligated to pay on municipal securities, such as conduit borrowers), advisors must deal fairly and not engage in deceptive practices but do not owe a fiduciary duty. This distinction reflects the different nature of the advisory relationships."
+  },
+  {
+    "id": "series50-fc007",
+    "topic": "series50-t3",
+    "topicName": "MSRB Rules for Municipal Advisors",
+    "front": "What is MSRB Rule G-42 on duties of municipal advisors?",
+    "back": "Rule G-42 codifies the fiduciary duty of municipal advisors to municipal entity clients and the duty of care owed to all clients. It requires documentation of the advisory relationship, disclosure of conflicts, reasonable basis for recommendations, and comprehensive evaluation of the client's objectives. Advisors must make recommendations that are in the client's best interest."
+  },
+  {
+    "id": "series50-fc008",
+    "topic": "series50-t3",
+    "topicName": "MSRB Rules for Municipal Advisors",
+    "front": "What is MSRB Rule G-44 on supervisory procedures for municipal advisors?",
+    "back": "Rule G-44 requires municipal advisory firms to establish, maintain, and enforce written supervisory procedures. The firm must designate supervisory personnel, implement procedures to ensure compliance with MSRB rules, provide training, and review the activities of associated persons. The rule mirrors similar requirements for broker-dealers in the municipal securities space."
+  },
+  {
+    "id": "series50-fc009",
+    "topic": "series50-t3",
+    "topicName": "MSRB Rules for Municipal Advisors",
+    "front": "What is MSRB Rule G-40 on advertising by municipal advisors?",
+    "back": "Rule G-40 establishes standards for municipal advisor advertisements and other communications with the public. Communications must be fair, balanced, and not misleading. Testimonials may be used with proper disclosure. The rule prohibits false statements, predictions of specific results, and implies that all advertisements must have a reasonable basis."
+  },
+  {
+    "id": "series50-fc010",
+    "topic": "series50-t3",
+    "topicName": "MSRB Rules for Municipal Advisors",
+    "front": "What is MSRB Rule G-46 on duties regarding municipal advisory activities?",
+    "back": "Rule G-46 addresses the duty of care when soliciting municipal entities on behalf of third parties (such as investment managers or broker-dealers). Municipal advisors engaging in solicitation must disclose compensation, conflicts of interest, and the nature of the arrangement. The rule ensures transparency when advisors receive compensation from parties other than the municipal entity."
+  },
+  {
+    "id": "series50-fc011",
+    "topic": "series50-t4",
+    "topicName": "Municipal Financial Products",
+    "front": "What are municipal financial products?",
+    "back": "Municipal financial products include municipal derivatives (interest rate swaps, caps, floors, collars), guaranteed investment contracts (GICs), and other financial products provided to municipal entities. Municipal advisors who advise on these products must understand their mechanics, risks, and suitability for the client's specific situation."
+  },
+  {
+    "id": "series50-fc012",
+    "topic": "series50-t4",
+    "topicName": "Municipal Financial Products",
+    "front": "What is an interest rate swap in municipal finance?",
+    "back": "An interest rate swap is a derivative in which a municipality exchanges fixed-rate payments for floating-rate payments (or vice versa) with a counterparty. Municipalities commonly use swaps to convert variable-rate debt to a synthetic fixed rate or to reduce borrowing costs. Risks include counterparty risk, basis risk, termination risk, and tax risk. Municipal advisors must explain all risks."
+  },
+  {
+    "id": "series50-fc013",
+    "topic": "series50-t4",
+    "topicName": "Municipal Financial Products",
+    "front": "What is a guaranteed investment contract (GIC)?",
+    "back": "A GIC is an agreement between a municipality and a financial institution where the municipality deposits bond proceeds or reserve funds and receives a guaranteed rate of return for a specified period. GICs help municipalities earn investment income on idle funds. Municipal advisors must evaluate creditworthiness of the GIC provider, terms, and compliance with tax regulations."
+  },
+  {
+    "id": "series50-fc014",
+    "topic": "series50-t5",
+    "topicName": "Municipal Securities Issuance",
+    "front": "What advisory services are provided during a municipal bond issuance?",
+    "back": "Municipal advisors assist with determining the appropriate financing structure, sizing the issue, selecting the method of sale (competitive or negotiated), analyzing market timing, reviewing underwriter proposals, assisting with rating agency presentations, reviewing legal documents, evaluating call provisions and optional features, and overseeing the pricing and closing process."
+  },
+  {
+    "id": "series50-fc015",
+    "topic": "series50-t5",
+    "topicName": "Municipal Securities Issuance",
+    "front": "What is the role of the municipal advisor in a competitive sale?",
+    "back": "In a competitive sale, the municipal advisor helps prepare the Notice of Sale, sets the bid parameters, solicits bids from underwriting syndicates, evaluates the bids, recommends acceptance of the winning bid, and verifies the accuracy of bid calculations. The advisor ensures the issuer receives the most favorable terms and that the process is conducted fairly."
+  },
+  {
+    "id": "series50-fc016",
+    "topic": "series50-t5",
+    "topicName": "Municipal Securities Issuance",
+    "front": "What is the role of the municipal advisor in a negotiated sale?",
+    "back": "In a negotiated sale, the advisor helps select the underwriter through an RFP process, negotiates underwriting fees and terms, assists with structuring the bond issue, advises on market timing and pricing strategy, reviews the preliminary and final pricing, and ensures the issuer receives fair compensation. The advisor provides an independent check on the underwriter's proposals."
+  },
+  {
+    "id": "series50-fc017",
+    "topic": "series50-t5",
+    "topicName": "Municipal Securities Issuance",
+    "front": "What is a preliminary official statement (POS)?",
+    "back": "A POS is a draft disclosure document for a new municipal bond issue that provides most material information about the issue and issuer, except for final pricing details. It is distributed to potential investors during the marketing period. The POS must include a red herring disclaimer stating it is not final. The municipal advisor may assist in reviewing the POS for accuracy."
+  },
+  {
+    "id": "series50-fc018",
+    "topic": "series50-t6",
+    "topicName": "Registration and Compliance",
+    "front": "How do municipal advisors register?",
+    "back": "Municipal advisors must register with the SEC by filing Form MA (for firms) and Form MA-I (for individual associates). They must also register with the MSRB. Individual municipal advisors must pass the Series 50 exam. Registration must be renewed annually. Municipal advisors must maintain books and records, pay fees, and comply with all applicable MSRB rules."
+  },
+  {
+    "id": "series50-fc019",
+    "topic": "series50-t6",
+    "topicName": "Registration and Compliance",
+    "front": "What are the MSRB Rule G-8 recordkeeping requirements for municipal advisors?",
+    "back": "Municipal advisors must maintain records of client engagements, advisory agreements, compensation arrangements, communications, conflict disclosures, supervisory procedures, political contributions, financial records, and customer complaints. Records must be kept for a minimum of five years. These records are subject to inspection by regulatory authorities."
+  },
+  {
+    "id": "series50-fc020",
+    "topic": "series50-t6",
+    "topicName": "Registration and Compliance",
+    "front": "How does MSRB Rule G-37 apply to municipal advisors?",
+    "back": "Rule G-37 prohibits municipal advisors from engaging in municipal advisory business with an issuer for two years after the advisor or certain covered associates make political contributions to officials of that issuer who can influence the awarding of advisory business. The same de minimis exception ($250 per election) and reporting requirements apply as for dealers."
+  },
+  {
+    "id": "series50-fc021",
+    "topic": "series50-t4",
+    "topicName": "Municipal Financial Products",
+    "front": "What is basis risk in a municipal swap?",
+    "back": "Basis risk occurs when the floating-rate index used in a swap does not perfectly match the actual floating rate the municipality pays on its variable-rate bonds. For example, if the swap references SOFR but the bond rate is based on SIFMA, differences between these indices create basis risk. The municipality may pay more (or less) than the synthetic fixed rate intended."
+  },
+  {
+    "id": "series50-fc022",
+    "topic": "series50-t5",
+    "topicName": "Municipal Securities Issuance",
+    "front": "What is the SIFMA Municipal Swap Index?",
+    "back": "The SIFMA Municipal Swap Index (formerly the BMA Index) is a weekly benchmark rate for variable-rate municipal bonds. It represents the average rate reset on tax-exempt variable-rate demand obligations. Municipal advisors use SIFMA as a reference rate for swap pricing and analysis. Understanding the relationship between SIFMA and other rates is essential for evaluating municipal swaps."
+  },
+  {
+    "id": "series50-fc023",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "What is the duty of care for municipal advisors?",
+    "back": "The duty of care requires municipal advisors to exercise due diligence, provide thorough analysis, and make informed recommendations. Advisors must have a reasonable basis for recommendations, perform appropriate research, understand the client's needs, consider alternatives, and document their analysis. The duty of care demands competence and professionalism in all advisory activities."
+  },
+  {
+    "id": "series50-fc024",
+    "topic": "series50-t3",
+    "topicName": "MSRB Rules for Municipal Advisors",
+    "front": "What is MSRB Rule G-20 on gifts and gratuities for municipal advisors?",
+    "back": "Rule G-20 limits gifts related to municipal advisory activities to $100 per person per year. Normal business entertainment (meals, events) where the advisor is present is excluded from the limit. The rule prevents excessive gift-giving that could compromise the independence and objectivity of the advisory relationship."
+  },
+  {
+    "id": "series50-fc025",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Overview",
+    "front": "What is a solicitation under municipal advisor rules?",
+    "back": "A solicitation is the direct or indirect communication for compensation with a municipal entity or obligated person to obtain business for a third party, such as an investment adviser, broker-dealer, or bank. Solicitors must register as municipal advisors and comply with MSRB rules, including disclosure of compensation and conflicts, and adherence to political contribution restrictions."
+  },
+  {
+    "id": "series50-fc026",
+    "topic": "series50-t4",
+    "topicName": "Municipal Financial Products",
+    "front": "What is a termination payment on a swap?",
+    "back": "A termination payment is the amount owed by one party when a municipal swap is terminated before its scheduled maturity. The payment is based on the mark-to-market value of the swap at termination. If interest rates have moved against the municipality, the termination payment can be substantial. Municipal advisors must ensure clients understand this risk."
+  },
+  {
+    "id": "series50-fc027",
+    "topic": "series50-t6",
+    "topicName": "Registration and Compliance",
+    "front": "What is the SEC's examination authority over municipal advisors?",
+    "back": "The SEC has examination and enforcement authority over municipal advisors, established by the Dodd-Frank Act. The SEC can inspect books and records, investigate potential violations, and bring enforcement actions. FINRA also has examination authority over municipal advisors that are broker-dealers. The MSRB writes rules but relies on these entities for enforcement."
+  },
+  {
+    "id": "series50-fc028",
+    "topic": "series50-t5",
+    "topicName": "Municipal Securities Issuance",
+    "front": "What is a refunding bond?",
+    "back": "A refunding bond is issued to retire an existing bond issue, typically to take advantage of lower interest rates or to remove restrictive covenants. A current refunding retires the old bonds within 90 days. An advance refunding retires them more than 90 days in the future, with proceeds held in escrow. Municipal advisors analyze whether refunding achieves sufficient present value savings."
+  },
+  {
+    "id": "series50-fc029",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty",
+    "front": "Can a municipal advisor have conflicts of interest?",
+    "back": "Yes, municipal advisors may have conflicts of interest, but they must fully disclose all material conflicts to the client in writing and manage them appropriately. Some conflicts may be so severe that they cannot be adequately managed and must be eliminated. The advisor must receive informed consent from the client before proceeding despite disclosed conflicts."
+  },
+  {
+    "id": "series50-fc030",
+    "topic": "series50-t3",
+    "topicName": "MSRB Rules for Municipal Advisors",
+    "front": "What is MSRB Rule G-10 regarding municipal advisor client education?",
+    "back": "Rule G-10 requires municipal advisors to provide an educational notice to their clients describing the protections available under MSRB rules and how to file a complaint with the appropriate regulatory authority. The notice must be provided at or before the establishment of the advisory relationship and informs clients of their rights and available resources."
+  }
+]

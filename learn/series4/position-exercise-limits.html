@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 4 Chapter 4: Position & Exercise Limits — Regulatory position limits by tier, exercise limits, aggregation rules, reporting requirements, and hedge exemptions.">
+  <title>Position & Exercise Limits — Series 4 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series4" data-chapter="position-exercise-limits">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a>
+      <nav class="nav-desktop" aria-label="Main navigation"><ul class="nav-desktop__list"><li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="nav-desktop__link">Exams</a></li><li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li><li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li><li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li><li><a href="../../progress/" class="nav-desktop__link">Progress</a></li></ul></nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden><ul class="mobile-nav__list"><li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li><li><a href="../../exams/" class="mobile-nav__link">Exams</a></li><li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li><li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li><li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li><li><a href="../../progress/" class="mobile-nav__link">Progress</a></li></ul></nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-principal">Chapter 4</span>
+          <h1>Position & Exercise Limits</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 18 min read</span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Series 4</span>
+          </div>
+        </div>
+
+        <section class="lesson__section" id="position-limit-fundamentals">
+          <h2>Position Limit Fundamentals</h2>
+
+          <p>Position limits are regulatory caps on the number of options contracts on the same side of the market that a single investor (or group of related investors) may hold in a particular underlying security. These limits are established by the exchanges and enforced by broker-dealers to prevent market manipulation, ensure market integrity, and protect against excessive market concentration.</p>
+
+          <p>The Registered Options Principal has a critical supervisory responsibility to monitor customer positions and ensure compliance with position and exercise limits. Violations can result in severe regulatory sanctions, including fines, suspensions, and trading restrictions for both the firm and the customer.</p>
+
+          <h3>Purpose of Position Limits</h3>
+
+          <p>Position limits serve several important regulatory objectives:</p>
+
+          <ul>
+            <li><strong>Prevent Market Manipulation:</strong> Position limits prevent any single investor or group from accumulating positions large enough to artificially influence the price of the underlying security, particularly during expiration.</li>
+            <li><strong>Ensure Orderly Markets:</strong> By limiting position size, regulators reduce the risk of delivery squeezes, settlement failures, and other disruptions to market functioning.</li>
+            <li><strong>Maintain Liquidity:</strong> Limits help ensure that market makers and other liquidity providers can fulfill their obligations without undue concentration of risk.</li>
+            <li><strong>Protect Market Integrity:</strong> Position limits deter cornering strategies and other abusive practices that could undermine confidence in the options markets.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Position Limit:</strong> The maximum number of options contracts on the same side of the market that an investor or group of related accounts may hold in a particular underlying security. Position limits are established by the exchanges and vary by tier based on the trading volume and market capitalization of the underlying security.</p>
+            </div>
+          </div>
+
+          <h3>Application to All Account Types</h3>
+
+          <p>Position limits apply across all account types controlled by or related to a single investor or entity, including:</p>
+
+          <ul>
+            <li>Individual cash and margin accounts</li>
+            <li>Joint accounts where the investor has an interest</li>
+            <li>Accounts of family members living in the same household</li>
+            <li>Corporate, partnership, or LLC accounts controlled by the investor</li>
+            <li>Investment adviser accounts where the investor has discretion</li>
+            <li>Accounts of related entities under common ownership or control</li>
+          </ul>
+
+          <p>The ROP must establish procedures to identify related accounts and aggregate positions accordingly. Failure to aggregate properly is a violation even if each individual account is below the limit.</p>
+        </section>
+
+        <section class="lesson__section" id="tier-structure">
+          <h2>Tier Structure for Position Limits</h2>
+
+          <p>Position limits are organized into five tiers based on the trading volume and outstanding shares of the underlying security. Each tier has a specified position limit that applies to the number of contracts on the same side of the market. The tiers are designed to provide greater flexibility for more liquid securities while maintaining tighter controls on less liquid ones.</p>
+
+          <h3>Current Tier Levels and Limits</h3>
+
+          <p>As of 2026, the exchanges have established the following tier structure for equity option position limits. The ROP must be familiar with these limits and ensure that customer positions remain within the applicable thresholds:</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Tier</th>
+                  <th>Trading Volume Criteria</th>
+                  <th>Outstanding Shares Criteria</th>
+                  <th>Position Limit</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Tier 1</td>
+                  <td class="compare-table__cell">≥100 million shares (6 months)</td>
+                  <td class="compare-table__cell">≥200 million shares</td>
+                  <td class="compare-table__cell">250,000 contracts</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Tier 2</td>
+                  <td class="compare-table__cell">≥80 million shares (6 months)</td>
+                  <td class="compare-table__cell">≥150 million shares</td>
+                  <td class="compare-table__cell">200,000 contracts</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Tier 3</td>
+                  <td class="compare-table__cell">≥60 million shares (6 months)</td>
+                  <td class="compare-table__cell">≥120 million shares</td>
+                  <td class="compare-table__cell">150,000 contracts</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Tier 4</td>
+                  <td class="compare-table__cell">≥40 million shares (6 months)</td>
+                  <td class="compare-table__cell">≥100 million shares</td>
+                  <td class="compare-table__cell">100,000 contracts</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Tier 5</td>
+                  <td class="compare-table__cell">Below Tier 4 thresholds</td>
+                  <td class="compare-table__cell">Below Tier 4 thresholds</td>
+                  <td class="compare-table__cell">25,000 contracts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <p>To qualify for a higher tier, the underlying security must meet <strong>both</strong> the trading volume and outstanding shares criteria. Trading volume is measured as the total number of shares traded across all U.S. markets over the most recent six-month period.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 4 exam frequently tests position limit tier assignments. Remember that a security must meet <strong>both</strong> the trading volume <strong>and</strong> outstanding shares criteria to qualify for a particular tier. If it only meets one criterion, it drops to the next lower tier. The most liquid securities (Tier 1) have a 250,000 contract limit, while the least liquid (Tier 5) have only a 25,000 contract limit.</p>
+            </div>
+          </div>
+
+          <h3>Broad-Based Index Options</h3>
+
+          <p>Position limits for broad-based index options are generally higher than for individual equity options because indexes represent diversified portfolios and are less susceptible to manipulation. Common broad-based indexes may have position limits of 500,000 contracts or higher, depending on the specific index and exchange rules.</p>
+
+          <p>Examples of broad-based indexes include the S&P 500 (SPX), Nasdaq-100 (NDX), Russell 2000 (RUT), and Dow Jones Industrial Average (DJX). The ROP should consult exchange notices for the current position limits applicable to each index option.</p>
+        </section>
+
+        <section class="lesson__section" id="aggregation-rules">
+          <h2>Aggregation Rules: Same-Side Positions</h2>
+
+          <p>Understanding aggregation is critical to position limit compliance. The exchanges require that positions on the same side of the market be aggregated when determining compliance with position limits. Positions on opposite sides need not be aggregated, as they represent offsetting market exposures.</p>
+
+          <h3>Same-Side vs. Opposite-Side Positions</h3>
+
+          <p>Positions are classified based on their directional exposure to the underlying security:</p>
+
+          <ul>
+            <li><strong>Same Side (Bullish):</strong> Long calls and short puts. These positions benefit from increases in the underlying security's price.</li>
+            <li><strong>Same Side (Bearish):</strong> Long puts and short calls. These positions benefit from decreases in the underlying security's price.</li>
+          </ul>
+
+          <p>The position limit applies separately to each side of the market. An investor may hold up to the position limit on the bullish side and simultaneously hold up to the position limit on the bearish side.</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Position Type</th>
+                  <th>Market Side</th>
+                  <th>Aggregation Rule</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Long Calls</td>
+                  <td class="compare-table__cell">Bullish (Same Side)</td>
+                  <td class="compare-table__cell">Aggregate with Short Puts</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Short Puts</td>
+                  <td class="compare-table__cell">Bullish (Same Side)</td>
+                  <td class="compare-table__cell">Aggregate with Long Calls</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Long Puts</td>
+                  <td class="compare-table__cell">Bearish (Same Side)</td>
+                  <td class="compare-table__cell">Aggregate with Short Calls</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Short Calls</td>
+                  <td class="compare-table__cell">Bearish (Same Side)</td>
+                  <td class="compare-table__cell">Aggregate with Long Puts</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Aggregation Example</h3>
+
+          <p>Consider a Tier 4 security with a position limit of 100,000 contracts. A customer holds the following positions:</p>
+
+          <ul>
+            <li>Long 60,000 XYZ calls</li>
+            <li>Short 30,000 XYZ puts</li>
+            <li>Long 50,000 XYZ puts</li>
+            <li>Short 40,000 XYZ calls</li>
+          </ul>
+
+          <p><strong>Bullish Side Calculation:</strong><br>
+          Long calls: 60,000<br>
+          Short puts: 30,000<br>
+          Total bullish: 90,000 contracts (within the 100,000 limit)</p>
+
+          <p><strong>Bearish Side Calculation:</strong><br>
+          Long puts: 50,000<br>
+          Short calls: 40,000<br>
+          Total bearish: 90,000 contracts (within the 100,000 limit)</p>
+
+          <p>This customer is in compliance because both sides are below the 100,000 contract limit. Note that the bullish and bearish positions are not aggregated together because they are on opposite sides of the market.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>The ROP must aggregate positions across all related accounts, including accounts at other broker-dealers. When a customer reports positions held away at other firms, the ROP must factor those positions into the position limit calculation. Customers have an affirmative duty to disclose related accounts and positions held elsewhere.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="exercise-limits">
+          <h2>Exercise Limits</h2>
+
+          <p>Exercise limits are closely related to position limits and serve a complementary regulatory function. An exercise limit is the maximum number of contracts that an investor or group of related accounts may exercise within any five consecutive business days. Exercise limits are designed to prevent investors from using exercise and assignment to manipulate the price of the underlying security, particularly during expiration periods.</p>
+
+          <h3>Exercise Limit Rules</h3>
+
+          <p>The key principles of exercise limits are:</p>
+
+          <ul>
+            <li><strong>Limit Matches Position Limit:</strong> For most equity options, the exercise limit equals the position limit for the same underlying security. If the position limit is 100,000 contracts, the exercise limit is also 100,000 contracts.</li>
+            <li><strong>Five Business Day Period:</strong> The limit applies to the total number of contracts exercised over any rolling five consecutive business day period, not just a calendar week.</li>
+            <li><strong>Same-Side Aggregation:</strong> Like position limits, exercise limits apply on a same-side basis. Exercises of long calls and assignments of short puts are aggregated (bullish side), while exercises of long puts and assignments of short calls are aggregated (bearish side).</li>
+            <li><strong>All Related Accounts:</strong> The ROP must aggregate exercises across all accounts under common control or ownership.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>Exercise limits prevent investors from using rapid exercise activity to create artificial pressure on the underlying security. The five-day rolling window ensures that investors cannot circumvent the limit by spacing exercises across arbitrary calendar periods. The ROP must monitor exercise activity continuously, not just on expiration dates.</p>
+            </div>
+          </div>
+
+          <h3>ROP Supervisory Obligations for Exercises</h3>
+
+          <p>The Registered Options Principal must ensure that the firm has procedures in place to monitor and prevent exercise limit violations:</p>
+
+          <ul>
+            <li>Establish automated systems to track cumulative exercises over rolling five-day periods</li>
+            <li>Identify accounts approaching exercise limits and communicate with customers before violations occur</li>
+            <li>Block or reject exercise instructions that would cause a violation</li>
+            <li>Maintain records of all customer exercises and the firm's monitoring activities</li>
+            <li>Report exercise limit violations to the appropriate exchange and regulatory authorities</li>
+          </ul>
+
+          <p>During expiration periods, when exercise activity is highest, the ROP should ensure heightened supervisory attention to exercise limit compliance.</p>
+        </section>
+
+        <section class="lesson__section" id="reporting-requirements">
+          <h2>Reporting Requirements and Thresholds</h2>
+
+          <p>When customer positions reach specified reporting thresholds, the broker-dealer has an obligation to report those positions to the exchange where the options are listed or to the Options Clearing Corporation (OCC). These reporting requirements help exchanges monitor for potential manipulation and ensure overall market integrity.</p>
+
+          <h3>Aggregate Position Reporting</h3>
+
+          <p>Broker-dealers must report positions that meet or exceed the following thresholds:</p>
+
+          <ul>
+            <li><strong>200 Contracts or More:</strong> For certain closely monitored securities, positions of 200 or more contracts on the same side of the market must be reported.</li>
+            <li><strong>Threshold Varies by Security:</strong> The specific reporting threshold may vary depending on the underlying security, the tier classification, and current exchange rules. The ROP should consult exchange circulars for the most current reporting requirements.</li>
+            <li><strong>Daily Reporting:</strong> Reports are typically required on a daily basis for positions that meet or exceed the threshold as of the end of the prior trading day.</li>
+            <li><strong>Related Account Aggregation:</strong> The reporting obligation is based on aggregated positions across all related accounts, consistent with position limit rules.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 4 exam may test the ROP's knowledge of when position reporting is required. Remember that reporting thresholds are significantly lower than position limits. A customer can have a reportable position that is well within the position limit. The most commonly tested threshold is 200 contracts for certain securities, though this may vary by exchange and security.</p>
+            </div>
+          </div>
+
+          <h3>Information Included in Reports</h3>
+
+          <p>Position reports submitted to exchanges or the OCC must include:</p>
+
+          <ul>
+            <li>Customer identification information (name, account number)</li>
+            <li>The underlying security and option series</li>
+            <li>Number of contracts held (long and short positions separately)</li>
+            <li>Whether positions are held for proprietary or customer purposes</li>
+            <li>Any known related accounts that should be aggregated</li>
+          </ul>
+
+          <p>The ROP is responsible for ensuring that the firm has systems in place to generate accurate and timely position reports. Failures to report or inaccuracies in reporting can result in regulatory sanctions.</p>
+        </section>
+
+        <section class="lesson__section" id="exemptions">
+          <h2>Exemptions and Hedge Exemptions</h2>
+
+          <p>Under certain circumstances, investors may be eligible for exemptions from position and exercise limits. These exemptions recognize that some positions are held for legitimate hedging purposes rather than speculation, and that applying limits to such positions could interfere with risk management activities.</p>
+
+          <h3>Hedge Exemption Criteria</h3>
+
+          <p>A hedge exemption allows an investor to hold options positions in excess of the standard position limits when those positions are used to hedge a bona fide risk in the underlying security. To qualify for a hedge exemption, the investor must demonstrate:</p>
+
+          <ul>
+            <li><strong>Hedged Position in Underlying:</strong> The investor must have an existing or anticipated position in the underlying security (stock, convertible securities, or other derivatives) that is being hedged.</li>
+            <li><strong>Reduced Risk:</strong> The options position must demonstrably reduce the overall market risk of the combined position. The hedge must offset risk rather than increase it.</li>
+            <li><strong>Prior Approval:</strong> Hedge exemptions generally require advance approval from the relevant exchange. The investor (through the broker-dealer) must submit a hedge exemption request detailing the hedged position and the rationale for the exemption.</li>
+            <li><strong>Ongoing Compliance:</strong> The investor must maintain the hedge relationship and notify the exchange if the underlying position changes in a way that affects the hedge exemption.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Hedge Exemption:</strong> A regulatory exemption that allows an investor to exceed standard position limits when options are used to hedge a bona fide position in the underlying security. Hedge exemptions must be approved in advance by the exchange and require documentation of the underlying position and the hedging strategy.</p>
+            </div>
+          </div>
+
+          <h3>Examples of Qualifying Hedges</h3>
+
+          <ul>
+            <li><strong>Equity Portfolio Hedging:</strong> An institutional investor holding a large block of stock may use put options to hedge downside risk. If the stock position exceeds the deliverable amount represented by the position limit, a hedge exemption may be appropriate.</li>
+            <li><strong>Convertible Arbitrage:</strong> A hedge fund holding convertible bonds may establish short call positions to hedge the embedded equity exposure. The short calls may qualify for a hedge exemption based on the convertible position.</li>
+            <li><strong>Market Maker Hedging:</strong> Market makers in options or the underlying security may receive exemptions to facilitate their market-making activities, though these are typically granted under separate market maker exemption rules rather than hedge exemptions.</li>
+          </ul>
+
+          <h3>Non-Qualifying Positions</h3>
+
+          <p>The following do <strong>not</strong> qualify for hedge exemptions:</p>
+
+          <ul>
+            <li>Positions intended to profit from price movements (speculative positions)</li>
+            <li>Options hedged only by other options (e.g., a spread position with no underlying exposure)</li>
+            <li>Positions where the hedge ratio is excessive relative to the underlying exposure</li>
+            <li>Positions that increase rather than reduce overall portfolio risk</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>The ROP must not allow customers to exceed position limits without a valid, exchange-approved hedge exemption in place. Operating under the assumption that an exemption will be granted, or self-determining that a position qualifies as a hedge, is not acceptable. All hedge exemptions must be submitted to and approved by the exchange <strong>before</strong> the positions exceed the standard limits.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="rop-supervisory-obligations">
+          <h2>ROP Supervisory Monitoring Obligations</h2>
+
+          <p>The Registered Options Principal has comprehensive supervisory responsibilities regarding position and exercise limits. These obligations extend beyond simply preventing violations; they include establishing robust monitoring systems, educating customers and staff, and maintaining thorough documentation of compliance efforts.</p>
+
+          <h3>Key Supervisory Responsibilities</h3>
+
+          <ul>
+            <li><strong>Implement Automated Monitoring:</strong> The ROP must ensure the firm has automated systems that calculate aggregated positions in real time and generate alerts when customers approach position or exercise limits. Manual monitoring is insufficient for firms with significant options activity.</li>
+            <li><strong>Identify Related Accounts:</strong> The firm must have procedures to identify related accounts, including accounts at other broker-dealers. This may involve customer questionnaires, review of account documentation, and ongoing due diligence.</li>
+            <li><strong>Customer Communication:</strong> When a customer approaches a position or exercise limit (typically at 75-80% of the limit), the ROP should ensure that the customer is notified and understands the implications. Written communication creating a compliance record is recommended.</li>
+            <li><strong>Block Violative Transactions:</strong> The firm's systems should be configured to block orders that would cause a position limit violation. If a customer attempts to enter an order that would result in a violation, the order should be rejected with an explanation.</li>
+            <li><strong>Exception Reports:</strong> The ROP should review daily exception reports showing all positions above specified thresholds (e.g., 50% of position limit, 75% of position limit) and any positions that are approaching or have exceeded limits.</li>
+            <li><strong>Training and Education:</strong> All registered representatives handling options accounts must be trained on position and exercise limits, aggregation rules, and the firm's procedures for monitoring compliance.</li>
+          </ul>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>ROP monitoring: <strong>"IARBE"</strong> = <strong>I</strong>dentify related accounts, <strong>A</strong>utomated systems, <strong>R</strong>eport to exchanges, <strong>B</strong>lock violative trades, <strong>E</strong>ducate customers and staff. Follow IARBE to maintain strong supervisory control over position limits.</p>
+            </div>
+          </div>
+
+          <h3>Violation Consequences</h3>
+
+          <p>Position and exercise limit violations can result in severe regulatory consequences for both the firm and the customer:</p>
+
+          <ul>
+            <li><strong>Customer Sanctions:</strong> Customers who violate limits may face trading suspensions, financial penalties, and in egregious cases, permanent bans from options trading.</li>
+            <li><strong>Firm Sanctions:</strong> The broker-dealer may face fines from FINRA and the exchanges, as well as requirements to enhance supervisory systems. Repeated violations can lead to restrictions on the firm's options activities.</li>
+            <li><strong>ROP Liability:</strong> The ROP may be subject to individual sanctions, including fines and suspension, if violations result from inadequate supervision.</li>
+            <li><strong>Mandatory Position Reduction:</strong> In the event of a violation, the exchange or OCC may require immediate liquidation of positions to bring the account back into compliance, potentially resulting in significant losses for the customer.</li>
+          </ul>
+
+          <p>Given these serious consequences, the ROP must treat position and exercise limit compliance as a top priority and ensure that all supervisory procedures are operating effectively.</p>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>Position and exercise limits are among the most important regulatory constraints in options trading. The ROP's supervisory obligations require proactive monitoring, robust systems, clear customer communication, and diligent recordkeeping. Violations are treated seriously by regulators and can have significant consequences for all parties involved. Prevention through effective supervision is far preferable to remediation after a violation occurs.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Check Your Understanding</h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of position and exercise limits. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. A Tier 1 security with the highest position limit can have a maximum of how many contracts on the same side of the market?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) 250,000 contracts</button>
+              <button class="answer-btn" data-correct="false">B) 200,000 contracts</button>
+              <button class="answer-btn" data-correct="false">C) 150,000 contracts</button>
+              <button class="answer-btn" data-correct="false">D) 100,000 contracts</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Tier 1 securities, which are the most liquid and meet both the highest trading volume and outstanding shares criteria, have a position limit of 250,000 contracts on the same side of the market. This is the highest standard position limit for equity options.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Which of the following positions must be aggregated for position limit purposes?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Long calls and long puts</button>
+              <button class="answer-btn" data-correct="true">B) Long calls and short puts</button>
+              <button class="answer-btn" data-correct="false">C) Long puts and long calls</button>
+              <button class="answer-btn" data-correct="false">D) Long calls and short calls</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Long calls and short puts are on the same side of the market (bullish) and must be aggregated for position limit purposes. Both positions benefit from increases in the underlying security's price and therefore represent the same directional exposure.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Exercise limits apply to the total number of contracts exercised within:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Any calendar month</button>
+              <button class="answer-btn" data-correct="false">B) Any single trading day</button>
+              <button class="answer-btn" data-correct="true">C) Any five consecutive business days</button>
+              <button class="answer-btn" data-correct="false">D) Any calendar quarter</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Exercise limits apply to the total number of contracts that may be exercised within any five consecutive business days. This rolling five-day window ensures that investors cannot circumvent the limit by spacing exercises across arbitrary calendar periods.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. A customer holds 60,000 long calls and 50,000 short puts in a Tier 4 security (100,000 contract limit). The customer wants to purchase 5,000 additional calls. What should the ROP do?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Approve the order because each position type is below the limit</button>
+              <button class="answer-btn" data-correct="false">B) Approve the order because the total is below 200,000 contracts</button>
+              <button class="answer-btn" data-correct="true">C) Reject the order because it would cause a position limit violation</button>
+              <button class="answer-btn" data-correct="false">D) Approve the order after obtaining a hedge exemption</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">The customer currently has 110,000 contracts on the bullish side (60,000 long calls + 50,000 short puts), which already exceeds the 100,000 contract limit for Tier 4. The ROP must reject the order as it would increase an already violative position. The customer must first reduce positions to comply with the limit.</div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. A hedge exemption from position limits requires:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Advance approval from the relevant exchange</button>
+              <button class="answer-btn" data-correct="false">B) Only internal firm approval from the ROP</button>
+              <button class="answer-btn" data-correct="false">C) Notification to FINRA within 5 business days</button>
+              <button class="answer-btn" data-correct="false">D) Automatic qualification if the position is a hedge</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">Hedge exemptions require advance approval from the relevant exchange. The investor, through the broker-dealer, must submit a hedge exemption request detailing the underlying position and demonstrating that the options position reduces risk. Self-determination of hedge status or relying solely on internal approval is not sufficient.</div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Mark Chapter Complete</button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="exercise-assignment.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span>
+            <div><span class="lesson__nav-label">Previous Chapter</span><span class="lesson__nav-title">Chapter 3 — Exercise &amp; Assignment</span></div>
+          </a>
+          <a href="options-margin.html" class="lesson__nav-link lesson__nav-link--next">
+            <div><span class="lesson__nav-label">Next Chapter</span><span class="lesson__nav-title">Chapter 5 — Options Margin</span></div>
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc"><p class="lesson__toc-title">On This Page</p><ul class="lesson__toc-list"></ul></aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a><p class="footer__tagline">Free exam prep for every aspiring finance professional.</p></div>
+        <div class="footer__col"><h4 class="footer__col-title">Exams</h4><ul class="footer__links"><li><a href="../../exams/sie.html">SIE</a></li><li><a href="../../exams/series7.html">Series 7</a></li><li><a href="../../exams/series63.html">Series 63</a></li><li><a href="../../exams/series65.html">Series 65</a></li><li><a href="../../exams/series66.html">Series 66</a></li><li><a href="../../exams/">View All Exams</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Tools</h4><ul class="footer__links"><li><a href="../../learn/">Learn</a></li><li><a href="../../quiz/">Practice Quizzes</a></li><li><a href="../../flashcards/">Flashcards</a></li><li><a href="../../pathways/">Career Pathways</a></li><li><a href="../../progress/">Progress Tracker</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">About</h4><ul class="footer__links"><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../privacy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms of Use</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p></div>
+      <div class="footer__bottom"><p>&copy; 2026 LearnFinance. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

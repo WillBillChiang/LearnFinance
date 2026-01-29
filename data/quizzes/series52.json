@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series52-q001",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "General obligation (GO) bonds are secured by:",
+    "choices": ["A. Revenue from a specific project", "B. The full faith, credit, and taxing power of the issuing municipality", "C. Corporate guarantees", "D. Federal government backing"],
+    "correct": 1,
+    "explanation": "General obligation bonds are backed by the full faith, credit, and taxing power of the issuing municipality. For local government GO bonds, this typically means property (ad valorem) taxes. For state GO bonds, it means income taxes, sales taxes, or other state revenue sources. GO bonds are considered among the safest municipal securities."
+  },
+  {
+    "id": "series52-q002",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "Revenue bonds differ from general obligation bonds in that they are:",
+    "choices": ["A. Always rated higher than GO bonds", "B. Backed by the revenue generated from the specific project financed by the bond issue", "C. Issued only by state governments", "D. Exempt from all taxation"],
+    "correct": 1,
+    "explanation": "Revenue bonds are secured by the revenue generated from the specific project or facility financed by the bonds, such as toll roads, airports, hospitals, or water systems. They are NOT backed by the taxing power of the issuer. The security depends on the project's ability to generate sufficient revenue to cover debt service."
+  },
+  {
+    "id": "series52-q003",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "A municipal bond's coupon interest is generally exempt from:",
+    "choices": ["A. Federal income tax only", "B. Federal income tax and state/local income tax if purchased by a resident of the issuing state", "C. All taxes including property tax", "D. Capital gains tax"],
+    "correct": 1,
+    "explanation": "Municipal bond coupon interest is generally exempt from federal income tax. Additionally, if the bondholder resides in the state where the bond was issued, the interest may also be exempt from state and local income taxes (triple tax-exempt). Capital gains from selling municipal bonds at a profit are still taxable."
+  },
+  {
+    "id": "series52-q004",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "The debt service coverage ratio for a revenue bond measures:",
+    "choices": ["A. The issuer's total outstanding debt", "B. The ratio of net revenue available for debt service to annual debt service requirements", "C. The bond's credit rating", "D. The percentage of the bond that has been repaid"],
+    "correct": 1,
+    "explanation": "The debt service coverage ratio equals net revenue (gross revenue minus operating expenses) divided by annual debt service (principal and interest). A ratio greater than 1.0 means the project generates enough revenue to cover debt payments. Higher ratios indicate stronger credit quality. Investors and rating agencies closely monitor this metric."
+  },
+  {
+    "id": "series52-q005",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "In the flow of funds for a net revenue pledge, operating and maintenance expenses are paid:",
+    "choices": ["A. After debt service", "B. Before debt service from gross revenues", "C. Only from reserve funds", "D. By the state government"],
+    "correct": 1,
+    "explanation": "Under a net revenue pledge, operating and maintenance expenses are paid first from gross revenues, and the remaining net revenue is then used to pay debt service. This differs from a gross revenue pledge where debt service is paid first from gross revenues before operating expenses. Net revenue pledges are more common."
+  },
+  {
+    "id": "series52-q006",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "MSRB Rule G-30 requires that municipal bond prices and markups/markdowns be:",
+    "choices": ["A. Set by the MSRB", "B. Fair and reasonable based on market conditions", "C. The same for all dealers", "D. Published daily in newspapers"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-30 requires that the prices at which dealers sell municipal securities to customers and the markups or markdowns applied to transactions be fair and reasonable. Factors considered include the fair market value, the expense of executing the transaction, and the availability of the security."
+  },
+  {
+    "id": "series52-q007",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "A term bond has which of the following characteristics?",
+    "choices": ["A. Different portions of the issue mature at different dates", "B. The entire issue matures on a single date", "C. The bonds have no maturity date", "D. The bonds mature within one year of issuance"],
+    "correct": 1,
+    "explanation": "A term bond is a municipal bond where the entire issue matures on a single date. This is in contrast to serial bonds, where portions of the issue mature at regular intervals over time. Term bonds often have a mandatory sinking fund to retire portions of the debt prior to the maturity date."
+  },
+  {
+    "id": "series52-q008",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "The yield to call (YTC) on a municipal bond is important because:",
+    "choices": ["A. Most municipal bonds are never called", "B. If the bond is called before maturity, the actual yield received may differ from the yield to maturity", "C. It determines the bond's coupon rate", "D. It is required for tax calculations"],
+    "correct": 1,
+    "explanation": "Yield to call is important because if a bond is called before maturity (often when interest rates decline), the investor receives the call price rather than holding to maturity. For premium bonds, the yield to call may be lower than YTM. MSRB rules require that when a bond is quoted at a premium, the lower of YTC or YTM must be disclosed."
+  },
+  {
+    "id": "series52-q009",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "Under MSRB Rule G-12, the standard settlement for municipal securities in the secondary market is:",
+    "choices": ["A. Trade date (T+0)", "B. Trade date plus one business day (T+1)", "C. Trade date plus two business days (T+2)", "D. Trade date plus three business days (T+3)"],
+    "correct": 1,
+    "explanation": "Under MSRB Rule G-12, the standard settlement for municipal securities in the secondary market is regular way settlement, which is trade date plus one business day (T+1) effective May 28, 2024. For new issues, settlement is typically on the delivery date specified by the underwriter. Cash settlement (same day) is also available."
+  },
+  {
+    "id": "series52-q010",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "A double-barreled bond is secured by:",
+    "choices": ["A. Two separate municipal issuers", "B. Both the revenue from a specific project and the full faith and credit of the issuer", "C. Federal and state guarantees", "D. Two different credit rating agencies"],
+    "correct": 1,
+    "explanation": "A double-barreled bond has two sources of security: the revenue from a specific project AND the full faith and credit (taxing power) of the municipal issuer. This provides additional protection to bondholders because if project revenue is insufficient, the issuer's taxing power backs the bonds."
+  },
+  {
+    "id": "series52-q011",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "An investor in the 35% federal tax bracket is comparing a municipal bond yielding 3.5% with a corporate bond. What taxable yield would the investor need to earn on the corporate bond to match the municipal bond's after-tax return?",
+    "choices": ["A. 3.50%", "B. 4.62%", "C. 5.38%", "D. 6.00%"],
+    "correct": 2,
+    "explanation": "Tax-equivalent yield = Municipal yield / (1 - tax rate) = 3.5% / (1 - 0.35) = 3.5% / 0.65 = 5.38%. The investor would need to earn 5.38% on a taxable corporate bond to equal the after-tax return of the 3.5% tax-exempt municipal bond."
+  },
+  {
+    "id": "series52-q012",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "Under MSRB Rule G-11, the syndicate manager must provide priority provisions to syndicate members. The typical order of priority is:",
+    "choices": ["A. Member, group, presale, designated", "B. Presale, group net, designated (member), member-related", "C. Group net, member, presale, designated", "D. Designated, member-related, presale, group net"],
+    "correct": 1,
+    "explanation": "The typical priority of orders in a municipal bond syndicate is: (1) Presale orders (received before the bid is awarded), (2) Group net orders (benefit the entire syndicate), (3) Designated orders (specified by the buyer for specific syndicate members), and (4) Member and member-related orders. The manager sets this priority in the syndicate agreement."
+  },
+  {
+    "id": "series52-q013",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "Moral obligation bonds are characterized by:",
+    "choices": ["A. A legal obligation of the state to fund debt service shortfalls", "B. A non-binding commitment by the state legislature to appropriate funds if needed, which is not legally enforceable", "C. Federal government guarantee", "D. Full faith and credit of the municipality"],
+    "correct": 1,
+    "explanation": "Moral obligation bonds carry a non-binding commitment from the state legislature to appropriate funds to replenish the debt service reserve if it is drawn down. This commitment is not legally enforceable (hence 'moral' rather than 'legal' obligation), but the state's willingness to step in provides additional credit support."
+  },
+  {
+    "id": "series52-q014",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "A municipal bond is purchased at a premium in the secondary market. For tax purposes, the premium must be:",
+    "choices": ["A. Deducted from income in the year of purchase", "B. Amortized over the remaining life of the bond, reducing the cost basis", "C. Ignored for tax purposes", "D. Added to the bondholder's income"],
+    "correct": 1,
+    "explanation": "When a municipal bond is purchased at a premium in the secondary market, the premium must be amortized over the remaining life of the bond. This amortization reduces the bondholder's cost basis each year. Unlike taxable bonds, the amortization of premium on municipal bonds does not create a tax deduction."
+  },
+  {
+    "id": "series52-q015",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "MSRB Rule G-10 requires that dealers provide which document to customers upon opening an account?",
+    "choices": ["A. The firm's annual financial statement", "B. A written disclosure about investor protections, including the MSRB's investor brochure", "C. A list of all the firm's municipal bond holdings", "D. The dealer's FINRA examination results"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-10 requires dealers to provide customers with a written disclosure about investor protections, including how to obtain information from the MSRB about their rights and protections. The MSRB investor brochure describes available investor resources, including EMMA and how to file complaints."
+  },
+  {
+    "id": "series52-q016",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "A certificate of participation (COP) represents:",
+    "choices": ["A. A share in a municipal bond mutual fund", "B. A share in a lease financing arrangement where investors receive lease payments made by a government entity", "C. Ownership of municipal land", "D. A certificate of deposit issued by a municipal bank"],
+    "correct": 1,
+    "explanation": "Certificates of participation represent ownership interests in a pool of lease payments made by a government entity. COPs allow governments to finance capital projects without issuing traditional bonds (which may require voter approval). Investors receive a portion of the lease payments as interest income."
+  },
+  {
+    "id": "series52-q017",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "When analyzing a general obligation bond, which of the following is MOST important?",
+    "choices": ["A. The toll revenue from a specific highway", "B. The municipality's tax base, debt levels, economic indicators, and financial management", "C. The interest rate on competing corporate bonds", "D. The municipal bond's trading volume"],
+    "correct": 1,
+    "explanation": "GO bond analysis focuses on the municipality's ability to tax and its financial health. Key factors include the breadth and stability of the tax base (assessed property values, income levels), existing debt levels, overlapping debt, budgetary management, economic conditions, and demographic trends."
+  },
+  {
+    "id": "series52-q018",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "Under MSRB Rule G-34, a new municipal bond issue must receive a CUSIP number:",
+    "choices": ["A. After the bonds have been trading for 30 days", "B. No later than one business day after the date of sale", "C. Only if the issue exceeds $10 million", "D. Only if requested by investors"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-34 requires that the managing underwriter of a new municipal issue apply for CUSIP numbers no later than one business day after the date of sale (award date). CUSIP numbers are essential for identifying, clearing, and settling municipal securities transactions."
+  },
+  {
+    "id": "series52-q019",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "Advance refunding of municipal bonds refers to:",
+    "choices": ["A. Refunding bonds less than 90 days before their call date", "B. Issuing new bonds more than 90 days before the call date of the outstanding bonds, with proceeds held in escrow", "C. Returning bond proceeds to investors before maturity", "D. Advancing the maturity date of the bonds"],
+    "correct": 1,
+    "explanation": "Advance refunding occurs when an issuer sells new bonds more than 90 days before the call date of outstanding bonds. The proceeds are typically invested in U.S. government securities held in escrow until the call date, when the old bonds are redeemed. Current refunding occurs within 90 days of the call date."
+  },
+  {
+    "id": "series52-q020",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "A pre-refunded municipal bond is considered to have credit quality equivalent to:",
+    "choices": ["A. The original issuer's credit rating", "B. U.S. Treasury securities, since the escrow is funded with government obligations", "C. The lowest-rated municipal bond", "D. An unrated bond"],
+    "correct": 1,
+    "explanation": "A pre-refunded (defeased) municipal bond is backed by U.S. government securities held in escrow, which will generate sufficient funds to pay all debt service and redeem the bonds at the call date. Therefore, the credit quality is essentially equivalent to U.S. Treasury securities, regardless of the original issuer's credit rating."
+  },
+  {
+    "id": "series52-q021",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "Under MSRB Rule G-19, before making a recommendation, a municipal securities representative must:",
+    "choices": ["A. Obtain the customer's written consent to trade", "B. Have reasonable grounds to believe the recommendation is suitable based on the customer's investment profile", "C. Guarantee the bond will not default", "D. Obtain approval from the MSRB"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-19 requires that before recommending a municipal security transaction, the representative must have reasonable grounds for believing the recommendation is suitable for the customer based on information obtained about the customer's investment objectives, financial situation, needs, and other relevant factors."
+  },
+  {
+    "id": "series52-q022",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "A Build America Bond (BAB) differs from a traditional municipal bond because:",
+    "choices": ["A. It is issued only by the federal government", "B. Its interest is taxable to investors, and the issuer receives a federal subsidy", "C. It is exempt from all federal and state taxes", "D. It is backed by corporate guarantees"],
+    "correct": 1,
+    "explanation": "Build America Bonds (BABs), created under the American Recovery and Reinvestment Act of 2009, are taxable municipal bonds. The issuer receives a federal subsidy (35% of interest costs) in the direct payment version, making the effective borrowing cost comparable to tax-exempt bonds. BABs broadened the investor base for municipal bonds."
+  },
+  {
+    "id": "series52-q023",
+    "topic": "series52-t2",
+    "topicName": "Municipal Bond Analysis",
+    "question": "Overlapping debt refers to:",
+    "choices": ["A. Debt that exceeds the issuer's capacity to pay", "B. The proportionate share of debt from other overlapping governmental entities that falls on the same tax base", "C. Debt from previous bond issues that has not been retired", "D. Debt that has been refinanced multiple times"],
+    "correct": 1,
+    "explanation": "Overlapping debt is the portion of debt from other governmental entities (such as school districts, counties, or special districts) whose boundaries overlap with the issuing municipality and share the same tax base. This additional debt burden must be considered when analyzing the total debt load on the community's tax base."
+  },
+  {
+    "id": "series52-q024",
+    "topic": "series52-t3",
+    "topicName": "Municipal Securities Regulations",
+    "question": "MSRB Rule G-14 requires municipal securities dealers to report trade information to:",
+    "choices": ["A. The SEC within 24 hours", "B. The Real-Time Transaction Reporting System (RTRS) within 15 minutes of trade execution", "C. EMMA within 5 business days", "D. FINRA within 30 days"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-14 requires dealers to report municipal securities transactions to the Real-Time Transaction Reporting System (RTRS) within 15 minutes of trade execution during RTRS system hours. This trade data is then disseminated publicly through EMMA, providing transparency to the municipal securities market."
+  },
+  {
+    "id": "series52-q025",
+    "topic": "series52-t1",
+    "topicName": "Municipal Securities Fundamentals",
+    "question": "An industrial development revenue bond (IDB) is typically issued to:",
+    "choices": ["A. Fund the municipality's general operations", "B. Finance facilities for private companies, with debt service paid from the company's revenues", "C. Build public schools", "D. Repair public highways"],
+    "correct": 1,
+    "explanation": "Industrial development revenue bonds are issued by a municipality on behalf of a private company to finance the construction or acquisition of facilities. The debt service is paid from the revenues of the private company, not from public funds. These are considered private activity bonds and may be subject to the alternative minimum tax (AMT)."
+  }
+]

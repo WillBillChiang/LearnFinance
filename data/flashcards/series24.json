@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series24-fc001",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What is the role of a General Securities Principal (Series 24)?",
+    "back": "A General Securities Principal supervises and manages the securities activities of a broker-dealer firm. They are responsible for overseeing registered representatives, reviewing transactions, ensuring regulatory compliance, approving new accounts, and establishing supervisory procedures. The Series 24 license is required for anyone managing or supervising a BD's securities business."
+  },
+  {
+    "id": "series24-fc002",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What is a written supervisory procedures (WSP) manual?",
+    "back": "A WSP manual is a document that outlines the firm's policies and procedures for supervising registered representatives and ensuring compliance with securities laws and regulations. FINRA requires each broker-dealer to establish and maintain written procedures. The manual must be updated regularly and made available to all associated persons."
+  },
+  {
+    "id": "series24-fc003",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What are the supervisory responsibilities for branch offices?",
+    "back": "Each branch office must be supervised by a registered principal who conducts periodic inspections. FINRA requires on-site inspections at least annually for offices that supervise other offices and at least every three years for other branch locations. Inspections must review correspondence, transactions, customer complaints, and compliance with firm policies."
+  },
+  {
+    "id": "series24-fc004",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What is the heightened supervision requirement?",
+    "back": "Heightened supervision is required when a firm hires or retains a registered person with a history of regulatory issues, customer complaints, or disciplinary actions. The firm must implement special supervisory procedures tailored to the individual's risk profile. This may include pre-approval of transactions, enhanced review of correspondence, and more frequent audits."
+  },
+  {
+    "id": "series24-fc005",
+    "topic": "series24-t2",
+    "topicName": "Registration and Qualification",
+    "front": "What is the Form U4?",
+    "back": "Form U4 (Uniform Application for Securities Industry Registration or Transfer) is used to register individuals with FINRA and state regulators. It collects personal information, employment history, disciplinary history, and criminal background. All material information must be disclosed truthfully. Updates must be filed within 30 days of any reportable change."
+  },
+  {
+    "id": "series24-fc006",
+    "topic": "series24-t2",
+    "topicName": "Registration and Qualification",
+    "front": "What is the Form U5?",
+    "back": "Form U5 (Uniform Termination Notice for Securities Industry Registration) is filed when a registered person leaves a broker-dealer. The firm must file Form U5 within 30 days of termination. It includes the reason for departure and any regulatory or disciplinary issues. The terminated individual has the right to dispute any information on the U5."
+  },
+  {
+    "id": "series24-fc007",
+    "topic": "series24-t2",
+    "topicName": "Registration and Qualification",
+    "front": "What is the continuing education (CE) requirement?",
+    "back": "FINRA's CE program has two components: the Regulatory Element, which must be completed annually by December 31 for each registration category held (per FINRA Rule 1240, effective January 1, 2023), and the Firm Element, an annual training program designed by the firm based on its business needs. Failure to complete the Regulatory Element by the deadline results in CE-inactive status, and the person may not perform any registered activities. A registration that remains CE-inactive for two consecutive years is subject to administrative termination."
+  },
+  {
+    "id": "series24-fc008",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "front": "What is the net capital rule (Rule 15c3-1)?",
+    "back": "The net capital rule requires broker-dealers to maintain minimum levels of liquid capital to protect customers. It ensures firms can meet obligations to customers even in adverse conditions. The minimum requirements depend on the firm's activities: introducing firms typically need $50,000 to $250,000, while clearing firms need significantly more."
+  },
+  {
+    "id": "series24-fc009",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "front": "What is the Customer Protection Rule (Rule 15c3-3)?",
+    "back": "SEC Rule 15c3-3 requires broker-dealers to segregate customer securities and maintain a reserve of cash or qualified securities for customer credit balances. This prevents firms from using customer assets for proprietary purposes. The firm must perform weekly computations and deposit any shortfall into a Special Reserve Bank Account for the exclusive benefit of customers."
+  },
+  {
+    "id": "series24-fc010",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "front": "What is SIPC and what does it cover?",
+    "back": "The Securities Investor Protection Corporation (SIPC) protects customers of failed broker-dealers. It covers up to $500,000 per customer account, of which no more than $250,000 can be cash. SIPC does not protect against investment losses, only against the loss of securities held by a failed broker-dealer. All registered broker-dealers must be SIPC members."
+  },
+  {
+    "id": "series24-fc011",
+    "topic": "series24-t4",
+    "topicName": "Regulatory Reporting",
+    "front": "What is a Suspicious Activity Report (SAR)?",
+    "back": "A SAR must be filed with FinCEN when a broker-dealer detects suspicious activity that may indicate money laundering, fraud, or other illegal activity. SARs must be filed within 30 days of detection for transactions involving $5,000 or more. The firm must not notify the customer that a SAR has been filed (tipping off is prohibited)."
+  },
+  {
+    "id": "series24-fc012",
+    "topic": "series24-t4",
+    "topicName": "Regulatory Reporting",
+    "front": "What is a Currency Transaction Report (CTR)?",
+    "back": "A CTR must be filed with FinCEN for any cash transaction exceeding $10,000 in a single business day. The report must be filed within 15 days using FinCEN Form 112. Structuring transactions to avoid the $10,000 threshold is illegal. Broker-dealers must implement procedures to detect and report cash transactions meeting this threshold."
+  },
+  {
+    "id": "series24-fc013",
+    "topic": "series24-t4",
+    "topicName": "Regulatory Reporting",
+    "front": "What is the requirement for customer complaint handling?",
+    "back": "Broker-dealers must establish written procedures for handling customer complaints. Written complaints must be preserved for at least four years. Principals must review and respond to complaints promptly. FINRA Rule 4530 requires firms to report certain customer complaints and arbitration claims. Complaints alleging theft, forgery, or misappropriation must be reported within 30 days."
+  },
+  {
+    "id": "series24-fc014",
+    "topic": "series24-t5",
+    "topicName": "Communications with the Public",
+    "front": "What are the three categories of communications under FINRA rules?",
+    "back": "FINRA categorizes communications as: (1) Retail communications - distributed to more than 25 retail investors within 30 days; (2) Correspondence - distributed to 25 or fewer retail investors within 30 days; (3) Institutional communications - distributed only to institutional investors. Each category has different approval and filing requirements."
+  },
+  {
+    "id": "series24-fc015",
+    "topic": "series24-t5",
+    "topicName": "Communications with the Public",
+    "front": "What principal approval is required for retail communications?",
+    "back": "Retail communications generally must be approved by a registered principal prior to first use or filing. New member firms must file retail communications with FINRA at least 10 business days before first use during their first year. Communications about investment companies, options, and certain other products must be filed within 10 business days of first use."
+  },
+  {
+    "id": "series24-fc016",
+    "topic": "series24-t5",
+    "topicName": "Communications with the Public",
+    "front": "What are the content standards for communications with the public?",
+    "back": "All communications must be fair, balanced, and not misleading. They must present risks and benefits consistently, avoid exaggerated claims, and include proper disclosures. Past performance must not imply future results. Testimonials must disclose if compensation was paid. Projections of future performance are generally prohibited unless part of a hypothetical illustration with proper disclosures."
+  },
+  {
+    "id": "series24-fc017",
+    "topic": "series24-t6",
+    "topicName": "New Issues and Offerings",
+    "front": "What is Regulation Best Interest (Reg BI)?",
+    "back": "Reg BI requires broker-dealers to act in the best interest of retail customers when making recommendations. It has four components: Disclosure Obligation (provide Form CRS), Care Obligation (understand risks and alternatives), Conflict of Interest Obligation (mitigate conflicts), and Compliance Obligation (establish policies and procedures). It is a higher standard than suitability."
+  },
+  {
+    "id": "series24-fc018",
+    "topic": "series24-t6",
+    "topicName": "New Issues and Offerings",
+    "front": "What is FINRA Rule 5130 regarding new issue allocations?",
+    "back": "FINRA Rule 5130 restricts the sale of new equity issues (IPOs) at the public offering price to industry insiders, including broker-dealer personnel, their immediate family, and portfolio managers. The rule prevents industry professionals from profiting from IPO allocations. Firms must obtain representations from purchasers confirming eligibility before selling new issues."
+  },
+  {
+    "id": "series24-fc019",
+    "topic": "series24-t6",
+    "topicName": "New Issues and Offerings",
+    "front": "What is the quiet period for IPOs?",
+    "back": "FINRA Rule 2241 (effective 2015, Regulatory Notice 15-30) reduced post-IPO quiet periods from 40/25 days under old NASD Rule 2711 to a minimum of 10 calendar days for members that participated as underwriter or dealer. For secondary offerings, the quiet period is 3 days for managers and co-managers. These quiet periods do not apply to offerings by Emerging Growth Companies (EGCs) or covered investment funds. Structural safeguards also remain in place, including information barriers between research and investment banking, prohibition on IB pre-approval of research, and restrictions on analyst compensation tied to investment banking revenue."
+  },
+  {
+    "id": "series24-fc020",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "front": "What is a business continuity plan (BCP)?",
+    "back": "FINRA Rule 4370 requires every broker-dealer to maintain a written BCP addressing how the firm will operate during significant business disruptions. The plan must cover data backup and recovery, alternate communications, critical operations, financial and operational assessments, customer access to funds, and regulatory reporting. The BCP must be updated annually."
+  },
+  {
+    "id": "series24-fc021",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What is the annual compliance meeting requirement?",
+    "back": "FINRA Rule 3110 requires each broker-dealer to conduct at least one annual compliance meeting for all registered persons. The meeting must review the firm's compliance procedures, regulatory developments, and common violations. Attendance is mandatory, and the firm must document the topics covered and maintain attendance records."
+  },
+  {
+    "id": "series24-fc022",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What is the review of transactions requirement?",
+    "back": "Principals must review customer transactions for suitability, unauthorized trading, excessive activity, and compliance with firm policies. Reviews must be evidenced by the principal's signature or initials and date. Electronic review systems may be used, but principals remain responsible for ensuring adequate oversight of representative activities."
+  },
+  {
+    "id": "series24-fc023",
+    "topic": "series24-t4",
+    "topicName": "Regulatory Reporting",
+    "front": "What is the FINRA Rule 4530 reporting obligation?",
+    "back": "Rule 4530 requires broker-dealers to report specified events to FINRA within 30 days, including criminal charges, regulatory actions, civil complaints involving securities, customer complaints alleging theft or fraud, and statistical and summary information about customer complaints. Firms must also file copies of criminal actions and regulatory proceedings."
+  },
+  {
+    "id": "series24-fc024",
+    "topic": "series24-t2",
+    "topicName": "Registration and Qualification",
+    "front": "What is a statutory disqualification?",
+    "back": "Statutory disqualification prevents a person from associating with a FINRA member firm due to certain legal or disciplinary events, including felony convictions, securities-related misdemeanor convictions, regulatory bars or suspensions, and SEC orders. A firm may apply to FINRA for relief through the eligibility proceedings process to associate with a disqualified person."
+  },
+  {
+    "id": "series24-fc025",
+    "topic": "series24-t6",
+    "topicName": "New Issues and Offerings",
+    "front": "What is a best efforts underwriting?",
+    "back": "In a best efforts underwriting, the underwriter agrees to use its best efforts to sell the issuer's securities but does not guarantee the sale of the entire offering. The underwriter acts as an agent, not a principal, and does not purchase the securities. Unsold shares are returned to the issuer. This contrasts with a firm commitment underwriting."
+  },
+  {
+    "id": "series24-fc026",
+    "topic": "series24-t6",
+    "topicName": "New Issues and Offerings",
+    "front": "What is a firm commitment underwriting?",
+    "back": "In a firm commitment underwriting, the underwriter purchases the entire issue from the issuer and resells it to the public. The underwriter assumes the risk of any unsold securities and profits from the spread between the purchase price and the public offering price. This arrangement guarantees the issuer receives the full proceeds of the offering."
+  },
+  {
+    "id": "series24-fc027",
+    "topic": "series24-t3",
+    "topicName": "Broker-Dealer Operations",
+    "front": "What is the anti-money laundering (AML) compliance program requirement?",
+    "back": "Every broker-dealer must establish and implement an AML compliance program that includes: internal policies and procedures, a designated AML compliance officer, ongoing employee training, and independent testing of the program. The program must be reasonably designed to detect and report suspicious activity as required by the Bank Secrecy Act."
+  },
+  {
+    "id": "series24-fc028",
+    "topic": "series24-t5",
+    "topicName": "Communications with the Public",
+    "front": "What is Form CRS?",
+    "back": "Form CRS (Customer Relationship Summary) is a brief disclosure document that broker-dealers and investment advisers must deliver to retail investors. It summarizes the types of services offered, fees and costs, conflicts of interest, legal standards of conduct, and disciplinary history. It must be delivered at the beginning of the relationship and is limited to two pages."
+  },
+  {
+    "id": "series24-fc029",
+    "topic": "series24-t1",
+    "topicName": "Supervision and Compliance",
+    "front": "What is the obligation for review of correspondence and electronic communications?",
+    "back": "FINRA requires firms to establish procedures to review correspondence and electronic communications to detect potential violations including fraud, sales practice issues, and insider trading. The review may be risk-based, using surveillance technology and sampling. The firm must document its review procedures and retain communications for at least three years."
+  },
+  {
+    "id": "series24-fc030",
+    "topic": "series24-t4",
+    "topicName": "Regulatory Reporting",
+    "front": "What is the FINRA arbitration process?",
+    "back": "FINRA arbitration is a method of resolving disputes between investors and broker-dealers or their registered representatives outside of court. Most customer agreements contain mandatory arbitration clauses. Cases are heard by one or three arbitrators depending on the amount in dispute. Decisions are final and binding with very limited grounds for appeal in court."
+  }
+]

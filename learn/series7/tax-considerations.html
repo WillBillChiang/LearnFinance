@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 7 Chapter 13: Tax Considerations — Capital gains, wash sale rule, cost basis methods, dividend and interest taxation, AMT, estate and gift taxes, and tax reporting.">
+  <title>Tax Considerations - Series 7 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series7" data-chapter="tax-considerations">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../learn/" class="nav-desktop__link nav-desktop__link--active">Learn</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../learn/" class="mobile-nav__link mobile-nav__link--active">Learn</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <span class="badge badge-entry">Chapter 13</span>
+          <h1>Tax Considerations</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              55 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 7 Topic 13
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="badge badge-warning">High Testability</span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Capital Gains and Losses ====== -->
+        <section class="lesson__section" id="capital-gains-losses">
+          <h2>Capital Gains and Losses</h2>
+
+          <p>Taxation of investments is a critical topic on the Series 7 exam and an essential area of knowledge for any registered representative advising clients. Understanding how different investments are taxed allows you to make more informed recommendations that align with each client's tax situation. This chapter covers capital gains, cost basis, the wash sale rule, dividend and interest taxation, alternative minimum tax, and estate and gift tax basics.</p>
+
+          <p>A <strong>capital gain</strong> occurs when an investor sells a capital asset (stocks, bonds, real estate, etc.) for more than its cost basis. A <strong>capital loss</strong> occurs when the asset is sold for less than its cost basis. The tax treatment depends on how long the asset was held.</p>
+
+          <h3>Short-Term vs. Long-Term Capital Gains</h3>
+
+          <p>The <strong>holding period</strong> determines whether a gain or loss is classified as short-term or long-term:</p>
+
+          <ul>
+            <li><strong>Short-term:</strong> The asset was held for <strong>one year or less</strong>. Short-term capital gains are taxed at the investor's <strong>ordinary income tax rate</strong>, which can be as high as 37% for the highest bracket.</li>
+            <li><strong>Long-term:</strong> The asset was held for <strong>more than one year</strong>. Long-term capital gains receive preferential tax rates: <strong>0%, 15%, or 20%</strong> depending on the taxpayer's income level.</li>
+          </ul>
+
+          <p>The holding period begins the day <strong>after</strong> the purchase date and includes the day of sale. For example, if you buy stock on March 15, 2024, you must sell it on March 16, 2025, or later for it to qualify as a long-term gain. Selling on March 15, 2025, would be exactly one year — still short-term.</p>
+
+          <h3>Long-Term Capital Gains Tax Rates</h3>
+
+          <ul>
+            <li><strong>0%:</strong> For taxpayers in the lowest income brackets (single filers with taxable income up to approximately $47,025 for 2024)</li>
+            <li><strong>15%:</strong> For most taxpayers — this is the rate that applies to the majority of investors</li>
+            <li><strong>20%:</strong> For high-income taxpayers (single filers with taxable income over approximately $518,900 for 2024)</li>
+          </ul>
+
+          <p>Additionally, high-income taxpayers may owe the <strong>3.8% Net Investment Income Tax (NIIT)</strong> on capital gains, dividends, interest, rents, and other investment income if their modified adjusted gross income exceeds $200,000 (single) or $250,000 (married filing jointly).</p>
+
+          <h3>Netting Capital Gains and Losses</h3>
+
+          <p>At the end of the tax year, investors must net their capital gains and losses using a specific process:</p>
+
+          <ol>
+            <li>Net all short-term gains against short-term losses to arrive at a <strong>net short-term gain or loss</strong></li>
+            <li>Net all long-term gains against long-term losses to arrive at a <strong>net long-term gain or loss</strong></li>
+            <li>Net the results against each other. If the final result is a net gain, it is taxed at the applicable rate. If it is a net loss, up to <strong>$3,000</strong> can be deducted against ordinary income per year ($1,500 for married filing separately). Excess losses are <strong>carried forward indefinitely</strong> to future tax years.</li>
+          </ol>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Capital Gains Netting Example</p>
+            </div>
+            <div class="callout__content">
+              <p>During the year, an investor has the following transactions:</p>
+              <ul>
+                <li>Short-term gain: +$5,000</li>
+                <li>Short-term loss: -$2,000</li>
+                <li>Long-term gain: +$8,000</li>
+                <li>Long-term loss: -$12,000</li>
+              </ul>
+              <p><strong>Step 1:</strong> Net short-term: +$5,000 - $2,000 = +$3,000 (net ST gain)</p>
+              <p><strong>Step 2:</strong> Net long-term: +$8,000 - $12,000 = -$4,000 (net LT loss)</p>
+              <p><strong>Step 3:</strong> Net overall: +$3,000 - $4,000 = -$1,000 (net capital loss)</p>
+              <p>The investor can deduct the full $1,000 net capital loss against ordinary income (under the $3,000 annual limit).</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Wash Sale Rule ====== -->
+        <section class="lesson__section" id="wash-sale-rule">
+          <h2>The Wash Sale Rule</h2>
+
+          <p>The <strong>wash sale rule</strong> (IRC Section 1091) is one of the most frequently tested tax topics on the Series 7 exam. It prevents investors from claiming a tax loss on a security if they repurchase the same or a "substantially identical" security within a specific time window.</p>
+
+          <h3>The 30-Day Rule</h3>
+
+          <p>A wash sale occurs when an investor sells a security at a loss and, within <strong>30 days before or 30 days after the sale</strong>, purchases the same or a substantially identical security. The total wash sale window is therefore <strong>61 days</strong> (30 days before + the sale date + 30 days after).</p>
+
+          <p>When a wash sale occurs, the <strong>loss is disallowed</strong> for tax purposes. However, the disallowed loss is not lost permanently — it is <strong>added to the cost basis</strong> of the replacement shares, which increases the basis and reduces the taxable gain (or increases the loss) when the replacement shares are eventually sold.</p>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Wash Sale Rule — Critical Details</p>
+            </div>
+            <div class="callout__content">
+              <p>The wash sale rule applies when you repurchase the <strong>same or substantially identical</strong> security within 30 days before or after the loss sale. Key points:</p>
+              <ul>
+                <li>The rule applies to stocks, bonds, options, and mutual funds</li>
+                <li>Buying a <strong>call option</strong> on the same stock within 30 days triggers a wash sale</li>
+                <li>The rule applies across <strong>all accounts</strong> you own (taxable, IRA, etc.)</li>
+                <li>Buying shares of a <strong>different company</strong> in the same industry does NOT trigger a wash sale</li>
+                <li>The disallowed loss is <strong>added to the cost basis</strong> of the replacement shares</li>
+                <li>The holding period of the original shares <strong>carries over</strong> to the replacement shares</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Wash Sale Example</p>
+            </div>
+            <div class="callout__content">
+              <p>An investor bought 100 shares of XYZ at $50 per share ($5,000 cost basis). On November 1, she sells all 100 shares at $40 per share ($4,000), realizing a $1,000 loss. On November 20 (within 30 days), she buys 100 shares of XYZ at $42 per share ($4,200).</p>
+              <p><strong>Result:</strong> The $1,000 loss is disallowed due to the wash sale rule. The disallowed loss is added to the cost basis of the new shares: $4,200 + $1,000 = $5,200 new cost basis. When the investor eventually sells the replacement shares, the higher basis will reduce the taxable gain (or increase the deductible loss).</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Cost Basis Methods ====== -->
+        <section class="lesson__section" id="cost-basis-methods">
+          <h2>Cost Basis Methods</h2>
+
+          <p>When an investor sells shares that were purchased at different times and prices, the <strong>cost basis method</strong> used determines which shares are considered sold and, consequently, the amount of the capital gain or loss.</p>
+
+          <h3>FIFO (First In, First Out)</h3>
+
+          <p><strong>FIFO</strong> is the default method used by the IRS if the investor does not specify otherwise. Under FIFO, the shares purchased first are assumed to be sold first. In a rising market, FIFO typically results in the largest taxable gain because the oldest (and usually cheapest) shares are sold first.</p>
+
+          <h3>Specific Identification</h3>
+
+          <p><strong>Specific identification</strong> allows the investor to designate exactly which shares are being sold. This gives the investor the most control over their tax liability. For example, an investor who bought shares at $30, $40, and $50 could choose to sell the $50 shares first to minimize the gain (or maximize the loss). To use this method, the investor must identify the specific shares at the time of sale and receive confirmation from the broker.</p>
+
+          <h3>Average Cost (Mutual Funds)</h3>
+
+          <p>The <strong>average cost method</strong> is available only for mutual fund shares and certain dividend reinvestment plans. The cost basis is calculated by dividing the total cost of all shares by the total number of shares owned. This creates a single average cost per share, which is used to calculate the gain or loss when shares are sold. Once an investor elects average cost for a particular fund, they must continue using it for all shares of that fund (though they may revoke the election prospectively).</p>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Gifts and Inherited Securities — Cost Basis Rules
+            </summary>
+            <div class="deep-dive__content">
+              <p>The cost basis for gifted and inherited securities follows special rules that are frequently tested on the Series 7:</p>
+              <p><strong>Gifted securities:</strong> The recipient generally receives the <strong>donor's cost basis</strong> (known as "carryover basis"). However, if the fair market value (FMV) at the time of the gift is lower than the donor's basis and the recipient sells at a loss, the recipient must use the <strong>FMV at the time of the gift</strong> as the basis. This creates a potential "double basis" situation where the basis used depends on whether the shares are sold at a gain or loss.</p>
+              <p><strong>Inherited securities:</strong> The beneficiary receives a <strong>stepped-up basis</strong> equal to the fair market value of the security on the <strong>date of the decedent's death</strong> (or the alternate valuation date, which is 6 months after death if elected by the executor). This eliminates any unrealized gain that existed during the decedent's lifetime. The holding period is automatically considered <strong>long-term</strong>, regardless of how long the decedent held the security.</p>
+              <p>Example: A parent bought stock for $10 that is worth $100 at death. The child inherits with a $100 basis. If the child sells for $105, the taxable gain is only $5, not $95. This stepped-up basis is one of the most significant tax benefits in the U.S. tax code.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== SECTION 4: Dividend and Interest Taxation ====== -->
+        <section class="lesson__section" id="dividend-interest-taxation">
+          <h2>Dividend and Interest Income Taxation</h2>
+
+          <h3>Dividend Taxation</h3>
+
+          <p>Dividends are classified as either <strong>qualified</strong> or <strong>ordinary (non-qualified)</strong> for tax purposes:</p>
+
+          <ul>
+            <li><strong>Qualified dividends:</strong> Taxed at the preferential long-term capital gains rates (0%, 15%, or 20%). To qualify, the dividend must be paid by a U.S. corporation or a qualified foreign corporation, and the investor must have held the stock for more than <strong>60 days</strong> during the 121-day period beginning 60 days before the ex-dividend date. Most dividends from major U.S. corporations are qualified.</li>
+            <li><strong>Ordinary (non-qualified) dividends:</strong> Taxed at the investor's ordinary income tax rate. Examples include dividends from REITs, money market funds, and dividends on shares held for less than the required holding period.</li>
+          </ul>
+
+          <h3>Interest Income Taxation</h3>
+
+          <p>Interest income is taxed differently depending on the type of security that generates it:</p>
+
+          <ul>
+            <li><strong>Corporate bonds:</strong> Interest is <strong>fully taxable</strong> at federal, state, and local levels as ordinary income.</li>
+            <li><strong>U.S. Treasury securities:</strong> Interest is taxable at the <strong>federal level only</strong>. Treasury interest is <strong>exempt from state and local taxes</strong>. This includes T-bills, T-notes, T-bonds, and TIPS.</li>
+            <li><strong>Municipal bonds:</strong> Interest is generally <strong>exempt from federal income tax</strong>. If the bond is issued by the investor's home state (or a territory like Puerto Rico, Guam, or the U.S. Virgin Islands), the interest may also be <strong>exempt from state and local taxes</strong> ("triple tax-free").</li>
+            <li><strong>GNMA (Ginnie Mae) securities:</strong> Despite being government-backed, GNMA interest is <strong>fully taxable</strong> at all levels (federal, state, and local) because they are mortgage-backed, not direct government obligations.</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The tax treatment of bond interest is one of the most commonly tested topics. Remember: <strong>Treasuries = federal tax only (state-exempt)</strong>. <strong>Munis = federal-exempt (may be state-exempt if in-state)</strong>. <strong>Corporate bonds = fully taxable</strong>. A common trap: GNMA securities are fully taxable despite being government-guaranteed. Also remember that municipal bond interest, while tax-exempt, must be reported on the tax return and may affect AMT calculations.</p>
+            </div>
+          </div>
+
+          <!-- Compare Table: Tax Treatment by Investment Type -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Investment Type</th>
+                  <th>Federal Tax</th>
+                  <th>State/Local Tax</th>
+                  <th>Tax Form</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Corporate bonds (interest)</td>
+                  <td class="compare-table__cell">Fully taxable (ordinary income)</td>
+                  <td class="compare-table__cell">Fully taxable</td>
+                  <td class="compare-table__cell">1099-INT</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">U.S. Treasury securities (interest)</td>
+                  <td class="compare-table__cell">Fully taxable (ordinary income)</td>
+                  <td class="compare-table__cell">Exempt</td>
+                  <td class="compare-table__cell">1099-INT</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Municipal bonds (interest)</td>
+                  <td class="compare-table__cell">Exempt</td>
+                  <td class="compare-table__cell">Exempt if in-state; taxable if out-of-state</td>
+                  <td class="compare-table__cell">1099-INT (for info; not taxable)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Qualified dividends</td>
+                  <td class="compare-table__cell">0% / 15% / 20% (preferential)</td>
+                  <td class="compare-table__cell">Fully taxable</td>
+                  <td class="compare-table__cell">1099-DIV</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Ordinary dividends</td>
+                  <td class="compare-table__cell">Ordinary income rates</td>
+                  <td class="compare-table__cell">Fully taxable</td>
+                  <td class="compare-table__cell">1099-DIV</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Short-term capital gains</td>
+                  <td class="compare-table__cell">Ordinary income rates</td>
+                  <td class="compare-table__cell">Fully taxable</td>
+                  <td class="compare-table__cell">1099-B</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Long-term capital gains</td>
+                  <td class="compare-table__cell">0% / 15% / 20% (preferential)</td>
+                  <td class="compare-table__cell">Fully taxable</td>
+                  <td class="compare-table__cell">1099-B</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">GNMA (Ginnie Mae) interest</td>
+                  <td class="compare-table__cell">Fully taxable (ordinary income)</td>
+                  <td class="compare-table__cell">Fully taxable</td>
+                  <td class="compare-table__cell">1099-INT</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: AMT and Private Activity Bonds ====== -->
+        <section class="lesson__section" id="amt-private-activity">
+          <h2>Alternative Minimum Tax (AMT) and Private Activity Bonds</h2>
+
+          <p>The <strong>Alternative Minimum Tax (AMT)</strong> is a parallel tax system designed to ensure that high-income taxpayers who benefit from certain deductions, credits, and exemptions pay at least a minimum amount of tax. The AMT calculation starts with regular taxable income, adds back certain "preference items" and adjustments, and applies the AMT rate (26% or 28% depending on income level).</p>
+
+          <h3>Private Activity Bonds and AMT</h3>
+
+          <p>While most municipal bond interest is exempt from federal income tax, interest from <strong>private activity bonds</strong> is a <strong>tax preference item</strong> for AMT purposes. Private activity bonds are municipal bonds where the proceeds benefit a private entity (such as bonds issued to finance an airport terminal used by a private airline, or bonds financing a private hospital). While the interest is still exempt from regular federal income tax, it must be added back when calculating AMT liability.</p>
+
+          <p>This means that for investors subject to AMT, private activity municipal bonds may not provide the expected tax benefit. Registered representatives should be aware of this when recommending municipal bonds to high-income clients who may be subject to AMT.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 7 exam commonly tests the relationship between private activity bonds and AMT. Remember: <strong>Private activity bond interest = AMT preference item</strong>. Not all municipal bonds are affected — only private activity bonds. General obligation bonds and essential-purpose revenue bonds are NOT AMT preference items. When a question mentions "tax preference items," think private activity bonds.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 6: Estate and Gift Tax ====== -->
+        <section class="lesson__section" id="estate-gift-tax">
+          <h2>Estate and Gift Tax Basics</h2>
+
+          <h3>Estate Tax</h3>
+
+          <p>The federal <strong>estate tax</strong> applies to the transfer of property at death. The estate tax exemption for 2024 is <strong>$13.61 million</strong> per individual ($27.22 million for married couples with portability). Estates valued below this threshold owe no federal estate tax. For estates above the exemption, the top federal estate tax rate is <strong>40%</strong>.</p>
+
+          <p>Key estate tax concepts for the Series 7:</p>
+          <ul>
+            <li><strong>Stepped-up basis:</strong> As discussed above, inherited assets receive a new cost basis equal to the FMV at the date of death</li>
+            <li><strong>Marital deduction:</strong> Unlimited transfers between spouses (both during life and at death) are exempt from estate and gift tax</li>
+            <li><strong>Charitable deduction:</strong> Transfers to qualified charities are fully deductible for estate tax purposes</li>
+          </ul>
+
+          <h3>Gift Tax</h3>
+
+          <p>The federal <strong>gift tax</strong> applies to transfers of property during one's lifetime. Key rules:</p>
+          <ul>
+            <li><strong>Annual exclusion:</strong> Each person can gift up to <strong>$18,000 per recipient</strong> per year (2024) without incurring gift tax or using any of the lifetime exemption. Married couples can gift up to $36,000 per recipient through "gift splitting."</li>
+            <li><strong>Lifetime exemption:</strong> The lifetime gift tax exemption is unified with the estate tax exemption ($13.61 million for 2024). Gifts exceeding the annual exclusion reduce the available estate tax exemption.</li>
+            <li>Gifts to spouses (U.S. citizens) are unlimited and tax-free due to the marital deduction.</li>
+            <li>Gifts directly to educational institutions or medical providers for tuition or medical expenses are unlimited and do not count toward the annual exclusion.</li>
+          </ul>
+
+          <h3>1031 Exchanges</h3>
+
+          <p>A <strong>Section 1031 like-kind exchange</strong> allows investors to defer capital gains tax by exchanging one investment property for another of "like kind." After the Tax Cuts and Jobs Act of 2017, 1031 exchanges are limited to <strong>real estate only</strong> — they no longer apply to personal property, equipment, or securities. The exchange must be completed within specific time frames: the replacement property must be identified within <strong>45 days</strong> and the exchange must be completed within <strong>180 days</strong>.</p>
+        </section>
+
+        <!-- ====== SECTION 7: Tax-Advantaged Accounts and Reporting ====== -->
+        <section class="lesson__section" id="tax-advantaged-reporting">
+          <h2>Tax-Advantaged Accounts and Tax Reporting</h2>
+
+          <h3>Tax-Advantaged Accounts</h3>
+
+          <p>Several account types offer tax benefits for investors, as covered in detail in Chapter 9:</p>
+          <ul>
+            <li><strong>Traditional IRAs and 401(k)s:</strong> Contributions may be tax-deductible; growth is tax-deferred; distributions are taxed as ordinary income</li>
+            <li><strong>Roth IRAs and Roth 401(k)s:</strong> Contributions are after-tax; qualified distributions are entirely tax-free</li>
+            <li><strong>529 Education Savings Plans:</strong> After-tax contributions; earnings grow tax-free if used for qualified education expenses</li>
+            <li><strong>Health Savings Accounts (HSAs):</strong> Triple tax benefit — contributions are tax-deductible, growth is tax-free, and distributions for qualified medical expenses are tax-free</li>
+            <li><strong>Coverdell Education Savings Accounts:</strong> After-tax contributions (up to $2,000/year); tax-free growth and withdrawals for qualified education expenses</li>
+          </ul>
+
+          <h3>Tax Reporting Forms</h3>
+
+          <p>Broker-dealers and other financial institutions issue various tax reporting forms to customers and the IRS:</p>
+
+          <ul>
+            <li><strong>1099-INT:</strong> Reports <strong>interest income</strong> of $10 or more received during the year. Includes interest from corporate bonds, CDs, bank accounts, and government securities. Municipal bond interest is also reported on 1099-INT but is marked as tax-exempt.</li>
+            <li><strong>1099-DIV:</strong> Reports <strong>dividend income</strong> of $10 or more. Separately identifies qualified dividends (eligible for preferential rates) and ordinary dividends. Also reports capital gains distributions from mutual funds.</li>
+            <li><strong>1099-B:</strong> Reports <strong>proceeds from the sale</strong> of securities, including the date of sale, sale proceeds, cost basis (for covered securities purchased after specific dates), and whether the gain/loss is short-term or long-term. This form is used to calculate capital gains and losses on Schedule D of the tax return.</li>
+            <li><strong>1099-R:</strong> Reports <strong>distributions from retirement accounts</strong> (IRAs, 401(k)s, pensions, annuities). Includes codes identifying the type of distribution (normal, early, rollover, etc.).</li>
+            <li><strong>1099-OID:</strong> Reports <strong>original issue discount</strong> income on bonds purchased at a discount. OID is treated as interest income and is taxable annually, even if the investor does not receive cash payments.</li>
+          </ul>
+
+          <h3>Progressive Tax Brackets</h3>
+
+          <p>The U.S. federal income tax system uses <strong>progressive (marginal) tax brackets</strong>. This means that different portions of income are taxed at increasing rates as income rises. For 2024, the federal income tax brackets for single filers are: 10%, 12%, 22%, 24%, 32%, 35%, and 37%. A common misconception is that earning more money and moving into a higher bracket causes all income to be taxed at the higher rate. In reality, only the income within each bracket is taxed at that bracket's rate.</p>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>Tax-efficient investing is a core competency for registered representatives. Key principles: (1) Hold investments for more than one year to qualify for lower long-term capital gains rates. (2) Consider municipal bonds for investors in high tax brackets. (3) Understand the wash sale rule to avoid disallowed losses. (4) Use the appropriate cost basis method to manage tax liability. (5) Maximize contributions to tax-advantaged retirement accounts. (6) Be aware of AMT implications for private activity bonds.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of tax considerations. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. An investor sells stock at a loss and repurchases the same stock 15 days later. What is the tax consequence?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) The loss is fully deductible</button>
+              <button class="answer-btn" data-correct="true">B) The loss is disallowed under the wash sale rule</button>
+              <button class="answer-btn" data-correct="false">C) The loss is deductible but only up to $3,000</button>
+              <button class="answer-btn" data-correct="false">D) The repurchased stock must be held for one year before the loss can be claimed</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Since the investor repurchased the same security within 30 days of the loss sale (15 days is within the 30-day window), this is a wash sale. The loss is disallowed for the current tax year. However, the disallowed loss is added to the cost basis of the replacement shares, effectively deferring (not eliminating) the tax benefit.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Interest from U.S. Treasury bonds is:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Exempt from all taxes</button>
+              <button class="answer-btn" data-correct="true">B) Taxable at the federal level but exempt from state and local taxes</button>
+              <button class="answer-btn" data-correct="false">C) Exempt from federal tax but taxable at state and local levels</button>
+              <button class="answer-btn" data-correct="false">D) Fully taxable at all levels</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              U.S. Treasury securities (T-bills, T-notes, T-bonds, TIPS) generate interest that is taxable at the federal level but exempt from state and local income taxes. This is the opposite of municipal bonds, which are exempt from federal tax. Corporate bond interest is fully taxable at all levels.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. An investor holds stock for exactly 11 months before selling at a profit. How is the gain taxed?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) As a short-term capital gain at ordinary income tax rates</button>
+              <button class="answer-btn" data-correct="false">B) As a long-term capital gain at 0%, 15%, or 20%</button>
+              <button class="answer-btn" data-correct="false">C) As a qualified dividend</button>
+              <button class="answer-btn" data-correct="false">D) Tax-free</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              An asset held for one year or less generates a short-term capital gain, which is taxed at the investor's ordinary income tax rate (up to 37%). To qualify for the preferential long-term capital gains rate (0%, 15%, or 20%), the asset must be held for more than one year (at least one year and one day).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Interest from private activity municipal bonds is a preference item for which tax?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Regular federal income tax</button>
+              <button class="answer-btn" data-correct="true">B) Alternative Minimum Tax (AMT)</button>
+              <button class="answer-btn" data-correct="false">C) State income tax</button>
+              <button class="answer-btn" data-correct="false">D) Capital gains tax</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Interest from private activity municipal bonds is a tax preference item for the Alternative Minimum Tax (AMT). While the interest is exempt from regular federal income tax, it must be added back when calculating AMT liability. This is important for high-income investors who may be subject to AMT. General obligation bonds and essential-purpose revenue bonds are NOT AMT preference items.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. An investor inherits stock from a deceased parent. The parent purchased the stock at $20 per share, and it was worth $75 per share at the date of death. What is the investor's cost basis?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $20 per share (carryover basis)</button>
+              <button class="answer-btn" data-correct="true">B) $75 per share (stepped-up basis)</button>
+              <button class="answer-btn" data-correct="false">C) $47.50 per share (average of purchase and death date values)</button>
+              <button class="answer-btn" data-correct="false">D) $0 (no basis for inherited property)</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Inherited securities receive a stepped-up basis equal to the fair market value on the date of the decedent's death (or the alternate valuation date if elected). The investor's basis is $75, not the parent's original $20 cost. This eliminates the $55 per share unrealized gain that existed during the parent's lifetime. The holding period is automatically considered long-term.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="regulations-compliance.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 12 — Regulations and Compliance</span>
+            </div>
+          </a>
+          <a href="./index.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Course Complete</span>
+              <span class="lesson__nav-title">Return to Course Overview</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS (JS populated) ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

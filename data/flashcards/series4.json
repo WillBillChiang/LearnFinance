@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series4-fc001",
+    "topic": "series4-t1",
+    "topicName": "Options Fundamentals",
+    "front": "What is the role of a Registered Options Principal (Series 4)?",
+    "back": "A Registered Options Principal supervises all options activities at a broker-dealer, including approving customer accounts for options trading, reviewing options transactions, ensuring suitability of options strategies, approving options-related communications, and maintaining compliance with OCC rules and exchange regulations. Every firm that trades options must designate at least one Series 4 principal."
+  },
+  {
+    "id": "series4-fc002",
+    "topic": "series4-t1",
+    "topicName": "Options Fundamentals",
+    "front": "What is the Options Clearing Corporation (OCC)?",
+    "back": "The OCC is the sole issuer and guarantor of all listed options contracts in the U.S. It acts as the counterparty to both sides of every options trade, eliminating counterparty risk. The OCC handles exercise and assignment, margin calculations, and settlement. It issues the Options Disclosure Document (ODD) that must be provided to customers before options trading."
+  },
+  {
+    "id": "series4-fc003",
+    "topic": "series4-t1",
+    "topicName": "Options Fundamentals",
+    "front": "What is the Options Disclosure Document (ODD)?",
+    "back": "The ODD, titled 'Characteristics and Risks of Standardized Options,' is published by the OCC and must be delivered to customers at or before the time their account is approved for options trading. It explains the mechanics, risks, and tax implications of options trading. Delivery of the ODD is a regulatory requirement, and the firm must maintain records of delivery."
+  },
+  {
+    "id": "series4-fc004",
+    "topic": "series4-t2",
+    "topicName": "Options Account Approval",
+    "front": "What information must be obtained to approve an options account?",
+    "back": "Before approving an options account, the firm must obtain the customer's investment objectives, employment status, estimated annual income and net worth, investment experience, marital status and dependents, and liquid net worth. The registered options principal must review this information and approve the account for the appropriate level of options trading within a reasonable time."
+  },
+  {
+    "id": "series4-fc005",
+    "topic": "series4-t2",
+    "topicName": "Options Account Approval",
+    "front": "What are the typical options trading approval levels?",
+    "back": "Firms typically establish tiered approval levels: Level 1 for covered calls and protective puts; Level 2 for buying calls and puts; Level 3 for spreads; Level 4 for uncovered (naked) writing; Level 5 for index options. Each higher level requires greater experience, net worth, and risk tolerance. The principal must ensure the approved level is suitable for each customer."
+  },
+  {
+    "id": "series4-fc006",
+    "topic": "series4-t2",
+    "topicName": "Options Account Approval",
+    "front": "What is the options agreement requirement?",
+    "back": "After account approval, the customer must return a signed options agreement within 15 days. The agreement acknowledges the customer has received the ODD, agrees to comply with exchange and OCC rules, and authorizes the firm to take certain actions. If the agreement is not returned, the account is restricted to closing transactions only."
+  },
+  {
+    "id": "series4-fc007",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is a bull call spread?",
+    "back": "A bull call spread involves buying a call at a lower strike price and selling a call at a higher strike price with the same expiration. The investor is moderately bullish and wants to reduce the cost of the long call. Maximum profit is the difference between strikes minus the net premium paid. Maximum loss is the net premium paid."
+  },
+  {
+    "id": "series4-fc008",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is a bear put spread?",
+    "back": "A bear put spread involves buying a put at a higher strike price and selling a put at a lower strike price with the same expiration. The investor is moderately bearish. Maximum profit is the difference between strikes minus the net premium paid. Maximum loss is the net premium paid. This strategy limits both risk and reward compared to buying a put outright."
+  },
+  {
+    "id": "series4-fc009",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is a straddle?",
+    "back": "A straddle involves buying (long straddle) or selling (short straddle) both a call and a put with the same strike price and expiration. A long straddle profits from large price movements in either direction and is used when high volatility is expected. A short straddle profits when the stock remains near the strike price and is used when low volatility is expected."
+  },
+  {
+    "id": "series4-fc010",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is writing a naked (uncovered) call?",
+    "back": "Writing a naked call means selling a call option without owning the underlying stock. This is the riskiest options strategy because the stock can theoretically rise to infinity, creating unlimited loss potential. The maximum profit is the premium received. Firms require high-level approval and significant margin deposits for naked call writing due to the extreme risk."
+  },
+  {
+    "id": "series4-fc011",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is a protective put?",
+    "back": "A protective put (married put) involves buying a put option while owning the underlying stock. The put acts as insurance, establishing a floor price for the stock. Maximum loss is limited to the stock's purchase price minus the put's strike price plus the premium paid. This strategy is suitable for investors who want to protect gains while maintaining upside potential."
+  },
+  {
+    "id": "series4-fc012",
+    "topic": "series4-t4",
+    "topicName": "Options Margin",
+    "front": "What are the margin requirements for selling uncovered puts?",
+    "back": "The margin requirement for an uncovered (naked) put is the greater of: (1) 100% of the option premium plus 20% of the underlying stock value minus any out-of-the-money amount, or (2) 100% of the premium plus 10% of the exercise price. The maximum risk for a naked put is the strike price minus the premium received (if the stock goes to zero)."
+  },
+  {
+    "id": "series4-fc013",
+    "topic": "series4-t4",
+    "topicName": "Options Margin",
+    "front": "What are the margin requirements for spreads?",
+    "back": "For debit spreads, the margin requirement is the net premium paid. For credit spreads, the requirement is the difference between strike prices minus the credit received. Spread margin requirements are generally lower than those for naked options because the risk is defined. Both legs of the spread must be in the same class and have the same expiration."
+  },
+  {
+    "id": "series4-fc014",
+    "topic": "series4-t5",
+    "topicName": "Options Supervision",
+    "front": "What are the supervisory requirements for options correspondence?",
+    "back": "All options communications with the public must be reviewed and approved by a Registered Options Principal before use. This includes advertisements, sales literature, educational materials, and research reports related to options. Communications must be fair, balanced, and not misleading. They must present risks and rewards equally and include required disclosures about the speculative nature of options."
+  },
+  {
+    "id": "series4-fc015",
+    "topic": "series4-t5",
+    "topicName": "Options Supervision",
+    "front": "What is the supervisory review requirement for options trades?",
+    "back": "A Registered Options Principal must review all options transactions promptly to ensure suitability, compliance with position and exercise limits, and adherence to the customer's approved trading level. Uncovered options trades, large or unusual transactions, and trades by employees require heightened scrutiny. The principal must evidence their review with initials and date."
+  },
+  {
+    "id": "series4-fc016",
+    "topic": "series4-t5",
+    "topicName": "Options Supervision",
+    "front": "What are position and exercise limits?",
+    "back": "Position limits restrict the maximum number of options contracts a customer (or group of related customers) can hold on the same side of the market for a single underlying security. Exercise limits restrict the number of contracts that can be exercised within five consecutive business days. Limits vary by security based on trading volume and float."
+  },
+  {
+    "id": "series4-fc017",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is the breakeven point for a call buyer?",
+    "back": "The breakeven point for a call buyer is the strike price plus the premium paid. At this price, the intrinsic value of the call exactly offsets the premium paid. Above this price, the position is profitable. For example, buying a 50 call for $3 has a breakeven of $53. The stock must trade above $53 at expiration for the buyer to profit."
+  },
+  {
+    "id": "series4-fc018",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is the breakeven point for a put buyer?",
+    "back": "The breakeven point for a put buyer is the strike price minus the premium paid. At this price, the intrinsic value of the put exactly offsets the premium paid. Below this price, the position is profitable. For example, buying a 40 put for $2 has a breakeven of $38. The stock must trade below $38 at expiration for the buyer to profit."
+  },
+  {
+    "id": "series4-fc019",
+    "topic": "series4-t1",
+    "topicName": "Options Fundamentals",
+    "front": "What is time value in options pricing?",
+    "back": "Time value (extrinsic value) is the portion of an option's premium that exceeds its intrinsic value. It reflects the probability that the option will gain intrinsic value before expiration. Time value is influenced by time remaining until expiration, volatility of the underlying, and interest rates. Time value decays as expiration approaches (theta decay), with decay accelerating in the final weeks."
+  },
+  {
+    "id": "series4-fc020",
+    "topic": "series4-t1",
+    "topicName": "Options Fundamentals",
+    "front": "What are the Greeks in options trading?",
+    "back": "The Greeks measure different dimensions of risk in options positions. Delta measures price sensitivity to the underlying. Gamma measures the rate of change in delta. Theta measures time decay. Vega measures sensitivity to volatility changes. Rho measures sensitivity to interest rate changes. Principals must understand these risk measures to supervise options trading effectively."
+  },
+  {
+    "id": "series4-fc021",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is a collar strategy?",
+    "back": "A collar involves owning the underlying stock, buying an out-of-the-money put for downside protection, and selling an out-of-the-money call to offset the cost of the put. This creates a defined range of outcomes. The premium received from the call partially or fully pays for the put. It limits both upside and downside, making it a conservative hedging strategy."
+  },
+  {
+    "id": "series4-fc022",
+    "topic": "series4-t4",
+    "topicName": "Options Margin",
+    "front": "What is the initial margin requirement for buying options?",
+    "back": "Options buyers must pay the full premium at the time of purchase; no margin is extended for long options positions. This means the maximum loss is known and limited to the premium paid. Options cannot be purchased on margin under Regulation T. The premium must be deposited by T+1 (the next business day after the trade date)."
+  },
+  {
+    "id": "series4-fc023",
+    "topic": "series4-t5",
+    "topicName": "Options Supervision",
+    "front": "What is the requirement for annual account review of options customers?",
+    "back": "Firms must verify the accuracy of customer account information for options accounts at least annually. If information has changed, the account must be re-evaluated for the appropriateness of the approved trading level. The ROP must review any changes and may need to adjust the customer's approval level. Records of the review must be maintained."
+  },
+  {
+    "id": "series4-fc024",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is an iron condor?",
+    "back": "An iron condor combines a bull put spread and a bear call spread on the same underlying with the same expiration. It profits when the stock stays within a range defined by the two short strikes. Maximum profit is the net credit received. Maximum loss is the difference between strikes in either spread minus the net credit. It is a non-directional, defined-risk strategy."
+  },
+  {
+    "id": "series4-fc025",
+    "topic": "series4-t1",
+    "topicName": "Options Fundamentals",
+    "front": "What is the difference between American and European style options?",
+    "back": "American-style options can be exercised at any time before expiration, while European-style options can only be exercised at expiration. Most equity options in the U.S. are American-style. Many index options are European-style. The exercise style affects pricing and strategy, as American options generally have a higher premium due to the flexibility of early exercise."
+  },
+  {
+    "id": "series4-fc026",
+    "topic": "series4-t5",
+    "topicName": "Options Supervision",
+    "front": "What is automatic exercise at expiration?",
+    "back": "The OCC automatically exercises any option that is in the money by $0.01 or more at expiration. This is known as exercise by exception. Customers may submit contrary instructions (do not exercise or exercise an out-of-the-money option) through their broker-dealer before the exercise cut-off time. The ROP must ensure customers understand auto-exercise procedures."
+  },
+  {
+    "id": "series4-fc027",
+    "topic": "series4-t2",
+    "topicName": "Options Account Approval",
+    "front": "What is the suitability obligation for options recommendations?",
+    "back": "Options suitability requires the representative and principal to evaluate whether an options strategy matches the customer's financial situation, investment experience, risk tolerance, and objectives. Complex strategies like naked writing and spreads require greater sophistication. Unsuitable recommendations can result in disciplinary action, customer complaints, and arbitration claims."
+  },
+  {
+    "id": "series4-fc028",
+    "topic": "series4-t4",
+    "topicName": "Options Margin",
+    "front": "What is Regulation T margin for covered call writing?",
+    "back": "For covered call writing, the customer must fully own the underlying stock (paid for in full or held on margin). The premium received can be applied against the stock's margin requirement. Because the short call is covered by stock ownership, no additional margin is required for the option itself. This makes covered calls one of the most accessible options strategies."
+  },
+  {
+    "id": "series4-fc029",
+    "topic": "series4-t3",
+    "topicName": "Options Strategies",
+    "front": "What is a calendar (time) spread?",
+    "back": "A calendar spread involves buying and selling options with the same strike price but different expirations. Typically, the investor buys the longer-dated option and sells the shorter-dated option. The strategy profits from the faster time decay of the near-term option. Calendar spreads benefit from stable stock prices and can be constructed with either calls or puts."
+  },
+  {
+    "id": "series4-fc030",
+    "topic": "series4-t5",
+    "topicName": "Options Supervision",
+    "front": "What are the recordkeeping requirements for options activities?",
+    "back": "Firms must maintain records of options account applications and approvals, signed options agreements, ODD delivery, principal review of transactions, customer correspondence related to options, margin computations, exercise and assignment notices, and position reports. Records must be retained for the periods specified in SEC and exchange rules, typically three to six years."
+  }
+]

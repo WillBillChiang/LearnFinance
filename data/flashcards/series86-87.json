@@ -1,0 +1,212 @@
+[
+  {
+    "id": "series86-87-fc001",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "front": "What is the role of a research analyst?",
+    "back": "A research analyst evaluates securities, industries, and markets to produce investment recommendations for investors. Analysts perform fundamental and technical analysis, build financial models, write research reports, and communicate findings. The Series 86/87 qualifies individuals as research analysts. Analysts must follow strict rules to maintain objectivity and manage conflicts of interest."
+  },
+  {
+    "id": "series86-87-fc002",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "front": "What is fundamental analysis?",
+    "back": "Fundamental analysis evaluates a security's intrinsic value by examining the company's financial statements, management quality, competitive position, industry dynamics, and macroeconomic factors. It uses metrics like P/E ratios, EPS growth, ROE, and cash flow to determine whether a security is overvalued or undervalued relative to its current market price."
+  },
+  {
+    "id": "series86-87-fc003",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "front": "What is technical analysis?",
+    "back": "Technical analysis evaluates securities by analyzing statistical patterns in trading activity, including price movements, volume, and chart patterns. Technical analysts believe that historical trading patterns can predict future price movements. Common tools include moving averages, relative strength index (RSI), MACD, support and resistance levels, and chart formations."
+  },
+  {
+    "id": "series86-87-fc004",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What are the three primary financial statements?",
+    "back": "The three primary financial statements are: (1) the income statement, which shows revenue, expenses, and profit over a period; (2) the balance sheet, which shows assets, liabilities, and equity at a point in time; and (3) the cash flow statement, which shows cash inflows and outflows from operating, investing, and financing activities."
+  },
+  {
+    "id": "series86-87-fc005",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is the difference between operating cash flow and free cash flow?",
+    "back": "Operating cash flow (OCF) represents cash generated from normal business operations, calculated from the cash flow statement. Free cash flow (FCF) equals operating cash flow minus capital expenditures. FCF represents the cash available for distribution to investors after maintaining and expanding the asset base. FCF is considered a superior measure of financial health."
+  },
+  {
+    "id": "series86-87-fc006",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is return on equity (ROE)?",
+    "back": "ROE measures a company's profitability relative to shareholders' equity, calculated as Net Income / Shareholders' Equity. A higher ROE indicates more efficient use of equity capital. The DuPont analysis breaks ROE into three components: profit margin (Net Income/Revenue) x asset turnover (Revenue/Total Assets) x equity multiplier (Total Assets/Equity), revealing the drivers of profitability."
+  },
+  {
+    "id": "series86-87-fc007",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is the price-to-earnings (P/E) ratio?",
+    "back": "The P/E ratio measures the price investors are willing to pay per dollar of earnings, calculated as Market Price per Share / Earnings per Share. A higher P/E suggests investors expect higher future growth or are willing to pay a premium. Trailing P/E uses historical earnings, while forward P/E uses projected earnings. P/E ratios vary significantly across industries."
+  },
+  {
+    "id": "series86-87-fc008",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is the debt-to-equity ratio?",
+    "back": "The debt-to-equity ratio measures a company's financial leverage by dividing total debt by total shareholders' equity. A higher ratio indicates greater reliance on debt financing, which increases financial risk but can enhance returns on equity through leverage. Different industries have different typical ranges. Analysts compare this ratio to industry peers and historical trends."
+  },
+  {
+    "id": "series86-87-fc009",
+    "topic": "series86-87-t3",
+    "topicName": "Valuation Techniques",
+    "front": "What is the dividend discount model (DDM)?",
+    "back": "The DDM values a stock based on the present value of expected future dividends. The Gordon Growth Model (constant growth DDM) formula is: Price = D1 / (r - g), where D1 is the expected dividend, r is the required rate of return, and g is the constant growth rate. DDM is most appropriate for mature companies with stable, predictable dividend policies."
+  },
+  {
+    "id": "series86-87-fc010",
+    "topic": "series86-87-t3",
+    "topicName": "Valuation Techniques",
+    "front": "What is the PEG ratio?",
+    "back": "The PEG (Price/Earnings to Growth) ratio divides the P/E ratio by the expected earnings growth rate. A PEG of 1.0 suggests fair valuation relative to growth. A PEG below 1.0 may indicate the stock is undervalued relative to its growth, while above 1.0 may indicate overvaluation. PEG is useful for comparing companies with different growth rates within the same industry."
+  },
+  {
+    "id": "series86-87-fc011",
+    "topic": "series86-87-t3",
+    "topicName": "Valuation Techniques",
+    "front": "What is the EV/EBITDA multiple?",
+    "back": "EV/EBITDA compares enterprise value to earnings before interest, taxes, depreciation, and amortization. It is preferred over P/E for comparing companies with different capital structures because EV includes both equity and debt, and EBITDA is pre-financing. Lower ratios may suggest undervaluation. The multiple varies by industry, growth rate, and profitability."
+  },
+  {
+    "id": "series86-87-fc012",
+    "topic": "series86-87-t3",
+    "topicName": "Valuation Techniques",
+    "front": "What is a sum-of-the-parts (SOTP) valuation?",
+    "back": "SOTP valuation values a diversified company by separately valuing each business segment or division using appropriate methods and multiples, then summing the values. This approach recognizes that different business units may warrant different valuations. A conglomerate discount may exist if the market values the combined company below the SOTP value."
+  },
+  {
+    "id": "series86-87-fc013",
+    "topic": "series86-87-t4",
+    "topicName": "Industry and Sector Analysis",
+    "front": "What is Porter's Five Forces framework?",
+    "back": "Porter's Five Forces analyzes industry competitiveness through: (1) threat of new entrants, (2) bargaining power of suppliers, (3) bargaining power of buyers, (4) threat of substitute products, and (5) intensity of competitive rivalry. Industries with weak forces tend to be more profitable. Analysts use this framework to assess the attractiveness and dynamics of an industry."
+  },
+  {
+    "id": "series86-87-fc014",
+    "topic": "series86-87-t4",
+    "topicName": "Industry and Sector Analysis",
+    "front": "What is the industry life cycle?",
+    "back": "The industry life cycle has four stages: (1) Introduction/pioneering with high growth but low profitability, (2) Growth with rapidly increasing demand and improving margins, (3) Maturity with stable demand, intense competition, and consolidation, and (4) Decline with shrinking demand and exit of competitors. Each stage has different investment characteristics and appropriate valuation approaches."
+  },
+  {
+    "id": "series86-87-fc015",
+    "topic": "series86-87-t4",
+    "topicName": "Industry and Sector Analysis",
+    "front": "What is a cyclical versus defensive industry?",
+    "back": "Cyclical industries (automobiles, construction, luxury goods) are highly sensitive to economic cycles, with earnings that rise and fall with GDP. Defensive industries (utilities, healthcare, consumer staples) maintain relatively stable earnings regardless of economic conditions. Understanding cyclicality helps analysts time recommendations and set appropriate valuation expectations."
+  },
+  {
+    "id": "series86-87-fc016",
+    "topic": "series86-87-t5",
+    "topicName": "Research Regulations and Ethics",
+    "front": "What is the Global Research Analyst Settlement?",
+    "back": "The 2003 Global Settlement addressed conflicts of interest between investment banking and research at major Wall Street firms. It required structural separation of research from investment banking, prohibited analysts from being compensated based on investment banking revenue, mandated disclosure of conflicts, and required firms to provide independent research alongside their own."
+  },
+  {
+    "id": "series86-87-fc017",
+    "topic": "series86-87-t5",
+    "topicName": "Research Regulations and Ethics",
+    "front": "What are the FINRA rules governing research analysts?",
+    "back": "FINRA Rules 2241 (equity) and 2242 (debt) require structural safeguards between research and investment banking, prohibit investment banking from reviewing research reports before publication, restrict analyst participation in roadshows, mandate disclosure of conflicts in research reports, and require firms to establish information barriers. Analysts must certify that their views are their own."
+  },
+  {
+    "id": "series86-87-fc018",
+    "topic": "series86-87-t5",
+    "topicName": "Research Regulations and Ethics",
+    "front": "What conflicts of interest must be disclosed in research reports?",
+    "back": "Research reports must disclose: whether the firm or analyst owns the covered security, if the firm received investment banking compensation from the subject company in the past 12 months, if the firm makes a market in the security, the meaning of the firm's rating system and distribution of ratings, and any other material conflicts. Disclosures must be clear and prominent."
+  },
+  {
+    "id": "series86-87-fc019",
+    "topic": "series86-87-t5",
+    "topicName": "Research Regulations and Ethics",
+    "front": "What are the quiet period restrictions for research analysts?",
+    "back": "Under FINRA Rule 2241 (effective 2015, Regulatory Notice 15-30), research analysts at firms that participated as underwriter or dealer in an IPO must observe a minimum 10-calendar-day quiet period (reduced from 40/25 days under old NASD Rule 2711). For secondary offerings, managers and co-managers must observe a 3-day quiet period. These quiet periods do not apply to Emerging Growth Companies (EGCs) or covered investment funds. Structural safeguards also remain in effect, including information barriers between research and investment banking, prohibition on IB pre-approval of research content, restrictions on analyst compensation tied to investment banking revenue, and requirements that research opinions reflect the analyst's genuine views."
+  },
+  {
+    "id": "series86-87-fc020",
+    "topic": "series86-87-t5",
+    "topicName": "Research Regulations and Ethics",
+    "front": "What is Regulation FD (Fair Disclosure)?",
+    "back": "Regulation FD requires that when a public company discloses material nonpublic information to select individuals (such as analysts or institutional investors), it must simultaneously disclose that information to the public. If the disclosure was unintentional, the company must promptly make the information public. Reg FD promotes a level playing field for all investors."
+  },
+  {
+    "id": "series86-87-fc021",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is working capital and why is it important?",
+    "back": "Working capital equals current assets minus current liabilities and measures a company's short-term liquidity. Positive working capital indicates the ability to meet short-term obligations. Analysts monitor working capital trends to assess operational efficiency. The current ratio (current assets / current liabilities) and quick ratio provide additional insight into liquidity."
+  },
+  {
+    "id": "series86-87-fc022",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is earnings quality?",
+    "back": "Earnings quality measures how well reported earnings reflect actual business performance and predict future cash flows. High-quality earnings are sustainable, come from core operations, and align with cash flows. Red flags include growing gaps between earnings and cash flow, aggressive revenue recognition, frequent one-time items, and changes in accounting policies."
+  },
+  {
+    "id": "series86-87-fc023",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "front": "What is a research report and what should it contain?",
+    "back": "A research report is a written analysis presenting an investment recommendation on a security. It should contain a summary and investment thesis, company overview, industry analysis, financial analysis and projections, valuation, risk factors, rating/price target, and required disclosures. The report must be fair, balanced, and provide a sound basis for the recommendation."
+  },
+  {
+    "id": "series86-87-fc024",
+    "topic": "series86-87-t3",
+    "topicName": "Valuation Techniques",
+    "front": "What is a sensitivity analysis in financial modeling?",
+    "back": "Sensitivity analysis examines how changes in key assumptions (such as revenue growth, margins, discount rates, or terminal multiples) affect a valuation outcome. It is typically presented as a data table showing a range of values. This technique helps analysts understand which variables have the greatest impact on value and communicate uncertainty around estimates."
+  },
+  {
+    "id": "series86-87-fc025",
+    "topic": "series86-87-t3",
+    "topicName": "Valuation Techniques",
+    "front": "What is a football field chart in equity research?",
+    "back": "A football field chart is a visual summary displaying the range of valuations derived from different methodologies (DCF, comparable companies, precedent transactions, analyst price targets) as horizontal bars on a single chart. It allows analysts and investors to quickly compare implied values across methods and identify where the current stock price falls relative to these ranges."
+  },
+  {
+    "id": "series86-87-fc026",
+    "topic": "series86-87-t4",
+    "topicName": "Industry and Sector Analysis",
+    "front": "What is a top-down versus bottom-up analysis approach?",
+    "back": "Top-down analysis starts with macroeconomic and market conditions, then narrows to sectors, industries, and individual companies. Bottom-up analysis starts with individual company fundamentals and builds upward. Top-down emphasizes economic trends and sector rotation, while bottom-up focuses on finding undervalued companies regardless of macro conditions. Many analysts use a combination."
+  },
+  {
+    "id": "series86-87-fc027",
+    "topic": "series86-87-t1",
+    "topicName": "Research Analysis Fundamentals",
+    "front": "What is a price target?",
+    "back": "A price target is an analyst's projection of a security's future price, typically over a 12-month horizon. It is based on the analyst's valuation work and expectations for the company and its industry. Price targets are communicated alongside buy, hold, or sell ratings. They provide investors with a quantitative assessment of expected return potential."
+  },
+  {
+    "id": "series86-87-fc028",
+    "topic": "series86-87-t5",
+    "topicName": "Research Regulations and Ethics",
+    "front": "Can a research analyst participate in investment banking pitches?",
+    "back": "Research analysts are restricted from participating in investment banking pitches or roadshows that solicit investment banking business. They may not participate in activities that could compromise their objectivity. However, analysts may attend deal-related meetings in limited circumstances, such as providing sector expertise during due diligence, with appropriate supervision and disclosure."
+  },
+  {
+    "id": "series86-87-fc029",
+    "topic": "series86-87-t2",
+    "topicName": "Financial Statement Analysis",
+    "front": "What is the difference between diluted and basic EPS?",
+    "back": "Basic EPS divides net income by the weighted average shares outstanding. Diluted EPS accounts for all potentially dilutive securities (stock options, convertible bonds, warrants) that could increase shares outstanding if exercised or converted. Diluted EPS is always equal to or lower than basic EPS. Analysts typically use diluted EPS for valuation to reflect the full potential dilution."
+  },
+  {
+    "id": "series86-87-fc030",
+    "topic": "series86-87-t4",
+    "topicName": "Industry and Sector Analysis",
+    "front": "What is a competitive moat?",
+    "back": "A competitive moat is a durable competitive advantage that protects a company from competitors and allows it to maintain above-average profitability. Sources of moats include brand strength, network effects, cost advantages (economies of scale), switching costs, patents and intellectual property, and regulatory barriers. Companies with wide moats command higher valuations."
+  }
+]

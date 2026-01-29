@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn about underwriting supervision, research analyst conflicts, new issue allocations, quiet periods, and private placement supervision for the Series 24 exam.">
+  <title>Investment Banking Supervision - Series 24 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series24" data-chapter="investment-banking-supervision">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav"><span class="hamburger__line"></span><span class="hamburger__line"></span><span class="hamburger__line"></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-principal">Chapter 9</span>
+          <h1>Investment Banking Supervision</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              22 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 24 — General Securities Principal
+            </span>
+          </div>
+        </div>
+
+        <section class="lesson__section" id="underwriting-supervision">
+          <h2>Underwriting Syndicate Management and Supervision</h2>
+
+          <p>Investment banking activities present unique supervisory challenges and regulatory requirements that differ significantly from retail brokerage operations. As a General Securities Principal supervising investment banking activities, you must understand the underwriting process, syndicate structures, allocation practices, and the complex web of conflicts that can arise when a firm provides both underwriting services and research coverage. The principal's role is to ensure the firm complies with all applicable rules while maintaining the integrity of capital markets.</p>
+
+          <p>An <strong>underwriting syndicate</strong> is a temporary group of investment banks and broker-dealers that work together to distribute a new issue of securities. The syndicate is formed to spread the risk of the offering and to leverage the distribution capabilities of multiple firms. The structure typically includes:</p>
+
+          <ul>
+            <li><strong>Managing underwriter (lead manager):</strong> The investment bank that organizes the syndicate, negotiates terms with the issuer, prepares the registration statement, and coordinates the offering process</li>
+            <li><strong>Syndicate members:</strong> Other investment banks that commit to purchase and distribute a portion of the offering</li>
+            <li><strong>Selling group members:</strong> Broker-dealers that assist with distribution but do not commit capital to the offering</li>
+          </ul>
+
+          <h3>Principal's Supervisory Responsibilities</h3>
+
+          <p>When supervising underwriting activities, the principal must ensure:</p>
+
+          <ul>
+            <li><strong>Due diligence:</strong> The firm conducts adequate investigation of the issuer's business, financial condition, and the accuracy of disclosure documents</li>
+            <li><strong>Fair dealing:</strong> Syndicate agreements are fair, allocation practices are equitable, and conflicts of interest are properly managed</li>
+            <li><strong>Information barriers:</strong> Proper walls exist between investment banking, research, and trading departments to prevent misuse of material non-public information</li>
+            <li><strong>Recordkeeping:</strong> All required books and records related to the underwriting are maintained, including syndicate agreements, allocation records, and due diligence documentation</li>
+            <li><strong>Compliance with quiet periods:</strong> Restrictions on research and communications during IPOs and follow-on offerings are observed</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Spinning and laddering are prohibited practices that principals must prevent. Spinning involves allocating hot IPO shares to executives of a company to win or retain that company's investment banking business. Laddering involves conditioning IPO allocations on the customer's agreement to purchase additional shares in the aftermarket at escalating prices. Both practices have resulted in significant fines and sanctions.</p>
+            </div>
+          </div>
+
+          <h3>Syndicate Compensation</h3>
+
+          <p>Understanding the compensation structure is critical for supervision. The <strong>spread</strong> is the difference between the price the underwriters pay the issuer and the public offering price. This spread is divided among syndicate participants:</p>
+
+          <ul>
+            <li><strong>Management fee:</strong> Paid to the managing underwriter for organizing and running the syndicate (typically 20% of the spread)</li>
+            <li><strong>Underwriting fee:</strong> Compensation for assuming the risk of purchasing securities from the issuer (typically 20% of the spread)</li>
+            <li><strong>Selling concession:</strong> Commission paid to the firms that actually sell the securities to investors (typically 60% of the spread)</li>
+          </ul>
+        </section>
+
+        <section class="lesson__section" id="research-analyst-conflicts">
+          <h2>Research Analyst Conflicts of Interest</h2>
+
+          <p><strong>FINRA Rule 2241</strong> establishes comprehensive requirements designed to address conflicts of interest that can arise between investment banking activities and research analysis. The rule recognizes that when a firm provides both investment banking services and research coverage, there is inherent pressure to publish favorable research to win or retain investment banking business. This conflict undermines the objectivity of research and harms investors who rely on independent analysis.</p>
+
+          <h3>Key Requirements of FINRA Rule 2241</h3>
+
+          <p>Principals supervising investment banking and research operations must ensure compliance with these core provisions:</p>
+
+          <ul>
+            <li><strong>Independence of research:</strong> Research analysts must not be subject to the supervision or control of investment banking personnel. Investment banking personnel cannot direct a research analyst to engage in sales or marketing efforts</li>
+            <li><strong>Prohibition on prepublication review:</strong> Investment banking personnel may not review or approve research reports before publication, except to verify factual accuracy or identify potential conflicts of interest (not to influence content or conclusions)</li>
+            <li><strong>Compensation restrictions:</strong> Research analyst compensation cannot be directly tied to specific investment banking transactions. While compensation may reflect the firm's overall investment banking revenues, it cannot be based on a particular deal or on helping to obtain specific investment banking business</li>
+            <li><strong>Disclosure requirements:</strong> Research reports must disclose if the firm has received investment banking compensation from the subject company in the past 12 months, if the firm expects to receive investment banking compensation in the next three months, and if the analyst or their household has a financial interest in the subject company</li>
+            <li><strong>Quiet period restrictions:</strong> Specific limitations on when research can be published around IPOs and secondary offerings</li>
+            <li><strong>Prohibition on promising favorable research:</strong> Firms cannot offer favorable research coverage as an inducement to obtain investment banking business</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Research Report:</strong> Under Rule 2241, a research report is a written or electronic communication that includes an analysis of equity securities and provides information reasonably sufficient to make an investment decision. The rule applies to research on equity securities and equity-linked derivatives, but not to research on debt securities or other asset classes.</p>
+            </div>
+          </div>
+
+          <h3>Information Barriers and Physical Separation</h3>
+
+          <p>To maintain research independence, firms must establish and enforce <strong>information barriers</strong> (also known as "Chinese walls") between research and investment banking. These barriers include:</p>
+
+          <ul>
+            <li><strong>Physical separation:</strong> Research analysts should be physically separated from investment banking personnel when practical</li>
+            <li><strong>Separate reporting lines:</strong> Research analysts must report to research management, not investment banking management</li>
+            <li><strong>Access controls:</strong> Electronic systems must prevent investment banking from accessing research drafts or communications</li>
+            <li><strong>Communication logs:</strong> Interactions between research and investment banking must be documented and monitored</li>
+            <li><strong>Legal and compliance oversight:</strong> Legal and compliance personnel monitor communications to ensure barriers are effective</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>For the Series 24 exam, remember that Rule 2241 prohibits investment banking from reviewing research for content or conclusions, but they CAN review for factual accuracy and to identify conflicts. Research analysts can attend pitch meetings and provide factual information about their coverage, but cannot be pressured to change ratings or opinions to win banking business.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="new-issue-allocations">
+          <h2>New Issue Allocations: Rules 5130 and 5131</h2>
+
+          <p>FINRA Rules 5130 and 5131 govern the allocation of new issues to ensure that securities are distributed fairly and not used improperly to reward or influence certain persons. These rules are commonly referred to as the "restricted persons" rules and address two distinct but related concerns: Rule 5130 addresses the allocation of new issues to industry insiders and their accounts, while Rule 5131 prohibits allocations designed to improperly influence company executives.</p>
+
+          <h3>FINRA Rule 5130: Restrictions on New Issue Allocations</h3>
+
+          <p>Rule 5130 prohibits member firms from selling new issues (defined as IPOs that trade at a premium in the immediate aftermarket) to any account where <strong>restricted persons</strong> have a beneficial interest. The rule aims to prevent industry insiders from using their positions to obtain scarce IPO shares that are likely to increase in value.</p>
+
+          <p><strong>Restricted persons under Rule 5130 include:</strong></p>
+
+          <ul>
+            <li><strong>FINRA member firms</strong> and their associated persons (including registered representatives, principals, and employees)</li>
+            <li><strong>Finders and fiduciaries</strong> of the managing underwriter (persons who help arrange the underwriting)</li>
+            <li><strong>Portfolio managers</strong> who have the authority to buy or sell securities for institutional accounts</li>
+            <li><strong>Immediate family members</strong> of the above persons if they are materially supported by the restricted person or share the same household</li>
+          </ul>
+
+          <h3>De Minimis Exception</h3>
+
+          <p>An important exception allows sales to accounts where restricted persons have a beneficial interest if their combined ownership is <strong>10% or less</strong> of the account. For example, an investment club where a broker owns 8% of the account could purchase new issues because the restricted person's interest is below the de minimis threshold.</p>
+
+          <h3>FINRA Rule 5131: Prohibition Against Quid Pro Quo Allocations</h3>
+
+          <p>Rule 5131 addresses a different abuse: allocating IPO shares to company executives and directors to influence the company to use the firm's investment banking services. This practice, sometimes called "spinning," creates an inherent conflict where the firm uses valuable IPO allocations as currency to win banking business rather than allocating shares to bona fide investors.</p>
+
+          <p><strong>Rule 5131 prohibitions:</strong></p>
+
+          <ul>
+            <li>Firms cannot allocate new issues to executive officers or directors of a public company or covered non-public company if the firm has provided or expects to provide investment banking services to that company</li>
+            <li>The prohibition applies during the 12 months before and after the firm provides investment banking services</li>
+            <li>The restriction extends to immediate family members living in the same household</li>
+            <li>Firms must implement procedures to identify these accounts and prevent prohibited allocations</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Rule</th>
+                  <th>Focus</th>
+                  <th>Restricted Persons</th>
+                  <th>Exception</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">5130</td>
+                  <td class="compare-table__cell">Industry insiders exploiting position</td>
+                  <td class="compare-table__cell">BD employees, portfolio managers, finders</td>
+                  <td class="compare-table__cell">10% de minimis exception</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">5131</td>
+                  <td class="compare-table__cell">Quid pro quo allocations (spinning)</td>
+                  <td class="compare-table__cell">Company executives/directors</td>
+                  <td class="compare-table__cell">No banking relationship (12-month lookback/forward)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Principals must implement systems to identify restricted accounts BEFORE new issues are allocated. This requires maintaining current information on customer occupation, employment, and relationships. Firms have been sanctioned for failing to adequately supervise new issue allocations, particularly when accounts are not properly coded or when representatives circumvent controls.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="quiet-periods">
+          <h2>Quiet Periods and Lock-Up Agreements</h2>
+
+          <p>Quiet periods and lock-up agreements are critical mechanisms for maintaining market integrity around public offerings. They prevent the dissemination of potentially misleading information during sensitive periods and restrict selling that could destabilize a newly public stock. Principals supervising investment banking must ensure strict compliance with these restrictions.</p>
+
+          <h3>Research Quiet Periods</h3>
+
+          <p>Under FINRA Rule 2241 and SEC regulations, there are specific periods surrounding public offerings when research coverage is restricted:</p>
+
+          <ul>
+            <li><strong>IPO quiet period:</strong> If a firm acts as manager or co-manager in an IPO, it cannot publish or distribute research on that issuer for <strong>40 days</strong> following the IPO (for investment grade issuers) or <strong>25 days</strong> (for non-investment grade issuers)</li>
+            <li><strong>Secondary offering quiet period:</strong> For secondary offerings, the quiet period is <strong>10 days</strong> following the offering if the firm acts as manager or co-manager</li>
+            <li><strong>Pre-filing quiet period:</strong> While not an absolute prohibition, firms must be careful about research activity before a registration statement is filed, as it could be viewed as "gun-jumping" or conditioning the market</li>
+          </ul>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Offering Type</th>
+                  <th>Quiet Period Length</th>
+                  <th>Applies To</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">IPO (emerging growth company)</td>
+                  <td class="compare-table__cell">25 days after IPO</td>
+                  <td class="compare-table__cell">Manager/co-manager only</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">IPO (other issuers)</td>
+                  <td class="compare-table__cell">40 days after IPO</td>
+                  <td class="compare-table__cell">Manager/co-manager only</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Secondary offering</td>
+                  <td class="compare-table__cell">10 days after offering</td>
+                  <td class="compare-table__cell">Manager/co-manager only</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>Lock-Up Agreements</h3>
+
+          <p>A <strong>lock-up agreement</strong> is a contractual provision that prohibits insiders (officers, directors, employees, and early investors) from selling their shares for a specified period after an IPO, typically 180 days. Lock-ups serve several purposes:</p>
+
+          <ul>
+            <li><strong>Market stability:</strong> Preventing a flood of insider selling that could depress the stock price</li>
+            <li><strong>Investor confidence:</strong> Signaling insider confidence in the company's prospects</li>
+            <li><strong>Orderly distribution:</strong> Allowing the stock to establish a trading pattern before insiders sell</li>
+          </ul>
+
+          <h3>Principal's Supervisory Obligations</h3>
+
+          <p>When supervising quiet periods and lock-ups, principals must:</p>
+
+          <ul>
+            <li><strong>Maintain calendars:</strong> Track quiet period expiration dates for all underwriting commitments</li>
+            <li><strong>Block research publication:</strong> Implement systems that prevent research from being published during prohibited periods</li>
+            <li><strong>Monitor lock-up expirations:</strong> Be prepared for potential volatility when lock-ups expire and large blocks of insider shares become available for sale</li>
+            <li><strong>Review early release requests:</strong> If insiders request early release from lock-ups, ensure proper disclosure and approval processes</li>
+            <li><strong>Coordinate with compliance:</strong> Ensure all departments (research, trading, sales) understand and observe quiet period restrictions</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Know the specific time frames: 40 days for most IPOs, 25 days for emerging growth companies, and 10 days for secondary offerings. The quiet period applies only to firms that are managers or co-managers of the offering, not to syndicate members or selling group members. Lock-up periods are contractual (typically 180 days) and not regulatory requirements.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson__section" id="private-placements">
+          <h2>Private Placement Supervision</h2>
+
+          <p>Private placements allow companies to raise capital without the time, expense, and disclosure requirements of a registered public offering. Securities sold in private placements are <strong>restricted securities</strong> that cannot be freely resold without registration or an applicable exemption. Principals supervising private placement activities must understand the regulatory framework, investor qualification requirements, and supervisory obligations unique to these transactions.</p>
+
+          <h3>Regulation D and the Private Placement Exemptions</h3>
+
+          <p>Most private placements rely on exemptions under <strong>Regulation D</strong>, which provides safe harbors from SEC registration requirements:</p>
+
+          <ul>
+            <li><strong>Rule 504:</strong> Allows offerings up to $10 million in a 12-month period with fewer restrictions, primarily for smaller companies</li>
+            <li><strong>Rule 506(b):</strong> No dollar limit, allows up to 35 non-accredited investors (but they must be sophisticated), prohibits general solicitation and advertising</li>
+            <li><strong>Rule 506(c):</strong> No dollar limit, allows general solicitation and advertising, but all purchasers must be accredited investors and the issuer must take reasonable steps to verify accredited status</li>
+          </ul>
+
+          <h3>Accredited Investor Verification</h3>
+
+          <p>An <strong>accredited investor</strong> is an individual or entity that meets certain financial thresholds, indicating they can bear the economic risk of investing in unregistered securities. Accredited investors include:</p>
+
+          <ul>
+            <li>Individuals with net worth exceeding $1 million (excluding primary residence)</li>
+            <li>Individuals with income exceeding $200,000 (or $300,000 with spouse) in each of the past two years with expectation of the same level in the current year</li>
+            <li>Certain entities with assets exceeding $5 million</li>
+            <li>Registered investment advisers, broker-dealers, and certain other regulated entities</li>
+            <li>Directors, executive officers, or general partners of the issuer</li>
+          </ul>
+
+          <p>Under Rule 506(c), firms must take <strong>reasonable steps to verify</strong> that purchasers are accredited investors. Acceptable verification methods include reviewing tax returns, W-2s, bank and brokerage statements, credit reports, or obtaining written confirmation from a CPA, attorney, or investment adviser.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Restricted Securities:</strong> Securities acquired in unregistered, private sales from an issuer or an affiliate. These securities bear a restrictive legend stating they cannot be resold without registration or an exemption. Rule 144 provides a safe harbor for reselling restricted securities, typically requiring a six-month or one-year holding period depending on whether the issuer is reporting or non-reporting.</p>
+            </div>
+          </div>
+
+          <h3>Suitability and Risk Disclosure</h3>
+
+          <p>Private placements involve significant risks that must be disclosed and understood by investors:</p>
+
+          <ul>
+            <li><strong>Illiquidity:</strong> Restricted securities cannot be easily sold; investors may need to hold them indefinitely</li>
+            <li><strong>Lack of information:</strong> Private companies are not subject to public company disclosure requirements</li>
+            <li><strong>Higher risk of loss:</strong> Many private placements involve early-stage or speculative ventures</li>
+            <li><strong>Limited investor protections:</strong> Private placements are exempt from many securities laws that protect public investors</li>
+          </ul>
+
+          <p>Principals must ensure that registered representatives conduct adequate suitability analysis before recommending private placements, particularly for retail investors. The representative must have a reasonable basis to believe the investment is suitable based on the customer's financial situation, investment objectives, and risk tolerance.</p>
+        </section>
+
+        <section class="lesson__section" id="due-diligence">
+          <h2>Due Diligence Requirements</h2>
+
+          <p>Due diligence is the investigative process by which underwriters and placement agents verify information about an issuer and its securities offering. Adequate due diligence is both a regulatory requirement and a critical defense against liability under federal securities laws. Section 11 of the Securities Act of 1933 imposes liability on underwriters for material misstatements or omissions in registration statements, but provides a "due diligence defense" if the underwriter can demonstrate reasonable investigation.</p>
+
+          <h3>Components of Investment Banking Due Diligence</h3>
+
+          <p>A comprehensive due diligence investigation typically includes:</p>
+
+          <ul>
+            <li><strong>Financial due diligence:</strong> Review and verification of financial statements, accounting policies, revenue recognition, and internal controls. Typically involves engagement of external auditors and financial advisers</li>
+            <li><strong>Legal due diligence:</strong> Examination of corporate documents, material contracts, litigation, regulatory compliance, intellectual property, and employment matters</li>
+            <li><strong>Business due diligence:</strong> Assessment of the company's business model, competitive position, management team, products or services, customers, and growth prospects</li>
+            <li><strong>Disclosure review:</strong> Line-by-line review of the registration statement or offering memorandum to verify accuracy and completeness</li>
+            <li><strong>Management meetings:</strong> Detailed questioning of management to understand the business and assess credibility</li>
+            <li><strong>Site visits:</strong> Physical inspection of company facilities, operations, and significant assets</li>
+          </ul>
+
+          <h3>Documentation of Due Diligence</h3>
+
+          <p>Principals must ensure that due diligence efforts are thoroughly documented. FINRA expects firms to maintain records demonstrating the scope and findings of their investigation. Critical documentation includes:</p>
+
+          <ul>
+            <li>Due diligence checklists and questionnaires</li>
+            <li>Minutes of due diligence meetings</li>
+            <li>Management presentations and Q&A</li>
+            <li>Financial analysis and verification procedures</li>
+            <li>Legal opinions and third-party reports</li>
+            <li>Documentation of issues identified and how they were resolved</li>
+            <li>Sign-offs by responsible principals</li>
+          </ul>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Inadequate due diligence has resulted in significant regulatory sanctions and civil liability. FINRA has disciplined firms for acting as placement agents for fraudulent offerings where minimal or no due diligence was conducted. Principals who approve offerings without reasonable investigation can face individual sanctions including fines, suspension, or bar from the industry.</p>
+            </div>
+          </div>
+
+          <h3>Red Flags Requiring Additional Investigation</h3>
+
+          <p>Experienced principals know to look for warning signs that warrant deeper investigation:</p>
+
+          <ul>
+            <li>Inconsistencies in financial statements or management representations</li>
+            <li>Unusual or aggressive accounting practices</li>
+            <li>Significant related-party transactions</li>
+            <li>Frequent changes in auditors or legal counsel</li>
+            <li>Management with disciplinary history or questionable background</li>
+            <li>Excessive compensation or self-dealing by insiders</li>
+            <li>Complex corporate structures without clear business purpose</li>
+            <li>Reluctance to provide information or access to facilities</li>
+          </ul>
+        </section>
+
+        <section class="lesson__section" id="recordkeeping">
+          <h2>Recordkeeping for Investment Banking Activities</h2>
+
+          <p>Investment banking activities generate unique recordkeeping requirements beyond those applicable to retail brokerage operations. Principals must ensure the firm maintains all required books and records related to underwriting, syndicate operations, private placements, and research activities. These records are subject to SEC Rule 17a-4 and various FINRA rules.</p>
+
+          <h3>Required Investment Banking Records</h3>
+
+          <ul>
+            <li><strong>Underwriting agreements:</strong> All agreements between the firm and the issuer, as well as agreements among underwriters (syndicate agreements, selling agreements). Must be retained for six years</li>
+            <li><strong>Allocation records:</strong> Documentation of how securities were allocated to customers, including the basis for allocation decisions and procedures to prevent violations of Rules 5130 and 5131. Must be retained for three years</li>
+            <li><strong>Due diligence documentation:</strong> All materials relating to the firm's investigation of the issuer and the offering. Retention period varies, but six years is prudent given potential liability exposure</li>
+            <li><strong>Research records:</strong> All research reports and all communications related to research, including drafts, notes, models, and correspondence with investment banking. Must be retained for three years</li>
+            <li><strong>Private placement memoranda:</strong> All offering documents for private placements in which the firm acts as placement agent. Must be retained for three years after completion of the offering</li>
+            <li><strong>Form D filings:</strong> Copies of all Regulation D filings for private placements. Must be retained for three years</li>
+            <li><strong>Accredited investor verification:</strong> Documentation supporting determination that purchasers in Rule 506(c) offerings are accredited investors. Must be retained for at least five years after the offering closes</li>
+            <li><strong>Compensation records:</strong> Records of all compensation received in connection with investment banking services, including detail sufficient to determine compliance with FINRA rules</li>
+          </ul>
+
+          <h3>Electronic Storage and Accessibility</h3>
+
+          <p>Records may be maintained in electronic format, but must be:</p>
+
+          <ul>
+            <li><strong>Non-rewriteable and non-erasable:</strong> Once created, records cannot be altered or deleted (WORM - Write Once, Read Many)</li>
+            <li><strong>Indexed and retrievable:</strong> Records must be organized and searchable to allow prompt production upon regulatory request</li>
+            <li><strong>Backed up:</strong> Redundant copies must be maintained in separate physical locations</li>
+            <li><strong>Accessible:</strong> Records must be available for examination by regulators throughout the retention period</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>For the Series 24 exam, remember that most investment banking records must be retained for at least three years (allocation records, research records, private placement documents), while certain agreements must be kept for six years (underwriting agreements). Electronic storage is permitted but must meet WORM standards. Failure to maintain required records is a serious violation that can result in disciplinary action.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of investment banking supervision. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Under FINRA Rule 2241, what is the research quiet period for a firm that acts as co-manager in an IPO of an emerging growth company?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 10 days following the IPO</button>
+              <button class="answer-btn" data-correct="true">B) 25 days following the IPO</button>
+              <button class="answer-btn" data-correct="false">C) 40 days following the IPO</button>
+              <button class="answer-btn" data-correct="false">D) 180 days following the IPO</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              For IPOs of emerging growth companies, the research quiet period is 25 days following the offering when the firm acts as manager or co-manager. For other issuers, the quiet period is 40 days. For secondary offerings, the quiet period is 10 days.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. FINRA Rule 5130 prohibits the sale of new issues to restricted persons. Which of the following is NOT considered a restricted person under Rule 5130?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) A registered representative of a FINRA member firm</button>
+              <button class="answer-btn" data-correct="false">B) A portfolio manager at a hedge fund</button>
+              <button class="answer-btn" data-correct="true">C) An executive officer of the issuer company</button>
+              <button class="answer-btn" data-correct="false">D) A finder who helped arrange the underwriting</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Executive officers of the issuer are addressed by Rule 5131 (which prohibits quid pro quo allocations), not Rule 5130. Rule 5130 restricted persons include FINRA member employees, portfolio managers, and finders of the managing underwriter. The rules address different abuses: Rule 5130 prevents industry insiders from exploiting their positions, while Rule 5131 prevents spinning.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Under FINRA Rule 2241, research analyst compensation:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Cannot be based in any way on the firm's investment banking revenues</button>
+              <button class="answer-btn" data-correct="true">B) Cannot be directly tied to specific investment banking transactions</button>
+              <button class="answer-btn" data-correct="false">C) Must be determined exclusively by the research department</button>
+              <button class="answer-btn" data-correct="false">D) Must be disclosed in every research report published</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Rule 2241 prohibits research analyst compensation from being directly tied to specific investment banking transactions. However, compensation may reflect the firm's overall investment banking revenues. The key is that compensation cannot be based on a particular deal or helping to obtain specific banking business, as this would compromise analyst independence.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. An investment club has 12 members. Two members are registered representatives who each own 8% of the club. Under Rule 5130, can the club purchase new issues?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) No, because the club includes restricted persons</button>
+              <button class="answer-btn" data-correct="false">B) No, because more than one restricted person is involved</button>
+              <button class="answer-btn" data-correct="true">C) Yes, because the restricted persons' combined ownership is below the 10% de minimis exception</button>
+              <button class="answer-btn" data-correct="false">D) Yes, but only if the restricted persons recuse themselves from the purchase decision</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Rule 5130 includes a de minimis exception that allows sales to accounts where restricted persons have a beneficial interest if their combined ownership is 10% or less. In this case, the two registered representatives together own 16% (8% + 8%), which exceeds the threshold, so the club cannot purchase new issues.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Under Regulation D, Rule 506(c), what must a firm do regarding investor qualification?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Accept up to 35 non-accredited investors if they are sophisticated</button>
+              <button class="answer-btn" data-correct="false">B) Prohibit general solicitation and advertising</button>
+              <button class="answer-btn" data-correct="true">C) Take reasonable steps to verify that all purchasers are accredited investors</button>
+              <button class="answer-btn" data-correct="false">D) Limit the offering to $10 million in a 12-month period</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Rule 506(c) allows general solicitation and advertising but requires that all purchasers be accredited investors AND that the issuer take reasonable steps to verify accredited status. This is different from Rule 506(b), which prohibits general solicitation but allows up to 35 non-accredited investors if they are sophisticated. Rule 506(c) requires affirmative verification, not just the investor's self-certification.
+            </div>
+          </div>
+
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="trading-supervision.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg></span>
+            <div><span class="lesson__nav-label">Previous Chapter</span><span class="lesson__nav-title">Chapter 8 — Trading Supervision</span></div>
+          </a>
+          <a href="aml-compliance.html" class="lesson__nav-link lesson__nav-link--next">
+            <div><span class="lesson__nav-label">Next Chapter</span><span class="lesson__nav-title">Chapter 10 — AML Compliance</span></div>
+            <span class="lesson__nav-arrow"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg></span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc"><p class="lesson__toc-title">On This Page</p><ul class="lesson__toc-list"></ul></aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand"><a href="../../" class="logo" aria-label="LearnFinance home"><span class="logo__icon" aria-hidden="true">LF</span><span class="logo__text">LearnFinance</span></a><p class="footer__tagline">Free exam prep for every aspiring finance professional.</p></div>
+        <div class="footer__col"><h4 class="footer__col-title">Exams</h4><ul class="footer__links"><li><a href="../../exams/sie.html">SIE</a></li><li><a href="../../exams/series7.html">Series 7</a></li><li><a href="../../exams/series63.html">Series 63</a></li><li><a href="../../exams/series65.html">Series 65</a></li><li><a href="../../exams/series66.html">Series 66</a></li><li><a href="../../exams/">View All Exams</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">Tools</h4><ul class="footer__links"><li><a href="../../learn/">Learn</a></li><li><a href="../../quiz/">Practice Quizzes</a></li><li><a href="../../flashcards/">Flashcards</a></li><li><a href="../../pathways/">Career Pathways</a></li><li><a href="../../progress/">Progress Tracker</a></li></ul></div>
+        <div class="footer__col"><h4 class="footer__col-title">About</h4><ul class="footer__links"><li><a href="../../about.html">About Us</a></li><li><a href="../../contact.html">Contact</a></li><li><a href="../../privacy.html">Privacy Policy</a></li><li><a href="../../terms.html">Terms of Use</a></li></ul></div>
+      </div>
+      <div class="footer__disclaimer"><p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p></div>
+      <div class="footer__bottom"><p>&copy; 2026 LearnFinance. All rights reserved.</p></div>
+    </div>
+  </footer>
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

@@ -1,0 +1,2148 @@
+[
+  {
+    "id": "sie",
+    "series": "SIE",
+    "name": "Securities Industry Essentials",
+    "category": "entry",
+    "description": "Entry-level assessment of basic securities industry knowledge required for all aspiring securities professionals. Covers foundational concepts including market structure, product types, risk, and regulatory frameworks.",
+    "questions": 80,
+    "unscored": 5,
+    "scored": 75,
+    "timeMinutes": 105,
+    "passingScore": 70,
+    "passingScoreNote": "70% (based on scored questions only)",
+    "cost": "$100",
+    "prerequisites": [],
+    "prerequisiteNote": "None - can be taken without firm sponsorship",
+    "whoNeeds": "All individuals seeking to enter the securities industry. Must be passed before or concurrent with any representative-level or principal-level qualification exam.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "4 years if not associated with a FINRA member firm",
+    "topics": [
+      {
+        "id": "sie-t1",
+        "name": "Knowledge of Capital Markets",
+        "weight": 16,
+        "questions": 12,
+        "subtopics": [
+          "Types of economic markets and market structure",
+          "Regulatory entities and their functions (SEC, FINRA, MSRB, CBOE, state regulators)",
+          "Self-regulatory organizations (SROs) and their roles",
+          "Types of securities offerings (IPOs, secondary offerings, private placements)",
+          "Factors that impact markets (economic indicators, monetary/fiscal policy)",
+          "Business cycle and its impact on securities markets",
+          "Federal Reserve tools: open market operations, reserve requirements, discount rate",
+          "GDP, CPI, unemployment rate, and other key economic indicators",
+          "Global market factors: trade balances, currency exchange, geopolitical risks"
+        ]
+      },
+      {
+        "id": "sie-t2",
+        "name": "Understanding Products and Their Risks",
+        "weight": 44,
+        "questions": 33,
+        "subtopics": [
+          "Equity securities: common stock, preferred stock, rights, warrants, ADRs",
+          "Debt securities: corporate bonds, government bonds, municipal bonds, money market instruments",
+          "Bond characteristics: coupon rates, yields, maturities, call features, ratings",
+          "Options: calls, puts, basic strategies, intrinsic and time value",
+          "Investment company products: mutual funds, closed-end funds, ETFs, UITs",
+          "Municipal fund securities: 529 plans, ABLE accounts, local government investment pools",
+          "Variable annuities and variable life insurance",
+          "Direct participation programs (DPPs) and limited partnerships",
+          "Real estate investment trusts (REITs)",
+          "Structured products and asset-backed securities",
+          "Risks: market risk, credit risk, interest rate risk, inflation risk, liquidity risk",
+          "Systematic vs. unsystematic risk",
+          "Currency risk, political risk, legislative risk",
+          "Reinvestment risk, prepayment risk, call risk",
+          "Risk/return trade-off and diversification"
+        ]
+      },
+      {
+        "id": "sie-t3",
+        "name": "Understanding Trading, Customer Accounts, and Prohibited Activities",
+        "weight": 31,
+        "questions": 23,
+        "subtopics": [
+          "Types of accounts: individual, joint, corporate, trust, custodial (UGMA/UTMA), retirement",
+          "Account registration and documentation requirements",
+          "Customer identification programs (CIP) and anti-money laundering (AML)",
+          "Margin accounts: requirements, maintenance, Regulation T",
+          "Types of orders: market, limit, stop, stop-limit, GTC, day orders",
+          "Trade execution, settlement, and clearing processes",
+          "Primary and secondary markets, exchanges, and OTC markets",
+          "Roles of broker-dealers, market makers, and ECNs",
+          "Prohibited activities: insider trading, market manipulation, front-running",
+          "Churning, unauthorized trading, selling away",
+          "Suitability obligations and know-your-customer (KYC) rules",
+          "Communications with the public: advertising, correspondence, institutional/retail",
+          "Books and records requirements",
+          "SIPC coverage and limitations",
+          "Customer complaint handling and reporting"
+        ]
+      },
+      {
+        "id": "sie-t4",
+        "name": "Overview of the Regulatory Framework",
+        "weight": 9,
+        "questions": 7,
+        "subtopics": [
+          "Securities Act of 1933: registration of new securities",
+          "Securities Exchange Act of 1934: regulation of secondary markets",
+          "Investment Company Act of 1940",
+          "Investment Advisers Act of 1940",
+          "FINRA registration and qualification requirements",
+          "Continuing education requirements (Regulatory Element and Firm Element)",
+          "Form U4 and Form U5",
+          "Statutory disqualification",
+          "SRO regulatory framework and rulemaking process"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series7",
+    "series": "Series 7",
+    "name": "General Securities Representative",
+    "category": "representative",
+    "description": "The General Securities Representative Examination qualifies an individual to sell a broad range of securities products including equities, bonds, options, mutual funds, variable annuities, DPPs, and more. Often referred to as the most important FINRA exam.",
+    "questions": 130,
+    "unscored": 5,
+    "scored": 125,
+    "timeMinutes": 225,
+    "passingScore": 72,
+    "passingScoreNote": "72% (based on scored questions only)",
+    "cost": "$395",
+    "prerequisites": [
+      "sie"
+    ],
+    "prerequisiteNote": "SIE exam required; must be associated with and sponsored by a FINRA member firm",
+    "whoNeeds": "Individuals who want to sell a broad range of securities including stocks, bonds, options, mutual funds, variable contracts, and direct participation programs.",
+    "corequisites": [
+      "sie"
+    ],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm; 2-year window to re-register if terminated",
+    "topics": [
+      {
+        "id": "s7-f1",
+        "name": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+        "weight": 7,
+        "questions": 9,
+        "subtopics": [
+          "Opening business development conversations with potential clients",
+          "FINRA rules on communications with the public (Rule 2210)",
+          "Retail communications, correspondence, and institutional communications",
+          "Approval and filing requirements for communications",
+          "Standards for content: fair and balanced presentation",
+          "Use of testimonials and endorsements",
+          "Social media and electronic communications compliance",
+          "Referral arrangements and solicitor relationships",
+          "Seminar and educational event compliance"
+        ]
+      },
+      {
+        "id": "s7-f2",
+        "name": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+        "weight": 9,
+        "questions": 11,
+        "subtopics": [
+          "New account documentation and agreements",
+          "Customer identification program (CIP) and AML requirements",
+          "Know your customer (KYC) and suitability requirements (FINRA Rule 2111)",
+          "Regulation Best Interest (Reg BI) obligations",
+          "Customer investment profile: financial status, tax status, investment objectives, time horizon, liquidity needs, risk tolerance",
+          "Account types: cash, margin, option, discretionary, advisory, wrap",
+          "Fiduciary accounts: trusts, estates, guardianships",
+          "Retirement accounts: IRAs (Traditional, Roth, SEP, SIMPLE), 401(k), 403(b), 457 plans",
+          "ERISA and qualified plan requirements",
+          "Corporate, partnership, and LLC accounts",
+          "Joint accounts (JTWROS, TIC, community property)",
+          "Custodial accounts (UGMA/UTMA)",
+          "Account transfers (ACATS process)",
+          "Margin account agreements: hypothecation, credit, loan consent"
+        ]
+      },
+      {
+        "id": "s7-f3",
+        "name": "Provides Customers with Information About Investments, Makes Suitable Recommendations, Transfers Assets, and Maintains Appropriate Records",
+        "weight": 73,
+        "questions": 91,
+        "subtopics": [
+          "Equity securities: common stock characteristics, rights, voting, dividends",
+          "Preferred stock: cumulative, participating, convertible, callable",
+          "Rights offerings, warrants, and subscription privileges",
+          "American Depositary Receipts (ADRs) and foreign securities",
+          "Corporate bonds: secured, unsecured (debentures), convertible, callable, zero-coupon",
+          "Bond pricing, yields: nominal, current, YTM, YTC, yield to worst",
+          "Bond ratings: investment grade vs. high yield, rating agencies",
+          "Accrued interest calculations (30/360 and actual/actual)",
+          "U.S. government securities: T-bills, T-notes, T-bonds, TIPS, STRIPS",
+          "Agency securities: GNMA, FNMA, FHLMC, Federal Farm Credit",
+          "Municipal securities: general obligation vs. revenue bonds",
+          "Municipal bond analysis: feasibility studies, debt ratios, sources of revenue",
+          "Tax-exempt vs. taxable equivalent yield calculations",
+          "Industrial development bonds and private activity bonds",
+          "Money market instruments: CDs, commercial paper, bankers acceptances, repos",
+          "Options fundamentals: calls, puts, exercise, assignment, expiration",
+          "Options strategies: long/short calls and puts, covered calls, protective puts",
+          "Spreads: bull, bear, debit, credit, calendar spreads",
+          "Straddles and combinations",
+          "Options on indexes, interest rates, and currencies",
+          "Options suitability and risk characteristics",
+          "Mutual funds: open-end, classes (A, B, C shares), NAV, POP, sales charges",
+          "Breakpoints, rights of accumulation, letters of intent",
+          "Fund expenses: management fees, 12b-1 fees, expense ratios",
+          "Closed-end funds, exchange-traded funds (ETFs), unit investment trusts (UITs)",
+          "Variable annuities: accumulation and annuity phases, death benefits",
+          "Variable life insurance: whole, universal, variable universal",
+          "Direct participation programs (DPPs): oil/gas, real estate, equipment leasing",
+          "REITs: equity, mortgage, hybrid; publicly traded vs. non-traded",
+          "Hedge funds and alternative investments (accredited investor requirements)",
+          "Margin accounts: initial and maintenance requirements",
+          "Long margin: Regulation T, LMV, debit balance, equity calculations",
+          "Short margin: credit balance, SMV, equity calculations",
+          "Special memorandum account (SMA) and buying power",
+          "Day trading rules and pattern day trader requirements",
+          "Restricted and control securities (Rule 144, Rule 144A, Regulation S)",
+          "Fundamental analysis: financial statements, ratios, earnings analysis",
+          "Technical analysis: charts, trends, support and resistance, indicators",
+          "Modern portfolio theory: asset allocation, diversification, efficient frontier",
+          "Alpha, beta, standard deviation, Sharpe ratio",
+          "Tax implications: capital gains (short-term vs. long-term), wash sale rule",
+          "Cost basis methods: FIFO, specific identification, average cost",
+          "Gift and inheritance tax basis rules",
+          "Dividend and interest taxation, qualified vs. non-qualified dividends",
+          "Alternative minimum tax (AMT) considerations",
+          "Retirement plan distributions: RMDs, early withdrawal penalties, rollovers"
+        ]
+      },
+      {
+        "id": "s7-f4",
+        "name": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes, and Confirms Transactions",
+        "weight": 11,
+        "questions": 14,
+        "subtopics": [
+          "Order types: market, limit, stop, stop-limit, trailing stop",
+          "Order qualifiers: day, GTC, AON, FOK, IOC, NH, DNR",
+          "Trade execution on exchanges: auction market, specialist/DMM system",
+          "OTC market: market makers, bid/ask spread, OTCBB, Pink Sheets",
+          "Electronic communication networks (ECNs) and alternative trading systems (ATS)",
+          "Trade reporting: TRACE, TRF, OATS",
+          "Regulation NMS: order protection rule, access rule",
+          "Best execution obligations",
+          "Settlement dates: regular-way (T+1), cash, seller's option",
+          "Ex-dividend dates, record dates, payment dates",
+          "Confirmations and account statement requirements",
+          "DK (don't know) notices and trade corrections",
+          "Corporate actions: stock splits, reverse splits, stock dividends, mergers, tender offers",
+          "Proxy solicitation and voting requirements",
+          "SIPC coverage: amounts, limitations, excluded securities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series6",
+    "series": "Series 6",
+    "name": "Investment Company and Variable Contracts Products Representative",
+    "category": "representative",
+    "description": "Qualifies an individual to sell mutual funds, variable annuities, variable life insurance, unit investment trusts, and municipal fund securities (such as 529 plans). A more limited license than the Series 7.",
+    "questions": 55,
+    "unscored": 5,
+    "scored": 50,
+    "timeMinutes": 90,
+    "passingScore": 70,
+    "passingScoreNote": "70% (based on scored questions only)",
+    "cost": "$100",
+    "prerequisites": [
+      "sie"
+    ],
+    "prerequisiteNote": "SIE exam required; must be associated with and sponsored by a FINRA member firm",
+    "whoNeeds": "Individuals who plan to sell only mutual funds, variable annuities, variable life insurance policies, unit investment trusts, and 529 plans. Often used in bank and insurance settings.",
+    "corequisites": [
+      "sie"
+    ],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s6-t1",
+        "name": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+        "weight": 24,
+        "questions": 12,
+        "subtopics": [
+          "Prospecting methods and lead generation",
+          "Communications with the public: retail, correspondence, institutional",
+          "FINRA Rule 2210 content standards and approval requirements",
+          "Advertising mutual funds and variable products",
+          "Use of performance data and rankings in communications",
+          "Social media and electronic communications compliance",
+          "Filing requirements with FINRA for retail communications",
+          "Tombstone ads, summary prospectuses, and preliminary prospectuses"
+        ]
+      },
+      {
+        "id": "s6-t2",
+        "name": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+        "weight": 16,
+        "questions": 8,
+        "subtopics": [
+          "New account documentation and customer identification requirements",
+          "KYC obligations and suitability (FINRA Rule 2111)",
+          "Regulation Best Interest (Reg BI) obligations",
+          "Customer investment profile: financial situation, investment objectives, time horizon, risk tolerance",
+          "Account types: individual, joint, custodial, trust, retirement",
+          "IRA types: Traditional, Roth, SEP, SIMPLE",
+          "Employer-sponsored plans: 401(k), 403(b), 457 plans",
+          "529 college savings plans and Coverdell ESAs",
+          "UGMA/UTMA custodial accounts",
+          "Account transfer procedures (ACATS)"
+        ]
+      },
+      {
+        "id": "s6-t3",
+        "name": "Provides Customers with Information About Investments, Makes Suitable Recommendations, Transfers Assets, and Maintains Appropriate Records",
+        "weight": 50,
+        "questions": 25,
+        "subtopics": [
+          "Investment company structure: open-end funds (mutual funds), closed-end funds, UITs",
+          "Mutual fund share classes: A, B, C shares and associated fee structures",
+          "Breakpoints, rights of accumulation, letters of intent",
+          "Net asset value (NAV) calculation, public offering price (POP), sales charges",
+          "Fund expenses: management fees, 12b-1 fees, total expense ratios",
+          "Prospectus requirements and delivery obligations",
+          "Fund investment objectives: growth, income, balanced, money market, index, sector",
+          "Exchange-traded funds (ETFs) vs. mutual funds",
+          "Variable annuities: separate account, subaccounts, accumulation and annuity units",
+          "Annuitization options: life, life with period certain, joint and survivor",
+          "Death benefit provisions and guaranteed minimum benefits",
+          "1035 exchanges and tax implications",
+          "Variable life insurance: whole life, universal life, variable universal life",
+          "Insurance features: death benefits, cash value, policy loans",
+          "529 plan features: qualified expenses, state tax deductions, gift tax treatment",
+          "ABLE accounts for individuals with disabilities",
+          "Systematic investment plans and dollar-cost averaging",
+          "Retirement plan distributions: RMDs, early withdrawal penalties, required beginning dates",
+          "Rollover rules: direct vs. indirect rollovers, 60-day rule",
+          "Tax treatment of mutual fund distributions: dividends, capital gains",
+          "Cost basis methods and tax-lot accounting",
+          "Suitability considerations for investment company and variable products",
+          "Risk factors: market, interest rate, inflation, credit, liquidity",
+          "Diversification and asset allocation concepts"
+        ]
+      },
+      {
+        "id": "s6-t4",
+        "name": "Obtains and Verifies Customers' Purchase and Sales Instructions, Processes and Completes Transactions",
+        "weight": 10,
+        "questions": 5,
+        "subtopics": [
+          "Mutual fund purchase and redemption procedures",
+          "Forward pricing and NAV determination",
+          "Settlement procedures for investment company securities",
+          "Trade confirmations and account statement requirements",
+          "Exchange privileges within fund families",
+          "Systematic withdrawal plans",
+          "Anti-money laundering (AML) compliance",
+          "Suspicious Activity Reports (SARs) and Currency Transaction Reports (CTRs)",
+          "SIPC coverage and limitations",
+          "Customer complaint handling and reporting",
+          "Books and records retention requirements"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series63",
+    "series": "Series 63",
+    "name": "Uniform Securities Agent State Law Examination",
+    "category": "state",
+    "description": "Tests knowledge of state securities regulations based on the Uniform Securities Act. Required in most states for securities representatives in addition to FINRA qualification exams. Administered by NASAA.",
+    "questions": 65,
+    "unscored": 5,
+    "scored": 60,
+    "timeMinutes": 75,
+    "passingScore": 72,
+    "passingScoreNote": "72% (43 out of 60 scored questions)",
+    "cost": "$147",
+    "prerequisites": [],
+    "prerequisiteNote": "No prerequisites; however, typically taken in conjunction with SIE and Series 7 or Series 6",
+    "whoNeeds": "Securities agents (registered representatives) who transact business in a state. Required in most states alongside a FINRA qualification exam.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Does not expire once registered; must re-take if not registered for 2+ years",
+    "administrator": "NASAA (North American Securities Administrators Association)",
+    "topics": [
+      {
+        "id": "s63-t1",
+        "name": "Regulation of Investment Advisers (State-Registered and Federal Covered)",
+        "weight": 5,
+        "questions": 3,
+        "subtopics": [
+          "Definition of investment adviser under the Uniform Securities Act",
+          "State registration requirements for investment advisers",
+          "Exclusions from the definition of investment adviser",
+          "Exemptions from state registration",
+          "Federal covered advisers and notice filing requirements",
+          "Post-registration requirements: net capital, bonding, recordkeeping",
+          "Withdrawal and cancellation of registration"
+        ]
+      },
+      {
+        "id": "s63-t2",
+        "name": "Regulation of Investment Adviser Representatives",
+        "weight": 5,
+        "questions": 3,
+        "subtopics": [
+          "Definition of investment adviser representative",
+          "State registration requirements for investment adviser representatives",
+          "Exclusions and exemptions from registration as an IAR",
+          "Supervision of investment adviser representatives",
+          "Termination and transfer of registration",
+          "Continuing education and qualification requirements"
+        ]
+      },
+      {
+        "id": "s63-t3",
+        "name": "Regulation of Broker-Dealers",
+        "weight": 12,
+        "questions": 7,
+        "subtopics": [
+          "Definition of broker-dealer under the Uniform Securities Act",
+          "State registration requirements for broker-dealers",
+          "Exclusions from the definition of broker-dealer",
+          "Exemptions from state registration for broker-dealers",
+          "Post-registration requirements: net capital, bonding, recordkeeping",
+          "Withdrawal, cancellation, and succession of broker-dealer registration",
+          "Canadian broker-dealer provisions",
+          "Grounds for denial, suspension, or revocation of broker-dealer registration"
+        ]
+      },
+      {
+        "id": "s63-t4",
+        "name": "Regulation of Agents of Broker-Dealers",
+        "weight": 13,
+        "questions": 8,
+        "subtopics": [
+          "Definition of agent under the Uniform Securities Act",
+          "State registration requirements for agents",
+          "Exclusions from the definition of agent",
+          "Exemptions from state registration for agents",
+          "Termination and transfer of agent registration",
+          "Supervision requirements for agents",
+          "Dual registration of agents",
+          "Grounds for denial, suspension, or revocation of agent registration",
+          "Continuing education and qualification requirements for agents"
+        ]
+      },
+      {
+        "id": "s63-t5",
+        "name": "Regulation of Securities and Issuers",
+        "weight": 9,
+        "questions": 5,
+        "subtopics": [
+          "Definition of a security under the Uniform Securities Act",
+          "Registration of securities: coordination, qualification, notice filing",
+          "Exempt securities: government, bank, nonprofit, and others",
+          "Exempt transactions: isolated non-issuer, institutional, private placement",
+          "Federal covered securities and preemption of state registration",
+          "Stop orders and denial/suspension/revocation of securities registration",
+          "Effective dates and withdrawal of registration statements"
+        ]
+      },
+      {
+        "id": "s63-t6",
+        "name": "Remedies and Administrative Provisions",
+        "weight": 11,
+        "questions": 7,
+        "subtopics": [
+          "Authority of the state Administrator",
+          "Administrative orders: cease and desist, deny, suspend, revoke",
+          "Judicial review of Administrator orders",
+          "Civil liabilities for violations: right of rescission",
+          "Statute of limitations for civil actions",
+          "Criminal penalties for willful violations",
+          "Subpoena power and investigative authority of the Administrator",
+          "Consent to service of process",
+          "Coordination with other state and federal regulators",
+          "Burden of proof in exemption claims"
+        ]
+      },
+      {
+        "id": "s63-t7",
+        "name": "Communication with Customers and Prospects",
+        "weight": 20,
+        "questions": 12,
+        "subtopics": [
+          "Disclosure obligations: conflicts of interest, compensation, material information",
+          "Misrepresentations and omissions of material facts",
+          "Suitability of recommendations and know-your-customer obligations",
+          "Advertising and sales literature requirements under state law",
+          "Use of testimonials and endorsements",
+          "Performance reporting and presentation standards",
+          "Social media and electronic communications compliance",
+          "Correspondence and recordkeeping of client communications",
+          "Prospectus delivery and disclosure document requirements"
+        ]
+      },
+      {
+        "id": "s63-t8",
+        "name": "Ethical Practices and Obligations",
+        "weight": 25,
+        "questions": 15,
+        "subtopics": [
+          "Fraudulent and prohibited practices under state law",
+          "Unethical business practices of broker-dealers and agents",
+          "Unethical business practices of investment advisers and their representatives",
+          "Fiduciary duties of investment advisers",
+          "Custody of client funds and securities",
+          "Advisory contracts: assignment, compensation, performance fees",
+          "Churning, unauthorized trading, and excessive markups",
+          "Insider trading prohibitions",
+          "Market manipulation: wash trades, matched orders, painting the tape",
+          "Lending to and borrowing from clients",
+          "Selling away and private securities transactions",
+          "Sharing in customer profits and losses",
+          "Gifts, gratuities, and business entertainment",
+          "Outside business activities and dual registration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series65",
+    "series": "Series 65",
+    "name": "Uniform Investment Adviser Law Examination",
+    "category": "state",
+    "description": "Qualifies an individual as an investment adviser representative (IAR). Covers economics, investment vehicles, investment strategies, ethics, and state/federal securities laws. Administered by NASAA.",
+    "questions": 140,
+    "unscored": 10,
+    "scored": 130,
+    "timeMinutes": 180,
+    "passingScore": 70.8,
+    "passingScoreNote": "92 out of 130 scored questions (~70.8%)",
+    "cost": "$187",
+    "prerequisites": [],
+    "prerequisiteNote": "No prerequisites; does not require FINRA firm sponsorship",
+    "whoNeeds": "Individuals who wish to act as investment adviser representatives (IARs). Can be taken without firm sponsorship, making it popular for fee-based financial planners and advisers.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Does not expire once registered; must re-take if not registered for 2+ years",
+    "administrator": "NASAA (North American Securities Administrators Association)",
+    "topics": [
+      {
+        "id": "s65-t1",
+        "name": "Economic Factors and Business Information",
+        "weight": 15,
+        "questions": 20,
+        "subtopics": [
+          "Basic economic concepts: supply and demand, business cycles, inflation, deflation",
+          "Monetary and fiscal policy: Federal Reserve tools, government spending, taxation",
+          "International economics: balance of payments, currency exchange rates, trade deficits",
+          "Financial reporting: balance sheet, income statement, cash flow statement",
+          "Financial ratios: liquidity, profitability, leverage, activity ratios",
+          "Quantitative methods: time value of money, present value, future value, NPV, IRR",
+          "Statistical concepts: mean, median, mode, standard deviation, correlation",
+          "Leading, lagging, and coincident economic indicators",
+          "Interest rate theories: expectations, liquidity preference, market segmentation",
+          "Yield curve analysis: normal, inverted, flat, and humped yield curves",
+          "GDP, CPI, PPI, unemployment rate interpretation"
+        ]
+      },
+      {
+        "id": "s65-t2",
+        "name": "Investment Vehicle Characteristics",
+        "weight": 25,
+        "questions": 32,
+        "subtopics": [
+          "Cash and cash equivalents: T-bills, CDs, money market funds, commercial paper",
+          "Fixed-income securities: government, corporate, municipal, and agency bonds",
+          "Bond features: coupon, maturity, call/put provisions, sinking funds, convertibility",
+          "Bond valuation: pricing, yields (current, YTM, YTC), duration, convexity",
+          "Bond ratings and credit risk assessment",
+          "Equity securities: common stock, preferred stock, ADRs, warrants, rights",
+          "Stock valuation methods: P/E ratio, dividend discount model, book value",
+          "Investment company securities: open-end, closed-end, ETFs, UITs, interval funds",
+          "Mutual fund share classes, fees, and expenses",
+          "Options: basic concepts, strategies, rights and warrants",
+          "Alternative investments: real estate, REITs, hedge funds, private equity, commodities",
+          "Direct participation programs (DPPs)",
+          "Annuities: fixed, variable, equity-indexed, immediate, deferred",
+          "Insurance-based products: variable life, variable universal life",
+          "Structured products and derivatives basics",
+          "529 plans and education savings vehicles"
+        ]
+      },
+      {
+        "id": "s65-t3",
+        "name": "Client Investment Recommendations and Strategies",
+        "weight": 30,
+        "questions": 39,
+        "subtopics": [
+          "Client profile analysis: financial status, goals, risk tolerance, time horizon, tax status",
+          "Asset allocation strategies: strategic, tactical, core-satellite",
+          "Modern portfolio theory: efficient frontier, optimal portfolios",
+          "Capital Asset Pricing Model (CAPM): beta, systematic risk, security market line",
+          "Alpha, Sharpe ratio, Treynor ratio, Jensen's alpha, information ratio",
+          "Diversification benefits and correlation analysis",
+          "Portfolio construction: growth, income, balanced, aggressive, conservative",
+          "Bond portfolio strategies: laddering, barbelling, bullet",
+          "Active vs. passive management strategies",
+          "Dollar-cost averaging and systematic investment approaches",
+          "Tax-efficient investing: tax-loss harvesting, municipal bonds, tax-advantaged accounts",
+          "Retirement planning: accumulation and distribution strategies",
+          "Social Security, Medicare, and pension considerations",
+          "Estate planning basics: wills, trusts, estate taxes, gift taxes",
+          "Charitable giving strategies: donor-advised funds, charitable trusts",
+          "Education funding strategies: 529 plans, Coverdell ESAs, UTMA",
+          "Special situations: concentrated stock positions, stock options, restricted stock",
+          "Risk management: hedging, insurance, emergency funds",
+          "Behavioral finance: cognitive biases, emotional biases, heuristics"
+        ]
+      },
+      {
+        "id": "s65-t4",
+        "name": "Laws, Regulations, and Guidelines, Including Prohibition on Unethical Business Practices",
+        "weight": 30,
+        "questions": 39,
+        "subtopics": [
+          "Regulation of investment advisers under the Investment Advisers Act of 1940",
+          "State regulation of investment advisers and their representatives",
+          "Registration requirements: federal vs. state, AUM thresholds",
+          "Exemptions and exclusions from registration",
+          "Broker-dealer regulation under the Securities Exchange Act of 1934",
+          "FINRA rules and self-regulatory framework",
+          "Regulation of securities: registration, exemptions, and anti-fraud provisions",
+          "Securities Act of 1933: registration process and prospectus requirements",
+          "Fiduciary duty of investment advisers",
+          "Advisory contract requirements: assignment, compensation, termination",
+          "Performance-based compensation rules",
+          "Custody rules: qualified custodians, surprise audits, annual statements",
+          "Advertising rules for investment advisers: testimonials, performance presentation",
+          "Brochure rule (Form ADV Part 2) delivery requirements",
+          "Code of ethics and personal trading policies",
+          "Form ADV filing and updating requirements",
+          "Prohibited practices: front-running, churning, unauthorized trading",
+          "Insider trading: material nonpublic information, tipper/tippee liability",
+          "Anti-money laundering (AML) requirements",
+          "Privacy and data protection: Regulation S-P, safeguarding client information",
+          "Business continuity planning requirements",
+          "Record retention requirements",
+          "ERISA fiduciary requirements for retirement plan advisers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series66",
+    "series": "Series 66",
+    "name": "Uniform Combined State Law Examination",
+    "category": "state",
+    "description": "Combines the content of the Series 63 and Series 65 exams. Qualifies an individual as both a securities agent and an investment adviser representative. Administered by NASAA.",
+    "questions": 110,
+    "unscored": 10,
+    "scored": 100,
+    "timeMinutes": 150,
+    "passingScore": 73,
+    "passingScoreNote": "73% (73 out of 100 scored questions)",
+    "cost": "$177",
+    "prerequisites": [
+      "series7"
+    ],
+    "prerequisiteNote": "Must have passed the Series 7 exam (or be registered as a General Securities Representative)",
+    "whoNeeds": "Individuals who need both state securities agent and investment adviser representative registration. Requires Series 7 as a prerequisite, combining Series 63 and 65 content into one exam.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Does not expire once registered; must re-take if not registered for 2+ years",
+    "administrator": "NASAA (North American Securities Administrators Association)",
+    "topics": [
+      {
+        "id": "s66-t1",
+        "name": "Economic Factors and Business Information",
+        "weight": 8,
+        "questions": 8,
+        "subtopics": [
+          "Basic economic concepts: business cycles, inflation, deflation",
+          "Monetary policy: Federal Reserve actions and their impact on markets",
+          "Fiscal policy: government spending and taxation",
+          "International economic factors: currency, trade, globalization",
+          "Financial reporting: key financial statements and ratios",
+          "Quantitative methods: time value of money, NPV, IRR"
+        ]
+      },
+      {
+        "id": "s66-t2",
+        "name": "Investment Vehicle Characteristics",
+        "weight": 17,
+        "questions": 17,
+        "subtopics": [
+          "Cash and cash equivalents: T-bills, money market, CDs, commercial paper",
+          "Fixed-income securities: types, features, pricing, yields, risks",
+          "Equity securities: common stock, preferred stock, ADRs",
+          "Investment companies: mutual funds, ETFs, closed-end funds, UITs",
+          "Derivative securities: options basics, rights, warrants",
+          "Alternative investments: REITs, DPPs, hedge funds, private equity",
+          "Insurance-based products: variable annuities, variable life insurance",
+          "Pooled investments and managed accounts"
+        ]
+      },
+      {
+        "id": "s66-t3",
+        "name": "Client Investment Recommendations and Strategies",
+        "weight": 30,
+        "questions": 30,
+        "subtopics": [
+          "Client profile analysis and data gathering",
+          "Investment objectives: growth, income, capital preservation, speculation",
+          "Risk assessment: tolerance, capacity, and appropriate exposure",
+          "Asset allocation strategies and portfolio construction",
+          "Modern portfolio theory and diversification",
+          "Performance measures: alpha, beta, Sharpe ratio, standard deviation",
+          "Tax considerations in investment planning",
+          "Retirement planning strategies and products",
+          "Estate planning basics and wealth transfer",
+          "Education funding strategies",
+          "Active vs. passive management approaches",
+          "Dollar-cost averaging and rebalancing strategies",
+          "Behavioral finance: biases and their impact on decision-making",
+          "Risk management through insurance and hedging"
+        ]
+      },
+      {
+        "id": "s66-t4",
+        "name": "Laws, Regulations, and Guidelines, Including Prohibition on Unethical Business Practices",
+        "weight": 45,
+        "questions": 45,
+        "subtopics": [
+          "State securities regulation under the Uniform Securities Act",
+          "Registration of persons: broker-dealers, agents, IAs, IARs",
+          "Exclusions and exemptions from state registration",
+          "Registration of securities: coordination, qualification, notice filing",
+          "Exempt securities and exempt transactions",
+          "Federal covered securities and preemption",
+          "Remedies and enforcement: Administrator authority and powers",
+          "Civil liabilities, criminal penalties, judicial review",
+          "Fiduciary obligations of investment advisers",
+          "Advisory contracts: requirements, fees, assignment, termination",
+          "Form ADV and disclosure requirements",
+          "Custody, discretion, and trading authority",
+          "Performance-based fees and hedge clause restrictions",
+          "Code of ethics and personal securities trading",
+          "Anti-fraud provisions under federal and state law",
+          "Prohibited practices: churning, front-running, market manipulation",
+          "Insider trading prohibitions and enforcement",
+          "AML requirements: CIP, SAR, CTR",
+          "Privacy and data protection (Regulation S-P)",
+          "Books, records, and business continuity requirements",
+          "Communications with the public and advertising rules",
+          "Solicitor and referral fee arrangements"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series24",
+    "series": "Series 24",
+    "name": "General Securities Principal",
+    "category": "principal",
+    "description": "Qualifies an individual to supervise and manage a broker-dealer's securities business. The primary supervisory license for branch managers and compliance officers at broker-dealer firms.",
+    "questions": 160,
+    "unscored": 10,
+    "scored": 150,
+    "timeMinutes": 225,
+    "passingScore": 70,
+    "passingScoreNote": "70% (based on scored questions only)",
+    "cost": "$235",
+    "prerequisites": [
+      "sie",
+      "series7"
+    ],
+    "prerequisiteNote": "Must have passed the SIE and a representative-level exam (typically Series 7); must be registered as a representative",
+    "whoNeeds": "Individuals who supervise or manage the securities business of a broker-dealer, including branch office managers, compliance officers, and department supervisors.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s24-f1",
+        "name": "Supervision of Registration of the Broker-Dealer and Personnel Management Activities",
+        "weight": 6,
+        "questions": 9,
+        "subtopics": [
+          "Broker-dealer registration requirements: SEC, FINRA, and state",
+          "Form BD filing and amendments",
+          "FINRA membership application process",
+          "Registration of associated persons: Form U4 and Form U5",
+          "Qualification examination requirements and waivers",
+          "Continuing education: Regulatory Element and Firm Element",
+          "Statutory disqualification and eligibility proceedings",
+          "Personnel management: hiring, supervision, and termination",
+          "Outside business activities (OBA) and private securities transactions"
+        ]
+      },
+      {
+        "id": "s24-f2",
+        "name": "Supervision of General Broker-Dealer Activities",
+        "weight": 30,
+        "questions": 45,
+        "subtopics": [
+          "Supervisory systems and written supervisory procedures (WSPs)",
+          "Branch office and office of supervisory jurisdiction (OSJ) designation",
+          "Annual compliance and supervisory review meetings",
+          "CEO annual compliance certification",
+          "Books and records requirements (Rules 17a-3 and 17a-4)",
+          "Financial reporting requirements: FOCUS reports",
+          "Net capital rule compliance and early warning notification (Rule 15c3-1)",
+          "Customer protection rule (Rule 15c3-3)",
+          "Anti-money laundering (AML) program supervision",
+          "Suspicious activity reporting (SAR) and currency transaction reports (CTR)",
+          "Customer identification program (CIP) and OFAC screening",
+          "Business continuity planning (BCP) requirements",
+          "Cybersecurity and data protection obligations",
+          "Regulation S-P: privacy notice requirements",
+          "Regulation S-ID: identity theft red flags",
+          "Communications with the public: review, approval, and filing",
+          "Advertising and sales literature review procedures",
+          "Social media supervision and policies",
+          "Customer complaint handling, investigation, and reporting",
+          "FINRA code of procedure: complaints, investigations, enforcement",
+          "FINRA code of arbitration: customer and industry disputes",
+          "Risk management and internal controls",
+          "Insider trading prevention: policies, restricted lists, watch lists",
+          "Information barrier procedures"
+        ]
+      },
+      {
+        "id": "s24-f3",
+        "name": "Supervision of Retail and Institutional Customer-Related Activities",
+        "weight": 21,
+        "questions": 32,
+        "subtopics": [
+          "New account approval and review procedures",
+          "Suitability and Regulation Best Interest (Reg BI) supervision",
+          "Know-your-customer (KYC) obligations",
+          "Supervision of discretionary accounts",
+          "Margin account supervision and Regulation T compliance",
+          "Options account approval and supervision",
+          "Senior investor protection and exploitation reporting",
+          "Supervision of variable products and mutual fund sales",
+          "Breakpoint compliance and sales charge supervision",
+          "Gifts, gratuities, and entertainment policies",
+          "Political contributions: MSRB Rule G-37, pay-to-play",
+          "Registered representative supervision and review"
+        ]
+      },
+      {
+        "id": "s24-f4",
+        "name": "Supervision of Trading and Market Making Activities",
+        "weight": 21,
+        "questions": 32,
+        "subtopics": [
+          "Best execution obligations and policies",
+          "Order handling and routing requirements",
+          "Regulation NMS compliance and order protection",
+          "Market making activities and requirements",
+          "Short selling rules: Regulation SHO, locate requirements",
+          "Regulation M: anti-manipulation during distributions",
+          "Trading halts, circuit breakers, and limit up-limit down",
+          "OTC trading and OTC Markets supervision",
+          "Fixed-income trading supervision and markup/markdown policies",
+          "TRACE reporting and compliance",
+          "Municipal securities trading and MSRB rules",
+          "Trading desk supervision and surveillance"
+        ]
+      },
+      {
+        "id": "s24-f5",
+        "name": "Supervision of Investment Banking and Research",
+        "weight": 22,
+        "questions": 32,
+        "subtopics": [
+          "Supervisory requirements for investment banking activities",
+          "Due diligence in public offerings",
+          "Filing requirements: SEC, FINRA, state",
+          "FINRA corporate financing rules (Rule 5110)",
+          "Regulation D private placement supervision",
+          "Regulation A+ offerings and crowdfunding",
+          "Research analyst conduct and conflicts of interest (FINRA Rule 2241)",
+          "Quiet periods and blackout periods",
+          "Information barriers (Chinese walls) between departments",
+          "Global Research Analyst Settlement requirements",
+          "Supervision of equity and debt research reports",
+          "Municipal advisory activities and MSRB Rule G-42"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series27",
+    "series": "Series 27",
+    "name": "Financial and Operations Principal",
+    "category": "principal",
+    "description": "Qualifies an individual as a Financial and Operations Principal (FINOP). Responsible for a broker-dealer's financial reporting, net capital compliance, and customer protection rule obligations.",
+    "questions": 155,
+    "unscored": 10,
+    "scored": 145,
+    "timeMinutes": 225,
+    "passingScore": 69,
+    "passingScoreNote": "69% (based on scored questions only)",
+    "cost": "$235",
+    "prerequisites": [],
+    "prerequisiteNote": "No exam prerequisites; must be associated with a FINRA member firm",
+    "whoNeeds": "Individuals responsible for a broker-dealer's back-office operations, financial reporting, net capital compliance, and regulatory financial filings. Every broker-dealer must designate at least one FINOP.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s27-f1",
+        "name": "Financial Reporting",
+        "weight": 17,
+        "questions": 25,
+        "subtopics": [
+          "FOCUS Report: Form X-17A-5 preparation and filing",
+          "FOCUS Report: Part I (monthly) and Part II/IIA (quarterly/annual)",
+          "Annual audited financial statements and audit requirements",
+          "Independent public accountant selection and engagement",
+          "SEC Rule 17a-5 filing requirements and timelines",
+          "Compliance report and exemption report requirements",
+          "Notification requirements: capital deficiency, material inadequacy",
+          "Form BD amendments and regulatory updates",
+          "Form 17-H risk assessment filings",
+          "Generally accepted accounting principles (GAAP) for broker-dealers",
+          "Balance sheet preparation and analysis",
+          "Income statement and statement of financial condition"
+        ]
+      },
+      {
+        "id": "s27-f2",
+        "name": "Operations, General Securities Industry Regulations, and Preservation of Books and Records",
+        "weight": 29,
+        "questions": 42,
+        "subtopics": [
+          "Trade clearance and settlement processes",
+          "Clearing arrangements: self-clearing, fully disclosed, omnibus",
+          "NSCC, DTC, and FICC clearinghouse operations",
+          "Continuous Net Settlement (CNS) system",
+          "Corporate actions processing: dividends, splits, mergers, tender offers",
+          "Proxy distribution and processing",
+          "DK (don't know) trade processing",
+          "Reorganization and restructuring processing",
+          "Books and records requirements (Rules 17a-3, 17a-4)",
+          "Record retention and electronic storage requirements",
+          "Business continuity planning for operations",
+          "FINRA registration and regulatory requirements",
+          "FinCEN filings: SAR, CTR, FBAR",
+          "SIPC annual assessment and reporting",
+          "Municipal securities dealer and government securities dealer reporting"
+        ]
+      },
+      {
+        "id": "s27-f3",
+        "name": "Customer Protection",
+        "weight": 17,
+        "questions": 24,
+        "subtopics": [
+          "Customer protection rule (SEC Rule 15c3-3)",
+          "Reserve formula computation",
+          "Special reserve bank account requirements",
+          "Possession and control of fully-paid and excess margin securities",
+          "Customer segregation requirements",
+          "Physical and electronic custody of securities",
+          "Delivery versus payment (DVP) and receive versus payment (RVP)",
+          "Good control locations for customer securities",
+          "Transfer agent procedures and obligations",
+          "Stock record and related accounting",
+          "Fails to deliver and fails to receive: buy-in procedures",
+          "SIPC assessments and customer claims procedures"
+        ]
+      },
+      {
+        "id": "s27-f4",
+        "name": "Net Capital",
+        "weight": 28,
+        "questions": 41,
+        "subtopics": [
+          "Net capital rule (SEC Rule 15c3-1): basic method and alternative method",
+          "Net capital computation: allowable and non-allowable assets",
+          "Haircuts on securities positions",
+          "Subordinated debt and satisfactory subordination agreements",
+          "Early warning notifications and triggers",
+          "Computation of aggregate indebtedness and net capital ratio",
+          "Valuation of securities positions: mark-to-market",
+          "Revenue recognition: commissions, markups, advisory fees",
+          "Expense recognition and accrual accounting",
+          "Proprietary trading accounting",
+          "Margin requirements: Regulation T, FINRA margin rules",
+          "Margin call processes and procedures",
+          "Day trading margin requirements"
+        ]
+      },
+      {
+        "id": "s27-f5",
+        "name": "Funding and Cash Management",
+        "weight": 9,
+        "questions": 13,
+        "subtopics": [
+          "Sources of broker-dealer funding and financing",
+          "Bank loan agreements and credit facilities",
+          "Subordinated borrowings and repayment provisions",
+          "Repurchase agreements (repos) and reverse repos",
+          "Securities lending and borrowing arrangements",
+          "Cash management policies and procedures",
+          "Liquidity risk management and stress testing",
+          "Free credit balances and customer cash management",
+          "Tax reporting obligations for broker-dealers"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series53",
+    "series": "Series 53",
+    "name": "Municipal Securities Principal",
+    "category": "principal",
+    "description": "Qualifies an individual to supervise municipal securities activities at a broker-dealer. Covers MSRB rules, supervision of municipal securities underwriting, trading, and sales activities.",
+    "questions": 110,
+    "unscored": 10,
+    "scored": 100,
+    "timeMinutes": 195,
+    "passingScore": 70,
+    "passingScoreNote": "70% (70 out of 100 questions)",
+    "cost": "$265",
+    "prerequisites": [
+      "sie",
+      "series52"
+    ],
+    "prerequisiteNote": "Must have passed the SIE and Series 52 (Municipal Securities Representative) exam",
+    "whoNeeds": "Individuals who supervise municipal securities activities at a broker-dealer, including municipal bond trading desks, underwriting departments, and municipal sales activities.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s53-t1",
+        "name": "Supervision of Municipal Securities Activities and Personnel",
+        "weight": 35,
+        "questions": 35,
+        "subtopics": [
+          "Supervisory systems for municipal securities activities",
+          "Written supervisory procedures (WSPs) for municipal operations",
+          "Supervision of registered representatives in municipal securities",
+          "Supervision of underwriting activities",
+          "Review and approval of municipal communications",
+          "MSRB Rule G-27: supervision requirements",
+          "Compliance obligations for municipal securities principals",
+          "Qualification and registration requirements (MSRB Rule G-3)",
+          "Continuing education for municipal securities professionals",
+          "Branch office supervision for municipal activities"
+        ]
+      },
+      {
+        "id": "s53-t2",
+        "name": "Origination and Syndication of Municipal Securities",
+        "weight": 20,
+        "questions": 20,
+        "subtopics": [
+          "Municipal underwriting process: competitive vs. negotiated",
+          "Syndicate formation and types: Eastern (undivided) vs. Western (divided)",
+          "Good faith deposits and syndicate agreements",
+          "Official statement review and disclosure requirements",
+          "MSRB Rule G-32: disclosures in new offerings",
+          "MSRB Rule G-11: syndicate practices",
+          "MSRB Rule G-34: CUSIP numbers and new issue processing",
+          "Primary offering pricing and allocation",
+          "Municipal underwriting compensation and expenses",
+          "Continuing disclosure obligations under SEC Rule 15c2-12",
+          "EMMA (Electronic Municipal Market Access) system and filings"
+        ]
+      },
+      {
+        "id": "s53-t3",
+        "name": "Regulatory Framework and Compliance",
+        "weight": 25,
+        "questions": 25,
+        "subtopics": [
+          "MSRB rulemaking authority and process",
+          "MSRB Rule G-17: fair dealing with all persons",
+          "MSRB Rule G-19: suitability of recommendations",
+          "MSRB Rule G-20: gifts, gratuities, and non-cash compensation",
+          "MSRB Rule G-37: political contributions and municipal securities business",
+          "MSRB Rule G-38: solicitation of municipal securities business",
+          "MSRB Rule G-42: duties of non-solicitor municipal advisors",
+          "MSRB Rule G-14: transaction reporting (RTRS)",
+          "MSRB Rule G-15: confirmation, clearance, and settlement",
+          "Record retention requirements for municipal securities",
+          "Anti-money laundering in municipal securities",
+          "Tax-exempt status and IRS regulations affecting municipal securities",
+          "Bank qualified vs. non-bank qualified issuances"
+        ]
+      },
+      {
+        "id": "s53-t4",
+        "name": "Trading, Customer Accounts, and Pricing",
+        "weight": 20,
+        "questions": 20,
+        "subtopics": [
+          "Municipal bond pricing and yield calculations",
+          "Markup/markdown policy for municipal securities",
+          "Best execution in municipal securities trading",
+          "Municipal bond market structure and liquidity",
+          "Customer account suitability for municipal securities",
+          "Municipal securities in margin accounts",
+          "MSRB Rule G-30: prices and commissions",
+          "MSRB Rule G-43: broker's brokers",
+          "MSRB Rule G-18: best execution",
+          "Accrued interest calculations for municipal bonds (30/360)",
+          "Settlement conventions and fails",
+          "Customer complaint handling for municipal activities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series79",
+    "series": "Series 79",
+    "name": "Investment Banking Representative",
+    "category": "representative",
+    "description": "Qualifies an individual to participate in investment banking activities including advising on or facilitating debt or equity securities offerings, mergers and acquisitions, tender offers, financial restructurings, and other corporate transactions.",
+    "questions": 80,
+    "unscored": 5,
+    "scored": 75,
+    "timeMinutes": 150,
+    "passingScore": 73,
+    "passingScoreNote": "73% (based on scored questions only)",
+    "cost": "$395",
+    "prerequisites": [
+      "sie"
+    ],
+    "prerequisiteNote": "SIE exam required; must be associated with and sponsored by a FINRA member firm",
+    "whoNeeds": "Individuals who participate in investment banking activities such as advising on M&A, underwriting securities offerings, and structuring corporate transactions.",
+    "corequisites": [
+      "sie"
+    ],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s79-f1",
+        "name": "Collection, Analysis, and Evaluation of Data",
+        "weight": 49,
+        "questions": 37,
+        "subtopics": [
+          "Due diligence processes and procedures for investment banking engagements",
+          "Financial statement analysis: income statement, balance sheet, cash flow statement",
+          "Ratio analysis: profitability, liquidity, leverage, efficiency, and valuation ratios",
+          "Valuation methodologies: discounted cash flow (DCF), comparable company analysis, precedent transactions",
+          "Enterprise value and equity value calculations and bridge analysis",
+          "WACC (weighted average cost of capital) computation and capital structure analysis",
+          "LBO (leveraged buyout) analysis and financial modeling",
+          "Accretion/dilution analysis for mergers and acquisitions",
+          "Pro forma financial statement preparation and adjustments",
+          "Industry analysis, competitive positioning, and market dynamics",
+          "Management assessment and corporate governance evaluation",
+          "Analysis of strategic alternatives for clients",
+          "Market and economic conditions affecting transactions",
+          "Research analyst reports and third-party data sources",
+          "Regulatory filings as sources of data (SEC EDGAR, 10-K, 10-Q, proxy statements)",
+          "Credit analysis and debt capacity assessment"
+        ]
+      },
+      {
+        "id": "s79-f2",
+        "name": "Underwriting/New Financing Transactions, Types of Offerings, and Registration of Securities",
+        "weight": 27,
+        "questions": 20,
+        "subtopics": [
+          "Securities offerings: IPOs, follow-ons, secondary offerings, shelf registrations",
+          "SEC registration process: S-1, S-3, S-4 forms and review procedures",
+          "Regulation D: private placements (Rule 504, 506(b), 506(c))",
+          "Regulation A+ offerings (Tier 1 and Tier 2)",
+          "PIPE (Private Investment in Public Equity) transactions",
+          "Syndicate formation, agreement among underwriters, selling group agreements",
+          "Book building process, pricing, and allocation of securities",
+          "Stabilization and aftermarket activities (Regulation M)",
+          "Green shoe (overallotment) option mechanics",
+          "Debt offerings: investment grade, high yield, and convertible securities",
+          "Debt covenants, indenture provisions, and trustee roles",
+          "144A offerings and Regulation S (offshore transactions)",
+          "FINRA corporate financing rules (Rule 5110): underwriting compensation and conflicts",
+          "Prospectus delivery requirements and free writing prospectuses",
+          "Lock-up agreements and insider selling restrictions"
+        ]
+      },
+      {
+        "id": "s79-f3",
+        "name": "Mergers and Acquisitions, Tender Offers, and Financial Restructuring Transactions",
+        "weight": 24,
+        "questions": 18,
+        "subtopics": [
+          "Types of M&A transactions: stock purchase, asset purchase, merger, consolidation",
+          "Hostile vs. friendly takeovers and negotiation dynamics",
+          "Tender offer rules: Schedule TO, Regulation 14D, Williams Act requirements",
+          "Proxy contests and activist investor strategies",
+          "Anti-takeover defenses: poison pills, staggered boards, white knights, crown jewels",
+          "Going-private transactions: leveraged buyouts, management buyouts",
+          "Squeeze-out mergers and appraisal rights",
+          "Fairness opinions and valuation in M&A contexts",
+          "Hart-Scott-Rodino (HSR) antitrust filing requirements",
+          "Financial restructuring: distressed transactions, exchange offers, recapitalizations",
+          "Bankruptcy: Chapter 7, Chapter 11, reorganization plans, creditor priorities",
+          "Spin-offs, split-offs, carve-outs, and tracking stocks",
+          "Cross-border transactions and regulatory considerations",
+          "Regulatory requirements, compliance, and ethical standards in investment banking"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series82",
+    "series": "Series 82",
+    "name": "Private Securities Offerings Representative",
+    "category": "representative",
+    "description": "Qualifies an individual to act as a private securities offerings representative, selling securities in private placements under Regulation D and other exempt offerings rather than registered public offerings.",
+    "questions": 55,
+    "unscored": 5,
+    "scored": 50,
+    "timeMinutes": 90,
+    "passingScore": 70,
+    "passingScoreNote": "70% (based on scored questions only)",
+    "cost": "$100",
+    "prerequisites": [
+      "sie"
+    ],
+    "prerequisiteNote": "SIE exam required; must be associated with and sponsored by a FINRA member firm",
+    "whoNeeds": "Individuals who sell private placement securities (Regulation D offerings, private equity, venture capital interests, etc.) but do not need the full General Securities Representative (Series 7) qualification.",
+    "corequisites": [
+      "sie"
+    ],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s82-t1",
+        "name": "Private Placement Regulations and Exemptions",
+        "weight": 35,
+        "questions": 17,
+        "subtopics": [
+          "Securities Act of 1933: registration requirements and exemptions",
+          "Regulation D: Rule 504, Rule 506(b), Rule 506(c)",
+          "Accredited investor definition and verification requirements",
+          "Regulation S: offshore transactions",
+          "Rule 144A: resale of restricted securities to QIBs",
+          "Regulation A+: Tier 1 and Tier 2 exemptions",
+          "Regulation Crowdfunding (Regulation CF)",
+          "Section 4(a)(2) exemption: private offering exemption",
+          "Blue sky laws and state notice filing requirements",
+          "Form D filing requirements and timing",
+          "Integration doctrine and safe harbors",
+          "General solicitation and general advertising rules",
+          "Bad actor disqualification provisions",
+          "Resale restrictions on privately placed securities"
+        ]
+      },
+      {
+        "id": "s82-t2",
+        "name": "Private Placement Products and Structures",
+        "weight": 30,
+        "questions": 15,
+        "subtopics": [
+          "Private equity fund structures: LP, LLC, GP, management companies",
+          "Venture capital investments and stages of financing",
+          "Hedge fund structures and strategies",
+          "Real estate private placements and syndications",
+          "Oil and gas programs: exploratory, developmental, income",
+          "Equipment leasing programs",
+          "PIPE transactions (Private Investment in Public Equity)",
+          "Mezzanine financing and subordinated debt",
+          "Convertible securities in private placements",
+          "SPACs (Special Purpose Acquisition Companies)",
+          "Fund-of-funds structures",
+          "Private credit and direct lending",
+          "Tax implications: capital gains, depreciation, depletion, credits",
+          "Subscription agreements, PPMs, and limited partnership agreements"
+        ]
+      },
+      {
+        "id": "s82-t3",
+        "name": "Customer Accounts, Suitability, and Due Diligence",
+        "weight": 20,
+        "questions": 10,
+        "subtopics": [
+          "Suitability requirements for private placements",
+          "Customer financial qualification and investor suitability standards",
+          "Accredited investor verification procedures",
+          "Due diligence on private placement offerings",
+          "Risk disclosures and investor acknowledgments",
+          "Liquidity considerations and lock-up periods",
+          "Investment minimums and capital call procedures",
+          "Valuation of private securities (NAV, fair value)",
+          "Distribution waterfalls and fee structures",
+          "K-1 reporting and tax considerations for investors"
+        ]
+      },
+      {
+        "id": "s82-t4",
+        "name": "Regulatory Compliance and Business Conduct",
+        "weight": 15,
+        "questions": 8,
+        "subtopics": [
+          "FINRA rules governing private placement activities",
+          "FINRA Rule 5122: private placements of members",
+          "FINRA Rule 5123: private placements of non-members",
+          "Anti-fraud provisions: Section 17(a), Rule 10b-5",
+          "Selling compensation disclosure requirements",
+          "Books and records requirements for private placements",
+          "AML compliance in private placements",
+          "Customer complaint handling and reporting",
+          "Supervision of private placement activities",
+          "Conflicts of interest disclosure and management"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series86",
+    "series": "Series 86/87",
+    "name": "Research Analyst Qualification Examination",
+    "category": "representative",
+    "description": "A two-part exam that qualifies individuals to function as research analysts who prepare research reports on equity securities. Part I covers analysis and valuation; Part II covers regulations and compliance. Both parts must be passed.",
+    "questions": 135,
+    "unscoredNote": "Varies",
+    "timeMinutesTotal": 375,
+    "parts": [
+      {
+        "part": "I",
+        "name": "Analysis",
+        "questions": 85,
+        "timeMinutes": 270,
+        "passingScore": 73,
+        "passingScoreNote": "73%"
+      },
+      {
+        "part": "II",
+        "name": "Regulations",
+        "questions": 50,
+        "timeMinutes": 105,
+        "passingScore": 74,
+        "passingScoreNote": "74%"
+      }
+    ],
+    "passingScore": null,
+    "passingScoreNote": "Part I: 73%; Part II: 74% (each part scored separately)",
+    "cost": "$490 (combined: $295 Part I + $195 Part II)",
+    "prerequisites": [
+      "sie",
+      "series7"
+    ],
+    "prerequisiteNote": "Must have passed the SIE and Series 7 exams; must be associated with and sponsored by a FINRA member firm",
+    "whoNeeds": "Individuals who prepare or approve research reports for distribution to customers. Required for equity research analysts at broker-dealers.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s86-f1",
+        "name": "Part I: Information and Data Collection",
+        "weight": 21,
+        "questions": 18,
+        "partNumber": "I",
+        "subtopics": [
+          "Gathering financial data from public filings (10-K, 10-Q, proxy statements)",
+          "Industry and market research: trade publications, government data, databases",
+          "Company management interviews and site visits",
+          "Macroeconomic data collection: GDP, CPI, employment, interest rates",
+          "Competitor analysis and peer identification",
+          "Supply chain and customer analysis",
+          "Regulatory environment assessment",
+          "Corporate governance evaluation"
+        ]
+      },
+      {
+        "id": "s86-f2",
+        "name": "Part I: Data Verification and Analysis",
+        "weight": 33,
+        "questions": 28,
+        "partNumber": "I",
+        "subtopics": [
+          "Financial statement analysis: income statement, balance sheet, cash flow",
+          "Quality of earnings analysis and accounting adjustments",
+          "Financial ratio analysis: profitability, liquidity, solvency, efficiency",
+          "Common-size analysis and trend analysis",
+          "Accounting standards: GAAP vs. IFRS differences, revenue recognition (ASC 606)",
+          "Lease accounting (ASC 842), inventory methods, depreciation",
+          "Pro forma financial statement preparation and adjustments",
+          "Statistical concepts: regression analysis, correlation, R-squared",
+          "Industry life cycle and competitive analysis (Porter's Five Forces, SWOT)",
+          "Capital structure theory and cost of capital estimation"
+        ]
+      },
+      {
+        "id": "s86-f3",
+        "name": "Part I: Valuation and Forecasting",
+        "weight": 46,
+        "questions": 39,
+        "partNumber": "I",
+        "subtopics": [
+          "Discounted cash flow (DCF) analysis: free cash flow to firm and equity",
+          "Terminal value estimation: perpetuity growth and exit multiple methods",
+          "Discount rate selection: WACC, cost of equity, CAPM, build-up method",
+          "Comparable company analysis: selecting peers, appropriate multiples",
+          "Valuation multiples: P/E, EV/EBITDA, P/B, P/S, PEG ratio",
+          "Precedent transaction analysis",
+          "Sum-of-the-parts (SOTP) valuation",
+          "Dividend discount model (DDM): Gordon Growth Model, multi-stage",
+          "Residual income and economic value added (EVA) models",
+          "Sensitivity analysis and scenario modeling",
+          "Revenue and earnings forecasting methodologies",
+          "LBO analysis for valuation benchmarking"
+        ]
+      },
+      {
+        "id": "s86-t4",
+        "name": "Part II: FINRA, SEC, and SRO Rules Governing Research",
+        "weight": 50,
+        "questions": 25,
+        "partNumber": "II",
+        "subtopics": [
+          "FINRA Rule 2241: research analysts and research reports (equity)",
+          "FINRA Rule 2242: debt research analysts and debt research reports",
+          "Conflicts of interest disclosure requirements",
+          "Research analyst personal trading restrictions",
+          "Quiet period requirements for research coverage",
+          "Information barriers between research and investment banking",
+          "Regulation AC: analyst certification requirements",
+          "Regulation FD: fair disclosure obligations",
+          "Section 15D of the Exchange Act: research analyst conflicts",
+          "Global Research Analyst Settlement provisions",
+          "Distribution of research reports: institutional vs. retail",
+          "Third-party research and independent research requirements"
+        ]
+      },
+      {
+        "id": "s86-t5",
+        "name": "Part II: Professional Conduct and Ethical Standards",
+        "weight": 50,
+        "questions": 25,
+        "partNumber": "II",
+        "subtopics": [
+          "Insider trading prohibitions: material nonpublic information (MNPI)",
+          "Section 10(b) and Rule 10b-5 anti-fraud provisions",
+          "Regulation M: anti-manipulation during distributions",
+          "Front-running and trading ahead prohibitions",
+          "Market manipulation: wash trades, marking the close, spoofing",
+          "Supervisory responsibilities for research departments",
+          "Record retention and compliance documentation",
+          "Investor relations and selective disclosure policies",
+          "Public appearance requirements for research analysts",
+          "Retaliation against research analysts for unfavorable reports",
+          "Coverage initiation and termination procedures",
+          "Industry standards for research report content and format",
+          "Rating systems and price target methodology disclosure"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series99",
+    "series": "Series 99",
+    "name": "Operations Professional",
+    "category": "representative",
+    "description": "Qualifies individuals performing operations functions at FINRA member firms who do not sell securities. Covers back-office functions including clearance, settlement, financial reporting, custody, and regulatory compliance.",
+    "questions": 55,
+    "unscored": 5,
+    "scored": 50,
+    "timeMinutes": 90,
+    "passingScore": 68,
+    "passingScoreNote": "68% (based on scored questions only)",
+    "cost": "$100",
+    "prerequisites": [
+      "sie"
+    ],
+    "prerequisiteNote": "SIE exam required; must be associated with and sponsored by a FINRA member firm",
+    "whoNeeds": "Individuals in operations roles at broker-dealers who do not engage in sales activities but handle clearance, settlement, custody, financial reporting, and other back-office functions.",
+    "corequisites": [
+      "sie"
+    ],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s99-f1",
+        "name": "Knowledge Associated with the Securities Industry and Broker-Dealer Operations",
+        "weight": 70,
+        "questions": 35,
+        "subtopics": [
+          "Securities industry structure: exchanges, OTC markets, ECNs, ATS",
+          "Regulatory framework: SEC, FINRA, SIPC, MSRB, CFTC",
+          "Self-regulatory organizations and their functions",
+          "FINRA registration and qualification requirements",
+          "Broker-dealer organizational structure and departments",
+          "Industry utilities: DTCC, NSCC, DTC, OCC",
+          "Trade processing lifecycle: execution, comparison, clearance, settlement",
+          "Settlement cycles: regular-way (T+1), cash, when-issued",
+          "Continuous Net Settlement (CNS) system",
+          "DTC processing: deliveries, receipts, book-entry transfers",
+          "Fails management: buy-ins, close-outs, aging",
+          "Corporate actions processing: dividends, stock splits, mergers, tender offers",
+          "Proxy processing and distribution",
+          "Reorganizations and voluntary/mandatory actions",
+          "Account maintenance: address changes, name changes, beneficiary updates",
+          "Account transfers: ACATS process and procedures",
+          "Margin account operations: margin calls, liquidation procedures",
+          "Customer account documentation and recordkeeping",
+          "Confirmations and account statement generation",
+          "Ex-date processing and dividend accounting",
+          "Cost basis reporting requirements",
+          "Books and records requirements: Rules 17a-3 and 17a-4",
+          "Record retention requirements and electronic storage",
+          "Net capital rule (Rule 15c3-1) awareness",
+          "Customer protection rule (Rule 15c3-3) awareness",
+          "FOCUS report filing requirements",
+          "Trade reporting: TRACE, TRF, ADF, RTRS",
+          "Business continuity planning (BCP) and disaster recovery",
+          "Cybersecurity awareness and data protection"
+        ]
+      },
+      {
+        "id": "s99-f2",
+        "name": "Professional Conduct and Ethical Considerations",
+        "weight": 30,
+        "questions": 15,
+        "subtopics": [
+          "Anti-fraud provisions and prohibited practices",
+          "Insider trading prevention and information barriers",
+          "Anti-money laundering (AML) programs and compliance",
+          "Customer Identification Program (CIP) requirements",
+          "Suspicious Activity Reports (SARs) and Currency Transaction Reports (CTRs)",
+          "OFAC compliance: screening and sanctions",
+          "Privacy requirements: Regulation S-P",
+          "Red Flags Rule: identity theft prevention (Regulation S-ID)",
+          "Conflicts of interest identification and management",
+          "Gifts, gratuities, and business entertainment policies",
+          "Outside business activities (OBA) reporting",
+          "Customer complaint handling in operations",
+          "Regulatory examination preparation and cooperation",
+          "Continuing education requirements for operations personnel",
+          "Ethical obligations and standards of professional conduct"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series4",
+    "series": "Series 4",
+    "name": "Registered Options Principal",
+    "category": "principal",
+    "description": "Qualifies an individual to supervise options trading activities at a broker-dealer. Covers listed options, OTC options, and the supervision of options account activity and compliance.",
+    "questions": 135,
+    "unscored": 10,
+    "scored": 125,
+    "timeMinutes": 195,
+    "passingScore": 72,
+    "passingScoreNote": "72% (based on scored questions only)",
+    "cost": "$200",
+    "prerequisites": [
+      "sie",
+      "series7"
+    ],
+    "prerequisiteNote": "Must have passed the SIE and a representative-level exam (typically Series 7); must be registered as a representative",
+    "whoNeeds": "Individuals who supervise options trading activities, approve options accounts, and oversee options compliance at a broker-dealer.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s4-f1",
+        "name": "Supervise the Opening of New Options Accounts",
+        "weight": 17,
+        "questions": 21,
+        "subtopics": [
+          "Options account approval process and documentation requirements",
+          "Options agreement and disclosure requirements (ODD delivery)",
+          "Options suitability: customer financial profile, knowledge, experience",
+          "Options approval levels: covered writing, spreads, uncovered writing",
+          "Customer investment objectives and risk tolerance assessment",
+          "New account form requirements specific to options",
+          "Background and financial information verification",
+          "Supervisory review and approval of new options accounts",
+          "Timeliness of account approval and documentation"
+        ]
+      },
+      {
+        "id": "s4-f2",
+        "name": "Supervise Options Account Activities",
+        "weight": 20,
+        "questions": 25,
+        "subtopics": [
+          "Monitoring options account trading activity and patterns",
+          "Supervision of options recommendations and order handling",
+          "Discretionary options account supervision",
+          "Day trading in options accounts and pattern day trader rules",
+          "Options margin requirements: customer and firm accounts",
+          "Margin calls and liquidation procedures for options positions",
+          "Annual options account review and updates",
+          "Options account monitoring and surveillance systems",
+          "Suitability of ongoing options trading relative to account profile",
+          "Escalation procedures for unusual account activity"
+        ]
+      },
+      {
+        "id": "s4-f3",
+        "name": "Supervise General Options Trading",
+        "weight": 24,
+        "questions": 30,
+        "subtopics": [
+          "Call and put options: rights, obligations, exercise, assignment",
+          "Options pricing factors: intrinsic value, time value, volatility, interest rates",
+          "The Greeks: delta, gamma, theta, vega, rho",
+          "Equity options: standard and non-standard, adjustments for corporate actions",
+          "Index options: broad-based, narrow-based, cash settlement, European-style",
+          "Interest rate options and yield-based options",
+          "Foreign currency options",
+          "Options on ETFs and index tracking products",
+          "LEAPS (Long-term Equity Anticipation Securities)",
+          "Covered call and protective put strategies",
+          "Spreads: vertical, horizontal, diagonal; debit and credit",
+          "Straddles, strangles, collars, and combinations",
+          "Butterfly and condor spreads",
+          "Synthetic positions: synthetic long/short stock",
+          "Hedging strategies using options",
+          "Options exchanges: CBOE, NYSE Arca, PHLX, ISE, MIAX",
+          "OCC (Options Clearing Corporation) role and functions",
+          "Exercise and assignment procedures",
+          "Position and exercise limits"
+        ]
+      },
+      {
+        "id": "s4-f4",
+        "name": "Supervise Options Communications",
+        "weight": 7,
+        "questions": 9,
+        "subtopics": [
+          "FINRA rules on options communications with the public",
+          "Options advertising, sales literature, and educational material review",
+          "Performance projections and standardized options illustrations",
+          "Approval and filing requirements for options communications",
+          "Retail communications, correspondence, and institutional communications for options",
+          "Social media and electronic communications related to options",
+          "Options Disclosure Document (ODD) delivery and updates"
+        ]
+      },
+      {
+        "id": "s4-f5",
+        "name": "Implement Practices and Adhere to Regulatory Requirements",
+        "weight": 10,
+        "questions": 12,
+        "subtopics": [
+          "FINRA Rule 2360: options rules and compliance",
+          "OCC rules and bylaws",
+          "Written supervisory procedures for options",
+          "Position and exercise limit monitoring and reporting",
+          "Large options position reporting (LOPR)",
+          "Regulation SHO considerations for options",
+          "Regulation M compliance for options during distributions",
+          "Net capital considerations for options positions",
+          "Books and records requirements for options activities",
+          "Insider trading surveillance in options"
+        ]
+      },
+      {
+        "id": "s4-f6",
+        "name": "Supervise Associated Persons and Personnel Management Activities",
+        "weight": 22,
+        "questions": 28,
+        "subtopics": [
+          "Compliance registered options principal (CROP) designation and responsibilities",
+          "Senior registered options principal (SROP) designation and responsibilities",
+          "Branch office supervision of options activities",
+          "Registration and qualification requirements for options personnel",
+          "Continuing education requirements for options supervisors and representatives",
+          "Options complaint handling, resolution, and arbitration",
+          "Supervisory responsibilities and delegation of duties",
+          "Training and education programs for associated persons",
+          "Disciplinary procedures for options-related violations",
+          "Oversight of associated persons' outside business activities",
+          "Annual compliance reviews and certifications"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series9_10",
+    "series": "Series 9/10",
+    "name": "General Securities Sales Supervisor",
+    "category": "principal",
+    "description": "A two-part examination that qualifies an individual to supervise general securities sales activities, including options. Often taken by branch office managers. Series 9 covers options supervision; Series 10 covers general supervision.",
+    "questions": 200,
+    "parts": [
+      {
+        "part": "9",
+        "name": "General Securities Sales Supervisor - Options",
+        "questions": 55,
+        "timeMinutes": 90,
+        "passingScore": 70,
+        "passingScoreNote": "70%"
+      },
+      {
+        "part": "10",
+        "name": "General Securities Sales Supervisor - General",
+        "questions": 145,
+        "timeMinutes": 240,
+        "passingScore": 70,
+        "passingScoreNote": "70%"
+      }
+    ],
+    "timeMinutesTotal": 330,
+    "passingScore": null,
+    "passingScoreNote": "Part 9: 70%; Part 10: 70% (each part scored separately)",
+    "cost": "$175 (Series 9) / $235 (Series 10)",
+    "prerequisites": [
+      "sie",
+      "series7"
+    ],
+    "prerequisiteNote": "Must have passed the SIE and Series 7; must be registered as a General Securities Representative",
+    "whoNeeds": "Individuals who supervise general securities sales activities and sales personnel at a broker-dealer, including branch office managers with options supervision responsibilities.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s9-t1",
+        "name": "Series 9: Options Supervision - Accounts and Compliance",
+        "weight": 50,
+        "questions": 28,
+        "partNumber": "9",
+        "subtopics": [
+          "Options account opening and approval procedures",
+          "Suitability assessment for options trading",
+          "Options agreement execution and ODD delivery",
+          "Options approval levels and escalation procedures",
+          "Supervision of options recommendations",
+          "Options communications review and approval",
+          "FINRA options rules and compliance",
+          "OCC rules governing options activities",
+          "Customer complaint handling for options",
+          "Discretionary options account supervision",
+          "Day trading rules as applied to options",
+          "Margin requirements for options positions"
+        ]
+      },
+      {
+        "id": "s9-t2",
+        "name": "Series 9: Options Supervision - Strategies and Risks",
+        "weight": 50,
+        "questions": 27,
+        "partNumber": "9",
+        "subtopics": [
+          "Covered and uncovered options strategies",
+          "Spreads: bull, bear, debit, credit, calendar",
+          "Straddles, strangles, and combinations",
+          "Index options and their unique characteristics",
+          "Options pricing: intrinsic value, time value, Greeks",
+          "Risk assessment for various options positions",
+          "Exercise and assignment procedures and supervision",
+          "Position and exercise limit monitoring",
+          "Hedging strategies using options",
+          "Options in retirement accounts: special requirements",
+          "Portfolio margin considerations"
+        ]
+      },
+      {
+        "id": "s10-t1",
+        "name": "Series 10: Supervision of Sales Activities and Registered Persons",
+        "weight": 35,
+        "questions": 51,
+        "partNumber": "10",
+        "subtopics": [
+          "Written supervisory procedures (WSPs) development and implementation",
+          "Branch office and OSJ designation and supervision",
+          "Supervisory responsibilities and delegation",
+          "Supervision of registered representatives",
+          "New account approval and documentation review",
+          "Suitability and Regulation Best Interest supervision",
+          "Customer complaint handling and investigation",
+          "Form U4/U5 reporting obligations",
+          "Heightened supervision requirements",
+          "Supervision of discretionary accounts",
+          "Outside business activity (OBA) review and approval",
+          "Private securities transaction (selling away) supervision",
+          "Annual compliance meeting requirements",
+          "Registered representative termination procedures"
+        ]
+      },
+      {
+        "id": "s10-t2",
+        "name": "Series 10: Supervision of Customer Accounts and Activities",
+        "weight": 35,
+        "questions": 51,
+        "partNumber": "10",
+        "subtopics": [
+          "Margin account supervision: Regulation T, maintenance requirements",
+          "Margin calls and liquidation procedures",
+          "Day trading and pattern day trader requirements",
+          "Mutual fund sales supervision: breakpoints, share classes, exchanges",
+          "Variable product supervision: annuities, variable life insurance",
+          "Municipal securities supervision and MSRB rules",
+          "Government securities supervision",
+          "Corporate bond and fixed income supervision",
+          "Penny stock rules (Rule 15g) and cold calling",
+          "Senior investor protection and financial exploitation",
+          "Account activity monitoring and surveillance",
+          "Trade review and exception reporting",
+          "Correspondence and communication review",
+          "Social media supervision and policies",
+          "Anti-money laundering (AML) supervision"
+        ]
+      },
+      {
+        "id": "s10-t3",
+        "name": "Series 10: Regulatory Framework and Compliance",
+        "weight": 30,
+        "questions": 43,
+        "partNumber": "10",
+        "subtopics": [
+          "FINRA rules and bylaws",
+          "SEC rules and regulations governing broker-dealers",
+          "FINRA code of procedure: disciplinary process",
+          "FINRA code of arbitration: customer and industry disputes",
+          "Continuing education: Regulatory Element and Firm Element",
+          "Communications with the public: review, approval, filing (Rule 2210)",
+          "Research analyst rules (Rule 2241/2242)",
+          "Anti-fraud provisions: Section 10(b), Rule 10b-5",
+          "Insider trading prevention programs",
+          "Regulation SHO: short selling requirements",
+          "Regulation NMS: order protection and access",
+          "Best execution obligations",
+          "Net capital awareness and early warning requirements",
+          "Customer protection rule awareness",
+          "Books and records requirements (Rules 17a-3, 17a-4)",
+          "Business continuity planning",
+          "SIPC coverage and broker-dealer liquidation",
+          "Cybersecurity and data protection obligations"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series52",
+    "series": "Series 52",
+    "name": "Municipal Securities Representative",
+    "category": "representative",
+    "description": "Qualifies an individual to transact business in municipal securities. Covers municipal bond characteristics, underwriting, trading, customer accounts, and MSRB rules.",
+    "questions": 80,
+    "unscored": 5,
+    "scored": 75,
+    "timeMinutes": 150,
+    "passingScore": 70,
+    "passingScoreNote": "70% (53 out of 75 scored questions)",
+    "cost": "$260",
+    "prerequisites": [
+      "sie"
+    ],
+    "prerequisiteNote": "SIE exam required; must be associated with and sponsored by a FINRA member firm or bank dealer",
+    "whoNeeds": "Individuals who engage in municipal securities activities including underwriting, trading, sales, financial advisory, consulting, research, and investment advice for municipal securities.",
+    "corequisites": [
+      "sie"
+    ],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with a FINRA member firm",
+    "topics": [
+      {
+        "id": "s52-t1",
+        "name": "Municipal Securities Characteristics and Analysis",
+        "weight": 30,
+        "questions": 22,
+        "subtopics": [
+          "Types of municipal issuers: states, cities, counties, authorities, special districts",
+          "General obligation (GO) bonds: taxing power, voter approval, debt limits",
+          "Revenue bonds: feasibility studies, rate covenants, flow of funds",
+          "Types of revenue bonds: airport, hospital, utility, housing, toll road, industrial",
+          "Short-term municipal securities: TANs, RANs, BANs, TRANs",
+          "Special tax bonds, assessment bonds, moral obligation bonds",
+          "Build America Bonds (BABs) and taxable municipal bonds",
+          "Variable-rate demand obligations (VRDOs) and auction rate securities",
+          "Municipal bond credit analysis and ratings",
+          "Municipal bond pricing: dollar price, basis price, concession",
+          "Yield calculations: nominal, current, YTM, YTC, yield to worst",
+          "Accrued interest: 30/360 convention, dated date, settlement date",
+          "Call features: optional, mandatory sinking fund, extraordinary",
+          "Pre-refunded and escrowed-to-maturity bonds",
+          "Tax-exempt vs. taxable municipal interest, AMT considerations"
+        ]
+      },
+      {
+        "id": "s52-t2",
+        "name": "Municipal Securities Underwriting and New Issuance",
+        "weight": 20,
+        "questions": 15,
+        "subtopics": [
+          "Competitive vs. negotiated underwriting processes",
+          "Official statement and preliminary official statement",
+          "SEC Rule 15c2-12: disclosure requirements",
+          "Continuing disclosure obligations and material event notices",
+          "Syndicate formation: manager, members, selling group",
+          "Eastern (undivided) vs. Western (divided) account types",
+          "Syndicate letters and agreements among underwriters",
+          "Pricing new issues: scale, reoffering prices, spread components",
+          "Good faith deposits and allocation procedures",
+          "MSRB Rule G-11: syndicate practices and priority provisions",
+          "MSRB Rule G-32: disclosures in connection with new issues",
+          "MSRB Rule G-34: CUSIP numbers and new issue processing",
+          "EMMA filings for new issues",
+          "TIC (true interest cost) and NIC (net interest cost) calculations"
+        ]
+      },
+      {
+        "id": "s52-t3",
+        "name": "Trading, Settlement, and Customer Accounts",
+        "weight": 25,
+        "questions": 19,
+        "subtopics": [
+          "Municipal bond trading: dealer markets, inter-dealer brokers",
+          "Quotations: bona fide, nominal, workable indication",
+          "MSRB Rule G-13: quotation practices",
+          "MSRB Rule G-15: confirmation, clearance, and settlement",
+          "MSRB Rule G-18: best execution obligations",
+          "MSRB Rule G-30: prices and commissions",
+          "Municipal bond settlement: regular-way, cash, when-issued",
+          "Accrued interest and settlement calculations",
+          "MSRB Rule G-19: suitability and know-your-customer",
+          "Customer account types for municipal securities",
+          "MSRB Rule G-8: books and records requirements",
+          "MSRB Rule G-9: record preservation requirements",
+          "Transaction reporting through RTRS (Real-Time Transaction Reporting System)",
+          "Municipal bond portfolio strategies for customers"
+        ]
+      },
+      {
+        "id": "s52-t4",
+        "name": "MSRB Rules, Regulations, and Professional Conduct",
+        "weight": 25,
+        "questions": 19,
+        "subtopics": [
+          "MSRB mission, structure, and rulemaking authority",
+          "MSRB Rule G-17: conduct of municipal securities activities (fair dealing)",
+          "MSRB Rule G-20: gifts, gratuities, and non-cash compensation",
+          "MSRB Rule G-37: political contributions (pay-to-play)",
+          "MSRB Rule G-38: solicitation of municipal securities business",
+          "MSRB Rule G-21: advertising and communications",
+          "MSRB Rule G-27: supervision requirements",
+          "MSRB Rule G-3: professional qualification requirements",
+          "Continuing education for municipal securities professionals",
+          "Municipal advisor regulation (MSRB Rule G-42)",
+          "EMMA system: purpose, access, and filing requirements",
+          "Anti-money laundering requirements for municipal securities",
+          "Customer complaints and dispute resolution",
+          "Fiduciary duty in municipal securities activities"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series50",
+    "series": "Series 50",
+    "name": "Municipal Advisor Representative",
+    "category": "representative",
+    "description": "Qualifies an individual to act as a municipal advisor representative, providing advice to municipal entities and obligated persons on municipal financial products, the issuance of municipal securities, and investment of bond proceeds.",
+    "questions": 110,
+    "unscored": 10,
+    "scored": 100,
+    "timeMinutes": 180,
+    "passingScore": 71,
+    "passingScoreNote": "71% (71 out of 100 questions)",
+    "cost": "$265",
+    "prerequisites": [],
+    "prerequisiteNote": "Must be associated with and registered as a municipal advisor with the SEC and MSRB",
+    "whoNeeds": "Individuals who provide advice to municipal entities regarding municipal financial products, the issuance of municipal securities, or investment strategies for bond proceeds.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with the MSRB",
+    "administrator": "MSRB",
+    "topics": [
+      {
+        "id": "s50-t1",
+        "name": "Federal Regulatory Framework for Municipal Advisors",
+        "weight": 25,
+        "questions": 25,
+        "subtopics": [
+          "Dodd-Frank Wall Street Reform Act: municipal advisor registration requirements",
+          "SEC registration requirements for municipal advisors (Form MA)",
+          "Definition of municipal advisor and municipal advisory activities",
+          "Exemptions from municipal advisor registration",
+          "MSRB Rule G-42: duties of non-solicitor municipal advisors",
+          "Fiduciary duty of municipal advisors to municipal entity clients",
+          "Duty of care and duty of loyalty",
+          "MSRB Rule G-17: fair dealing obligations",
+          "MSRB Rule G-44: supervisory and compliance obligations",
+          "MSRB Rule G-20: gifts, gratuities, and non-cash compensation",
+          "MSRB Rule G-37: political contributions restrictions",
+          "Recordkeeping requirements for municipal advisors",
+          "SEC examination and enforcement authority over municipal advisors",
+          "FINRA examination authority for municipal advisors"
+        ]
+      },
+      {
+        "id": "s50-t2",
+        "name": "Municipal Securities Issuance and Market Structure",
+        "weight": 30,
+        "questions": 30,
+        "subtopics": [
+          "Municipal bond market structure and participants",
+          "Types of municipal securities: GO bonds, revenue bonds, conduit bonds",
+          "Short-term municipal instruments: notes, commercial paper, VRDOs",
+          "Tax-exempt vs. taxable municipal securities",
+          "Private activity bonds and volume caps",
+          "Qualified 501(c)(3) bonds and conduit borrowers",
+          "Bond authorization and election requirements",
+          "Municipal issuance process: planning, structuring, marketing, closing",
+          "Competitive vs. negotiated sale methods",
+          "Credit enhancement: bond insurance, letters of credit, state programs",
+          "Municipal credit ratings and rating agency processes",
+          "Disclosure requirements: official statements, continuing disclosure",
+          "SEC Rule 15c2-12 compliance for underwriters and advisors",
+          "EMMA system and filing obligations",
+          "Post-issuance compliance: arbitrage rebate, private use restrictions",
+          "Refunding bonds: advance refunding, current refunding, crossover"
+        ]
+      },
+      {
+        "id": "s50-t3",
+        "name": "Municipal Financial Products and Investment Strategies",
+        "weight": 25,
+        "questions": 25,
+        "subtopics": [
+          "Municipal derivatives: interest rate swaps, caps, floors, collars",
+          "Guaranteed investment contracts (GICs) for bond proceed investment",
+          "Investment of bond proceeds and reserve funds",
+          "State and local government investment pools (LGIPs)",
+          "Municipal escrow and defeasance investments",
+          "Pension and OPEB obligation management",
+          "Lease financing and certificates of participation (COPs)",
+          "Tax increment financing (TIF) structures",
+          "Special assessment districts and community facilities districts",
+          "Public-private partnerships (P3s)",
+          "Debt management policies and capital improvement planning",
+          "Debt capacity analysis and debt affordability",
+          "Arbitrage rebate calculations and compliance",
+          "Yield restriction and permitted investments under tax law"
+        ]
+      },
+      {
+        "id": "s50-t4",
+        "name": "Professional Conduct, Ethics, and Client Relationships",
+        "weight": 20,
+        "questions": 20,
+        "subtopics": [
+          "Fiduciary duty: understanding and application to municipal advisory",
+          "Conflicts of interest identification and disclosure",
+          "Compensation disclosure requirements",
+          "Written advisory agreements and engagement letters",
+          "Scope of engagement and limitations",
+          "Recommendations: basis, documentation, and suitability",
+          "Professional competence and continuing education",
+          "Confidentiality obligations to municipal entity clients",
+          "Solicitation activities and solicitor municipal advisors",
+          "Anti-fraud provisions applicable to municipal advisors",
+          "Whistleblower protections and reporting obligations",
+          "Business continuity planning for municipal advisory firms",
+          "Risk disclosure for complex financial products"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "series3",
+    "series": "Series 3",
+    "name": "National Commodities Futures Examination",
+    "category": "representative",
+    "description": "Qualifies an individual to sell commodity futures contracts, options on futures, retail off-exchange forex contracts, and swaps. Administered under NFA/CFTC jurisdiction rather than FINRA.",
+    "questions": 120,
+    "unscored": 0,
+    "scored": 120,
+    "timeMinutes": 150,
+    "passingScore": 70,
+    "passingScoreNote": "70% (must pass each part separately: Part 1 minimum 70%, Part 2 minimum 70%)",
+    "cost": "$140",
+    "prerequisites": [],
+    "prerequisiteNote": "No prerequisites; must be sponsored by an NFA member firm",
+    "whoNeeds": "Individuals who wish to solicit orders for commodity futures, options on futures, retail off-exchange forex, or swaps. Required for Associated Persons (APs) of commodity firms.",
+    "corequisites": [],
+    "retakeWait": "30 days after first and second attempts, 180 days after third attempt",
+    "validity": "Must maintain registration with NFA",
+    "administrator": "NFA (National Futures Association) / CFTC oversight",
+    "topics": [
+      {
+        "id": "s3-t1",
+        "name": "Part 1: Market and Trading Knowledge",
+        "weight": 71,
+        "questions": 85,
+        "partNumber": "1",
+        "subtopics": [
+          "Futures contract characteristics: standardization, delivery, expiration",
+          "Futures markets: exchanges, clearing organizations, settlement",
+          "Long and short futures positions",
+          "Margin: initial, maintenance, variation, performance bond",
+          "Mark-to-market and daily settlement procedures",
+          "Types of orders: market, limit, stop, MIT, spread, contingency",
+          "Price limits, trading halts, and circuit breakers",
+          "Delivery process: first notice day, last trading day, delivery months",
+          "Cash settlement vs. physical delivery",
+          "Basis and basis risk: convergence, contango, backwardation",
+          "Hedging fundamentals: long hedge, short hedge, cross hedge",
+          "Hedging with agricultural commodities: grains, livestock, softs",
+          "Hedging with financial futures: interest rate, stock index, currency",
+          "Energy futures: crude oil, natural gas, refined products",
+          "Metals futures: gold, silver, copper, platinum",
+          "Speculation strategies and risk management",
+          "Spread trading: inter-commodity, intra-commodity, inter-market",
+          "Calendar (time) spreads and their dynamics",
+          "Fundamental analysis for commodity markets",
+          "Technical analysis: charts, patterns, indicators, volume, open interest",
+          "Options on futures: calls, puts, exercise, assignment",
+          "Options strategies: buying/selling, spreads, straddles",
+          "Options pricing: intrinsic value, time value, volatility",
+          "Delta, gamma, and other options sensitivities",
+          "Foreign exchange (forex) markets: spot, forward, futures",
+          "Currency pairs, pip values, and leverage in forex",
+          "Interest rate futures: T-bonds, T-notes, Eurodollars, Fed funds",
+          "Stock index futures: S&P 500, DJIA, Nasdaq, Russell 2000",
+          "Swaps: interest rate, commodity, currency swaps basics"
+        ]
+      },
+      {
+        "id": "s3-t2",
+        "name": "Part 2: Rules and Regulations",
+        "weight": 29,
+        "questions": 35,
+        "partNumber": "2",
+        "subtopics": [
+          "Commodity Exchange Act (CEA): key provisions and purpose",
+          "CFTC (Commodity Futures Trading Commission): authority and functions",
+          "NFA (National Futures Association): role and authority",
+          "Registration categories: FCM, IB, CPO, CTA, AP, FDM",
+          "Registration requirements and disqualification criteria",
+          "NFA compliance rules and ethics standards",
+          "Customer account opening requirements",
+          "Risk disclosure requirements: futures, forex, options",
+          "Customer funds segregation and protection",
+          "Margin requirements for customer accounts",
+          "Record retention requirements",
+          "Reporting requirements: large trader, speculative position limits",
+          "Anti-fraud provisions: CEA Section 4b, 4c, 4o",
+          "Market manipulation prohibitions",
+          "Churning and unauthorized trading prohibitions",
+          "Customer complaint and dispute resolution: NFA arbitration",
+          "Reparations proceedings under the CEA",
+          "Supervision and compliance responsibilities",
+          "Anti-money laundering (AML) requirements for futures firms",
+          "Dodd-Frank Act impact on futures and swaps markets",
+          "Swap dealer and major swap participant regulations",
+          "Privacy and data protection requirements"
+        ]
+      }
+    ]
+  }
+]

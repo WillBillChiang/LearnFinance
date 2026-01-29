@@ -1,0 +1,227 @@
+[
+  {
+    "id": "series50-q001",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "Under the Dodd-Frank Act, a municipal advisor is defined as a person who:",
+    "choices": ["A. Only sells municipal securities to investors", "B. Provides advice to a municipal entity or obligated person regarding municipal financial products or the issuance of municipal securities", "C. Only rates municipal bonds", "D. Only audits municipal financial statements"],
+    "correct": 1,
+    "explanation": "The Dodd-Frank Act defines a municipal advisor as any person who provides advice to or on behalf of a municipal entity or obligated person regarding municipal financial products, the issuance of municipal securities, or certain investment strategies. This includes financial advisors, swap advisors, and third-party marketers."
+  },
+  {
+    "id": "series50-q002",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "Municipal advisors must register with:",
+    "choices": ["A. Only the MSRB", "B. Both the SEC and the MSRB", "C. Only the state where they operate", "D. FINRA only"],
+    "correct": 1,
+    "explanation": "Municipal advisors must register with both the SEC (on Form MA) and the MSRB. The SEC requires registration under the Securities Exchange Act, while the MSRB regulates the conduct of municipal advisors. State registration may also be required depending on the jurisdiction."
+  },
+  {
+    "id": "series50-q003",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "Under MSRB Rule G-42, a municipal advisor owes which duty to its municipal entity clients?",
+    "choices": ["A. A suitability duty only", "B. A fiduciary duty, including duties of loyalty and care", "C. A best efforts duty only", "D. No specific duty beyond completing the engagement"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-42 establishes that municipal advisors owe a fiduciary duty to their municipal entity clients. This includes the duty of loyalty (placing the client's interests first and avoiding conflicts) and the duty of care (exercising reasonable care, diligence, and competence). This is a higher standard than the suitability obligation."
+  },
+  {
+    "id": "series50-q004",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "A municipal advisor's duty of loyalty requires the advisor to:",
+    "choices": ["A. Recommend the cheapest financial product", "B. Deal honestly and in good faith, placing the client's interests ahead of the advisor's own interests", "C. Guarantee the success of the financing", "D. Only work with one client at a time"],
+    "correct": 1,
+    "explanation": "The duty of loyalty requires municipal advisors to deal honestly and with utmost good faith with their municipal entity clients, placing the client's interests ahead of the advisor's own financial or other interests. This includes full disclosure of all material conflicts of interest."
+  },
+  {
+    "id": "series50-q005",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "Which of the following persons is EXCLUDED from the definition of municipal advisor?",
+    "choices": ["A. A financial advisor hired by a city to structure a bond issue", "B. A broker-dealer serving as an underwriter on a negotiated sale", "C. A swap advisor to a school district", "D. A third-party marketer of 529 plan investments"],
+    "correct": 1,
+    "explanation": "Broker-dealers serving as underwriters in a municipal securities transaction are excluded from the definition of municipal advisor (the underwriter exclusion). This is because the underwriter is considered a counterparty to the issuer, not an advisor. However, underwriters are subject to MSRB Rule G-17 fair dealing obligations."
+  },
+  {
+    "id": "series50-q006",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "When advising a municipal entity on the structure of a new bond issue, the municipal advisor should consider:",
+    "choices": ["A. Only the lowest possible interest rate", "B. The issuer's financial needs, debt capacity, market conditions, and the most appropriate structure", "C. Only the advisor's fee structure", "D. Only the preferences of potential investors"],
+    "correct": 1,
+    "explanation": "A municipal advisor must provide comprehensive advice considering the issuer's specific needs, including debt capacity, cash flow requirements, market conditions, legal constraints, and the most cost-effective and appropriate bond structure (serial vs. term bonds, fixed vs. variable rate, call features, etc.)."
+  },
+  {
+    "id": "series50-q007",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "Under Rule G-42, a municipal advisor must disclose conflicts of interest:",
+    "choices": ["A. Only if asked by the client", "B. In writing prior to or upon engaging in municipal advisory activities", "C. Only at the conclusion of the engagement", "D. Only for conflicts exceeding $10,000"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-42 requires municipal advisors to disclose all material conflicts of interest in writing to the client prior to or upon engaging in municipal advisory activities. This includes economic relationships with other parties, compensation arrangements, and any other conflicts that could affect the advisor's objectivity."
+  },
+  {
+    "id": "series50-q008",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "A municipal advisor helping a city evaluate competitive bids for a new GO bond issue should:",
+    "choices": ["A. Accept the bid with the highest yield", "B. Analyze all qualifying bids and recommend the bid that provides the lowest cost of borrowing for the issuer", "C. Accept the first bid received", "D. Recommend the bid from the largest underwriting firm"],
+    "correct": 1,
+    "explanation": "The municipal advisor should objectively evaluate all qualifying bids based on true interest cost (TIC) or net interest cost (NIC), verify compliance with bid specifications, and recommend the bid that provides the lowest cost of borrowing for the issuer. The advisor acts in the issuer's best interest throughout this process."
+  },
+  {
+    "id": "series50-q009",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "Form MA (Municipal Advisor Registration) must be filed with the SEC and includes:",
+    "choices": ["A. Only the advisor's name and address", "B. Information about the advisor's business, disciplinary history, clients, and types of activities", "C. Only financial statements", "D. Only a list of current clients"],
+    "correct": 1,
+    "explanation": "Form MA requires comprehensive disclosure including the advisor's business activities, types of clients, compensation arrangements, disciplinary history, associated persons, and other relevant information. The form must be updated annually and amended promptly for material changes."
+  },
+  {
+    "id": "series50-q010",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "A municipal advisor receives a referral fee from an underwriter for recommending the underwriter to a municipal client. This arrangement:",
+    "choices": ["A. Is standard practice and requires no disclosure", "B. Creates a conflict of interest that must be disclosed in writing to the client", "C. Is always prohibited regardless of disclosure", "D. Is acceptable as long as the fee is under $1,000"],
+    "correct": 1,
+    "explanation": "Receiving a referral fee from an underwriter creates a material conflict of interest because the advisor may be incentivized to recommend that underwriter regardless of whether they are the best choice for the client. Under Rule G-42, this conflict must be disclosed in writing to the client, and the advisor must evaluate whether the conflict can be managed."
+  },
+  {
+    "id": "series50-q011",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "When advising on an interest rate swap for a municipal entity, the municipal advisor must:",
+    "choices": ["A. Guarantee the swap will be profitable", "B. Ensure the entity understands the risks, terms, and costs of the swap, and that it is appropriate for their needs", "C. Only describe the potential benefits", "D. Let the swap dealer explain all terms"],
+    "correct": 1,
+    "explanation": "A municipal advisor providing swap advice must ensure the municipal entity fully understands the risks (interest rate risk, termination risk, credit risk), terms (notional amount, payment frequencies, termination provisions), and costs associated with the swap. The advisor must determine if the swap is appropriate given the entity's overall financial strategy."
+  },
+  {
+    "id": "series50-q012",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "The MSRB's Rule G-44 requires municipal advisors to:",
+    "choices": ["A. Pass the Series 7 examination", "B. Establish and maintain a supervisory system and written supervisory procedures", "C. Register as broker-dealers", "D. Obtain approval from the issuer before publishing any reports"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-44 requires municipal advisory firms to establish and maintain a supervisory system, including written supervisory procedures, that is reasonably designed to ensure compliance with MSRB rules and applicable securities laws. This parallels the supervisory requirements for broker-dealers."
+  },
+  {
+    "id": "series50-q013",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "The duty of care for a municipal advisor requires:",
+    "choices": ["A. Minimal due diligence before providing advice", "B. Exercising reasonable diligence and making a reasonable inquiry into the facts relevant to the engagement", "C. Only reviewing publicly available information", "D. Relying solely on information provided by the client without verification"],
+    "correct": 1,
+    "explanation": "The duty of care requires municipal advisors to exercise reasonable diligence, make reasonable inquiry into facts relevant to the advisory engagement, and not base advice on unreasonable assumptions. The advisor must have a reasonable basis for any advice provided and must understand the municipal entity's needs and circumstances."
+  },
+  {
+    "id": "series50-q014",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "When a municipal advisor recommends a method of sale (competitive vs. negotiated), the advisor should consider:",
+    "choices": ["A. Only which method generates higher advisory fees", "B. The issuer's credit quality, deal complexity, market conditions, and which method is most advantageous for the issuer", "C. Only the preferences of local underwriters", "D. Only the speed of the process"],
+    "correct": 1,
+    "explanation": "The municipal advisor must recommend the method of sale that is most advantageous for the issuer. Factors include the issuer's credit quality, the complexity of the deal structure, current market conditions, the issuer's name recognition, and whether the issue can attract competitive interest. The advisor's fee should not influence the recommendation."
+  },
+  {
+    "id": "series50-q015",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "Under MSRB rules, a municipal advisor's engagement letter must include:",
+    "choices": ["A. Only the advisor's contact information", "B. The scope of the engagement, compensation terms, conflicts of interest, and the fiduciary duty owed", "C. A guarantee of successful financing", "D. A list of all previous clients"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-42 requires municipal advisory engagement letters to document the scope of the engagement, the advisor's compensation structure, material conflicts of interest, the fiduciary duty owed to the client, and other terms. The engagement letter must be provided prior to, upon, or promptly after engaging in advisory activities."
+  },
+  {
+    "id": "series50-q016",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "A municipal advisor also operates a broker-dealer that could underwrite bonds for the same client. This situation:",
+    "choices": ["A. Is automatically prohibited", "B. Creates a conflict of interest that must be fully disclosed, and the advisor must determine if it can be effectively managed", "C. Is encouraged as it provides full service to the client", "D. Only requires oral disclosure"],
+    "correct": 1,
+    "explanation": "Operating both as a municipal advisor and a potential underwriter for the same client creates a significant conflict of interest. The advisor must disclose this conflict in writing, evaluate whether it can be effectively managed, and in some cases may need to recuse from either the advisory or underwriting role."
+  },
+  {
+    "id": "series50-q017",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "A municipal advisor helping with continuing disclosure obligations should ensure that:",
+    "choices": ["A. The issuer files only when regulators request it", "B. The issuer timely files annual financial information and material event notices on EMMA as required by SEC Rule 15c2-12", "C. The issuer files only with the state", "D. The issuer stops filing once the bonds are fully sold"],
+    "correct": 1,
+    "explanation": "Municipal advisors assisting with continuing disclosure should ensure that the issuer complies with SEC Rule 15c2-12 by filing annual financial information and operating data, and timely filing material event notices (such as rating changes, defaults, or adverse tax opinions) on EMMA. Failure to comply can impair the issuer's future market access."
+  },
+  {
+    "id": "series50-q018",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "MSRB Rule G-37 (political contributions) applies to municipal advisors by prohibiting them from:",
+    "choices": ["A. Making any political contributions whatsoever", "B. Engaging in municipal advisory business with an issuer for two years after certain political contributions to officials of that issuer", "C. Voting in municipal elections", "D. Attending political fundraisers"],
+    "correct": 1,
+    "explanation": "MSRB Rule G-37 applies to municipal advisors (in addition to dealers). It prohibits a municipal advisor from providing advisory services to an issuer for two years after the advisor or certain associated persons make political contributions exceeding the de minimis amount ($250) to officials of that issuer. This prevents pay-to-play practices."
+  },
+  {
+    "id": "series50-q019",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "When providing advice to a municipal entity on investing bond proceeds, the municipal advisor must:",
+    "choices": ["A. Recommend the investment with the highest return regardless of risk", "B. Consider safety, liquidity, and yield consistent with the entity's investment policy and legal requirements", "C. Only recommend investments from affiliated companies", "D. Recommend speculative investments to maximize returns"],
+    "correct": 1,
+    "explanation": "When advising on the investment of bond proceeds, the municipal advisor must consider the entity's investment policy, legal constraints (such as arbitrage rebate requirements), safety of principal, liquidity needs (when will funds be needed), and yield. The advisor's fiduciary duty requires prioritizing the entity's interests and legal compliance."
+  },
+  {
+    "id": "series50-q020",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "The municipal advisor's role in a negotiated sale typically includes:",
+    "choices": ["A. Executing trades on behalf of investors", "B. Helping select the underwriter, reviewing bond structure, and negotiating terms to ensure the issuer receives fair pricing", "C. Purchasing the bonds directly from the issuer", "D. Setting the credit rating for the bonds"],
+    "correct": 1,
+    "explanation": "In a negotiated sale, the municipal advisor assists with selecting the underwriting team (through RFP process), reviewing and recommending the bond structure, negotiating terms with the underwriter, and evaluating the proposed pricing to ensure the issuer receives fair market pricing. The advisor serves as the issuer's advocate throughout the process."
+  },
+  {
+    "id": "series50-q021",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "The 'bank exemption' from municipal advisor registration applies when:",
+    "choices": ["A. Any bank employee gives municipal advice", "B. A bank provides advice that is within the scope of traditional banking activities, such as lending or trust services", "C. A bank sells municipal securities to retail customers", "D. A bank underwrites municipal bonds"],
+    "correct": 1,
+    "explanation": "Banks are exempt from municipal advisor registration when providing advice that falls within traditional banking activities, such as lending, deposit-taking, trust services, and safekeeping. However, if a bank provides advice outside these traditional activities (such as advising on bond issuance for a fee), the exemption does not apply."
+  },
+  {
+    "id": "series50-q022",
+    "topic": "series50-t2",
+    "topicName": "Fiduciary Duty of Municipal Advisors",
+    "question": "A municipal advisor may NOT:",
+    "choices": ["A. Charge a fee for advisory services", "B. Make recommendations to municipal entity clients", "C. Receive undisclosed compensation from third parties in connection with the advisory relationship", "D. Advise on both competitive and negotiated sales"],
+    "correct": 2,
+    "explanation": "A municipal advisor may not receive undisclosed compensation from any party in connection with the advisory relationship. All compensation arrangements, including any payments from third parties (such as underwriters, swap dealers, or investment providers), must be fully disclosed to the client. Undisclosed compensation violates the duty of loyalty."
+  },
+  {
+    "id": "series50-q023",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "When advising a municipal entity on a refunding, the municipal advisor should analyze:",
+    "choices": ["A. Only the current market interest rate", "B. The net present value savings, the escrow structure, negative arbitrage, and whether the refunding achieves the issuer's objectives", "C. Only whether the original bonds are callable", "D. Only the underwriter's proposed fee"],
+    "correct": 1,
+    "explanation": "A thorough refunding analysis includes calculating net present value (NPV) savings, analyzing the escrow structure and its cost, evaluating negative arbitrage (cost of investing escrow proceeds at rates below the refunded bond's rate), assessing call provisions, and determining whether the refunding achieves the issuer's financial objectives."
+  },
+  {
+    "id": "series50-q024",
+    "topic": "series50-t1",
+    "topicName": "Municipal Advisory Regulation",
+    "question": "MSRB Rule G-42 supplementary guidance provides that a municipal advisor must document:",
+    "choices": ["A. Only verbal agreements with the client", "B. The basis for any advice provided, the analysis underlying recommendations, and records of communications", "C. Only the final outcome of the financing", "D. Only fee agreements"],
+    "correct": 1,
+    "explanation": "Municipal advisors must maintain documentation of the basis for their advice, the analysis supporting their recommendations, records of communications with the client and other parties, conflicts of interest disclosures, and other records necessary to demonstrate compliance with fiduciary and regulatory obligations."
+  },
+  {
+    "id": "series50-q025",
+    "topic": "series50-t3",
+    "topicName": "Municipal Advisory Activities",
+    "question": "A municipal advisor working with a small municipality that has limited financial staff should:",
+    "choices": ["A. Provide less detailed advice since the municipality is small", "B. Ensure the municipality understands the financial products and risks, potentially providing additional education and guidance", "C. Decline the engagement since small municipalities are too risky", "D. Only recommend the simplest financing structures regardless of the municipality's needs"],
+    "correct": 1,
+    "explanation": "The fiduciary duty applies regardless of the municipality's size. For smaller entities with limited financial staff, the advisor may need to provide additional education, more detailed explanations, and greater guidance to ensure the client fully understands the proposed transactions, risks, and alternatives. The advisor should tailor their approach to the client's sophistication."
+  }
+]

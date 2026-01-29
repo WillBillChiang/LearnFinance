@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Learn about the municipal bond primary market including competitive vs negotiated underwriting, syndicate operations, spread components, and allocation methods for the Series 52 exam.">
+  <title>The Primary Market - Series 52 | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series52" data-chapter="primary-market">
+
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 4</span>
+          <h1>The Primary Market</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              30 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 52
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Competitive vs Negotiated ====== -->
+        <section class="lesson__section" id="competitive-vs-negotiated">
+          <h2>Competitive vs. Negotiated Underwriting</h2>
+
+          <p>When a municipality decides to issue bonds, it must choose how to bring those bonds to market. The two primary methods of municipal bond underwriting are competitive and negotiated. Understanding the differences between these methods is a heavily tested topic on the Series 52 exam.</p>
+
+          <h3>Competitive Underwriting</h3>
+
+          <p>In a competitive underwriting, the issuer publishes a <strong>Notice of Sale</strong> (also called an Official Notice of Sale) announcing the upcoming bond issue and inviting underwriting firms or syndicates to submit sealed bids on a specified date and time. The notice contains essential details including the par amount, maturity schedule, call provisions, delivery date, legal opinion information, and the basis on which bids will be evaluated.</p>
+
+          <p>Each bidding syndicate submits a bid specifying the coupon rates for each maturity and the price it will pay the issuer (the reoffering yield). The issuer awards the bonds to the syndicate that offers the <strong>lowest net interest cost (NIC)</strong> or <strong>lowest true interest cost (TIC)</strong>, depending on what the notice of sale specifies. NIC is a simpler calculation that does not consider the time value of money, while TIC (also called the Canadian method) is a more sophisticated measure that accounts for the time value of money, similar to an internal rate of return calculation.</p>
+
+          <p>Competitive underwriting is most commonly used for <strong>general obligation bonds</strong> because GO bonds are straightforward, well-understood instruments that are easy for multiple syndicates to evaluate. Many states require that GO bonds be sold through competitive bidding to ensure that the issuer obtains the best possible interest rate and to prevent favoritism.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Key Terms</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Net Interest Cost (NIC):</strong> Total interest payments over the life of the bond issue, minus any premium or plus any discount. Does NOT account for the time value of money. A simpler, older method.</p>
+              <p><strong>True Interest Cost (TIC):</strong> The discount rate that equates the present value of all debt service payments to the bond proceeds. DOES account for the time value of money. More accurate and increasingly preferred.</p>
+            </div>
+          </div>
+
+          <h3>Negotiated Underwriting</h3>
+
+          <p>In a negotiated underwriting, the issuer selects an underwriter (or a managing underwriter that will form a syndicate) in advance, and the two parties negotiate the terms of the offering, including the interest rates, purchase price, spread, and other conditions. There is no competitive bidding process. The issuer may select the underwriter based on the firm's expertise in a particular type of financing, its distribution capabilities, its track record, or an existing relationship.</p>
+
+          <p>Negotiated underwriting is more commonly used for <strong>revenue bonds</strong> because these issues are often more complex, requiring specialized knowledge of the project, the revenue source, and the credit structure. The underwriter works closely with the issuer throughout the process, often helping to structure the deal, prepare the official statement, and market the bonds to investors. This collaboration is particularly valuable for first-time issuers, novel financing structures, or issues that require extensive investor education.</p>
+
+          <p>Negotiated deals account for the majority of municipal bond issuance in the United States, reflecting the growing complexity of municipal finance and the value that issuers place on the underwriter's advisory role.</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Feature</th>
+                  <th>Competitive</th>
+                  <th>Negotiated</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Selection Process</td>
+                  <td class="compare-table__cell">Sealed bids; lowest cost wins</td>
+                  <td class="compare-table__cell">Issuer selects underwriter in advance</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Common Bond Type</td>
+                  <td class="compare-table__cell">General obligation bonds</td>
+                  <td class="compare-table__cell">Revenue bonds</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Key Document</td>
+                  <td class="compare-table__cell">Notice of Sale</td>
+                  <td class="compare-table__cell">Bond Purchase Agreement</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Cost Evaluation</td>
+                  <td class="compare-table__cell">NIC or TIC</td>
+                  <td class="compare-table__cell">Negotiated spread and yields</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Underwriter Role</td>
+                  <td class="compare-table__cell">Bid and distribute</td>
+                  <td class="compare-table__cell">Advisory, structuring, and distribution</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Pre-Sale Marketing</td>
+                  <td class="compare-table__cell">Not by underwriter (may not know terms)</td>
+                  <td class="compare-table__cell">Extensive (pre-sale orders solicited)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Syndicate Operations ====== -->
+        <section class="lesson__section" id="syndicate-operations">
+          <h2>Syndicate Operations</h2>
+
+          <p>For most municipal bond issues, the managing underwriter forms a <strong>syndicate</strong> — a temporary group of broker-dealers that share the risk and responsibility of underwriting and distributing the bonds. The syndicate is governed by a <strong>syndicate agreement</strong> (also called an Agreement Among Underwriters or AAU), which sets out the terms of the arrangement, including each member's participation, liability, and compensation.</p>
+
+          <h3>Syndicate Account Types</h3>
+
+          <p>The syndicate agreement specifies how financial responsibility is allocated among members. There are three types of syndicate accounts:</p>
+
+          <ul>
+            <li><strong>Eastern (Undivided) Account:</strong> Each syndicate member is responsible for its proportionate share of any unsold bonds, regardless of whether it has sold its own allocation. For example, if a member has a 20% participation and has sold all of its own bonds, it is still responsible for 20% of any bonds that other members failed to sell. This structure shares risk among all members and is the most common type in municipal underwriting.</li>
+            <li><strong>Western (Divided) Account:</strong> Each syndicate member is only responsible for selling its own allocation. If a member sells all of its bonds, it has no further liability, even if other members have unsold bonds. This structure limits each member's risk to its own participation.</li>
+            <li><strong>Combination Account:</strong> Features elements of both Eastern and Western accounts. A portion of the issue may be divided (each member sells its own allocation), while another portion is undivided (shared liability for unsold bonds).</li>
+          </ul>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember: <strong>Eastern = Everyone shares</strong> the unsold bond liability (undivided). <strong>Western = Walk away</strong> after selling your own allocation (divided). The Eastern (undivided) account is more common in municipal underwriting because it aligns the interests of all syndicate members.</p>
+            </div>
+          </div>
+
+          <h3>The Underwriting Spread</h3>
+
+          <p>The underwriting spread is the difference between the price the syndicate pays the issuer for the bonds and the price at which the bonds are reoffered to the public. It represents the total compensation earned by the underwriting syndicate. The spread is divided into several components:</p>
+
+          <ul>
+            <li><strong>Management Fee:</strong> The portion retained by the managing underwriter for organizing the syndicate, negotiating terms, and managing the offering process. This is typically the smallest component of the spread.</li>
+            <li><strong>Underwriting Fee (Member's Allowance):</strong> The portion allocated to all syndicate members for assuming the underwriting risk. Each member receives this fee based on its participation percentage.</li>
+            <li><strong>Selling Concession:</strong> The portion earned by whoever actually sells the bonds to investors. This is typically the largest component of the spread. If a syndicate member sells bonds from its own allocation, it earns the full spread (management fee + underwriting fee + selling concession). If a selling group member sells bonds, it earns only the selling concession.</li>
+          </ul>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example</p>
+            </div>
+            <div class="callout__content">
+              <p>Assume a municipal bond has a total underwriting spread of $10 per bond. The spread is allocated as follows: Management Fee = $1.00, Underwriting Fee = $2.50, Selling Concession = $6.50. A syndicate member who sells its own bonds earns the full $10.00 spread. A selling group member who sells bonds earns only the $6.50 selling concession. If a non-member dealer purchases bonds from the syndicate at a concession, it earns the selling concession minus a reallowance (e.g., $6.50 - $2.00 = $4.50).</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Order Priority and Allocation ====== -->
+        <section class="lesson__section" id="order-priority-allocation">
+          <h2>Order Priority and Allocation</h2>
+
+          <p>When investors place orders for a new municipal bond issue, the syndicate must determine the order in which those orders are filled. The syndicate agreement establishes a priority of orders, which typically follows this hierarchy (from highest to lowest priority):</p>
+
+          <ol>
+            <li><strong>Pre-Sale Orders:</strong> Orders received before the syndicate wins the bid or finalizes the offering terms. These orders demonstrate strong investor demand and are given the highest priority.</li>
+            <li><strong>Group (Syndicate) Net Orders:</strong> Orders in which the selling credit (profit) is shared among all syndicate members according to their participation. These benefit the entire group.</li>
+            <li><strong>Designated Orders:</strong> The investor specifies which syndicate member(s) should receive credit for the sale. The selling concession goes to the designated member(s), typically according to percentages specified by the investor.</li>
+            <li><strong>Member Orders:</strong> Orders placed by a syndicate member for its own account or for its retail customers. The member retains the full takedown (selling concession + additional takedown).</li>
+          </ol>
+
+          <p>The rationale for this priority is that pre-sale and group orders benefit the entire syndicate and demonstrate broad market demand, while designated and member orders benefit specific firms. If a new issue is oversubscribed (more orders than bonds available), the priority system determines who gets filled first.</p>
+
+          <h3>The Official Statement</h3>
+
+          <p>The <strong>Official Statement (OS)</strong> is the municipal bond equivalent of a prospectus. It provides detailed disclosure about the bond issue, including the terms of the bonds, the security (revenue source or taxing power), the issuer's financial condition, risk factors, legal opinions, and other material information. Unlike corporate securities, municipal bonds are exempt from SEC registration requirements under the Securities Act of 1933, so there is no legal requirement for the SEC to review the Official Statement.</p>
+
+          <p>However, MSRB Rule G-32 requires underwriters to deliver a copy of the Official Statement to any customer who purchases bonds in the primary offering. The underwriter must also submit the Official Statement to EMMA (Electronic Municipal Market Access), the MSRB's centralized electronic system for municipal securities disclosure documents, within one business day of receiving it from the issuer.</p>
+
+          <p>The <strong>Preliminary Official Statement (POS)</strong> is distributed before the sale date and contains all material information except the final interest rates, reoffering yields, and other terms that are determined at the time of sale. The POS is used to market the bonds and gauge investor interest, similar to a preliminary prospectus (red herring) in the corporate market.</p>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The municipal primary market involves either competitive bidding (common for GO bonds, using NIC or TIC) or negotiated underwriting (common for revenue bonds). Syndicates share risk through Eastern (undivided) or Western (divided) accounts. The spread compensates underwriters, with the selling concession being the largest component. Orders are prioritized: pre-sale, group, designated, then member. The Official Statement provides disclosure and must be delivered to investors and filed on EMMA.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of the municipal bond primary market.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. In a competitive underwriting, bonds are awarded to the syndicate that offers the:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Lowest net interest cost or true interest cost to the issuer</button>
+              <button class="answer-btn" data-correct="false">B) Highest underwriting spread</button>
+              <button class="answer-btn" data-correct="false">C) Most favorable selling concession</button>
+              <button class="answer-btn" data-correct="false">D) Largest syndicate membership</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              In competitive underwriting, the issuer awards bonds to the syndicate offering the lowest borrowing cost, measured by either NIC (net interest cost) or TIC (true interest cost). The issuer's goal is to minimize the cost of borrowing.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. In an Eastern (undivided) syndicate account, a member who has sold all of its allocated bonds:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Has no further obligation to the syndicate</button>
+              <button class="answer-btn" data-correct="true">B) Is still responsible for its proportionate share of any unsold bonds</button>
+              <button class="answer-btn" data-correct="false">C) Must purchase additional bonds from other members</button>
+              <button class="answer-btn" data-correct="false">D) Receives the management fee from unsold bonds</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              In an Eastern (undivided) account, each member is responsible for its proportionate share of unsold bonds, even if it has already sold its own allocation. This shared liability is what makes the Eastern account "undivided" and is the most common structure in municipal underwriting.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. Which component of the underwriting spread is typically the largest?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Management fee</button>
+              <button class="answer-btn" data-correct="false">B) Underwriting fee</button>
+              <button class="answer-btn" data-correct="true">C) Selling concession</button>
+              <button class="answer-btn" data-correct="false">D) Reallowance</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The selling concession is typically the largest component of the underwriting spread because it compensates for the actual work of selling bonds to investors. The management fee and underwriting fee are usually smaller portions of the total spread.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. Which type of order has the HIGHEST priority in municipal bond syndicate allocation?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Pre-sale orders</button>
+              <button class="answer-btn" data-correct="false">B) Group net orders</button>
+              <button class="answer-btn" data-correct="false">C) Designated orders</button>
+              <button class="answer-btn" data-correct="false">D) Member orders</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Pre-sale orders have the highest priority because they are placed before the syndicate wins the bid or finalizes terms, demonstrating strong conviction and early demand. The priority is: pre-sale, group (syndicate) net, designated, then member.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. True Interest Cost (TIC) differs from Net Interest Cost (NIC) because TIC:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Includes the underwriting spread in the calculation</button>
+              <button class="answer-btn" data-correct="true">B) Accounts for the time value of money</button>
+              <button class="answer-btn" data-correct="false">C) Is used only for revenue bonds</button>
+              <button class="answer-btn" data-correct="false">D) Excludes any premium or discount</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              True Interest Cost (TIC) accounts for the time value of money by calculating the discount rate that equates the present value of all debt service payments to the bond proceeds. NIC is a simpler, older method that does not consider when payments are made.
+            </div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="short-term-instruments.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 3 — Short-Term Municipal Instruments</span>
+            </div>
+          </a>
+          <a href="secondary-market.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 5 — The Secondary Market</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, the MSRB, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

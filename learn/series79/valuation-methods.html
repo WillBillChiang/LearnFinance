@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Master valuation methods for the Series 79 exam: DCF analysis, comparable companies, precedent transactions, and LBO analysis. Chapter 3 covers all major investment banking valuation methodologies.">
+  <title>Valuation Methods - Series 79 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series79" data-chapter="valuation-methods">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link" aria-current="page">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link" aria-current="page">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <div class="lesson__header">
+          <span class="badge badge-representative">Chapter 3</span>
+          <h1>Valuation Methods</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              45 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+              Series 79
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Valuation Overview ====== -->
+        <section class="lesson__section" id="valuation-overview">
+          <h2>Valuation Overview</h2>
+
+          <p>Valuation is the most critical skill in investment banking. Every transaction, whether an IPO, M&A deal, restructuring, or fairness opinion, requires a rigorous assessment of what a company or asset is worth. The Series 79 exam places significant emphasis on valuation methodologies, their applications, limitations, and appropriate use in different contexts.</p>
+
+          <p>Investment bankers typically use multiple valuation methodologies and present the results as a <strong>valuation range</strong> rather than a single point estimate. This approach recognizes that valuation is inherently uncertain and that different methodologies capture different aspects of value. The primary valuation methodologies used in investment banking are:</p>
+
+          <ol>
+            <li><strong>Discounted Cash Flow (DCF) Analysis:</strong> An intrinsic valuation method based on projected future cash flows</li>
+            <li><strong>Comparable Company Analysis ("Trading Comps"):</strong> A relative valuation method based on public market multiples</li>
+            <li><strong>Precedent Transaction Analysis ("Deal Comps"):</strong> A relative valuation method based on multiples paid in prior transactions</li>
+            <li><strong>Leveraged Buyout (LBO) Analysis:</strong> A valuation framework based on a financial sponsor's ability to generate returns</li>
+          </ol>
+
+          <p>The results from these methodologies are typically presented in a <strong>"football field" chart</strong> that shows the implied valuation range from each methodology, allowing stakeholders to compare and triangulate on a reasonable value range.</p>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Intrinsic Valuation:</strong> Determines value based on the present value of expected future cash flows, independent of current market prices. DCF analysis is the primary intrinsic valuation method.</p>
+              <p><strong>Relative Valuation:</strong> Determines value by comparing the subject company to similar companies or transactions using standardized multiples. Comparable company and precedent transaction analyses are relative valuation methods.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: DCF Analysis ====== -->
+        <section class="lesson__section" id="dcf-analysis">
+          <h2>Discounted Cash Flow (DCF) Analysis</h2>
+
+          <p>The DCF analysis is considered the most theoretically sound valuation methodology because it values a company based on the present value of its expected future free cash flows. The core principle is the <strong>time value of money</strong>: a dollar received today is worth more than a dollar received in the future because today's dollar can be invested to earn a return.</p>
+
+          <h3>Step 1: Project Free Cash Flows</h3>
+
+          <p>The first step is to project the company's unlevered free cash flows over a discrete forecast period, typically 5 to 10 years. The projection starts with revenue forecasts and builds down to unlevered free cash flow:</p>
+
+          <p><strong>Unlevered Free Cash Flow = EBIT x (1 - Tax Rate) + Depreciation &amp; Amortization - Capital Expenditures - Changes in Net Working Capital</strong></p>
+
+          <p>These projections are based on detailed assumptions about revenue growth, margin trends, capital investment requirements, and working capital needs. The quality of the DCF output is entirely dependent on the quality of these assumptions.</p>
+
+          <h3>Step 2: Calculate the Discount Rate (WACC)</h3>
+
+          <p>Future cash flows are discounted to their present value using the <strong>Weighted Average Cost of Capital (WACC)</strong>, which represents the blended cost of all capital (debt and equity) used to finance the business:</p>
+
+          <p><strong>WACC = (E/V) x Re + (D/V) x Rd x (1 - T)</strong></p>
+
+          <p>Where E = market value of equity, D = market value of debt, V = E + D (total enterprise value), Re = cost of equity, Rd = cost of debt, and T = corporate tax rate.</p>
+
+          <p>The <strong>cost of equity (Re)</strong> is most commonly estimated using the <strong>Capital Asset Pricing Model (CAPM)</strong>:</p>
+
+          <p><strong>Re = Rf + Beta x (Rm - Rf)</strong></p>
+
+          <p>Where Rf = risk-free rate (typically the yield on 10-year U.S. Treasury bonds), Beta = the stock's sensitivity to market movements, and (Rm - Rf) = the equity risk premium (the expected return of the market above the risk-free rate).</p>
+
+          <h3>Step 3: Calculate Terminal Value</h3>
+
+          <p>Because it is impractical to project cash flows indefinitely, the DCF uses a <strong>terminal value</strong> to capture the value of all cash flows beyond the explicit forecast period. There are two common approaches:</p>
+
+          <ul>
+            <li><strong>Perpetuity Growth Method (Gordon Growth Model):</strong> Assumes cash flows grow at a constant rate forever. Terminal Value = FCF(n+1) / (WACC - g), where g is the long-term growth rate, typically 2-3% (approximating long-term GDP or inflation growth).</li>
+            <li><strong>Exit Multiple Method:</strong> Assumes the company is sold at the end of the forecast period at a multiple of a financial metric (usually EBITDA). Terminal Value = EBITDA(n) x Exit Multiple. The exit multiple is typically derived from comparable company trading multiples.</li>
+          </ul>
+
+          <p>The terminal value often represents 60-80% of the total enterprise value in a DCF analysis, making it one of the most important and sensitive assumptions. Investment bankers typically present both methods and sensitize the results.</p>
+
+          <h3>Step 4: Discount and Sum</h3>
+
+          <p>All projected free cash flows and the terminal value are discounted to present value using the WACC. The sum of these present values equals the <strong>implied enterprise value</strong>. To arrive at equity value, subtract net debt (total debt minus cash). To arrive at implied share price, divide equity value by diluted shares outstanding.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The DCF discounts <strong>unlevered free cash flows</strong> at the <strong>WACC</strong> to arrive at <strong>enterprise value</strong>. This is because unlevered FCF represents cash available to all capital providers. If you were discounting levered free cash flows (after interest and debt payments), you would use the cost of equity instead, arriving directly at equity value. The Series 79 expects you to know this distinction.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Comparable Company Analysis ====== -->
+        <section class="lesson__section" id="comparable-company-analysis">
+          <h2>Comparable Company Analysis</h2>
+
+          <p>Comparable company analysis (often called "trading comps" or simply "comps") is a relative valuation methodology that values a company by applying the valuation multiples of similar publicly traded companies. The underlying principle is that similar companies should trade at similar valuations relative to their financial metrics.</p>
+
+          <h3>Step 1: Select Comparable Companies</h3>
+
+          <p>The first and most critical step is selecting an appropriate peer group. Comparable companies should share similar characteristics including industry, business model, size, growth profile, profitability, geographic focus, and risk profile. The more similar the peer group, the more meaningful the analysis.</p>
+
+          <h3>Step 2: Calculate Valuation Multiples</h3>
+
+          <p>For each comparable company, calculate key valuation multiples including:</p>
+
+          <ul>
+            <li><strong>EV/Revenue:</strong> Enterprise value divided by revenue. Useful for high-growth companies that may not yet be profitable.</li>
+            <li><strong>EV/EBITDA:</strong> Enterprise value divided by EBITDA. The most commonly used multiple in investment banking because it is capital-structure neutral and normalizes for non-cash charges.</li>
+            <li><strong>EV/EBIT:</strong> Enterprise value divided by EBIT. Useful when depreciation is a meaningful economic cost.</li>
+            <li><strong>P/E (Price/Earnings):</strong> Share price divided by earnings per share. An equity value multiple that reflects the market's assessment of the company's earnings power.</li>
+            <li><strong>P/B (Price/Book):</strong> Share price divided by book value per share. Primarily used for financial institutions.</li>
+          </ul>
+
+          <h3>Step 3: Apply Multiples to the Subject Company</h3>
+
+          <p>Calculate the mean, median, and range of multiples from the comparable companies, then apply those multiples to the subject company's financial metrics to derive an implied valuation range.</p>
+
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Multiple</th>
+                  <th>Numerator</th>
+                  <th>Denominator</th>
+                  <th>Best Used For</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">EV/Revenue</td>
+                  <td class="compare-table__cell">Enterprise Value</td>
+                  <td class="compare-table__cell">Revenue</td>
+                  <td class="compare-table__cell">High-growth / pre-profit companies</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">EV/EBITDA</td>
+                  <td class="compare-table__cell">Enterprise Value</td>
+                  <td class="compare-table__cell">EBITDA</td>
+                  <td class="compare-table__cell">Most companies (primary IB multiple)</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">EV/EBIT</td>
+                  <td class="compare-table__cell">Enterprise Value</td>
+                  <td class="compare-table__cell">EBIT</td>
+                  <td class="compare-table__cell">Capital-intensive businesses</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">P/E</td>
+                  <td class="compare-table__cell">Equity Value (Price)</td>
+                  <td class="compare-table__cell">EPS (Net Income)</td>
+                  <td class="compare-table__cell">Mature, profitable companies</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">P/B</td>
+                  <td class="compare-table__cell">Equity Value (Price)</td>
+                  <td class="compare-table__cell">Book Value</td>
+                  <td class="compare-table__cell">Financial institutions</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="callout callout--warning">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg></div>
+              <p class="callout__title">Warning</p>
+            </div>
+            <div class="callout__content">
+              <p>Comparable company analysis reflects <strong>current market conditions</strong>, which may include speculative premiums or discounts that do not reflect intrinsic value. In frothy markets, comps-based valuations may be inflated; in distressed markets, they may understate true value. Always consider market conditions when interpreting comps-based valuations.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Precedent Transaction Analysis ====== -->
+        <section class="lesson__section" id="precedent-transaction-analysis">
+          <h2>Precedent Transaction Analysis</h2>
+
+          <p>Precedent transaction analysis (also called "deal comps" or "transaction comps") values a company by examining the multiples paid in comparable M&A transactions. This methodology is particularly relevant when advising on M&A transactions because it reflects actual prices paid for similar companies, including any <strong>control premium</strong> (the premium a buyer pays above the target's current trading price to acquire a controlling stake).</p>
+
+          <h3>Key Considerations</h3>
+
+          <p>When selecting precedent transactions, investment bankers consider the target company's industry, size, growth profile, and profitability, as well as the nature of the transaction (strategic vs. financial buyer), the economic environment at the time, and how recent the transaction was. Older transactions may be less relevant if market conditions or industry dynamics have changed significantly.</p>
+
+          <p>Precedent transaction multiples are typically higher than comparable company trading multiples because they include the <strong>control premium</strong>, which typically ranges from 20% to 40% above the target's unaffected trading price. The control premium compensates the target's shareholders for giving up control and reflects the buyer's expectation of value creation through synergies, operational improvements, or strategic benefits.</p>
+
+          <h3>Limitations of Precedent Transactions</h3>
+
+          <ul>
+            <li><strong>Limited universe:</strong> There may be few truly comparable transactions, particularly in niche industries</li>
+            <li><strong>Deal-specific factors:</strong> Each transaction reflects unique circumstances (strategic rationale, competitive dynamics, synergy expectations) that may not apply to the current situation</li>
+            <li><strong>Information availability:</strong> Transaction details for private deals may be limited or unavailable</li>
+            <li><strong>Temporal relevance:</strong> Market conditions, interest rates, and industry dynamics change over time</li>
+            <li><strong>Synergy differences:</strong> Different acquirers may have different synergy potential, affecting what they are willing to pay</li>
+          </ul>
+        </section>
+
+        <!-- ====== SECTION 5: LBO Analysis ====== -->
+        <section class="lesson__section" id="lbo-analysis">
+          <h2>Leveraged Buyout (LBO) Analysis</h2>
+
+          <p>An LBO analysis is a valuation framework that determines what a financial sponsor (private equity firm) could afford to pay for a company while achieving a target rate of return, typically expressed as an <strong>internal rate of return (IRR)</strong> of 20-25%. The LBO model uses significant debt financing (leverage) to acquire the company, with the expectation of repaying that debt through the target's cash flows and ultimately realizing a return through a sale or IPO.</p>
+
+          <h3>Key Components of an LBO Model</h3>
+
+          <ul>
+            <li><strong>Purchase Price:</strong> The total acquisition cost, including equity and debt components, plus transaction fees</li>
+            <li><strong>Financing Structure:</strong> The mix of debt (senior secured, subordinated, mezzanine) and equity used to fund the acquisition. Typical LBOs use 50-70% debt and 30-50% equity.</li>
+            <li><strong>Operating Projections:</strong> Revenue, EBITDA, and free cash flow projections for the holding period (typically 5-7 years)</li>
+            <li><strong>Debt Repayment Schedule:</strong> Mandatory amortization, optional prepayments, and cash sweep provisions</li>
+            <li><strong>Exit Assumptions:</strong> The assumed exit multiple and timing, typically a sale or IPO after 5-7 years</li>
+            <li><strong>Returns Analysis:</strong> Calculation of IRR and multiple of invested capital (MOIC) to the equity sponsor</li>
+          </ul>
+
+          <h3>Sources of LBO Returns</h3>
+
+          <p>Private equity sponsors generate returns from three primary sources:</p>
+
+          <ol>
+            <li><strong>Debt Paydown:</strong> As the company's cash flows are used to repay debt, the equity component of the capital structure grows (deleveraging)</li>
+            <li><strong>EBITDA Growth:</strong> Revenue growth and margin improvement increase the company's earnings, which directly increases equity value</li>
+            <li><strong>Multiple Expansion:</strong> If the company can be sold at a higher multiple than the entry multiple, the difference creates additional value for equity holders</li>
+          </ol>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The LBO analysis effectively sets the "floor" valuation in many M&A processes because a strategic buyer should be willing to pay more than a financial buyer (who has no synergies) for the same target. If the LBO analysis implies a valuation of $50 per share and a strategic buyer can realize $10 per share in synergy value, the strategic buyer could pay up to $60 per share and still create value. This dynamic is why investment bankers run LBO analysis alongside other methodologies.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 6: Valuation in Practice ====== -->
+        <section class="lesson__section" id="valuation-in-practice">
+          <h2>Valuation in Practice</h2>
+
+          <p>In practice, investment bankers do not rely on any single valuation methodology. Instead, they use a <strong>multi-methodology approach</strong> and present the results in a format that allows stakeholders to understand the range of implied values and the key assumptions driving each estimate.</p>
+
+          <h3>The Football Field Chart</h3>
+
+          <p>The "football field" chart is the standard format for presenting valuation analysis in investment banking. It displays horizontal bars showing the implied valuation range from each methodology, allowing the reader to quickly identify areas of overlap and divergence. A typical football field chart includes ranges from the DCF analysis, comparable company analysis, precedent transaction analysis, and LBO analysis, with the current trading price (for public companies) marked as a reference point.</p>
+
+          <h3>Premiums Paid Analysis</h3>
+
+          <p>In M&A advisory, investment bankers also analyze the premiums paid in comparable transactions. The premium is calculated as the percentage by which the offer price exceeds the target's <strong>unaffected stock price</strong> (the price before any market speculation about a potential transaction). Premiums typically range from 20% to 50%, depending on the competitive dynamics, strategic rationale, and market conditions.</p>
+
+          <h3>Sum-of-the-Parts Analysis</h3>
+
+          <p>For diversified companies with multiple business segments, a <strong>sum-of-the-parts (SOTP)</strong> analysis may be more appropriate than valuing the company as a whole. SOTP involves valuing each business segment independently using the methodology and multiples most appropriate for that segment's industry, then summing the values and adjusting for corporate overhead and net debt. This approach is often used to identify a "conglomerate discount" or to support a case for a breakup or divestiture.</p>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the four main valuation methods with <strong>"DCPL"</strong>: <strong>D</strong>CF (intrinsic, cash flow-based), <strong>C</strong>omps (relative, market-based), <strong>P</strong>recedents (relative, transaction-based), <strong>L</strong>BO (returns-based floor value). Think: "Don't Confuse Price Levels."</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of valuation methods. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. In a DCF analysis, unlevered free cash flows are discounted at the:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Cost of equity</button>
+              <button class="answer-btn" data-correct="false">B) Cost of debt</button>
+              <button class="answer-btn" data-correct="true">C) Weighted Average Cost of Capital (WACC)</button>
+              <button class="answer-btn" data-correct="false">D) Risk-free rate</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Unlevered free cash flows represent cash available to all capital providers (debt and equity), so they are discounted at the WACC, which blends the cost of equity and after-tax cost of debt. The cost of equity alone would only be used if discounting levered free cash flows (cash available only to equity holders).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. Precedent transaction multiples are typically higher than comparable company multiples because:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) They include a control premium paid to acquire a majority stake</button>
+              <button class="answer-btn" data-correct="false">B) Historical transactions always use higher leverage</button>
+              <button class="answer-btn" data-correct="false">C) Precedent transactions only include profitable companies</button>
+              <button class="answer-btn" data-correct="false">D) SEC regulations require higher multiples in M&A transactions</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Precedent transaction multiples include the control premium, which is the premium a buyer pays above the target's unaffected trading price to acquire a controlling stake. This premium typically ranges from 20-40% and reflects the value of control and expected synergies, making transaction multiples higher than trading multiples.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. The terminal value in a DCF analysis typically represents what percentage of total enterprise value?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 10-20%</button>
+              <button class="answer-btn" data-correct="false">B) 30-50%</button>
+              <button class="answer-btn" data-correct="true">C) 60-80%</button>
+              <button class="answer-btn" data-correct="false">D) 90-100%</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The terminal value typically represents 60-80% of the total enterprise value in a DCF analysis. This is because the discrete projection period (usually 5-10 years) captures only a fraction of the company's total value; the bulk of value comes from cash flows beyond the explicit forecast period, captured by the terminal value.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. In an LBO analysis, the three primary sources of return for equity sponsors are:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Revenue growth, cost cutting, and tax savings</button>
+              <button class="answer-btn" data-correct="true">B) Debt paydown, EBITDA growth, and multiple expansion</button>
+              <button class="answer-btn" data-correct="false">C) Dividend payments, share buybacks, and interest income</button>
+              <button class="answer-btn" data-correct="false">D) Market appreciation, currency gains, and fee income</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The three primary sources of LBO returns are: (1) debt paydown (deleveraging), where operating cash flows reduce debt and increase equity value; (2) EBITDA growth from revenue growth and margin improvement; and (3) multiple expansion, where the exit multiple exceeds the entry multiple.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. The Cost of Equity using CAPM is calculated as:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Risk-free rate + Equity risk premium</button>
+              <button class="answer-btn" data-correct="true">B) Risk-free rate + Beta x Equity risk premium</button>
+              <button class="answer-btn" data-correct="false">C) Beta x (Market return - Risk-free rate) - Dividends</button>
+              <button class="answer-btn" data-correct="false">D) WACC x (1 + Beta)</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The CAPM formula is: Cost of Equity = Risk-free Rate + Beta x (Market Return - Risk-free Rate). Beta measures the stock's sensitivity to market movements, and the equity risk premium (Market Return - Risk-free Rate) represents the additional return investors demand for bearing equity market risk.
+            </div>
+          </div>
+        </section>
+
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="financial-analysis.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 2 &mdash; Financial Analysis</span>
+            </div>
+          </a>
+          <a href="ipo-process.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 4 &mdash; The IPO Process</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div>
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>

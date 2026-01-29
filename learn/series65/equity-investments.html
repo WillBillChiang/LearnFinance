@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Series 65 Chapter 3: Equity Investments. Learn about stock valuation methods, dividend discount model, types of stock, market indexes, technical analysis, and active vs passive management.">
+  <title>Equity Investments - Series 65 Exam | LearnFinance</title>
+  <link rel="stylesheet" href="../../css/variables.css">
+  <link rel="stylesheet" href="../../css/base.css">
+  <link rel="stylesheet" href="../../css/layout.css">
+  <link rel="stylesheet" href="../../css/components.css">
+  <link rel="stylesheet" href="../../css/navigation.css">
+  <link rel="stylesheet" href="../../css/animations.css">
+  <link rel="stylesheet" href="../../css/quiz.css">
+  <link rel="stylesheet" href="../../css/pages.css">
+  <link rel="stylesheet" href="../../css/learn.css">
+  <link rel="stylesheet" href="../../css/dark-mode.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>LF</text></svg>">
+</head>
+<body data-page="learn-chapter" data-exam="series65" data-chapter="equity-investments">
+
+  <!-- ====== HEADER ====== -->
+  <header class="header" role="banner">
+    <div class="header__inner container">
+      <a href="../../" class="logo" aria-label="LearnFinance home">
+        <span class="logo__icon" aria-hidden="true">LF</span>
+        <span class="logo__text">LearnFinance</span>
+      </a>
+      <nav class="nav-desktop" aria-label="Main navigation">
+        <ul class="nav-desktop__list">
+          <li><a href="../../learn/" class="nav-desktop__link active">Learn</a></li>
+          <li><a href="../../exams/" class="nav-desktop__link">Exams</a></li>
+          <li><a href="../../quiz/" class="nav-desktop__link">Quiz</a></li>
+          <li><a href="../../flashcards/" class="nav-desktop__link">Flashcards</a></li>
+          <li><a href="../../pathways/" class="nav-desktop__link">Pathways</a></li>
+          <li><a href="../../progress/" class="nav-desktop__link">Progress</a></li>
+        </ul>
+      </nav>
+      <button class="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+      </button>
+      <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line"></span>
+      </button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <ul class="mobile-nav__list">
+        <li><a href="../../learn/" class="mobile-nav__link active">Learn</a></li>
+        <li><a href="../../exams/" class="mobile-nav__link">Exams</a></li>
+        <li><a href="../../quiz/" class="mobile-nav__link">Quiz</a></li>
+        <li><a href="../../flashcards/" class="mobile-nav__link">Flashcards</a></li>
+        <li><a href="../../pathways/" class="mobile-nav__link">Pathways</a></li>
+        <li><a href="../../progress/" class="mobile-nav__link">Progress</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <div class="lesson-layout">
+      <div class="lesson">
+
+        <!-- ====== LESSON HEADER ====== -->
+        <div class="lesson__header">
+          <p class="lesson__meta-item" style="color:var(--color-primary);font-weight:var(--weight-semibold);margin-bottom:var(--space-sm);">Chapter 3</p>
+          <h1>Equity Investments</h1>
+          <div class="lesson__meta">
+            <span class="lesson__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              25 min read
+            </span>
+            <span class="lesson__meta-divider"></span>
+            <span class="lesson__meta-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              Series 65 &mdash; Investment Vehicles
+            </span>
+          </div>
+        </div>
+
+        <!-- ====== SECTION 1: Stock Valuation Methods ====== -->
+        <section class="lesson__section" id="stock-valuation">
+          <h2>Stock Valuation Methods</h2>
+
+          <p>Equity valuation is the process of estimating the intrinsic value of a company's stock. Investment adviser representatives must understand valuation methods to determine whether a stock is reasonably priced, to make appropriate recommendations, and to construct portfolios aligned with client objectives. The primary valuation approaches taught on the Series 65 include the dividend discount model, price-to-earnings analysis, and growth rate analysis.</p>
+
+          <h3>Dividend Discount Model (DDM)</h3>
+
+          <p>The <strong>Dividend Discount Model</strong> values a stock based on the present value of all expected future dividend payments. The most commonly tested version is the <strong>Gordon Growth Model</strong> (also called the constant growth DDM), which assumes dividends grow at a constant rate indefinitely:</p>
+
+          <p style="text-align:center;font-size:var(--text-lg);font-weight:var(--weight-semibold);color:var(--color-primary);margin:var(--space-md) 0;">V = D<sub>1</sub> &divide; (r &minus; g)</p>
+
+          <p>Where:</p>
+          <ul>
+            <li><strong>V</strong> = Intrinsic value of the stock</li>
+            <li><strong>D<sub>1</sub></strong> = Expected dividend in the next period (D<sub>0</sub> &times; (1 + g))</li>
+            <li><strong>r</strong> = Required rate of return (discount rate)</li>
+            <li><strong>g</strong> = Expected constant growth rate of dividends</li>
+          </ul>
+
+          <p>The model requires that the required rate of return (r) exceeds the growth rate (g); otherwise the formula produces a negative or infinite value. The DDM is most appropriate for mature, stable companies that pay consistent dividends, such as utilities and consumer staples companies. It is less suitable for growth companies that pay little or no dividends.</p>
+
+          <div class="callout callout--example">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
+              <p class="callout__title">Example: Gordon Growth Model</p>
+            </div>
+            <div class="callout__content">
+              <p>XYZ Corporation just paid a dividend of $2.00 per share. Dividends are expected to grow at 5% per year. An investor's required rate of return is 12%.</p>
+              <p>D<sub>1</sub> = $2.00 &times; (1 + 0.05) = $2.10</p>
+              <p>V = $2.10 &divide; (0.12 &minus; 0.05) = $2.10 &divide; 0.07 = <strong>$30.00</strong></p>
+              <p>If the stock is currently trading at $25, it appears undervalued (intrinsic value $30 &gt; market price $25). If trading at $35, it appears overvalued.</p>
+            </div>
+          </div>
+
+          <h3>Price-to-Earnings (P/E) Analysis</h3>
+
+          <p>The <strong>P/E ratio</strong> is the most widely used relative valuation metric. Rather than calculating absolute intrinsic value, it compares a stock's price to its earnings to assess whether the stock is cheap or expensive relative to its earnings power and relative to comparable companies.</p>
+
+          <p>There are two variations: <strong>Trailing P/E</strong> uses earnings from the past twelve months (actual, reported earnings), while <strong>Forward P/E</strong> uses estimated earnings for the next twelve months (analyst consensus estimates). Forward P/E is generally more useful for investment decisions because stock prices reflect future expectations.</p>
+
+          <p>P/E ratios vary significantly across industries, growth rates, and market conditions. High-growth technology companies might trade at P/E ratios of 30-50x or higher, while mature utility companies might trade at 12-18x. The P/E ratio should be compared to the company's own historical range, its industry peers, and the overall market to provide meaningful context.</p>
+
+          <h3>Growth Rate Analysis</h3>
+
+          <p>A company's <strong>sustainable growth rate</strong> represents the maximum rate at which it can grow earnings and dividends without raising external capital. It is calculated as:</p>
+
+          <p style="text-align:center;font-size:var(--text-lg);font-weight:var(--weight-semibold);color:var(--color-primary);margin:var(--space-md) 0;">Sustainable Growth Rate = ROE &times; Retention Ratio</p>
+
+          <p>The <strong>retention ratio</strong> (also called the plowback ratio) equals 1 minus the dividend payout ratio. It represents the proportion of earnings reinvested in the business rather than distributed as dividends. For example, if a company has an ROE of 15% and retains 60% of its earnings (pays out 40% as dividends), its sustainable growth rate is 15% &times; 0.60 = 9%.</p>
+
+          <div class="callout callout--exam-tip">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg></div>
+              <p class="callout__title">Exam Tip</p>
+            </div>
+            <div class="callout__content">
+              <p>The Series 65 frequently tests the sustainable growth rate formula. Remember: <strong>g = ROE &times; (1 &minus; Payout Ratio)</strong>. If a company pays out 100% of earnings as dividends, its sustainable growth rate is zero because nothing is reinvested. If a company retains all earnings (0% payout), the growth rate equals ROE. Also remember that D<sub>1</sub> in the DDM is NEXT year's expected dividend, not the most recent dividend paid.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 2: Types of Stock ====== -->
+        <section class="lesson__section" id="types-of-stock">
+          <h2>Types of Stock</h2>
+
+          <p>Stocks can be classified by their investment characteristics, which helps advisers select appropriate investments for client portfolios. Understanding these classifications is essential for portfolio construction and client suitability analysis.</p>
+
+          <h3>Growth Stocks</h3>
+
+          <p><strong>Growth stocks</strong> are shares in companies expected to grow earnings at an above-average rate relative to the overall market. These companies typically reinvest most or all of their earnings back into the business rather than paying dividends. Growth stocks tend to have high P/E ratios because investors are willing to pay a premium for expected future earnings growth. They perform best during economic expansions and when interest rates are low. Examples include technology companies, innovative healthcare firms, and emerging market leaders. Growth stocks carry higher risk because their valuations depend heavily on future expectations that may not materialize.</p>
+
+          <h3>Value Stocks</h3>
+
+          <p><strong>Value stocks</strong> are shares that appear to trade at a discount relative to their intrinsic value. They typically have low P/E ratios, low price-to-book ratios, and above-average dividend yields. Value investors believe the market has temporarily underpriced these stocks due to short-term problems, investor overreaction, or neglect. Value investing, popularized by Benjamin Graham and practiced by Warren Buffett, involves identifying stocks where the market price is significantly below estimated intrinsic value, providing a "margin of safety."</p>
+
+          <h3>Income Stocks</h3>
+
+          <p><strong>Income stocks</strong> are shares in companies that pay above-average dividends relative to the market. These are typically mature, stable companies with predictable cash flows, such as utilities, telecommunications companies, and real estate investment trusts (REITs). Income stocks are appropriate for investors seeking regular cash income, such as retirees. They tend to be less volatile than growth stocks but may underperform during periods of rapidly rising interest rates because their dividend yields become less attractive relative to bond yields.</p>
+
+          <h3>Cyclical vs. Defensive Stocks</h3>
+
+          <p><strong>Cyclical stocks</strong> are shares in companies whose earnings are closely tied to the business cycle. They perform well during economic expansions and poorly during contractions. Examples include automobile manufacturers, airlines, hotels, luxury goods, construction companies, and steel producers. Cyclical stocks have high beta values (above 1.0), meaning they tend to amplify market movements.</p>
+
+          <p><strong>Defensive (non-cyclical) stocks</strong> are shares in companies that provide essential goods and services regardless of economic conditions. They tend to maintain stable earnings throughout the business cycle. Examples include utilities, healthcare, consumer staples (food, beverages, household products), and discount retailers. Defensive stocks have low beta values (below 1.0) and outperform during recessions on a relative basis.</p>
+
+          <h3>Other Classifications</h3>
+
+          <ul>
+            <li><strong>Blue chip stocks:</strong> Large, well-established companies with long histories of stable earnings, consistent dividends, and strong balance sheets. Examples include companies in the Dow Jones Industrial Average. Blue chips are considered lower risk within the equity universe.</li>
+            <li><strong>Penny stocks:</strong> Low-priced securities (generally below $5 per share) that trade on OTC markets or smaller exchanges. They are highly speculative, thinly traded, and subject to price manipulation. Penny stocks are unsuitable for most clients due to their extreme risk and lack of transparency.</li>
+            <li><strong>Small-cap, mid-cap, and large-cap:</strong> Market capitalization (share price times shares outstanding) classifies companies by size. Small-cap (under $2 billion) stocks offer higher growth potential but greater risk and volatility. Mid-cap ($2-10 billion) offers a balance. Large-cap (over $10 billion) provides stability but typically slower growth.</li>
+          </ul>
+
+          <!-- Compare Table: Stock Types -->
+          <div class="compare-table">
+            <table>
+              <thead>
+                <tr class="compare-table__header">
+                  <th>Stock Type</th>
+                  <th>P/E</th>
+                  <th>Dividends</th>
+                  <th>Beta</th>
+                  <th>Best Environment</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Growth</td>
+                  <td class="compare-table__cell">High</td>
+                  <td class="compare-table__cell">Low/None</td>
+                  <td class="compare-table__cell">High (&gt;1.0)</td>
+                  <td class="compare-table__cell">Economic expansion, low rates</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Value</td>
+                  <td class="compare-table__cell">Low</td>
+                  <td class="compare-table__cell">Moderate</td>
+                  <td class="compare-table__cell">Varies</td>
+                  <td class="compare-table__cell">Market recoveries</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Income</td>
+                  <td class="compare-table__cell">Moderate</td>
+                  <td class="compare-table__cell">High</td>
+                  <td class="compare-table__cell">Low (&lt;1.0)</td>
+                  <td class="compare-table__cell">Stable/falling rates</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Cyclical</td>
+                  <td class="compare-table__cell">Varies</td>
+                  <td class="compare-table__cell">Varies</td>
+                  <td class="compare-table__cell">High (&gt;1.0)</td>
+                  <td class="compare-table__cell">Economic expansion</td>
+                </tr>
+                <tr class="compare-table__row">
+                  <td class="compare-table__cell">Defensive</td>
+                  <td class="compare-table__cell">Moderate</td>
+                  <td class="compare-table__cell">Steady</td>
+                  <td class="compare-table__cell">Low (&lt;1.0)</td>
+                  <td class="compare-table__cell">Economic contraction</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 3: Market Indexes ====== -->
+        <section class="lesson__section" id="market-indexes">
+          <h2>Market Indexes</h2>
+
+          <p>Market indexes measure the performance of a group of securities and serve as benchmarks for evaluating portfolio performance. Investment adviser representatives must understand major indexes to set appropriate benchmarks for client portfolios and to discuss market performance intelligently.</p>
+
+          <h3>Major U.S. Stock Indexes</h3>
+
+          <ul>
+            <li><strong>Dow Jones Industrial Average (DJIA):</strong> The oldest and most recognized market index, consisting of 30 large-cap U.S. companies. The DJIA is <strong>price-weighted</strong>, meaning stocks with higher share prices have greater influence on the index. A $200 stock has twice the impact of a $100 stock, regardless of total market capitalization. The DJIA's narrow composition (only 30 stocks) makes it less representative of the broad market.</li>
+            <li><strong>S&amp;P 500:</strong> Widely considered the best gauge of U.S. large-cap equity performance. It tracks 500 leading companies and covers approximately 80% of available U.S. market capitalization. The S&amp;P 500 is <strong>market-capitalization weighted</strong>, meaning larger companies have greater influence. It is the most commonly used benchmark for equity portfolios and serves as the basis for numerous index funds and ETFs.</li>
+            <li><strong>Nasdaq Composite:</strong> Includes all stocks listed on the Nasdaq exchange (over 3,000 companies). It is <strong>market-cap weighted</strong> and heavily concentrated in technology stocks, making it a useful barometer for the technology sector. The Nasdaq-100 tracks the 100 largest non-financial Nasdaq-listed companies.</li>
+            <li><strong>Russell 2000:</strong> The most widely used benchmark for U.S. small-cap stocks. It consists of the 2,000 smallest companies in the Russell 3000 Index. The Russell 2000 is <strong>market-cap weighted</strong> and is the standard benchmark for small-cap portfolio managers.</li>
+            <li><strong>Wilshire 5000 Total Market Index:</strong> Designed to measure the total U.S. stock market, including all actively traded U.S. equities. Despite its name, it currently includes approximately 3,500 stocks. It is <strong>market-cap weighted</strong> and represents the broadest measure of the U.S. equity market.</li>
+          </ul>
+
+          <div class="callout callout--definition">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg></div>
+              <p class="callout__title">Definition: Index Weighting Methods</p>
+            </div>
+            <div class="callout__content">
+              <p><strong>Price-weighted:</strong> Each stock's weight is proportional to its share price. Higher-priced stocks have more influence (e.g., DJIA).</p>
+              <p><strong>Market-cap weighted:</strong> Each stock's weight is proportional to its total market capitalization (price &times; shares outstanding). Larger companies have more influence (e.g., S&amp;P 500, Nasdaq, Russell).</p>
+              <p><strong>Equal-weighted:</strong> Every stock has the same weight regardless of price or market cap. This gives smaller stocks more influence than in a cap-weighted index.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 4: Technical Analysis ====== -->
+        <section class="lesson__section" id="technical-analysis">
+          <h2>Technical Analysis</h2>
+
+          <p>Technical analysis studies historical price and volume data to identify patterns and trends that may predict future price movements. Unlike fundamental analysis, which focuses on a company's financial health and intrinsic value, technical analysis assumes that all relevant information is already reflected in the stock price and that prices move in identifiable trends and patterns. While investment advisers typically rely more on fundamental analysis, the Series 65 tests key technical concepts.</p>
+
+          <!-- Technical Analysis SVG Diagram -->
+          <figure class="diagram">
+            <svg class="diagram__svg" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Chart showing support and resistance levels with a price trend line">
+              <!-- Grid lines -->
+              <line x1="80" y1="40" x2="80" y2="260" stroke="#e2e8f0" stroke-width="1"/>
+              <line x1="80" y1="260" x2="650" y2="260" stroke="#e2e8f0" stroke-width="1"/>
+
+              <!-- Y-axis labels -->
+              <text x="70" y="65" font-size="11" fill="#64748b" text-anchor="end">$60</text>
+              <text x="70" y="115" font-size="11" fill="#64748b" text-anchor="end">$50</text>
+              <text x="70" y="165" font-size="11" fill="#64748b" text-anchor="end">$40</text>
+              <text x="70" y="215" font-size="11" fill="#64748b" text-anchor="end">$30</text>
+              <text x="70" y="260" font-size="11" fill="#64748b" text-anchor="end">$20</text>
+
+              <!-- Resistance line -->
+              <line x1="80" y1="80" x2="650" y2="80" stroke="#ef4444" stroke-width="2" stroke-dasharray="8,4"/>
+              <text x="655" y="80" font-size="12" fill="#ef4444" font-weight="bold">Resistance ($55)</text>
+
+              <!-- Support line -->
+              <line x1="80" y1="210" x2="650" y2="210" stroke="#10b981" stroke-width="2" stroke-dasharray="8,4"/>
+              <text x="655" y="210" font-size="12" fill="#10b981" font-weight="bold">Support ($32)</text>
+
+              <!-- Price action (bouncing between support and resistance) -->
+              <polyline points="100,200 140,180 170,150 200,120 230,100 250,90 270,95 300,120 330,150 360,190 380,200 400,195 430,170 460,140 490,110 510,95 530,88 550,92 570,110 590,135 610,155 630,170" fill="none" stroke="#1a56db" stroke-width="2.5"/>
+
+              <!-- Moving average line -->
+              <polyline points="100,190 170,170 230,145 300,130 360,150 430,155 490,140 550,130 610,145 630,150" fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4,3"/>
+              <text x="640" y="155" font-size="11" fill="#f59e0b">50-day MA</text>
+            </svg>
+            <figcaption>Figure 3.1 &mdash; Support and Resistance Levels. Support is a price level where buying pressure tends to prevent further decline. Resistance is where selling pressure tends to prevent further advance. The 50-day moving average (gold dashed line) smooths price fluctuations.</figcaption>
+          </figure>
+
+          <h3>Support and Resistance</h3>
+
+          <p><strong>Support</strong> is a price level at which a stock tends to find buying interest, preventing the price from falling further. When a stock approaches its support level, buyers see it as an attractive price and step in, creating demand that props up the price. If the stock breaks below support on high volume, it is a bearish signal suggesting further decline.</p>
+
+          <p><strong>Resistance</strong> is a price level at which selling pressure tends to prevent the price from rising further. At resistance, traders who previously purchased the stock at that level may sell to break even, and short sellers may initiate positions. A breakout above resistance on high volume is a bullish signal. When support is broken, it often becomes new resistance, and when resistance is broken, it often becomes new support.</p>
+
+          <h3>Moving Averages</h3>
+
+          <p>A <strong>moving average</strong> smooths price data by calculating the average closing price over a specified number of periods. The two most commonly used are the <strong>50-day moving average</strong> (short-term trend) and the <strong>200-day moving average</strong> (long-term trend). When the stock price crosses above its moving average, it is considered a bullish signal. When it crosses below, it is bearish.</p>
+
+          <p>A <strong>golden cross</strong> occurs when the 50-day moving average crosses above the 200-day moving average, signaling a potential long-term uptrend. A <strong>death cross</strong> occurs when the 50-day crosses below the 200-day, signaling a potential long-term downtrend. These signals are widely followed by technical traders.</p>
+
+          <h3>Volume Analysis</h3>
+
+          <p><strong>Volume</strong> measures the number of shares traded during a given period and serves as a confirmation tool for price movements. Price advances accompanied by increasing volume are considered more reliable because they indicate broad participation. Price advances on declining volume may indicate weakening momentum and a potential reversal. The principle is: <strong>volume confirms the trend</strong>.</p>
+
+          <h3>Chart Patterns</h3>
+
+          <p>Technical analysts study recurring price patterns that have historically preceded specific price movements:</p>
+
+          <ul>
+            <li><strong>Head and Shoulders:</strong> A reversal pattern consisting of a peak (left shoulder), a higher peak (head), and a lower peak (right shoulder), connected by a "neckline." Completion of this pattern (breaking below the neckline) signals a bearish reversal. An inverse head and shoulders signals a bullish reversal.</li>
+            <li><strong>Double Top/Bottom:</strong> Two successive peaks (double top) at approximately the same price level signal resistance and potential downside reversal. Two successive troughs (double bottom) signal support and potential upside reversal.</li>
+            <li><strong>Triangles:</strong> Formed by converging trendlines. Ascending triangles (flat top, rising bottom) are generally bullish. Descending triangles (flat bottom, falling top) are generally bearish. Symmetric triangles can break either way.</li>
+          </ul>
+
+          <div class="callout callout--mnemonic">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg></div>
+              <p class="callout__title">Mnemonic</p>
+            </div>
+            <div class="callout__content">
+              <p>Remember the difference between crosses: <strong>"Golden is Good, Death is Doom."</strong> A golden cross (short-term MA crosses ABOVE long-term MA) is a bullish signal. A death cross (short-term MA crosses BELOW long-term MA) is a bearish signal. Also remember: <strong>Volume Validates</strong> &mdash; price movements on high volume are more significant than those on low volume.</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== SECTION 5: Market Theories ====== -->
+        <section class="lesson__section" id="market-theories">
+          <h2>Market Theories</h2>
+
+          <p>Several theories attempt to explain how markets work and whether it is possible to consistently outperform them. Understanding these theories helps advisers select appropriate investment strategies for clients.</p>
+
+          <h3>Random Walk Theory</h3>
+
+          <p>The <strong>random walk theory</strong>, popularized by Burton Malkiel in his book "A Random Walk Down Wall Street," asserts that stock price changes are random and unpredictable. According to this theory, because all available information is already reflected in current prices, future price movements are driven by new information, which by definition is unpredictable. The random walk theory supports the weak form of the Efficient Market Hypothesis and suggests that technical analysis cannot produce consistent excess returns.</p>
+
+          <h3>Modern Portfolio Theory (MPT)</h3>
+
+          <p>Developed by Harry Markowitz in the 1950s, <strong>Modern Portfolio Theory</strong> demonstrates that investors can construct an "efficient frontier" of optimal portfolios that offer the maximum expected return for a given level of risk. The key insight is that <strong>diversification</strong> reduces portfolio risk without necessarily reducing expected return, because assets with low or negative correlations offset each other's price movements. MPT is covered in detail in Chapter 6 on Portfolio Management.</p>
+
+          <h3>Active vs. Passive Management</h3>
+
+          <p>The debate between active and passive management is one of the most important practical implications of market efficiency theory:</p>
+
+          <ul>
+            <li><strong>Active management</strong> attempts to outperform a benchmark index through stock selection, sector rotation, and market timing. Active managers believe they can identify mispriced securities or predict market movements through research and analysis. Active management involves higher costs (management fees, trading costs, research expenses) and generates more taxable events. Academic research shows that the majority of actively managed funds underperform their benchmark indexes over long periods after fees.</li>
+            <li><strong>Passive management</strong> seeks to replicate the performance of a market index by holding the same securities in the same proportions. Passive strategies accept market returns and focus on minimizing costs and tracking error. Index funds and most ETFs follow passive strategies. They offer lower fees, greater tax efficiency, and broad diversification. Passive management has grown dramatically as evidence of the difficulty of consistent active outperformance has accumulated.</li>
+          </ul>
+
+          <div class="callout callout--takeaway">
+            <div class="callout__header">
+              <div class="callout__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+              <p class="callout__title">Key Takeaway</p>
+            </div>
+            <div class="callout__content">
+              <p>The choice between active and passive management depends on the adviser's belief in market efficiency, the specific market segment, cost considerations, and client preferences. Many advisers use a <strong>core-satellite approach</strong>: index funds for efficient large-cap markets (core) combined with active management in potentially less efficient areas like small-cap, international, or alternative investments (satellites).</p>
+            </div>
+          </div>
+
+          <details class="deep-dive">
+            <summary>
+              <span class="deep-dive__label">Deep Dive</span>
+              Behavioral Finance and Market Anomalies
+            </summary>
+            <div class="deep-dive__content">
+              <p><strong>Behavioral finance</strong> challenges the assumption of rational investors that underpins the EMH. Key cognitive biases that affect investment decisions include:</p>
+
+              <ul>
+                <li><strong>Overconfidence:</strong> Investors overestimate their ability to pick stocks or time markets, leading to excessive trading and underperformance.</li>
+                <li><strong>Anchoring:</strong> Investors fixate on irrelevant reference points, such as a stock's 52-week high or their purchase price, rather than making decisions based on current information and intrinsic value.</li>
+                <li><strong>Loss aversion:</strong> Investors feel the pain of losses approximately twice as intensely as the pleasure of equivalent gains. This leads to holding losers too long (hoping to break even) and selling winners too quickly (locking in gains).</li>
+                <li><strong>Herding:</strong> The tendency to follow the crowd, buying when others are buying and selling when others are selling. Herding can amplify market bubbles and crashes.</li>
+                <li><strong>Recency bias:</strong> Giving excessive weight to recent events and projecting recent trends into the future. This contributes to performance chasing (investing in recent winners).</li>
+                <li><strong>Mental accounting:</strong> Treating money differently based on its source or intended use, rather than viewing all wealth fungibly. For example, treating a tax refund as "found money" and spending it more freely.</li>
+              </ul>
+
+              <p>Advisers who understand behavioral biases can help clients avoid costly mistakes by maintaining discipline, diversification, and long-term focus despite emotional impulses.</p>
+            </div>
+          </details>
+        </section>
+
+        <!-- ====== QUIZ ====== -->
+        <section class="lesson-quiz" id="check-your-understanding">
+          <h2 class="lesson-quiz__title">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+            Check Your Understanding
+          </h2>
+          <p class="lesson-quiz__subtitle">Test your knowledge of equity investments. Select the best answer for each question.</p>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">1. Using the Gordon Growth Model, what is the intrinsic value of a stock that just paid a $3.00 dividend, with an expected growth rate of 4% and a required return of 10%?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) $30.00</button>
+              <button class="answer-btn" data-correct="false">B) $50.00</button>
+              <button class="answer-btn" data-correct="true">C) $52.00</button>
+              <button class="answer-btn" data-correct="false">D) $75.00</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              D1 = $3.00 x (1.04) = $3.12. Value = $3.12 / (0.10 - 0.04) = $3.12 / 0.06 = $52.00. Remember to use D1 (next year's dividend), not D0 (the dividend just paid).
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">2. A company with an ROE of 18% and a dividend payout ratio of 40% has a sustainable growth rate of:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) 7.2%</button>
+              <button class="answer-btn" data-correct="true">B) 10.8%</button>
+              <button class="answer-btn" data-correct="false">C) 18.0%</button>
+              <button class="answer-btn" data-correct="false">D) 40.0%</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Sustainable Growth Rate = ROE x Retention Ratio = 18% x (1 - 0.40) = 18% x 0.60 = 10.8%. The retention ratio is 1 minus the payout ratio.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">3. The Dow Jones Industrial Average is:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="true">A) Price-weighted, consisting of 30 large-cap stocks</button>
+              <button class="answer-btn" data-correct="false">B) Market-cap weighted, consisting of 500 large-cap stocks</button>
+              <button class="answer-btn" data-correct="false">C) Equal-weighted, consisting of 30 technology stocks</button>
+              <button class="answer-btn" data-correct="false">D) Market-cap weighted, consisting of 2,000 small-cap stocks</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              The DJIA is a price-weighted index of 30 large-cap U.S. companies. In a price-weighted index, stocks with higher share prices have more influence. The S&P 500 is market-cap weighted with 500 stocks; the Russell 2000 tracks small-caps.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">4. In technical analysis, a "golden cross" occurs when:</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) The stock price breaks below support</button>
+              <button class="answer-btn" data-correct="false">B) The 200-day moving average crosses above the 50-day</button>
+              <button class="answer-btn" data-correct="true">C) The 50-day moving average crosses above the 200-day</button>
+              <button class="answer-btn" data-correct="false">D) Volume exceeds its 90-day average</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              A golden cross occurs when the short-term (50-day) moving average crosses above the long-term (200-day) moving average. This is considered a bullish signal indicating a potential long-term uptrend. The opposite (50-day crossing below 200-day) is called a death cross and is bearish.
+            </div>
+          </div>
+
+          <div class="lesson-quiz__item">
+            <p class="lesson-quiz__question">5. Which type of stock would an investment adviser most likely recommend for a retired client seeking regular income?</p>
+            <div class="lesson-quiz__options">
+              <button class="answer-btn" data-correct="false">A) Growth stocks</button>
+              <button class="answer-btn" data-correct="false">B) Penny stocks</button>
+              <button class="answer-btn" data-correct="true">C) Income stocks (e.g., utilities, REITs)</button>
+              <button class="answer-btn" data-correct="false">D) Cyclical stocks</button>
+            </div>
+            <div class="lesson-quiz__explanation" aria-hidden="true">
+              Income stocks pay above-average dividends and are appropriate for investors seeking regular income. Utilities and REITs are classic income stocks. Growth stocks pay little or no dividends. Penny stocks are highly speculative. Cyclical stocks have variable earnings and dividends.
+            </div>
+          </div>
+        </section>
+
+        <!-- ====== MARK COMPLETE ====== -->
+        <button class="lesson__complete mark-complete-btn" data-action="mark-complete">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          Mark Chapter Complete
+        </button>
+
+        <!-- ====== PREV / NEXT NAV ====== -->
+        <nav class="lesson__nav" aria-label="Chapter navigation">
+          <a href="financial-reporting.html" class="lesson__nav-link lesson__nav-link--prev">
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+            </span>
+            <div>
+              <span class="lesson__nav-label">Previous Chapter</span>
+              <span class="lesson__nav-title">Chapter 2 &mdash; Financial Reporting &amp; Analysis</span>
+            </div>
+          </a>
+          <a href="fixed-income.html" class="lesson__nav-link lesson__nav-link--next">
+            <div>
+              <span class="lesson__nav-label">Next Chapter</span>
+              <span class="lesson__nav-title">Chapter 4 &mdash; Fixed Income Analysis</span>
+            </div>
+            <span class="lesson__nav-arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+            </span>
+          </a>
+        </nav>
+
+      </div><!-- /.lesson -->
+
+      <!-- ====== TABLE OF CONTENTS ====== -->
+      <aside class="lesson__toc">
+        <p class="lesson__toc-title">On This Page</p>
+        <ul class="lesson__toc-list"></ul>
+      </aside>
+    </div><!-- /.lesson-layout -->
+  </main>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer" role="contentinfo">
+    <div class="footer__inner container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="../../" class="logo" aria-label="LearnFinance home">
+            <span class="logo__icon" aria-hidden="true">LF</span>
+            <span class="logo__text">LearnFinance</span>
+          </a>
+          <p class="footer__tagline">Free exam prep for every aspiring finance professional.</p>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Exams</h4>
+          <ul class="footer__links">
+            <li><a href="../../exams/sie.html">SIE</a></li>
+            <li><a href="../../exams/series7.html">Series 7</a></li>
+            <li><a href="../../exams/series63.html">Series 63</a></li>
+            <li><a href="../../exams/series65.html">Series 65</a></li>
+            <li><a href="../../exams/series66.html">Series 66</a></li>
+            <li><a href="../../exams/">View All Exams</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">Tools</h4>
+          <ul class="footer__links">
+            <li><a href="../../learn/">Learn</a></li>
+            <li><a href="../../quiz/">Practice Quizzes</a></li>
+            <li><a href="../../flashcards/">Flashcards</a></li>
+            <li><a href="../../pathways/">Career Pathways</a></li>
+            <li><a href="../../progress/">Progress Tracker</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4 class="footer__col-title">About</h4>
+          <ul class="footer__links">
+            <li><a href="../../about.html">About Us</a></li>
+            <li><a href="../../contact.html">Contact</a></li>
+            <li><a href="../../privacy.html">Privacy Policy</a></li>
+            <li><a href="../../terms.html">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__disclaimer">
+        <p>This website is not affiliated with or endorsed by FINRA, NASAA, or any regulatory organization. Content is for educational purposes only.</p>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2026 LearnFinance. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="../../js/app.js"></script>
+  <!-- Bottom Navigation (Mobile) -->
+  <nav class="bottom-nav" aria-label="Quick navigation">
+    <a href="../../exams/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+      <span>Exams</span>
+    </a>
+    <a href="../../quiz/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="../../flashcards/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="M12 4v16"></path></svg>
+      <span>Cards</span>
+    </a>
+    <a href="../../pathways/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+      <span>Paths</span>
+    </a>
+    <a href="../../progress/" class="bottom-nav__item">
+      <svg class="bottom-nav__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+      <span>Progress</span>
+    </a>
+  </nav>
+</body>
+</html>
