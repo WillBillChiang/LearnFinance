@@ -720,20 +720,39 @@
   background: var(--color-primary-bg);
 }
 
-.answer-btn.correct {
+.answer-btn--correct {
   border-color: var(--color-accent);
   background: var(--color-accent-bg);
   color: var(--color-accent-dark);
 }
 
-.answer-btn.incorrect {
+.answer-btn--incorrect {
   border-color: var(--color-danger);
   background: var(--color-danger-bg);
   color: var(--color-danger);
 }
 
-.answer-btn.correct::before { content: '\2713  '; font-weight: bold; }
-.answer-btn.incorrect::before { content: '\2717  '; font-weight: bold; }
+.answer-btn--correct::before { content: '\2713  '; font-weight: bold; }
+.answer-btn--incorrect::before { content: '\2717  '; font-weight: bold; }
+
+.answer-btn--disabled {
+  pointer-events: none;
+  opacity: 0.7;
+  cursor: default;
+}
+
+.answer-btn--disabled:hover {
+  border-color: var(--color-border);
+  background: var(--color-surface);
+}
+
+.answer-btn--revealed {
+  opacity: 1;
+}
+
+.answer-btn--shake {
+  animation: shake 0.5s ease;
+}
 
 /* ===== Input Focus Glow ===== */
 select:focus,

@@ -84,6 +84,16 @@
   position: relative;
 }
 
+.hero__actions .btn-secondary {
+  color: white;
+  border-color: white;
+}
+
+.hero__actions .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+}
+
 /* Exam Categories */
 .categories {
   padding: var(--space-3xl) 0;
