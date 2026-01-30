@@ -115,6 +115,15 @@ function initConceptCards() {
   $$('.concept-card').forEach(card => {
     card.addEventListener('click', () => {
       card.classList.toggle('expanded');
+
+      // Recalculate parent accordion max-height to fit expanded content
+      const accordionContent = card.closest('.accordion-content');
+      if (accordionContent && accordionContent.style.maxHeight) {
+        // Use requestAnimationFrame to measure after the DOM updates
+        requestAnimationFrame(() => {
+          accordionContent.style.maxHeight = accordionContent.scrollHeight + 'px';
+        });
+      }
     });
   });
 }

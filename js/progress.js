@@ -396,22 +396,43 @@ async function initDonutChart(container, examId) {
   try {
     const { createDonutChart, createDonutLegend } = await import('./charts.js');
 
-    // Build segments from data-topics attribute or from checkboxes
-    const topicsAttr = container.dataset.topics;
     let segments = [];
 
-    if (topicsAttr) {
-      try {
-        const topicsData = JSON.parse(topicsAttr);
-        segments = topicsData.map(t => ({
-          label: t.name || t.label,
-          value: t.weight || t.value || 0
-        }));
-      } catch {
-        // Fallback: use checkbox data
-        segments = buildSegmentsFromCheckboxes(examId);
+    // Load major section weights from exams.json
+    try {
+      const basePath = getBasePath();
+      const exams = await fetchJSON(`${basePath}data/exams.json`);
+      if (exams && Array.isArray(exams)) {
+        const exam = exams.find(e => e.id === examId);
+        if (exam && exam.topics) {
+          segments = exam.topics.map(t => ({
+            label: t.name,
+            value: t.weight
+          }));
+        }
       }
-    } else {
+    } catch {
+      // Fallback: try data-topics attribute or checkboxes
+    }
+
+    // Fallback: data-topics attribute
+    if (segments.length === 0) {
+      const topicsAttr = container.dataset.topics;
+      if (topicsAttr) {
+        try {
+          const topicsData = JSON.parse(topicsAttr);
+          segments = topicsData.map(t => ({
+            label: t.name || t.label,
+            value: t.weight || t.value || 0
+          }));
+        } catch {
+          // ignore parse errors
+        }
+      }
+    }
+
+    // Fallback: build from checkboxes
+    if (segments.length === 0) {
       segments = buildSegmentsFromCheckboxes(examId);
     }
 

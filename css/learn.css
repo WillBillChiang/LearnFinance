@@ -1556,6 +1556,9 @@
   margin-top: var(--space-xs);
 }
 
+.learn-filters {
+  padding-top: var(--space-2xl);
+}
 
 /* ==========================================================================
    13. PREV/NEXT CHAPTER NAVIGATION
