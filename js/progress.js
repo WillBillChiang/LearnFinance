@@ -392,6 +392,56 @@ export function initExamProgress() {
   }
 }
 
+/**
+ * Wires up click handlers for practice-question answer buttons on exam pages.
+ */
+export function initPracticeQuiz() {
+  const allBtns = document.querySelectorAll('.answer-btn');
+  if (allBtns.length === 0) return;
+
+  const questionCards = new Set();
+  allBtns.forEach(btn => questionCards.add(btn.closest('.card')));
+
+  questionCards.forEach(card => {
+    if (!card) return;
+    const buttons = card.querySelectorAll('.answer-btn');
+
+    buttons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        if (card.dataset.answered === 'true') return;
+        card.dataset.answered = 'true';
+
+        const isCorrect = btn.dataset.correct === 'true';
+
+        buttons.forEach(b => {
+          b.disabled = true;
+          b.classList.add('answer-btn--disabled');
+        });
+
+        if (isCorrect) {
+          btn.classList.add('answer-btn--correct');
+        } else {
+          btn.classList.add('answer-btn--incorrect');
+          btn.classList.add('answer-btn--shake');
+          btn.addEventListener('animationend', () => {
+            btn.classList.remove('answer-btn--shake');
+          }, { once: true });
+
+          const correctBtn = Array.from(buttons).find(b => b.dataset.correct === 'true');
+          if (correctBtn) {
+            correctBtn.classList.add('answer-btn--correct', 'answer-btn--revealed');
+          }
+        }
+
+        const explanation = card.querySelector('.answer-explanation');
+        if (explanation) {
+          explanation.hidden = false;
+        }
+      });
+    });
+  });
+}
+
 async function initDonutChart(container, examId) {
   try {
     const { createDonutChart, createDonutLegend } = await import('./charts.js');

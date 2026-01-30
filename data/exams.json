@@ -34,6 +34,16 @@
           "Federal Reserve tools: open market operations, reserve requirements, discount rate",
           "GDP, CPI, unemployment rate, and other key economic indicators",
           "Global market factors: trade balances, currency exchange, geopolitical risks"
+        ],
+        "concepts": [
+          {
+            "title": "SEC vs FINRA",
+            "body": "<p>The <span class=\"keyword\">SEC</span> (Securities and Exchange Commission) is the federal government agency responsible for enforcing securities laws, regulating the securities industry, and protecting investors. It was created by the Securities Exchange Act of 1934.</p>\n<p><span class=\"keyword\">FINRA</span> (Financial Industry Regulatory Authority) is a self-regulatory organization (SRO) that oversees broker-dealers and their registered representatives. While the SEC has broad authority, FINRA handles day-to-day regulation including licensing exams, member firm inspections, and disciplinary actions. FINRA operates under SEC oversight but is not a government agency.</p>"
+          },
+          {
+            "title": "Primary vs Secondary Markets",
+            "body": "<p>The <span class=\"keyword\">primary market</span> is where new securities are issued and sold for the first time. When a company conducts an IPO or issues new bonds, these transactions occur in the primary market. The issuer receives the proceeds from primary market sales.</p>\n<p>The <span class=\"keyword\">secondary market</span> is where previously issued securities are bought and sold between investors. Stock exchanges like the NYSE and Nasdaq are secondary markets. The original issuer does not receive proceeds from secondary market transactions -- they flow between buyers and sellers.</p>"
+          }
         ]
       },
       {
@@ -57,6 +67,16 @@
           "Currency risk, political risk, legislative risk",
           "Reinvestment risk, prepayment risk, call risk",
           "Risk/return trade-off and diversification"
+        ],
+        "concepts": [
+          {
+            "title": "Bond Price vs Yield",
+            "body": "<p>Bond prices and yields have an <span class=\"keyword\">inverse relationship</span>. When prevailing interest rates rise, existing bond prices fall because newly issued bonds offer higher coupon rates, making older bonds less attractive. Conversely, when interest rates fall, existing bond prices rise.</p>\n<p>This is one of the most fundamental concepts in fixed-income investing. For example, if you hold a bond paying 3% and new bonds are issued at 5%, your bond's market price will decrease to make its effective yield competitive with the new issues. Longer-term bonds are more sensitive to interest rate changes than shorter-term bonds -- a concept known as <span class=\"keyword\">duration risk</span>.</p>"
+          },
+          {
+            "title": "Call vs Put Options",
+            "body": "<p>A <span class=\"keyword\">call option</span> gives the holder the right, but not the obligation, to buy the underlying security at a specified strike price before the expiration date. Call buyers are bullish -- they profit when the underlying asset's price rises above the strike price plus the premium paid.</p>\n<p>A <span class=\"keyword\">put option</span> gives the holder the right, but not the obligation, to sell the underlying security at a specified strike price before the expiration date. Put buyers are bearish -- they profit when the underlying asset's price falls below the strike price minus the premium paid.</p>\n<p>Options have two components of value: <span class=\"keyword\">intrinsic value</span> (the amount an option is in-the-money) and <span class=\"keyword\">time value</span> (the premium above intrinsic value reflecting time remaining until expiration).</p>"
+          }
         ]
       },
       {
@@ -80,6 +100,16 @@
           "Books and records requirements",
           "SIPC coverage and limitations",
           "Customer complaint handling and reporting"
+        ],
+        "concepts": [
+          {
+            "title": "Margin Requirements",
+            "body": "<p><span class=\"keyword\">Regulation T</span>, set by the Federal Reserve Board, requires investors to deposit at least 50% of the purchase price when buying securities on margin. This is the initial margin requirement.</p>\n<p>After the initial purchase, the account must maintain a minimum equity level known as the <span class=\"keyword\">maintenance margin</span>, which is typically 25% of the current market value of the securities (though many firms set higher house requirements of 30-35%). If the account equity falls below this level, the investor receives a <span class=\"keyword\">margin call</span> and must deposit additional funds or securities to bring the account back into compliance.</p>"
+          },
+          {
+            "title": "Insider Trading",
+            "body": "<p><span class=\"keyword\">Insider trading</span> is the illegal practice of trading securities based on material, nonpublic information (MNPI). It is prohibited under <span class=\"keyword\">SEC Rule 10b-5</span>, which makes it unlawful to use any manipulative or deceptive device in connection with the purchase or sale of any security.</p>\n<p>An \"insider\" can be a corporate officer, director, or employee, but the prohibition extends to anyone who possesses and trades on MNPI -- including friends, family members, or business associates who receive tips. Both the person who provides the tip (tipper) and the person who trades on it (tippee) can be held liable. Penalties include fines up to three times the profit gained or loss avoided, plus criminal penalties including imprisonment.</p>"
+          }
         ]
       },
       {
@@ -97,7 +127,43 @@
           "Form U4 and Form U5",
           "Statutory disqualification",
           "SRO regulatory framework and rulemaking process"
+        ],
+        "concepts": [
+          {
+            "title": "Act of 1933 vs 1934",
+            "body": "<p>The <span class=\"keyword\">Securities Act of 1933</span> (also called the \"Paper Act\" or \"Truth in Securities Act\") primarily regulates the issuance of new securities in the primary market. It requires that investors receive financial and other significant information about securities being offered for public sale, typically through a prospectus. Its focus is on disclosure and preventing fraud in the sale of new securities.</p>\n<p>The <span class=\"keyword\">Securities Exchange Act of 1934</span> (also called the \"People Act\") regulates the secondary market -- the trading of securities after their initial issuance. It created the SEC, established rules for exchanges and broker-dealers, and includes anti-fraud provisions such as Rule 10b-5. A helpful mnemonic: 1933 = new issues (3 comes first, like the primary market); 1934 = secondary trading (4 comes second).</p>"
+          },
+          {
+            "title": "Form U4 vs U5",
+            "body": "<p><span class=\"keyword\">Form U4</span> (Uniform Application for Securities Industry Registration or Transfer) is used to register individuals with FINRA member firms, other self-regulatory organizations, and jurisdictions. It collects personal information, employment history, disclosure questions about criminal history, regulatory actions, customer complaints, and financial events like bankruptcies.</p>\n<p><span class=\"keyword\">Form U5</span> (Uniform Termination Notice for Securities Industry Registration) is filed when a registered person leaves a firm, whether voluntarily or involuntarily. The firm must file the U5 within 30 days of termination. The U5 includes the reason for termination and any updated disclosure information. Both forms become part of the individual's permanent record accessible through FINRA's BrokerCheck system.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Prioritize Section 2.",
+        "body": "At 44% of the exam, \"Understanding Products and Their Risks\" is nearly half the test. Know every product type, how it works, and what risks apply to each."
+      },
+      {
+        "title": "Master the inverse relationship.",
+        "body": "Bond prices and interest rates moving inversely is tested repeatedly. Understand how this affects different maturities, coupon rates, and bond types."
+      },
+      {
+        "title": "Learn the key legislation dates.",
+        "body": "Know which Act governs what: 1933 = new issues, 1934 = secondary trading and SEC creation, 1940 = investment companies and advisers. These distinctions are heavily tested."
+      },
+      {
+        "title": "Use the process of elimination.",
+        "body": "The SIE is multiple choice. Even if you are unsure, eliminating one or two clearly wrong answers dramatically improves your odds."
+      },
+      {
+        "title": "Take practice exams under timed conditions.",
+        "body": "Simulating test conditions builds confidence and helps with pacing. Aim to finish with time to spare for review. You have about 1.2 minutes per question."
+      },
+      {
+        "title": "Know prohibited activities cold.",
+        "body": "Expect several scenario-based questions about churning, front running, insider trading, and selling away. Understand both the definition and how to identify each violation in practice."
       }
     ]
   },
@@ -140,6 +206,12 @@
           "Social media and electronic communications compliance",
           "Referral arrangements and solicitor relationships",
           "Seminar and educational event compliance"
+        ],
+        "concepts": [
+          {
+            "title": "Retail vs Institutional Communications",
+            "body": "<p><span class=\"keyword\">Retail communications</span> are any written (including electronic) communications distributed or made available to more than 25 retail investors within any 30-calendar-day period. Retail communications require principal pre-approval before first use and must be filed with FINRA within 10 business days of first use.</p>\n<p><span class=\"keyword\">Institutional communications</span> are written communications distributed or made available only to institutional investors (banks, insurance companies, registered investment companies, or entities with total assets of at least $50 million). These do not require principal pre-approval but are subject to supervision and review procedures. A third category, <span class=\"keyword\">correspondence</span>, is written communication sent to 25 or fewer retail investors within 30 calendar days and requires supervisory review but not pre-approval.</p>"
+          }
         ]
       },
       {
@@ -162,6 +234,12 @@
           "Custodial accounts (UGMA/UTMA)",
           "Account transfers (ACATS process)",
           "Margin account agreements: hypothecation, credit, loan consent"
+        ],
+        "concepts": [
+          {
+            "title": "Suitability vs Best Interest",
+            "body": "<p>FINRA's <span class=\"keyword\">suitability rule (Rule 2111)</span> requires that a broker-dealer or associated person have a reasonable basis to believe that a recommended transaction or investment strategy is suitable for the customer, based on the customer's investment profile including age, financial situation, tax status, investment objectives, investment experience, time horizon, liquidity needs, and risk tolerance.</p>\n<p>The SEC's <span class=\"keyword\">Regulation Best Interest (Reg BI)</span> raises the standard beyond suitability, requiring broker-dealers to act in the retail customer's best interest at the time a recommendation is made, without placing the financial or other interest of the broker-dealer ahead of the customer's interest. Reg BI includes four component obligations: disclosure, care, conflict of interest, and compliance. While not a fiduciary standard, it is a higher standard than the traditional suitability requirement.</p>"
+          }
         ]
       },
       {
@@ -216,6 +294,20 @@
           "Dividend and interest taxation, qualified vs. non-qualified dividends",
           "Alternative minimum tax (AMT) considerations",
           "Retirement plan distributions: RMDs, early withdrawal penalties, rollovers"
+        ],
+        "concepts": [
+          {
+            "title": "Municipal Bond Analysis",
+            "body": "<p><span class=\"keyword\">General obligation (GO) bonds</span> are backed by the full faith and credit and taxing power of the issuing municipality. Their creditworthiness is evaluated based on the issuer's debt-to-assessed-value ratio, per capita debt, collection rate of taxes, and overall economic health of the community. Voter approval is typically required for issuance.</p>\n<p><span class=\"keyword\">Revenue bonds</span> are backed by the revenue generated from a specific project or facility, such as a toll road, hospital, or airport. They are not backed by taxes and do not require voter approval. Revenue bond analysis focuses on the feasibility study, debt service coverage ratio, rate covenant, and additional bonds test. Revenue bonds typically carry higher yields than GO bonds of similar credit quality because they rely on a single revenue source.</p>"
+          },
+          {
+            "title": "Options Breakeven",
+            "body": "<p>For <span class=\"keyword\">call options</span>, the breakeven point equals the strike price plus the premium paid. For example, if an investor buys a call with a $50 strike price and pays a $3 premium, the breakeven is $53. The stock must rise above $53 for the buyer to profit at expiration. The call writer's breakeven is the same -- above $53, the writer begins to lose money.</p>\n<p>For <span class=\"keyword\">put options</span>, the breakeven point equals the strike price minus the premium paid. For example, if an investor buys a put with a $50 strike price and pays a $2 premium, the breakeven is $48. The stock must fall below $48 for the buyer to profit at expiration. Remember: <span class=\"keyword\">call up, put down</span> -- add premiums for calls, subtract premiums for puts.</p>"
+          },
+          {
+            "title": "Mutual Fund Share Classes",
+            "body": "<p><span class=\"keyword\">Class A shares</span> charge a front-end sales load (paid at the time of purchase), which reduces the amount initially invested. Class A shares typically offer breakpoint discounts for larger investments and have lower ongoing 12b-1 fees. They are generally most suitable for long-term investors making larger investments.</p>\n<p><span class=\"keyword\">Class B shares</span> charge a back-end load known as a contingent deferred sales charge (CDSC), which decreases over time and eventually disappears (typically after 6-8 years). Class B shares have higher 12b-1 fees and often convert to Class A shares after the CDSC period expires. They are no longer widely offered by most fund companies.</p>\n<p><span class=\"keyword\">Class C shares</span> charge a level load, typically a 1% annual 12b-1 fee with a small back-end load that expires after one year. They do not offer breakpoint discounts and are generally most suitable for shorter-term investors who want to avoid paying a large upfront sales charge.</p>"
+          }
         ]
       },
       {
@@ -239,7 +331,39 @@
           "Corporate actions: stock splits, reverse splits, stock dividends, mergers, tender offers",
           "Proxy solicitation and voting requirements",
           "SIPC coverage: amounts, limitations, excluded securities"
+        ],
+        "concepts": [
+          {
+            "title": "T+1 Settlement",
+            "body": "<p>Most securities settle on a <span class=\"keyword\">T+1 basis</span>, meaning the transaction settles one business day after the trade date. This applies to stocks, corporate bonds, municipal bonds, ETFs, and most other standard securities. The SEC shortened the settlement cycle from T+2 to T+1 effective May 28, 2024, to reduce counterparty risk and improve market efficiency.</p>\n<p><span class=\"keyword\">Options</span> also settle T+1. <span class=\"keyword\">Government securities</span> (Treasury bills, notes, and bonds) settle T+1 as well. Cash trades settle same day (T+0). When-issued securities have no set settlement date until the issue date is determined. Understanding settlement timing is critical for determining ex-dividend dates, margin requirements, and customer payment obligations.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus on Function 3.",
+        "body": "At 73% of the exam, \"Provides Customers with Information and Makes Recommendations\" is overwhelmingly the largest section. You must know securities products, options strategies, and tax implications inside and out."
+      },
+      {
+        "title": "Master options calculations.",
+        "body": "Options questions are heavily tested. Know breakeven points, maximum gain, maximum loss, and profit/loss calculations for every basic strategy: long calls, long puts, covered calls, protective puts, spreads, and straddles."
+      },
+      {
+        "title": "Learn municipal bond analysis thoroughly.",
+        "body": "Understand the differences between GO and revenue bonds, how to analyze each, tax-equivalent yield calculations, and the role of the official statement."
+      },
+      {
+        "title": "Know mutual fund share classes and suitability.",
+        "body": "Understand when each share class (A, B, C) is most appropriate, how breakpoints work, and the concept of breakpoint selling violations."
+      },
+      {
+        "title": "Study retirement plan rules.",
+        "body": "Know contribution limits, distribution rules, required minimum distributions, and the tax treatment of traditional IRAs vs Roth IRAs. These appear frequently on the exam."
+      },
+      {
+        "title": "Practice under timed conditions.",
+        "body": "You have about 1.67 minutes per question. Build your pacing early by taking full-length practice exams. Flag difficult questions and return to them rather than spending too long on any single question."
       }
     ]
   },
@@ -281,6 +405,16 @@
           "Social media and electronic communications compliance",
           "Filing requirements with FINRA for retail communications",
           "Tombstone ads, summary prospectuses, and preliminary prospectuses"
+        ],
+        "concepts": [
+          {
+            "title": "FINRA Communications Rules",
+            "body": "<p>FINRA classifies communications into three categories. <span class=\"keyword\">Retail communications</span> are written or electronic communications distributed to more than 25 retail investors within a 30-day period and generally require principal pre-approval. <span class=\"keyword\">Correspondence</span> is sent to 25 or fewer retail investors and requires supervision but not necessarily pre-approval.</p>\n<p><span class=\"keyword\">Institutional communications</span> are directed exclusively to institutional investors and require supervision but not pre-approval. All communications must be fair, balanced, and not misleading. They must include adequate risk disclosures, cannot predict future performance, and must clearly identify the member firm. New member firms must have a registered principal review and approve all retail communications for one year before use.</p>"
+          },
+          {
+            "title": "Do-Not-Call and Telemarketing Rules",
+            "body": "<p>The <span class=\"keyword\">National Do-Not-Call Registry</span> prohibits firms from calling individuals who have registered their numbers. Firms must also maintain their own internal do-not-call lists. Exceptions exist for existing business relationships (within 18 months of the last transaction or 3 months of an inquiry) and express written consent.</p>\n<p>Cold calls are permitted only between <span class=\"keyword\">8:00 AM and 9:00 PM</span> in the recipient's time zone. Callers must identify themselves, their firm, the purpose of the call, and provide a phone number or address. Firms must maintain their do-not-call procedures in writing, train personnel, and update their lists regularly.</p>"
+          }
         ]
       },
       {
@@ -299,6 +433,16 @@
           "529 college savings plans and Coverdell ESAs",
           "UGMA/UTMA custodial accounts",
           "Account transfer procedures (ACATS)"
+        ],
+        "concepts": [
+          {
+            "title": "UGMA/UTMA Custodial Accounts",
+            "body": "<p><span class=\"keyword\">UGMA</span> (Uniform Gifts to Minors Act) and <span class=\"keyword\">UTMA</span> (Uniform Transfers to Minors Act) accounts are custodial accounts established for the benefit of a minor. An adult custodian manages the account until the minor reaches the age of majority (18 for UGMA, up to 25 for UTMA depending on the state).</p>\n<p>Key rules: only one custodian and one minor per account, gifts are irrevocable once made, the minor's Social Security number is used (income is taxed at the minor's rate, subject to the \"kiddie tax\" rules), no margin trading or speculative strategies are allowed, and the custodian has a fiduciary responsibility to manage assets prudently. UTMA accounts can hold a broader range of assets than UGMA, including real estate.</p>"
+          },
+          {
+            "title": "Customer Identification Program (CIP)",
+            "body": "<p>Under the <span class=\"keyword\">USA PATRIOT Act</span>, every financial institution must implement a Customer Identification Program (CIP) to verify the identity of each person opening an account. At minimum, the firm must collect the customer's name, date of birth, address, and an identification number (Social Security number for U.S. persons, passport or other government-issued ID for non-U.S. persons).</p>\n<p>The firm must verify this information within a reasonable time, maintain records of the verification for five years after the account is closed, and check the customer's name against government lists of known or suspected terrorists (OFAC lists). The CIP requirements apply to all accounts, including mutual fund and variable contract accounts opened through Series 6 representatives.</p>"
+          }
         ]
       },
       {
@@ -331,6 +475,16 @@
           "Suitability considerations for investment company and variable products",
           "Risk factors: market, interest rate, inflation, credit, liquidity",
           "Diversification and asset allocation concepts"
+        ],
+        "concepts": [
+          {
+            "title": "Mutual Fund Share Classes",
+            "body": "<p><span class=\"keyword\">Class A shares</span> charge a front-end sales load (paid at the time of purchase, typically 3-6%) and have lower ongoing 12b-1 fees. They offer breakpoint discounts for larger investments and are generally best for long-term investors making substantial investments. A <span class=\"keyword\">letter of intent</span> (LOI) allows investors to receive breakpoint pricing by pledging to invest a certain amount over 13 months.</p>\n<p><span class=\"keyword\">Class B shares</span> have no front-end load but charge a contingent deferred sales charge (CDSC) if redeemed within a specified period (typically 5-7 years) and carry higher 12b-1 fees. They typically convert to Class A shares after the CDSC period. <span class=\"keyword\">Class C shares</span> have no front-end load, a small CDSC (usually 1% if redeemed within one year), and higher ongoing 12b-1 fees that do not decrease over time. Class C shares are generally suitable for shorter holding periods.</p>"
+          },
+          {
+            "title": "Variable Annuity Phases and Taxation",
+            "body": "<p>Variable annuities have two phases. During the <span class=\"keyword\">accumulation phase</span>, the owner makes contributions that grow tax-deferred in subaccounts (similar to mutual funds within a separate account). The investment risk is borne by the contract owner, not the insurance company. No taxes are due on gains until withdrawal.</p>\n<p>During the <span class=\"keyword\">annuity (payout) phase</span>, the owner receives periodic payments. Earnings are taxed as ordinary income (not capital gains) on a <span class=\"keyword\">LIFO (last-in, first-out)</span> basis for non-qualified annuities -- meaning earnings come out first and are fully taxable. Withdrawals before age 59 1/2 are subject to a 10% IRS early withdrawal penalty on the earnings portion. A <span class=\"keyword\">1035 exchange</span> allows tax-free transfer from one annuity to another or from a life insurance policy to an annuity.</p>"
+          }
         ]
       },
       {
@@ -350,7 +504,43 @@
           "SIPC coverage and limitations",
           "Customer complaint handling and reporting",
           "Books and records retention requirements"
+        ],
+        "concepts": [
+          {
+            "title": "Forward Pricing and NAV",
+            "body": "<p><span class=\"keyword\">Forward pricing</span> means that mutual fund orders are executed at the next calculated NAV after the order is received. NAV is calculated once per business day, typically at 4:00 PM ET. Orders received before the cutoff time receive that day's NAV; orders received after receive the next business day's NAV.</p>\n<p><span class=\"keyword\">Net Asset Value (NAV)</span> is calculated as: (Total Fund Assets - Total Fund Liabilities) / Number of Outstanding Shares. For Class A shares with a front-end load, the <span class=\"keyword\">Public Offering Price (POP)</span> is higher than NAV: POP = NAV / (1 - Sales Charge %). For example, if NAV is $10 and the sales charge is 5%, the POP = $10 / 0.95 = $10.53. Redemptions are always processed at NAV.</p>"
+          },
+          {
+            "title": "Free-Look Period and Surrender Charges",
+            "body": "<p>Variable annuity contracts include a <span class=\"keyword\">free-look period</span> (typically 10 days, though some states require longer) during which the contract owner may return the contract for a full refund without any surrender charges. This provides consumer protection by allowing time to review the contract after purchase.</p>\n<p><span class=\"keyword\">Surrender charges</span> (also called contingent deferred sales charges for annuities) apply when the owner withdraws funds or surrenders the contract during the surrender period (typically 5-8 years). The charges usually decrease over time on a declining schedule -- for example, 7% in year one, 6% in year two, decreasing to 0% after year seven. Many contracts allow annual penalty-free withdrawals of up to 10% of the account value.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Section 3 is the exam.",
+        "body": "At 62% of the test, \"Evaluates Customers and Provides Recommendations\" covers nearly two-thirds of all questions. Become an expert on mutual fund share classes, variable annuity mechanics, 529 plans, suitability, and tax treatment."
+      },
+      {
+        "title": "Know every mutual fund fee structure.",
+        "body": "Understand Class A, B, and C shares completely -- including breakpoints, letters of intent, rights of accumulation, 12b-1 fees, and how to determine which share class is most suitable for different client scenarios."
+      },
+      {
+        "title": "Master variable annuity taxation.",
+        "body": "Know the LIFO treatment for non-qualified annuity withdrawals, the 10% early withdrawal penalty, 1035 exchange rules, and the difference between qualified and non-qualified annuity tax treatment. These are heavily tested."
+      },
+      {
+        "title": "Understand the NAV and POP calculations.",
+        "body": "Be able to calculate NAV per share, public offering price, and sales charge percentages. Know how forward pricing works and the difference between buying at POP and redeeming at NAV."
+      },
+      {
+        "title": "Learn suitability inside and out.",
+        "body": "Many questions present client scenarios and ask you to recommend the most suitable product or identify an unsuitable recommendation. Practice analyzing client profiles and matching them with appropriate investment company products."
+      },
+      {
+        "title": "Use your SIE knowledge as a foundation.",
+        "body": "The SIE covers many of the foundational concepts tested on the Series 6. Review your SIE materials for topics like regulatory framework, account types, and basic product knowledge, then deepen that knowledge for the Series 6."
       }
     ]
   },
@@ -388,6 +578,12 @@
           "Federal covered advisers and notice filing requirements",
           "Post-registration requirements: net capital, bonding, recordkeeping",
           "Withdrawal and cancellation of registration"
+        ],
+        "concepts": [
+          {
+            "title": "Federal Covered vs State Exempt",
+            "body": "<p><span class=\"keyword\">Federal covered securities</span> are securities that are exempt from state registration requirements under the National Securities Markets Improvement Act of 1996 (NSMIA). These include securities listed on the NYSE, NASDAQ, or other national exchanges, as well as securities issued by investment companies registered under the Investment Company Act of 1940. While states cannot require registration of these securities, they can still require notice filings and fees, and they retain full antifraud authority.</p>\n<p><span class=\"keyword\">State-exempt securities</span> are securities exempted from registration by the Uniform Securities Act itself. These include U.S. government and agency securities, municipal securities, bank and savings institution securities, and securities issued by nonprofit organizations. The key distinction is that federal covered securities derive their exemption from federal law, while state-exempt securities derive theirs from the state's own securities act. Both categories remain subject to state antifraud provisions.</p>"
+          }
         ]
       },
       {
@@ -402,6 +598,12 @@
           "Supervision of investment adviser representatives",
           "Termination and transfer of registration",
           "Continuing education and qualification requirements"
+        ],
+        "concepts": [
+          {
+            "title": "Agent Exclusions",
+            "body": "<p>Under the Uniform Securities Act, an <span class=\"keyword\">agent</span> is any individual (other than a broker-dealer) who represents a broker-dealer or issuer in effecting or attempting to effect purchases or sales of securities. However, several important exclusions exist.</p>\n<p>Officers, directors, and partners of an issuer are <span class=\"keyword\">excluded from the agent definition</span> if they do not receive transaction-based compensation (commissions) and deal only in exempt transactions. Additionally, individuals who represent an issuer in transactions involving exempt securities, or in specified exempt transactions such as those with existing employees, are not considered agents. These exclusions are critical because persons who fall outside the agent definition are not required to register as agents with the state. The key factor is often whether the person receives <span class=\"keyword\">transaction-based compensation</span> -- if they do, they are almost always considered agents requiring registration.</p>"
+          }
         ]
       },
       {
@@ -418,6 +620,12 @@
           "Withdrawal, cancellation, and succession of broker-dealer registration",
           "Canadian broker-dealer provisions",
           "Grounds for denial, suspension, or revocation of broker-dealer registration"
+        ],
+        "concepts": [
+          {
+            "title": "Prohibited Practices",
+            "body": "<p>The Uniform Securities Act prohibits a wide range of unethical and fraudulent business practices. Agents may not <span class=\"keyword\">share in customer profits or losses</span> unless they have a financial interest in the joint account AND have received written approval from their employing broker-dealer. This rule prevents agents from having inappropriate financial incentives tied to customer accounts.</p>\n<p>Other key prohibited practices include: <span class=\"keyword\">churning</span> (excessive trading to generate commissions), <span class=\"keyword\">unauthorized trading</span> (executing transactions without customer consent), <span class=\"keyword\">borrowing from or lending to clients</span> (unless the client is a lending institution), <span class=\"keyword\">commingling</span> (mixing customer funds with firm or personal funds), and <span class=\"keyword\">selling away</span> (conducting securities transactions outside the scope of the agent's employment with the broker-dealer). Agents also may not guarantee a customer against loss or represent that registration implies a certain level of competency.</p>"
+          }
         ]
       },
       {
@@ -435,6 +643,12 @@
           "Dual registration of agents",
           "Grounds for denial, suspension, or revocation of agent registration",
           "Continuing education and qualification requirements for agents"
+        ],
+        "concepts": [
+          {
+            "title": "Statute of Limitations",
+            "body": "<p>Under the Uniform Securities Act, civil actions for violations must be brought within a specific time frame. The <span class=\"keyword\">statute of limitations</span> provides that a buyer or seller of securities may bring a civil action within the earlier of <span class=\"keyword\">3 years from the date of the sale</span> or <span class=\"keyword\">2 years from the date of discovery</span> of the violation, whichever comes first.</p>\n<p>This means that even if a violation is discovered 2.5 years after the sale, the investor has only 6 months remaining (until the 3-year deadline) to file suit, not a full 2 years from discovery. Conversely, if the violation is discovered only 1 year after the sale, the investor has 2 years from that discovery date to take action, since the 3-year maximum has not yet been reached. For <span class=\"keyword\">criminal penalties</span>, the statute of limitations is 5 years from the date of the violation. Criminal violations may result in fines up to $5,000 and/or imprisonment up to 3 years.</p>"
+          }
         ]
       },
       {
@@ -450,7 +664,8 @@
           "Federal covered securities and preemption of state registration",
           "Stop orders and denial/suspension/revocation of securities registration",
           "Effective dates and withdrawal of registration statements"
-        ]
+        ],
+        "concepts": []
       },
       {
         "id": "s63-t6",
@@ -468,7 +683,8 @@
           "Consent to service of process",
           "Coordination with other state and federal regulators",
           "Burden of proof in exemption claims"
-        ]
+        ],
+        "concepts": []
       },
       {
         "id": "s63-t7",
@@ -485,7 +701,8 @@
           "Social media and electronic communications compliance",
           "Correspondence and recordkeeping of client communications",
           "Prospectus delivery and disclosure document requirements"
-        ]
+        ],
+        "concepts": []
       },
       {
         "id": "s63-t8",
@@ -507,7 +724,34 @@
           "Sharing in customer profits and losses",
           "Gifts, gratuities, and business entertainment",
           "Outside business activities and dual registration"
-        ]
+        ],
+        "concepts": []
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus on Section 2.",
+        "body": "At 40% of the exam, \"Regulation of Persons\" is the largest section. Know the definitions, exclusions, and registration requirements for broker-dealers, agents, investment advisers, and IARs inside and out."
+      },
+      {
+        "title": "Master the definitions and exclusions.",
+        "body": "The exam heavily tests who is and is not considered a broker-dealer, agent, or investment adviser. Pay special attention to the exclusions -- knowing who does NOT need to register is just as important as knowing who does."
+      },
+      {
+        "title": "Learn the Administrator's powers.",
+        "body": "Understand what the state Administrator can and cannot do. The Administrator can deny, suspend, or revoke registrations, issue cease and desist orders, and subpoena witnesses -- but cannot issue injunctions or impose jail time (those require court action)."
+      },
+      {
+        "title": "Know the statute of limitations cold.",
+        "body": "The 3-years-from-sale or 2-years-from-discovery rule is a frequently tested concept. Practice applying it to different scenarios to ensure you can calculate the deadline correctly."
+      },
+      {
+        "title": "Understand exempt vs non-exempt.",
+        "body": "Know the difference between exempt securities, exempt transactions, and federal covered securities. Remember that antifraud provisions always apply regardless of exemptions."
+      },
+      {
+        "title": "Watch your time.",
+        "body": "With 65 questions in 75 minutes, you have just over 1 minute per question. The exam is shorter than most FINRA exams but the pace is brisk. Do not overthink any single question."
       }
     ]
   },
@@ -549,6 +793,16 @@
           "Interest rate theories: expectations, liquidity preference, market segmentation",
           "Yield curve analysis: normal, inverted, flat, and humped yield curves",
           "GDP, CPI, PPI, unemployment rate interpretation"
+        ],
+        "concepts": [
+          {
+            "title": "Leading vs Lagging Indicators",
+            "body": "<p><span class=\"keyword\">Leading indicators</span> change before the economy as a whole changes, making them useful for predicting future economic activity. Examples include building permits, stock market performance, the money supply (M2), and the index of consumer expectations. A decline in leading indicators may signal an upcoming recession.</p>\n                        <p><span class=\"keyword\">Lagging indicators</span> change after the economy has already begun to follow a particular pattern. Examples include the unemployment rate, corporate profits, consumer price index (CPI), and the average duration of unemployment. These indicators confirm trends that are already underway. <span class=\"keyword\">Coincident indicators</span> move in step with the economy and include GDP, industrial production, and personal income.</p>"
+          },
+          {
+            "title": "Federal Reserve Monetary Policy Tools",
+            "body": "<p>The <span class=\"keyword\">Federal Reserve</span> uses three primary tools to conduct monetary policy. <span class=\"keyword\">Open market operations</span> (buying and selling Treasury securities) is the most frequently used tool -- buying securities injects money into the economy (expansionary), while selling securities removes money (contractionary).</p>\n                        <p>The <span class=\"keyword\">discount rate</span> is the interest rate the Fed charges member banks for short-term loans. Lowering it encourages borrowing and expands the money supply. The <span class=\"keyword\">reserve requirement</span> is the percentage of deposits banks must hold in reserve. Lowering it allows banks to lend more, expanding credit. In practice, the Fed primarily relies on open market operations and the federal funds rate target to implement policy.</p>"
+          }
         ]
       },
       {
@@ -573,6 +827,16 @@
           "Insurance-based products: variable life, variable universal life",
           "Structured products and derivatives basics",
           "529 plans and education savings vehicles"
+        ],
+        "concepts": [
+          {
+            "title": "Mutual Funds vs ETFs vs Closed-End Funds",
+            "body": "<p><span class=\"keyword\">Open-end mutual funds</span> continuously issue and redeem shares at their net asset value (NAV), calculated once daily at market close. They offer diversification, professional management, and liquidity, but may carry sales loads (front-end or back-end) and ongoing expense ratios.</p>\n                        <p><span class=\"keyword\">ETFs</span> (Exchange-Traded Funds) trade on exchanges throughout the day like stocks, typically track an index, and generally have lower expense ratios than actively managed mutual funds. Their market price may differ slightly from NAV. <span class=\"keyword\">Closed-end funds</span> issue a fixed number of shares through an IPO and then trade on exchanges. They can trade at a premium or discount to NAV, use leverage, and do not redeem shares directly from the fund.</p>"
+          },
+          {
+            "title": "Options Strategies for Advisers",
+            "body": "<p>Investment advisers must understand how options can be used for <span class=\"keyword\">hedging</span> (reducing risk) and <span class=\"keyword\">income generation</span>. A <span class=\"keyword\">covered call</span> strategy involves writing (selling) call options on stocks already owned, generating premium income while capping upside potential -- suitable for clients seeking additional income in a flat or mildly bullish market.</p>\n                        <p>A <span class=\"keyword\">protective put</span> involves buying put options on stocks already owned, providing downside protection (like insurance) while maintaining upside potential. The cost is the premium paid. Advisers must ensure that any options strategy is suitable for the client's investment objectives, risk tolerance, and financial situation, and that the client understands the risks involved.</p>"
+          }
         ]
       },
       {
@@ -600,6 +864,16 @@
           "Special situations: concentrated stock positions, stock options, restricted stock",
           "Risk management: hedging, insurance, emergency funds",
           "Behavioral finance: cognitive biases, emotional biases, heuristics"
+        ],
+        "concepts": [
+          {
+            "title": "Modern Portfolio Theory",
+            "body": "<p><span class=\"keyword\">Modern Portfolio Theory (MPT)</span>, developed by Harry Markowitz, holds that rational investors will construct portfolios to maximize expected return for a given level of risk. The key insight is that an asset's risk and return should be evaluated not in isolation, but by how it contributes to the overall portfolio's risk and return.</p>\n                        <p>By combining assets with low or negative <span class=\"keyword\">correlation</span>, investors can reduce portfolio risk without proportionally reducing expected returns. The <span class=\"keyword\">efficient frontier</span> represents the set of optimal portfolios that offer the highest expected return for each level of risk. Portfolios below the efficient frontier are suboptimal because they do not provide enough return for their level of risk.</p>"
+          },
+          {
+            "title": "Traditional IRA vs Roth IRA",
+            "body": "<p>A <span class=\"keyword\">Traditional IRA</span> offers tax-deductible contributions (subject to income limits if covered by an employer plan), with earnings growing tax-deferred. Withdrawals in retirement are taxed as ordinary income. Required minimum distributions (RMDs) must begin at age 73. Withdrawals before age 59 1/2 generally incur a 10% early withdrawal penalty plus income tax.</p>\n                        <p>A <span class=\"keyword\">Roth IRA</span> is funded with after-tax dollars (contributions are not deductible), but qualified withdrawals in retirement are entirely tax-free. There are no RMDs during the owner's lifetime. Roth IRAs have income eligibility limits for direct contributions. A Roth is generally more advantageous for younger investors or those who expect to be in a higher tax bracket in retirement.</p>"
+          }
         ]
       },
       {
@@ -631,7 +905,43 @@
           "Business continuity planning requirements",
           "Record retention requirements",
           "ERISA fiduciary requirements for retirement plan advisers"
+        ],
+        "concepts": [
+          {
+            "title": "Fiduciary Duty vs Suitability",
+            "body": "<p>Investment advisers owe a <span class=\"keyword\">fiduciary duty</span> to their clients, which is the highest standard of care in the financial industry. This means the adviser must always act in the client's best interest, disclose all material conflicts of interest, and not place their own interests ahead of the client's. The fiduciary standard applies at all times, not just at the point of recommendation.</p>\n                        <p>The <span class=\"keyword\">suitability standard</span>, historically applied to broker-dealers, requires that recommendations be suitable for the client based on their profile but does not require that the recommendation be in the client's best interest. Under <span class=\"keyword\">Regulation Best Interest (Reg BI)</span>, broker-dealers must now act in the client's best interest at the time of recommendation, narrowing but not eliminating the gap between the two standards.</p>"
+          },
+          {
+            "title": "Form ADV: Parts 1, 2A, and 2B",
+            "body": "<p><span class=\"keyword\">Form ADV Part 1</span> contains information about the investment adviser's business, ownership, clients, employees, business practices, affiliations, and disciplinary history. It is filed electronically with the SEC (via IARD) or state regulators and is publicly available.</p>\n                        <p><span class=\"keyword\">Form ADV Part 2A</span> (the \"firm brochure\") is a plain-English document that must be delivered to prospective clients before or at the time of entering into an advisory contract. It describes services, fees, investment strategies, conflicts of interest, and disciplinary information. <span class=\"keyword\">Part 2B</span> (the \"brochure supplement\") provides information about specific advisory personnel who will work with the client. Both must be updated annually and offered to existing clients.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus on Sections 3 and 4.",
+        "body": "Together, \"Client Recommendations\" and \"Laws and Regulations\" make up 60% of the exam. Master fiduciary duties, suitability, the Uniform Securities Act, and the Investment Advisers Act of 1940."
+      },
+      {
+        "title": "Understand the fiduciary standard deeply.",
+        "body": "Many questions test whether you can distinguish fiduciary obligations from suitability requirements. Know when each standard applies and the practical implications for client interactions."
+      },
+      {
+        "title": "Know Form ADV inside and out.",
+        "body": "Expect multiple questions about what is included in Parts 1, 2A, and 2B, when each must be delivered, and how often they must be updated. This is a heavily tested area."
+      },
+      {
+        "title": "Learn the quantitative formulas.",
+        "body": "Be comfortable calculating current yield, total return, alpha, beta, Sharpe ratio, and time value of money concepts. The exam may present scenario-based calculations."
+      },
+      {
+        "title": "Distinguish exempt from non-exempt.",
+        "body": "Know which securities and transactions are exempt from registration under both federal and state law. The Uniform Securities Act exemptions are frequently tested."
+      },
+      {
+        "title": "Pace yourself -- 1.4 minutes per question.",
+        "body": "With 140 questions in 180 minutes, time management is essential. Flag difficult questions and return to them rather than spending too long on any single question."
       }
     ]
   },
@@ -670,6 +980,16 @@
           "International economic factors: currency, trade, globalization",
           "Financial reporting: key financial statements and ratios",
           "Quantitative methods: time value of money, NPV, IRR"
+        ],
+        "concepts": [
+          {
+            "title": "Uniform Securities Act Definitions",
+            "body": "<p>Under the <span class=\"keyword\">Uniform Securities Act (USA)</span>, a <span class=\"keyword\">broker-dealer</span> is any person engaged in the business of effecting transactions in securities for the account of others or for its own account. An <span class=\"keyword\">agent</span> is any individual (other than a broker-dealer) who represents a broker-dealer or issuer in effecting or attempting to effect securities transactions.</p>\n                        <p>An <span class=\"keyword\">investment adviser</span> is any person who, for compensation, engages in the business of advising others about securities. An <span class=\"keyword\">investment adviser representative (IAR)</span> is an individual who makes recommendations, manages accounts, or determines which recommendations should be given on behalf of an investment adviser. Understanding these definitions is critical because registration requirements and exemptions depend on how a person or entity is classified.</p>"
+          },
+          {
+            "title": "Administrator Powers",
+            "body": "<p>The state securities <span class=\"keyword\">Administrator</span> has broad authority to enforce state securities laws. The Administrator can issue <span class=\"keyword\">cease and desist orders</span> without prior notice or hearing when in the public interest. The Administrator can also <span class=\"keyword\">deny, suspend, or revoke</span> registrations of securities, broker-dealers, agents, investment advisers, and IARs -- but only after providing notice, opportunity for a hearing, and written findings of fact.</p>\n                        <p>The Administrator can <span class=\"keyword\">subpoena</span> witnesses and documents, <span class=\"keyword\">administer oaths</span>, and apply for <span class=\"keyword\">injunctions</span> in court. However, the Administrator cannot impose jail sentences (only courts can do that) and cannot make rules that conflict with federal law. The Administrator's orders are subject to judicial review.</p>"
+          }
         ]
       },
       {
@@ -686,6 +1006,16 @@
           "Alternative investments: REITs, DPPs, hedge funds, private equity",
           "Insurance-based products: variable annuities, variable life insurance",
           "Pooled investments and managed accounts"
+        ],
+        "concepts": [
+          {
+            "title": "Advisory Contracts and Fee Structures",
+            "body": "<p>Investment advisory contracts must be in writing and disclose the <span class=\"keyword\">fee structure</span> clearly. Common fee arrangements include <span class=\"keyword\">assets under management (AUM) fees</span> (a percentage of managed assets, typically 0.5% to 2%), <span class=\"keyword\">hourly fees</span>, <span class=\"keyword\">flat fees</span>, and <span class=\"keyword\">performance-based fees</span> (allowed only for qualified clients under the Investment Advisers Act).</p>\n                        <p>Advisory contracts cannot include provisions that waive the adviser's fiduciary duty, assign the contract without client consent, or guarantee against loss. Contracts must specify the services to be provided, the fee amount and how it is calculated, whether the adviser has discretionary authority, and the term and termination provisions. <span class=\"keyword\">Prepaid fees</span> exceeding a certain threshold (typically $500 for six or more months in advance) require additional protections.</p>"
+          },
+          {
+            "title": "Prohibited Activities for Advisers",
+            "body": "<p>Investment advisers and their representatives are prohibited from engaging in several specific activities. <span class=\"keyword\">Guaranteeing performance</span> or guaranteeing against loss is always prohibited -- advisers cannot promise specific returns or assure clients they will not lose money.</p>\n                        <p><span class=\"keyword\">Sharing in profits or losses</span> of a client's account is prohibited unless the adviser contributes capital proportionately and obtains written consent. <span class=\"keyword\">Commingling</span> client funds with the adviser's own funds is prohibited. Advisers cannot engage in <span class=\"keyword\">front running</span> (trading for their own account ahead of client orders), use <span class=\"keyword\">misleading advertising</span>, or exercise discretion without proper written authorization. All material conflicts of interest must be disclosed to clients.</p>"
+          }
         ]
       },
       {
@@ -708,7 +1038,8 @@
           "Dollar-cost averaging and rebalancing strategies",
           "Behavioral finance: biases and their impact on decision-making",
           "Risk management through insurance and hedging"
-        ]
+        ],
+        "concepts": []
       },
       {
         "id": "s66-t4",
@@ -738,7 +1069,34 @@
           "Books, records, and business continuity requirements",
           "Communications with the public and advertising rules",
           "Solicitor and referral fee arrangements"
-        ]
+        ],
+        "concepts": []
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Prioritize Section 2 -- it is the majority of the exam.",
+        "body": "At 55%, \"Investment Advisory Practices and Ethics\" covers more than half the questions. Thoroughly understand fiduciary duties, prohibited activities, disclosure requirements, and advisory contract rules."
+      },
+      {
+        "title": "Master the Uniform Securities Act definitions.",
+        "body": "Many questions hinge on correctly identifying who is a broker-dealer, agent, investment adviser, or IAR. Know the exclusions and exemptions for each category cold."
+      },
+      {
+        "title": "Know the Administrator's powers and limitations.",
+        "body": "Understand what the Administrator can and cannot do -- particularly that cease and desist orders can be issued without a hearing, but denials and revocations require notice and opportunity for hearing."
+      },
+      {
+        "title": "Study exempt securities and transactions separately.",
+        "body": "Exempt securities (like federal covered securities and government bonds) are always exempt. Exempt transactions (like isolated non-issuer transactions) exempt the transaction, not the security itself."
+      },
+      {
+        "title": "Leverage your Series 7 knowledge.",
+        "body": "Since the Series 7 is a co-requisite, use your existing knowledge of products and markets as a foundation. The Series 66 adds state law and advisory practice layers on top of that foundation."
+      },
+      {
+        "title": "Pace yourself -- 1.4 minutes per question.",
+        "body": "With 110 questions in 150 minutes, time management matters. Read each question carefully, but do not spend more than two minutes on any single question. Flag and revisit difficult ones."
       }
     ]
   },
@@ -780,6 +1138,16 @@
           "Statutory disqualification and eligibility proceedings",
           "Personnel management: hiring, supervision, and termination",
           "Outside business activities (OBA) and private securities transactions"
+        ],
+        "concepts": [
+          {
+            "title": "Statutory Disqualification",
+            "body": "<p><span class=\"keyword\">Statutory disqualification</span> occurs when a person is barred from association with a FINRA member firm due to certain disqualifying events. These include felony convictions (within the past 10 years), certain misdemeanor convictions involving securities, money, or dishonesty, SEC or SRO disciplinary actions, and court injunctions related to securities activities.</p>\n<p>A firm that wishes to employ a statutorily disqualified person must file an application with FINRA under its <span class=\"keyword\">eligibility proceedings</span> process. The firm must demonstrate that it has adequate supervisory procedures to oversee the individual. Principals play a critical role in identifying disqualification events during the hiring process by reviewing Form U4 disclosures.</p>"
+          },
+          {
+            "title": "Continuing Education Requirements",
+            "body": "<p>FINRA's continuing education program has two components. The <span class=\"keyword\">Regulatory Element</span> is a computer-based training session that must be completed annually by all registered persons. It covers compliance, regulatory, ethical, and sales practice standards.</p>\n<p>The <span class=\"keyword\">Firm Element</span> is an annual training program developed by each firm, tailored to its business activities and the needs of its registered persons. Principals are responsible for developing, implementing, and administering the firm element program, including conducting a needs analysis and maintaining records of participation. Failure to complete the regulatory element results in an inactive registration status until the requirement is satisfied.</p>"
+          }
         ]
       },
       {
@@ -812,6 +1180,16 @@
           "Risk management and internal controls",
           "Insider trading prevention: policies, restricted lists, watch lists",
           "Information barrier procedures"
+        ],
+        "concepts": [
+          {
+            "title": "Written Supervisory Procedures (WSPs)",
+            "body": "<p><span class=\"keyword\">Written Supervisory Procedures (WSPs)</span> are the detailed, written guidelines that a broker-dealer must establish and maintain under FINRA Rule 3110. They describe how the firm will supervise its registered representatives and associated persons in all areas of their business activities.</p>\n<p>WSPs must designate a <span class=\"keyword\">chief compliance officer</span>, identify supervisory personnel for each business line, describe how the firm will review correspondence, transactions, and customer accounts, and outline procedures for handling customer complaints. Each office of supervisory jurisdiction (OSJ) must maintain a current copy, and the procedures must be reviewed and updated at least annually. The principal is responsible for ensuring WSPs are followed and that supervisory reviews are properly documented.</p>"
+          },
+          {
+            "title": "Anti-Money Laundering (AML) Program",
+            "body": "<p>Under the <span class=\"keyword\">Bank Secrecy Act</span> and FINRA Rule 3310, every broker-dealer must establish and implement an AML compliance program. The program must include internal policies and procedures reasonably designed to detect and report suspicious activity, designation of an <span class=\"keyword\">AML compliance officer</span>, ongoing employee training, and independent testing of the program.</p>\n<p>Firms must file <span class=\"keyword\">Suspicious Activity Reports (SARs)</span> with FinCEN for transactions of $5,000 or more that the firm knows, suspects, or has reason to suspect involve funds from illegal activity or are designed to evade reporting requirements. <span class=\"keyword\">Currency Transaction Reports (CTRs)</span> must be filed for cash transactions exceeding $10,000. Principals must ensure the AML program is properly implemented and that all personnel understand their reporting obligations.</p>"
+          }
         ]
       },
       {
@@ -832,6 +1210,16 @@
           "Gifts, gratuities, and entertainment policies",
           "Political contributions: MSRB Rule G-37, pay-to-play",
           "Registered representative supervision and review"
+        ],
+        "concepts": [
+          {
+            "title": "Regulation Best Interest (Reg BI)",
+            "body": "<p><span class=\"keyword\">Regulation Best Interest (Reg BI)</span> requires broker-dealers and their associated persons to act in the best interest of retail customers when making securities recommendations. It goes beyond the traditional suitability standard by imposing four specific obligations.</p>\n<p>The <span class=\"keyword\">Disclosure Obligation</span> requires delivery of Form CRS (Client Relationship Summary). The <span class=\"keyword\">Care Obligation</span> requires reasonable diligence to understand the product and ensure recommendations are in the customer's best interest. The <span class=\"keyword\">Conflict of Interest Obligation</span> requires policies to identify, disclose, and mitigate or eliminate conflicts. The <span class=\"keyword\">Compliance Obligation</span> requires written policies and procedures. Principals must ensure all representatives comply with Reg BI and must establish supervisory systems to monitor recommendations.</p>"
+          },
+          {
+            "title": "Communications with the Public",
+            "body": "<p>Under <span class=\"keyword\">FINRA Rule 2210</span>, communications are classified into three categories. <span class=\"keyword\">Retail communications</span> are any written or electronic communication distributed to more than 25 retail investors within a 30-day period and must be approved by a principal before first use. <span class=\"keyword\">Correspondence</span> is written communication to 25 or fewer retail investors and must be supervised but does not require pre-approval. <span class=\"keyword\">Institutional communications</span> are sent only to institutional investors and require supervisory review but not pre-approval.</p>\n<p>Principals must ensure all communications are fair, balanced, not misleading, and provide a sound basis for evaluating the products discussed. Certain communications, such as those concerning options or new member firms, must be filed with FINRA within 10 business days of first use or prior to use.</p>"
+          }
         ]
       },
       {
@@ -852,6 +1240,16 @@
           "TRACE reporting and compliance",
           "Municipal securities trading and MSRB rules",
           "Trading desk supervision and surveillance"
+        ],
+        "concepts": [
+          {
+            "title": "Best Execution",
+            "body": "<p><span class=\"keyword\">Best execution</span> under FINRA Rule 5310 requires broker-dealers to use reasonable diligence to ascertain the best market for a security and to buy or sell in that market so the resultant price to the customer is as favorable as possible under prevailing market conditions.</p>\n<p>Factors to consider include the size and type of transaction, number of markets checked, accessibility of quotations, and the terms and conditions of the order. Firms must conduct a <span class=\"keyword\">regular and rigorous review</span> of execution quality on a quarterly basis, evaluating order routing practices and comparing execution quality across different venues. Principals are responsible for establishing and enforcing best execution policies and reviewing execution quality reports.</p>"
+          },
+          {
+            "title": "Regulation SHO",
+            "body": "<p><span class=\"keyword\">Regulation SHO</span> governs short selling of securities and is designed to address concerns about persistent failures to deliver and abusive short selling practices. It imposes three key requirements on broker-dealers.</p>\n<p>The <span class=\"keyword\">locate requirement</span> (Rule 203(b)(1)) requires broker-dealers to locate a source of borrowable shares before executing a short sale. The <span class=\"keyword\">close-out requirement</span> (Rule 204) mandates that failures to deliver must be closed out by purchasing or borrowing the securities by the beginning of regular trading hours on the settlement date following the settlement date (T+1 for most transactions). The <span class=\"keyword\">threshold security</span> list identifies securities with significant failures to deliver, triggering enhanced close-out obligations. Principals must ensure proper short sale marking and compliance with all Reg SHO requirements.</p>"
+          }
         ]
       },
       {
@@ -872,7 +1270,43 @@
           "Global Research Analyst Settlement requirements",
           "Supervision of equity and debt research reports",
           "Municipal advisory activities and MSRB Rule G-42"
+        ],
+        "concepts": [
+          {
+            "title": "Research Analyst Conflicts of Interest",
+            "body": "<p><span class=\"keyword\">FINRA Rule 2241</span> addresses conflicts of interest related to research analysts and research reports. It requires firms to establish information barriers (sometimes called \"Chinese walls\") between the research department and the investment banking department to prevent investment banking personnel from influencing the content of research reports.</p>\n<p>Research analyst compensation cannot be directly tied to specific investment banking transactions. There are <span class=\"keyword\">quiet period</span> restrictions that prevent firms from publishing research reports on companies they have recently taken public. Research reports must include required disclosures about the firm's relationship with the subject company, including any investment banking services provided in the past 12 months. Principals must supervise research activities to ensure objectivity and compliance with these conflict rules.</p>"
+          },
+          {
+            "title": "New Issue Allocation Rules",
+            "body": "<p><span class=\"keyword\">FINRA Rule 5130</span> prohibits the sale of new issues (IPOs) to restricted persons, including FINRA member firms and their associated persons, as well as immediate family members of restricted persons. This rule is designed to prevent industry insiders from \"flipping\" IPO shares for quick profits at the expense of public investors.</p>\n<p><span class=\"keyword\">FINRA Rule 5131</span> addresses new issue allocation practices, prohibiting \"spinning\" (allocating IPO shares to executives of investment banking clients as an inducement for future business) and requiring objective, documented allocation criteria. Firms must ensure that IPO allocations are based on legitimate investment criteria and not used as a quid pro quo for investment banking business. Principals must establish and enforce procedures to ensure compliance with both rules.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus on Sections 2 and 3.",
+        "body": "Together they account for 53% of the exam. Know supervisory procedures, compliance requirements, and customer activity oversight inside and out."
+      },
+      {
+        "title": "Think like a supervisor.",
+        "body": "The Series 24 tests your ability to identify supervisory responsibilities. When answering questions, consider what a principal should do to detect, prevent, and address violations rather than what a representative would do."
+      },
+      {
+        "title": "Master FINRA Rule 2210.",
+        "body": "Communications with the public is a heavily tested area. Know the three categories, approval requirements, filing obligations, and content standards cold."
+      },
+      {
+        "title": "Understand net capital basics.",
+        "body": "While the Series 27 goes deeper, you still need to know the fundamentals of net capital, customer protection, and financial reporting for the Series 24."
+      },
+      {
+        "title": "Know the trading rules thoroughly.",
+        "body": "Regulation NMS, Regulation SHO, and best execution are critical. Understand the locate and close-out requirements, order protection rule, and how to evaluate execution quality."
+      },
+      {
+        "title": "Pace yourself carefully.",
+        "body": "With 160 questions in 225 minutes, you have approximately 1.4 minutes per question. Flag difficult questions and return to them after completing easier ones."
       }
     ]
   },
@@ -914,6 +1348,16 @@
           "Generally accepted accounting principles (GAAP) for broker-dealers",
           "Balance sheet preparation and analysis",
           "Income statement and statement of financial condition"
+        ],
+        "concepts": [
+          {
+            "title": "FOCUS Reports",
+            "body": "<p>The <span class=\"keyword\">FOCUS report</span> (Financial and Operational Combined Uniform Single report) is the primary financial report that broker-dealers must file with the SEC and FINRA. It provides a comprehensive snapshot of the firm's financial condition, including its balance sheet, income statement, net capital computation, and customer reserve calculations.</p>\n<p>Most broker-dealers file the FOCUS report on a <span class=\"keyword\">quarterly basis</span> (FOCUS Part II), though certain firms carrying customer accounts may be required to file monthly (FOCUS Part IIA). The report must be filed within 17 business days after the end of each reporting period. The FINOP is personally responsible for the accuracy and timely filing of these reports and must sign the FOCUS report certifying its completeness.</p>"
+          },
+          {
+            "title": "Annual Audit Requirements",
+            "body": "<p>Under <span class=\"keyword\">SEC Rule 17a-5</span>, every broker-dealer must engage an independent public accountant to conduct an annual audit of its financial statements. The audit must be performed in accordance with generally accepted auditing standards (GAAS) and must include an examination of the firm's financial statements, net capital computation, and customer reserve formula.</p>\n<p>The auditor must issue reports on the financial statements, the firm's internal controls over compliance with the net capital rule and customer protection rule, and a <span class=\"keyword\">compliance report</span> or <span class=\"keyword\">exemption report</span>. The annual audit report must be filed with the SEC within 60 calendar days after the firm's fiscal year end. The FINOP must coordinate with the external auditors and ensure all audit findings are properly addressed.</p>"
+          }
         ]
       },
       {
@@ -937,6 +1381,16 @@
           "FinCEN filings: SAR, CTR, FBAR",
           "SIPC annual assessment and reporting",
           "Municipal securities dealer and government securities dealer reporting"
+        ],
+        "concepts": [
+          {
+            "title": "Clearance and Settlement",
+            "body": "<p><span class=\"keyword\">Clearance</span> is the process of comparing and confirming trade details between the buyer and seller (or their agents), while <span class=\"keyword\">settlement</span> is the actual exchange of securities for payment. Most equity and corporate bond trades settle on a T+1 basis (one business day after the trade date).</p>\n<p>The <span class=\"keyword\">DTCC</span> (Depository Trust and Clearing Corporation) is the central clearinghouse for most U.S. securities transactions. Its subsidiaries include the <span class=\"keyword\">NSCC</span> (National Securities Clearing Corporation), which handles trade comparison and netting, and the <span class=\"keyword\">DTC</span> (Depository Trust Company), which handles custody and settlement. The <span class=\"keyword\">CNS (Continuous Net Settlement)</span> system nets all of a firm's buy and sell transactions to reduce the number of securities and payments that must actually be exchanged. The FINOP must monitor settlement activity and ensure fails are promptly resolved.</p>"
+          },
+          {
+            "title": "Books and Records Requirements",
+            "body": "<p><span class=\"keyword\">SEC Rule 17a-3</span> specifies the records that broker-dealers must create and maintain, including trade blotters, general ledgers, customer account records, order tickets, trade confirmations, and customer complaint files. <span class=\"keyword\">SEC Rule 17a-4</span> specifies how long each record must be retained.</p>\n<p>Most general business records must be retained for at least <span class=\"keyword\">three years</span> (the first two in an easily accessible location), while certain records such as general ledgers and customer account records must be kept for <span class=\"keyword\">six years</span>. Records stored electronically must comply with the WORM (Write Once, Read Many) requirement, ensuring they cannot be altered or deleted. The FINOP must ensure the firm's recordkeeping systems are compliant and that all required records are properly maintained and available for regulatory examination.</p>"
+          }
         ]
       },
       {
@@ -957,6 +1411,16 @@
           "Stock record and related accounting",
           "Fails to deliver and fails to receive: buy-in procedures",
           "SIPC assessments and customer claims procedures"
+        ],
+        "concepts": [
+          {
+            "title": "Net Capital Rule (SEC Rule 15c3-1)",
+            "body": "<p>The <span class=\"keyword\">net capital rule</span> (SEC Rule 15c3-1) requires broker-dealers to maintain sufficient liquid capital to meet their obligations to customers and creditors. The computation starts with the firm's <span class=\"keyword\">tentative net capital</span> (net worth plus qualified subordinated debt minus non-allowable assets) and then subtracts <span class=\"keyword\">haircuts</span> on securities positions to arrive at net capital.</p>\n<p><span class=\"keyword\">Non-allowable assets</span> include fixed assets, prepaid expenses, unsecured receivables, and any assets that cannot be readily converted to cash. <span class=\"keyword\">Haircuts</span> are percentage deductions applied to the market value of securities to account for potential price declines. For example, equity securities typically receive a 15% haircut, while U.S. Treasury securities receive much smaller haircuts based on maturity. The FINOP must compute net capital daily and immediately notify regulators if the firm falls below minimum requirements.</p>"
+          },
+          {
+            "title": "Aggregate Indebtedness vs Alternative Method",
+            "body": "<p>Broker-dealers can compute their net capital requirement under one of two methods. The <span class=\"keyword\">aggregate indebtedness (AI) standard</span> requires that a firm's aggregate indebtedness (total money owed by the firm, including customer credit balances) not exceed 15 times its net capital. The minimum net capital under this method is $250,000 for firms carrying customer accounts or $5,000 to $100,000 for firms with more limited activities.</p>\n<p>The <span class=\"keyword\">alternative method</span> requires that a firm maintain net capital equal to the greater of $250,000 or 2% of aggregate debit items (the total amount customers owe the firm). This method is typically used by larger firms that carry customer accounts. The alternative method does not use the 15:1 ratio but instead focuses on maintaining capital proportional to the firm's customer receivables. The FINOP must determine which method is most appropriate for the firm and ensure continuous compliance.</p>"
+          }
         ]
       },
       {
@@ -978,6 +1442,16 @@
           "Margin requirements: Regulation T, FINRA margin rules",
           "Margin call processes and procedures",
           "Day trading margin requirements"
+        ],
+        "concepts": [
+          {
+            "title": "Customer Protection Rule (SEC Rule 15c3-3)",
+            "body": "<p>The <span class=\"keyword\">customer protection rule</span> (SEC Rule 15c3-3) is designed to safeguard customer assets held by broker-dealers. It has two main components: the <span class=\"keyword\">possession or control</span> requirement and the <span class=\"keyword\">reserve formula</span> requirement.</p>\n<p>The possession or control requirement mandates that broker-dealers must promptly obtain and maintain physical possession or control of all fully paid and excess margin securities carried for customer accounts. Fully paid securities must be held in <span class=\"keyword\">good control locations</span> such as a securities depository, a bank, or the firm's vault. The reserve formula requires the firm to compute weekly (or monthly for certain firms) the net amount owed to customers and maintain that amount in a <span class=\"keyword\">Special Reserve Bank Account for the Exclusive Benefit of Customers</span>. The FINOP is responsible for ensuring both requirements are met and for promptly addressing any deficiencies.</p>"
+          },
+          {
+            "title": "SIPC Coverage",
+            "body": "<p>The <span class=\"keyword\">Securities Investor Protection Corporation (SIPC)</span> is a nonprofit membership corporation created by the Securities Investor Protection Act of 1970. It protects customers of failed broker-dealers by returning their cash and securities. SIPC coverage provides up to <span class=\"keyword\">$500,000 per customer</span>, of which no more than <span class=\"keyword\">$250,000 may be in cash</span>.</p>\n<p>SIPC does not protect against investment losses -- it only protects against the loss of securities and cash due to a broker-dealer's financial failure. Most FINRA member broker-dealers are required to be SIPC members and pay annual assessments. When a broker-dealer fails, SIPC may initiate a liquidation proceeding in which a trustee is appointed to return customer property. The FINOP must ensure the firm maintains its SIPC membership, pays assessments on time, and provides required SIPC disclosure to customers.</p>"
+          }
         ]
       },
       {
@@ -995,7 +1469,34 @@
           "Liquidity risk management and stress testing",
           "Free credit balances and customer cash management",
           "Tax reporting obligations for broker-dealers"
-        ]
+        ],
+        "concepts": []
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Master net capital computations.",
+        "body": "At 31% of the exam, net capital is your largest topic and the most calculation-heavy. Practice computing tentative net capital, applying haircuts, and determining minimum requirements until it becomes second nature."
+      },
+      {
+        "title": "Know the customer reserve formula.",
+        "body": "Understand every line item in the reserve formula computation -- credits, debits, and how to determine the required deposit. Be able to identify which items go on which side of the formula."
+      },
+      {
+        "title": "Learn haircut percentages.",
+        "body": "Memorize the standard haircut rates for different security types: 15% for equities, 0-6% for government securities (by maturity), and the specific haircuts for corporate bonds, municipal bonds, and options positions."
+      },
+      {
+        "title": "Understand the settlement lifecycle.",
+        "body": "Know the complete trade processing cycle from execution through settlement, including the roles of DTCC, NSCC, and DTC. Understand how fails are created and resolved."
+      },
+      {
+        "title": "Study recordkeeping retention periods.",
+        "body": "Know which records must be kept for three years and which for six years. Understand the WORM requirement for electronic records and what constitutes an easily accessible location."
+      },
+      {
+        "title": "Use a calculator strategically.",
+        "body": "With 155 questions in 225 minutes, you have about 1.45 minutes per question. For calculation questions, set up the formula first, then compute. Do not spend excessive time on any single calculation."
       }
     ]
   },
@@ -1038,6 +1539,16 @@
           "Qualification and registration requirements (MSRB Rule G-3)",
           "Continuing education for municipal securities professionals",
           "Branch office supervision for municipal activities"
+        ],
+        "concepts": [
+          {
+            "title": "Competitive vs Negotiated Underwriting",
+            "body": "<p>In a <span class=\"keyword\">competitive underwriting</span>, the issuer publishes a Notice of Sale inviting underwriting syndicates to submit sealed bids. The syndicate offering the lowest net interest cost (NIC) or true interest cost (TIC) to the issuer typically wins the bid. This method is commonly used for general obligation bonds and is required by many state laws for public entities.</p>\n<p>In a <span class=\"keyword\">negotiated underwriting</span>, the issuer selects an underwriter and negotiates the terms of the offering directly, including the spread, coupon rates, and reoffering yields. This method provides more flexibility and is commonly used for revenue bonds and complex financings. The principal must ensure proper supervision of both methods, including verification that pricing is fair and that all MSRB rules regarding syndicate practices (Rule G-11) are followed.</p>"
+          },
+          {
+            "title": "Syndicate Priority of Orders",
+            "body": "<p>Under MSRB Rule G-11, syndicate members must establish the <span class=\"keyword\">priority of orders</span> before the first offer of securities. The typical priority is: (1) <span class=\"keyword\">presale orders</span> (received before the syndicate wins the bid), (2) <span class=\"keyword\">group net orders</span> (where the entire spread benefits the syndicate), (3) <span class=\"keyword\">designated orders</span> (where the customer designates which members receive the takedown), and (4) <span class=\"keyword\">member orders</span> (placed by syndicate members for their own accounts).</p>\n<p>The syndicate manager must communicate the priority provisions to all members and to the issuer. The priority can be changed by the syndicate manager during the order period, but all members must be notified. The principal must ensure that order allocation follows the established priority and that all members receive a written accounting of the syndicate settlement within 60 calendar days of the final settlement date.</p>"
+          }
         ]
       },
       {
@@ -1057,6 +1568,16 @@
           "Municipal underwriting compensation and expenses",
           "Continuing disclosure obligations under SEC Rule 15c2-12",
           "EMMA (Electronic Municipal Market Access) system and filings"
+        ],
+        "concepts": [
+          {
+            "title": "Pay-to-Play Rules (MSRB Rule G-37)",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-37</span> prohibits dealers from engaging in municipal securities business with an issuer for two years after certain political contributions are made. The rule is designed to prevent \"pay-to-play\" practices where firms make political contributions to elected officials who control the awarding of municipal securities business.</p>\n<p>The <span class=\"keyword\">two-year ban</span> is triggered when a municipal finance professional (MFP) of the dealer contributes more than <span class=\"keyword\">$250</span> to an official of an issuer for whom they are entitled to vote, or any amount to an official for whom they cannot vote. A <span class=\"keyword\">de minimis exception</span> allows contributions up to $250 per election per official by MFPs entitled to vote for that official. Dealers must report all contributions and municipal securities business on Form G-37 quarterly through EMMA. The principal must establish procedures to monitor MFP contributions and ensure compliance.</p>"
+          },
+          {
+            "title": "Continuing Disclosure (SEC Rule 15c2-12)",
+            "body": "<p><span class=\"keyword\">SEC Rule 15c2-12</span> requires underwriters of municipal securities offerings of $1 million or more to obtain a continuing disclosure agreement from the issuer before purchasing or selling the bonds. The issuer must agree to provide annual financial information and timely notice of certain material events to the <span class=\"keyword\">EMMA</span> (Electronic Municipal Market Access) system.</p>\n<p><span class=\"keyword\">Material event notices</span> must be filed within 10 business days and include events such as payment delinquencies, rating changes, bond calls, defeasances, and bankruptcy filings. Before recommending a municipal security, a dealer must review the issuer's continuing disclosure history to determine whether the issuer has complied with its disclosure obligations. The principal must ensure the firm has procedures to verify issuer compliance and to maintain access to EMMA for disclosure review.</p>"
+          }
         ]
       },
       {
@@ -1078,6 +1599,16 @@
           "Anti-money laundering in municipal securities",
           "Tax-exempt status and IRS regulations affecting municipal securities",
           "Bank qualified vs. non-bank qualified issuances"
+        ],
+        "concepts": [
+          {
+            "title": "Municipal Suitability (MSRB Rule G-19)",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-19</span> requires dealers to have a reasonable basis for recommending any municipal security or transaction to a customer. This involves two components: <span class=\"keyword\">reasonable-basis suitability</span> (the dealer must understand the security and believe it is suitable for at least some investors) and <span class=\"keyword\">customer-specific suitability</span> (the recommendation must be appropriate for the particular customer based on their investment profile).</p>\n<p>Key factors include the customer's tax status (essential for tax-exempt municipal bonds), investment objectives, risk tolerance, time horizon, liquidity needs, and existing portfolio holdings. For retail customers, Reg BI obligations also apply, requiring the dealer to act in the customer's best interest. The principal must establish procedures to review municipal securities recommendations and ensure representatives are conducting proper suitability analysis, particularly regarding the tax implications of municipal bonds for each customer's situation.</p>"
+          },
+          {
+            "title": "Trade Confirmations (MSRB Rule G-15)",
+            "body": "<p>Under <span class=\"keyword\">MSRB Rule G-15</span>, dealers must send written confirmations to customers at or before the completion of a municipal securities transaction. The confirmation must include trade details (CUSIP, description, par value, price, yield, settlement date), the firm's capacity (agent or principal), and any applicable accrued interest.</p>\n<p>For bonds purchased at a <span class=\"keyword\">premium</span>, the confirmation must disclose that the amount paid exceeds the call price if the bond is callable, and the yield must be calculated to the lower of the yield to call or yield to maturity (the <span class=\"keyword\">yield to worst</span>). For bonds with special features such as sinking funds, put provisions, or variable rates, the confirmation must include appropriate disclosures. The principal must ensure all confirmations are accurate, complete, and delivered in a timely manner.</p>"
+          }
         ]
       },
       {
@@ -1098,7 +1629,43 @@
           "Accrued interest calculations for municipal bonds (30/360)",
           "Settlement conventions and fails",
           "Customer complaint handling for municipal activities"
+        ],
+        "concepts": [
+          {
+            "title": "MSRB Recordkeeping (Rules G-8 and G-9)",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-8</span> specifies the books and records that municipal securities dealers must make and keep. These include records of all purchases and sales, customer account information, customer complaints, written supervisory procedures, political contributions (G-37 records), correspondence, and records related to syndicate activities.</p>\n<p><span class=\"keyword\">MSRB Rule G-9</span> establishes the retention periods for these records. Most records must be preserved for at least <span class=\"keyword\">three years</span>, while certain records such as customer account information and written supervisory procedures must be kept for <span class=\"keyword\">six years</span>. Political contribution records must be retained for six years as well. Records may be maintained electronically provided they meet the same accessibility and preservation requirements as physical records. The principal must ensure the firm's recordkeeping systems comply with both rules and that records are available for regulatory examination.</p>"
+          },
+          {
+            "title": "EMMA and Trade Reporting",
+            "body": "<p><span class=\"keyword\">EMMA</span> (Electronic Municipal Market Access) is the MSRB's centralized platform for municipal securities disclosure and transparency. It serves as the official repository for official statements, continuing disclosure documents, trade data, and other information about municipal securities. EMMA is free and available to the public.</p>\n<p>Under MSRB Rule G-14, dealers must report municipal securities transactions to the <span class=\"keyword\">RTRS</span> (Real-Time Transaction Reporting System) within 15 minutes of execution. The reports must include the CUSIP, par value, price or yield, trade time, and capacity (agent or principal). This data is disseminated through EMMA to provide market transparency. The principal must ensure that all trades are reported accurately and within the required timeframe, and must establish procedures to monitor reporting compliance.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Section 1 is everything.",
+        "body": "At 40% of the exam, supervision of municipal securities activities is by far the largest section. Know syndicate practices, underwriting procedures, and trading supervision thoroughly."
+      },
+      {
+        "title": "Memorize the MSRB rule numbers.",
+        "body": "The exam frequently references specific MSRB rules by number. Know G-11 (syndicate), G-15 (confirmations), G-17 (fair dealing), G-19 (suitability), G-30 (pricing), G-32 (disclosures), and G-37 (political contributions)."
+      },
+      {
+        "title": "Understand pay-to-play rules cold.",
+        "body": "MSRB Rule G-37 is heavily tested. Know the two-year ban, the $250 de minimis exception, who qualifies as an MFP, and reporting requirements on Form G-37."
+      },
+      {
+        "title": "Know syndicate order priority.",
+        "body": "Be able to identify and rank the four types of syndicate orders: presale, group net, designated, and member. Understand how the spread is allocated for each order type."
+      },
+      {
+        "title": "Focus on supervisory responsibilities.",
+        "body": "Like all principal exams, think about what a supervisor should do. Questions test your judgment in identifying compliance issues and taking appropriate supervisory action."
+      },
+      {
+        "title": "Practice time management.",
+        "body": "With 100 questions in 180 minutes, you have 1.8 minutes per question. This is more generous than many other FINRA exams, so use the extra time to read questions carefully and review your answers."
       }
     ]
   },
@@ -1148,6 +1715,16 @@
           "Research analyst reports and third-party data sources",
           "Regulatory filings as sources of data (SEC EDGAR, 10-K, 10-Q, proxy statements)",
           "Credit analysis and debt capacity assessment"
+        ],
+        "concepts": [
+          {
+            "title": "DCF Valuation",
+            "body": "<p>A <span class=\"keyword\">Discounted Cash Flow (DCF)</span> analysis values a company based on the present value of its expected future free cash flows. The process involves projecting unlevered free cash flows (typically 5-10 years), calculating a terminal value to capture value beyond the projection period, and discounting everything back to present value using the <span class=\"keyword\">Weighted Average Cost of Capital (WACC)</span>.</p>\n                        <p>Terminal value can be calculated using either the <span class=\"keyword\">perpetuity growth method</span> (applying a long-term growth rate to the final year's cash flow) or the <span class=\"keyword\">exit multiple method</span> (applying a trading multiple to the final year's EBITDA). Terminal value often represents 60-80% of the total enterprise value in a DCF, making the choice of terminal assumptions critical.</p>"
+          },
+          {
+            "title": "Comparable Company vs Precedent Transactions",
+            "body": "<p><span class=\"keyword\">Comparable company analysis</span> (trading comps) values a company by applying multiples from publicly traded peers. Common multiples include EV/EBITDA, EV/Revenue, and P/E. This approach reflects current market sentiment but does not include a control premium.</p>\n                        <p><span class=\"keyword\">Precedent transaction analysis</span> values a company by examining multiples paid in prior acquisitions of similar companies. Because acquirers typically pay a premium for control, precedent transaction multiples are generally higher than trading multiples. The difference -- usually 20-40% -- is known as the <span class=\"keyword\">control premium</span>. Precedent transactions may be less reflective of current conditions if the comparable deals are dated.</p>"
+          }
         ]
       },
       {
@@ -1171,6 +1748,16 @@
           "FINRA corporate financing rules (Rule 5110): underwriting compensation and conflicts",
           "Prospectus delivery requirements and free writing prospectuses",
           "Lock-up agreements and insider selling restrictions"
+        ],
+        "concepts": [
+          {
+            "title": "IPO Process and Pricing",
+            "body": "<p>An <span class=\"keyword\">Initial Public Offering (IPO)</span> is the process by which a private company offers shares to the public for the first time. The investment bank acts as the underwriter, guiding the company through SEC registration, due diligence, roadshow marketing, and pricing. During the <span class=\"keyword\">book-building</span> process, the underwriter gauges investor demand to set a price range and ultimately the final offering price.</p>\n                        <p>Key regulatory periods include the <span class=\"keyword\">quiet period</span>, during which the issuer and underwriters are restricted in what they can communicate publicly, and the <span class=\"keyword\">lock-up period</span> (typically 90-180 days post-IPO), during which insiders are prohibited from selling their shares. The underwriter may also engage in <span class=\"keyword\">stabilization</span> activities -- buying shares in the open market to support the stock price immediately after the IPO.</p>"
+          },
+          {
+            "title": "Firm Commitment vs Best Efforts",
+            "body": "<p>In a <span class=\"keyword\">firm commitment</span> underwriting, the investment bank purchases the entire offering from the issuer and resells it to investors. The underwriter assumes the risk of unsold shares and guarantees the issuer a specific amount of capital. This is the most common type for large IPOs and is preferred by issuers because it provides certainty of proceeds.</p>\n                        <p>In a <span class=\"keyword\">best efforts</span> underwriting, the investment bank acts as an agent, agreeing to use its best efforts to sell the securities but making no guarantee. Any unsold shares remain with the issuer. An <span class=\"keyword\">all-or-none</span> arrangement is a variation where the offering is cancelled entirely if the full amount cannot be sold.</p>"
+          }
         ]
       },
       {
@@ -1193,7 +1780,43 @@
           "Spin-offs, split-offs, carve-outs, and tracking stocks",
           "Cross-border transactions and regulatory considerations",
           "Regulatory requirements, compliance, and ethical standards in investment banking"
+        ],
+        "concepts": [
+          {
+            "title": "Tender Offers and the Williams Act",
+            "body": "<p>A <span class=\"keyword\">tender offer</span> is a public bid to purchase shares directly from shareholders, typically at a premium to the current market price. The <span class=\"keyword\">Williams Act</span> (1968 amendments to the Securities Exchange Act of 1934) regulates tender offers to protect shareholders by requiring disclosure and fair treatment.</p>\n                        <p>Key provisions include: the offeror must file <span class=\"keyword\">Schedule TO</span> with the SEC, the offer must remain open for at least 20 business days, shareholders have <span class=\"keyword\">withdrawal rights</span> during the offer period, and if the offer is oversubscribed, shares must be purchased on a <span class=\"keyword\">pro rata</span> basis. Any person acquiring more than 5% of a company's shares must file Schedule 13D within 10 days of crossing that threshold.</p>"
+          },
+          {
+            "title": "Accretion/Dilution Analysis",
+            "body": "<p><span class=\"keyword\">Accretion/dilution analysis</span> determines whether a proposed acquisition will increase (accrete) or decrease (dilute) the acquirer's earnings per share (EPS). If the combined pro forma EPS is higher than the acquirer's standalone EPS, the deal is said to be <span class=\"keyword\">accretive</span>; if lower, it is <span class=\"keyword\">dilutive</span>.</p>\n                        <p>The analysis depends on several factors: the target's earnings contribution, the form of consideration (cash vs stock), the cost of financing (interest expense on debt or new share issuance), and any expected synergies. A deal may be initially dilutive but become accretive over time as synergies are realized. Boards and shareholders closely scrutinize this analysis when evaluating proposed transactions.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus heavily on Section 1.",
+        "body": "At 49% of the exam, data collection and analysis is nearly half the test. Know your valuation methodologies inside and out -- DCF, comps, and precedent transactions will be tested from every angle."
+      },
+      {
+        "title": "Know your WACC components.",
+        "body": "Understanding the weighted average cost of capital -- cost of equity (CAPM), cost of debt, capital structure weighting, and tax shield -- is critical for DCF questions."
+      },
+      {
+        "title": "Understand the full IPO timeline.",
+        "body": "From the organizational meeting through SEC filing, the roadshow, pricing, and stabilization -- know every phase, who is involved, and what rules apply at each stage."
+      },
+      {
+        "title": "Master the Williams Act.",
+        "body": "Tender offer rules, filing requirements, timing obligations, and shareholder protections are frequently tested. Know the specific thresholds, deadlines, and disclosure requirements."
+      },
+      {
+        "title": "Practice accretion/dilution math.",
+        "body": "Be prepared to work through accretion/dilution scenarios with different consideration types and financing structures. Understanding the mechanics will help you answer calculation-based questions efficiently."
+      },
+      {
+        "title": "Manage your time carefully.",
+        "body": "With 85 questions in 150 minutes, you have less than 1.8 minutes per question. Flag difficult questions and return to them after completing the easier ones."
       }
     ]
   },
@@ -1222,10 +1845,10 @@
     "validity": "Must maintain registration with a FINRA member firm",
     "topics": [
       {
-        "id": "s82-t1",
-        "name": "Private Placement Regulations and Exemptions",
-        "weight": 35,
-        "questions": 17,
+        "id": "s82-f1",
+        "name": "Seeks Business for the Broker-Dealer from Customers and Potential Customers",
+        "weight": 50,
+        "questions": 25,
         "subtopics": [
           "Securities Act of 1933: registration requirements and exemptions",
           "Regulation D: Rule 504, Rule 506(b), Rule 506(c)",
@@ -1241,13 +1864,19 @@
           "General solicitation and general advertising rules",
           "Bad actor disqualification provisions",
           "Resale restrictions on privately placed securities"
+        ],
+        "concepts": [
+          {
+            "title": "General Solicitation: 506(b) vs 506(c)",
+            "body": "<p>Under <span class=\"keyword\">Rule 506(b)</span>, issuers cannot use general solicitation or general advertising to market the offering. Securities may be sold to an unlimited number of accredited investors and up to 35 non-accredited but sophisticated investors. The issuer must have a pre-existing substantive relationship with investors before offering securities.</p>\n<p>Under <span class=\"keyword\">Rule 506(c)</span>, introduced by the JOBS Act in 2013, issuers are permitted to use general solicitation and advertising to market the offering. However, all purchasers must be <span class=\"keyword\">accredited investors</span>, and the issuer must take <span class=\"keyword\">reasonable steps to verify</span> accredited investor status -- self-certification alone is not sufficient.</p>"
+          }
         ]
       },
       {
-        "id": "s82-t2",
-        "name": "Private Placement Products and Structures",
-        "weight": 30,
-        "questions": 15,
+        "id": "s82-f2",
+        "name": "Opens Accounts After Obtaining and Evaluating Customers' Financial Profile and Investment Objectives",
+        "weight": 18,
+        "questions": 9,
         "subtopics": [
           "Private equity fund structures: LP, LLC, GP, management companies",
           "Venture capital investments and stages of financing",
@@ -1263,13 +1892,23 @@
           "Private credit and direct lending",
           "Tax implications: capital gains, depreciation, depletion, credits",
           "Subscription agreements, PPMs, and limited partnership agreements"
+        ],
+        "concepts": [
+          {
+            "title": "Accredited Investor Standards",
+            "body": "<p>An <span class=\"keyword\">accredited investor</span> is an individual or entity that meets specific financial thresholds defined by the SEC under Regulation D. For individuals, this means annual income exceeding <span class=\"keyword\">$200,000</span> (or $300,000 jointly with a spouse) in each of the prior two years with a reasonable expectation of the same, or a <span class=\"keyword\">net worth exceeding $1 million</span> (excluding the primary residence).</p>\n<p>The SEC expanded the definition to include individuals holding certain professional certifications (such as Series 7, Series 65, or Series 82 licenses), knowledgeable employees of private funds, and entities with investments exceeding $5 million. Institutional investors, banks, insurance companies, and registered investment companies also qualify. Proper verification is essential -- especially under 506(c) where reasonable steps must be taken beyond mere self-certification.</p>"
+          },
+          {
+            "title": "Suitability for Illiquid Investments",
+            "body": "<p>Private securities are inherently <span class=\"keyword\">illiquid</span> -- there is no public market for resale, and investors may be locked in for years. Suitability analysis for private placements must go beyond standard assessments. Representatives must consider whether the investor can afford to lose the entire investment, whether they have sufficient liquid assets to meet other needs, and whether their time horizon aligns with the expected holding period.</p>\n<p><span class=\"keyword\">Concentration risk</span> is another key concern. A private placement may represent a disproportionately large portion of an investor's portfolio. Under FINRA's suitability rules and Regulation Best Interest (Reg BI), representatives must ensure that the recommendation is in the customer's best interest, considering both the specific investment and the customer's overall portfolio.</p>"
+          }
         ]
       },
       {
-        "id": "s82-t3",
-        "name": "Customer Accounts, Suitability, and Due Diligence",
-        "weight": 20,
-        "questions": 10,
+        "id": "s82-f3",
+        "name": "Provides Customers with Information About Investments, Makes Recommendations, Transfers Assets and Maintains Appropriate Records",
+        "weight": 26,
+        "questions": 13,
         "subtopics": [
           "Suitability requirements for private placements",
           "Customer financial qualification and investor suitability standards",
@@ -1281,13 +1920,23 @@
           "Valuation of private securities (NAV, fair value)",
           "Distribution waterfalls and fee structures",
           "K-1 reporting and tax considerations for investors"
+        ],
+        "concepts": [
+          {
+            "title": "Regulation D: 504 vs 506(b) vs 506(c)",
+            "body": "<p><span class=\"keyword\">Rule 504</span> permits offerings up to $10 million in a 12-month period. It does not restrict the number or type of investors and may allow general solicitation and freely tradeable securities if the offering is registered at the state level or sold exclusively to accredited investors.</p>\n<p><span class=\"keyword\">Rule 506(b)</span> has no dollar limit but prohibits general solicitation. It allows unlimited accredited investors and up to 35 non-accredited sophisticated investors. Under <span class=\"keyword\">Rule 506(c)</span>, general solicitation is permitted, but all purchasers must be accredited investors whose status has been verified through reasonable steps. Both 506(b) and 506(c) provide federal preemption of state registration requirements, though Form D notice filings are still required.</p>"
+          },
+          {
+            "title": "Rule 144 Resale Restrictions",
+            "body": "<p><span class=\"keyword\">Rule 144</span> provides a safe harbor for the resale of restricted and control securities. Restricted securities acquired in a private placement must be held for a minimum <span class=\"keyword\">holding period</span> of six months (for SEC reporting companies) or one year (for non-reporting companies) before they can be resold in the public market.</p>\n<p>Additional conditions for affiliates (control persons) include <span class=\"keyword\">volume limitations</span> (the greater of 1% of outstanding shares or average weekly trading volume over the prior four weeks), the requirement to file <span class=\"keyword\">Form 144</span> with the SEC, and the availability of current public information about the issuer. Non-affiliates who have held restricted securities for more than one year (reporting companies) are exempt from volume and filing requirements.</p>"
+          }
         ]
       },
       {
-        "id": "s82-t4",
-        "name": "Regulatory Compliance and Business Conduct",
-        "weight": 15,
-        "questions": 8,
+        "id": "s82-f4",
+        "name": "Obtains and Verifies Customers' Purchase and Sales Instructions and Agreements; Processes, Completes, and Confirms Transactions",
+        "weight": 6,
+        "questions": 3,
         "subtopics": [
           "FINRA rules governing private placement activities",
           "FINRA Rule 5122: private placements of members",
@@ -1299,7 +1948,39 @@
           "Customer complaint handling and reporting",
           "Supervision of private placement activities",
           "Conflicts of interest disclosure and management"
+        ],
+        "concepts": [
+          {
+            "title": "Subscription Agreement Process",
+            "body": "<p>A <span class=\"keyword\">subscription agreement</span> is the legal contract between an investor and the issuer in a private placement. The investor completes and signs the agreement, making representations about accredited investor status, investment experience, understanding of risks, and the ability to bear a complete loss. The investor also specifies the investment amount and provides payment.</p>\n<p>The issuer (or its general partner/manager) retains the right to <span class=\"keyword\">accept or reject</span> subscriptions in whole or in part. Investor funds are typically held in <span class=\"keyword\">escrow</span> until the minimum offering amount is reached and the issuer accepts the subscription. If the offering is cancelled or a subscription is rejected, funds must be returned promptly to the investor.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Master Regulation D inside and out.",
+        "body": "The differences between Rule 504, 506(b), and 506(c) are the backbone of this exam. Know the dollar limits, investor requirements, solicitation rules, and verification obligations for each."
+      },
+      {
+        "title": "Know the accredited investor definition cold.",
+        "body": "You will see multiple questions on who qualifies as an accredited investor, what income and net worth thresholds apply, and how verification differs between 506(b) and 506(c)."
+      },
+      {
+        "title": "Understand Rule 144 thoroughly.",
+        "body": "Holding periods, volume limitations, and the distinction between restricted and control securities are heavily tested. Know when Form 144 must be filed and when conditions no longer apply."
+      },
+      {
+        "title": "Focus on Section 3.",
+        "body": "At 40% of the exam, the communications, recommendations, and recordkeeping section is the largest. Pay special attention to offering document requirements and regulatory exemptions."
+      },
+      {
+        "title": "Do not neglect suitability.",
+        "body": "Private placements have unique suitability considerations due to illiquidity, concentration risk, and long holding periods. Understand how these factors impact recommendations."
+      },
+      {
+        "title": "Practice with timed conditions.",
+        "body": "With 55 questions in 90 minutes, you have about 1.6 minutes per question. Practice under time pressure to ensure you can work through all questions comfortably."
       }
     ]
   },
@@ -1358,6 +2039,12 @@
           "Supply chain and customer analysis",
           "Regulatory environment assessment",
           "Corporate governance evaluation"
+        ],
+        "concepts": [
+          {
+            "title": "Key SEC Filings for Research",
+            "body": "<p>The <span class=\"keyword\">10-K</span> is the annual report filed with the SEC, containing audited financial statements, management discussion and analysis (MD&amp;A), risk factors, and business descriptions. The <span class=\"keyword\">10-Q</span> is the quarterly report with unaudited financials. The <span class=\"keyword\">8-K</span> reports material events such as acquisitions, executive changes, or earnings restatements.</p>\n<p>The <span class=\"keyword\">proxy statement (DEF 14A)</span> discloses executive compensation, board composition, and items for shareholder vote. <span class=\"keyword\">Form 4</span> reports insider transactions within two business days. Research analysts must understand these filings to extract critical data points, identify trends, and detect potential red flags in a company's financial reporting.</p>"
+          }
         ]
       },
       {
@@ -1377,6 +2064,16 @@
           "Statistical concepts: regression analysis, correlation, R-squared",
           "Industry life cycle and competitive analysis (Porter's Five Forces, SWOT)",
           "Capital structure theory and cost of capital estimation"
+        ],
+        "concepts": [
+          {
+            "title": "DuPont Analysis (ROE Decomposition)",
+            "body": "<p>The <span class=\"keyword\">DuPont analysis</span> decomposes Return on Equity (ROE) into three components: <span class=\"keyword\">profit margin</span> (net income / revenue), <span class=\"keyword\">asset turnover</span> (revenue / total assets), and <span class=\"keyword\">financial leverage</span> (total assets / shareholders' equity). ROE = Profit Margin x Asset Turnover x Equity Multiplier.</p>\n<p>This decomposition allows research analysts to identify what is truly driving a company's returns. A company with high ROE from high leverage carries more risk than one achieving similar ROE through operational efficiency (higher margins or asset turnover). Comparing DuPont components across peers reveals structural differences in business models and capital allocation strategies.</p>"
+          },
+          {
+            "title": "Earnings Quality",
+            "body": "<p><span class=\"keyword\">Earnings quality</span> refers to the degree to which reported earnings reflect the true economic performance of a business and are sustainable over time. High-quality earnings are generated from core operations, are backed by actual cash flows, and result from consistent accounting policies.</p>\n<p>Research analysts assess earnings quality by comparing <span class=\"keyword\">operating cash flow to net income</span> (the accrual ratio), examining changes in accounting policies, evaluating the proportion of non-recurring items, and scrutinizing aggressive revenue recognition practices. Red flags include growing receivables outpacing revenue growth, declining cash conversion, frequent one-time charges, and significant differences between GAAP and non-GAAP earnings.</p>"
+          }
         ]
       },
       {
@@ -1398,6 +2095,16 @@
           "Sensitivity analysis and scenario modeling",
           "Revenue and earnings forecasting methodologies",
           "LBO analysis for valuation benchmarking"
+        ],
+        "concepts": [
+          {
+            "title": "Enterprise Value vs Equity Value",
+            "body": "<p><span class=\"keyword\">Enterprise Value (EV)</span> represents the total value of a firm to all capital providers -- both equity holders and debt holders. It is calculated as market capitalization plus total debt, preferred stock, and minority interest, minus cash and cash equivalents. EV-based multiples (EV/EBITDA, EV/Revenue) are capital-structure neutral, making them ideal for comparing companies with different leverage levels.</p>\n<p><span class=\"keyword\">Equity Value</span> (market capitalization) represents the value attributable to common shareholders only. Equity-based multiples (P/E, P/B) are affected by capital structure. A company with more debt will have a lower equity value relative to its enterprise value. Research analysts must be consistent -- matching EV-based metrics with enterprise-level cash flows and equity-based metrics with per-share earnings.</p>"
+          },
+          {
+            "title": "Bull/Base/Bear Scenario Analysis",
+            "body": "<p><span class=\"keyword\">Scenario analysis</span> is a framework used by research analysts to evaluate a range of potential outcomes. The <span class=\"keyword\">base case</span> represents the most likely scenario, reflecting consensus assumptions. The <span class=\"keyword\">bull case</span> assumes favorable conditions (stronger revenue growth, margin expansion, multiple expansion), while the <span class=\"keyword\">bear case</span> models downside risks (revenue decline, margin compression, competitive threats).</p>\n<p>Each scenario produces a different valuation range, which helps investors understand the risk/reward profile of an investment. Analysts typically assign probability weights to each scenario. Effective scenario analysis identifies the <span class=\"keyword\">key drivers</span> that have the greatest impact on valuation and tests how changes in those drivers affect the outcome.</p>"
+          }
         ]
       },
       {
@@ -1419,6 +2126,12 @@
           "Global Research Analyst Settlement provisions",
           "Distribution of research reports: institutional vs. retail",
           "Third-party research and independent research requirements"
+        ],
+        "concepts": [
+          {
+            "title": "Research Report Disclosures",
+            "body": "<p>FINRA Rule 2241 and SEC Regulation AC (Analyst Certification) require extensive disclosures in research reports. Analysts must certify that the views expressed accurately reflect their personal opinions and disclose whether their compensation is tied to specific recommendations or investment banking revenue.</p>\n<p>Required disclosures include: whether the analyst or firm <span class=\"keyword\">owns securities</span> of the covered company, whether the firm has received <span class=\"keyword\">investment banking compensation</span> from the company in the past 12 months, the firm's <span class=\"keyword\">rating distribution</span> (percentage of buy/hold/sell ratings), and a <span class=\"keyword\">price chart</span> showing the history of the analyst's ratings and price targets alongside the stock price. These disclosures are designed to help investors identify potential conflicts of interest.</p>"
+          }
         ]
       },
       {
@@ -1441,7 +2154,39 @@
           "Coverage initiation and termination procedures",
           "Industry standards for research report content and format",
           "Rating systems and price target methodology disclosure"
+        ],
+        "concepts": [
+          {
+            "title": "Regulation FD and Information Barriers",
+            "body": "<p><span class=\"keyword\">Regulation FD (Fair Disclosure)</span> requires that when a public company discloses material nonpublic information to certain individuals (including analysts and institutional investors), it must simultaneously disclose that information to the public. If the disclosure is unintentional, the company must make public disclosure promptly (within 24 hours or by the opening of trading the next day).</p>\n<p><span class=\"keyword\">Information barriers</span> (often called \"Chinese walls\") are policies and procedures that prevent the flow of material nonpublic information between different departments of a firm -- particularly between investment banking and research. These barriers ensure that research analysts maintain independence and that their recommendations are not influenced by the firm's investment banking relationships. FINRA Rule 2241 codifies many of these requirements.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Treat it as two separate exams.",
+        "body": "Part I (Series 86) focuses on analytical skills -- valuation, financial analysis, and forecasting. Part II (Series 87) covers regulatory and compliance topics. Study and prepare for each part independently."
+      },
+      {
+        "title": "Prioritize valuation (Section 3).",
+        "body": "At 27% of the combined exam, valuation and forecasting is the largest section. Master DCF, comparable company analysis, and the mechanics of building a financial model."
+      },
+      {
+        "title": "Know your financial ratios.",
+        "body": "Be able to calculate and interpret profitability, liquidity, leverage, and efficiency ratios. Understand DuPont analysis and how to compare ratios across peers and time periods."
+      },
+      {
+        "title": "Understand disclosure requirements thoroughly.",
+        "body": "FINRA Rule 2241, Regulation AC, and Regulation FD are heavily tested. Know what must be disclosed, when, and how conflicts of interest must be managed."
+      },
+      {
+        "title": "Practice with real SEC filings.",
+        "body": "Read actual 10-K and 10-Q filings to build comfort extracting key data points. Understanding how real financial statements look will help you answer questions more effectively."
+      },
+      {
+        "title": "Budget your time for Part I.",
+        "body": "Part I has 85 questions in 270 minutes (about 3.2 minutes per question). The analytical questions can be complex, so use the extra time per question wisely."
       }
     ]
   },
@@ -1504,6 +2249,20 @@
           "Trade reporting: TRACE, TRF, ADF, RTRS",
           "Business continuity planning (BCP) and disaster recovery",
           "Cybersecurity awareness and data protection"
+        ],
+        "concepts": [
+          {
+            "title": "Settlement Cycle and DTCC",
+            "body": "<p>The standard settlement cycle for most securities is <span class=\"keyword\">T+1</span> (trade date plus one business day). The <span class=\"keyword\">DTCC</span> (Depository Trust &amp; Clearing Corporation) is the primary infrastructure for post-trade processing in the U.S. markets. Its subsidiaries include the <span class=\"keyword\">NSCC</span> (National Securities Clearing Corporation), which handles clearing and settlement through continuous net settlement, and the <span class=\"keyword\">DTC</span> (Depository Trust Company), which provides custody and asset servicing.</p>\n<p>When a trade fails to settle on time, it results in a <span class=\"keyword\">fail-to-deliver</span> (seller's side) or <span class=\"keyword\">fail-to-receive</span> (buyer's side). SEC Regulation SHO requires close-out of fails-to-deliver in equity securities, and persistent fails can trigger trading restrictions. Operations professionals must monitor and resolve settlement exceptions to minimize risk and regulatory exposure.</p>"
+          },
+          {
+            "title": "Books and Records Requirements",
+            "body": "<p><span class=\"keyword\">SEC Rule 17a-3</span> specifies the records that broker-dealers must create and maintain, including trade blotters, general ledger, customer account records, order tickets, confirmations, and customer complaint files. <span class=\"keyword\">SEC Rule 17a-4</span> specifies retention periods for these records.</p>\n<p>Key retention periods include: trade blotters and general ledger must be kept for <span class=\"keyword\">6 years</span>, customer account records for <span class=\"keyword\">6 years after account closure</span>, communications (correspondence and emails) for <span class=\"keyword\">3 years</span>, and order tickets for <span class=\"keyword\">3 years</span>. Records must be maintained in a non-rewritable, non-erasable format (WORM -- Write Once, Read Many). Operations professionals must ensure compliance with these requirements and be prepared for regulatory examinations.</p>"
+          },
+          {
+            "title": "Customer Protection Rule (15c3-3)",
+            "body": "<p><span class=\"keyword\">SEC Rule 15c3-3</span> (the Customer Protection Rule) requires broker-dealers to safeguard customer assets. It has two main requirements: the <span class=\"keyword\">possession or control</span> requirement, which mandates that fully paid and excess margin securities be in the firm's physical possession or control, and the <span class=\"keyword\">reserve formula</span>, which requires firms to maintain a special reserve bank account for the exclusive benefit of customers.</p>\n<p>The reserve computation must be performed weekly, and any deficit must be deposited by the following business day. This rule ensures that customer assets are protected in the event of a broker-dealer failure and are not used for the firm's proprietary activities. Operations professionals play a critical role in ensuring daily compliance with these requirements.</p>"
+          }
         ]
       },
       {
@@ -1527,7 +2286,43 @@
           "Regulatory examination preparation and cooperation",
           "Continuing education requirements for operations personnel",
           "Ethical obligations and standards of professional conduct"
+        ],
+        "concepts": [
+          {
+            "title": "Anti-Money Laundering (AML) Obligations",
+            "body": "<p>The <span class=\"keyword\">Bank Secrecy Act (BSA)</span> requires financial institutions to maintain AML programs that include: a system of internal controls, designation of an AML compliance officer, ongoing employee training, and independent testing of the program. Operations professionals must understand their role in detecting and reporting suspicious activity.</p>\n<p>Key reporting requirements include: <span class=\"keyword\">Suspicious Activity Reports (SARs)</span> must be filed within 30 days of detecting suspicious activity (no dollar minimum for broker-dealers), and <span class=\"keyword\">Currency Transaction Reports (CTRs)</span> must be filed for cash transactions exceeding $10,000. Firms must also screen against the <span class=\"keyword\">OFAC</span> (Office of Foreign Assets Control) sanctions list and implement a <span class=\"keyword\">Customer Identification Program (CIP)</span> to verify customer identities at account opening.</p>"
+          },
+          {
+            "title": "SIPC Coverage",
+            "body": "<p>The <span class=\"keyword\">Securities Investor Protection Corporation (SIPC)</span> protects customers of failed broker-dealers by returning securities and cash held in customer accounts. SIPC coverage is up to <span class=\"keyword\">$500,000 per customer</span>, including a maximum of <span class=\"keyword\">$250,000 for cash claims</span>.</p>\n<p>Important limitations: SIPC does not protect against investment losses due to market decline -- it only covers the return of missing assets when a broker-dealer fails. SIPC does not cover commodity futures, fixed annuity contracts, or investment contracts not registered with the SEC. Operations professionals must ensure that customer account structures maximize SIPC protection and that customers understand the scope and limits of coverage.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus heavily on Section 1.",
+        "body": "At 70% of the exam, securities industry knowledge and BD operations dominates. Settlement, clearing, trade processing, and books and records will make up the bulk of questions."
+      },
+      {
+        "title": "Know the settlement cycle inside and out.",
+        "body": "Understand T+1 settlement, the role of DTCC/NSCC/DTC, fail scenarios, and how corporate actions affect settlement dates. These are core operations concepts."
+      },
+      {
+        "title": "Master record retention periods.",
+        "body": "Know which records must be retained for 3 years vs 6 years under SEC Rules 17a-3 and 17a-4. Expect several questions testing specific retention requirements."
+      },
+      {
+        "title": "Understand AML thoroughly.",
+        "body": "AML is tested across both sections. Know SAR and CTR filing requirements, CIP obligations, OFAC screening, and common red flags for suspicious activity."
+      },
+      {
+        "title": "Learn the Customer Protection Rule.",
+        "body": "SEC Rule 15c3-3 is fundamental to operations. Understand the possession/control requirement, the reserve formula, and how customer assets must be segregated."
+      },
+      {
+        "title": "Practice under timed conditions.",
+        "body": "With 55 questions in 90 minutes, you have about 1.6 minutes per question. The questions are generally straightforward if you know the material, so focus on thorough preparation rather than test-taking strategy."
       }
     ]
   },
@@ -1569,6 +2364,16 @@
           "Background and financial information verification",
           "Supervisory review and approval of new options accounts",
           "Timeliness of account approval and documentation"
+        ],
+        "concepts": [
+          {
+            "title": "Options Account Approval Levels",
+            "body": "<p>Options accounts are typically approved at different <span class=\"keyword\">strategy levels</span> based on the customer's experience, financial resources, and investment objectives. Lower levels permit covered strategies (such as covered calls and cash-secured puts), while higher levels allow uncovered (naked) writing and complex multi-leg strategies.</p>\n                        <p>The <span class=\"keyword\">Registered Options Principal (ROP)</span> must review and approve each account before options trading begins. The ROP evaluates the customer's financial background, investment experience, and stated objectives to determine the appropriate approval level. Accounts must be reviewed periodically and may be upgraded or downgraded as circumstances change.</p>"
+          },
+          {
+            "title": "Options Disclosure Document (ODD)",
+            "body": "<p>The <span class=\"keyword\">Options Disclosure Document (ODD)</span>, published by the Options Clearing Corporation (OCC), is a standardized document titled \"Characteristics and Risks of Standardized Options.\" It must be delivered to every customer at or before the time the account is approved for options trading.</p>\n                        <p>The ODD explains the mechanics of options, the risks involved, and the characteristics of different options strategies. Firms must deliver the most current version of the ODD. Supplements to the ODD must also be provided when applicable, such as when new types of options products are introduced. Failure to deliver the ODD in a timely manner is a supervisory violation.</p>"
+          }
         ]
       },
       {
@@ -1587,6 +2392,16 @@
           "Options account monitoring and surveillance systems",
           "Suitability of ongoing options trading relative to account profile",
           "Escalation procedures for unusual account activity"
+        ],
+        "concepts": [
+          {
+            "title": "Exercise and Assignment",
+            "body": "<p><span class=\"keyword\">Exercise</span> occurs when an option holder chooses to invoke their right to buy (call) or sell (put) the underlying security at the strike price. The OCC automatically exercises options that are in-the-money by $0.01 or more at expiration unless the holder provides contrary instructions.</p>\n                        <p><span class=\"keyword\">Assignment</span> is the process by which an option writer is obligated to fulfill the terms of the contract when the holder exercises. The OCC assigns exercises randomly among member firms, and each firm must then allocate assignments among its customers using either a random or first-in-first-out (FIFO) method. The ROP must ensure the firm's allocation method is fair and consistently applied.</p>"
+          },
+          {
+            "title": "Covered vs Uncovered Writing",
+            "body": "<p>A <span class=\"keyword\">covered call writer</span> owns the underlying security, limiting risk because the writer can deliver the shares if assigned. Covered writing is considered a conservative income strategy and is typically approved at lower account levels.</p>\n                        <p><span class=\"keyword\">Uncovered (naked) writing</span> involves selling options without holding the underlying security (for calls) or without sufficient cash or short position (for puts). Naked call writing carries theoretically unlimited risk, as the stock price can rise indefinitely. Naked writing requires the highest approval level and significant margin deposits. The ROP must carefully evaluate whether uncovered writing is suitable for the customer.</p>"
+          }
         ]
       },
       {
@@ -1614,6 +2429,16 @@
           "OCC (Options Clearing Corporation) role and functions",
           "Exercise and assignment procedures",
           "Position and exercise limits"
+        ],
+        "concepts": [
+          {
+            "title": "Position and Exercise Limits",
+            "body": "<p><span class=\"keyword\">Position limits</span> restrict the number of options contracts on the same side of the market (bullish or bearish) that any person or group of related persons can hold or control. Long calls and short puts are on the same side (bullish), as are long puts and short calls (bearish). Limits vary by underlying security based on trading volume and float.</p>\n                        <p><span class=\"keyword\">Exercise limits</span> restrict the number of contracts that can be exercised within a specified period (typically five consecutive business days). Exercise limits generally equal the position limits. Firms must monitor both limits and report positions that exceed reporting thresholds to the exchange. Violations can result in disciplinary action against both the customer and the supervising principal.</p>"
+          },
+          {
+            "title": "Options Margin Requirements",
+            "body": "<p>Options margin requirements differ significantly from equity margin. <span class=\"keyword\">Long options</span> (purchased calls and puts) must be paid for in full and are not marginable. <span class=\"keyword\">Short (written) options</span> require margin deposits because of the potential obligation to buy or sell the underlying security.</p>\n                        <p>For uncovered equity options, the margin requirement is typically 100% of the option premium received plus 20% of the underlying stock's market value, less any out-of-the-money amount (with a minimum of the premium plus 10% of the underlying value). <span class=\"keyword\">Spread positions</span> have reduced margin requirements because the long leg limits the risk of the short leg. The ROP must ensure all accounts meet margin requirements and that margin calls are issued and enforced promptly.</p>"
+          }
         ]
       },
       {
@@ -1629,6 +2454,16 @@
           "Retail communications, correspondence, and institutional communications for options",
           "Social media and electronic communications related to options",
           "Options Disclosure Document (ODD) delivery and updates"
+        ],
+        "concepts": [
+          {
+            "title": "Index Options vs Equity Options",
+            "body": "<p><span class=\"keyword\">Equity options</span> are based on individual stocks and settle through physical delivery of the underlying shares. They are American-style, meaning they can be exercised at any time before expiration. Standard equity options represent 100 shares of the underlying stock.</p>\n                        <p><span class=\"keyword\">Index options</span> are based on stock indexes (such as the S&P 500 or Russell 2000) and settle in cash rather than through physical delivery. Broad-based index options are typically European-style (exercisable only at expiration), while narrow-based index options may be American-style. Index options are subject to different position limit rules and margin requirements than equity options. Supervisors must understand these distinctions to properly oversee customer trading activity.</p>"
+          },
+          {
+            "title": "LEAPS",
+            "body": "<p><span class=\"keyword\">LEAPS</span> (Long-Term Equity Anticipation Securities) are long-dated options with expiration dates up to three years in the future. They function identically to standard options but provide a longer time horizon for the strategy to work, making them suitable for investors with a longer-term outlook.</p>\n                        <p>LEAPS carry higher premiums than shorter-term options due to greater time value. They are available on selected equities and indexes. From a supervisory perspective, LEAPS require the same account approval as standard options, but the ROP should consider the larger capital commitment and the extended period of exposure when evaluating suitability.</p>"
+          }
         ]
       },
       {
@@ -1647,7 +2482,8 @@
           "Net capital considerations for options positions",
           "Books and records requirements for options activities",
           "Insider trading surveillance in options"
-        ]
+        ],
+        "concepts": []
       },
       {
         "id": "s4-f6",
@@ -1666,7 +2502,34 @@
           "Disciplinary procedures for options-related violations",
           "Oversight of associated persons' outside business activities",
           "Annual compliance reviews and certifications"
-        ]
+        ],
+        "concepts": []
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Think like a supervisor.",
+        "body": "The Series 4 tests your ability to oversee options activity, not just execute trades. Every question should be approached from a principal's perspective -- what would you approve, reject, or investigate?"
+      },
+      {
+        "title": "Master the ODD delivery rules.",
+        "body": "Know exactly when the Options Disclosure Document must be delivered, what it contains, and the consequences of failing to provide it. This is a frequently tested area."
+      },
+      {
+        "title": "Know margin calculations cold.",
+        "body": "Options margin requirements for uncovered positions, spreads, and combinations are heavily tested. Practice calculating margin for different scenarios until the formulas are second nature."
+      },
+      {
+        "title": "Understand position and exercise limits.",
+        "body": "Know how to aggregate positions on the same side of the market, when reporting is required, and what constitutes a violation. These questions require careful reading."
+      },
+      {
+        "title": "Focus on Section 1.",
+        "body": "At 35% of the exam, supervision of options sales activities is the largest section. Account approval, suitability, and communications oversight should be your primary study focus."
+      },
+      {
+        "title": "Distinguish between product types.",
+        "body": "Know the differences between equity options, index options, LEAPS, interest rate options, and foreign currency options -- especially their settlement methods and exercise styles."
       }
     ]
   },
@@ -1728,6 +2591,16 @@
           "Discretionary options account supervision",
           "Day trading rules as applied to options",
           "Margin requirements for options positions"
+        ],
+        "concepts": [
+          {
+            "title": "Options Suitability Framework",
+            "body": "<p>Before approving a customer for options trading, the supervisor must evaluate multiple factors to determine <span class=\"keyword\">suitability</span>. These include the customer's investment objectives, financial situation (income, net worth, liquid net worth), investment experience (particularly with options and derivatives), tax status, and age.</p>\n                        <p>Options strategies are tiered by risk level. <span class=\"keyword\">Covered strategies</span> (such as covered calls) are suitable for conservative investors seeking income. <span class=\"keyword\">Buying options</span> requires moderate risk tolerance since the maximum loss is limited to the premium paid. <span class=\"keyword\">Uncovered writing</span> requires the highest risk tolerance and financial resources because of potentially unlimited losses. The supervisor must ensure each customer is approved only for strategies matching their profile.</p>"
+          },
+          {
+            "title": "Options Communications Rules",
+            "body": "<p>All options-related communications -- including retail communications, correspondence, and institutional communications -- must be supervised by a <span class=\"keyword\">Registered Options Principal (ROP)</span>. Retail communications about options must be approved before first use and filed with FINRA within 10 calendar days of first use.</p>\n                        <p>Options communications must present a balanced picture of both risks and rewards. They must not contain projections, predictions, or guarantees of specific results. Any discussion of options strategies must include a description of the risks involved. The ODD must be referenced in or accompany any retail communication about options. Supervisors are responsible for maintaining records of all approved communications.</p>"
+          }
         ]
       },
       {
@@ -1748,6 +2621,16 @@
           "Hedging strategies using options",
           "Options in retirement accounts: special requirements",
           "Portfolio margin considerations"
+        ],
+        "concepts": [
+          {
+            "title": "Regulation Best Interest (Reg BI)",
+            "body": "<p><span class=\"keyword\">Regulation Best Interest (Reg BI)</span> requires broker-dealers and their associated persons to act in the best interest of retail customers when making securities recommendations. It goes beyond the traditional suitability standard by requiring firms to address conflicts of interest and not place their financial interests ahead of the customer's interests.</p>\n                        <p>Reg BI has four component obligations: the <span class=\"keyword\">Disclosure Obligation</span> (provide Form CRS and disclose material facts), the <span class=\"keyword\">Care Obligation</span> (exercise reasonable diligence and skill in recommendations), the <span class=\"keyword\">Conflict of Interest Obligation</span> (establish policies to identify and mitigate conflicts), and the <span class=\"keyword\">Compliance Obligation</span> (establish and enforce written policies and procedures). Supervisors must ensure all representatives comply with each obligation.</p>"
+          },
+          {
+            "title": "Communications Categories",
+            "body": "<p>FINRA categorizes communications into three types, each with different supervisory requirements. <span class=\"keyword\">Retail communications</span> are any written or electronic communications distributed to more than 25 retail investors within a 30-day period. These require principal approval before first use.</p>\n                        <p><span class=\"keyword\">Correspondence</span> is any written or electronic communication distributed to 25 or fewer retail investors within a 30-day period. Firms must supervise correspondence but may use post-use review and sampling methods. <span class=\"keyword\">Institutional communications</span> are distributed exclusively to institutional investors and require review procedures but not necessarily pre-use approval. Supervisors must maintain written procedures for reviewing all three categories.</p>"
+          }
         ]
       },
       {
@@ -1771,6 +2654,16 @@
           "Private securities transaction (selling away) supervision",
           "Annual compliance meeting requirements",
           "Registered representative termination procedures"
+        ],
+        "concepts": [
+          {
+            "title": "Written Supervisory Procedures (WSPs)",
+            "body": "<p>Every FINRA member firm must establish, maintain, and enforce <span class=\"keyword\">Written Supervisory Procedures (WSPs)</span> that are reasonably designed to achieve compliance with applicable securities laws and regulations. WSPs must be tailored to the firm's specific business activities and updated as rules change.</p>\n                        <p>WSPs must designate a supervisory principal for each type of business activity, describe the supervisory system (including how reviews will be conducted and documented), and outline procedures for handling customer complaints, reviewing correspondence, and conducting annual branch office inspections. The <span class=\"keyword\">chief compliance officer</span> must review the WSPs annually and certify their adequacy. Failure to maintain adequate WSPs is one of the most common FINRA enforcement findings.</p>"
+          },
+          {
+            "title": "Anti-Money Laundering (AML) Programs",
+            "body": "<p>Under the <span class=\"keyword\">Bank Secrecy Act (BSA)</span>, every broker-dealer must establish an AML compliance program that includes: written internal policies, procedures, and controls; a designated AML compliance officer; an ongoing employee training program; and an independent testing function.</p>\n                        <p>Key AML obligations include the <span class=\"keyword\">Customer Identification Program (CIP)</span> for verifying customer identity at account opening, <span class=\"keyword\">Customer Due Diligence (CDD)</span> for understanding the nature and purpose of customer relationships, and filing <span class=\"keyword\">Suspicious Activity Reports (SARs)</span> for transactions that may involve money laundering or other illegal activity. Supervisors must also ensure OFAC screening to prevent transactions with sanctioned persons or entities.</p>"
+          }
         ]
       },
       {
@@ -1795,6 +2688,16 @@
           "Correspondence and communication review",
           "Social media supervision and policies",
           "Anti-money laundering (AML) supervision"
+        ],
+        "concepts": [
+          {
+            "title": "Best Execution Obligation",
+            "body": "<p>FINRA Rule 5310 requires broker-dealers to use <span class=\"keyword\">reasonable diligence</span> to obtain the most favorable terms for customer orders. This is known as the <span class=\"keyword\">best execution</span> obligation. Firms must consider factors including the size and type of transaction, the number of markets checked, the accessibility of quotations, and the terms and conditions of the order.</p>\n                        <p>Supervisors must conduct a <span class=\"keyword\">regular and rigorous review</span> of execution quality, at least quarterly, assessing whether order routing decisions are in the best interest of customers. This includes evaluating the execution quality provided by each market center to which orders are routed, considering price improvement, fill rates, and speed of execution. Payment for order flow arrangements must not compromise the duty of best execution.</p>"
+          },
+          {
+            "title": "Margin Supervision",
+            "body": "<p>Supervisors must oversee margin account activity to ensure compliance with <span class=\"keyword\">Regulation T</span> (initial margin of 50%), FINRA maintenance margin requirements (minimum 25% equity), and the firm's own house margin requirements. Pattern day traders are subject to enhanced requirements under <span class=\"keyword\">FINRA Rule 4210</span>, including a minimum equity of $25,000.</p>\n                        <p>Key supervisory responsibilities include monitoring margin call issuance and resolution, ensuring accounts are not permitted to operate on an under-margined basis, reviewing concentrated positions that may pose heightened risk, and overseeing the liquidation process when customers fail to meet margin calls. Supervisors must also ensure that margin disclosures are properly delivered to customers at account opening.</p>"
+          }
         ]
       },
       {
@@ -1822,7 +2725,34 @@
           "Business continuity planning",
           "SIPC coverage and broker-dealer liquidation",
           "Cybersecurity and data protection obligations"
-        ]
+        ],
+        "concepts": []
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Prepare for two separate exams.",
+        "body": "The Series 9 and Series 10 are taken separately with distinct passing scores. You can pass one and retake the other if needed. Plan your study schedule accordingly."
+      },
+      {
+        "title": "Study options deeply for the Series 9.",
+        "body": "The Series 9 is entirely focused on options supervision. Master account approval, suitability, OCC rules, margin calculations, and options communications before sitting for this part."
+      },
+      {
+        "title": "Know your FINRA rules.",
+        "body": "The Series 10 heavily tests supervisory rules including WSPs, branch inspection requirements, complaint handling, communications review, and AML obligations. Learn the specific rule numbers and requirements."
+      },
+      {
+        "title": "Think like a supervisor, not a representative.",
+        "body": "Questions are framed from a supervisory perspective. Focus on what you would approve, how you would review, and what procedures you would implement -- not how to execute trades."
+      },
+      {
+        "title": "Master Reg BI and suitability.",
+        "body": "Regulation Best Interest is a critical topic. Understand all four component obligations and how they apply to different types of recommendations and customer interactions."
+      },
+      {
+        "title": "Practice scenario-based questions.",
+        "body": "The Series 9/10 is heavily scenario-based. You will be presented with supervisory situations and asked to identify the correct course of action. Practice applying rules to realistic situations."
       }
     ]
   },
@@ -1871,6 +2801,16 @@
           "Call features: optional, mandatory sinking fund, extraordinary",
           "Pre-refunded and escrowed-to-maturity bonds",
           "Tax-exempt vs. taxable municipal interest, AMT considerations"
+        ],
+        "concepts": [
+          {
+            "title": "GO Bonds vs Revenue Bonds",
+            "body": "<p><span class=\"keyword\">General obligation (GO) bonds</span> are backed by the full faith, credit, and taxing power of the issuing municipality. They are supported by property taxes (ad valorem taxes) and sometimes income or sales taxes. GO bonds typically require voter approval and are subject to statutory debt limits. They are generally considered lower risk than revenue bonds because of the broad taxing authority behind them.</p>\n<p><span class=\"keyword\">Revenue bonds</span> are backed solely by the revenue generated from a specific project or facility, such as a toll road, water system, or hospital. They do not require voter approval and are not subject to debt limits. Revenue bonds carry higher risk than GO bonds because repayment depends on the project's ability to generate sufficient revenue. Key protective provisions include the <span class=\"keyword\">rate covenant</span> (pledging to set rates high enough to cover debt service) and the <span class=\"keyword\">additional bonds test</span> (limiting new debt issuance).</p>"
+          },
+          {
+            "title": "Revenue Bond Flow of Funds",
+            "body": "<p>The <span class=\"keyword\">flow of funds</span> in a revenue bond indenture specifies the priority order in which project revenues are distributed. Under the more common <span class=\"keyword\">net revenue pledge</span>, operating and maintenance (O&M) expenses are paid first, then debt service, followed by reserve funds, and finally any surplus. Under a <span class=\"keyword\">gross revenue pledge</span>, debt service is paid first from all revenues before any operating expenses.</p>\n<p>Key funds in the flow include the <span class=\"keyword\">debt service reserve fund</span> (typically equal to one year's maximum annual debt service, providing a cushion if revenues fall short), the <span class=\"keyword\">renewal and replacement fund</span> (for maintaining the facility), and the <span class=\"keyword\">surplus fund</span> (excess revenues that may be used for future projects or to retire outstanding bonds).</p>"
+          }
         ]
       },
       {
@@ -1893,6 +2833,16 @@
           "MSRB Rule G-34: CUSIP numbers and new issue processing",
           "EMMA filings for new issues",
           "TIC (true interest cost) and NIC (net interest cost) calculations"
+        ],
+        "concepts": [
+          {
+            "title": "Competitive vs Negotiated Underwriting",
+            "body": "<p>In a <span class=\"keyword\">competitive underwriting</span>, the issuer publishes a Notice of Sale and multiple underwriting syndicates submit sealed bids. The syndicate offering the lowest net interest cost (NIC) or true interest cost (TIC) wins the issue. GO bonds are typically sold through competitive bidding because their credit quality is well-established and easy to compare.</p>\n<p>In a <span class=\"keyword\">negotiated underwriting</span>, the issuer selects an underwriter in advance and negotiates the terms, timing, and pricing of the offering. Revenue bonds are more commonly sold through negotiation because their unique project characteristics benefit from a more collaborative structuring process. The senior managing underwriter helps structure the bond issue, time the sale, and price the bonds based on market conditions.</p>"
+          },
+          {
+            "title": "Syndicate Order Priority",
+            "body": "<p>Municipal underwriting syndicates allocate bonds using a priority system established in the syndicate agreement. The typical priority order is: <span class=\"keyword\">presale orders</span> (received before the bid is awarded, highest priority), <span class=\"keyword\">group net orders</span> (benefit the entire syndicate, second priority), <span class=\"keyword\">designated orders</span> (customer specifies which syndicate members share the credit), and <span class=\"keyword\">member orders</span> (placed by syndicate members for their own accounts, lowest priority).</p>\n<p>The <span class=\"keyword\">spread</span> is the difference between the price paid to the issuer and the public offering price. It consists of the management fee (to the lead manager), the takedown (to the selling dealer), and additional expenses. The concession is the portion of the takedown offered to non-syndicate selling group members.</p>"
+          }
         ]
       },
       {
@@ -1915,6 +2865,16 @@
           "MSRB Rule G-9: record preservation requirements",
           "Transaction reporting through RTRS (Real-Time Transaction Reporting System)",
           "Municipal bond portfolio strategies for customers"
+        ],
+        "concepts": [
+          {
+            "title": "Tax-Equivalent Yield",
+            "body": "<p>The <span class=\"keyword\">tax-equivalent yield (TEY)</span> allows investors to compare the yield of a tax-exempt municipal bond with a taxable bond on an equal basis. The formula is: TEY = Municipal Yield / (1 - Marginal Tax Rate). For example, a 3% municipal bond for an investor in the 37% federal tax bracket has a TEY of 3% / (1 - 0.37) = 4.76%.</p>\n<p>This calculation is essential for determining <span class=\"keyword\">suitability</span>. Municipal bonds are most beneficial for investors in higher tax brackets because the tax savings are proportionally greater. An investor in a low tax bracket may achieve better after-tax returns from taxable bonds. Municipal bonds are generally not suitable for tax-deferred accounts (IRAs, 401(k)s) because these accounts already shelter income from taxation, making the tax exemption redundant.</p>"
+          },
+          {
+            "title": "Municipal Bond Taxation",
+            "body": "<p>Municipal bond interest is generally <span class=\"keyword\">exempt from federal income tax</span>. If the bondholder resides in the state of issuance, the interest may also be exempt from state and local income taxes (\"triple tax-exempt\"). However, certain private activity bonds may be subject to the <span class=\"keyword\">Alternative Minimum Tax (AMT)</span>.</p>\n<p>Capital gains on municipal bonds are fully taxable. The <span class=\"keyword\">de minimis rule</span> applies when a bond is purchased at a market discount greater than 0.25% per year to maturity -- the discount at sale or maturity is taxed as ordinary income rather than capital gains. <span class=\"keyword\">Original issue discount (OID)</span> on municipal bonds is treated as tax-exempt interest accreted over the life of the bond, increasing the holder's cost basis annually.</p>"
+          }
         ]
       },
       {
@@ -1937,7 +2897,43 @@
           "Anti-money laundering requirements for municipal securities",
           "Customer complaints and dispute resolution",
           "Fiduciary duty in municipal securities activities"
+        ],
+        "concepts": [
+          {
+            "title": "MSRB Rule G-37: Political Contributions",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-37</span> (the \"pay-to-play\" rule) prohibits municipal securities dealers from engaging in municipal securities business with an issuer for two years after any contribution to an official of that issuer who can influence the awarding of municipal securities business. This prevents firms from using political contributions to win underwriting or advisory mandates.</p>\n<p>A <span class=\"keyword\">de minimis exemption</span> allows contributions of up to $250 per election to officials for whom the contributor is entitled to vote. Municipal finance professionals (MFPs) and their supervisors are considered \"covered associates\" subject to the rule. Firms must report all contributions quarterly to the MSRB. The two-year ban applies even if the contribution is returned, making awareness of this rule critical for all municipal securities professionals.</p>"
+          },
+          {
+            "title": "MSRB Rule G-17: Fair Dealing",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-17</span> is the foundational fair dealing rule requiring that dealers deal fairly with all persons in the conduct of their municipal securities business. It prohibits deceptive, dishonest, or unfair practices. This rule serves as the basis for many MSRB enforcement actions.</p>\n<p>Under G-17's interpretive guidance for underwriters, the senior managing underwriter has specific disclosure obligations to the issuer, including disclosing the <span class=\"keyword\">arm's-length nature</span> of the underwriter-issuer relationship (the underwriter is not a fiduciary), all material financial characteristics and risks of the financing, and any conflicts of interest. These disclosures must be made in writing and in a timely manner to ensure the issuer can make informed decisions.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Focus heavily on Section 1.",
+        "body": "At 40% of the exam, municipal securities products is the largest section. Know every bond type, their characteristics, security features, and credit analysis methods thoroughly."
+      },
+      {
+        "title": "Master the flow of funds.",
+        "body": "Revenue bond flow of funds (net revenue pledge vs gross revenue pledge) is heavily tested. Know the order of priority for each fund and what each fund covers."
+      },
+      {
+        "title": "Practice TEY calculations.",
+        "body": "Tax-equivalent yield is a fundamental calculation that appears multiple times on the exam. Practice with different tax brackets until the formula is automatic."
+      },
+      {
+        "title": "Know MSRB rules by number.",
+        "body": "The exam tests specific MSRB rules. Memorize the key rules: G-17 (fair dealing), G-19 (suitability), G-30 (pricing), G-32 (disclosures), and G-37 (political contributions)."
+      },
+      {
+        "title": "Understand syndicate mechanics.",
+        "body": "Learn the order priority system (presale, group, designated, member), the components of the spread, and the difference between competitive and negotiated underwritings."
+      },
+      {
+        "title": "Learn the tax rules thoroughly.",
+        "body": "Municipal bond taxation is nuanced. Know the federal exemption, state exemption rules, AMT implications, de minimis rule, OID treatment, and when capital gains apply."
       }
     ]
   },
@@ -1982,6 +2978,16 @@
           "Recordkeeping requirements for municipal advisors",
           "SEC examination and enforcement authority over municipal advisors",
           "FINRA examination authority for municipal advisors"
+        ],
+        "concepts": [
+          {
+            "title": "Fiduciary Duty of Municipal Advisors",
+            "body": "<p>Under the Dodd-Frank Act and SEC rules, municipal advisors owe a <span class=\"keyword\">fiduciary duty</span> to their municipal entity clients. This is a higher standard than the arm's-length relationship between an underwriter and an issuer. The fiduciary duty includes a <span class=\"keyword\">duty of loyalty</span> (placing the client's interests ahead of the advisor's own) and a <span class=\"keyword\">duty of care</span> (exercising reasonable professional judgment and diligence).</p>\n<p>The duty of loyalty requires municipal advisors to disclose all material conflicts of interest, refrain from engaging in activities that are adverse to the client without informed consent, and not receive compensation from third parties in connection with the advisory relationship without disclosure and consent. The duty of care requires the advisor to possess the requisite expertise, conduct thorough analysis, and make recommendations that are suitable for the client's specific circumstances.</p>"
+          },
+          {
+            "title": "Municipal Advisor vs Underwriter",
+            "body": "<p>A <span class=\"keyword\">municipal advisor</span> provides advice to municipal entities on bond issuances and financial products, owes a fiduciary duty, and represents the interests of the municipal entity. The advisor does not purchase or resell the securities.</p>\n<p>An <span class=\"keyword\">underwriter</span> purchases municipal securities from the issuer and resells them to investors. The underwriter has an arm's-length commercial relationship with the issuer, not a fiduciary one. Under MSRB Rule G-17, the underwriter must disclose this arm's-length nature. A firm cannot simultaneously serve as both municipal advisor and underwriter on the same transaction -- this is a critical regulatory prohibition designed to prevent conflicts of interest.</p>"
+          }
         ]
       },
       {
@@ -2006,6 +3012,16 @@
           "EMMA system and filing obligations",
           "Post-issuance compliance: arbitrage rebate, private use restrictions",
           "Refunding bonds: advance refunding, current refunding, crossover"
+        ],
+        "concepts": [
+          {
+            "title": "Refunding Transactions",
+            "body": "<p>A <span class=\"keyword\">refunding</span> is the issuance of new bonds to retire or redeem outstanding bonds, typically to achieve interest rate savings. In a <span class=\"keyword\">current refunding</span>, the outstanding bonds are called or redeemed within 90 days of the new bond issuance. In an <span class=\"keyword\">advance refunding</span>, the new bonds are issued more than 90 days before the outstanding bonds are called -- the proceeds are placed in an escrow account invested in government securities until the call date.</p>\n<p>The Tax Cuts and Jobs Act of 2017 eliminated the tax-exempt status for advance refunding bonds, meaning issuers can no longer issue tax-exempt bonds to advance refund outstanding tax-exempt bonds. This has increased the importance of alternative strategies such as <span class=\"keyword\">taxable advance refundings</span> and <span class=\"keyword\">forward delivery bonds</span>. Municipal advisors must analyze whether refunding savings justify the transaction costs and comply with IRS arbitrage regulations.</p>"
+          },
+          {
+            "title": "Debt Capacity and Affordability",
+            "body": "<p><span class=\"keyword\">Debt capacity analysis</span> evaluates how much additional debt a municipality can prudently issue. Key metrics include debt per capita, debt as a percentage of assessed valuation, debt service as a percentage of the operating budget, and coverage ratios comparing available revenues to debt service requirements.</p>\n<p>Municipal advisors help clients develop <span class=\"keyword\">debt policies</span> that establish guidelines for when and how to issue debt, target debt ratios, and procedures for ongoing debt management. A comprehensive <span class=\"keyword\">capital improvement plan (CIP)</span> identifies infrastructure needs, prioritizes projects, and outlines funding sources over a multi-year period. The advisor's role is to ensure the client's financing plan is sustainable and aligned with its long-term financial health.</p>"
+          }
         ]
       },
       {
@@ -2028,6 +3044,16 @@
           "Debt capacity analysis and debt affordability",
           "Arbitrage rebate calculations and compliance",
           "Yield restriction and permitted investments under tax law"
+        ],
+        "concepts": [
+          {
+            "title": "MSRB Rule G-42: Municipal Advisor Duties",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-42</span> codifies the fiduciary and other duties of municipal advisors. It requires advisors to meet their fiduciary duty, make specified disclosures, document the advisory relationship, and provide advice that has a reasonable basis. The rule establishes that the fiduciary duty cannot be waived by the client.</p>\n<p>Key requirements include providing the client with a written disclosure of all material conflicts of interest, the basis for compensation, any legal or disciplinary events, and a description of the scope of the engagement. Municipal advisors must also provide a <span class=\"keyword\">duty of care</span> -- making a reasonable inquiry into the facts relevant to the advisory activity, exercising due diligence in performing the analysis, and having a reasonable basis for any advice or recommendation provided.</p>"
+          },
+          {
+            "title": "Municipal Advisor Registration",
+            "body": "<p>Municipal advisors must register with both the <span class=\"keyword\">SEC</span> (using Form MA for the firm and Form MA-I for individuals) and the <span class=\"keyword\">MSRB</span>. The Dodd-Frank Act created the regulatory framework requiring municipal advisors to register, a significant change from the previously unregulated nature of municipal advisory activities.</p>\n<p>Certain entities are exempt from municipal advisor registration, including underwriters acting in their underwriting capacity, attorneys providing legal advice, engineers providing engineering advice, accountants providing accounting services, and elected or appointed members of governing bodies. However, these exemptions are narrowly construed -- if the activity goes beyond the scope of the exemption, registration may be required.</p>"
+          }
         ]
       },
       {
@@ -2049,7 +3075,43 @@
           "Whistleblower protections and reporting obligations",
           "Business continuity planning for municipal advisory firms",
           "Risk disclosure for complex financial products"
+        ],
+        "concepts": [
+          {
+            "title": "Conflicts of Interest Management",
+            "body": "<p>Municipal advisors must identify, disclose, and manage <span class=\"keyword\">conflicts of interest</span> that could impair their ability to fulfill their fiduciary duty. Common conflicts include receiving compensation from parties other than the client (such as referral fees), having affiliates that provide services to the same issuer, or advising multiple clients with competing interests.</p>\n<p>Under MSRB Rule G-42, advisors must provide written disclosure of all material conflicts of interest at the start of the engagement and update disclosures as new conflicts arise. Some conflicts may be managed through disclosure and informed consent, while others may be so severe that they require the advisor to decline the engagement. The key principle is that the advisor's <span class=\"keyword\">duty of loyalty</span> to the client must never be compromised by competing interests.</p>"
+          },
+          {
+            "title": "Pay-to-Play Rules for Municipal Advisors",
+            "body": "<p><span class=\"keyword\">MSRB Rule G-37</span> applies to municipal advisors just as it applies to municipal securities dealers. The rule prohibits a municipal advisor from engaging in municipal advisory business with an issuer for two years after any covered political contribution to an official of that issuer who can influence the award of advisory business.</p>\n<p>The rule extends to contributions made by the firm, its municipal advisory professionals (MAPs), and their supervisors. The <span class=\"keyword\">de minimis exemption</span> of $250 per election applies only when the contributor is entitled to vote for the official. Municipal advisors must file quarterly reports (Form G-37) with the MSRB disclosing all political contributions. The rule also prohibits soliciting contributions from others (bundling) to circumvent the restrictions.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Understand the fiduciary standard.",
+        "body": "The fiduciary duty is the cornerstone of the municipal advisor role. Know the difference between fiduciary duty and arm's-length dealings, and understand every component of the duty of loyalty and duty of care."
+      },
+      {
+        "title": "Focus on Section 1.",
+        "body": "At 35% of the exam, municipal advisory activities is the largest section. Master the scope of advisory relationships, fiduciary obligations, and the distinction between advisory and underwriting roles."
+      },
+      {
+        "title": "Know your bond structures.",
+        "body": "Understand different financing structures, refunding mechanics, credit enhancement options, and debt management principles. These are core advisory competencies tested on the exam."
+      },
+      {
+        "title": "Learn MSRB rules thoroughly.",
+        "body": "Key rules include G-42 (municipal advisor duties), G-37 (political contributions), G-17 (fair dealing), and G-20 (gifts and gratuities). Know the specific requirements of each rule."
+      },
+      {
+        "title": "Master conflicts of interest.",
+        "body": "Expect scenario-based questions about identifying, disclosing, and managing conflicts. Practice applying the conflict rules to realistic advisory situations."
+      },
+      {
+        "title": "Understand registration requirements.",
+        "body": "Know who must register as a municipal advisor, the forms required, and the specific exemptions available. Pay special attention to the boundaries of each exemption."
       }
     ]
   },
@@ -2110,6 +3172,16 @@
           "Interest rate futures: T-bonds, T-notes, Eurodollars, Fed funds",
           "Stock index futures: S&P 500, DJIA, Nasdaq, Russell 2000",
           "Swaps: interest rate, commodity, currency swaps basics"
+        ],
+        "concepts": [
+          {
+            "title": "Futures Margin vs Securities Margin",
+            "body": "<p><span class=\"keyword\">Futures margin</span> is fundamentally different from securities margin. In securities, margin is a down payment (loan) to purchase stocks. In futures, margin is a <span class=\"keyword\">performance bond</span> (good faith deposit) ensuring both buyer and seller can fulfill their contract obligations. No loan is involved because no asset is being purchased at the time the contract is opened.</p>\n                        <p><span class=\"keyword\">Initial margin</span> is the deposit required to open a position. <span class=\"keyword\">Maintenance margin</span> is the minimum equity that must be maintained. Futures accounts are <span class=\"keyword\">marked to market</span> daily -- gains are credited and losses are debited each day. If the account falls below the maintenance margin level, the trader receives a <span class=\"keyword\">margin call</span> and must restore the account to the initial margin level (not just the maintenance level). This daily settlement process ensures the clearinghouse's financial integrity.</p>"
+          },
+          {
+            "title": "Hedging with Futures",
+            "body": "<p>A <span class=\"keyword\">long hedge</span> (buying futures) protects against rising prices. For example, a cereal manufacturer who needs to buy wheat in six months can lock in today's price by buying wheat futures. If wheat prices rise, the gain on the futures position offsets the higher cost of purchasing physical wheat.</p>\n                        <p>A <span class=\"keyword\">short hedge</span> (selling futures) protects against falling prices. A farmer expecting to harvest corn in three months can sell corn futures to lock in a selling price. If corn prices fall, the gain on the short futures position offsets the lower price received for the physical corn. The <span class=\"keyword\">basis</span> (cash price minus futures price) introduces residual risk because cash and futures prices do not always move in perfect lockstep. Understanding basis risk is critical for effective hedging.</p>"
+          }
         ]
       },
       {
@@ -2141,7 +3213,59 @@
           "Dodd-Frank Act impact on futures and swaps markets",
           "Swap dealer and major swap participant regulations",
           "Privacy and data protection requirements"
+        ],
+        "concepts": [
+          {
+            "title": "Options on Futures vs Equity Options",
+            "body": "<p><span class=\"keyword\">Options on futures</span> give the holder the right to buy (call) or sell (put) a specific futures contract at a specified strike price. When exercised, the option converts into a futures position rather than delivery of a physical asset or stock. The call buyer receives a long futures position; the call writer is assigned a short futures position.</p>\n                        <p>A key difference from equity options is the <span class=\"keyword\">underlying instrument</span>. With equity options, the underlying is shares of stock. With options on futures, the underlying is a futures contract that itself represents an obligation to buy or sell a commodity or financial instrument. This means exercising an option on a futures contract creates additional margin obligations. Options on futures also have different expiration cycles, settlement procedures, and regulatory oversight (CFTC/NFA rather than SEC/FINRA).</p>"
+          },
+          {
+            "title": "The Greeks in Futures Options",
+            "body": "<p>The \"Greeks\" measure different dimensions of risk in options positions. <span class=\"keyword\">Delta</span> measures the rate of change in the option premium relative to changes in the underlying futures price (ranges from 0 to 1 for calls, 0 to -1 for puts). <span class=\"keyword\">Gamma</span> measures the rate of change in delta as the underlying price changes.</p>\n                        <p><span class=\"keyword\">Theta</span> measures time decay -- how much the option premium decreases each day as expiration approaches (always negative for long options). <span class=\"keyword\">Vega</span> measures sensitivity to changes in implied volatility. Understanding these risk measures is essential for managing options positions and constructing hedges. For example, a delta-neutral position is hedged against small price changes in the underlying futures contract.</p>"
+          },
+          {
+            "title": "Technical vs Fundamental Analysis",
+            "body": "<p><span class=\"keyword\">Technical analysis</span> studies price patterns, volume, and market data to forecast future price movements. Technicians believe that all fundamental information is already reflected in the price and that historical price patterns tend to repeat. Key tools include chart patterns (head and shoulders, double tops/bottoms), trendlines, moving averages, and momentum oscillators (RSI, MACD, stochastics).</p>\n                        <p><span class=\"keyword\">Fundamental analysis</span> examines underlying supply and demand factors to determine fair value. For agricultural commodities, this includes weather, crop reports, acreage, and USDA data. For financial futures, it includes economic indicators, central bank policies, and interest rate differentials. Most successful futures traders combine both approaches -- using fundamentals to determine market direction and technicals to time entry and exit points.</p>"
+          },
+          {
+            "title": "Spread Trading",
+            "body": "<p><span class=\"keyword\">Spread trading</span> involves simultaneously buying one futures contract and selling a related futures contract to profit from the change in the price difference between them. Spreads carry reduced margin requirements because the two positions partially offset each other's risk.</p>\n                        <p>Common spread types include <span class=\"keyword\">calendar spreads</span> (same commodity, different delivery months), <span class=\"keyword\">inter-commodity spreads</span> (related commodities, such as corn vs wheat), and <span class=\"keyword\">inter-market spreads</span> (same commodity on different exchanges). Industry-specific spreads include the <span class=\"keyword\">crack spread</span> (crude oil vs refined products like gasoline and heating oil) and the <span class=\"keyword\">crush spread</span> (soybeans vs soybean meal and soybean oil). These spreads reflect processing relationships and are used by both hedgers and speculators.</p>"
+          },
+          {
+            "title": "CFTC vs NFA",
+            "body": "<p>The <span class=\"keyword\">CFTC</span> (Commodity Futures Trading Commission) is the federal government agency that regulates commodity futures and options markets in the United States. Created by the Commodity Futures Trading Commission Act of 1974, it oversees designated contract markets (exchanges), clearinghouses, and market participants. The CFTC has enforcement authority and can impose civil penalties.</p>\n                        <p>The <span class=\"keyword\">NFA</span> (National Futures Association) is a self-regulatory organization for the futures industry, similar to how FINRA regulates the securities industry. The NFA handles registration, compliance, arbitration, and enforcement for futures industry participants. All firms and individuals conducting futures business must be NFA members. The NFA operates under CFTC oversight but is a private, industry-funded organization, not a government agency.</p>"
+          },
+          {
+            "title": "Customer Fund Segregation",
+            "body": "<p>One of the most important customer protection rules is the requirement that futures commission merchants (FCMs) maintain <span class=\"keyword\">segregated accounts</span> for customer funds. Customer money must be kept separate from the firm's proprietary funds and can only be used for customer transactions. This segregation requirement is designed to protect customers in the event of an FCM's insolvency.</p>\n                        <p>FCMs must compute their segregation requirements daily and report them to the CFTC. They must maintain <span class=\"keyword\">residual interest</span> (excess funds in segregated accounts) sufficient to cover any potential shortfalls. The Dodd-Frank Act strengthened these protections after high-profile FCM failures. Violations of segregation requirements are among the most serious regulatory offenses in the futures industry and can result in criminal prosecution.</p>"
+          }
         ]
+      }
+    ],
+    "studyTips": [
+      {
+        "title": "Pass both parts independently.",
+        "body": "The Series 3 has two separately scored parts -- market knowledge and regulations. You must score 70% on each part to pass. If you fail one part, you only need to retake that portion."
+      },
+      {
+        "title": "Understand futures margin thoroughly.",
+        "body": "Futures margin is fundamentally different from securities margin. Know the concepts of initial margin, maintenance margin, mark-to-market, and variation margin. Practice margin calculation scenarios."
+      },
+      {
+        "title": "Master hedging concepts.",
+        "body": "Know when to use a long hedge vs short hedge, how basis affects hedge outcomes, and how to calculate hedge profits and losses. These are heavily tested real-world applications."
+      },
+      {
+        "title": "Learn options on futures thoroughly.",
+        "body": "At 25% of the exam, options on futures is a major section. Understand how exercising an option creates a futures position, and know the profit/loss profiles of all basic strategies."
+      },
+      {
+        "title": "Know the regulatory structure.",
+        "body": "Understand the roles of the CFTC and NFA, registration categories (FCM, IB, CTA, CPO), customer protection rules, and segregation requirements. The regulatory section is 20% of the exam."
+      },
+      {
+        "title": "Practice spread calculations.",
+        "body": "Calendar spreads, inter-commodity spreads, crack spreads, and crush spreads are commonly tested. Understand how to calculate profit/loss when the spread widens or narrows."
       }
     ]
   }

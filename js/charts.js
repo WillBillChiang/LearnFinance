@@ -39,7 +39,8 @@ export function createDonutChart(segments, size = 200, strokeWidth = 30) {
     circle.setAttribute('fill', 'none');
     circle.setAttribute('stroke', color);
     circle.setAttribute('stroke-width', strokeWidth);
-    circle.setAttribute('stroke-dasharray', `${dashLength} ${circumference - dashLength}`);
+    const gap = 0.5;
+    circle.setAttribute('stroke-dasharray', `${dashLength - gap} ${circumference - dashLength + gap}`);
     circle.setAttribute('stroke-dashoffset', -dashOffset);
     circle.setAttribute('transform', `rotate(-90 ${center} ${center})`);
     circle.style.transition = 'stroke-dasharray 1s cubic-bezier(0.4, 0, 0.2, 1)';
