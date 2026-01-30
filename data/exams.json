@@ -142,10 +142,6 @@
     ],
     "studyTips": [
       {
-        "title": "Prioritize Section 2.",
-        "body": "At 44% of the exam, \"Understanding Products and Their Risks\" is nearly half the test. Know every product type, how it works, and what risks apply to each."
-      },
-      {
         "title": "Master the inverse relationship.",
         "body": "Bond prices and interest rates moving inversely is tested repeatedly. Understand how this affects different maturities, coupon rates, and bond types."
       },
@@ -342,10 +338,6 @@
     ],
     "studyTips": [
       {
-        "title": "Focus on Function 3.",
-        "body": "At 73% of the exam, \"Provides Customers with Information and Makes Recommendations\" is overwhelmingly the largest section. You must know securities products, options strategies, and tax implications inside and out."
-      },
-      {
         "title": "Master options calculations.",
         "body": "Options questions are heavily tested. Know breakeven points, maximum gain, maximum loss, and profit/loss calculations for every basic strategy: long calls, long puts, covered calls, protective puts, spreads, and straddles."
       },
@@ -518,10 +510,6 @@
       }
     ],
     "studyTips": [
-      {
-        "title": "Section 3 is the exam.",
-        "body": "At 62% of the test, \"Evaluates Customers and Provides Recommendations\" covers nearly two-thirds of all questions. Become an expert on mutual fund share classes, variable annuity mechanics, 529 plans, suitability, and tax treatment."
-      },
       {
         "title": "Know every mutual fund fee structure.",
         "body": "Understand Class A, B, and C shares completely -- including breakpoints, letters of intent, rights of accumulation, 12b-1 fees, and how to determine which share class is most suitable for different client scenarios."
@@ -730,10 +718,6 @@
     ],
     "studyTips": [
       {
-        "title": "Focus on Section 2.",
-        "body": "At 40% of the exam, \"Regulation of Persons\" is the largest section. Know the definitions, exclusions, and registration requirements for broker-dealers, agents, investment advisers, and IARs inside and out."
-      },
-      {
         "title": "Master the definitions and exclusions.",
         "body": "The exam heavily tests who is and is not considered a broker-dealer, agent, or investment adviser. Pay special attention to the exclusions -- knowing who does NOT need to register is just as important as knowing who does."
       },
@@ -919,10 +903,6 @@
       }
     ],
     "studyTips": [
-      {
-        "title": "Focus on Sections 3 and 4.",
-        "body": "Together, \"Client Recommendations\" and \"Laws and Regulations\" make up 60% of the exam. Master fiduciary duties, suitability, the Uniform Securities Act, and the Investment Advisers Act of 1940."
-      },
       {
         "title": "Understand the fiduciary standard deeply.",
         "body": "Many questions test whether you can distinguish fiduciary obligations from suitability requirements. Know when each standard applies and the practical implications for client interactions."
@@ -1285,10 +1265,6 @@
     ],
     "studyTips": [
       {
-        "title": "Focus on Sections 2 and 3.",
-        "body": "Together they account for 53% of the exam. Know supervisory procedures, compliance requirements, and customer activity oversight inside and out."
-      },
-      {
         "title": "Think like a supervisor.",
         "body": "The Series 24 tests your ability to identify supervisory responsibilities. When answering questions, consider what a principal should do to detect, prevent, and address violations rather than what a representative would do."
       },
@@ -1475,10 +1451,6 @@
     ],
     "studyTips": [
       {
-        "title": "Master net capital computations.",
-        "body": "At 31% of the exam, net capital is your largest topic and the most calculation-heavy. Practice computing tentative net capital, applying haircuts, and determining minimum requirements until it becomes second nature."
-      },
-      {
         "title": "Know the customer reserve formula.",
         "body": "Understand every line item in the reserve formula computation -- credits, debits, and how to determine the required deposit. Be able to identify which items go on which side of the formula."
       },
@@ -1644,10 +1616,6 @@
     ],
     "studyTips": [
       {
-        "title": "Section 1 is everything.",
-        "body": "At 40% of the exam, supervision of municipal securities activities is by far the largest section. Know syndicate practices, underwriting procedures, and trading supervision thoroughly."
-      },
-      {
         "title": "Memorize the MSRB rule numbers.",
         "body": "The exam frequently references specific MSRB rules by number. Know G-11 (syndicate), G-15 (confirmations), G-17 (fair dealing), G-19 (suitability), G-30 (pricing), G-32 (disclosures), and G-37 (political contributions)."
       },
@@ -1794,10 +1762,6 @@
       }
     ],
     "studyTips": [
-      {
-        "title": "Focus heavily on Section 1.",
-        "body": "At 49% of the exam, data collection and analysis is nearly half the test. Know your valuation methodologies inside and out -- DCF, comps, and precedent transactions will be tested from every angle."
-      },
       {
         "title": "Know your WACC components.",
         "body": "Understanding the weighted average cost of capital -- cost of equity (CAPM), cost of debt, capital structure weighting, and tax shield -- is critical for DCF questions."
@@ -1969,10 +1933,6 @@
       {
         "title": "Understand Rule 144 thoroughly.",
         "body": "Holding periods, volume limitations, and the distinction between restricted and control securities are heavily tested. Know when Form 144 must be filed and when conditions no longer apply."
-      },
-      {
-        "title": "Focus on Section 3.",
-        "body": "At 40% of the exam, the communications, recommendations, and recordkeeping section is the largest. Pay special attention to offering document requirements and regulatory exemptions."
       },
       {
         "title": "Do not neglect suitability.",
@@ -2169,10 +2129,6 @@
         "body": "Part I (Series 86) focuses on analytical skills -- valuation, financial analysis, and forecasting. Part II (Series 87) covers regulatory and compliance topics. Study and prepare for each part independently."
       },
       {
-        "title": "Prioritize valuation (Section 3).",
-        "body": "At 27% of the combined exam, valuation and forecasting is the largest section. Master DCF, comparable company analysis, and the mechanics of building a financial model."
-      },
-      {
         "title": "Know your financial ratios.",
         "body": "Be able to calculate and interpret profitability, liquidity, leverage, and efficiency ratios. Understand DuPont analysis and how to compare ratios across peers and time periods."
       },
@@ -2300,10 +2256,6 @@
       }
     ],
     "studyTips": [
-      {
-        "title": "Focus heavily on Section 1.",
-        "body": "At 70% of the exam, securities industry knowledge and BD operations dominates. Settlement, clearing, trade processing, and books and records will make up the bulk of questions."
-      },
       {
         "title": "Know the settlement cycle inside and out.",
         "body": "Understand T+1 settlement, the role of DTCC/NSCC/DTC, fail scenarios, and how corporate actions affect settlement dates. These are core operations concepts."
@@ -2522,10 +2474,6 @@
       {
         "title": "Understand position and exercise limits.",
         "body": "Know how to aggregate positions on the same side of the market, when reporting is required, and what constitutes a violation. These questions require careful reading."
-      },
-      {
-        "title": "Focus on Section 1.",
-        "body": "At 35% of the exam, supervision of options sales activities is the largest section. Account approval, suitability, and communications oversight should be your primary study focus."
       },
       {
         "title": "Distinguish between product types.",
@@ -2912,10 +2860,6 @@
     ],
     "studyTips": [
       {
-        "title": "Focus heavily on Section 1.",
-        "body": "At 40% of the exam, municipal securities products is the largest section. Know every bond type, their characteristics, security features, and credit analysis methods thoroughly."
-      },
-      {
         "title": "Master the flow of funds.",
         "body": "Revenue bond flow of funds (net revenue pledge vs gross revenue pledge) is heavily tested. Know the order of priority for each fund and what each fund covers."
       },
@@ -3094,10 +3038,6 @@
         "body": "The fiduciary duty is the cornerstone of the municipal advisor role. Know the difference between fiduciary duty and arm's-length dealings, and understand every component of the duty of loyalty and duty of care."
       },
       {
-        "title": "Focus on Section 1.",
-        "body": "At 35% of the exam, municipal advisory activities is the largest section. Master the scope of advisory relationships, fiduciary obligations, and the distinction between advisory and underwriting roles."
-      },
-      {
         "title": "Know your bond structures.",
         "body": "Understand different financing structures, refunding mechanics, credit enhancement options, and debt management principles. These are core advisory competencies tested on the exam."
       },
@@ -3254,14 +3194,6 @@
       {
         "title": "Master hedging concepts.",
         "body": "Know when to use a long hedge vs short hedge, how basis affects hedge outcomes, and how to calculate hedge profits and losses. These are heavily tested real-world applications."
-      },
-      {
-        "title": "Learn options on futures thoroughly.",
-        "body": "At 25% of the exam, options on futures is a major section. Understand how exercising an option creates a futures position, and know the profit/loss profiles of all basic strategies."
-      },
-      {
-        "title": "Know the regulatory structure.",
-        "body": "Understand the roles of the CFTC and NFA, registration categories (FCM, IB, CTA, CPO), customer protection rules, and segregation requirements. The regulatory section is 20% of the exam."
       },
       {
         "title": "Practice spread calculations.",
