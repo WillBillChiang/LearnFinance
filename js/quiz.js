@@ -297,7 +297,7 @@ function renderQuestion(root) {
 
   // Topic label
   if (q.topic) {
-    card.appendChild(createEl('div', { class: 'quiz-question__topic', text: q.topic }));
+    card.appendChild(createEl('div', { class: 'quiz-question__topic', text: q.topicName || q.topic }));
   }
 
   // Question text
@@ -465,7 +465,7 @@ async function showResults(root) {
     const isCorrect = state.answers[i] === q.correct;
     if (isCorrect) correct++;
 
-    const topic = q.topic || 'General';
+    const topic = q.topicName || q.topic || 'General';
     if (!topicScores[topic]) {
       topicScores[topic] = { correct: 0, total: 0 };
     }
